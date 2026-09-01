@@ -79,6 +79,18 @@ describe('putFile', () => {
     const { gh } = client([{ status: 422, body: { message: 'sha does not match' } }]);
     await expect(gh.putFile('p', {}, 'old', 'm')).rejects.toBeInstanceOf(ConflictError);
   });
+
+  it('encodes accented characters correctly', async () => {
+    const { gh, calls } = client([{ status: 200, body: { content: { sha: 'sha3' } } }]);
+    await gh.putFile('data/lists/f.json', { w: 'château' }, 'sha1', 'update');
+    const body = JSON.parse(calls[0].options.body);
+    expect(Buffer.from(body.content, 'base64').toString('utf8')).toBe(JSON.stringify({ w: 'château' }, null, 2));
+  });
+
+  it('throws an error with the status when a write gets a 404', async () => {
+    const { gh } = client([{ status: 404, body: {} }]);
+    await expect(gh.putFile('data/lists/f.json', {}, 'sha1', 'm')).rejects.toThrow(/404/);
+  });
 });
 
 describe('listDir', () => {

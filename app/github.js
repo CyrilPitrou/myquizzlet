@@ -41,7 +41,7 @@ export function createGitHub({ repo, branch, token, fetchImpl = globalThis.fetch
     },
 
     async putFile(path, json, sha, message) {
-      const { body } = await request(url(path), {
+      const { missing, body } = await request(url(path), {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -51,6 +51,7 @@ export function createGitHub({ repo, branch, token, fetchImpl = globalThis.fetch
           ...(sha ? { sha } : {}),
         }),
       });
+      if (missing) throw new Error(`GitHub 404: cannot write ${path}`);
       return { sha: body.content.sha };
     },
 
