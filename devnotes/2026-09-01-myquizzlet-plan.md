@@ -37,7 +37,7 @@ one — so the context can be cleared between stages, and only between them.
 | **A — Local core** | 1–4 | Lists and cards on one device: create, edit, import CSV. No studying yet. |
 | **B — Studying** | 5–7 | Flashcards, typed answers and Leitner scheduling. A genuinely usable app, one device only. |
 | **C — Sync** | 8–10 | Lists and progress shared through GitHub, with a status indicator and a Settings screen. |
-| **D — Install** | 11–12 | Conflict resolution and a real installable app on Android. |
+| **D — Install** | 11–13 | Conflict resolution, a real installable app on Android, and QR onboarding for a new phone. |
 
 Do not clear mid-stage: tasks within a stage share interfaces that are easier to
 keep straight in one sitting. At each stage boundary, `npm test` passes and the
@@ -2386,6 +2386,131 @@ git push origin main
 
 ---
 
+### Task 13: Onboarding a new phone by QR code
+
+**Files:**
+- Create: `icons/onboard-qr.png`, `icons/token-qr.png`
+- Modify: `app/main.js`, `README.md`
+
+**Interfaces:**
+- Consumes: `showSettings` (Task 10).
+- Produces: an "Add a device" panel in Settings showing two QR codes, and a matching README section.
+
+Onboarding a phone is three separate problems, and only one of them is about
+secrets:
+
+1. **Getting the URL onto the phone.** Nobody wants to type
+   `cyrilpitrou.github.io/myquizzlet` on a phone keyboard. The URL is public, so
+   a QR of it carries no secret whatsoever.
+2. **Installing the app.** A browser action; a QR cannot help, but the phone is
+   already in the right place once step 1 lands it there.
+3. **Getting a write token in.** The only sensitive part — and the spec already
+   makes it optional: without a token the device studies read-only, which is a
+   perfectly good state to leave a second phone in.
+
+So the QR work is aimed at 1 and 3, and deliberately carries no token. The
+phone's own camera app is the scanner; the app never asks for camera permission
+and contains no QR *decoder*. Both codes are static images generated once at
+development time, so the app contains no QR *encoder* either — which is what
+keeps this task at a few lines instead of a few hundred.
+
+- [ ] **Step 1: Generate the two PNGs**
+
+```bash
+brew install qrencode   # or: sudo apt install qrencode
+qrencode -o icons/onboard-qr.png -s 8 -m 2 "https://cyrilpitrou.github.io/myquizzlet"
+qrencode -o icons/token-qr.png   -s 8 -m 2 "https://github.com/settings/personal-access-tokens/new"
+```
+
+Both payloads are public URLs, so any QR generator will do if `qrencode` is not
+to hand — including a web one. Never generate a QR containing a token this way.
+
+Check whether GitHub still accepts prefill query parameters on the fine-grained
+token page. If it does, put the prefilled URL in `token-qr.png` instead; if it
+does not, the bare URL above is correct and the Settings text carries the
+settings to choose by hand.
+
+- [ ] **Step 2: Add the "Add a device" panel to `showSettings`**
+
+At the end of `showSettings`, before the closing brace:
+
+```javascript
+  view.append(el('h3', { text: 'Add a device' }));
+  view.append(el('div', { class: 'qr' }, [
+    el('figure', {}, [
+      el('img', { src: 'icons/onboard-qr.png', alt: 'QR code for the app address', width: '160' }),
+      el('figcaption', { class: 'muted', text: '1. Scan to open the app, then Chrome menu → Install.' }),
+    ]),
+    el('figure', {}, [
+      el('img', { src: 'icons/token-qr.png', alt: 'QR code for the GitHub token page', width: '160' }),
+      el('figcaption', { class: 'muted',
+        text: `2. Only to save changes: scan on the phone, create the token there (${REPO}, Contents → Read and write), paste it above on that phone.` }),
+    ]),
+  ]));
+```
+
+And the styles: `.qr { display: flex; gap: 1rem; flex-wrap: wrap; }`,
+`.qr figure { margin: 0; flex: 1 1 12rem; }`, `.qr img { width: 100%; height: auto; image-rendering: pixelated; }`.
+
+`image-rendering: pixelated` matters: a scaled QR blurred by the browser's
+default smoothing is measurably harder for a camera to lock onto.
+
+The second code is scanned **on the phone being added**, not on the phone doing
+the showing. That is the whole point of the spec's rule that a token is generated
+on the device that will hold it: nothing secret ever crosses between devices, and
+each device is revocable alone.
+
+- [ ] **Step 3: Document it in `README.md`**
+
+Replace the "adding a device" prose with: open Settings on a device that already
+works, point the new phone's camera at the first code, install, and stop there if
+the phone only needs to study. Scan the second code only if that phone should
+also save changes.
+
+- [ ] **Step 4: Verify with a real phone**
+
+1. Open Settings on the laptop; both codes render sharply at phone-reading size.
+2. Point the phone's camera at the first: it offers the app URL and Chrome opens it.
+3. Install from the Chrome menu; the app runs and a study session works with no token.
+4. Scan the second code on the phone; GitHub's token page opens on the phone.
+5. Create the token there, paste it into Settings on the phone, add a card, and
+   confirm it reaches the laptop.
+
+- [ ] **Step 5: Commit**
+
+```bash
+git add icons/onboard-qr.png icons/token-qr.png app/main.js app/style.css README.md
+git commit -m "feat: QR onboarding for a new phone"
+```
+
+#### If the token step is still annoying after living with this
+
+The remaining friction is real: creating a fine-grained token means logging into
+GitHub on the phone and working a form built for a desktop. The only way to remove
+it is to move the token from a device that already has one, which means putting a
+secret in the QR: `…/myquizzlet#/adopt?t=<token>&e=<expiry>`, shown from Settings
+behind an explicit button, read once by the receiving device and immediately
+erased from the URL with `history.replaceState`.
+
+That is not obviously wrong — a URL fragment never reaches GitHub Pages, the blast
+radius is one public repo of vocabulary, and the spec has already accepted the
+same token sitting in browser storage. But it costs a hand-written QR **encoder**
+(~300 lines of bit packing and Reed-Solomon, the largest single module in the app
+after `main.js`), because the payload is now dynamic and no third-party generator
+may ever see a token. Do it only if the friction proves worse than that code.
+
+Two roads that look tempting here and are closed:
+
+- **A short pairing code** ("type 4821 on the new phone") needs a server to broker
+  the exchange, and there is no server. Committing an encrypted blob to the `data`
+  branch instead makes a public, offline-brute-forceable file out of a token —
+  worse than the QR, and against the rule that no token is ever written into this
+  repo.
+- **A QR image service** (`api.qrserver.com` and friends) means handing the token
+  to a third party, and adds a CDN dependency the design forbids twice over.
+
+---
+
 ## Deliberately not in this plan
 
 Named here so a future session does not treat them as oversights:
@@ -2400,5 +2525,5 @@ Named here so a future session does not treat them as oversights:
   native app. Manifest shortcuts (Task 12) are the substitute.
 - **Automated browser tests** — the spec calls for screens to be verified by use.
   The pure modules carry the test suite.
-- **A private repo** — if this is ever wanted, the change is a repo setting plus
+- **A QR scanner inside the app** — the phone's camera app already decodes QR\n  codes and hands the URL to the browser. Asking for camera permission to\n  reimplement that would be worse in every direction.\n- **A private repo** — if this is ever wanted, the change is a repo setting plus
   hosting the app on Cloudflare Pages. No code changes.
