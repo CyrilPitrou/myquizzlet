@@ -156,6 +156,15 @@ device's clipboard already, so nothing is copied between devices and each device
 can be revoked alone. The Settings screen spells out the steps and links straight
 to GitHub's token page.
 
+To keep that from meaning "type two long URLs on a phone keyboard", Settings also
+shows two QR codes: one for the app's own address, and one for GitHub's token
+page. Both are static images of public links and neither carries a token — the
+phone's camera app reads them, so the app itself neither reads nor draws a QR
+code: no camera permission, no encoder, no decoder. Scanning the first is the
+whole of onboarding for a device that only studies; the second is scanned on the
+new phone, which is what preserves the rule that a token is generated on the
+device that will hold it.
+
 **Expiry** is the one recurring annoyance: fine-grained tokens last at most a
 year. The app stores the expiry date entered alongside the token and warns two
 weeks ahead, so a lapse is a reminder rather than a red dot discovered
