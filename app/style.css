@@ -1,13 +1,15 @@
+*, *::before, *::after { box-sizing: border-box; }
 body { margin: 0; font: 16px/1.5 system-ui, sans-serif; }
 button { min-height: 44px; font-size: 1rem; }
 main { padding: 1rem; max-width: 40rem; margin: 0 auto; }
 #topbar { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 1rem; border-bottom: 1px solid #ddd; }
 .row { display: flex; justify-content: space-between; align-items: center; gap: .5rem; padding: .5rem 0; border-bottom: 1px solid #eee; }
 .muted { color: #777; }
-table.cards { width: 100%; border-collapse: collapse; }
+table.cards { width: 100%; border-collapse: collapse; table-layout: fixed; }
+table.cards td:last-child { width: 3rem; }
 table.cards input { width: 100%; border: 1px solid transparent; padding: .4rem; font-size: 1rem; }
 table.cards input:focus { border-color: #999; }
 form.addcard, form.newlist { display: flex; gap: .5rem; margin: 1rem 0; }
-form input { flex: 1; padding: .5rem; font-size: 1rem; }
+form input { flex: 1; min-width: 0; padding: .5rem; font-size: 1rem; }
 textarea { width: 100%; font-size: 1rem; }
 button.link { background: none; border: none; color: #a00; font-size: 1rem; }
