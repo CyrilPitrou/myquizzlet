@@ -185,7 +185,7 @@ function showSetup(listId) {
       setup.mode = modes.querySelector('input:checked').value;
       const dir = dirs.querySelector('input:checked').value;
       setup.directions = dir === 'both' ? ['f2b', 'b2f'] : [dir];
-      setup.limit = Number(limit.value) || 20;
+      setup.limit = Math.min(100, Math.max(5, Number(limit.value) || 20));
       setup.free = free.checked;
       startSession(listId);
     },
@@ -271,14 +271,14 @@ function showSession(listId) {
       e.preventDefault();
       const verdict = grade(expected, input.value);
       if (verdict === 'correct') return answer(true);
-      showVerdict(view, verdict, expected, input.value);
+      showVerdict(form, verdict, expected, input.value);
     },
   }, [input, el('button', { class: 'primary', type: 'submit', text: 'Check' })]);
   view.append(form);
   input.focus();
 }
 
-function showVerdict(view, verdict, expected, typed) {
+function showVerdict(anchor, verdict, expected, typed) {
   const panel = el('div', { class: `verdict ${verdict}` }, [
     el('p', { text: verdict === 'typo' ? `Almost — it is “${expected}”` : `Answer: ${expected}` }),
     el('p', { class: 'muted', text: `you wrote: ${typed}` }),
@@ -288,7 +288,7 @@ function showVerdict(view, verdict, expected, typed) {
         onclick: () => answer(verdict === 'typo') }),
     ]),
   ]);
-  view.append(panel);
+  anchor.replaceWith(panel);
 }
 
 function render() {
