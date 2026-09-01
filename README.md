@@ -1,0 +1,162 @@
+# MyQuizzlet
+
+A personal vocabulary trainer: word lists, flashcards, typed answers, and a
+spaced-repetition scheduler that decides what you review and when. Runs in a
+browser on the computer and on Android, with the same lists and the same progress
+on both. Costs nothing to run.
+
+**App:** https://cyrilpitrou.github.io/myquizzlet
+
+---
+
+## How it works, in one picture
+
+Nothing is installed and no server is running anywhere. There are three copies of
+your data:
+
+1. **The app** — static files served by GitHub Pages. You open a URL.
+2. **Your working copy** — kept by the browser on that device. Studying touches
+   only this, which is why it is instant and works offline.
+3. **The durable copy** — JSON files in this repo, on the `data` branch. The app
+   pulls from it when it opens and pushes back after you make changes.
+
+You never need to clone this repo to use the app. Clone it only to work on the
+code or to hand-edit word lists in a text editor.
+
+---
+
+## First-time setup
+
+Once, from the computer.
+
+### 1. The repo and the site
+
+1. Create a **public** repo `myquizzlet` under the `CyrilPitrou` account and push
+   this code to `main`.
+2. Create an empty `data` branch: `git switch --orphan data && git commit --allow-empty -m "data" && git push -u origin data`
+3. In **Settings → Pages**, set the source to `main` / root. After a minute the
+   site is live at `https://cyrilpitrou.github.io/myquizzlet`.
+
+### 2. The token
+
+The app needs permission to write your lists back. Reading needs nothing.
+
+1. GitHub → **Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token**.
+2. Name it `myquizzlet`, expiry as long as offered.
+3. **Repository access:** only `CyrilPitrou/myquizzlet`.
+4. **Permissions:** *Contents* → **Read and write**. Nothing else.
+5. Generate, and copy the token — GitHub shows it exactly once.
+6. Open the app → **Settings** → paste it → Save.
+
+Repeat step 6 on every device where you want to *add or edit* words, generating
+that device's token on the device itself — GitHub's copy button puts it straight
+on the clipboard, so there is nothing to type or transfer. A device that only
+studies needs no token at all.
+
+Tokens expire, at most a year out. The app records the expiry date you enter and
+reminds you two weeks ahead, so renewal is a two-minute chore rather than a
+surprise failure.
+
+**Keep in mind:** the token lives in that browser's storage. It can only touch
+this one repo, which holds nothing but vocabulary, so the worst case is a
+vandalised word list. Never paste it into a file in this repo — if that ever
+happens, revoke it on GitHub straight away and make a new one.
+
+---
+
+## Install on Android
+
+1. Open the app URL in **Chrome**.
+2. Menu (⋮) → **Add to Home screen** → **Install**.
+3. Launch it from the home screen icon.
+
+Pick **Install** rather than a plain shortcut if Chrome offers both. Install
+makes Android build a real package: the app gets its own icon in the app drawer
+and the app switcher, opens fullscreen with no address bar, keeps working with no
+signal, and is uninstalled like any other app. It is not from the Play Store and
+does not need to be.
+
+Long-press the icon for shortcuts straight into *Study due words* or *Add a
+word*. A true home-screen widget is not possible for a web app — that needs a
+native Android app — and is not planned.
+
+### Adding another device
+
+Generate a token **on that device**, in its own browser, and paste it into
+Settings. Nothing is copied between devices, and each can be revoked on its own.
+A device you only study on needs no token at all.
+
+## Install on the computer
+
+Works fine as a normal browser tab. If you would rather have it in the dock:
+
+- **Chrome:** the install icon at the right of the address bar → **Install**.
+- **Safari:** File → **Add to Dock**.
+
+Same app either way.
+
+---
+
+## Everyday use
+
+**Make a list.** Home → *New list*. Give it a name and, optionally, the two
+languages. They are optional, and used to tune how accents are handled when
+grading typed answers.
+
+**Add words.** Three ways, use whichever suits the moment:
+
+- Type them one at a time in the list screen. Best for the word you met an hour ago.
+- Import a CSV: one row per card, first column the front, second the back.
+- Edit `data/lists/<name>.json` directly on github.com or in a text editor. The
+  app picks up the change on its next pull. Best for bulk work.
+
+**Study.** Home → *Study*. Pick a mode:
+
+- **Flashcards** — see one side, reveal the other, say whether you knew it.
+- **Write** — type the answer. Grading forgives case, accents, spacing, a leading
+  article, and single-letter typos. If it still marks you wrong when you were
+  right, tap **I was right** and it counts as correct.
+
+Each card is learned in both directions independently, because recognising *el
+pan* and producing it from *le pain* are genuinely different skills. Expect the
+producing direction to lag; that is the app being honest, not broken.
+
+**What comes back when.** Words move through five boxes. Get one right and it
+comes back later — after 1, then 3, 7, 16, 35 days. Get it wrong and it drops to
+the first box and returns tomorrow. Home shows how many are due.
+
+---
+
+## The sync indicator
+
+A small dot, and it is worth knowing what it means:
+
+| Dot | Meaning | What to do |
+|---|---|---|
+| Green | Everything is on GitHub | Nothing |
+| Amber | Changes waiting to be pushed | Nothing; it goes on its own |
+| Grey | Offline, changes queued | Nothing; it catches up when you reconnect |
+| Red | A push failed | Open Settings, read the message, press *Retry* |
+
+Red usually means the token expired or was revoked — make a new one and paste it
+in. Your work is still safe in the browser meanwhile.
+
+If you edited the same list on both devices while offline, the app shows both
+versions and asks which one wins, rather than guessing. Study *progress* never
+asks: it merges on its own, and the worst case is one word reviewed twice.
+
+---
+
+## Working on the code
+
+```sh
+python3 -m http.server 8000     # then open http://localhost:8000
+npm install && npm test         # unit tests
+```
+
+The http server is needed because browsers refuse to load ES modules from
+`file://`. There is no build step: what is in the repo is what runs, and pushing
+to `main` deploys.
+
+See `docs/` for how the pieces fit together, and `CLAUDE.md` for the rules the
+code is meant to keep.
