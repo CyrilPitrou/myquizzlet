@@ -93,5 +93,9 @@ export function createStore(storage, now = () => new Date()) {
     markClean(key) {
       write('dirty', read('dirty', []).filter((k) => k !== key));
     },
+    getBase: (key) => read('base', {})[key] || null,
+    setBase(key, base) {
+      write('base', { ...read('base', {}), [key]: base });
+    },
   };
 }

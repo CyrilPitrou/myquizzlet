@@ -23,3 +23,10 @@ button.primary { background: #333; color: #fff; }
 .verdict.typo { border-left: 4px solid #c80; padding-left: .75rem; }
 .opts { display: flex; flex-direction: column; gap: .25rem; }
 .opt { display: flex; gap: .5rem; align-items: center; }
+.dot.synced { color: #0a0; }
+.dot.pending { color: #c80; }
+.dot.error { color: #a00; }
+.dot.offline, .dot.off { color: #999; }
+.warn { background: #fff6e0; border-left: 4px solid #c80; padding: .5rem .75rem; }
+label { display: block; margin: .75rem 0; }
+label input { width: 100%; }

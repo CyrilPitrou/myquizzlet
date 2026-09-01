@@ -3,8 +3,46 @@ import { createStore } from './store.js';
 import { parseCards, toCsv } from './csv.js';
 import { buildQueue, newItem, nextItem, parseKey } from './srs.js';
 import { grade } from './grade.js';
+import { createGitHub } from './github.js';
+import { createSync } from './sync.js';
 
 const store = createStore(localStorage);
+
+const REPO = 'CyrilPitrou/myquizzlet';
+const settings = () => JSON.parse(localStorage.getItem('mq:settings') || '{}');
+const saveSettings = (next) => localStorage.setItem('mq:settings', JSON.stringify(next));
+
+function setStatus(state, detail = '') {
+  const dot = $('#sync-dot');
+  const marks = { synced: '●', pending: '◐', offline: '◌', error: '✕', off: '○' };
+  const titles = {
+    synced: 'everything is on GitHub', pending: 'changes waiting to push',
+    offline: 'offline — will catch up', error: `sync failed: ${detail}`,
+    off: 'no token — read-only',
+  };
+  dot.textContent = marks[state];
+  dot.className = `dot ${state}`;
+  dot.title = titles[state];
+}
+
+let sync = null;
+function initSync() {
+  const { token } = settings();
+  const github = createGitHub({ repo: REPO, branch: 'data', token });
+  sync = createSync({
+    store, github,
+    onStatus: setStatus,
+    onConflict: showConflict,
+    canPush: Boolean(token),
+  });
+  sync.syncNow();
+}
+
+// Temporary until Task 11 replaces it with a real screen.
+function showConflict({ listId, resolve }) {
+  console.warn(`conflict on ${listId} — keeping the local copy`);
+  resolve('local');
+}
 
 const todayStr = () => new Date().toISOString().slice(0, 10);
 
@@ -29,6 +67,17 @@ function screen() {
 
 function showHome() {
   const view = screen();
+  const { tokenExpiry } = settings();
+  if (tokenExpiry) {
+    const days = Math.round((new Date(tokenExpiry) - new Date()) / 86400000);
+    if (days <= 14) {
+      view.append(el('p', { class: 'warn' }, [
+        days < 0 ? 'Your GitHub token has expired — changes are not being saved. '
+                 : `Your GitHub token expires in ${days} day(s). `,
+        el('a', { href: '#/settings', text: 'Renew it' }),
+      ]));
+    }
+  }
   view.append(el('h2', { text: 'Lists' }));
   const ids = store.listIds();
   if (ids.length === 0) {
@@ -51,6 +100,7 @@ function showHome() {
       e.preventDefault();
       if (!name.value.trim()) return;
       const list = store.createList({ name: name.value.trim() });
+      sync?.schedule();
       go(`#/list/${list.id}`);
     },
   }, [name, el('button', { type: 'submit', text: 'Create list' })]));
@@ -71,6 +121,7 @@ function showList(id) {
       e.preventDefault();
       if (!front.value.trim() || !back.value.trim()) return;
       store.addCards(id, [{ front: front.value.trim(), back: back.value.trim() }]);
+      sync?.schedule();
       front.value = '';
       back.value = '';
       render();
@@ -85,7 +136,7 @@ function showList(id) {
       el('td', {}, [editableCell(id, card, 'back')]),
       el('td', {}, [el('button', {
         class: 'link', text: '✕', title: 'delete',
-        onclick: () => { store.deleteCard(id, card.id); render(); },
+        onclick: () => { store.deleteCard(id, card.id); sync?.schedule(); render(); },
       })]),
     ]));
   }
@@ -96,7 +147,10 @@ function showList(id) {
 function editableCell(listId, card, side) {
   return el('input', {
     value: card[side],
-    onchange: (e) => store.updateCard(listId, card.id, { [side]: e.target.value.trim() }),
+    onchange: (e) => {
+      store.updateCard(listId, card.id, { [side]: e.target.value.trim() });
+      sync?.schedule();
+    },
   });
 }
 
@@ -108,7 +162,7 @@ function importExport(listId) {
   const status = el('p', { class: 'muted' });
   const doImport = () => {
     const { cards, errors } = parseCards(box.value);
-    if (cards.length) store.addCards(listId, cards);
+    if (cards.length) { store.addCards(listId, cards); sync?.schedule(); }
     box.value = '';
     status.textContent = errors.length
       ? `Imported ${cards.length}. Skipped lines: ${errors.map((e) => e.line).join(', ')}.`
@@ -218,6 +272,7 @@ function answer(correct) {
   const previous = progress.items[key] || newItem(todayStr());
   progress.items[key] = nextItem(previous, correct, todayStr(), new Date().toISOString());
   store.saveProgress(progress);
+  sync?.schedule();
   session[correct ? 'right' : 'wrong'] += 1;
   session.at += 1;
   render();
@@ -291,13 +346,51 @@ function showVerdict(anchor, verdict, expected, typed) {
   anchor.replaceWith(panel);
 }
 
+function showSettings() {
+  const view = screen();
+  const current = settings();
+  view.append(el('a', { href: '#/', class: 'back', text: '← Lists' }));
+  view.append(el('h2', { text: 'Settings' }));
+
+  view.append(el('p', {}, [
+    'This device needs a token only to save changes. Studying works without one. ',
+    el('a', { target: '_blank', rel: 'noopener',
+      href: 'https://github.com/settings/personal-access-tokens/new',
+      text: 'Create a fine-grained token' }),
+    ` — repository access: only ${REPO}; permissions: Contents → Read and write.`,
+  ]));
+
+  const token = el('input', { type: 'password', value: current.token || '', placeholder: 'github_pat_…' });
+  const expiry = el('input', { type: 'date', value: current.tokenExpiry || '' });
+  view.append(el('label', {}, ['Token', token]));
+  view.append(el('label', {}, ['Expires on (from the GitHub page)', expiry]));
+  view.append(el('button', {
+    class: 'primary', text: 'Save',
+    onclick: () => {
+      saveSettings({ token: token.value.trim(), tokenExpiry: expiry.value || null });
+      initSync();
+      render();
+    },
+  }));
+
+  view.append(el('h3', { text: 'Sync' }));
+  view.append(el('div', { class: 'row' }, [
+    el('button', { text: 'Pull now', onclick: () => sync.pullAll().then(render) }),
+    el('button', { text: 'Push now', onclick: () => sync.pushDirty().then(render) }),
+    el('button', { text: 'Retry', onclick: () => sync.syncNow().then(render) }),
+  ]));
+  view.append(el('p', { class: 'muted', text: `${store.dirtyKeys().length} change(s) waiting.` }));
+}
+
 function render() {
   const [, route, arg] = location.hash.split('/');
   if (route === 'list' && arg) showList(arg);
   else if (route === 'study' && arg) showSetup(arg);
   else if (route === 'session' && arg) showSession(arg);
+  else if (route === 'settings') showSettings();
   else showHome();
 }
 
 window.addEventListener('hashchange', render);
+initSync();
 render();
