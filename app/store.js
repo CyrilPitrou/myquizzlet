@@ -1,0 +1,97 @@
+const PREFIX = 'mq:';
+const ALPHABET = 'abcdefghijklmnopqrstuvwxyz0123456789';
+
+function slugify(name) {
+  return String(name).toLowerCase().normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '') || 'list';
+}
+
+export function createStore(storage, now = () => new Date()) {
+  const read = (key, fallback) => {
+    const raw = storage.getItem(PREFIX + key);
+    if (raw === null) return fallback;
+    try { return JSON.parse(raw); } catch { return fallback; }
+  };
+  const write = (key, value) => storage.setItem(PREFIX + key, JSON.stringify(value));
+  const stamp = () => now().toISOString();
+
+  const index = () => read('index', []);
+  const setIndex = (ids) => write('index', ids);
+
+  function markDirty(key) {
+    const keys = read('dirty', []);
+    if (!keys.includes(key)) write('dirty', keys.concat(key));
+  }
+
+  function newId() {
+    let id = '';
+    for (let i = 0; i < 6; i++) id += ALPHABET[Math.floor(Math.random() * ALPHABET.length)];
+    return id;
+  }
+
+  function getList(id) {
+    return read(`list:${id}`, null);
+  }
+
+  function saveList(list) {
+    const saved = { ...list, updatedAt: stamp() };
+    write(`list:${saved.id}`, saved);
+    if (!index().includes(saved.id)) setIndex(index().concat(saved.id));
+    markDirty(`list:${saved.id}`);
+    return saved;
+  }
+
+  function createList({ name, frontLang = null, backLang = null }) {
+    const base = slugify(name);
+    let id = base;
+    for (let n = 2; index().includes(id); n++) id = `${base}-${n}`;
+    return saveList({ id, name, frontLang, backLang, cards: [] });
+  }
+
+  function mutateCards(listId, fn) {
+    const list = getList(listId);
+    if (!list) throw new Error(`no such list: ${listId}`);
+    return saveList({ ...list, cards: fn(list.cards) });
+  }
+
+  return {
+    newId,
+    listIds: index,
+    getList,
+    saveList,
+    createList,
+    deleteList(id) {
+      storage.removeItem(`${PREFIX}list:${id}`);
+      storage.removeItem(`${PREFIX}progress:${id}`);
+      setIndex(index().filter((x) => x !== id));
+      markDirty(`list:${id}`);
+      markDirty(`progress:${id}`);
+    },
+    addCards: (listId, cards) => mutateCards(listId, (existing) =>
+      existing.concat(cards.map((c) => ({ id: newId(), front: c.front, back: c.back })))),
+    updateCard: (listId, cardId, fields) => mutateCards(listId, (cards) =>
+      cards.map((c) => (c.id === cardId ? { ...c, ...fields } : c))),
+    deleteCard: (listId, cardId) => mutateCards(listId, (cards) =>
+      cards.filter((c) => c.id !== cardId)),
+    getProgress: (listId) => read(`progress:${listId}`, { listId, updatedAt: null, items: {} }),
+    saveProgress(progress) {
+      const saved = { ...progress, updatedAt: stamp() };
+      const list = getList(saved.listId);
+      if (list) {
+        const live = new Set(list.cards.map((c) => c.id));
+        saved.items = Object.fromEntries(Object.entries(saved.items || {})
+          .filter(([key]) => live.has(key.slice(0, key.lastIndexOf(':')))));
+      }
+      write(`progress:${saved.listId}`, saved);
+      markDirty(`progress:${saved.listId}`);
+      return saved;
+    },
+    dirtyKeys: () => read('dirty', []),
+    markDirty,
+    markClean(key) {
+      write('dirty', read('dirty', []).filter((k) => k !== key));
+    },
+  };
+}
