@@ -10,10 +10,11 @@ const todayStr = () => new Date().toISOString().slice(0, 10);
 
 function dueCount(listId) {
   const list = store.getList(listId);
-  return buildQueue({
+  const queue = buildQueue({
     list, progress: store.getProgress(listId), directions: ['f2b', 'b2f'],
     today: todayStr(), limit: Infinity, includeNew: true, shuffle: (xs) => xs,
-  }).length;
+  });
+  return new Set(queue.map((key) => parseKey(key).cardId)).size;
 }
 
 function go(hash) {
