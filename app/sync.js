@@ -118,5 +118,8 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
       onStatus('pending');
       timer = setTimeout(syncNow, 4000);
     },
+    stop() {
+      clearTimeout(timer);
+    },
   };
 }

@@ -27,6 +27,7 @@ function setStatus(state, detail = '') {
 
 let sync = null;
 function initSync() {
+  sync?.stop();
   const { token } = settings();
   const github = createGitHub({ repo: REPO, branch: 'data', token });
   sync = createSync({
@@ -375,8 +376,8 @@ function showSettings() {
 
   view.append(el('h3', { text: 'Sync' }));
   view.append(el('div', { class: 'row' }, [
-    el('button', { text: 'Pull now', onclick: () => sync.pullAll().then(render) }),
-    el('button', { text: 'Push now', onclick: () => sync.pushDirty().then(render) }),
+    el('button', { text: 'Pull now', onclick: () => sync.pullAll().then(render).catch((e) => setStatus('error', e.message)) }),
+    el('button', { text: 'Push now', onclick: () => sync.pushDirty().then(render).catch((e) => setStatus('error', e.message)) }),
     el('button', { text: 'Retry', onclick: () => sync.syncNow().then(render) }),
   ]));
   view.append(el('p', { class: 'muted', text: `${store.dirtyKeys().length} change(s) waiting.` }));
