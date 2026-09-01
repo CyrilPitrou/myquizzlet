@@ -1,0 +1,20 @@
+{
+  "name": "myquizzlet",
+  "version": "1.0.0",
+  "description": "A personal vocabulary trainer: word lists, flashcards, typed answers, and a spaced-repetition scheduler that decides what you review and when. Runs in a browser on the computer and on Android, with the same lists and the same progress on both. Costs nothing to run.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "vitest": "^4.1.11"
+  }
+}

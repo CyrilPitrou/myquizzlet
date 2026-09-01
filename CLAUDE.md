@@ -31,8 +31,10 @@ These are deliberate. Do not "improve" past them without asking.
 main branch                          data branch
   index.html                           data/lists/<id>.json
   app/main.js     screens + router     data/progress/<id>.json
+     ui.js         shared DOM helpers
      store.js     browser-side state
      github.js    pull / push
+     sync.js      pull/merge/push orchestration
      srs.js       Leitner scheduling
      grade.js     answer checking
      csv.js       import / export
