@@ -166,7 +166,7 @@ section.sect:last-child { border-bottom: none; }
 .card { border: 1px solid var(--rule); border-radius: 14px; background: var(--surface);
   padding: 1rem; text-align: center; min-height: 22vh;
   display: flex; flex-direction: column; justify-content: center; gap: .5rem;
-  cursor: pointer; user-select: none; }
+  cursor: pointer; user-select: none; touch-action: pan-y; }
 .card .prompt { margin: 0; }
 .actions.pager button { flex: 1; }
 

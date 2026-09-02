@@ -1,4 +1,4 @@
-import { el } from '../ui.js';
+import { el, swipeable } from '../ui.js';
 import { store, screen, go, settings, saveSettings, ctx } from '../app.js';
 import { shuffle } from '../srs.js';
 
@@ -43,13 +43,18 @@ export function showView(id) {
   const backLabel = list.backLabel || 'Back';
 
   view.append(el('p', { class: 'muted', text: `${browse.at + 1} / ${list.cards.length}` }));
-  view.append(el('div', {
+  const face = el('div', {
     class: `card${browse.flipped ? ' flipped' : ''}`,
     onclick: () => { browse.flipped = !browse.flipped; ctx.render(); },
   }, [
     el('p', { class: 'muted', text: browse.flipped ? backLabel : frontLabel }),
     el('p', { class: 'prompt', text: browse.flipped ? card.back : card.front }),
-  ]));
+  ]);
+  swipeable(face, {
+    onLeft: () => step(1, list.cards.length),
+    onRight: () => step(-1, list.cards.length),
+  });
+  view.append(face);
 
   view.append(el('div', { class: 'actions pager' }, [
     el('button', { text: '‹ Prev', onclick: () => step(-1, list.cards.length) }),

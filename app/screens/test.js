@@ -1,4 +1,4 @@
-import { el } from '../ui.js';
+import { el, clear, swipeable } from '../ui.js';
 import { buildQueue, newItem, nextItem, parseKey } from '../srs.js';
 import { grade } from '../grade.js';
 import { store, go, todayStr, screen, ctx } from '../app.js';
@@ -10,8 +10,10 @@ export function showTestSetup(listId) {
   if (!list) return go('#/');
   const view = screen();
   view.append(el('a', { href: '#/', class: 'back', text: '← Lists' }));
-  view.append(el('h2', { text: `Study: ${list.name}` }));
+  view.append(el('h2', { text: `Test: ${list.name}` }));
 
+  const front = list.frontLabel || 'Front';
+  const back = list.backLabel || 'Back';
   const radio = (name, value, label, checked) => el('label', { class: 'opt' }, [
     el('input', { type: 'radio', name, value, ...(checked ? { checked: 'checked' } : {}) }),
     label,
@@ -23,8 +25,8 @@ export function showTestSetup(listId) {
   ]);
   const dirs = el('div', { class: 'opts' }, [
     radio('dir', 'both', 'Both directions', setup.directions.length === 2),
-    radio('dir', 'f2b', `${list.name}: front → back`, setup.directions.join() === 'f2b'),
-    radio('dir', 'b2f', 'back → front', setup.directions.join() === 'b2f'),
+    radio('dir', 'f2b', `${front} → ${back}`, setup.directions.join() === 'f2b'),
+    radio('dir', 'b2f', `${back} → ${front}`, setup.directions.join() === 'b2f'),
   ]);
   const limit = el('input', { type: 'number', min: '5', max: '100', step: '5', value: String(setup.limit) });
 
@@ -32,7 +34,8 @@ export function showTestSetup(listId) {
     el('h3', { text: 'Cards this session' }), limit);
 
   const free = el('input', { type: 'checkbox', ...(setup.free ? { checked: 'checked' } : {}) });
-  view.append(el('label', { class: 'opt' }, [free, 'Free review (everything, does not affect scheduling)']));
+  view.append(el('label', { class: 'opt' }, [free,
+    'Practise the whole list now — your schedule stays untouched']));
 
   view.append(el('button', {
     class: 'primary', text: 'Start',
@@ -49,19 +52,26 @@ export function showTestSetup(listId) {
 
 let session = null;
 
-function startSession(listId) {
+function queueFor(listId, free) {
   const list = store.getList(listId);
   const progress = store.getProgress(listId);
-  const queue = setup.free
+  return free
     ? buildQueue({ list, progress: { items: {} }, directions: setup.directions,
                    today: todayStr(), limit: setup.limit, includeNew: true })
     : buildQueue({ list, progress, directions: setup.directions,
                    today: todayStr(), limit: setup.limit, includeNew: setup.includeNew });
+}
+
+function startSession(listId, free = setup.free) {
+  const queue = queueFor(listId, free);
   if (queue.length === 0) {
-    alert('Nothing due in this list right now. Add cards, or come back tomorrow.');
-    return;
+    if (free) return;   // free review and still nothing to show — an empty list
+    const ok = confirm('Nothing is due in this list right now. Practise the whole list '
+      + 'anyway? This will not affect your schedule.');
+    if (!ok) return;
+    return startSession(listId, true);
   }
-  session = { listId, queue, at: 0, right: 0, wrong: 0, free: setup.free };
+  session = { listId, queue, at: 0, right: 0, wrong: 0, free };
   go(`#/test/${listId}/go`);
 }
 
@@ -87,11 +97,16 @@ export function showTestSession(listId) {
   if (session.at >= session.queue.length) {
     view.append(el('h2', { text: 'Done' }));
     view.append(el('p', { text: `${session.right} right, ${session.wrong} wrong.` }));
-    view.append(el('a', { class: 'btn', href: `#/study/${listId}`, text: 'Study more' }));
+    view.append(el('a', { class: 'btn', href: `#/test/${listId}`, text: 'Study more' }));
     view.append(el('a', { class: 'btn', href: '#/', text: 'Back to lists' }));
     session = null;
     return;
   }
+
+  view.append(el('div', { class: 'sessionbar' }, [
+    el('a', { class: 'back', href: `#/list/${listId}`, text: '← Quit' }),
+    el('span', { class: 'muted', text: `${session.at + 1} / ${session.queue.length}` }),
+  ]));
 
   const key = session.queue[session.at];
   const { cardId, direction } = parseKey(key);
@@ -100,25 +115,27 @@ export function showTestSession(listId) {
   const prompt = direction === 'f2b' ? card.front : card.back;
   const expected = direction === 'f2b' ? card.back : card.front;
 
-  view.append(el('p', { class: 'muted', text: `${session.at + 1} / ${session.queue.length}` }));
-  view.append(el('p', { class: 'prompt', text: prompt }));
-
   if (setup.mode === 'cards') {
-    const reveal = el('button', {
-      class: 'primary', text: 'Show answer',
-      onclick: () => {
-        reveal.replaceWith(el('div', {}, [
-          el('p', { class: 'answer', text: expected }),
-          el('div', { class: 'row' }, [
-            el('button', { text: 'Didn’t know', onclick: () => answer(false) }),
-            el('button', { class: 'primary', text: 'Knew it', onclick: () => answer(true) }),
-          ]),
-        ]));
-      },
-    });
-    view.append(reveal);
+    const face = el('div', { class: 'card' }, [
+      el('p', { class: 'prompt', text: prompt }),
+      el('p', { class: 'muted', text: 'tap to reveal · swipe right if you knew it' }),
+    ]);
+    const reveal = () => {
+      clear(face);
+      face.append(el('p', { class: 'prompt', text: expected }));
+      face.append(el('p', { class: 'muted', text: 'swipe right if you knew it' }));
+    };
+    face.addEventListener('click', reveal);
+    swipeable(face, { onLeft: () => answer(false), onRight: () => answer(true) });
+    view.append(face);
+    view.append(el('div', { class: 'actions' }, [
+      el('button', { text: 'Didn’t know', onclick: () => answer(false) }),
+      el('button', { class: 'primary', text: 'Knew it', onclick: () => answer(true) }),
+    ]));
     return;
   }
+
+  view.append(el('p', { class: 'prompt', text: prompt }));
 
   const input = el('input', { class: 'answer-input', autocapitalize: 'none',
     autocorrect: 'off', spellcheck: 'false', placeholder: 'your answer' });
