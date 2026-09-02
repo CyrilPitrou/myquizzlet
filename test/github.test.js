@@ -45,6 +45,12 @@ describe('getFile', () => {
     expect(calls[0].options.headers.Authorization).toBe('Bearer tok');
   });
 
+  it('bypasses the browser cache with cache: no-store', async () => {
+    const { gh, calls } = client([{ status: 200, body: { content: b64('{"a":1}'), sha: 'sha1' } }]);
+    await gh.getFile('data/lists/f.json');
+    expect(calls[0].options.cache).toBe('no-store');
+  });
+
   it('throws on an unexpected status', async () => {
     const { gh } = client([{ status: 500, body: { message: 'boom' } }]);
     await expect(gh.getFile('p')).rejects.toThrow(/500/);
@@ -91,6 +97,12 @@ describe('putFile', () => {
     const { gh } = client([{ status: 404, body: {} }]);
     await expect(gh.putFile('data/lists/f.json', {}, 'sha1', 'm')).rejects.toThrow(/404/);
   });
+
+  it('bypasses the browser cache with cache: no-store', async () => {
+    const { gh, calls } = client([{ status: 200, body: { content: { sha: 'sha2' } } }]);
+    await gh.putFile('data/lists/f.json', { a: 1 }, 'sha1', 'update f');
+    expect(calls[0].options.cache).toBe('no-store');
+  });
 });
 
 describe('listDir', () => {
@@ -107,5 +119,13 @@ describe('listDir', () => {
   it('returns an empty array when the directory does not exist yet', async () => {
     const { gh } = client([{ status: 404, body: {} }]);
     expect(await gh.listDir('data/lists')).toEqual([]);
+  });
+
+  it('bypasses the browser cache with cache: no-store', async () => {
+    const { gh, calls } = client([{ status: 200, body: [
+      { name: 'food.json', path: 'data/lists/food.json', sha: 's1', type: 'file' },
+    ] }]);
+    await gh.listDir('data/lists');
+    expect(calls[0].options.cache).toBe('no-store');
   });
 });

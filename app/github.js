@@ -24,7 +24,7 @@ export function createGitHub({ repo, branch, token, fetchImpl = globalThis.fetch
   const url = (path, query = '') => `${API}/repos/${repo}/contents/${path}${query}`;
 
   async function request(target, options = {}) {
-    const response = await fetchImpl(target, { ...options, headers: { ...headers, ...options.headers } });
+    const response = await fetchImpl(target, { cache: 'no-store', ...options, headers: { ...headers, ...options.headers } });
     if (response.status === 404) return { missing: true };
     if (response.status === 409 || response.status === 422) {
       throw new ConflictError(`stale write: ${(await response.json()).message}`);
