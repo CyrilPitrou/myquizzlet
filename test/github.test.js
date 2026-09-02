@@ -129,3 +129,31 @@ describe('listDir', () => {
     expect(calls[0].options.cache).toBe('no-store');
   });
 });
+
+describe('deleteFile', () => {
+  it('sends DELETE with the sha and the branch, and bypasses the cache', async () => {
+    let captured = null;
+    const github = createGitHub({
+      repo: 'me/repo', branch: 'data', token: 't',
+      fetchImpl: async (url, options) => {
+        captured = { url, options };
+        return { ok: true, status: 200, json: async () => ({ commit: {} }) };
+      },
+    });
+    const gone = await github.deleteFile('data/lists/x.json', 'sha123', 'delete list x');
+    expect(gone).toBe(true);
+    expect(captured.options.method).toBe('DELETE');
+    expect(captured.options.cache).toBe('no-store');
+    expect(JSON.parse(captured.options.body)).toEqual({
+      message: 'delete list x', branch: 'data', sha: 'sha123',
+    });
+  });
+
+  it('reports a file that was already gone rather than throwing', async () => {
+    const github = createGitHub({
+      repo: 'me/repo', branch: 'data', token: 't',
+      fetchImpl: async () => ({ ok: false, status: 404, json: async () => ({}) }),
+    });
+    expect(await github.deleteFile('data/lists/x.json', 'sha123', 'm')).toBe(false);
+  });
+});

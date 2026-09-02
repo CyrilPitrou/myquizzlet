@@ -26,6 +26,7 @@ export function createStore(storage, now = () => new Date()) {
   }
 
   const deleted = () => read('deleted', []);
+  const clearDeleted = (id) => write('deleted', deleted().filter((x) => x !== id));
 
   function newId() {
     let id = '';
@@ -41,6 +42,7 @@ export function createStore(storage, now = () => new Date()) {
     const saved = { ...list, updatedAt: stamp() };
     write(`list:${saved.id}`, saved);
     if (!index().includes(saved.id)) setIndex(index().concat(saved.id));
+    clearDeleted(saved.id);
     markDirty(`list:${saved.id}`);
     return saved;
   }
@@ -78,9 +80,7 @@ export function createStore(storage, now = () => new Date()) {
       markDirty(`progress:${id}`);
     },
     deletedIds: deleted,
-    clearDeleted(id) {
-      write('deleted', deleted().filter((x) => x !== id));
-    },
+    clearDeleted,
     addCards: (listId, cards) => mutateCards(listId, (existing) =>
       existing.concat(cards.map((c) => ({ id: newId(), front: c.front, back: c.back })))),
     updateCard: (listId, cardId, fields) => mutateCards(listId, (cards) =>

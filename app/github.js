@@ -55,6 +55,15 @@ export function createGitHub({ repo, branch, token, fetchImpl = globalThis.fetch
       return { sha: body.content.sha };
     },
 
+    async deleteFile(path, sha, message) {
+      const { missing } = await request(url(path), {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message, branch, sha }),
+      });
+      return !missing;
+    },
+
     async listDir(path) {
       const { missing, body } = await request(url(path, `?ref=${branch}`));
       if (missing) return [];

@@ -181,4 +181,12 @@ describe('deleting a list', () => {
     store.clearDeleted(list.id);
     expect(store.deletedIds()).toEqual([]);
   });
+
+  it('is cleared when a new list reuses the deleted id', () => {
+    const list = store.createList({ name: 'Delete me' });
+    store.deleteList(list.id);
+    const recreated = store.createList({ name: 'Delete me' });
+    expect(recreated.id).toBe(list.id);
+    expect(store.deletedIds()).not.toContain(list.id);
+  });
 });

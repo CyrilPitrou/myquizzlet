@@ -54,8 +54,10 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
 
   async function pullAll() {
     const entries = await github.listDir('data/lists');
+    const deleted = store.deletedIds();
     for (const entry of entries) {
       const id = entry.name.replace(/\.json$/, '');
+      if (deleted.includes(id)) continue;
       await pullList(id);
       await pullProgress(id);
     }
@@ -64,16 +66,26 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
     }
   }
 
-  async function pushOne(key) {
+  async function deleteRemote(key) {
     const [kind, id] = key.split(':');
     const path = kind === 'list' ? listPath(id) : progressPath(id);
-    const payload = kind === 'list' ? store.getList(id) : store.getProgress(id);
-    if (!payload) {
-      // Deletion is not propagated to GitHub in this stage — just clear the
-      // dirty flag so the status indicator doesn't stick on "pending" forever.
-      store.markClean(key);
-      return;
+    const base = store.getBase(key);
+    let sha = base && base.sha;
+    if (!sha) {
+      const remote = await github.getFile(path);
+      sha = remote && remote.sha;
     }
+    if (sha) await github.deleteFile(path, sha, `delete ${kind} ${id}`);
+    store.setBase(key, null);
+    store.markClean(key);
+  }
+
+  async function pushOne(key) {
+    const [kind, id] = key.split(':');
+    if (store.deletedIds().includes(id)) return deleteRemote(key);
+    const path = kind === 'list' ? listPath(id) : progressPath(id);
+    const payload = kind === 'list' ? store.getList(id) : store.getProgress(id);
+    if (!payload) { store.markClean(key); return; }
     const base = store.getBase(key);
     const { sha } = await github.putFile(path, payload, base && base.sha,
       `${kind === 'list' ? 'update list' : 'update progress'} ${id}`);
@@ -88,12 +100,19 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
       } catch (error) {
         if (error instanceof ConflictError) {
           const [kind, id] = key.split(':');
-          if (kind === 'progress') { await pullProgress(id); await pushOne(key); }
+          if (store.deletedIds().includes(id)) {
+            store.setBase(key, null);   // forces deleteRemote to re-read the live sha
+            await pushOne(key);
+          } else if (kind === 'progress') { await pullProgress(id); await pushOne(key); }
           else { await pullList(id); await pushOne(key); }
         } else {
           throw error;
         }
       }
+    }
+    for (const id of store.deletedIds()) {
+      const outstanding = store.dirtyKeys().some((key) => key.endsWith(`:${id}`));
+      if (!outstanding) store.clearDeleted(id);
     }
   }
 
