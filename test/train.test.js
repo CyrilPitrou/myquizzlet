@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { pickBatch } from '../app/train.js';
+import { pickBatch, choices } from '../app/train.js';
 
 const identity = (xs) => xs.slice();
 
@@ -52,5 +52,62 @@ describe('pickBatch', () => {
     const batch = pickBatch({ list, progress: { items: {} }, directions: ['f2b'], size: 8,
                               exclude: ['a:f2b', 'b:f2b', 'c:f2b'], shuffle: identity });
     expect(batch).toEqual([]);
+  });
+});
+
+const longer = {
+  id: 'es-food',
+  cards: [
+    { id: 'a', front: 'el pan', back: 'le pain' },
+    { id: 'b', front: 'la mesa', back: 'la table' },
+    { id: 'c', front: 'el vino', back: 'le vin' },
+    { id: 'd', front: 'la manzana', back: 'la pomme' },
+    { id: 'e', front: 'el queso', back: 'le fromage' },
+    { id: 'f', front: 'la mantequilla', back: 'le beurre extraordinaire' },
+  ],
+};
+
+describe('choices', () => {
+  it('offers the answer and three distractors from the same side', () => {
+    const options = choices({ list: longer, key: 'a:f2b', shuffle: identity });
+    expect(options).toHaveLength(4);
+    expect(options).toContain('le pain');
+    for (const option of options) {
+      expect(longer.cards.map((c) => c.back)).toContain(option);
+    }
+  });
+
+  it('asks the other side when the direction reverses', () => {
+    const options = choices({ list: longer, key: 'a:b2f', shuffle: identity });
+    expect(options).toContain('el pan');
+    for (const option of options) {
+      expect(longer.cards.map((c) => c.front)).toContain(option);
+    }
+  });
+
+  it('prefers distractors of a similar length', () => {
+    const options = choices({ list: longer, key: 'a:f2b', shuffle: identity });
+    expect(options).not.toContain('le beurre extraordinaire');
+  });
+
+  it('never repeats a text, so a duplicated answer cannot appear twice', () => {
+    const duplicated = { id: 'x', cards: [
+      { id: 'a', front: 'el pan', back: 'le pain' },
+      { id: 'b', front: 'la barra', back: 'le pain' },
+      { id: 'c', front: 'la mesa', back: 'la table' },
+      { id: 'd', front: 'el vino', back: 'le vin' },
+    ] };
+    const options = choices({ list: duplicated, key: 'a:f2b', shuffle: identity });
+    expect(new Set(options).size).toBe(options.length);
+  });
+
+  it('returns null when the list is too short to build a question', () => {
+    const tiny = { id: 'x', cards: [{ id: 'a', front: 'el pan', back: 'le pain' },
+                                    { id: 'b', front: 'la mesa', back: 'la table' }] };
+    expect(choices({ list: tiny, key: 'a:f2b', shuffle: identity })).toBeNull();
+  });
+
+  it('returns null for a key whose card has gone', () => {
+    expect(choices({ list: longer, key: 'zz:f2b', shuffle: identity })).toBeNull();
   });
 });

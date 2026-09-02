@@ -22,3 +22,29 @@ export function pickBatch({ list, progress, directions = DIRECTIONS, size = 8,
   known.sort((a, b) => (a[1].box - b[1].box) || ((b[1].lapses || 0) - (a[1].lapses || 0)));
   return shuffle(fresh).concat(known.map(([key]) => key)).slice(0, size);
 }
+
+// Distractors are drawn from the entries closest in length to the answer: a
+// four-word option among three two-word ones answers itself.
+export function choices({ list, key, count = 4, shuffle = defaultShuffle }) {
+  const { cardId, direction } = parseKey(key);
+  const side = direction === 'f2b' ? 'back' : 'front';
+  const card = list.cards.find((c) => c.id === cardId);
+  if (!card) return null;
+  const answer = card[side];
+
+  const pool = [];
+  const seenText = new Set([answer]);
+  for (const other of list.cards) {
+    if (other.id === cardId) continue;
+    const text = other[side];
+    if (seenText.has(text)) continue;
+    seenText.add(text);
+    pool.push(text);
+  }
+  if (pool.length < 2) return null;
+
+  pool.sort((a, b) => Math.abs(a.length - answer.length) - Math.abs(b.length - answer.length));
+  const shortlist = pool.slice(0, (count - 1) * 2);
+  const distractors = shuffle(shortlist).slice(0, count - 1);
+  return shuffle([answer, ...distractors]);
+}
