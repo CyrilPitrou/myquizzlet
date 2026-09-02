@@ -1,8 +1,8 @@
 {
   "id": "animaux-et-nature",
   "name": "Animaux et nature",
-  "frontLang": null,
-  "backLang": null,
+  "frontLang": "en",
+  "backLang": "fr",
   "cards": [
     {
       "id": "c3sc42",
@@ -345,5 +345,7 @@
       "back": "charognards"
     }
   ],
-  "updatedAt": "2026-09-02T07:21:11.870Z"
+  "updatedAt": "2026-09-02T16:17:09.061Z",
+  "frontLabel": "English",
+  "backLabel": "French"
 }
