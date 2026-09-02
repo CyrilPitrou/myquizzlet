@@ -1,8 +1,8 @@
 {
   "id": "nature",
   "name": "Nature",
-  "frontLang": null,
-  "backLang": null,
+  "frontLang": "en",
+  "backLang": "fr",
   "cards": [
     {
       "id": "i87xn3",
@@ -300,6 +300,8 @@
       "back": "une cosse"
     }
   ],
-  "updatedAt": "2026-09-02T16:19:05.787Z",
-  "folder": "English"
+  "updatedAt": "2026-09-02T16:19:12.611Z",
+  "folder": "English",
+  "frontLabel": "English",
+  "backLabel": "French"
 }
