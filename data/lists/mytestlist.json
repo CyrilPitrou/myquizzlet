@@ -3,6 +3,12 @@
   "name": "MyTestList",
   "frontLang": null,
   "backLang": null,
-  "cards": [],
-  "updatedAt": "2026-09-02T05:26:33.208Z"
+  "cards": [
+    {
+      "id": "forubd",
+      "front": "Bon",
+      "back": "Good"
+    }
+  ],
+  "updatedAt": "2026-09-02T05:26:41.132Z"
 }
