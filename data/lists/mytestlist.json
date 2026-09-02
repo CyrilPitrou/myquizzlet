@@ -3,17 +3,6 @@
   "name": "MyTestList",
   "frontLang": null,
   "backLang": null,
-  "cards": [
-    {
-      "id": "goszdd",
-      "front": "pain",
-      "back": "bread"
-    },
-    {
-      "id": "hs5pv5",
-      "front": "table",
-      "back": "table"
-    }
-  ],
-  "updatedAt": "2026-09-02T04:54:14.675Z"
+  "cards": [],
+  "updatedAt": "2026-09-02T04:59:00.938Z"
 }
