@@ -37,7 +37,18 @@ def draw_icon(size: int) -> Image.Image:
     draw = ImageDraw.Draw(img)
 
     cx, cy = CENTER
-    bbox = (cx - RADIUS, cy - RADIUS, cx + RADIUS, cy + RADIUS)
+    # PIL's ellipse(outline=..., width=...) draws the stroke entirely
+    # *inside* the given bbox, unlike SVG's stroke-width, which is
+    # centred on the mathematical circle. To get a centred annulus
+    # running from RADIUS - w/2 to RADIUS + w/2 (matching icon.svg),
+    # inflate the bbox by half the stroke width on every side.
+    half_stroke = STROKE_WIDTH / 2
+    bbox = (
+        cx - RADIUS - half_stroke,
+        cy - RADIUS - half_stroke,
+        cx + RADIUS + half_stroke,
+        cy + RADIUS + half_stroke,
+    )
     draw.ellipse(bbox, outline=ACCENT, width=STROKE_WIDTH)
 
     # PIL has no round-capped line, so draw the segment and cap each end
