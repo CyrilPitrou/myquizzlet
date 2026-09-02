@@ -1,8 +1,8 @@
 {
   "id": "communication",
   "name": "Communication",
-  "frontLang": null,
-  "backLang": null,
+  "frontLang": "en",
+  "backLang": "fr",
   "cards": [
     {
       "id": "c7ieog",
@@ -365,6 +365,8 @@
       "back": "s'étouffer"
     }
   ],
-  "updatedAt": "2026-09-02T16:18:44.771Z",
-  "folder": "English"
+  "updatedAt": "2026-09-02T16:18:52.591Z",
+  "folder": "English",
+  "frontLabel": "English",
+  "backLabel": "French"
 }
