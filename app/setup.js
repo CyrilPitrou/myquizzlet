@@ -35,9 +35,11 @@ export function parseSetup(text) {
   return { token: trimmed, expiry: null };
 }
 
-// Enough to tell two tokens apart, not enough to use one.
+// Enough to tell two tokens apart, not enough to use one. The reveal is a
+// fixed 10 + 4 characters, so below 28 the hidden middle would be shorter
+// than what is shown — collapse those to the same blank mask instead.
 export function maskToken(token) {
-  return (token || '').length > 14 ? `${token.slice(0, 10)}…${token.slice(-4)}` : '…';
+  return (token || '').length >= 28 ? `${token.slice(0, 10)}…${token.slice(-4)}` : '…';
 }
 
 const DAY = 24 * 60 * 60 * 1000;
@@ -46,6 +48,7 @@ export function expiryWarning(expiry, today) {
   if (!expiry || !ISO_DATE.test(expiry)) return null;
   const days = Math.round(
     (Date.parse(`${expiry}T00:00:00Z`) - Date.parse(`${today}T00:00:00Z`)) / DAY);
+  if (!Number.isFinite(days)) return null;
   if (days > 14) return null;
   if (days < 0) {
     return `This token expired on ${expiry}. Changes stay on this device until you replace it.`;

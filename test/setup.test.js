@@ -72,6 +72,11 @@ describe('maskToken', () => {
     expect(maskToken('short')).toBe('…');
     expect(maskToken('')).toBe('…');
   });
+
+  it('draws the line where the hidden middle would be shorter than the reveal', () => {
+    expect(maskToken('x'.repeat(27))).toBe('…');
+    expect(maskToken('x'.repeat(28))).toBe(`${'x'.repeat(10)}…${'x'.repeat(4)}`);
+  });
 });
 
 describe('expiryWarning', () => {
@@ -81,6 +86,10 @@ describe('expiryWarning', () => {
 
   it('says nothing when there is no expiry recorded', () => {
     expect(expiryWarning(null, '2026-09-02')).toBe(null);
+  });
+
+  it('says nothing for a shaped-but-impossible date', () => {
+    expect(expiryWarning('2026-13-01', '2026-09-02')).toBe(null);
   });
 
   it('warns a fortnight ahead', () => {
