@@ -1,5 +1,6 @@
 const PREFIX = 'mq:';
 const ALPHABET = 'abcdefghijklmnopqrstuvwxyz0123456789';
+const META = ['name', 'folder', 'frontLabel', 'backLabel', 'frontLang', 'backLang'];
 
 function slugify(name) {
   return String(name).toLowerCase().normalize('NFD')
@@ -55,11 +56,13 @@ export function createStore(storage, now = () => new Date()) {
     return saved;
   }
 
-  function createList({ name, frontLang = null, backLang = null }) {
+  function createList({ name, folder = null, frontLabel = null, backLabel = null,
+                        frontLang = null, backLang = null }) {
     const base = slugify(name);
     let id = base;
     for (let n = 2; index().includes(id); n++) id = `${base}-${n}`;
-    return saveList({ id, name, frontLang, backLang, cards: [] });
+    return saveList({ id, name, folder, frontLabel, backLabel,
+                      frontLang, backLang, cards: [] });
   }
 
   function mutateCards(listId, fn) {
@@ -74,10 +77,23 @@ export function createStore(storage, now = () => new Date()) {
     getList,
     saveList,
     createList,
-    renameList: (id, name) => {
+    updateMeta(id, fields) {
       const list = getList(id);
       if (!list) throw new Error(`no such list: ${id}`);
-      return saveList({ ...list, name });
+      const patch = {};
+      for (const key of META) if (key in fields) patch[key] = fields[key];
+      return saveList({ ...list, ...patch });
+    },
+    renameList(id, name) {
+      return this.updateMeta(id, { name });
+    },
+    folders() {
+      const names = new Set();
+      for (const id of index()) {
+        const list = getList(id);
+        if (list && list.folder) names.add(list.folder);
+      }
+      return [...names].sort((a, b) => a.localeCompare(b));
     },
     deleteList(id) {
       storage.removeItem(`${PREFIX}list:${id}`);

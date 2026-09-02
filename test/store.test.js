@@ -218,3 +218,62 @@ describe('recency', () => {
     expect(recency({ list, progress: undefined })).toBe('2026-09-01T09:00:00Z');
   });
 });
+
+describe('list metadata', () => {
+  it('creates a list with a folder and column labels', () => {
+    const store = createStore(fakeStorage());
+    const list = store.createList({ name: 'Spanish – Food', folder: 'Spanish',
+                                    frontLabel: 'Spanish', backLabel: 'French',
+                                    frontLang: 'es', backLang: 'fr' });
+    expect(list.folder).toBe('Spanish');
+    expect(list.frontLabel).toBe('Spanish');
+    expect(list.backLabel).toBe('French');
+    expect(store.getList(list.id).folder).toBe('Spanish');
+  });
+
+  it('defaults the new fields to null, so an old list stays valid', () => {
+    const store = createStore(fakeStorage());
+    const list = store.createList({ name: 'Scratch' });
+    expect(list.folder).toBeNull();
+    expect(list.frontLabel).toBeNull();
+    expect(list.backLabel).toBeNull();
+  });
+
+  it('updates metadata without disturbing the cards', () => {
+    const store = createStore(fakeStorage());
+    const list = store.createList({ name: 'Scratch' });
+    store.addCards(list.id, [{ front: 'el pan', back: 'le pain' }]);
+    const cardId = store.getList(list.id).cards[0].id;
+    store.updateMeta(list.id, { folder: 'Spanish', backLabel: 'French' });
+    const after = store.getList(list.id);
+    expect(after.folder).toBe('Spanish');
+    expect(after.backLabel).toBe('French');
+    expect(after.cards).toHaveLength(1);
+    expect(after.cards[0].id).toBe(cardId);        // card ids are permanent
+  });
+
+  it('ignores fields that are not metadata', () => {
+    const store = createStore(fakeStorage());
+    const list = store.createList({ name: 'Scratch' });
+    store.addCards(list.id, [{ front: 'el pan', back: 'le pain' }]);
+    store.updateMeta(list.id, { cards: [], id: 'hijacked' });
+    expect(store.getList(list.id).cards).toHaveLength(1);
+    expect(store.getList('hijacked')).toBeNull();
+  });
+
+  it('lists the folders in use, sorted and deduplicated', () => {
+    const store = createStore(fakeStorage());
+    store.createList({ name: 'Food', folder: 'Spanish' });
+    store.createList({ name: 'Verbs', folder: 'Spanish' });
+    store.createList({ name: 'Kanji', folder: 'Japanese' });
+    store.createList({ name: 'Scratch' });
+    expect(store.folders()).toEqual(['Japanese', 'Spanish']);
+  });
+
+  it('renames through the same path', () => {
+    const store = createStore(fakeStorage());
+    const list = store.createList({ name: 'Old' });
+    store.renameList(list.id, 'New');
+    expect(store.getList(list.id).name).toBe('New');
+  });
+});
