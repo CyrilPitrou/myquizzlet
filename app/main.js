@@ -151,6 +151,10 @@ function showList(id) {
   const view = screen();
   view.append(el('a', { href: '#/', class: 'back', text: '← Lists' }));
   view.append(el('h2', { text: list.name }));
+  view.append(el('div', { class: 'row' }, [
+    el('button', { text: 'Rename', onclick: () => renameList(list) }),
+    el('button', { class: 'link', text: 'Delete list', onclick: () => deleteList(list) }),
+  ]));
 
   const front = el('input', { placeholder: 'front (e.g. el pan)' });
   const back = el('input', { placeholder: 'back (e.g. le pain)' });
@@ -445,6 +449,26 @@ function showSettings() {
       el('a', { href: `https://github.com/${REPO}`, target: '_blank', rel: 'noopener', text: 'source on GitHub' }),
     ]),
   ]));
+}
+
+function renameList(list) {
+  const name = prompt('New name for this list', list.name);
+  if (name === null) return;
+  const trimmed = name.trim();
+  if (!trimmed || trimmed === list.name) return;
+  store.renameList(list.id, trimmed);
+  sync?.schedule();
+  render();
+}
+
+function deleteList(list) {
+  const records = Object.keys(store.getProgress(list.id).items).length;
+  const ok = confirm(`Delete "${list.name}"?\n\n${list.cards.length} card(s) and `
+    + `${records} progress record(s) go, here and on GitHub. This cannot be undone.`);
+  if (!ok) return;
+  store.deleteList(list.id);
+  sync?.schedule();
+  go('#/');
 }
 
 function render() {

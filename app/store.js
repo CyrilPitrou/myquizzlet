@@ -25,6 +25,8 @@ export function createStore(storage, now = () => new Date()) {
     if (!keys.includes(key)) write('dirty', keys.concat(key));
   }
 
+  const deleted = () => read('deleted', []);
+
   function newId() {
     let id = '';
     for (let i = 0; i < 6; i++) id += ALPHABET[Math.floor(Math.random() * ALPHABET.length)];
@@ -62,12 +64,22 @@ export function createStore(storage, now = () => new Date()) {
     getList,
     saveList,
     createList,
+    renameList: (id, name) => {
+      const list = getList(id);
+      if (!list) throw new Error(`no such list: ${id}`);
+      return saveList({ ...list, name });
+    },
     deleteList(id) {
       storage.removeItem(`${PREFIX}list:${id}`);
       storage.removeItem(`${PREFIX}progress:${id}`);
       setIndex(index().filter((x) => x !== id));
+      if (!deleted().includes(id)) write('deleted', deleted().concat(id));
       markDirty(`list:${id}`);
       markDirty(`progress:${id}`);
+    },
+    deletedIds: deleted,
+    clearDeleted(id) {
+      write('deleted', deleted().filter((x) => x !== id));
     },
     addCards: (listId, cards) => mutateCards(listId, (existing) =>
       existing.concat(cards.map((c) => ({ id: newId(), front: c.front, back: c.back })))),

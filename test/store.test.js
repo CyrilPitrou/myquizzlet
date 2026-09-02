@@ -138,3 +138,47 @@ describe('dirty tracking', () => {
     expect(createStore(storage, () => FIXED).dirtyKeys()).toEqual(['list:food']);
   });
 });
+
+describe('renaming', () => {
+  it('changes the name and keeps the id and the cards', () => {
+    const list = store.createList({ name: 'Spanish' });
+    store.addCards(list.id, [{ front: 'el pan', back: 'le pain' }]);
+    const renamed = store.renameList(list.id, 'Spanish – Food');
+    expect(renamed.id).toBe(list.id);
+    expect(renamed.name).toBe('Spanish – Food');
+    expect(renamed.cards).toHaveLength(1);
+    expect(store.listIds()).toEqual([list.id]);
+  });
+});
+
+describe('deleting a list', () => {
+  it('forgets the list and its progress', () => {
+    const list = store.createList({ name: 'Spanish' });
+    store.saveProgress({ listId: list.id, items: {} });
+    store.deleteList(list.id);
+    expect(store.getList(list.id)).toBeNull();
+    expect(store.listIds()).toEqual([]);
+  });
+
+  it('records a tombstone and marks both files dirty', () => {
+    const list = store.createList({ name: 'Spanish' });
+    store.deleteList(list.id);
+    expect(store.deletedIds()).toEqual([list.id]);
+    expect(store.dirtyKeys()).toContain(`list:${list.id}`);
+    expect(store.dirtyKeys()).toContain(`progress:${list.id}`);
+  });
+
+  it('keeps the base shas, which the delete request needs', () => {
+    const list = store.createList({ name: 'Spanish' });
+    store.setBase(`list:${list.id}`, { sha: 'abc123', updatedAt: null });
+    store.deleteList(list.id);
+    expect(store.getBase(`list:${list.id}`)).toEqual({ sha: 'abc123', updatedAt: null });
+  });
+
+  it('clears a tombstone only when told to', () => {
+    const list = store.createList({ name: 'Spanish' });
+    store.deleteList(list.id);
+    store.clearDeleted(list.id);
+    expect(store.deletedIds()).toEqual([]);
+  });
+});
