@@ -1,6 +1,8 @@
 import { el } from '../ui.js';
 import { store, settings, saveSettings, REPO, screen, ctx } from '../app.js';
 import { setStatus, statusLine } from '../status.js';
+import { encode } from '../qr.js';
+import { APP_URL, TOKEN_PAGE } from '../setup.js';
 
 const THEMES = [{ id: 'paper', name: 'Paper' }, { id: 'study', name: 'Study' },
                 { id: 'focus', name: 'Focus' }];
@@ -24,6 +26,48 @@ function themePicker() {
 
 function section(title, nodes) {
   return el('section', { class: 'sect' }, [el('h3', { text: title }), ...nodes]);
+}
+
+// One <rect> per dark module inside a viewBox of modules, so the browser
+// scales it and nothing has to know about pixels. Deliberately black on white
+// in every theme, with the four-module quiet zone the standard asks for: this
+// is an image meant for a camera, not a piece of the interface, and a scanner
+// pointed at a dark theme is a scanner that fails. Those two colours are set
+// here rather than in the stylesheet for exactly that reason.
+function qrNode(text, label) {
+  const matrix = encode(text);
+  const size = matrix.length;
+  const ns = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(ns, 'svg');
+  svg.setAttribute('viewBox', `0 0 ${size + 8} ${size + 8}`);
+  svg.setAttribute('class', 'qr');
+  svg.setAttribute('role', 'img');
+  svg.setAttribute('aria-label', label);
+
+  const ground = document.createElementNS(ns, 'rect');
+  ground.setAttribute('width', String(size + 8));
+  ground.setAttribute('height', String(size + 8));
+  ground.setAttribute('fill', '#ffffff');
+  svg.append(ground);
+
+  for (let row = 0; row < size; row++) {
+    for (let col = 0; col < size; col++) {
+      if (!matrix[row][col]) continue;
+      const cell = document.createElementNS(ns, 'rect');
+      cell.setAttribute('x', String(col + 4));
+      cell.setAttribute('y', String(row + 4));
+      cell.setAttribute('width', '1');
+      cell.setAttribute('height', '1');
+      cell.setAttribute('fill', '#000000');
+      svg.append(cell);
+    }
+  }
+  return svg;
+}
+
+function qrCard(text, caption, label) {
+  return el('figure', { class: 'qr-card' }, [qrNode(text, label),
+    el('figcaption', { class: 'muted', text: caption })]);
 }
 
 export function showSettings() {
@@ -79,6 +123,21 @@ export function showSettings() {
       },
     }),
   ]));
+
+  if (current.token) {
+    view.append(section('Add a device', [
+      el('p', { class: 'muted', text: 'Point the new device’s camera at these. '
+        + 'Neither one carries a secret.' }),
+      el('div', { class: 'qr-pair' }, [
+        qrCard(APP_URL, '1. Open the app', 'A QR code of the app’s address'),
+        qrCard(TOKEN_PAGE, '2. Make it a token there',
+          'A QR code of GitHub’s token page'),
+      ]),
+      el('p', { class: 'muted', text: 'The token is then created on the device that '
+        + 'will hold it, and can be revoked on its own. A device you only study on '
+        + 'needs no token at all — the first code is the whole of its setup.' }),
+    ]));
+  }
 
   view.append(section('About', [
     el('p', {}, [el('a', { href: '#/help', text: 'What Train and Test are for, and what the numbers mean' })]),

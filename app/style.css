@@ -181,3 +181,9 @@ section.sect:last-child { border-bottom: none; }
 .facts { display: grid; grid-template-columns: auto 1fr; gap: .35rem .75rem; margin: 1rem 0; }
 .facts dt { color: var(--muted); }
 .facts dd { margin: 0; overflow-wrap: anywhere; }
+
+.qr-pair { display: flex; flex-wrap: wrap; gap: 1rem; margin: .75rem 0; }
+.qr-card { margin: 0; flex: 1 1 8rem; max-width: 12rem; }
+.qr-card figcaption { margin-top: .35rem; font-size: .85rem; }
+.qr { display: block; width: 100%; height: auto; border-radius: 6px;
+  image-rendering: pixelated; }
