@@ -1,0 +1,17 @@
+{
+  "name": "MyQuizzlet",
+  "short_name": "Quizzlet",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#333333",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Study due words", "url": "./index.html#/", "short_name": "Study" },
+    { "name": "Add a word", "url": "./index.html#/", "short_name": "Add" }
+  ]
+}
