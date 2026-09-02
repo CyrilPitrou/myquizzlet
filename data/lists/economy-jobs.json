@@ -1,8 +1,8 @@
 {
   "id": "economy-jobs",
   "name": "Economy/ jobs",
-  "frontLang": null,
-  "backLang": null,
+  "frontLang": "en",
+  "backLang": "fr",
   "cards": [
     {
       "id": "h14rl0",
@@ -185,6 +185,8 @@
       "back": "reprendre le travail"
     }
   ],
-  "updatedAt": "2026-09-02T16:20:17.164Z",
-  "folder": "English"
+  "updatedAt": "2026-09-02T16:20:24.755Z",
+  "folder": "English",
+  "frontLabel": "English",
+  "backLabel": "French"
 }
