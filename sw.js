@@ -1,4 +1,4 @@
-const CACHE = 'myquizzlet-v1';
+const CACHE = 'myquizzlet-v2';
 const SHELL = [
   './', './index.html', './manifest.webmanifest', './app/style.css',
   './app/main.js', './app/ui.js', './app/store.js', './app/github.js',
@@ -20,7 +20,7 @@ self.addEventListener('fetch', (event) => {
   if (request.method !== 'GET') return;
   if (new URL(request.url).origin !== self.location.origin) return;   // never cache api.github.com
   event.respondWith(
-    fetch(request)
+    fetch(request, { cache: 'no-store' })
       .then((response) => {
         if (response.ok) {
           const copy = response.clone();
