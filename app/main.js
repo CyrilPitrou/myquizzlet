@@ -7,6 +7,7 @@ import { showLists } from './screens/lists.js';
 import { showList } from './screens/list.js';
 import { showTestSetup, showTestSession } from './screens/test.js';
 import { showSettings, applyTheme } from './screens/settings.js';
+import { showFolders, showFolder } from './screens/folders.js';
 
 function initSync() {
   ctx.sync?.stop();
@@ -36,6 +37,8 @@ function render() {
   else if (route === 'test' && arg && sub === 'go') showTestSession(arg);
   else if (route === 'test' && arg) showTestSetup(arg);
   else if (route === 'settings') showSettings();
+  else if (route === 'folders') showFolders();
+  else if (route === 'folder' && arg) showFolder(decodeURIComponent(arg));
   else showLists();
 }
 
