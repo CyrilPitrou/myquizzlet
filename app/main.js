@@ -8,6 +8,7 @@ import { showList } from './screens/list.js';
 import { showTestSetup, showTestSession } from './screens/test.js';
 import { showSettings, applyTheme } from './screens/settings.js';
 import { showFolders, showFolder } from './screens/folders.js';
+import { showNewList, showEditList } from './screens/editlist.js';
 
 function initSync() {
   ctx.sync?.stop();
@@ -32,10 +33,12 @@ function render() {
   const [path] = location.hash.split('?');
   $('#topbar').classList.toggle('session', /\/(train|test)\/[^/]+\/go$/.test(path));
   const [, route, arg, sub] = path.split('/');
-  if (route === 'list' && arg) showList(arg);
+  if (route === 'list' && arg && sub === 'edit') showEditList(arg);
+  else if (route === 'list' && arg) showList(arg);
   else if (route === 'study' && arg) go(`#/test/${arg}`);
   else if (route === 'test' && arg && sub === 'go') showTestSession(arg);
   else if (route === 'test' && arg) showTestSetup(arg);
+  else if (route === 'new') showNewList();
   else if (route === 'settings') showSettings();
   else if (route === 'folders') showFolders();
   else if (route === 'folder' && arg) showFolder(decodeURIComponent(arg));
