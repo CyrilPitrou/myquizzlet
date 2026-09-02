@@ -75,6 +75,16 @@ export function showTrainSetup(id) {
   }));
 }
 
+// Whenever the batch's queue can end up empty — a normal advance, or a
+// deleted card dropped from the queue below — settle it the same way: bank
+// what graduated, then refill (which sets session.batch = null when there is
+// nothing left to train, so the next render takes the Done branch).
+function settleBatch() {
+  if (currentKey(session.batch) !== null) return;
+  session.done = session.done.concat(session.batch.graduated);
+  refill();
+}
+
 // Credit follows how the question was presented, not the rung: choices()
 // can return null even at rung 0 (too few distractor texts), and a question
 // answered by typing is a real recall attempt regardless of which rung asked
@@ -85,10 +95,7 @@ function answered(correct, wasMultipleChoice) {
   else saveAnswer(session.listId, key, correct);
   session[correct ? 'right' : 'wrong'] += 1;
   session.batch = advance(session.batch, correct);
-  if (currentKey(session.batch) === null) {
-    session.done = session.done.concat(session.batch.graduated);
-    refill();
-  }
+  settleBatch();
   ctx.render();
 }
 
@@ -120,6 +127,7 @@ export function showTrainSession(id) {
   const card = list.cards.find((c) => c.id === cardId);
   if (!card) {   // the card was deleted mid-session: drop the key, do not promote it
     session.batch = { ...session.batch, queue: session.batch.queue.slice(1) };
+    settleBatch();
     return ctx.render();
   }
   const prompt = direction === 'f2b' ? card.front : card.back;
