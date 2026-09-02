@@ -1,7 +1,7 @@
 {
   "id": "dates-brevet-histoire",
   "name": "Dates Brevet Histoire",
-  "frontLang": null,
+  "frontLang": "fr",
   "backLang": null,
   "cards": [
     {
@@ -340,5 +340,8 @@
       "back": "Attentats (tours jumelles) aux États-Unis"
     }
   ],
-  "updatedAt": "2026-09-02T07:51:25.180Z"
+  "updatedAt": "2026-09-02T19:25:31.710Z",
+  "folder": "History",
+  "frontLabel": "French",
+  "backLabel": "Date"
 }
