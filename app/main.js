@@ -29,6 +29,7 @@ function showConflict({ listId, resolve }) {
 
 function render() {
   const [path] = location.hash.split('?');
+  $('#topbar').classList.toggle('session', /\/(train|test)\/[^/]+\/go$/.test(path));
   const [, route, arg, sub] = path.split('/');
   if (route === 'list' && arg) showList(arg);
   else if (route === 'study' && arg) go(`#/test/${arg}`);
