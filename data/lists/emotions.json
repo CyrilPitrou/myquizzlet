@@ -3,6 +3,227 @@
   "name": "Emotions",
   "frontLang": null,
   "backLang": null,
-  "cards": [],
-  "updatedAt": "2026-09-02T07:12:45.326Z"
+  "cards": [
+    {
+      "id": "cs3xqj",
+      "front": "downcast/dispirited",
+      "back": "découragé/abattu"
+    },
+    {
+      "id": "xv2an7",
+      "front": "sulk/sullen",
+      "back": "maussade/boudeur (renfrogné)"
+    },
+    {
+      "id": "qsu419",
+      "front": "dismayed",
+      "back": "consterné"
+    },
+    {
+      "id": "euokho",
+      "front": "flabbergasted",
+      "back": "époustouflé/sidéré"
+    },
+    {
+      "id": "74y7rb",
+      "front": "glee/mirth",
+      "back": "la joie"
+    },
+    {
+      "id": "bnsi4d",
+      "front": "the sorrow",
+      "back": "le chagrin"
+    },
+    {
+      "id": "jh0s7x",
+      "front": "beaming",
+      "back": "radieux"
+    },
+    {
+      "id": "kiywkg",
+      "front": "astonished",
+      "back": "stupéfait"
+    },
+    {
+      "id": "a84erj",
+      "front": "gloomy",
+      "back": "triste/couvert"
+    },
+    {
+      "id": "two60d",
+      "front": "to grieve at sth",
+      "back": "avoir du chagrin pour"
+    },
+    {
+      "id": "tjd0y9",
+      "front": "to have a nasty temper",
+      "back": "avoir un sale caractère"
+    },
+    {
+      "id": "bgt4l0",
+      "front": "to burst out laughing",
+      "back": "exploser de rire"
+    },
+    {
+      "id": "r9klf6",
+      "front": "to be appalled",
+      "back": "être consterné/épouvanté"
+    },
+    {
+      "id": "8anrck",
+      "front": "to grin at",
+      "back": "faire un grand sourire à"
+    },
+    {
+      "id": "mbslyz",
+      "front": "to whine/wail",
+      "back": "gémir"
+    },
+    {
+      "id": "4hxf62",
+      "front": "dejected/depressed",
+      "back": "déprimé"
+    },
+    {
+      "id": "cc538m",
+      "front": "to be saddened by",
+      "back": "être attrisé par"
+    },
+    {
+      "id": "mb0cj7",
+      "front": "to shudder",
+      "back": "frissonner (peur)"
+    },
+    {
+      "id": "g5tl1a",
+      "front": "in a frenzy of anger",
+      "back": "dans un accès de colère"
+    },
+    {
+      "id": "exf4t0",
+      "front": "to be carried away by enthusiasm",
+      "back": "être transporté d'enthousiasme"
+    },
+    {
+      "id": "kemz11",
+      "front": "a very moody person",
+      "back": "une personne d'humeur changeante"
+    },
+    {
+      "id": "612uw9",
+      "front": "to move sb deeply",
+      "back": "émouvoir profondément qqn"
+    },
+    {
+      "id": "s0y6ax",
+      "front": "an unrequited love",
+      "back": "un amour non réciproque"
+    },
+    {
+      "id": "5zkpzj",
+      "front": "to dote on sb",
+      "back": "être fou de qqn"
+    },
+    {
+      "id": "eho5tj",
+      "front": "to be partial to sth",
+      "back": "avoir un faible pour qqch"
+    },
+    {
+      "id": "5g3mie",
+      "front": "to yearn for sth",
+      "back": "avoir la nostalgie de qqch"
+    },
+    {
+      "id": "72kex8",
+      "front": "a dreary life",
+      "back": "une vie monotone"
+    },
+    {
+      "id": "r0dh62",
+      "front": "to thrill at a tale",
+      "back": "vibrer en entendant une histoire"
+    },
+    {
+      "id": "t0crj0",
+      "front": "a worrisome affair",
+      "back": "une affaire préoccupante"
+    },
+    {
+      "id": "1tsyxx",
+      "front": "a wretched person",
+      "back": "une personne misérable"
+    },
+    {
+      "id": "dxmvt8",
+      "front": "to be nonplussed by sth",
+      "back": "être dérouté par qqch"
+    },
+    {
+      "id": "36sdce",
+      "front": "stupendous sums of money",
+      "back": "de prodigieuses sommes d'argent"
+    },
+    {
+      "id": "34pwry",
+      "front": "the scourge of war",
+      "back": "le fléau de la guerre"
+    },
+    {
+      "id": "3yg2j1",
+      "front": "a horrendous murder",
+      "back": "un meurtre horrible"
+    },
+    {
+      "id": "wsorde",
+      "front": "to feel downcast",
+      "back": "se sentir démoralisé"
+    },
+    {
+      "id": "sdr2cp",
+      "front": "to be dazed at sth",
+      "back": "être abasourdi par qqch"
+    },
+    {
+      "id": "b542nk",
+      "front": "to cross sb",
+      "back": "mettre qqn en colère"
+    },
+    {
+      "id": "z55kja",
+      "front": "to feel a deep agony at sth",
+      "back": "sentir une grande souffrance face à"
+    },
+    {
+      "id": "afolru",
+      "front": "despair",
+      "back": "désespoir"
+    },
+    {
+      "id": "ok27cs",
+      "front": "to break down and cry",
+      "back": "craquer/s'effondrer et pleurer"
+    },
+    {
+      "id": "9b4vqf",
+      "front": "to fret about sth",
+      "back": "se faire du souci pour"
+    },
+    {
+      "id": "6fvsbt",
+      "front": "startling news",
+      "back": "des nouvelles surprenantes"
+    },
+    {
+      "id": "s6ycxa",
+      "front": "to be overcome with joy",
+      "back": "être bouleversé de joie"
+    },
+    {
+      "id": "5680q6",
+      "front": "he became a craze",
+      "back": "il devint un engouement"
+    }
+  ],
+  "updatedAt": "2026-09-02T07:17:15.790Z"
 }
