@@ -12,17 +12,55 @@ const REPO = 'CyrilPitrou/myquizzlet';
 const settings = () => JSON.parse(localStorage.getItem('mq:settings') || '{}');
 const saveSettings = (next) => localStorage.setItem('mq:settings', JSON.stringify(next));
 
+const STATUS = {
+  synced:  { mark: '●', word: 'Everything is on GitHub' },
+  pending: { mark: '↑', word: 'Changes waiting to push' },
+  offline: { mark: '○', word: 'Offline — will catch up' },
+  error:   { mark: '✕', word: 'Sync failed' },
+  off:     { mark: '⊘', word: 'No token — read-only' },
+};
+
+let status = { state: 'off', detail: '' };
+
 function setStatus(state, detail = '') {
+  status = { state, detail };
   const dot = $('#sync-dot');
-  const marks = { synced: '●', pending: '◐', offline: '◌', error: '✕', off: '○' };
-  const titles = {
-    synced: 'everything is on GitHub', pending: 'changes waiting to push',
-    offline: 'offline — will catch up', error: `sync failed: ${detail}`,
-    off: 'no token — read-only',
-  };
-  dot.textContent = marks[state];
+  dot.textContent = STATUS[state].mark;
   dot.className = `dot ${state}`;
-  dot.title = titles[state];
+  dot.title = detail ? `${STATUS[state].word}: ${detail}` : STATUS[state].word;
+  const line = $('#sync-line');
+  if (line) line.replaceWith(statusLine());
+}
+
+function statusLine() {
+  return el('div', { class: 'statusline', id: 'sync-line' }, [
+    el('span', { class: `dot ${status.state}`, text: STATUS[status.state].mark }),
+    status.detail ? `${STATUS[status.state].word}: ${status.detail}` : STATUS[status.state].word,
+  ]);
+}
+
+const THEMES = [{ id: 'paper', name: 'Paper' }, { id: 'study', name: 'Study' },
+                { id: 'focus', name: 'Focus' }];
+
+function applyTheme(id) {
+  if (id && id !== 'paper') document.documentElement.dataset.theme = id;
+  else delete document.documentElement.dataset.theme;
+}
+
+function themePicker() {
+  const current = settings().theme || 'paper';
+  return el('div', { class: 'themes' }, THEMES.map((theme) => el('button', {
+    class: `theme${theme.id === current ? ' on' : ''}`,
+    onclick: () => {
+      saveSettings({ ...settings(), theme: theme.id });
+      applyTheme(theme.id);
+      render();
+    },
+  }, [el('span', { class: `chip ${theme.id}` }), theme.name])));
+}
+
+function section(title, nodes) {
+  return el('section', { class: 'sect' }, [el('h3', { text: title }), ...nodes]);
 }
 
 let sync = null;
@@ -353,34 +391,60 @@ function showSettings() {
   view.append(el('a', { href: '#/', class: 'back', text: '← Lists' }));
   view.append(el('h2', { text: 'Settings' }));
 
-  view.append(el('p', {}, [
-    'This device needs a token only to save changes. Studying works without one. ',
-    el('a', { target: '_blank', rel: 'noopener',
-      href: 'https://github.com/settings/personal-access-tokens/new',
-      text: 'Create a fine-grained token' }),
-    ` — repository access: only ${REPO}; permissions: Contents → Read and write.`,
+  if (!current.token) {
+    view.append(section('Set up this device', [
+      el('p', { class: 'muted', text: 'Right now this device can study, but not save changes.' }),
+      el('ol', { class: 'steps' }, [
+        el('li', { text: 'On a device that already works, open Settings and tap “Show token QR”.' }),
+        el('li', { text: 'Point this device’s camera at it and open the link.' }),
+      ]),
+      el('p', { class: 'muted' }, [
+        'No other device set up yet? ',
+        el('a', { target: '_blank', rel: 'noopener',
+          href: 'https://github.com/settings/personal-access-tokens/new',
+          text: 'Create a token on GitHub' }),
+        ` instead — repository access: only ${REPO}; permissions: Contents → Read and write.`,
+      ]),
+    ]));
+  }
+
+  view.append(section('Appearance', [
+    themePicker(),
+    el('p', { class: 'muted', text: 'Stored on this device only — it is a preference, not data, so it never syncs.' }),
+  ]));
+
+  view.append(section('Sync', [
+    statusLine(),
+    el('p', { class: 'muted', text: `${store.dirtyKeys().length} change(s) waiting.` }),
+    el('div', { class: 'row' }, [
+      el('button', { text: 'Pull now', onclick: () => sync.pullAll().then(render).catch((e) => setStatus('error', e.message)) }),
+      el('button', { text: 'Push now', onclick: () => sync.pushDirty().then(render).catch((e) => setStatus('error', e.message)) }),
+      el('button', { text: 'Retry', onclick: () => sync.syncNow().then(render) }),
+    ]),
   ]));
 
   const token = el('input', { type: 'password', value: current.token || '', placeholder: 'github_pat_…' });
   const expiry = el('input', { type: 'date', value: current.tokenExpiry || '' });
-  view.append(el('label', { class: 'field' }, ['Token', token]));
-  view.append(el('label', { class: 'field' }, ['Expires on (from the GitHub page)', expiry]));
-  view.append(el('button', {
-    class: 'primary', text: 'Save',
-    onclick: () => {
-      saveSettings({ token: token.value.trim(), tokenExpiry: expiry.value || null });
-      initSync();
-      render();
-    },
-  }));
-
-  view.append(el('h3', { text: 'Sync' }));
-  view.append(el('div', { class: 'row' }, [
-    el('button', { text: 'Pull now', onclick: () => sync.pullAll().then(render).catch((e) => setStatus('error', e.message)) }),
-    el('button', { text: 'Push now', onclick: () => sync.pushDirty().then(render).catch((e) => setStatus('error', e.message)) }),
-    el('button', { text: 'Retry', onclick: () => sync.syncNow().then(render) }),
+  view.append(section('GitHub token', [
+    el('p', { class: 'muted', text: 'Needed only to save changes. Studying works without one.' }),
+    el('label', { class: 'field' }, ['Token', token]),
+    el('label', { class: 'field' }, ['Expires on (from the GitHub page)', expiry]),
+    el('button', {
+      class: 'primary', text: 'Save token',
+      onclick: () => {
+        saveSettings({ ...settings(), token: token.value.trim(), tokenExpiry: expiry.value || null });
+        initSync();
+        render();
+      },
+    }),
   ]));
-  view.append(el('p', { class: 'muted', text: `${store.dirtyKeys().length} change(s) waiting.` }));
+
+  view.append(section('About', [
+    el('p', { class: 'muted' }, [
+      'MyQuizzlet · ',
+      el('a', { href: `https://github.com/${REPO}`, target: '_blank', rel: 'noopener', text: 'source on GitHub' }),
+    ]),
+  ]));
 }
 
 function render() {
@@ -393,6 +457,7 @@ function render() {
 }
 
 window.addEventListener('hashchange', render);
+applyTheme(settings().theme);
 initSync();
 render();
 

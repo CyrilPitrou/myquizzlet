@@ -6,7 +6,15 @@
   <title>MyQuizzlet</title>
   <link rel="stylesheet" href="app/style.css">
   <link rel="manifest" href="manifest.webmanifest">
-  <meta name="theme-color" content="#333333">
+  <meta name="theme-color" content="#faf7f2">
+  <script>
+    // Runs before first paint. main.js is a module and therefore deferred, so
+    // without this the app flashes the default theme on every launch.
+    try {
+      const theme = JSON.parse(localStorage.getItem('mq:settings') || '{}').theme;
+      if (theme && theme !== 'paper') document.documentElement.dataset.theme = theme;
+    } catch (error) { /* a corrupt settings blob is not worth a blank screen */ }
+  </script>
 </head>
 <body>
   <header id="topbar"><h1>MyQuizzlet</h1><a href="#/settings" title="Settings">⚙</a><span id="sync-dot" title="not configured">○</span></header>
