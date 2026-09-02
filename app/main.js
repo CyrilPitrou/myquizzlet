@@ -5,6 +5,7 @@ import { createGitHub } from './github.js';
 import { createSync } from './sync.js';
 import { showLists } from './screens/lists.js';
 import { showList } from './screens/list.js';
+import { showCards } from './screens/cards.js';
 import { showTestSetup, showTestSession } from './screens/test.js';
 import { showSettings, applyTheme } from './screens/settings.js';
 import { showFolders, showFolder } from './screens/folders.js';
@@ -34,6 +35,7 @@ function render() {
   $('#topbar').classList.toggle('session', /\/(train|test)\/[^/]+\/go$/.test(path));
   const [, route, arg, sub] = path.split('/');
   if (route === 'list' && arg && sub === 'edit') showEditList(arg);
+  else if (route === 'list' && arg && sub === 'cards') showCards(arg);
   else if (route === 'list' && arg) showList(arg);
   else if (route === 'study' && arg) go(`#/test/${arg}`);
   else if (route === 'test' && arg && sub === 'go') showTestSession(arg);

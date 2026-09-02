@@ -17,3 +17,25 @@ export function clear(node) {
 }
 
 export const $ = (selector) => document.querySelector(selector);
+
+// A ⋮ button with a popover of actions. Closes on the next click anywhere,
+// which is the whole of its dismissal logic.
+export function menu(items) {
+  const close = () => { pop.hidden = true; };
+  const pop = el('div', { class: 'menu-pop', hidden: 'hidden' }, items.map((item) =>
+    el('button', {
+      class: 'menu-item', text: item.label,
+      onclick: () => { close(); item.onclick(); },
+    })));
+  const button = el('button', {
+    class: 'menu-button', text: '⋮', title: 'Actions', 'aria-label': 'Actions',
+    onclick: (event) => {
+      event.stopPropagation();
+      if (pop.hidden) {
+        pop.hidden = false;
+        document.addEventListener('click', close, { once: true });
+      } else close();
+    },
+  });
+  return el('div', { class: 'menu' }, [button, pop]);
+}

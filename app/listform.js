@@ -18,14 +18,20 @@ function labelField(text, value, placeholder) {
 
 // One form for both creating and editing. It never touches cards: renaming a
 // column is metadata, and every card id and progress entry must survive it.
-export function listForm({ list = null, onSave }) {
-  const name = el('input', { value: list ? list.name : '', placeholder: 'Spanish – Food',
-                             required: 'required' });
+//
+// columnsOnly restricts the form to the two column-label fields — used when
+// editing an existing list's column types only, so Name and Folder (already
+// handled by their own menu items) are neither shown nor sent.
+export function listForm({ list = null, onSave, columnsOnly = false }) {
+  const name = columnsOnly ? null : el('input', {
+    value: list ? list.name : '', placeholder: 'Spanish – Food', required: 'required',
+  });
 
-  const folders = el('datalist', { id: 'folder-names' },
+  const folders = columnsOnly ? null : el('datalist', { id: 'folder-names' },
     store.folders().map((folder) => el('option', { value: folder })));
-  const folder = el('input', { value: (list && list.folder) || '',
-                               placeholder: 'Spanish', list: 'folder-names' });
+  const folder = columnsOnly ? null : el('input', {
+    value: (list && list.folder) || '', placeholder: 'Spanish', list: 'folder-names',
+  });
 
   const front = labelField('First column', list && list.frontLabel, 'Spanish');
   const back = labelField('Second column', list && list.backLabel, 'French');
@@ -34,21 +40,23 @@ export function listForm({ list = null, onSave }) {
     class: 'listform',
     onsubmit: (event) => {
       event.preventDefault();
-      const trimmed = name.value.trim();
-      if (!trimmed) return;
-      onSave({
-        name: trimmed,
-        folder: folder.value.trim() || null,
+      const fields = {
         frontLabel: front.input.value.trim() || null,
         backLabel: back.input.value.trim() || null,
         frontLang: langOf(front.input.value),
         backLang: langOf(back.input.value),
-      });
+      };
+      if (!columnsOnly) {
+        const trimmed = name.value.trim();
+        if (!trimmed) return;
+        fields.name = trimmed;
+        fields.folder = folder.value.trim() || null;
+      }
+      onSave(fields);
     },
   }, [
-    el('label', { class: 'field' }, ['Name', name]),
-    el('label', { class: 'field' }, ['Folder', folder]),
-    folders,
+    ...(columnsOnly ? [] : [el('label', { class: 'field' }, ['Name', name]),
+                            el('label', { class: 'field' }, ['Folder', folder]), folders]),
     front.field,
     back.field,
     el('p', { class: 'muted', text: 'The columns are what the two sides are — '
