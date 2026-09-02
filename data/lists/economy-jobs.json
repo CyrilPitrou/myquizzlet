@@ -1,0 +1,189 @@
+{
+  "id": "economy-jobs",
+  "name": "Economy/ jobs",
+  "frontLang": null,
+  "backLang": null,
+  "cards": [
+    {
+      "id": "h14rl0",
+      "front": "trade",
+      "back": "le commerce"
+    },
+    {
+      "id": "4vylre",
+      "front": "bargaining",
+      "back": "le marchandage"
+    },
+    {
+      "id": "6ivq6d",
+      "front": "A commodity",
+      "back": "marchandise,denrée,produit"
+    },
+    {
+      "id": "b6r49g",
+      "front": "The management",
+      "back": "la gestion,la direction"
+    },
+    {
+      "id": "kr684q",
+      "front": "Customs tariffs",
+      "back": "tarifs douaniers"
+    },
+    {
+      "id": "doaq0m",
+      "front": "A blockade",
+      "back": "un blocus"
+    },
+    {
+      "id": "la2h43",
+      "front": "A goal / a target",
+      "back": "un objectif"
+    },
+    {
+      "id": "nwubwm",
+      "front": "talks",
+      "back": "des entretiens,des pourparlers"
+    },
+    {
+      "id": "qy3vjc",
+      "front": "figures",
+      "back": "les chiffres"
+    },
+    {
+      "id": "lumdvq",
+      "front": "An investment",
+      "back": "un investissement"
+    },
+    {
+      "id": "nq8c99",
+      "front": "Bankruptcy / To go bankrupt",
+      "back": "une faillite,faire faillite"
+    },
+    {
+      "id": "ux0qqi",
+      "front": "A partnership",
+      "back": "un partenariat"
+    },
+    {
+      "id": "6tzazq",
+      "front": "An incentive",
+      "back": "une incitation"
+    },
+    {
+      "id": "qsm24u",
+      "front": "A firm / a company",
+      "back": "une entreprise"
+    },
+    {
+      "id": "9a5exk",
+      "front": "The Stock Exchange",
+      "back": "la bourse (des valeurs)"
+    },
+    {
+      "id": "od83wx",
+      "front": "subsidized",
+      "back": "subventionné"
+    },
+    {
+      "id": "fb9y8o",
+      "front": "Debt-ridden",
+      "back": "criblé de dettes"
+    },
+    {
+      "id": "umwaat",
+      "front": "To be in the red",
+      "back": "être à découvert/déficit"
+    },
+    {
+      "id": "irgz3c",
+      "front": "To set up a business",
+      "back": "monter une entreprise"
+    },
+    {
+      "id": "rbbbcp",
+      "front": "The C.E.O (Chief Executive Officer = US) /",
+      "back": "le PDG"
+    },
+    {
+      "id": "snjd4e",
+      "front": "To strike a deal",
+      "back": "conclure un marché"
+    },
+    {
+      "id": "nxcmv7",
+      "front": "an occupation",
+      "back": "une profession"
+    },
+    {
+      "id": "xlkcci",
+      "front": "expertise",
+      "back": "la compétence"
+    },
+    {
+      "id": "y1mftd",
+      "front": "to retire",
+      "back": "prendre sa retraite"
+    },
+    {
+      "id": "cv6ov3",
+      "front": "to work full-time (part-time)",
+      "back": "travailler à temps plein,à temps partiel"
+    },
+    {
+      "id": "mzejb9",
+      "front": "wages/pay/salary",
+      "back": "salaire"
+    },
+    {
+      "id": "4u3de4",
+      "front": "income",
+      "back": "le revenu"
+    },
+    {
+      "id": "i7ldm5",
+      "front": "out of work/jobless",
+      "back": "au chômage"
+    },
+    {
+      "id": "q0j8m5",
+      "front": "a sweatshop",
+      "back": "atelier clandestin"
+    },
+    {
+      "id": "mweksx",
+      "front": "a civil servant",
+      "back": "un fonctionnaire"
+    },
+    {
+      "id": "sij3hl",
+      "front": "a strike",
+      "back": "une grève"
+    },
+    {
+      "id": "czuu5r",
+      "front": "a trade",
+      "back": "un métier manuel"
+    },
+    {
+      "id": "ch7r5k",
+      "front": "to do odd jobs",
+      "back": "faire des petits boulots"
+    },
+    {
+      "id": "ygmkta",
+      "front": "to earn one's living",
+      "back": "gagner bien sa vie"
+    },
+    {
+      "id": "n27jlo",
+      "front": "teleworking",
+      "back": "le télétravail"
+    },
+    {
+      "id": "0fekro",
+      "front": "to resume work",
+      "back": "reprendre le travail"
+    }
+  ],
+  "updatedAt": "2026-09-02T07:52:53.217Z"
+}
