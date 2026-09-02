@@ -48,3 +48,32 @@ export function choices({ list, key, count = 4, shuffle = defaultShuffle }) {
   const distractors = shuffle(shortlist).slice(0, count - 1);
   return shuffle([answer, ...distractors]);
 }
+
+// Rung 0 is pick-from-four, rung 1 is typing. Right moves an item up; wrong
+// sends it to the bottom rung and to the back of the queue, which is also what
+// keeps the same word from being asked twice in a row.
+export function startBatch(keys, progress) {
+  const items = (progress && progress.items) || {};
+  const levels = {};
+  for (const key of keys) levels[key] = items[key] && items[key].level === 1 ? 1 : 0;
+  return { queue: keys.slice(), levels, graduated: [] };
+}
+
+export const currentKey = (state) => (state.queue.length ? state.queue[0] : null);
+
+export const currentLevel = (state) =>
+  (state.queue.length ? state.levels[state.queue[0]] : null);
+
+export function advance(state, correct) {
+  const [key, ...rest] = state.queue;
+  if (key === undefined) return state;
+  if (correct && state.levels[key] === 1) {
+    return { queue: rest, levels: { ...state.levels },
+             graduated: state.graduated.concat(key) };
+  }
+  return {
+    queue: rest.concat(key),
+    levels: { ...state.levels, [key]: correct ? 1 : 0 },
+    graduated: state.graduated.slice(),
+  };
+}
