@@ -187,3 +187,8 @@ section.sect:last-child { border-bottom: none; }
 .qr-card figcaption { margin-top: .35rem; font-size: .85rem; }
 .qr { display: block; width: 100%; height: auto; border-radius: 6px;
   image-rendering: pixelated; }
+
+.optin { border: 1px dashed var(--rule); border-radius: 10px;
+  padding: .75rem; margin-top: 1rem; }
+.optin h4 { margin: 0 0 .35rem; }
+.optin .qr-card { max-width: 14rem; }

@@ -1,8 +1,8 @@
-import { el } from '../ui.js';
+import { el, clear } from '../ui.js';
 import { store, settings, saveSettings, REPO, screen, ctx } from '../app.js';
 import { setStatus, statusLine } from '../status.js';
 import { encode } from '../qr.js';
-import { APP_URL, TOKEN_PAGE } from '../setup.js';
+import { APP_URL, TOKEN_PAGE, setupLink } from '../setup.js';
 
 const THEMES = [{ id: 'paper', name: 'Paper' }, { id: 'study', name: 'Study' },
                 { id: 'focus', name: 'Focus' }];
@@ -68,6 +68,41 @@ function qrNode(text, label) {
 function qrCard(text, caption, label) {
   return el('figure', { class: 'qr-card' }, [qrNode(text, label),
     el('figcaption', { class: 'muted', text: caption })]);
+}
+
+const SHOW_FOR = 60_000;
+
+// The token itself, on screen, as a link the other phone's camera can open.
+// Boxed off and behind a button because it is the only secret this app ever
+// displays, and hidden again on a timer so it does not sit there forgotten.
+function tokenQr(current) {
+  const box = el('div', { class: 'optin' });
+
+  const reveal = () => {
+    const link = setupLink({ token: current.token, expiry: current.tokenExpiry || null });
+    const timer = setTimeout(() => { if (box.isConnected) show(); }, SHOW_FOR);
+
+    clear(box);
+    box.append(el('h4', { text: 'Scan this on the other device' }));
+    box.append(qrCard(link, 'Opens the app and asks before saving',
+      'A QR code carrying this device’s token'));
+    box.append(el('p', { class: 'muted', text: 'The other device will ask you to confirm '
+      + 'before it saves anything. This code hides itself again in a minute.' }));
+    box.append(el('button', { text: 'Hide it now',
+      onclick: () => { clearTimeout(timer); show(); } }));
+  };
+
+  const show = () => {
+    clear(box);
+    box.append(el('h4', { text: 'Or copy this device’s token' }));
+    box.append(el('p', { class: 'muted', text: 'Faster, and the honest price: both devices '
+      + 'then share one token, so revoking it cuts off both. The token is briefly on '
+      + 'screen, so do this where nobody is watching.' }));
+    box.append(el('button', { text: 'Show token QR', onclick: reveal }));
+  };
+
+  show();
+  return box;
 }
 
 export function showSettings() {
@@ -136,6 +171,7 @@ export function showSettings() {
       el('p', { class: 'muted', text: 'The token is then created on the device that '
         + 'will hold it, and can be revoked on its own. A device you only study on '
         + 'needs no token at all — the first code is the whole of its setup.' }),
+      tokenQr(current),
     ]));
   }
 
