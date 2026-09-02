@@ -293,8 +293,10 @@ gets the same screen and says so, since nothing it did was scheduled.
 Mobile-first, controls within thumb reach, seven screens:
 
 1. **Home** — lists, most recently used first, with due counts and a prominent
-   Study button. Each list can be renamed or deleted from here.
-2. **List** — cards in a table; add, edit, delete; CSV import and export.
+   Study button.
+2. **List** — cards in a table; add, edit, delete; CSV import and export. Renaming
+   and deleting the list itself live here too, beside the cards they affect,
+   rather than crowding Home's rows on a phone.
 3. **Session setup** — mode, direction, an opt-in length cap, free review. States
    the real queue length before you start.
 4. **Session** — one card, full screen, minimal chrome.
@@ -326,7 +328,9 @@ colour any other way.** That is the rule the accident argues for, and it is what
 makes the rest of this section nearly free.
 
 The token set is small: `--ground`, `--surface`, `--ink`, `--rule`, `--muted`,
-`--accent`, `--ok`, `--bad`. Three themes define it:
+`--accent`, `--ok`, `--bad`, plus two subordinates the real stylesheet needs —
+`--field` for input borders and `--warn` for the token-expiry banner. Three themes
+define them:
 
 - **Paper** (default) — warm off-white ground, ink text, one muted amber accent,
   thin rules instead of boxes. A vocabulary notebook rather than an app.
