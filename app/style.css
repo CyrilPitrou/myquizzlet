@@ -51,7 +51,7 @@ h2 { font-size: 1.35rem; margin: .4rem 0 1rem; }
 h3 { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase;
      color: var(--muted); margin: 1.4rem 0 .4rem; }
 
-#topbar { display: flex; align-items: center; gap: .5rem; padding: .5rem 1rem;
+#topbar { display: flex; align-items: center; gap: .25rem; padding: .5rem .75rem;
           background: var(--surface); border-bottom: 1px solid var(--rule); }
 #topbar a, #sync-dot { display: flex; align-items: center; justify-content: center;
                        min-width: 44px; height: 44px; padding: 0 .5rem; box-sizing: border-box; }

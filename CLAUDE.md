@@ -30,14 +30,25 @@ These are deliberate. Do not "improve" past them without asking.
 ```
 main branch                          data branch
   index.html                           data/lists/<id>.json
-  app/main.js     screens + router     data/progress/<id>.json
+  app/main.js     router + header      data/progress/<id>.json
+     app.js        shared singletons: store, settings, go, todayStr,
+                    screen, ctx. Screens import from here, never from
+                    main.js, so nothing calls back up into the router.
+     status.js     sync status indicator
      ui.js         shared DOM helpers
      store.js     browser-side state
      github.js    pull / push
      sync.js      pull/merge/push orchestration
-     srs.js       Leitner scheduling
-     grade.js     answer checking
-     csv.js       import / export
+     merge.js     pure. progress merge rule
+     srs.js       pure. Leitner scheduling
+     grade.js     pure. answer checking
+     csv.js       pure. import / export
+     langs.js     pure. column label → language code
+     stats.js     pure. per-list numbers
+     train.js     pure. training batches and rungs
+     listform.js  shared list/card editing fields
+     screens/     lists list cards view train test folders editlist
+                   settings help — one file per screen
   sw.js           offline cache
   test/*.test.js
 ```
@@ -59,6 +70,9 @@ site and does not clutter the code history.
   browser storage. If one is ever committed, revoke it on GitHub immediately.
 - **Writes to GitHub always carry the file's `sha`.** A rejected write is a
   conflict to resolve, never something to retry with force.
+- **Every new module must be added to `SHELL` in `sw.js` and the cache name
+  bumped.** Otherwise it is never cached, and the app breaks offline the
+  moment the network is gone.
 
 ## Working locally
 
@@ -71,6 +85,6 @@ Browsers refuse ES modules over `file://`, so the http server is required.
 
 ## Testing
 
-Pure modules (`srs`, `grade`, `csv`, and the progress merge) get real unit tests
-and are written test-first. Screens are verified by using them; do not add a
-headless-browser suite.
+Pure modules (`srs`, `grade`, `csv`, `merge`, `langs`, `stats`, `train`) get
+real unit tests and are written test-first. Screens are verified by using
+them; do not add a headless-browser suite.

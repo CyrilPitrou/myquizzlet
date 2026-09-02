@@ -36,6 +36,36 @@ scheduled independently, because production is markedly harder than recognition
 and merging them would hide that. Expect `b2f` to trail; that is the app being
 accurate.
 
+## Training
+
+Training (`app/train.js`) is a separate mode from a review session, with its
+own state and its own queue — it never touches `due` on its own.
+
+A batch holds 8 direction-items, picked by `pickBatch`: never-seen items
+first, then ascending `box`, then descending `lapses`. Due dates play no part;
+training pulls in whatever is shakiest regardless of when it is next due, and
+will not drain a review backlog.
+
+Each item in the batch also has a rung, 0 or 1, held in `level` (see
+`data-model.md`). Rung 0 asks the item as pick-from-four; rung 1 asks it
+typed. A right answer at rung 0 promotes the item to rung 1 and sends it to
+the back of the queue; a right answer at rung 1 graduates it out of the batch;
+a wrong answer at either rung drops it to rung 0 and to the back of the queue.
+When the batch empties, it is refilled silently from the same rule.
+
+**Only a typed answer touches the Leitner boxes.** Recognising a word among
+four options is not recalling it, so a rung-0 answer moves `level` and nothing
+else — `box` and `due` are untouched. Credit follows how the question was
+actually *presented*, not the rung it started at: `choices()` returns `null`
+when a list has fewer than two other cards with distinct text on that side, in
+which case even a rung-0 item is asked by typing, and that answer is a real
+recall attempt — it is scheduled through `nextItem` like any other typed
+answer.
+
+A wrong answer, from training or from a test, resets `level` to `0`: a word
+you just got wrong is re-introduced with multiple choice next time, whichever
+mode asks for it.
+
 ## Grading typed answers
 
 `grade(expected, typed)` returns `correct`, `typo`, or `wrong`.

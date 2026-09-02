@@ -1,4 +1,4 @@
-const CACHE = 'myquizzlet-v8';
+const CACHE = 'myquizzlet-v9';
 const SHELL = [
   './', './index.html', './manifest.webmanifest', './app/style.css',
   './app/main.js', './app/app.js', './app/status.js', './app/ui.js',
@@ -8,7 +8,7 @@ const SHELL = [
   './app/screens/lists.js', './app/screens/list.js', './app/screens/cards.js',
   './app/screens/test.js', './app/screens/settings.js',
   './app/screens/folders.js', './app/screens/editlist.js', './app/screens/view.js',
-  './app/screens/train.js',
+  './app/screens/train.js', './app/screens/help.js',
 ];
 
 self.addEventListener('install', (event) => {
