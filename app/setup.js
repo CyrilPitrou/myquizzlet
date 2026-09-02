@@ -1,0 +1,55 @@
+// app/setup.js
+//
+// Pure. The shape of a setup link and everything else derived from a token:
+// how it is shown, and when it runs out. No storage, no network, no clock —
+// today is passed in, as it is to srs.js.
+
+export const APP_URL = 'https://cyrilpitrou.github.io/myquizzlet/';
+export const TOKEN_PAGE = 'https://github.com/settings/personal-access-tokens/new';
+
+const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
+
+// A URL rather than a bare secret, so the receiving phone's own camera app can
+// open it. The token rides in the fragment, which no server ever sees.
+export function setupLink({ token, expiry, base = APP_URL }) {
+  const query = `t=${encodeURIComponent(token)}`;
+  return `${base}#/adopt?${query}${expiry ? `&e=${encodeURIComponent(expiry)}` : ''}`;
+}
+
+// Accepts a whole setup link, the bare fragment of one, or a plain token —
+// the settings field takes all three, because a paste is as likely as a scan.
+export function parseSetup(text) {
+  const trimmed = (text || '').trim();
+  if (!trimmed) return null;
+
+  const hash = trimmed.indexOf('#/adopt?');
+  if (hash !== -1) {
+    const params = new URLSearchParams(trimmed.slice(hash + '#/adopt?'.length));
+    const token = (params.get('t') || '').trim();
+    if (!token) return null;
+    const expiry = (params.get('e') || '').trim();
+    return { token, expiry: ISO_DATE.test(expiry) ? expiry : null };
+  }
+
+  if (/\s/.test(trimmed) || trimmed.includes('://')) return null;
+  return { token: trimmed, expiry: null };
+}
+
+// Enough to tell two tokens apart, not enough to use one.
+export function maskToken(token) {
+  return (token || '').length > 14 ? `${token.slice(0, 10)}…${token.slice(-4)}` : '…';
+}
+
+const DAY = 24 * 60 * 60 * 1000;
+
+export function expiryWarning(expiry, today) {
+  if (!expiry || !ISO_DATE.test(expiry)) return null;
+  const days = Math.round(
+    (Date.parse(`${expiry}T00:00:00Z`) - Date.parse(`${today}T00:00:00Z`)) / DAY);
+  if (days > 14) return null;
+  if (days < 0) {
+    return `This token expired on ${expiry}. Changes stay on this device until you replace it.`;
+  }
+  if (days === 0) return 'This token expires today.';
+  return `This token expires in ${days} day${days === 1 ? '' : 's'}, on ${expiry}.`;
+}
