@@ -3,7 +3,7 @@ import { store, screen, go, settings, saveSettings, ctx } from '../app.js';
 import { shuffle } from '../srs.js';
 
 // Kept across renders so paging does not lose your place. Reset whenever the
-// list, its length or the shuffle preference changes.
+// list changes (tracked via its updatedAt stamp) or the shuffle preference changes.
 let browse = null;
 
 function order(list) {
@@ -14,8 +14,9 @@ function order(list) {
 function ensure(list) {
   const wanted = Boolean(settings().browseShuffle);
   if (!browse || browse.listId !== list.id
-      || browse.order.length !== list.cards.length || browse.shuffled !== wanted) {
-    browse = { listId: list.id, order: order(list), at: 0, flipped: false, shuffled: wanted };
+      || browse.updatedAt !== list.updatedAt || browse.shuffled !== wanted) {
+    browse = { listId: list.id, order: order(list), at: 0, flipped: false,
+               shuffled: wanted, updatedAt: list.updatedAt };
   }
   browse.at = Math.min(browse.at, Math.max(list.cards.length - 1, 0));
 }

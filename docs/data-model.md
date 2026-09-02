@@ -60,7 +60,10 @@ branch, meant to be read and edited by hand.
 - `seen` / `lapses` — counters, for display and curiosity.
 - `level` — `0` or `1`, optional, absent meaning `0`. The training rung: `0`
   is asked as pick-from-four, `1` as typed. Any wrong answer resets it to `0`.
-  Training-only; it never affects `box` or `due`. See `study-algorithm.md`.
+  Training-only; answering does not reschedule the item. It can still create
+  one, though: training a never-seen item makes `saveLevel` materialise a
+  fresh record (`box: 1`, due today), the same as if the item had appeared
+  once and not yet been reviewed. See `study-algorithm.md`.
 
 Items for deleted cards are pruned on the next save. A missing item simply means
 a word that has never been studied.

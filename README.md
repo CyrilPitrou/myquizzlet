@@ -99,18 +99,20 @@ Same app either way.
 
 ## Everyday use
 
-**Make a list.** Home → *New list*. Give it a name and, optionally, the two
-languages. They are optional, and used to tune how accents are handled when
-grading typed answers.
+**Make a list.** The **＋** in the header. Give it a name and, optionally, the
+two column labels (Spanish, French, or whatever the two sides are). The
+languages are derived from those labels, and used to tune how accents are
+handled when grading typed answers.
 
 **Add words.** Three ways, use whichever suits the moment:
 
-- Type them one at a time in the list screen. Best for the word you met an hour ago.
+- Type them one at a time behind the list screen's **⋮ → Edit cards**. Best
+  for the word you met an hour ago.
 - Import a CSV: one row per card, first column the front, second the back.
 - Edit `data/lists/<name>.json` directly on github.com or in a text editor. The
   app picks up the change on its next pull. Best for bulk work.
 
-**Study.** Home → *Study*. Pick a mode:
+**Study.** Home → *Test*. Pick a mode:
 
 - **Flashcards** — see one side, reveal the other, say whether you knew it.
 - **Write** — type the answer. Grading forgives case, accents, spacing, a leading

@@ -65,7 +65,7 @@ function queueFor(listId, free) {
 function startSession(listId, free = setup.free) {
   const queue = queueFor(listId, free);
   if (queue.length === 0) {
-    if (free) return;   // free review and still nothing to show — an empty list
+    if (free) return alert('This list has no cards yet.');
     const ok = confirm('Nothing is due in this list right now. Practise the whole list '
       + 'anyway? This will not affect your schedule.');
     if (!ok) return;
