@@ -40,9 +40,18 @@ stats.js    pure. The numbers on a list: learned %, right %, due.
 train.js    pure. Training batches: pickBatch, choices, the two-rung queue.
 listform.js the name/folder/label/language fields shared by editlist and
             the CSV import in cards.
+qr.js       pure. `encode(text) -> boolean[][]`, a QR matrix: byte mode, error
+            correction level L, versions 1–13. It exists because no
+            third-party generator may ever see a token and the payload is
+            dynamic, so a committed image cannot serve. Tested module for
+            module against fixtures from `qrencode`; see
+            `test/fixtures/generate-qr-fixtures.mjs`.
+setup.js    pure. The setup link and everything else derived from a token:
+            building the link a QR carries, reading one back from a scan or
+            a paste, masking a token for display, and how long one has left.
 screens/    one file per screen — lists, list, cards, view, train, test,
-            folders, editlist, settings, help — each exporting a `show*`
-            function that renders into `screen()`.
+            folders, editlist, adopt, settings, help — each exporting a
+            `show*` function that renders into `screen()`.
 ```
 
 The dependency direction is one-way: screens use the pure modules and

@@ -59,4 +59,15 @@ export function showHelp() {
     p(['Note the total counts both directions, so if you only ever study one '
       + 'direction, learned % stops at 50%.']),
   ]));
+
+  view.append(section('Adding another device', [
+    p(['Settings → ', b('Add a device'), ' shows two codes. Point the new phone at '
+      + 'the first to open the app, and at the second to make it a token of its own. '
+      + 'That is the safe route: the new token can be revoked on its own.']),
+    p(['The ', b('Show token QR'), ' button below them is the shortcut — it hands this '
+      + 'device’s token over instead. Both devices then share one token, so revoking '
+      + 'it cuts off both, and the code is on screen while you scan it. The other '
+      + 'device always asks before it saves anything.']),
+    p(['A device you only study on needs no token at all.']),
+  ]));
 }
