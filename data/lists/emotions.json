@@ -3,6 +3,292 @@
   "name": "Emotions",
   "frontLang": null,
   "backLang": null,
-  "cards": [],
-  "updatedAt": "2026-09-02T07:12:12.553Z"
+  "cards": [
+    {
+      "id": "pcthxd",
+      "front": "downcast",
+      "back": "découragé"
+    },
+    {
+      "id": "nlr3g0",
+      "front": "downcast",
+      "back": "abattu"
+    },
+    {
+      "id": "z18zbp",
+      "front": "dispirited",
+      "back": "découragé"
+    },
+    {
+      "id": "qq5cwm",
+      "front": "dispirited",
+      "back": "abattu"
+    },
+    {
+      "id": "pypsx4",
+      "front": "sulk",
+      "back": "maussade"
+    },
+    {
+      "id": "obgr9c",
+      "front": "sulk",
+      "back": "boudeur (renfrogné)"
+    },
+    {
+      "id": "jrv1n3",
+      "front": "sullen",
+      "back": "maussade"
+    },
+    {
+      "id": "058r41",
+      "front": "sullen",
+      "back": "boudeur (renfrogné)"
+    },
+    {
+      "id": "986ej2",
+      "front": "dismayed",
+      "back": "consterné"
+    },
+    {
+      "id": "cy4y7g",
+      "front": "flabbergasted",
+      "back": "époustouflé"
+    },
+    {
+      "id": "48frlc",
+      "front": "flabbergasted",
+      "back": "sidéré"
+    },
+    {
+      "id": "qnf34c",
+      "front": "glee",
+      "back": "la joie"
+    },
+    {
+      "id": "2xn12x",
+      "front": "mirth",
+      "back": "la joie"
+    },
+    {
+      "id": "juw21p",
+      "front": "the sorrow",
+      "back": "le chagrin"
+    },
+    {
+      "id": "t1kdux",
+      "front": "beaming",
+      "back": "radieux"
+    },
+    {
+      "id": "gawbr0",
+      "front": "astonished",
+      "back": "stupéfait"
+    },
+    {
+      "id": "8bgybi",
+      "front": "gloomy",
+      "back": "triste"
+    },
+    {
+      "id": "10lr3o",
+      "front": "gloomy",
+      "back": "couvert"
+    },
+    {
+      "id": "1p1mbx",
+      "front": "to grieve at sth",
+      "back": "avoir du chagrin pour"
+    },
+    {
+      "id": "mpj231",
+      "front": "to have a nasty temper",
+      "back": "avoir un sale caractère"
+    },
+    {
+      "id": "n5vmur",
+      "front": "to burst out laughing",
+      "back": "exploser de rire"
+    },
+    {
+      "id": "obk1y9",
+      "front": "to be appalled",
+      "back": "être consterné"
+    },
+    {
+      "id": "qm0a5i",
+      "front": "to be appalled",
+      "back": "épouvanté"
+    },
+    {
+      "id": "jwxz9n",
+      "front": "to grin at",
+      "back": "faire un grand sourire à"
+    },
+    {
+      "id": "7orvlo",
+      "front": "to whine",
+      "back": "gémir"
+    },
+    {
+      "id": "zpbfqv",
+      "front": "wail",
+      "back": "gémir"
+    },
+    {
+      "id": "6k07ns",
+      "front": "dejected",
+      "back": "déprimé"
+    },
+    {
+      "id": "urs37k",
+      "front": "depressed",
+      "back": "déprimé"
+    },
+    {
+      "id": "ehy9bj",
+      "front": "to be saddened by",
+      "back": "être attrisé par"
+    },
+    {
+      "id": "4ytyzk",
+      "front": "to shudder",
+      "back": "frissonner (peur)"
+    },
+    {
+      "id": "881620",
+      "front": "in a frenzy of anger",
+      "back": "dans un accès de colère"
+    },
+    {
+      "id": "76qtv1",
+      "front": "to be carried away by enthusiasm",
+      "back": "être transporté d'enthousiasme"
+    },
+    {
+      "id": "64k2i1",
+      "front": "a very moody person",
+      "back": "une personne d'humeur changeante"
+    },
+    {
+      "id": "zvpx8j",
+      "front": "to move sb deeply",
+      "back": "émouvoir profondément qqn"
+    },
+    {
+      "id": "etcik8",
+      "front": "an unrequited love",
+      "back": "un amour non réciproque"
+    },
+    {
+      "id": "65mz5w",
+      "front": "to dote on sb",
+      "back": "être fou de qqn"
+    },
+    {
+      "id": "bvw1hv",
+      "front": "to be partial to sth",
+      "back": "avoir un faible pour qqch"
+    },
+    {
+      "id": "ceeh48",
+      "front": "to yearn for sth",
+      "back": "avoir la nostalgie de qqch"
+    },
+    {
+      "id": "iptk5a",
+      "front": "a dreary life",
+      "back": "une vie monotone"
+    },
+    {
+      "id": "hqat6y",
+      "front": "to thrill at a tale",
+      "back": "vibrer en entendant une histoire"
+    },
+    {
+      "id": "i6xe1k",
+      "front": "a worrisome affair",
+      "back": "une affaire préoccupante"
+    },
+    {
+      "id": "z168wq",
+      "front": "a wretched person",
+      "back": "une personne misérable"
+    },
+    {
+      "id": "jwsmv4",
+      "front": "to be nonplussed by sth",
+      "back": "être dérouté par qqch"
+    },
+    {
+      "id": "mvl4hn",
+      "front": "stupendous sums of money",
+      "back": "de prodigieuses sommes d'argent"
+    },
+    {
+      "id": "kqe9xe",
+      "front": "the scourge of war",
+      "back": "le fléau de la guerre"
+    },
+    {
+      "id": "doh1v2",
+      "front": "a horrendous murder",
+      "back": "un meurtre horrible"
+    },
+    {
+      "id": "nfaznl",
+      "front": "to feel downcast",
+      "back": "se sentir démoralisé"
+    },
+    {
+      "id": "n200b0",
+      "front": "to be dazed at sth",
+      "back": "être abasourdi par qqch"
+    },
+    {
+      "id": "xbypi9",
+      "front": "to cross sb",
+      "back": "mettre qqn en colère"
+    },
+    {
+      "id": "cw90ht",
+      "front": "to feel a deep agony at sth",
+      "back": "sentir une grande souffrance face à"
+    },
+    {
+      "id": "3clozu",
+      "front": "despair",
+      "back": "désespoir"
+    },
+    {
+      "id": "piplyv",
+      "front": "to break down and cry",
+      "back": "craquer"
+    },
+    {
+      "id": "0e5h57",
+      "front": "to break down and cry",
+      "back": "s'effondrer et pleurer"
+    },
+    {
+      "id": "a3pyvr",
+      "front": "to fret about sth",
+      "back": "se faire du souci pour"
+    },
+    {
+      "id": "xrnobh",
+      "front": "startling news",
+      "back": "des nouvelles surprenantes"
+    },
+    {
+      "id": "bupvb8",
+      "front": "to be overcome with joy",
+      "back": "être bouleversé de joie"
+    },
+    {
+      "id": "phr2l7",
+      "front": "he became a craze",
+      "back": "il devint un engouement"
+    }
+  ],
+  "updatedAt": "2026-09-02T07:12:24.191Z"
 }
