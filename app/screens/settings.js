@@ -1,8 +1,8 @@
 import { el, clear } from '../ui.js';
-import { store, settings, saveSettings, REPO, screen, ctx } from '../app.js';
+import { store, settings, saveSettings, REPO, screen, ctx, todayStr } from '../app.js';
 import { setStatus, statusLine } from '../status.js';
 import { encode } from '../qr.js';
-import { APP_URL, TOKEN_PAGE, setupLink } from '../setup.js';
+import { APP_URL, TOKEN_PAGE, setupLink, parseSetup, expiryWarning } from '../setup.js';
 
 const THEMES = [{ id: 'paper', name: 'Paper' }, { id: 'study', name: 'Study' },
                 { id: 'focus', name: 'Focus' }];
@@ -143,16 +143,33 @@ export function showSettings() {
     ]),
   ]));
 
-  const token = el('input', { type: 'password', value: current.token || '', placeholder: 'github_pat_…' });
+  const token = el('input', { type: 'password', value: current.token || '',
+    placeholder: 'github_pat_… or a setup link' });
   const expiry = el('input', { type: 'date', value: current.tokenExpiry || '' });
+  const problem = el('p', { class: 'muted' });
+  const warning = expiryWarning(current.tokenExpiry, todayStr());
+
   view.append(section('GitHub token', [
     el('p', { class: 'muted', text: 'Needed only to save changes. Studying works without one.' }),
-    el('label', { class: 'field' }, ['Token', token]),
+    ...(warning ? [el('p', { class: 'warn', text: warning })] : []),
+    el('label', { class: 'field' }, ['Token, or a setup link from another device', token]),
     el('label', { class: 'field' }, ['Expires on (from the GitHub page)', expiry]),
+    problem,
     el('button', {
       class: 'primary', text: 'Save token',
       onclick: () => {
-        saveSettings({ ...settings(), token: token.value.trim(), tokenExpiry: expiry.value || null });
+        const typed = token.value.trim();
+        if (!typed) {
+          saveSettings({ ...settings(), token: '', tokenExpiry: null });
+        } else {
+          const found = parseSetup(typed);
+          if (!found) {
+            problem.textContent = 'That is neither a token nor a setup link.';
+            return;
+          }
+          saveSettings({ ...settings(), token: found.token,
+            tokenExpiry: found.expiry || expiry.value || null });
+        }
         ctx.initSync();
         ctx.render();
       },

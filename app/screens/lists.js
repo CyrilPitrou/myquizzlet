@@ -2,6 +2,7 @@ import { el } from '../ui.js';
 import { store, screen, todayStr, settings } from '../app.js';
 import { recency } from '../store.js';
 import { listStats } from '../stats.js';
+import { expiryWarning } from '../setup.js';
 
 function statsLine(stats) {
   const learned = el('span', {}, [
@@ -30,22 +31,13 @@ function listRow(id) {
   ]);
 }
 
-function tokenWarning() {
-  const { tokenExpiry } = settings();
-  if (!tokenExpiry) return null;
-  const days = Math.round((new Date(tokenExpiry) - new Date()) / 86400000);
-  if (days > 14) return null;
-  return el('p', { class: 'warn' }, [
-    days < 0 ? 'Your GitHub token has expired — changes are not being saved. '
-             : `Your GitHub token expires in ${days} day(s). `,
-    el('a', { href: '#/settings', text: 'Renew it' }),
-  ]);
-}
-
 export function showLists() {
   const view = screen();
-  const warning = tokenWarning();
-  if (warning) view.append(warning);
+  const expiring = expiryWarning(settings().tokenExpiry, todayStr());
+  if (expiring) {
+    view.append(el('p', { class: 'warn' }, [`${expiring} `,
+      el('a', { href: '#/settings', text: 'Replace it' })]));
+  }
 
   const ids = store.listIds().slice().sort((a, b) => {
     const at = recency({ list: store.getList(a), progress: store.getProgress(a) });
