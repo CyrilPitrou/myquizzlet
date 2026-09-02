@@ -1,13 +1,5 @@
 {
   "listId": "mytestlist",
-  "updatedAt": "2026-09-02T06:52:05.287Z",
-  "items": {
-    "forubd:f2b": {
-      "box": 2,
-      "due": "2026-09-05",
-      "seen": 1,
-      "lapses": 0,
-      "lastSeen": "2026-09-02T06:52:05.286Z"
-    }
-  }
+  "updatedAt": "2026-09-02T07:57:06.780Z",
+  "items": {}
 }
