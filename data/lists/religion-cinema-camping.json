@@ -1,0 +1,209 @@
+{
+  "id": "religion-cinema-camping",
+  "name": "Religion/ cinéma/ camping",
+  "frontLang": null,
+  "backLang": null,
+  "cards": [
+    {
+      "id": "nr785x",
+      "front": "faith",
+      "back": "la foi"
+    },
+    {
+      "id": "i72cvi",
+      "front": "angel",
+      "back": "un ange"
+    },
+    {
+      "id": "khd6v7",
+      "front": "gospel",
+      "back": "un évangile"
+    },
+    {
+      "id": "2m0wnn",
+      "front": "heaven",
+      "back": "le paradis"
+    },
+    {
+      "id": "49b1jm",
+      "front": "hell",
+      "back": "l'enfer (m)"
+    },
+    {
+      "id": "2plqto",
+      "front": "holy",
+      "back": "saint,sacré"
+    },
+    {
+      "id": "ipgjgk",
+      "front": "prayer",
+      "back": "une prière"
+    },
+    {
+      "id": "ze2mnk",
+      "front": "priest",
+      "back": "un prêtre"
+    },
+    {
+      "id": "216gle",
+      "front": "sacrament",
+      "back": "un sacrement"
+    },
+    {
+      "id": "kg47mj",
+      "front": "salvation",
+      "back": "le salut"
+    },
+    {
+      "id": "p6n6gx",
+      "front": "sin",
+      "back": "péché"
+    },
+    {
+      "id": "9tcznv",
+      "front": "a blessing in disguise",
+      "back": "un mal pour un bien"
+    },
+    {
+      "id": "w638pq",
+      "front": "and God knows what",
+      "back": "Dieu sait quoi"
+    },
+    {
+      "id": "iwf4pf",
+      "front": "to move heaven and earth",
+      "back": "remuer ciel et terre"
+    },
+    {
+      "id": "f2jvcu",
+      "front": "make-up artist",
+      "back": "un maquilleur"
+    },
+    {
+      "id": "9ekk5p",
+      "front": "screenwriter",
+      "back": "un scénariste"
+    },
+    {
+      "id": "bma6hr",
+      "front": "stunt",
+      "back": "un cascadeur"
+    },
+    {
+      "id": "5lg7uv",
+      "front": "biopic",
+      "back": "un film biographique"
+    },
+    {
+      "id": "kc7w8n",
+      "front": "disaster film",
+      "back": "film catastrophe"
+    },
+    {
+      "id": "us71c8",
+      "front": "musical",
+      "back": "une comédie musicale"
+    },
+    {
+      "id": "tunfet",
+      "front": "short-film",
+      "back": "un court métrage"
+    },
+    {
+      "id": "ttj7qd",
+      "front": "crane",
+      "back": "grue"
+    },
+    {
+      "id": "45qq8w",
+      "front": "lens",
+      "back": "un objectif"
+    },
+    {
+      "id": "e6h3zu",
+      "front": "prop",
+      "back": "un accessoire"
+    },
+    {
+      "id": "8co3f2",
+      "front": "set",
+      "back": "le décor"
+    },
+    {
+      "id": "d4p42f",
+      "front": "to be in a film",
+      "back": "jouer dans un film"
+    },
+    {
+      "id": "l0666z",
+      "front": "it's a wrap!",
+      "back": "c'est dans la boite!"
+    },
+    {
+      "id": "woie8y",
+      "front": "to be in the limelight",
+      "back": "être sous le feu des projecteurs"
+    },
+    {
+      "id": "mvveuq",
+      "front": "camping stove",
+      "back": "un réchaud de camping"
+    },
+    {
+      "id": "b20yru",
+      "front": "cooler",
+      "back": "une glacière"
+    },
+    {
+      "id": "gshksr",
+      "front": "hammock",
+      "back": "un hamac"
+    },
+    {
+      "id": "cq5zc9",
+      "front": "stargazing",
+      "back": "observation des étoiles"
+    },
+    {
+      "id": "m3cx2z",
+      "front": "wildlife spotting",
+      "back": "observation de la faune"
+    },
+    {
+      "id": "2jc5m0",
+      "front": "flora",
+      "back": "flore"
+    },
+    {
+      "id": "fpz86h",
+      "front": "meadow",
+      "back": "une prairie"
+    },
+    {
+      "id": "uwo1h4",
+      "front": "to paddle",
+      "back": "pagayer"
+    },
+    {
+      "id": "oc4j5t",
+      "front": "to roast",
+      "back": "rôtir"
+    },
+    {
+      "id": "ivy1mb",
+      "front": "to set up",
+      "back": "installer"
+    },
+    {
+      "id": "gm496v",
+      "front": "can't see the forest for the trees",
+      "back": "ne pas voir plus loin que le bout de son nez"
+    },
+    {
+      "id": "hvnee6",
+      "front": "hit the trail",
+      "back": "se mettre en route"
+    }
+  ],
+  "updatedAt": "2026-09-02T07:54:56.112Z"
+}
