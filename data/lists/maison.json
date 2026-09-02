@@ -1,0 +1,204 @@
+{
+  "id": "maison",
+  "name": "Maison",
+  "frontLang": null,
+  "backLang": null,
+  "cards": [
+    {
+      "id": "vqi6qa",
+      "front": "remote control",
+      "back": "télécommande"
+    },
+    {
+      "id": "6s8xh2",
+      "front": "coffee table",
+      "back": "table basse"
+    },
+    {
+      "id": "2i320q",
+      "front": "armchair",
+      "back": "fauteuil"
+    },
+    {
+      "id": "b1s33j",
+      "front": "a blind",
+      "back": "un store"
+    },
+    {
+      "id": "vrrb79",
+      "front": "a photoframe",
+      "back": "un cadre photo"
+    },
+    {
+      "id": "rgg151",
+      "front": "a freezer",
+      "back": "un congélateur"
+    },
+    {
+      "id": "waslpf",
+      "front": "a kettle",
+      "back": "une bouilloire"
+    },
+    {
+      "id": "nfgf4d",
+      "front": "a saucepan",
+      "back": "une casserole"
+    },
+    {
+      "id": "8ax898",
+      "front": "a frying pan",
+      "back": "une poêle"
+    },
+    {
+      "id": "8bypuu",
+      "front": "a colander/strainer",
+      "back": "une passoire"
+    },
+    {
+      "id": "dxshgj",
+      "front": "a chopping board/cutting board",
+      "back": "une planche à découper"
+    },
+    {
+      "id": "o9rinu",
+      "front": "a corkscrew",
+      "back": "un tire-bouchon"
+    },
+    {
+      "id": "tihzii",
+      "front": "an eggcup",
+      "back": "un coquetier"
+    },
+    {
+      "id": "wkh8h6",
+      "front": "a lid",
+      "back": "un couvercle"
+    },
+    {
+      "id": "16mqh9",
+      "front": "coffee maker",
+      "back": "cafetière"
+    },
+    {
+      "id": "b4y4ze",
+      "front": "a peeler",
+      "back": "un éplucheur/un économe"
+    },
+    {
+      "id": "rgxjgc",
+      "front": "a whisk",
+      "back": "un fouet"
+    },
+    {
+      "id": "fyyyj7",
+      "front": "a mould",
+      "back": "un moule"
+    },
+    {
+      "id": "kly651",
+      "front": "conditioner",
+      "back": "après shampoing"
+    },
+    {
+      "id": "m2tsum",
+      "front": "shower head",
+      "back": "pommeau de douche"
+    },
+    {
+      "id": "d8iid3",
+      "front": "razor/shaver",
+      "back": "rasoir"
+    },
+    {
+      "id": "egltpt",
+      "front": "bath mat",
+      "back": "tapis de bain"
+    },
+    {
+      "id": "4dn7ar",
+      "front": "shower curtain",
+      "back": "rideau de douche"
+    },
+    {
+      "id": "nh0shi",
+      "front": "hair clip",
+      "back": "barette"
+    },
+    {
+      "id": "0iu56q",
+      "front": "a hairstyle/hairdo",
+      "back": "une coiffure"
+    },
+    {
+      "id": "d2cjtg",
+      "front": "nail clippers",
+      "back": "pince à ongles"
+    },
+    {
+      "id": "oetxqp",
+      "front": "sheet",
+      "back": "drap"
+    },
+    {
+      "id": "uz28lo",
+      "front": "fitted sheet",
+      "back": "drap housse"
+    },
+    {
+      "id": "bhzxjb",
+      "front": "mattress",
+      "back": "matelas"
+    },
+    {
+      "id": "67s0aq",
+      "front": "bolster",
+      "back": "traversin"
+    },
+    {
+      "id": "16baab",
+      "front": "hammock",
+      "back": "hamac"
+    },
+    {
+      "id": "n5wobs",
+      "front": "pillowcase",
+      "back": "taie d'oreiller"
+    },
+    {
+      "id": "i8lwgl",
+      "front": "bunk beds",
+      "back": "lits superposés"
+    },
+    {
+      "id": "672h6x",
+      "front": "quilt/duvet",
+      "back": "couette"
+    },
+    {
+      "id": "8zswqa",
+      "front": "blanket",
+      "back": "couverture"
+    },
+    {
+      "id": "gl4ps7",
+      "front": "bulb",
+      "back": "ampoule"
+    },
+    {
+      "id": "d4aouc",
+      "front": "bedside table",
+      "back": "table de chevet"
+    },
+    {
+      "id": "0gqv7x",
+      "front": "coat hanger/clothes hanger",
+      "back": "cintre"
+    },
+    {
+      "id": "0riowa",
+      "front": "threshold",
+      "back": "le seuil"
+    }
+  ],
+  "updatedAt": "2026-09-02T07:21:56.582Z"
+}
