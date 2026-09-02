@@ -1,0 +1,304 @@
+{
+  "id": "nature",
+  "name": "Nature",
+  "frontLang": null,
+  "backLang": null,
+  "cards": [
+    {
+      "id": "i87xn3",
+      "front": "an acorn",
+      "back": "un gland de chêne"
+    },
+    {
+      "id": "v3d4ho",
+      "front": "a blade of grass",
+      "back": "un brin d'herbe"
+    },
+    {
+      "id": "uj7hh0",
+      "front": "a cave",
+      "back": "une grotte"
+    },
+    {
+      "id": "u1hx26",
+      "front": "a drought",
+      "back": "une sécheresse"
+    },
+    {
+      "id": "gwl5b1",
+      "front": "an earthquake",
+      "back": "un tremblement de terre"
+    },
+    {
+      "id": "dctdyk",
+      "front": "a fern",
+      "back": "une fougère"
+    },
+    {
+      "id": "3n1sr6",
+      "front": "flood",
+      "back": "inondation"
+    },
+    {
+      "id": "lxugrf",
+      "front": "the food chain",
+      "back": "la chaîne alimentaire"
+    },
+    {
+      "id": "iuhoor",
+      "front": "the monsoon",
+      "back": "la mousson"
+    },
+    {
+      "id": "25p7as",
+      "front": "a hurricane",
+      "back": "un cyclone"
+    },
+    {
+      "id": "eu6j5l",
+      "front": "a clump of grass",
+      "back": "une touffe d'herbe"
+    },
+    {
+      "id": "vdw93q",
+      "front": "a quicksand",
+      "back": "sables mouvants"
+    },
+    {
+      "id": "el2pdw",
+      "front": "a marsh/swamp",
+      "back": "un marais"
+    },
+    {
+      "id": "6k3w2o",
+      "front": "a cliff",
+      "back": "une falaise"
+    },
+    {
+      "id": "qda3dg",
+      "front": "the sap",
+      "back": "la sève"
+    },
+    {
+      "id": "3pbw1l",
+      "front": "the bark",
+      "back": "l'écorce"
+    },
+    {
+      "id": "md19kg",
+      "front": "a trunk",
+      "back": "un tronc"
+    },
+    {
+      "id": "r5emzm",
+      "front": "the savannah",
+      "back": "la savane"
+    },
+    {
+      "id": "l1sc1x",
+      "front": "a fir tree",
+      "back": "un sapin"
+    },
+    {
+      "id": "7tpo0n",
+      "front": "a pine tree",
+      "back": "un pin"
+    },
+    {
+      "id": "6iqtgs",
+      "front": "a grove",
+      "back": "un bosquet"
+    },
+    {
+      "id": "pce1ck",
+      "front": "an eclipse",
+      "back": "une éclipse"
+    },
+    {
+      "id": "l8te1e",
+      "front": "northern lights",
+      "back": "aurore boréale"
+    },
+    {
+      "id": "kdyhe4",
+      "front": "the tide",
+      "back": "la marée"
+    },
+    {
+      "id": "re7ibk",
+      "front": "the steam",
+      "back": "la vapeur"
+    },
+    {
+      "id": "wg5p8y",
+      "front": "foggy/misty/hazy",
+      "back": "brumeux"
+    },
+    {
+      "id": "7kf79t",
+      "front": "twilight/dusk",
+      "back": "le crépuscule"
+    },
+    {
+      "id": "xyplkx",
+      "front": "a gust of wind",
+      "back": "une bourrasque"
+    },
+    {
+      "id": "2jf04j",
+      "front": "an oil spill/a black tide",
+      "back": "une marée noire"
+    },
+    {
+      "id": "ko1zgv",
+      "front": "a poacher",
+      "back": "un braconnier"
+    },
+    {
+      "id": "syuipz",
+      "front": "greenhouse effect",
+      "back": "effet de serre"
+    },
+    {
+      "id": "axebzo",
+      "front": "ivy",
+      "back": "lierre"
+    },
+    {
+      "id": "7o4xk7",
+      "front": "a citrus fruit",
+      "back": "un agrume"
+    },
+    {
+      "id": "d7c1fc",
+      "front": "a fruit stall",
+      "back": "un étal de fruits"
+    },
+    {
+      "id": "0cl3cq",
+      "front": "a lychee",
+      "back": "un litchi"
+    },
+    {
+      "id": "neob0s",
+      "front": "a dried fruit",
+      "back": "un fruit séché"
+    },
+    {
+      "id": "eeje4t",
+      "front": "a grapefruit",
+      "back": "un pamplemousse"
+    },
+    {
+      "id": "h4uy2f",
+      "front": "a grape seed",
+      "back": "un pépin de raisin"
+    },
+    {
+      "id": "k7k5a9",
+      "front": "an orchard",
+      "back": "un verger"
+    },
+    {
+      "id": "vbztva",
+      "front": "a plum",
+      "back": "une prune"
+    },
+    {
+      "id": "uds2e5",
+      "front": "ripe",
+      "back": "mûr"
+    },
+    {
+      "id": "qyj4y4",
+      "front": "soy",
+      "back": "soja"
+    },
+    {
+      "id": "olafim",
+      "front": "organic",
+      "back": "bio"
+    },
+    {
+      "id": "dj1oip",
+      "front": "rotten",
+      "back": "pourri"
+    },
+    {
+      "id": "y6g5lz",
+      "front": "a ear of corn",
+      "back": "un épis de maïs"
+    },
+    {
+      "id": "stlzg5",
+      "front": "a turnip",
+      "back": "un navet"
+    },
+    {
+      "id": "q8st7c",
+      "front": "seedless",
+      "back": "sans pépin"
+    },
+    {
+      "id": "idlued",
+      "front": "a leek",
+      "back": "un poireau"
+    },
+    {
+      "id": "zkp12p",
+      "front": "an eggplant",
+      "back": "une aubergine"
+    },
+    {
+      "id": "kji44b",
+      "front": "sparkling/fizzy water",
+      "back": "eau gazeuse"
+    },
+    {
+      "id": "jilzup",
+      "front": "icing",
+      "back": "glaçage"
+    },
+    {
+      "id": "l2qlsc",
+      "front": "custard",
+      "back": "crème anglaise"
+    },
+    {
+      "id": "1q9t9m",
+      "front": "squid",
+      "back": "calamar"
+    },
+    {
+      "id": "w6y36l",
+      "front": "fish bone",
+      "back": "arête"
+    },
+    {
+      "id": "5szpmr",
+      "front": "octopus",
+      "back": "poulpe"
+    },
+    {
+      "id": "7tsn9n",
+      "front": "zucchini",
+      "back": "courgette"
+    },
+    {
+      "id": "nfrwhd",
+      "front": "chickpeas",
+      "back": "pois chiches"
+    },
+    {
+      "id": "33sw2u",
+      "front": "the remains",
+      "back": "les restes"
+    },
+    {
+      "id": "fgw52f",
+      "front": "a pod",
+      "back": "une cosse"
+    }
+  ],
+  "updatedAt": "2026-09-02T07:19:49.341Z"
+}
