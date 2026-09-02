@@ -3,7 +3,9 @@ import { screen, settings, saveSettings, go, ctx, REPO } from '../app.js';
 import { parseSetup, maskToken } from '../setup.js';
 
 // The token is in the fragment, which main.js has already cut the query off
-// of, so read it from the address bar directly.
+// of, so read it from the address bar directly. Strip it immediately, once,
+// on arrival — not per button — so it never sits in the address bar or in
+// history waiting for a nav link or a Back press to bring it back.
 function answered() {
   history.replaceState(null, '', `${location.pathname}${location.search}#/adopt`);
 }
@@ -16,6 +18,7 @@ export function showAdopt() {
   // a bare '#/adopt' with no query at all — must read as "no token", not
   // as a token equal to the fragment text itself.
   const found = location.hash.startsWith('#/adopt?') ? parseSetup(location.hash) : null;
+  answered();   // the token lives in `found` now; it need not stay in the URL
 
   view.append(el('h2', { text: 'Add this device?' }));
 
@@ -24,8 +27,7 @@ export function showAdopt() {
     view.append(el('p', { class: 'muted',
       text: 'Scan the code again, or paste the token by hand in Settings.' }));
     view.append(el('div', { class: 'actions' }, [
-      el('a', { class: 'btn primary', href: '#/settings', text: 'Open Settings',
-        onclick: answered }),
+      el('a', { class: 'btn primary', href: '#/settings', text: 'Open Settings' }),
     ]));
     return;
   }
@@ -46,7 +48,6 @@ export function showAdopt() {
     el('button', {
       class: 'primary', text: 'Save it on this device',
       onclick: () => {
-        answered();
         saveSettings({ ...settings(), token, tokenExpiry: expiry });
         ctx.initSync();
         go('#/settings');
@@ -55,7 +56,6 @@ export function showAdopt() {
     el('button', {
       text: 'No thanks',
       onclick: () => {
-        answered();
         go('#/');
       },
     }),

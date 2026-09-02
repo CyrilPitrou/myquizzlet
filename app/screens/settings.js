@@ -80,12 +80,16 @@ function tokenQr(current) {
 
   const reveal = () => {
     const link = setupLink({ token: current.token, expiry: current.tokenExpiry || null });
+    // Built before clear(box): encode() can throw on an oversized payload,
+    // and if it does the box must be left with its "Show token QR" button
+    // still standing, not a bare heading with no way back.
+    const card = qrCard(link, 'Opens the app and asks before saving',
+      'A QR code carrying this device’s token');
     const timer = setTimeout(() => { if (box.isConnected) show(); }, SHOW_FOR);
 
     clear(box);
     box.append(el('h4', { text: 'Scan this on the other device' }));
-    box.append(qrCard(link, 'Opens the app and asks before saving',
-      'A QR code carrying this device’s token'));
+    box.append(card);
     box.append(el('p', { class: 'muted', text: 'The other device will ask you to confirm '
       + 'before it saves anything. This code hides itself again in a minute.' }));
     box.append(el('button', { text: 'Hide it now',
@@ -146,7 +150,7 @@ export function showSettings() {
   const token = el('input', { type: 'password', value: current.token || '',
     placeholder: 'github_pat_… or a setup link' });
   const expiry = el('input', { type: 'date', value: current.tokenExpiry || '' });
-  const problem = el('p', { class: 'muted' });
+  const problem = el('p', { class: 'warn' });
   const warning = expiryWarning(current.tokenExpiry, todayStr());
 
   view.append(section('GitHub token', [
