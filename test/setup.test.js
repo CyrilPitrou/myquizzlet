@@ -92,6 +92,15 @@ describe('expiryWarning', () => {
     expect(expiryWarning('2026-13-01', '2026-09-02')).toBe(null);
   });
 
+  it('refuses a date JavaScript would silently roll over', () => {
+    expect(expiryWarning('2026-02-30', '2026-09-02')).toBe(null);
+    expect(expiryWarning('2026-02-29', '2026-09-02')).toBe(null); // 2026 is not a leap year
+  });
+
+  it('accepts a real leap day and judges it only by distance', () => {
+    expect(expiryWarning('2028-02-29', '2026-09-02')).toBe(null); // far off, not malformed
+  });
+
   it('warns a fortnight ahead', () => {
     expect(expiryWarning('2026-09-16', '2026-09-02'))
       .toBe('This token expires in 14 days, on 2026-09-16.');

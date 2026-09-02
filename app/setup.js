@@ -44,11 +44,19 @@ export function maskToken(token) {
 
 const DAY = 24 * 60 * 60 * 1000;
 
+// ISO_DATE only checks digit shape; a shaped-but-impossible date like
+// '2026-02-30' still parses, because Date normalizes it (to 2026-03-02)
+// instead of failing. Round-tripping through the parsed UTC date catches
+// both that and outright unparseable input in one check.
+function isValidExpiry(expiry) {
+  const parsed = new Date(`${expiry}T00:00:00Z`);
+  return Number.isFinite(parsed.getTime()) && parsed.toISOString().slice(0, 10) === expiry;
+}
+
 export function expiryWarning(expiry, today) {
-  if (!expiry || !ISO_DATE.test(expiry)) return null;
+  if (!expiry || !ISO_DATE.test(expiry) || !isValidExpiry(expiry)) return null;
   const days = Math.round(
     (Date.parse(`${expiry}T00:00:00Z`) - Date.parse(`${today}T00:00:00Z`)) / DAY);
-  if (!Number.isFinite(days)) return null;
   if (days > 14) return null;
   if (days < 0) {
     return `This token expired on ${expiry}. Changes stay on this device until you replace it.`;
