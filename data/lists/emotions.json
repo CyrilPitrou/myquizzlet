@@ -1,8 +1,8 @@
 {
   "id": "emotions",
   "name": "Emotions",
-  "frontLang": null,
-  "backLang": null,
+  "frontLang": "en",
+  "backLang": "fr",
   "cards": [
     {
       "id": "cs3xqj",
@@ -225,5 +225,8 @@
       "back": "il devint un engouement"
     }
   ],
-  "updatedAt": "2026-09-02T07:17:15.790Z"
+  "updatedAt": "2026-09-02T16:18:33.613Z",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "folder": "English"
 }
