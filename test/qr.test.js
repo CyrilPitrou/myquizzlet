@@ -9,8 +9,8 @@ const { fixtures } = JSON.parse(
 // comparable pictures instead of a wall of booleans.
 const asRows = (matrix) => matrix.map((row) => row.map((dark) => (dark ? '1' : '0')).join(''));
 
-// Task 1 owns versions 1-5. Task 2 deletes this filter.
-const covered = fixtures.filter((fixture) => fixture.version <= 5);
+// Every fixture, versions 1 to 13.
+const covered = fixtures;
 
 describe('encode, against qrencode', () => {
   for (const fixture of covered) {
@@ -23,7 +23,7 @@ describe('encode, against qrencode', () => {
 
   it('covers every version it claims to', () => {
     expect([...new Set(covered.map((f) => f.version))].sort((a, b) => a - b))
-      .toEqual([1, 2, 3, 4, 5]);
+      .toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]);
   });
 
   it('refuses a payload no version 13 symbol can hold', () => {
@@ -35,5 +35,12 @@ describe('encode, against qrencode', () => {
     // and one more character does not.
     expect(encode(`${'é'.repeat(8)}x`).length).toBe(21);
     expect(encode(`${'é'.repeat(9)}x`).length).toBeGreaterThan(21);
+  });
+
+  it('stays inside the size the design budgeted for it', () => {
+    const source = readFileSync(new URL('../app/qr.js', import.meta.url), 'utf8');
+    const code = source.split('\n')
+      .filter((line) => line.trim() && !line.trim().startsWith('//'));
+    expect(code.length).toBeLessThan(320);
   });
 });

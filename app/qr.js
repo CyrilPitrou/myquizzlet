@@ -206,7 +206,26 @@ function functionPatterns(version) {
   }
   set(size - 8, 8, true);     // the dark module, always dark
 
+  if (version >= 7) {
+    const bits = versionBits(version);
+    for (let i = 0; i < 18; i++) {
+      const dark = ((bits >> i) & 1) === 1;
+      const near = size - 11 + (i % 3);
+      const far = Math.floor(i / 3);
+      set(far, near, dark);        // the block beside the top-right finder
+      set(near, far, dark);        // and its transpose, above the bottom-left
+    }
+  }
+
   return { size, modules, reserved };
+}
+
+// 6 bits of version and a 12-bit BCH remainder, placed twice: above the
+// bottom-left finder and to the left of the top-right one.
+function versionBits(version) {
+  let rest = version << 12;
+  for (let i = 17; i >= 12; i--) if ((rest >> i) & 1) rest ^= 0x1f25 << (i - 12);
+  return (version << 12) | rest;
 }
 
 function place(modules, reserved, bytes, version) {
