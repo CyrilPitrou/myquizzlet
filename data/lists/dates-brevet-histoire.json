@@ -3,7 +3,342 @@
   "name": "Dates Brevet Histoire",
   "frontLang": null,
   "backLang": null,
-  "cards": [],
-  "updatedAt": "2026-09-02T16:20:04.470Z",
-  "folder": "History"
+  "cards": [
+    {
+      "id": "c86ndu",
+      "front": "28 juin 1914",
+      "back": "Assassinat de l'archiduc François Ferdinand,héritier du trône d'Autriche par un étudiant serbe"
+    },
+    {
+      "id": "b4kihk",
+      "front": "3 août 1914",
+      "back": "L'Allemagne déclare la guerre à la France"
+    },
+    {
+      "id": "o0nelz",
+      "front": "Novembre 1914",
+      "back": "Début de la guerre de positions (tranchées)"
+    },
+    {
+      "id": "2mbxqp",
+      "front": "Février-décembre 1916",
+      "back": "Bataille de Verdun"
+    },
+    {
+      "id": "6efele",
+      "front": "2 avril 1917",
+      "back": "Entrée en guerre des américains"
+    },
+    {
+      "id": "sns5ks",
+      "front": "Février et octobre 1917",
+      "back": "Révolution bolchevique,Lénine prend le pouvoir en octobre"
+    },
+    {
+      "id": "zolif0",
+      "front": "3 mars 1918",
+      "back": "Traité de Brest-Litovsk"
+    },
+    {
+      "id": "3ufevw",
+      "front": "11 novembre 1918",
+      "back": "Armistice signée à Rethondes (France)"
+    },
+    {
+      "id": "g947hw",
+      "front": "28 juin 1919",
+      "back": "Traité de Versailles"
+    },
+    {
+      "id": "60mg1g",
+      "front": "1918-1921",
+      "back": "Guerre civile en Russie opposant l'armée rouge (Trotski) et l'armée blanche (pays étrangers)"
+    },
+    {
+      "id": "3nw61g",
+      "front": "30 décembre 1922",
+      "back": "Création de l'URSS"
+    },
+    {
+      "id": "ckuko5",
+      "front": "1922 (Italie)",
+      "back": "Mussolini marche sur Rome"
+    },
+    {
+      "id": "z0d17u",
+      "front": "1923 en Allemagne",
+      "back": "Putsch de la brasserie,Hitler et Ludendorff sont jetés en prison"
+    },
+    {
+      "id": "8a3wav",
+      "front": "21 janvier 1924",
+      "back": "mort de Lénine,début de l'ère Staline"
+    },
+    {
+      "id": "tea8fc",
+      "front": "1929",
+      "back": "Krach boursier à Wall Street (crise économique)"
+    },
+    {
+      "id": "duancs",
+      "front": "30 janvier 1933",
+      "back": "Hitler devient chancelier en Allemagne"
+    },
+    {
+      "id": "72wlon",
+      "front": "6 février 1934",
+      "back": "manifestations de ligues d'extrême droite à Paris tournant à l'émeute sanglante"
+    },
+    {
+      "id": "hnuf2p",
+      "front": "1935 et 1938",
+      "back": "lois racistes de Nuremberg en Allemagne"
+    },
+    {
+      "id": "d0z6o3",
+      "front": "6-7 juin 1936",
+      "back": "Accords de Matignon entre les syndicats patronaux et les syndicats ouvriers"
+    },
+    {
+      "id": "7gkd3x",
+      "front": "1936",
+      "back": "Alliance Rome-Berlin entre Mussolini et Hitler"
+    },
+    {
+      "id": "k7lxxb",
+      "front": "1936-1938",
+      "back": "Grandes purges staliniennes en URSS"
+    },
+    {
+      "id": "qluz2l",
+      "front": "1936-1939",
+      "back": "Guerre d'Espagne"
+    },
+    {
+      "id": "xqksb2",
+      "front": "Novembre 1938",
+      "back": "nuit de cristal (magasins pillés,synagogues incendiées)"
+    },
+    {
+      "id": "cjsoep",
+      "front": "1938",
+      "back": "Pacte Antikominterm (Allemagne-Japon)"
+    },
+    {
+      "id": "31fsjy",
+      "front": "Année 1938",
+      "back": "L'Anschluss (l'Autriche rattachée à l'Allemagne) + annexion des sudèdes+ accords de Munich"
+    },
+    {
+      "id": "hbyv9g",
+      "front": "2 septembre 1939",
+      "back": "L'Allemagne envahit la Pologne"
+    },
+    {
+      "id": "38bbq9",
+      "front": "3 septembre 1939",
+      "back": "les démocraties attaquent l'Allemagne"
+    },
+    {
+      "id": "ktjxo4",
+      "front": "10 mai-17 juin 1940",
+      "back": "Campagne de France"
+    },
+    {
+      "id": "3rmvmw",
+      "front": "18 juin 1940",
+      "back": "Appel à la résistance du général de Gaulle depuis Londres"
+    },
+    {
+      "id": "m3ol6s",
+      "front": "22 juin 1940",
+      "back": "Armistice signée à Rethondes"
+    },
+    {
+      "id": "dtlbvd",
+      "front": "30 octobre 1940",
+      "back": "Accords de Montoire"
+    },
+    {
+      "id": "nno76e",
+      "front": "7 décembre 1941",
+      "back": "Attaque japonaise sur Pearl Harbor"
+    },
+    {
+      "id": "elcgsv",
+      "front": "1940-1944",
+      "back": "Régime de Vichy (Pétain au pouvoir)"
+    },
+    {
+      "id": "3gs0jn",
+      "front": "22 juin 1941",
+      "back": "Opération Barbarossa,invasion de l'URSS par l'Allemagne nazie"
+    },
+    {
+      "id": "ckujmi",
+      "front": "1941",
+      "back": "Mise en œuvre de la Solution finale (les camps d'extermination)"
+    },
+    {
+      "id": "c6ahlr",
+      "front": "Juin 1942",
+      "back": "Bataille de Midway (première défaite japonaise)"
+    },
+    {
+      "id": "rcwv2x",
+      "front": "1942",
+      "back": "bataille d'El Alamein"
+    },
+    {
+      "id": "0nn7va",
+      "front": "Janvier-février 1943",
+      "back": "Bataille de Stalingrad"
+    },
+    {
+      "id": "asuagl",
+      "front": "21 avril 1944",
+      "back": "droit de vote pour les femmes"
+    },
+    {
+      "id": "wedvka",
+      "front": "6 juin 1944",
+      "back": "Débarquement allié en Normandie"
+    },
+    {
+      "id": "xvn9wg",
+      "front": "25 août 1944",
+      "back": "libération de Paris"
+    },
+    {
+      "id": "af9uc8",
+      "front": "13 février 1945",
+      "back": "Accords de Yalta (partage du monde)"
+    },
+    {
+      "id": "tebogu",
+      "front": "8 mai 1945",
+      "back": "Capitulation allemande,fin de la guerre en Europe"
+    },
+    {
+      "id": "slvb4d",
+      "front": "26 juin 1945",
+      "back": "Création de l'ONU"
+    },
+    {
+      "id": "q3zgjq",
+      "front": "6 et 9 août 1945",
+      "back": "Bombes atomiques sur Hiroshima et Nagasaki"
+    },
+    {
+      "id": "h3s5mb",
+      "front": "2 septembre 1945",
+      "back": "Capitulation du Japon,fin de la Seconde Guerre mondiale"
+    },
+    {
+      "id": "8q3j78",
+      "front": "1947",
+      "back": "Plan Marshall,début de la Guerre froide"
+    },
+    {
+      "id": "dfnx0c",
+      "front": "15 août 1947",
+      "back": "Indépendance de l'Inde et du Pakistan"
+    },
+    {
+      "id": "1aqhnk",
+      "front": "Juin 1948 à mai 1949",
+      "back": "Blocus de Berlin"
+    },
+    {
+      "id": "o53q3o",
+      "front": "1949",
+      "back": "Création de l'OTAN"
+    },
+    {
+      "id": "9dyy95",
+      "front": "1949 (Allemagne)",
+      "back": "division de l'Allemagne (RFA et RDA)"
+    },
+    {
+      "id": "xbz377",
+      "front": "1951",
+      "back": "Création de la CECA"
+    },
+    {
+      "id": "izse54",
+      "front": "1954",
+      "back": "Défaite française de Diên Biên Phu,indépendance du Vietnam"
+    },
+    {
+      "id": "283t93",
+      "front": "1954-1962",
+      "back": "Guerre d'Algérie"
+    },
+    {
+      "id": "f6k687",
+      "front": "19 mars 1962",
+      "back": "Accords d'Evian (indépendance de l'Algérie)"
+    },
+    {
+      "id": "a1ymow",
+      "front": "1955",
+      "back": "Conférence de Bandung"
+    },
+    {
+      "id": "xtdrj8",
+      "front": "1957",
+      "back": "Traité de Rome,création de la CEE (Communauté économique européenne)"
+    },
+    {
+      "id": "i9p9d8",
+      "front": "13 août 1961",
+      "back": "Construction du mur de la honte (mur de Berlin)"
+    },
+    {
+      "id": "23w5q0",
+      "front": "Octobre 1962",
+      "back": "crise des missiles de Cuba"
+    },
+    {
+      "id": "mw9be9",
+      "front": "Juin 1950-juillet 1953",
+      "back": "Guerre de Corée"
+    },
+    {
+      "id": "zbugr1",
+      "front": "1964-1975",
+      "back": "Guerre du Vietnam"
+    },
+    {
+      "id": "2pbpn5",
+      "front": "Mai 1968",
+      "back": "Printemps de Prague,révolte des étudiants français et ouvriers"
+    },
+    {
+      "id": "esdci2",
+      "front": "1973",
+      "back": "choc pétrolier (fin des trente glorieuses)"
+    },
+    {
+      "id": "8g63je",
+      "front": "9 novembre 1989",
+      "back": "chute du mur de Berlin"
+    },
+    {
+      "id": "ybvxui",
+      "front": "1991",
+      "back": "Éclatement de l'URSS,fin de la Guerre froide"
+    },
+    {
+      "id": "950ept",
+      "front": "1992",
+      "back": "Traité de Maastricht,création de l'Union européenne"
+    },
+    {
+      "id": "g1n4yl",
+      "front": "11 septembre 2001",
+      "back": "Attentats (tours jumelles) aux États-Unis"
+    }
+  ],
+  "updatedAt": "2026-09-02T07:51:25.180Z"
 }
