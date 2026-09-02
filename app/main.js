@@ -363,8 +363,8 @@ function showSettings() {
 
   const token = el('input', { type: 'password', value: current.token || '', placeholder: 'github_pat_…' });
   const expiry = el('input', { type: 'date', value: current.tokenExpiry || '' });
-  view.append(el('label', {}, ['Token', token]));
-  view.append(el('label', {}, ['Expires on (from the GitHub page)', expiry]));
+  view.append(el('label', { class: 'field' }, ['Token', token]));
+  view.append(el('label', { class: 'field' }, ['Expires on (from the GitHub page)', expiry]));
   view.append(el('button', {
     class: 'primary', text: 'Save',
     onclick: () => {
