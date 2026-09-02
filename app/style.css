@@ -162,3 +162,10 @@ section.sect:last-child { border-bottom: none; }
 .actions .btn { flex: 1; text-align: center; }
 .btn.primary { background: var(--accent); color: var(--surface); border-color: var(--accent); }
 .cards th { text-align: left; color: var(--muted); font-weight: 600; font-size: .85rem; }
+
+.card { border: 1px solid var(--rule); border-radius: 14px; background: var(--surface);
+  padding: 1rem; text-align: center; min-height: 22vh;
+  display: flex; flex-direction: column; justify-content: center; gap: .5rem;
+  cursor: pointer; user-select: none; }
+.card .prompt { margin: 0; }
+.actions.pager button { flex: 1; }
