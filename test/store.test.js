@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { createStore } from '../app/store.js';
+import { createStore, recency } from '../app/store.js';
 
 function fakeStorage() {
   const map = new Map();
@@ -188,5 +188,33 @@ describe('deleting a list', () => {
     const recreated = store.createList({ name: 'Delete me' });
     expect(recreated.id).toBe(list.id);
     expect(store.deletedIds()).not.toContain(list.id);
+  });
+});
+
+describe('recency', () => {
+  const list = { id: 'x', name: 'X', updatedAt: '2026-09-01T09:00:00Z', cards: [] };
+
+  it('is the list timestamp when nothing has been studied', () => {
+    expect(recency({ list, progress: { items: {} } })).toBe('2026-09-01T09:00:00Z');
+  });
+
+  it('is the newest lastSeen when studying is more recent than editing', () => {
+    const progress = { items: {
+      'a:f2b': { lastSeen: '2026-09-02T08:00:00Z' },
+      'a:b2f': { lastSeen: '2026-09-03T07:00:00Z' },
+    } };
+    expect(recency({ list, progress })).toBe('2026-09-03T07:00:00Z');
+  });
+
+  it('is the list timestamp when editing is more recent than studying', () => {
+    const edited = { ...list, updatedAt: '2026-09-05T00:00:00Z' };
+    const progress = { items: { 'a:f2b': { lastSeen: '2026-09-02T08:00:00Z' } } };
+    expect(recency({ list: edited, progress })).toBe('2026-09-05T00:00:00Z');
+  });
+
+  it('tolerates a never-seen item and a missing progress file', () => {
+    const progress = { items: { 'a:f2b': { lastSeen: null } } };
+    expect(recency({ list, progress })).toBe('2026-09-01T09:00:00Z');
+    expect(recency({ list, progress: undefined })).toBe('2026-09-01T09:00:00Z');
   });
 });

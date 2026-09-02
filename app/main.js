@@ -1,5 +1,5 @@
 import { el, clear, $ } from './ui.js';
-import { createStore } from './store.js';
+import { createStore, recency } from './store.js';
 import { parseCards, toCsv } from './csv.js';
 import { buildQueue, newItem, nextItem, parseKey } from './srs.js';
 import { grade } from './grade.js';
@@ -118,7 +118,11 @@ function showHome() {
     }
   }
   view.append(el('h2', { text: 'Lists' }));
-  const ids = store.listIds();
+  const ids = store.listIds().slice().sort((a, b) => {
+    const at = recency({ list: store.getList(a), progress: store.getProgress(a) });
+    const bt = recency({ list: store.getList(b), progress: store.getProgress(b) });
+    return bt.localeCompare(at);   // newest first
+  });
   if (ids.length === 0) {
     view.append(el('p', { class: 'empty', text: 'No lists yet. Create one below.' }));
   }

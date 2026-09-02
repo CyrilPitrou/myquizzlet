@@ -8,6 +8,14 @@ function slugify(name) {
     .replace(/^-|-$/g, '') || 'list';
 }
 
+export function recency({ list, progress }) {
+  let latest = (list && list.updatedAt) || '';
+  for (const item of Object.values((progress && progress.items) || {})) {
+    if (item.lastSeen && item.lastSeen > latest) latest = item.lastSeen;
+  }
+  return latest;
+}
+
 export function createStore(storage, now = () => new Date()) {
   const read = (key, fallback) => {
     const raw = storage.getItem(PREFIX + key);
