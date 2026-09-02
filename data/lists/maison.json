@@ -1,8 +1,8 @@
 {
   "id": "maison",
   "name": "Maison",
-  "frontLang": null,
-  "backLang": null,
+  "frontLang": "en",
+  "backLang": "fr",
   "cards": [
     {
       "id": "vqi6qa",
@@ -200,5 +200,8 @@
       "back": "le seuil"
     }
   ],
-  "updatedAt": "2026-09-02T07:21:56.582Z"
+  "updatedAt": "2026-09-02T16:19:38.976Z",
+  "folder": "English",
+  "frontLabel": "English",
+  "backLabel": "French"
 }
