@@ -3,6 +3,277 @@
   "name": "Ville",
   "frontLang": null,
   "backLang": null,
-  "cards": [],
-  "updatedAt": "2026-09-02T07:04:04.245Z"
+  "cards": [
+    {
+      "id": "1nmo7h",
+      "front": "a bus shelter",
+      "back": "un abribus"
+    },
+    {
+      "id": "1j8j3o",
+      "front": "lively",
+      "back": "animé, vivant"
+    },
+    {
+      "id": "eq66tu",
+      "front": "congested",
+      "back": "embouteillé"
+    },
+    {
+      "id": "ixt60u",
+      "front": "rush hour",
+      "back": "heure de pointe"
+    },
+    {
+      "id": "qpnlua",
+      "front": "the suburbs, outskirts",
+      "back": "la banlieue"
+    },
+    {
+      "id": "s2yn5g",
+      "front": "the tar",
+      "back": "le goudron"
+    },
+    {
+      "id": "keflm4",
+      "front": "dustmen/ collectors",
+      "back": "les éboueurs"
+    },
+    {
+      "id": "ra6idz",
+      "front": "the ramparts",
+      "back": "les ramparts"
+    },
+    {
+      "id": "qghgz2",
+      "front": "an estate agent",
+      "back": "un agent immobilier"
+    },
+    {
+      "id": "5h3zve",
+      "front": "a sharty town/ slum",
+      "back": "bidonville"
+    },
+    {
+      "id": "thh78d",
+      "front": "a gutter",
+      "back": "un caniveau"
+    },
+    {
+      "id": "qu9apj",
+      "front": "a sewer",
+      "back": "un égout"
+    },
+    {
+      "id": "larkhs",
+      "front": "a block",
+      "back": "un pâté de maisons"
+    },
+    {
+      "id": "nq8fbs",
+      "front": "a roundabout",
+      "back": "un rond-point"
+    },
+    {
+      "id": "rq1rih",
+      "front": "a lamppost/ streetlight",
+      "back": "un réverbère"
+    },
+    {
+      "id": "4g9h8d",
+      "front": "a dead end",
+      "back": "une impasse"
+    },
+    {
+      "id": "sp1kl0",
+      "front": "a one-way street",
+      "back": "une rue à sens unique"
+    },
+    {
+      "id": "kmdshw",
+      "front": "a lane/ alley",
+      "back": "une ruelle"
+    },
+    {
+      "id": "xn81it",
+      "front": "a craftsman",
+      "back": "un artisan"
+    },
+    {
+      "id": "kulecs",
+      "front": "a carpenter",
+      "back": "un charpentier"
+    },
+    {
+      "id": "fg8lil",
+      "front": "a crane",
+      "back": "une grue (de chantier)"
+    },
+    {
+      "id": "90phci",
+      "front": "a pulley",
+      "back": "une poulie"
+    },
+    {
+      "id": "sv81sj",
+      "front": "a beam",
+      "back": "une poutre"
+    },
+    {
+      "id": "yikt9x",
+      "front": "a tile",
+      "back": "une tuile"
+    },
+    {
+      "id": "xpav6z",
+      "front": "the eaves",
+      "back": "l'avant toit"
+    },
+    {
+      "id": "hn7qk8",
+      "front": "a mansion",
+      "back": "un hôtel particulier"
+    },
+    {
+      "id": "b5f4ud",
+      "front": "a dwelling",
+      "back": "une habitation"
+    },
+    {
+      "id": "s2ca8i",
+      "front": "a bricklayer",
+      "back": "un(e) maçon(ne)"
+    },
+    {
+      "id": "is2tct",
+      "front": "a hovel",
+      "back": "un taudis"
+    },
+    {
+      "id": "qrflk9",
+      "front": "to shack up",
+      "back": "crécher"
+    },
+    {
+      "id": "v34ray",
+      "front": "to shelter sb",
+      "back": "accueillir, abriter qqn"
+    },
+    {
+      "id": "17cfpo",
+      "front": "jammed",
+      "back": "embouteillé"
+    },
+    {
+      "id": "xihv1b",
+      "front": "secluded",
+      "back": "à l'écart, isolé"
+    },
+    {
+      "id": "44tvu1",
+      "front": "a scaffholding",
+      "back": "un échafaudage"
+    },
+    {
+      "id": "wg359d",
+      "front": "the lead",
+      "back": "le plomb"
+    },
+    {
+      "id": "drc6ud",
+      "front": "a bend",
+      "back": "un virage"
+    },
+    {
+      "id": "il01ec",
+      "front": "to knock sb down",
+      "back": "renverser qqn"
+    },
+    {
+      "id": "psi1x2",
+      "front": "cityscape",
+      "back": "paysage urbain"
+    },
+    {
+      "id": "9x0ja7",
+      "front": "a bedsit/efficiency appartment",
+      "back": "un studio"
+    },
+    {
+      "id": "fhoao2",
+      "front": "a thatched cottage",
+      "back": "une chaumière"
+    },
+    {
+      "id": "lkdx3c",
+      "front": "a pile dwelling",
+      "back": "une maison sur pilotis"
+    },
+    {
+      "id": "51kexg",
+      "front": "snug",
+      "back": "confortable"
+    },
+    {
+      "id": "rwe8mz",
+      "front": "passers-by",
+      "back": "passants"
+    },
+    {
+      "id": "yg84mm",
+      "front": "pedestrian",
+      "back": "piéton"
+    },
+    {
+      "id": "lwcfrk",
+      "front": "mortar",
+      "back": "mortier"
+    },
+    {
+      "id": "f77tmz",
+      "front": "a board/ plank",
+      "back": "une planche"
+    },
+    {
+      "id": "83cas3",
+      "front": "cement",
+      "back": "ciment"
+    },
+    {
+      "id": "hqrtsq",
+      "front": "concrete",
+      "back": "béton"
+    },
+    {
+      "id": "ymx0fq",
+      "front": "plaster",
+      "back": "plâtre"
+    },
+    {
+      "id": "dsrk97",
+      "front": "to pull down",
+      "back": "démolir"
+    },
+    {
+      "id": "3gs2jh",
+      "front": "lay the foundations",
+      "back": "poser les fondations"
+    },
+    {
+      "id": "6tqvmp",
+      "front": "the causeway",
+      "back": "la chaussée"
+    },
+    {
+      "id": "mjm6q3",
+      "front": "the sidewalk/ pavement",
+      "back": "le trottoir"
+    },
+    {
+      "id": "5odw74",
+      "front": "zebra crossing/ pedestrian crossing",
+      "back": "passage piéton"
+    }
+  ],
+  "updatedAt": "2026-09-02T07:11:07.046Z"
 }
