@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { INTERVALS, itemKey, parseKey, newItem, nextItem, dueKeys, buildQueue } from '../app/srs.js';
+import { INTERVALS, itemKey, parseKey, newItem, nextItem, dueKeys, buildQueue, shuffle } from '../app/srs.js';
 
 const TODAY = '2026-09-01';
 const NOW = '2026-09-01T14:03:00Z';
@@ -12,8 +12,9 @@ describe('keys', () => {
 });
 
 describe('newItem', () => {
-  it('starts in box 1, due today, never seen', () => {
-    expect(newItem(TODAY)).toEqual({ box: 1, due: TODAY, seen: 0, lapses: 0, lastSeen: null });
+  it('starts in box 1, due today, never seen, on the first training rung', () => {
+    expect(newItem(TODAY)).toEqual({ box: 1, due: TODAY, seen: 0, lapses: 0,
+                                     lastSeen: null, level: 0 });
   });
 });
 
@@ -119,5 +120,32 @@ describe('buildQueue', () => {
       today: TODAY, limit: 10, includeNew: false, shuffle: noShuffle,
     });
     expect(queue).toEqual([]);
+  });
+});
+
+describe('the training level', () => {
+  it('is carried through a correct answer', () => {
+    const item = { ...newItem(TODAY), level: 1 };
+    expect(nextItem(item, true, TODAY, NOW).level).toBe(1);
+  });
+
+  it('is reset by a wrong answer, wherever the answer came from', () => {
+    const item = { ...newItem(TODAY), level: 1 };
+    expect(nextItem(item, false, TODAY, NOW).level).toBe(0);
+  });
+
+  it('treats an item written before levels existed as rung 0', () => {
+    const legacy = { box: 2, due: TODAY, seen: 3, lapses: 0, lastSeen: NOW };
+    expect(nextItem(legacy, true, TODAY, NOW).level).toBe(0);
+  });
+});
+
+describe('shuffle', () => {
+  it('returns a new array holding the same members', () => {
+    const input = [1, 2, 3, 4, 5];
+    const output = shuffle(input);
+    expect(output).not.toBe(input);
+    expect(output.slice().sort()).toEqual([1, 2, 3, 4, 5]);
+    expect(input).toEqual([1, 2, 3, 4, 5]);   // the input is not disturbed
   });
 });

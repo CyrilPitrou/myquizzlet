@@ -17,7 +17,14 @@
   </script>
 </head>
 <body>
-  <header id="topbar"><h1>MyQuizzlet</h1><a href="#/settings" title="Settings">⚙</a><span id="sync-dot" title="No token — read-only">⊘</span></header>
+  <header id="topbar">
+    <a href="#/new" class="nav icon" title="Create a list" aria-label="Create a list">＋</a>
+    <a href="#/folders" class="nav" title="Folders">Folders</a>
+    <a href="#/" class="nav" title="Lists">Lists</a>
+    <a href="#/settings" class="nav icon" title="Settings" aria-label="Settings">⚙</a>
+    <a href="#/help" class="nav icon" title="Help" aria-label="Help">?</a>
+    <span id="sync-dot" title="No token — read-only">⊘</span>
+  </header>
   <main id="screen"></main>
   <script type="module" src="app/main.js"></script>
 </body>

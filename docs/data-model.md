@@ -9,6 +9,9 @@ branch, meant to be read and edited by hand.
 {
   "id": "es-food",
   "name": "Spanish – Food",
+  "folder": "Languages",
+  "frontLabel": "Español",
+  "backLabel": "Français",
   "frontLang": "es",
   "backLang": "fr",
   "updatedAt": "2026-09-01T14:03:00Z",
@@ -19,9 +22,16 @@ branch, meant to be read and edited by hand.
 ```
 
 - `id` — matches the filename. Lowercase, no spaces.
-- `frontLang` / `backLang` — BCP-47 codes, optional. Used to tune accent
-  handling when grading. (Spoken pronunciation was considered and left out: the
-  card model is text-only.)
+- `folder` — a plain string, optional, one per list. Flat: no nesting, no
+  folders file. A folder exists exactly as long as some list names it — the
+  set of folders shown to you is the union of the values in use.
+- `frontLabel` / `backLabel` — display names for the two columns, optional.
+  They never re-key data: a card's fields are always `front` and `back`,
+  whatever the labels say. Falls back to "Front" / "Back" when absent.
+- `frontLang` / `backLang` — BCP-47 codes, optional, derived from
+  `frontLabel` / `backLabel` by `app/langs.js` when you edit them in the app.
+  Used to tune accent handling when grading. (Spoken pronunciation was
+  considered and left out: the card model is text-only.)
 - `cards[].id` — a short random string, **permanent for the life of the card**.
   Editing the text keeps the id, so progress survives a fixed typo. Changing an
   id silently resets what the app knows about that word.
@@ -34,7 +44,7 @@ branch, meant to be read and edited by hand.
   "updatedAt": "2026-09-01T14:03:00Z",
   "items": {
     "k3f9:f2b": { "box": 3, "due": "2026-09-08", "seen": 7, "lapses": 1,
-                  "lastSeen": "2026-09-01T14:02:11Z" },
+                  "lastSeen": "2026-09-01T14:02:11Z", "level": 1 },
     "k3f9:b2f": { "box": 1, "due": "2026-09-02", "seen": 4, "lapses": 3,
                   "lastSeen": "2026-09-01T14:02:40Z" }
   }
@@ -48,6 +58,12 @@ branch, meant to be read and edited by hand.
 - `due` — a date, not a timestamp. Reviews are a daily thing.
 - `lastSeen` — a timestamp, and the tiebreaker when merging two devices.
 - `seen` / `lapses` — counters, for display and curiosity.
+- `level` — `0` or `1`, optional, absent meaning `0`. The training rung: `0`
+  is asked as pick-from-four, `1` as typed. Any wrong answer resets it to `0`.
+  Training-only; answering does not reschedule the item. It can still create
+  one, though: training a never-seen item makes `saveLevel` materialise a
+  fresh record (`box: 1`, due today), the same as if the item had appeared
+  once and not yet been reviewed. See `study-algorithm.md`.
 
 Items for deleted cards are pruned on the next save. A missing item simply means
 a word that has never been studied.

@@ -14,7 +14,7 @@ function addDays(day, days) {
 }
 
 export function newItem(today) {
-  return { box: 1, due: today, seen: 0, lapses: 0, lastSeen: null };
+  return { box: 1, due: today, seen: 0, lapses: 0, lastSeen: null, level: 0 };
 }
 
 export function nextItem(item, correct, today, nowIso) {
@@ -25,6 +25,9 @@ export function nextItem(item, correct, today, nowIso) {
     seen: item.seen + 1,
     lapses: item.lapses + (correct ? 0 : 1),
     lastSeen: nowIso,
+    // A word you have just got wrong is re-introduced with multiple choice,
+    // whether the wrong answer came from training or from a test.
+    level: correct ? (item.level || 0) : 0,
   };
 }
 
@@ -32,7 +35,7 @@ export function dueKeys(items, today) {
   return Object.keys(items).filter((key) => items[key].due <= today);
 }
 
-const defaultShuffle = (xs) => {
+export const shuffle = (xs) => {
   const out = xs.slice();
   for (let i = out.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -42,7 +45,7 @@ const defaultShuffle = (xs) => {
 };
 
 export function buildQueue({ list, progress, directions, today, limit,
-                            includeNew = true, shuffle = defaultShuffle }) {
+                            includeNew = true, shuffle: shuffleFn = shuffle }) {
   const items = progress.items || {};
   const due = [];
   const fresh = [];
@@ -54,5 +57,5 @@ export function buildQueue({ list, progress, directions, today, limit,
       else if (item.due <= today) due.push(key);
     }
   }
-  return shuffle(due).concat(shuffle(fresh)).slice(0, limit);
+  return shuffleFn(due).concat(shuffleFn(fresh)).slice(0, limit);
 }
