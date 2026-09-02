@@ -3,6 +3,367 @@
   "name": "Communication",
   "frontLang": null,
   "backLang": null,
-  "cards": [],
-  "updatedAt": "2026-09-02T07:18:05.752Z"
+  "cards": [
+    {
+      "id": "c7ieog",
+      "front": "to speak double-dutch",
+      "back": "Parler un charabia incompréhensible"
+    },
+    {
+      "id": "h8wogx",
+      "front": "a gibberish",
+      "back": "charabia"
+    },
+    {
+      "id": "mq3f64",
+      "front": "a sharp rejoinder",
+      "back": "une réplique acerbe"
+    },
+    {
+      "id": "dibhfk",
+      "front": "to answer",
+      "back": "répondre"
+    },
+    {
+      "id": "a5gdh5",
+      "front": "to come out with an explanation",
+      "back": "sortir/dire une explication"
+    },
+    {
+      "id": "faaoiq",
+      "front": "to imply",
+      "back": "laisser entendre"
+    },
+    {
+      "id": "735uqt",
+      "front": "to express sth",
+      "back": "exprimer qqch"
+    },
+    {
+      "id": "5t4o90",
+      "front": "to indicate",
+      "back": "indiquer"
+    },
+    {
+      "id": "8g4fiw",
+      "front": "to mention",
+      "back": "mentionner"
+    },
+    {
+      "id": "q11r5n",
+      "front": "to pretend that",
+      "back": "affirmer/prétendre que"
+    },
+    {
+      "id": "6gzwan",
+      "front": "to refer to",
+      "back": "faire allusion à/faire référence à"
+    },
+    {
+      "id": "gz4k26",
+      "front": "to recap/recapitulate",
+      "back": "récapituler"
+    },
+    {
+      "id": "v4umn5",
+      "front": "to sum up",
+      "back": "résumer"
+    },
+    {
+      "id": "vjlarc",
+      "front": "to reword/rephrase",
+      "back": "reformuler"
+    },
+    {
+      "id": "gv1dy3",
+      "front": "to summarize",
+      "back": "faire un résumé"
+    },
+    {
+      "id": "qqzerw",
+      "front": "PG stands for paying guest",
+      "back": "PG signifie/veut dire client payant"
+    },
+    {
+      "id": "3uovf7",
+      "front": "to specify",
+      "back": "spécifier"
+    },
+    {
+      "id": "zwlfic",
+      "front": "to stress a detail",
+      "back": "insister sur un détail"
+    },
+    {
+      "id": "j7f0fw",
+      "front": "to tip off about sth",
+      "back": "prévenir/avertir au sujet de qqn"
+    },
+    {
+      "id": "wlvv9r",
+      "front": "to mispell",
+      "back": "épeler de travers"
+    },
+    {
+      "id": "0xrrt2",
+      "front": "to cackle",
+      "back": "caqueter/jacasser/glousser"
+    },
+    {
+      "id": "v5561p",
+      "front": "to chat/chatter",
+      "back": "bavarder"
+    },
+    {
+      "id": "7tti62",
+      "front": "to chuckle about sth",
+      "back": "glousser/rire à propos de qqch"
+    },
+    {
+      "id": "p27m3j",
+      "front": "to curse",
+      "back": "maudire"
+    },
+    {
+      "id": "4oumkq",
+      "front": "to drawl out a few words",
+      "back": "dire des mots d'une voix traînante"
+    },
+    {
+      "id": "ljemos",
+      "front": "to grumble about sth",
+      "back": "grommeler à propos de qqch"
+    },
+    {
+      "id": "7wb6k1",
+      "front": "to hear from sb",
+      "back": "recevoir des nouvelles de qqn"
+    },
+    {
+      "id": "632zwu",
+      "front": "to mumble",
+      "back": "marmonner"
+    },
+    {
+      "id": "l1qpms",
+      "front": "to murmur",
+      "back": "murmurer"
+    },
+    {
+      "id": "6fvg0p",
+      "front": "to nod",
+      "back": "acquiescer/hocher la tête"
+    },
+    {
+      "id": "2x7epj",
+      "front": "to shake ones head",
+      "back": "faire non de la tête"
+    },
+    {
+      "id": "ql4brm",
+      "front": "to speak out on sth",
+      "back": "parler franchement de qqch"
+    },
+    {
+      "id": "0ur1qy",
+      "front": "to speak up",
+      "back": "parler plus fort"
+    },
+    {
+      "id": "xso5j0",
+      "front": "to stammer",
+      "back": "begayer/balbutier"
+    },
+    {
+      "id": "i9mhtf",
+      "front": "to splutter",
+      "back": "bredouiller"
+    },
+    {
+      "id": "iyusyf",
+      "front": "to utter",
+      "back": "prononcer"
+    },
+    {
+      "id": "yrukn2",
+      "front": "to decipher documents",
+      "back": "déchiffrer des documents"
+    },
+    {
+      "id": "sqi8tj",
+      "front": "to draft a letter",
+      "back": "rédiger une lettre"
+    },
+    {
+      "id": "pudnwd",
+      "front": "to tick",
+      "back": "cocher/pointer"
+    },
+    {
+      "id": "dsunu6",
+      "front": "to tick off",
+      "back": "énumérer/compter"
+    },
+    {
+      "id": "7lcdvv",
+      "front": "to write out",
+      "back": "écrire/rédiger"
+    },
+    {
+      "id": "sd0l3v",
+      "front": "to underline that",
+      "back": "souligner que"
+    },
+    {
+      "id": "3n8wdq",
+      "front": "to write down",
+      "back": "noter/mettre par écrit"
+    },
+    {
+      "id": "f8hkvb",
+      "front": "to assert one's innocence",
+      "back": "affirmer/maintenir l'innocence de qqn"
+    },
+    {
+      "id": "hfscdd",
+      "front": "to beware",
+      "back": "prendre garde/se méfier"
+    },
+    {
+      "id": "t5js4x",
+      "front": "to eavesdrop",
+      "back": "écouter de façon distraite"
+    },
+    {
+      "id": "y4ph4c",
+      "front": "to infer",
+      "back": "déduire/conclure"
+    },
+    {
+      "id": "fhs1fq",
+      "front": "to acknowledge",
+      "back": "reconnaître/admettre"
+    },
+    {
+      "id": "o2wmgd",
+      "front": "to challenge sb's authority",
+      "back": "contester l'autorité de qqn"
+    },
+    {
+      "id": "j37qjr",
+      "front": "cry out against sth",
+      "back": "protester contre qqch"
+    },
+    {
+      "id": "dz7xo0",
+      "front": "to deny",
+      "back": "nier/refuser"
+    },
+    {
+      "id": "rr8foo",
+      "front": "to differ on",
+      "back": "ne pas être d'accord sur"
+    },
+    {
+      "id": "o294j1",
+      "front": "to dispute sth",
+      "back": "contester qqch"
+    },
+    {
+      "id": "gbbx0y",
+      "front": "to emphasize",
+      "back": "mettre l'accent sur"
+    },
+    {
+      "id": "7q35ud",
+      "front": "to dissent from sb's view",
+      "back": "marquer son désaccord"
+    },
+    {
+      "id": "9eq5dr",
+      "front": "to expose a scandal",
+      "back": "dévoiler un scandale"
+    },
+    {
+      "id": "vv2lb0",
+      "front": "to fall out with sb over sth",
+      "back": "se disputer avec qqn à propos de"
+    },
+    {
+      "id": "wfggsr",
+      "front": "to grunt",
+      "back": "grogner"
+    },
+    {
+      "id": "nfn2rd",
+      "front": "to infuriate",
+      "back": "rendre furieux"
+    },
+    {
+      "id": "2fd6jv",
+      "front": "to irritate sb",
+      "back": "irriter qqn"
+    },
+    {
+      "id": "tx316z",
+      "front": "to madden sb",
+      "back": "mettre qqn en colère"
+    },
+    {
+      "id": "z39tdj",
+      "front": "to misinterpret",
+      "back": "mal interpréter"
+    },
+    {
+      "id": "ixu1v1",
+      "front": "to qualify",
+      "back": "nuancer"
+    },
+    {
+      "id": "j9qmcf",
+      "front": "to remark",
+      "back": "faire remarquer"
+    },
+    {
+      "id": "k25wl2",
+      "front": "to question",
+      "back": "mettre en doute"
+    },
+    {
+      "id": "fo2i83",
+      "front": "to abuse sb",
+      "back": "injurier/insulter qqn"
+    },
+    {
+      "id": "teqmmt",
+      "front": "to quarrel about sth",
+      "back": "se quereller à propos de qqch"
+    },
+    {
+      "id": "ui0oli",
+      "front": "to blow up out of all proportion",
+      "back": "grossir/exagérer au-delà de toute proportion"
+    },
+    {
+      "id": "xtqm8g",
+      "front": "to magnify a problem",
+      "back": "amplifier/grossir un problème"
+    },
+    {
+      "id": "o0x06m",
+      "front": "to moan",
+      "back": "gémir"
+    },
+    {
+      "id": "0qnf3l",
+      "front": "to bark",
+      "back": "aboyer"
+    },
+    {
+      "id": "hs3pmd",
+      "front": "to choke",
+      "back": "s'étouffer"
+    }
+  ],
+  "updatedAt": "2026-09-02T07:18:47.124Z"
 }
