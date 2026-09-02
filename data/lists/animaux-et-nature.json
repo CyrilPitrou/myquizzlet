@@ -3,6 +3,347 @@
   "name": "Animaux et nature",
   "frontLang": null,
   "backLang": null,
-  "cards": [],
-  "updatedAt": "2026-09-02T07:20:14.605Z"
+  "cards": [
+    {
+      "id": "c3sc42",
+      "front": "a lamb",
+      "back": "un agneau"
+    },
+    {
+      "id": "l2659s",
+      "front": "a ram",
+      "back": "un bêlier"
+    },
+    {
+      "id": "nnf4o0",
+      "front": "an ox",
+      "back": "un buffle"
+    },
+    {
+      "id": "dv413w",
+      "front": "a kite",
+      "back": "un milan"
+    },
+    {
+      "id": "7qh3lc",
+      "front": "a ferret",
+      "back": "un furet"
+    },
+    {
+      "id": "scd784",
+      "front": "a rooster",
+      "back": "un coq"
+    },
+    {
+      "id": "72ycxm",
+      "front": "a guinea pig",
+      "back": "un cochon d'Inde"
+    },
+    {
+      "id": "7p7tb0",
+      "front": "a stallion",
+      "back": "un étalon"
+    },
+    {
+      "id": "kgq3ct",
+      "front": "a mule",
+      "back": "une mule"
+    },
+    {
+      "id": "dg9hym",
+      "front": "a lizard",
+      "back": "un lézard"
+    },
+    {
+      "id": "qs2f2n",
+      "front": "a chick",
+      "back": "un poussin"
+    },
+    {
+      "id": "tn6bsp",
+      "front": "a swine",
+      "back": "un porc"
+    },
+    {
+      "id": "rc81sv",
+      "front": "a peacock",
+      "back": "un paon"
+    },
+    {
+      "id": "uop2yk",
+      "front": "a foal",
+      "back": "un poulain"
+    },
+    {
+      "id": "hjl57y",
+      "front": "a mare",
+      "back": "une jument"
+    },
+    {
+      "id": "ivs3a6",
+      "front": "a bull",
+      "back": "un taureau"
+    },
+    {
+      "id": "6p4fdu",
+      "front": "an ewe",
+      "back": "une brebis"
+    },
+    {
+      "id": "xk2c8b",
+      "front": "a sow",
+      "back": "une truie"
+    },
+    {
+      "id": "d8792h",
+      "front": "a camel",
+      "back": "un chameau"
+    },
+    {
+      "id": "idvv3k",
+      "front": "a badger",
+      "back": "un blaireau"
+    },
+    {
+      "id": "mxird2",
+      "front": "a roebuck",
+      "back": "un chevreuil"
+    },
+    {
+      "id": "sm0dks",
+      "front": "a dromedary",
+      "back": "un dromadaire"
+    },
+    {
+      "id": "fuaaty",
+      "front": "an elk/a moose",
+      "back": "un élan"
+    },
+    {
+      "id": "z09hbs",
+      "front": "an emu",
+      "back": "an émeu"
+    },
+    {
+      "id": "060298",
+      "front": "a pink flamingo",
+      "back": "un flamant rose"
+    },
+    {
+      "id": "6q6vxt",
+      "front": "a cheetah",
+      "back": "un guépard"
+    },
+    {
+      "id": "0hgrka",
+      "front": "a walrus",
+      "back": "un morse"
+    },
+    {
+      "id": "x5e39k",
+      "front": "a seal",
+      "back": "un phoque"
+    },
+    {
+      "id": "i2s992",
+      "front": "a porcupine",
+      "back": "un porc-épic"
+    },
+    {
+      "id": "s2yoev",
+      "front": "a racoon",
+      "back": "un raton laveur"
+    },
+    {
+      "id": "zls8fi",
+      "front": "a boar",
+      "back": "un sanglier"
+    },
+    {
+      "id": "ucw5lh",
+      "front": "a vulture",
+      "back": "un vautour"
+    },
+    {
+      "id": "rzyffa",
+      "front": "a bat",
+      "back": "une chauve souris"
+    },
+    {
+      "id": "og12gq",
+      "front": "an otter",
+      "back": "une loutre"
+    },
+    {
+      "id": "zvsc8u",
+      "front": "a goose",
+      "back": "une oie"
+    },
+    {
+      "id": "tszjb0",
+      "front": "a sparrow",
+      "back": "un moineau"
+    },
+    {
+      "id": "xsqtfe",
+      "front": "a tuna",
+      "back": "un thon"
+    },
+    {
+      "id": "yhp12p",
+      "front": "an eel",
+      "back": "une anguille"
+    },
+    {
+      "id": "ppfqz3",
+      "front": "a mussel",
+      "back": "une moule"
+    },
+    {
+      "id": "sp00dh",
+      "front": "a stingray",
+      "back": "une raie"
+    },
+    {
+      "id": "lzqfqi",
+      "front": "a cuttlefish",
+      "back": "une seiche"
+    },
+    {
+      "id": "iyocpy",
+      "front": "a trout",
+      "back": "une truite"
+    },
+    {
+      "id": "pp7eyc",
+      "front": "louse/lice",
+      "back": "des poux"
+    },
+    {
+      "id": "414m4u",
+      "front": "a bumble-bee",
+      "back": "un bourdon"
+    },
+    {
+      "id": "02ffzs",
+      "front": "a hornet",
+      "back": "un frelon"
+    },
+    {
+      "id": "oeeafn",
+      "front": "a gnat",
+      "back": "un moucheron"
+    },
+    {
+      "id": "mp3via",
+      "front": "a dragonfly",
+      "back": "une libellule"
+    },
+    {
+      "id": "c1ze0t",
+      "front": "a leech",
+      "back": "une sangsue"
+    },
+    {
+      "id": "a8l1mj",
+      "front": "a beaver",
+      "back": "un castor"
+    },
+    {
+      "id": "kmjyxx",
+      "front": "a rodent",
+      "back": "un rongeur"
+    },
+    {
+      "id": "v29z01",
+      "front": "a robin",
+      "back": "un rouge-gorge"
+    },
+    {
+      "id": "87ajm0",
+      "front": "a turtle dove",
+      "back": "une tourterelle"
+    },
+    {
+      "id": "6b9qoa",
+      "front": "a nightingale",
+      "back": "un rossignol"
+    },
+    {
+      "id": "r9zeip",
+      "front": "a hawk",
+      "back": "un faucon"
+    },
+    {
+      "id": "o0bvdi",
+      "front": "to flit/flutter",
+      "back": "voleter/voltiger"
+    },
+    {
+      "id": "g3wz25",
+      "front": "to peck (at sth)",
+      "back": "picorer qqch"
+    },
+    {
+      "id": "p5v8oz",
+      "front": "to hover",
+      "back": "planer/stagner"
+    },
+    {
+      "id": "budqut",
+      "front": "a grasshopper",
+      "back": "une sauterelle"
+    },
+    {
+      "id": "3wxea8",
+      "front": "a ladybird",
+      "back": "une coccinelle"
+    },
+    {
+      "id": "eytm6f",
+      "front": "a swarm",
+      "back": "un essaim"
+    },
+    {
+      "id": "od8pgg",
+      "front": "a cub",
+      "back": "un petit (d'un animal)"
+    },
+    {
+      "id": "tzbyct",
+      "front": "a den",
+      "back": "une tanière/un terrier"
+    },
+    {
+      "id": "08jjsr",
+      "front": "a hoof",
+      "back": "un sabot"
+    },
+    {
+      "id": "57epny",
+      "front": "a mane",
+      "back": "une crinière"
+    },
+    {
+      "id": "a7oi4y",
+      "front": "a snout",
+      "back": "museau/groin"
+    },
+    {
+      "id": "hz8h2i",
+      "front": "a tusk",
+      "back": "une défense"
+    },
+    {
+      "id": "onq9j5",
+      "front": "a coat/fur",
+      "back": "pelage/fourrure"
+    },
+    {
+      "id": "wtgl1y",
+      "front": "carrion birds",
+      "back": "charognards"
+    }
+  ],
+  "updatedAt": "2026-09-02T07:21:11.870Z"
 }
