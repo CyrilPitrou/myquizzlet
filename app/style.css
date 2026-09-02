@@ -177,3 +177,7 @@ section.sect:last-child { border-bottom: none; }
   padding: .7rem 1rem; font-size: 1.1rem; text-align: left;
   background: var(--surface); color: var(--ink);
   border: 1px solid var(--rule); border-radius: 12px; }
+
+.facts { display: grid; grid-template-columns: auto 1fr; gap: .35rem .75rem; margin: 1rem 0; }
+.facts dt { color: var(--muted); }
+.facts dd { margin: 0; overflow-wrap: anywhere; }
