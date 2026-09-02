@@ -4,7 +4,8 @@ button { min-height: 44px; font-size: 1rem; }
 main { padding: 1rem; max-width: 40rem; margin: 0 auto; }
 #topbar { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 1rem; border-bottom: 1px solid #ddd; gap: 0.5rem; }
 #topbar h1 { margin-right: auto; }
-#topbar a, #sync-dot { display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; font-size: 1.5rem; text-decoration: none; color: inherit; }
+#topbar a, #sync-dot { display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; font-size: 1.5rem; }
+#topbar a { text-decoration: none; color: inherit; }
 .row { display: flex; justify-content: space-between; align-items: center; gap: .5rem; padding: .5rem 0; border-bottom: 1px solid #eee; }
 .muted { color: #777; }
 table.cards { width: 100%; border-collapse: collapse; table-layout: fixed; }
