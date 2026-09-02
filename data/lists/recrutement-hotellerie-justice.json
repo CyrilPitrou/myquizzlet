@@ -1,0 +1,234 @@
+{
+  "id": "recrutement-hotellerie-justice",
+  "name": "recrutement/ hotellerie/ justice",
+  "frontLang": null,
+  "backLang": null,
+  "cards": [
+    {
+      "id": "vv1y3p",
+      "front": "a job interview",
+      "back": "un entretien d'embauche"
+    },
+    {
+      "id": "6w8une",
+      "front": "an application form",
+      "back": "un dossier de candidature"
+    },
+    {
+      "id": "kx8tin",
+      "front": "an interview",
+      "back": "un entretien"
+    },
+    {
+      "id": "qmunly",
+      "front": "to take on / to hire",
+      "back": "embaucher quelqu'un"
+    },
+    {
+      "id": "fu15hn",
+      "front": "to look for a job",
+      "back": "chercher un travail"
+    },
+    {
+      "id": "yfsoxq",
+      "front": "an applicant",
+      "back": "un candidat à un poste"
+    },
+    {
+      "id": "ns49tp",
+      "front": "to apply for a job",
+      "back": "postuler pour un emploi"
+    },
+    {
+      "id": "fxxs9v",
+      "front": "to post a job",
+      "back": "publier une offre d'emploi"
+    },
+    {
+      "id": "f2s910",
+      "front": "to fill a position / to fill a vacancy",
+      "back": "pourvoir un poste"
+    },
+    {
+      "id": "hhy7yy",
+      "front": "to land a job",
+      "back": "obtenir un emploi"
+    },
+    {
+      "id": "9xk1s9",
+      "front": "having a permanent job",
+      "back": "avoir un poste permanent"
+    },
+    {
+      "id": "svhmem",
+      "front": "a shortlist",
+      "back": "la liste des candidats présélectionnés"
+    },
+    {
+      "id": "ocwfio",
+      "front": "to appoint somebody to a position",
+      "back": "nommer quelqu'un à un poste"
+    },
+    {
+      "id": "bhr4v6",
+      "front": "a recruitment agency",
+      "back": "agence de recrutement"
+    },
+    {
+      "id": "p10xpn",
+      "front": "hiring campaign",
+      "back": "campagne de recrutement"
+    },
+    {
+      "id": "apas6f",
+      "front": "human resources",
+      "back": "ressources humaines"
+    },
+    {
+      "id": "ajey45",
+      "front": "self-sufficient / independent",
+      "back": "autonome"
+    },
+    {
+      "id": "ebbnr5",
+      "front": "gross salary",
+      "back": "salaire brut"
+    },
+    {
+      "id": "7sag4t",
+      "front": "pay rise",
+      "back": "augmentation de salaire"
+    },
+    {
+      "id": "uw8vc1",
+      "front": "availability",
+      "back": "disponibilité"
+    },
+    {
+      "id": "nheq6r",
+      "front": "check-in",
+      "back": "l'enregistrement"
+    },
+    {
+      "id": "zc4u1m",
+      "front": "checkout",
+      "back": "départ"
+    },
+    {
+      "id": "bmfwyv",
+      "front": "lobby",
+      "back": "le hall"
+    },
+    {
+      "id": "g60t8l",
+      "front": "blanket",
+      "back": "une couverture"
+    },
+    {
+      "id": "c482ub",
+      "front": "safe",
+      "back": "un coffre-fort"
+    },
+    {
+      "id": "giv7nf",
+      "front": "appetizer",
+      "back": "un hors-d'oeuvre"
+    },
+    {
+      "id": "fsyjqy",
+      "front": "acquit",
+      "back": "Acquitter/décharger"
+    },
+    {
+      "id": "inms85",
+      "front": "commit",
+      "back": "commettre"
+    },
+    {
+      "id": "rg28ry",
+      "front": "imprison",
+      "back": "emprisonner"
+    },
+    {
+      "id": "1iuvz1",
+      "front": "infringe",
+      "back": "enfreindre"
+    },
+    {
+      "id": "fi50qx",
+      "front": "indict",
+      "back": "accuser"
+    },
+    {
+      "id": "n6rxle",
+      "front": "litigate",
+      "back": "plaider"
+    },
+    {
+      "id": "ucfay0",
+      "front": "overrule",
+      "back": "annuler,casser une décision"
+    },
+    {
+      "id": "qw1nt1",
+      "front": "smuggle",
+      "back": "faire de la contrebande"
+    },
+    {
+      "id": "vhdokk",
+      "front": "attorney",
+      "back": "avocat (US)"
+    },
+    {
+      "id": "s55cdc",
+      "front": "barrister",
+      "back": "un avocat"
+    },
+    {
+      "id": "sb4oee",
+      "front": "clerk",
+      "back": "greffier"
+    },
+    {
+      "id": "fyff1q",
+      "front": "convict",
+      "back": "condamné"
+    },
+    {
+      "id": "r4vfmm",
+      "front": "counsel",
+      "back": "avocat de la défense"
+    },
+    {
+      "id": "38yfmw",
+      "front": "blackmail",
+      "back": "chantage"
+    },
+    {
+      "id": "bvhvkl",
+      "front": "bribery",
+      "back": "la corruption"
+    },
+    {
+      "id": "sj9b85",
+      "front": "felony",
+      "back": "un crime"
+    },
+    {
+      "id": "tz0z93",
+      "front": "harassment",
+      "back": "le harcèlement"
+    },
+    {
+      "id": "zg979s",
+      "front": "fine",
+      "back": "une amende"
+    },
+    {
+      "id": "3b6u5w",
+      "front": "misappropriation",
+      "back": "détournement"
+    }
+  ],
+  "updatedAt": "2026-09-02T07:56:53.522Z"
+}
