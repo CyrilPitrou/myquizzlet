@@ -3,27 +3,6 @@
   "name": "MyTestList",
   "frontLang": null,
   "backLang": null,
-  "cards": [
-    {
-      "id": "iv9hxr",
-      "front": "pain",
-      "back": "bread"
-    },
-    {
-      "id": "pu6y8f",
-      "front": "porte",
-      "back": "door"
-    },
-    {
-      "id": "erdv9b",
-      "front": "lait",
-      "back": "milk"
-    },
-    {
-      "id": "qsb9ae",
-      "front": "miette",
-      "back": "crum"
-    }
-  ],
-  "updatedAt": "2026-09-02T05:19:42.469Z"
+  "cards": [],
+  "updatedAt": "2026-09-02T05:26:33.208Z"
 }
