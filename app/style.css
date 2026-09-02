@@ -169,3 +169,11 @@ section.sect:last-child { border-bottom: none; }
   cursor: pointer; user-select: none; }
 .card .prompt { margin: 0; }
 .actions.pager button { flex: 1; }
+
+.sessionbar { display: flex; align-items: center; justify-content: space-between;
+  gap: .5rem; margin-bottom: .5rem; }
+.choices { gap: .5rem; }
+.choice { display: block; width: 100%; min-height: 52px; margin-bottom: .5rem;
+  padding: .7rem 1rem; font-size: 1.1rem; text-align: left;
+  background: var(--surface); color: var(--ink);
+  border: 1px solid var(--rule); border-radius: 12px; }

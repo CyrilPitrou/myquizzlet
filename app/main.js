@@ -11,6 +11,7 @@ import { showSettings, applyTheme } from './screens/settings.js';
 import { showFolders, showFolder } from './screens/folders.js';
 import { showNewList, showEditList } from './screens/editlist.js';
 import { showView } from './screens/view.js';
+import { showTrainSetup, showTrainSession } from './screens/train.js';
 
 function initSync() {
   ctx.sync?.stop();
@@ -41,6 +42,8 @@ function render() {
   else if (route === 'study' && arg) go(`#/test/${arg}`);
   else if (route === 'test' && arg && sub === 'go') showTestSession(arg);
   else if (route === 'test' && arg) showTestSetup(arg);
+  else if (route === 'train' && arg && sub === 'go') showTrainSession(arg);
+  else if (route === 'train' && arg) showTrainSetup(arg);
   else if (route === 'new') showNewList();
   else if (route === 'view' && arg) showView(arg);
   else if (route === 'settings') showSettings();
