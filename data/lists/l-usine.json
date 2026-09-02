@@ -1,0 +1,209 @@
+{
+  "id": "l-usine",
+  "name": "L'usine",
+  "frontLang": null,
+  "backLang": null,
+  "cards": [
+    {
+      "id": "km480l",
+      "front": "A factory",
+      "back": "une usine"
+    },
+    {
+      "id": "5b0gbk",
+      "front": "A manufacturer",
+      "back": "un fabricant"
+    },
+    {
+      "id": "bav40r",
+      "front": "An industrialist",
+      "back": "un industriel"
+    },
+    {
+      "id": "b3vfyt",
+      "front": "Automation",
+      "back": "automatisation"
+    },
+    {
+      "id": "eme8aw",
+      "front": "A company",
+      "back": "société"
+    },
+    {
+      "id": "fl1y1f",
+      "front": "Corporate life",
+      "back": "la vie dans l'entreprise"
+    },
+    {
+      "id": "tj3miv",
+      "front": "A smokestack",
+      "back": "une cheminée d'usine"
+    },
+    {
+      "id": "ppptf1",
+      "front": "Raw material",
+      "back": "matière première"
+    },
+    {
+      "id": "90aw5r",
+      "front": "A (nuclear) plant",
+      "back": "une centrale nucléaire"
+    },
+    {
+      "id": "yefx1t",
+      "front": "A release",
+      "back": "la sortie d'un produit"
+    },
+    {
+      "id": "3tupm1",
+      "front": "A skilled worker",
+      "back": "un ouvrier qualifié"
+    },
+    {
+      "id": "u2n6et",
+      "front": "Spare parts",
+      "back": "pièces de rechange"
+    },
+    {
+      "id": "r13xw3",
+      "front": "A store floor",
+      "back": "un atelier"
+    },
+    {
+      "id": "8gdjwt",
+      "front": "A supplier",
+      "back": "un fournisseur"
+    },
+    {
+      "id": "znn7j0",
+      "front": "The construction industry",
+      "back": "le secteur de la construction"
+    },
+    {
+      "id": "4a8qit",
+      "front": "The motor industry",
+      "back": "l'industrie automobile"
+    },
+    {
+      "id": "xx1ar5",
+      "front": "The oil industry",
+      "back": "l'industrie pétrolière"
+    },
+    {
+      "id": "o47tct",
+      "front": "The shipping industry",
+      "back": "L'industrie maritime"
+    },
+    {
+      "id": "yd4wgf",
+      "front": "To convene",
+      "back": "Convoquer,réunir"
+    },
+    {
+      "id": "4frhbx",
+      "front": "To schedule an appointment",
+      "back": "fixer un rendez-vous"
+    },
+    {
+      "id": "v1oj6a",
+      "front": "The workload",
+      "back": "charge de travail"
+    },
+    {
+      "id": "tzabtf",
+      "front": "The backlog",
+      "back": "travail en retard"
+    },
+    {
+      "id": "c8vycq",
+      "front": "An invoice",
+      "back": "une facture"
+    },
+    {
+      "id": "6bsvyk",
+      "front": "A customer",
+      "back": "un client"
+    },
+    {
+      "id": "n7h3eu",
+      "front": "The patrons",
+      "back": "La clientèle / les clients"
+    },
+    {
+      "id": "w801hm",
+      "front": "To make benefits / profits / money",
+      "back": "faire du profit"
+    },
+    {
+      "id": "xwf8f7",
+      "front": "A department / a division (US)",
+      "back": "Un service / rayon (magasin)"
+    },
+    {
+      "id": "oov1zb",
+      "front": "To run a business",
+      "back": "gérer une entreprise"
+    },
+    {
+      "id": "kmrqxo",
+      "front": "To hold a conference",
+      "back": "Tenir un congrès,une conférence"
+    },
+    {
+      "id": "mkz2x6",
+      "front": "Office chores",
+      "back": "Tâches de bureau"
+    },
+    {
+      "id": "a3huxk",
+      "front": "The letterhead",
+      "back": "L'en-tête (d'une lettre)"
+    },
+    {
+      "id": "93tqxo",
+      "front": "To sort out",
+      "back": "trier"
+    },
+    {
+      "id": "110msg",
+      "front": "To enclose",
+      "back": "joindre (à une lettre)"
+    },
+    {
+      "id": "kgtxfa",
+      "front": "A stapler",
+      "back": "une agrafeuse"
+    },
+    {
+      "id": "parmkt",
+      "front": "A notepad",
+      "back": "un bloc-notes"
+    },
+    {
+      "id": "z9xwqd",
+      "front": "A draft",
+      "back": "brouillon"
+    },
+    {
+      "id": "zxdx9i",
+      "front": "A fan",
+      "back": "ventilateur"
+    },
+    {
+      "id": "ek6hf4",
+      "front": "Postage",
+      "back": "Affranchissement,frais de port"
+    },
+    {
+      "id": "qbry70",
+      "front": "A set square",
+      "back": "une équerre"
+    },
+    {
+      "id": "yl60ho",
+      "front": "A protractor",
+      "back": "un rapporteur"
+    }
+  ],
+  "updatedAt": "2026-09-02T07:55:59.764Z"
+}
