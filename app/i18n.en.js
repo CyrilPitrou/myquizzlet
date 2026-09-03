@@ -42,6 +42,7 @@ export const en = {
   'list.menu.move': 'Move to folder',
   'list.menu.sides': 'Sides',
   'list.menu.cards': 'Edit cards',
+  'list.menu.ai': 'Ask AI about this list',
   'list.menu.import': 'Import from file',
   'list.menu.exportCsv': 'Export as CSV',
   'list.menu.generatePdf': 'Generate PDF',

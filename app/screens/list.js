@@ -122,6 +122,7 @@ export function showList(id) {
       { label: t('list.menu.move'), onclick: () => moveToFolder(list) },
       { label: t('list.menu.sides'), onclick: () => go(`#/list/${id}/edit`) },
       { label: t('list.menu.cards'), onclick: () => go(`#/list/${id}/cards`) },
+      { label: t('list.menu.ai'), onclick: () => go(`#/wishes?list=${encodeURIComponent(list.name)}`) },
       { label: t('list.menu.import'), onclick: () => importFromFile(list) },
       { label: t('list.menu.exportCsv'), onclick: () => exportCsv(list) },
       { label: t('list.menu.generatePdf'), onclick: () => generatePdf(list) },

@@ -41,6 +41,7 @@ export const fr = {
   'list.menu.move': 'Déplacer dans un dossier',
   'list.menu.sides': 'Faces',
   'list.menu.cards': 'Modifier les cartes',
+  'list.menu.ai': 'Demander à l\'IA pour cette liste',
   'list.menu.import': 'Importer depuis un fichier',
   'list.menu.exportCsv': 'Exporter en CSV',
   'list.menu.generatePdf': 'Générer un PDF',
