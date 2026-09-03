@@ -56,6 +56,14 @@ export const helpFr = {
       ],
     },
     {
+      heading: 'Demander une liste',
+      paragraphs: [
+        ['Le bouton ', { b: '🪄' }, ' ouvre une zone où vous écrivez ce que vous souhaitez : une nouvelle liste sur un thème, plus de mots dans une liste existante, ou une traduction qui vous semble fausse. Précisez combien de mots et à quel niveau.'],
+        ['Cette zone est partagée avec toutes les personnes qui utilisent l’application : vous verrez donc ce que les autres ont demandé. Ajoutez votre demande en dessous plutôt que de remplacer la leur.'],
+        ['Rien ne se passe immédiatement. Cyril lit la zone, fait le travail avec une IA qui vérifie ses sources avant de modifier un mot déjà présent, et publie le résultat. Ce qui a été fait récemment est listé sous la zone.'],
+      ],
+    },
+    {
       heading: 'Ajouter un autre appareil',
       paragraphs: [
         ['Pointez la caméra du nouvel appareil sur ceci. C’est uniquement l’adresse de l’appli, sans aucun secret.'],

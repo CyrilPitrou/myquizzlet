@@ -57,6 +57,14 @@ export const helpEn = {
       ],
     },
     {
+      heading: 'Asking for a list',
+      paragraphs: [
+        ['The ', { b: '🪄' }, ' button opens a box where you write what you would like: a new list on a topic, more words in a list you already have, or a translation you think is wrong. Say how many words and how hard they should be.'],
+        ['The box is shared with everyone using the app, so you will see what other people have asked for. Add yours underneath rather than replacing theirs.'],
+        ['Nothing happens straight away. Cyril reads the box, does the work with an AI that checks its sources before changing a word you already have, and pushes the result. What has been done recently is listed under the box.'],
+      ],
+    },
+    {
       heading: 'Adding another device',
       paragraphs: [
         ['Point the new device’s camera at this. It is only the app’s address and carries no secret.'],
