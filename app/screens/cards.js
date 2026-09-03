@@ -94,7 +94,11 @@ export function showCards(id) {
         el('button', {
           class: 'link swap', text: '⇄', title: 'swap sides', type: 'button',
           onclick: () => {
-            store.updateCard(id, card.id, { front: card.back, back: card.front });
+            // Clicking here blurs a focused cell first, which commits any in-progress
+            // edit to the store without re-rendering — so `card` may be stale. Re-read
+            // the current text by (permanent) id rather than trusting the closure.
+            const live = store.getList(id).cards.find((c) => c.id === card.id);
+            store.updateCard(id, card.id, { front: live.back, back: live.front });
             ctx.sync?.schedule();
             ctx.render();
           },
