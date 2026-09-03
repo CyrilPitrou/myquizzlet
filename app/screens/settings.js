@@ -127,7 +127,7 @@ export function showSettings() {
   ]));
 
   view.append(section('About', [
-    el('p', {}, [el('a', { href: '#/help', text: 'What Train and Test are for, installing the app, adding a device' })]),
+    el('p', {}, [el('a', { href: '#/help', text: 'See Help page' })]),
     el('p', { class: 'muted' }, [
       'MyQuizzlet · ',
       el('a', { href: `https://github.com/${REPO}`, target: '_blank', rel: 'noopener', text: 'source on GitHub' }),
