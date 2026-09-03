@@ -93,8 +93,12 @@ function settleBatch() {
 // answered by typing is a real recall attempt regardless of which rung asked
 // for it.
 // `silent` is for a caller that has already given the verdict — the typo panel
-// shows and sounds it itself, and must not have a second one laid over the top.
-function answered(correct, wasMultipleChoice, silent = false) {
+// and a wrong multiple-choice pick show and sound it themselves, and must not
+// have a second one laid over the top.
+// `pause` holds the re-render back so a marked-up choice panel stays readable
+// for a moment. Everything else — the sound above all — happens at once, so
+// the ear hears the answer when it is given, not when the screen moves on.
+function answered(correct, wasMultipleChoice, silent = false, pause = 0) {
   if (!silent && !correct) flashWrong(document.querySelector('#screen'));
   const key = currentKey(session.batch);
   if (wasMultipleChoice) saveLevel(session.listId, key, correct ? 1 : 0);
@@ -108,7 +112,8 @@ function answered(correct, wasMultipleChoice, silent = false) {
   settleBatch();
   if (climbed) play('graduate');
   else if (!silent) play(correct ? 'right' : 'wrong');
-  ctx.render();
+  if (pause) setTimeout(() => ctx.render(), pause);
+  else ctx.render();
 }
 
 // Marks the picked and correct buttons with an icon + color (never color
@@ -121,15 +126,19 @@ function pickChoice(container, buttons, options, option, expected) {
   buttons[rightIdx].classList.add('correct');
   buttons[rightIdx].textContent = `✓ ${options[rightIdx]}`;
   if (option === expected) {
-    setTimeout(() => answered(true, true), 550);
+    answered(true, true, false, 550);
     return;
   }
   const pickedIdx = options.indexOf(option);
   buttons[pickedIdx].classList.add('wrong');
   buttons[pickedIdx].textContent = `✗ ${options[pickedIdx]}`;
+  // The verdict belongs to the pick, not to Continue: give it here and tell
+  // answered() to stay quiet, the same way the typed path does.
+  flashWrong(document.querySelector('#screen'));
+  play('wrong');
   container.append(el('button', {
     class: 'primary', text: t('session.continue'),
-    onclick: () => answered(false, true),
+    onclick: () => answered(false, true, true),
   }));
 }
 

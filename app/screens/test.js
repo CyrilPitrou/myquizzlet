@@ -67,6 +67,9 @@ function queueFor(listId, free) {
                    today: todayStr(), limit: setup.limit, includeNew: setup.includeNew });
 }
 
+// How many flashcards show the tap/swipe hints before they step aside.
+const HINT_CARDS = 3;
+
 function startSession(listId, free = setup.free) {
   const queue = queueFor(listId, free);
   if (queue.length === 0) {
@@ -137,9 +140,13 @@ export function showTestSession(listId) {
   const expected = direction === 'f2b' ? card.back : card.front;
 
   if (setup.mode === 'cards') {
+    // The hints teach the gesture; after a few cards they are just noise, so
+    // they stop. A new session starts the count over — it costs nothing and
+    // covers coming back to the mode after a long while.
+    const hinting = session.at < HINT_CARDS;
     const faceNode = (valueText, hintKey, side) => el('div', { class: `face ${side}` }, [
       el('p', { class: 'prompt', text: valueText }),
-      el('p', { class: 'muted', text: t(hintKey) }),
+      ...(hinting ? [el('p', { class: 'muted', text: t(hintKey) })] : []),
     ]);
     const face = el('div', { class: 'card deck' }, [
       el('div', { class: 'faces' }, [
