@@ -9,8 +9,8 @@
   "cards": [
     {
       "id": "r8pzz0",
-      "front": "a bitter pill",
-      "back": "un truc dur à avaler (au sens figuré)"
+      "front": "un truc dur à avaler (au sens figuré)",
+      "back": "a bitter pill"
     },
     {
       "id": "z5lcaq",
@@ -208,5 +208,5 @@
       "back": "une situation gagnant-gagnant"
     }
   ],
-  "updatedAt": "2026-09-03T10:48:58.702Z"
+  "updatedAt": "2026-09-03T10:49:47.753Z"
 }
