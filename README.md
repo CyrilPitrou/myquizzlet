@@ -192,7 +192,7 @@ A small dot, and it is worth knowing what it means:
 | Green | Everything is on GitHub | Nothing |
 | Amber | Changes waiting to be pushed | Nothing; it goes on its own |
 | Grey | Offline, changes queued | Nothing; it catches up when you reconnect |
-| Red | A push failed | Open Settings → Sync, read the message, press *Retry* |
+| Red | A push failed | Open Settings → Sync, read the message, press *Synchronise now* |
 
 Red usually means the token expired or was revoked — remove it on **Settings →
 Token → Manage token**, then make a new one and paste it
