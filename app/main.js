@@ -15,6 +15,7 @@ import { showTrainSetup, showTrainSession } from './screens/train.js';
 import { showHelp } from './screens/help.js';
 import { onInstallChange } from './install.js';
 import { showAdopt } from './screens/adopt.js';
+import { showToken } from './screens/token.js';
 
 function initSync() {
   ctx.sync?.stop();
@@ -51,6 +52,7 @@ function render() {
   else if (route === 'view' && arg) showView(arg);
   else if (route === 'adopt') showAdopt();
   else if (route === 'settings') showSettings();
+  else if (route === 'token') showToken();
   else if (route === 'help') showHelp();
   else if (route === 'folders') showFolders();
   else if (route === 'folder' && arg) showFolder(decodeURIComponent(arg));
@@ -61,9 +63,9 @@ ctx.render = render;
 ctx.initSync = initSync;
 
 window.addEventListener('hashchange', render);
-// The browser's install offer can arrive while Settings is already on screen,
+// The browser's install offer can arrive while Help is already on screen,
 // and installing removes the reason to show the section at all.
-onInstallChange(() => { if (location.hash.startsWith('#/settings')) render(); });
+onInstallChange(() => { if (location.hash.startsWith('#/help')) render(); });
 applyTheme(settings().theme);
 initSync();
 render();

@@ -1,5 +1,8 @@
 import { el } from '../ui.js';
-import { screen } from '../app.js';
+import { screen, settings, saveSettings, ctx } from '../app.js';
+import { qrCard } from '../qrcard.js';
+import { APP_URL } from '../setup.js';
+import { isInstalled, canInstall, promptInstall } from '../install.js';
 
 function section(title, nodes) {
   return el('section', { class: 'sect' }, [el('h3', { text: title }), ...nodes]);
@@ -8,10 +11,59 @@ function section(title, nodes) {
 const p = (parts) => el('p', {}, parts);
 const b = (text) => el('strong', { text });
 
+// Hidden once the browser says so, once a home-screen launch says so, or
+// once you have said so — the last because a Firefox shortcut says nothing.
+function installSection() {
+  if (isInstalled()) return null;
+
+  if (settings().installHidden) {
+    return section('Installing the app', [el('p', { class: 'muted' }, [
+      el('a', {
+        href: '#/help', text: 'Show the install instructions again',
+        onclick: () => { saveSettings({ ...settings(), installHidden: false }); ctx.render(); },
+      }),
+    ])]);
+  }
+
+  return section('Installing the app', [
+    el('p', { class: 'muted', text: 'This is running in a browser tab. Installing gives it a '
+      + 'home-screen icon and its own window, and it keeps working with no signal.' }),
+    ...(canInstall() ? [el('button', {
+      class: 'primary', text: 'Install this app',
+      // The offer is spent either way, so redraw if it fails: the button
+      // must not sit there promising something it can no longer do.
+      onclick: () => promptInstall().catch(() => ctx.render()),
+    })] : []),
+    el('p', { class: 'muted', text: canInstall()
+      ? 'Nothing is downloaded from a store — the app is already here.'
+      : 'No button? Only Chrome offers one. Every browser installs from its own menu:' }),
+    ...(canInstall() ? [] : [el('ul', { class: 'steps' }, [
+      el('li', { text: 'Firefox: ⋮ → Install, or Add to Home screen.' }),
+      el('li', { text: 'Chrome: ⋮ → Install app. If the bar shows ✕ and no tabs, the page '
+        + 'was opened by a scan — ⋮ → Open in Chrome first, then install there.' }),
+      el('li', { text: 'Samsung Internet: ≡ → Add page to → Home screen.' }),
+      el('li', { text: 'iPhone: Share → Add to Home Screen.' }),
+    ])]),
+    el('p', { class: 'muted', text: 'Firefox makes a shortcut rather than a real app: it '
+      + 'still works offline, but it opens in Firefox and cannot announce itself as '
+      + 'installed. Hide this section by hand once you have done it.' }),
+    el('button', {
+      text: 'Already installed — hide this',
+      onclick: () => {
+        saveSettings({ ...settings(), installHidden: true });
+        ctx.render();
+      },
+    }),
+  ]);
+}
+
 export function showHelp() {
   const view = screen();
   view.append(el('a', { href: '#/', class: 'back', text: '← Lists' }));
   view.append(el('h2', { text: 'Help' }));
+
+  const install = installSection();
+  if (install) view.append(install);
 
   view.append(section('What the three activities are for', [
     p([b('View cards'), ' — flip through the list. Records nothing; no dates move.']),
@@ -61,17 +113,24 @@ export function showHelp() {
   ]));
 
   view.append(section('Adding another device', [
-    p(['Settings → ', b('Add a device'), ' shows a code of the app’s address. Scan it on '
-      + 'the new phone and the app opens in that phone’s browser. Then open its own ',
-      b('Settings → Install'), ', which says how to install it in that browser — Chrome '
-      + 'offers a button, Firefox and the rest have it in their menu.']),
+    p(['Point the new device’s camera at this. It is only the app’s address and carries '
+      + 'no secret.']),
+    el('div', { class: 'qr-pair' }, [
+      qrCard(APP_URL, 'Install it on the new device', 'A QR code of the app’s address'),
+    ]),
+    el('ol', { class: 'steps' }, [
+      el('li', { text: 'Scan it. The app opens in whatever browser that phone uses.' }),
+      el('li', { text: 'Open its own Help, which says how to install it in that '
+        + 'particular browser.' }),
+      el('li', { text: 'Open it from the home screen from now on.' }),
+    ]),
     p(['That is the whole of setup for a device you only study on. It needs no token.']),
-    p(['To let it save changes too, it needs a token. Its own Settings will walk it '
-      + 'through making one on GitHub — the safe route, because a token made there can '
-      + 'be revoked on its own.']),
-    p(['The ', b('Show token QR'), ' button is the shortcut instead: it hands this '
-      + 'device’s token over. Both devices then share one token, so revoking it cuts off '
-      + 'both, and the code is on screen while you scan it. The other device always asks '
-      + 'before it saves anything.']),
+    p(['To let it save changes too, it needs a token. Its own ', b('Settings → Token'),
+      ' will walk it through making one on GitHub — the safe route, because a token made '
+      + 'there can be revoked on its own.']),
+    p(['The ', b('Show token QR'), ' button on that same page is the shortcut instead: it '
+      + 'hands this device’s token over. Both devices then share one token, so revoking it '
+      + 'cuts off both, and the code is on screen while you scan it. The other device always '
+      + 'asks before it saves anything.']),
   ]));
 }

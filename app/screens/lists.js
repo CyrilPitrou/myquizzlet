@@ -36,7 +36,7 @@ export function showLists() {
   const expiring = expiryWarning(settings().tokenExpiry, todayStr());
   if (expiring) {
     view.append(el('p', { class: 'warn' }, [`${expiring} `,
-      el('a', { href: '#/settings', text: 'Replace it' })]));
+      el('a', { href: '#/token', text: 'Replace it' })]));
   }
 
   const ids = store.listIds().slice().sort((a, b) => {
