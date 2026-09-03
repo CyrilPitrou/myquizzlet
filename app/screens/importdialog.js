@@ -3,21 +3,39 @@ import { previewRows } from '../csv.js';
 
 const ACCEPT = '.csv,.tsv,.txt,text/csv,text/tab-separated-values,text/plain';
 
-function rowNode(row, onEdit, onRemove) {
-  const frontInput = el('input', {
-    value: row.front,
-    oninput: (event) => { row.front = event.target.value; onEdit(row); },
-  });
-  const backInput = el('input', {
-    value: row.back,
-    oninput: (event) => { row.back = event.target.value; onEdit(row); },
-  });
-  const children = [frontInput, backInput];
-  if (row.error) children.push(el('span', { class: 'reason', text: row.error }));
-  children.push(el('button', {
+// Each row owns its own error display and refreshes itself in place on
+// edit, so the caller never has to rebuild the row list mid-keystroke.
+function rowNode(row, onChange, onRemove) {
+  const reason = el('span', { class: 'reason', text: row.error || '' });
+
+  function refresh() {
+    wrap.className = row.error ? 'import-row error' : 'import-row';
+    reason.textContent = row.error || '';
+  }
+
+  // Re-derives the row's error from its *current* text on every edit, so a
+  // row can go valid -> invalid as well as invalid -> valid. This replaces
+  // an initial diagnosis like "no separator found" with "empty side" the
+  // moment the user edits the row — correct, since the original diagnosis
+  // no longer describes the row's current text.
+  function edit(side) {
+    return (event) => {
+      row[side] = event.target.value;
+      row.error = row.front.trim() && row.back.trim() ? null : 'empty side';
+      refresh();
+      onChange();
+    };
+  }
+
+  const frontInput = el('input', { value: row.front, oninput: edit('front') });
+  const backInput = el('input', { value: row.back, oninput: edit('back') });
+  const removeBtn = el('button', {
     class: 'link', text: '✕', title: 'remove', type: 'button', onclick: onRemove,
-  }));
-  return el('div', { class: row.error ? 'import-row error' : 'import-row' }, children);
+  });
+  const wrap = el('div', { class: row.error ? 'import-row error' : 'import-row' },
+    [frontInput, backInput, reason, removeBtn]);
+
+  return wrap;
 }
 
 // Opens the shared file-import dialog: a styled file picker, then an
@@ -40,13 +58,10 @@ export function openImportDialog({ onCommit }) {
 
   function renderRows() {
     clear(rowsWrap);
-    rows.forEach((row, index) => rowsWrap.append(rowNode(
+    rows.forEach((row) => rowsWrap.append(rowNode(
       row,
-      () => {
-        if (row.error && row.front.trim() && row.back.trim()) { row.error = null; renderRows(); return; }
-        updateCommit();
-      },
-      () => { rows.splice(index, 1); renderRows(); },
+      updateCommit,
+      () => { rows = rows.filter((r) => r !== row); renderRows(); },
     )));
     updateCommit();
   }
