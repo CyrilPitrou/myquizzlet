@@ -43,8 +43,10 @@ jobs:
           number=$(gh issue list --state open --limit 100 --json number,title \
                      --jq '.[] | select(.title == "Suggestions waiting") | .number' | head -n1)
           body=$(printf 'The suggestion box is not empty:\n\n---\n\n%s\n\n---\n\nRun `let us review suggestions` to act on it.' "$BODY")
+          owner='${{ github.repository_owner }}'
           if [ -n "$number" ]; then
             gh issue edit "$number" --body "$body"
+            gh issue comment "$number" --body 'The box changed. The text above is the current one.'
           else
-            gh issue create --title 'Suggestions waiting' --body "$body"
+            gh issue create --title 'Suggestions waiting' --body "$body" --assignee "$owner"
           fi
