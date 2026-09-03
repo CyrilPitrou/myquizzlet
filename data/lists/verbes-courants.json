@@ -24,8 +24,8 @@
     },
     {
       "id": "si2cx4",
-      "front": "amar",
-      "back": "gustar,aimer"
+      "front": "amar,gustar",
+      "back": "aimer"
     },
     {
       "id": "a67a4s",
@@ -373,5 +373,5 @@
       "back": "voler,dérober"
     }
   ],
-  "updatedAt": "2026-09-03T05:12:53.355Z"
+  "updatedAt": "2026-09-03T07:07:03.340Z"
 }
