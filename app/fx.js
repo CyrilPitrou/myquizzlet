@@ -42,3 +42,30 @@ export function flip(node) {
   if (!motionOn()) return Promise.resolve();
   return settle(node, 450);
 }
+
+export function flyOut(node, dir) {
+  if (!motionOn()) return Promise.resolve();
+  node.classList.add('flying');
+  // A frame between the transition class and the target class, or the browser
+  // collapses the two and there is nothing to animate from. The inline
+  // transform a drag left behind goes at the same moment, so the flight
+  // starts where the finger let go.
+  requestAnimationFrame(() => {
+    node.style.transition = '';
+    node.style.transform = '';
+    node.classList.add(dir === 'right' ? 'fly-right' : 'fly-left');
+  });
+  return settle(node, 350);
+}
+
+// The incoming card comes from the side the outgoing one left towards.
+export function slideIn(node, dir) {
+  if (!motionOn()) return;
+  node.classList.add(dir === 'right' ? 'in-right' : 'in-left');
+  node.addEventListener('animationend', () => node.classList.remove('in-right', 'in-left'), { once: true });
+}
+
+export function lift(node, on) {
+  if (!motionOn()) return;
+  node.classList.toggle('lifted', on);
+}

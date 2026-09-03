@@ -9,6 +9,7 @@
   --ok:      #4d7c3f;
   --bad:     #b91c1c;
   --warn:    #fdf6e7;
+  --shadow:  rgba(0, 0, 0, .18);
 }
 
 :root { color-scheme: light; }
@@ -24,6 +25,7 @@
   --ok:      #12b76a;
   --bad:     #e04343;
   --warn:    #fff7e6;
+  --shadow:  rgba(15, 23, 42, .2);
 }
 
 :root[data-theme="focus"] {
@@ -38,6 +40,7 @@
   --ok:      #5fd08a;
   --bad:     #f87171;
   --warn:    #2a2416;
+  --shadow:  rgba(0, 0, 0, .55);
 }
 
 :root { --chip-paper: #faf7f2; --chip-study: #f1f3f9; --chip-focus: #0f1720; }
@@ -190,8 +193,25 @@ section.sect:last-child { border-bottom: none; }
 .card.deck::before { transform: translate(3px, 3px); }
 .card.deck::after  { transform: translate(6px, 6px); opacity: .6; }
 
+/* Travel: the card leaves in the direction it was swiped, and the next one
+   arrives from the side the last one left towards. */
+.card.flying { transition: transform .22s ease-in, opacity .22s ease-in; }
+.card.fly-left  { transform: translateX(-120%) rotate(-14deg); opacity: 0; }
+.card.fly-right { transform: translateX(120%)  rotate(14deg);  opacity: 0; }
+
+@keyframes slide-from-left  { from { transform: translateX(-60%); opacity: 0; } }
+@keyframes slide-from-right { from { transform: translateX(60%);  opacity: 0; } }
+.card.in-left  { animation: slide-from-left  .22s ease-out; }
+.card.in-right { animation: slide-from-right .22s ease-out; }
+
+/* The shadow lifts as the card is dragged, so it feels picked up. */
+.card .face { box-shadow: 0 1px 2px var(--shadow); }
+.card.lifted .face { box-shadow: 0 6px 18px var(--shadow); }
+
 @media (prefers-reduced-motion: reduce) {
   .card .faces { transition: none; }
+  .card.flying { transition: none; }
+  .card.in-left, .card.in-right { animation: none; }
 }
 .actions.pager button { flex: 1; }
 
