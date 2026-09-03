@@ -2,6 +2,7 @@ import { el, clear, swipeable } from '../ui.js';
 import { buildQueue, newItem, nextItem, parseKey } from '../srs.js';
 import { grade } from '../grade.js';
 import { store, go, todayStr, screen, ctx } from '../app.js';
+import { t } from '../i18n.js';
 
 const setup = { mode: 'write', directions: ['f2b', 'b2f'], limit: 20, includeNew: true, free: false };
 
@@ -9,36 +10,35 @@ export function showTestSetup(listId) {
   const list = store.getList(listId);
   if (!list) return go('#/');
   const view = screen();
-  view.append(el('a', { href: '#/', class: 'back', text: '← Lists' }));
-  view.append(el('h2', { text: `Test: ${list.name}` }));
+  view.append(el('a', { href: '#/', class: 'back', text: t('common.back.lists') }));
+  view.append(el('h2', { text: t('test.title', { name: list.name }) }));
 
-  const front = list.frontLabel || 'Front';
-  const back = list.backLabel || 'Back';
+  const front = list.frontLabel || t('side.front');
+  const back = list.backLabel || t('side.back');
   const radio = (name, value, label, checked) => el('label', { class: 'opt' }, [
     el('input', { type: 'radio', name, value, ...(checked ? { checked: 'checked' } : {}) }),
     label,
   ]);
 
   const modes = el('div', { class: 'opts' }, [
-    radio('mode', 'write', 'Write (type the answer)', setup.mode === 'write'),
-    radio('mode', 'cards', 'Flashcards', setup.mode === 'cards'),
+    radio('mode', 'write', t('test.mode.write'), setup.mode === 'write'),
+    radio('mode', 'cards', t('test.mode.cards'), setup.mode === 'cards'),
   ]);
   const dirs = el('div', { class: 'opts' }, [
-    radio('dir', 'both', 'Both directions', setup.directions.length === 2),
-    radio('dir', 'f2b', `${front} → ${back}`, setup.directions.join() === 'f2b'),
-    radio('dir', 'b2f', `${back} → ${front}`, setup.directions.join() === 'b2f'),
+    radio('dir', 'both', t('train.dir.both'), setup.directions.length === 2),
+    radio('dir', 'f2b', t('train.dir.f2b', { front, back }), setup.directions.join() === 'f2b'),
+    radio('dir', 'b2f', t('train.dir.f2b', { front: back, back: front }), setup.directions.join() === 'b2f'),
   ]);
   const limit = el('input', { type: 'number', min: '5', max: '100', step: '5', value: String(setup.limit) });
 
-  view.append(el('h3', { text: 'Mode' }), modes, el('h3', { text: 'Direction' }), dirs,
-    el('h3', { text: 'Cards this session' }), limit);
+  view.append(el('h3', { text: t('test.mode') }), modes, el('h3', { text: t('test.direction') }), dirs,
+    el('h3', { text: t('test.count') }), limit);
 
   const free = el('input', { type: 'checkbox', ...(setup.free ? { checked: 'checked' } : {}) });
-  view.append(el('label', { class: 'opt' }, [free,
-    'Practise the whole list now — your schedule stays untouched']));
+  view.append(el('label', { class: 'opt' }, [free, t('test.free')]));
 
   view.append(el('button', {
-    class: 'primary', text: 'Start',
+    class: 'primary', text: t('test.start'),
     onclick: () => {
       setup.mode = modes.querySelector('input:checked').value;
       const dir = dirs.querySelector('input:checked').value;
@@ -65,9 +65,8 @@ function queueFor(listId, free) {
 function startSession(listId, free = setup.free) {
   const queue = queueFor(listId, free);
   if (queue.length === 0) {
-    if (free) return alert('This list has no cards yet.');
-    const ok = confirm('Nothing is due in this list right now. Practise the whole list '
-      + 'anyway? This will not affect your schedule.');
+    if (free) return alert(t('test.empty'));
+    const ok = confirm(t('test.nothingDue'));
     if (!ok) return;
     return startSession(listId, true);
   }
@@ -95,17 +94,17 @@ export function showTestSession(listId) {
   const view = screen();
 
   if (session.at >= session.queue.length) {
-    view.append(el('h2', { text: 'Done' }));
-    view.append(el('p', { text: `${session.right} right, ${session.wrong} wrong.` }));
-    view.append(el('a', { class: 'btn', href: `#/test/${listId}`, text: 'Study more' }));
-    view.append(el('a', { class: 'btn', href: '#/', text: 'Back to lists' }));
+    view.append(el('h2', { text: t('session.done') }));
+    view.append(el('p', { text: t('test.done.count', { right: session.right, wrong: session.wrong }) }));
+    view.append(el('a', { class: 'btn', href: `#/test/${listId}`, text: t('test.studyMore') }));
+    view.append(el('a', { class: 'btn', href: '#/', text: t('test.backToLists') }));
     session = null;
     return;
   }
 
   view.append(el('div', { class: 'sessionbar' }, [
-    el('a', { class: 'back', href: `#/list/${listId}`, text: '← Quit' }),
-    el('span', { class: 'muted', text: `${session.at + 1} / ${session.queue.length}` }),
+    el('a', { class: 'back', href: `#/list/${listId}`, text: t('session.quit') }),
+    el('span', { class: 'muted', text: t('test.progress', { at: session.at + 1, total: session.queue.length }) }),
   ]));
 
   const key = session.queue[session.at];
@@ -118,19 +117,19 @@ export function showTestSession(listId) {
   if (setup.mode === 'cards') {
     const face = el('div', { class: 'card' }, [
       el('p', { class: 'prompt', text: prompt }),
-      el('p', { class: 'muted', text: 'tap to reveal · swipe right if you knew it' }),
+      el('p', { class: 'muted', text: t('test.tapToReveal') }),
     ]);
     const reveal = () => {
       clear(face);
       face.append(el('p', { class: 'prompt', text: expected }));
-      face.append(el('p', { class: 'muted', text: 'swipe right if you knew it' }));
+      face.append(el('p', { class: 'muted', text: t('test.swipeIfKnown') }));
     };
     face.addEventListener('click', reveal);
     swipeable(face, { onLeft: () => answer(false), onRight: () => answer(true) });
     view.append(face);
     view.append(el('div', { class: 'actions' }, [
-      el('button', { text: 'Didn’t know', onclick: () => answer(false) }),
-      el('button', { class: 'primary', text: 'Knew it', onclick: () => answer(true) }),
+      el('button', { text: t('test.didntKnow'), onclick: () => answer(false) }),
+      el('button', { class: 'primary', text: t('test.knewIt'), onclick: () => answer(true) }),
     ]));
     return;
   }
@@ -138,7 +137,7 @@ export function showTestSession(listId) {
   view.append(el('p', { class: 'prompt', text: prompt }));
 
   const input = el('input', { class: 'answer-input', autocapitalize: 'none',
-    autocorrect: 'off', spellcheck: 'false', placeholder: 'your answer' });
+    autocorrect: 'off', spellcheck: 'false', placeholder: t('session.answerPlaceholder') });
   const form = el('form', {
     onsubmit: (e) => {
       e.preventDefault();
@@ -146,18 +145,20 @@ export function showTestSession(listId) {
       if (verdict === 'correct') return answer(true);
       showVerdict(form, verdict, expected, input.value);
     },
-  }, [input, el('button', { class: 'primary', type: 'submit', text: 'Check' })]);
+  }, [input, el('button', { class: 'primary', type: 'submit', text: t('session.check') })]);
   view.append(form);
   input.focus();
 }
 
 function showVerdict(anchor, verdict, expected, typed) {
   const panel = el('div', { class: `verdict ${verdict}` }, [
-    el('p', { text: verdict === 'typo' ? `Almost — it is “${expected}”` : `Answer: ${expected}` }),
-    el('p', { class: 'muted', text: `you wrote: ${typed}` }),
+    el('p', { text: verdict === 'typo' ? t('session.typo', { expected })
+                                       : t('session.answerWas', { expected }) }),
+    el('p', { class: 'muted', text: t('session.youWrote', { typed }) }),
     el('div', { class: 'row' }, [
-      el('button', { text: 'I was right', onclick: () => answer(true) }),
-      el('button', { class: 'primary', text: verdict === 'typo' ? 'Got it' : 'Continue',
+      el('button', { text: t('session.iWasRight'), onclick: () => answer(true) }),
+      el('button', { class: 'primary',
+        text: verdict === 'typo' ? t('session.gotIt') : t('session.continue'),
         onclick: () => answer(verdict === 'typo') }),
     ]),
   ]);
