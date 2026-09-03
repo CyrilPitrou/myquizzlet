@@ -1,3 +1,5 @@
+import { swapSides as swapListSides } from './sides.js';
+
 const PREFIX = 'mq:';
 const ALPHABET = 'abcdefghijklmnopqrstuvwxyz0123456789';
 const META = ['name', 'folder', 'frontLabel', 'backLabel', 'frontLang', 'backLang'];
@@ -111,6 +113,14 @@ export function createStore(storage, now = () => new Date()) {
       cards.map((c) => (c.id === cardId ? { ...c, ...fields } : c))),
     deleteCard: (listId, cardId) => mutateCards(listId, (cards) =>
       cards.filter((c) => c.id !== cardId)),
+    swapSides(id) {
+      const list = getList(id);
+      if (!list) throw new Error(`no such list: ${id}`);
+      const swapped = swapListSides({ list, progress: this.getProgress(id) });
+      const savedList = saveList(swapped.list);
+      const savedProgress = this.saveProgress(swapped.progress);
+      return { list: savedList, progress: savedProgress };
+    },
     getProgress: (listId) => read(`progress:${listId}`, { listId, updatedAt: null, items: {} }),
     saveProgress(progress) {
       const saved = { ...progress, updatedAt: stamp() };

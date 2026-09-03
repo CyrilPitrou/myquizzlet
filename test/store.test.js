@@ -277,3 +277,36 @@ describe('list metadata', () => {
     expect(store.getList(list.id).name).toBe('New');
   });
 });
+
+describe('swap sides', () => {
+  it('swaps list labels, card text, and progress keys together', () => {
+    const list = store.createList({ name: 'Spanish – Food', frontLabel: 'Español', backLabel: 'Français',
+                                    frontLang: 'es', backLang: 'fr' });
+    const id = store.addCards(list.id, [{ front: 'el pan', back: 'le pain' }]).cards[0].id;
+    store.saveProgress({ listId: list.id, items: { [`${id}:f2b`]: { box: 3, lastSeen: '2026-09-01T10:00:00Z' } } });
+
+    const result = store.swapSides(list.id);
+
+    expect(result.list.frontLabel).toBe('Français');
+    expect(result.list.backLabel).toBe('Español');
+    expect(result.list.cards[0]).toEqual({ id, front: 'le pain', back: 'el pan' });
+    expect(result.progress.items[`${id}:b2f`].box).toBe(3);
+    expect(result.progress.items[`${id}:f2b`]).toBeUndefined();
+  });
+
+  it('persists the swap to storage', () => {
+    const list = store.createList({ name: 'Food', frontLabel: 'A', backLabel: 'B' });
+    store.swapSides(list.id);
+    expect(store.getList(list.id).frontLabel).toBe('B');
+  });
+
+  it('marks both list and progress dirty', () => {
+    const list = store.createList({ name: 'Food' });
+    store.swapSides(list.id);
+    expect(store.dirtyKeys().sort()).toEqual([`list:${list.id}`, `progress:${list.id}`]);
+  });
+
+  it('throws for an unknown list', () => {
+    expect(() => store.swapSides('nope')).toThrow('no such list: nope');
+  });
+});
