@@ -1,6 +1,6 @@
 {
   "listId": "ville",
-  "updatedAt": "2026-09-03T18:05:46.482Z",
+  "updatedAt": "2026-09-03T18:05:59.485Z",
   "items": {
     "nq8fbs:b2f": {
       "box": 2,
@@ -91,11 +91,11 @@
       "level": 0
     },
     "qpnlua:f2b": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": "2026-09-03T17:36:45.804Z",
+      "lastSeen": "2026-09-03T18:05:46.849Z",
       "level": 0
     },
     "psi1x2:f2b": {
