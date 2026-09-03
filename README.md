@@ -46,7 +46,7 @@ The app needs permission to write your lists back. Reading needs nothing.
 3. **Repository access:** only `CyrilPitrou/myquizzlet`.
 4. **Permissions:** *Contents* → **Read and write**. Nothing else.
 5. Generate, and copy the token — GitHub shows it exactly once.
-6. Open the app → **Settings → Sync → Set up a token** → paste it → Save.
+6. Open the app → **Settings → Token → Manage token** → paste it → Save.
 
 Repeat step 6 on every device where you want to *add or edit* words, generating
 that device's token on the device itself — GitHub's copy button puts it straight
@@ -90,7 +90,7 @@ you use day to day.
 A device you only ever study on is now finished. It needs no token at all.
 
 **Giving it a token, the safe way.** On the new device, open **Settings →
-Sync**, which says it has no token, and follow **Set up a token**. With no token
+Token**, which says it has none, and press **Manage token**. With no token
 saved that page links straight to GitHub's token page and says exactly what to
 put in it: repository access limited to this one repo, and Contents → Read and
 write. The token is made on the phone that will hold it, so it can be revoked on
@@ -194,7 +194,7 @@ A small dot, and it is worth knowing what it means:
 | Red | A push failed | Open Settings → Sync, read the message, press *Retry* |
 
 Red usually means the token expired or was revoked — remove it on **Settings →
-Token**, then make a new one and paste it
+Token → Manage token**, then make a new one and paste it
 in. Your work is still safe in the browser meanwhile.
 
 If you edited the same list on both devices while offline, the app shows both

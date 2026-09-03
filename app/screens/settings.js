@@ -1,6 +1,7 @@
 import { el } from '../ui.js';
-import { store, settings, saveSettings, REPO, screen, ctx } from '../app.js';
+import { store, settings, saveSettings, REPO, screen, ctx, todayStr } from '../app.js';
 import { setStatus, statusLine } from '../status.js';
+import { maskToken, expiryWarning } from '../setup.js';
 import { toCsv } from '../csv.js';
 import { zip, entryNames } from '../zip.js';
 
@@ -33,24 +34,40 @@ const csvFiles = (lists) => {
   return lists.map((list, i) => ({ name: names[i], text: toCsv(list.cards) }));
 };
 
-// Pull works on a public repo without a token, so the buttons stay; only
-// pushing needs one. Saying that here, where the waiting count is, is the
-// point at which it actually matters.
-function syncSection(current) {
+// Pull works on a public repo without a token, so these buttons stay whatever
+// the token situation is; only pushing needs one, and the Token section below
+// says so.
+function syncSection() {
   return section('Sync', [
     statusLine(),
     el('p', { class: 'muted', text: `${store.dirtyKeys().length} change(s) waiting.` }),
-    ...(current.token
-      ? [el('p', { class: 'muted' }, ['Saving to GitHub is set up. ',
-          el('a', { href: '#/token', text: 'Token' }), '.'])]
-      : [el('p', { class: 'warn', text: 'No token on this device, so changes stay here and '
-          + 'are never saved. Studying works fine without one.' }),
-        el('p', {}, [el('a', { class: 'btn primary', href: '#/token',
-          text: 'Set up a token' })])]),
     el('div', { class: 'row' }, [
       el('button', { text: 'Pull now', onclick: () => ctx.sync.pullAll().then(ctx.render).catch((e) => setStatus('error', e.message)) }),
       el('button', { text: 'Push now', onclick: () => ctx.sync.pushDirty().then(ctx.render).catch((e) => setStatus('error', e.message)) }),
       el('button', { text: 'Retry', onclick: () => ctx.sync.syncNow().then(ctx.render) }),
+    ]),
+  ]);
+}
+
+// Everything about the token, and one button in the same place in both states.
+// The heading and the button never move; only the lines between them change,
+// so there is no hunting for the way in.
+function tokenSection(current) {
+  const warning = expiryWarning(current.tokenExpiry, todayStr());
+
+  return section('Token', [
+    ...(current.token
+      ? [el('p', { class: 'muted', text: 'Saving to GitHub is on.' }),
+        el('dl', { class: 'facts' }, [
+          el('dt', { text: 'Token' }), el('dd', { text: maskToken(current.token) }),
+          el('dt', { text: 'Expires' }), el('dd', { text: current.tokenExpiry || 'not recorded' }),
+        ]),
+        ...(warning ? [el('p', { class: 'warn', text: warning })] : [])]
+      : [el('p', { class: 'warn', text: 'No token on this device, so changes stay here and '
+          + 'are never saved. Studying works fine without one.' })]),
+    el('div', { class: 'actions' }, [
+      el('a', { class: `btn${current.token ? '' : ' primary'}`, href: '#/token',
+        text: 'Manage token' }),
     ]),
   ]);
 }
@@ -66,7 +83,8 @@ export function showSettings() {
     el('p', { class: 'muted', text: 'Stored on this device only — it is a preference, not data, so it never syncs.' }),
   ]));
 
-  view.append(syncSection(current));
+  view.append(syncSection());
+  view.append(tokenSection(current));
 
   const exported = el('p', { class: 'muted' });
 
