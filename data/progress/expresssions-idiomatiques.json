@@ -1,6 +1,6 @@
 {
   "listId": "expresssions-idiomatiques",
-  "updatedAt": "2026-09-03T15:12:45.501Z",
+  "updatedAt": "2026-09-03T15:12:59.689Z",
   "items": {
     "shtudr:f2b": {
       "box": 2,
@@ -73,6 +73,38 @@
       "lapses": 0,
       "lastSeen": null,
       "level": 1
+    },
+    "989lzv:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 0
+    },
+    "wwjhzm:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 0
+    },
+    "wf72cn:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 0
+    },
+    "92qorz:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 0
     }
   }
 }
