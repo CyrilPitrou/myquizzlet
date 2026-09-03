@@ -159,9 +159,13 @@ git -C .data push origin data
 The workflow opens an issue titled "Suggestions waiting". Close it:
 
 ```sh
-gh issue list --state open --search "Suggestions waiting" --json number,title
+gh issue list --state open --limit 100 --json number,title \
+  --jq '.[] | select(.title == "Suggestions waiting") | .number'
 gh issue close <number> --comment "<what was done>"
 ```
+
+Match the title exactly rather than with `--search`: search runs on an index
+that lags behind, so it can miss an issue opened minutes ago.
 
 ## Afterwards
 
