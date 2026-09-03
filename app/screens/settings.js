@@ -65,10 +65,8 @@ function tokenSection(current) {
         ...(warning ? [el('p', { class: 'warn', text: warning })] : [])]
       : [el('p', { class: 'warn', text: 'No token on this device, so changes stay here and '
           + 'are never saved. Studying works fine without one.' })]),
-    el('div', { class: 'actions' }, [
-      el('a', { class: `btn${current.token ? '' : ' primary'}`, href: '#/token',
-        text: 'Manage token' }),
-    ]),
+    el('p', {}, [el('a', { class: `btn${current.token ? '' : ' primary'}`,
+      href: '#/token', text: 'Manage token' })]),
   ]);
 }
 
