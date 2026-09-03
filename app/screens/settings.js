@@ -5,6 +5,7 @@ import { encode } from '../qr.js';
 import { APP_URL, TOKEN_PAGE, setupLink, parseSetup, expiryWarning } from '../setup.js';
 import { toCsv } from '../csv.js';
 import { zip, entryNames } from '../zip.js';
+import { isInstalled, canInstall, promptInstall } from '../install.js';
 
 const THEMES = [{ id: 'paper', name: 'Paper' }, { id: 'study', name: 'Study' },
                 { id: 'focus', name: 'Focus' }];
@@ -122,20 +123,42 @@ export function showSettings() {
   view.append(el('a', { href: '#/', class: 'back', text: '← Lists' }));
   view.append(el('h2', { text: 'Settings' }));
 
+  if (!isInstalled()) {
+    view.append(section('Install', [
+      el('p', { class: 'muted', text: 'This is running in a browser tab. Installing gives it a '
+        + 'home-screen icon and its own window, and it keeps working with no signal.' }),
+      ...(canInstall() ? [el('button', {
+        class: 'primary', text: 'Install this app',
+        // The offer is spent either way, so redraw if it fails: the button
+        // must not sit there promising something it can no longer do.
+        onclick: () => promptInstall().catch(() => ctx.render()),
+      })] : []),
+      el('p', { class: 'muted', text: canInstall()
+        ? 'Nothing is downloaded from a store — the app is already here.'
+        : 'No button? This tab cannot install, which is normal when the page was '
+          + 'opened by scanning a code. Tap ⋮ → Open in Chrome, then ⋮ → Install app.' }),
+    ]));
+  }
+
   if (!current.token) {
     view.append(section('Set up this device', [
-      el('p', { class: 'muted', text: 'Right now this device can study, but not save changes.' }),
+      el('p', { class: 'muted', text: 'Right now this device can study, but not save changes. '
+        + 'It needs a token of its own, or a copy of another device’s.' }),
       el('ol', { class: 'steps' }, [
         el('li', { text: 'On a device that already works, open Settings and tap “Show token QR”.' }),
         el('li', { text: 'Point this device’s camera at it and open the link.' }),
       ]),
-      el('p', { class: 'muted' }, [
-        'No other device set up yet? ',
-        el('a', { target: '_blank', rel: 'noopener',
-          href: 'https://github.com/settings/personal-access-tokens/new',
-          text: 'Create a token on GitHub' }),
-        ` instead — repository access: only ${REPO}; permissions: Contents → Read and write.`,
+      el('p', { class: 'muted' }, ['No other device set up yet? Make this device its own token — ',
+        el('a', { target: '_blank', rel: 'noopener', href: TOKEN_PAGE,
+          text: 'open GitHub’s token page' }),
+        ' and fill it in like this:']),
+      el('ul', { class: 'steps' }, [
+        el('li', { text: `Repository access: Only select repositories → ${REPO}.` }),
+        el('li', { text: 'Permissions: Repository permissions → Contents → Read and write.' }),
+        el('li', { text: 'Expiration: whatever you like — the app warns you a fortnight ahead.' }),
       ]),
+      el('p', { class: 'muted', text: 'GitHub shows the token once. Copy it straight into the '
+        + 'field below, and put its expiry date in beside it.' }),
     ]));
   }
 
@@ -189,16 +212,21 @@ export function showSettings() {
 
   if (current.token) {
     view.append(section('Add a device', [
-      el('p', { class: 'muted', text: 'Point the new device’s camera at these. '
-        + 'Neither one carries a secret.' }),
+      el('p', { class: 'muted', text: 'Point the new device’s camera at this. '
+        + 'It is only the app’s address and carries no secret.' }),
       el('div', { class: 'qr-pair' }, [
-        qrCard(APP_URL, '1. Open the app', 'A QR code of the app’s address'),
-        qrCard(TOKEN_PAGE, '2. Make it a token there',
-          'A QR code of GitHub’s token page'),
+        qrCard(APP_URL, 'Install it on the new device', 'A QR code of the app’s address'),
       ]),
-      el('p', { class: 'muted', text: 'The token is then created on the device that '
-        + 'will hold it, and can be revoked on its own. A device you only study on '
-        + 'needs no token at all — the first code is the whole of its setup.' }),
+      el('ol', { class: 'steps' }, [
+        el('li', { text: 'Scan it. The app opens, but in a browser view that cannot install it.' }),
+        el('li', { text: 'Tap ⋮ → Open in Chrome.' }),
+        el('li', { text: 'In Chrome, the app’s Settings offer an Install button. '
+          + 'Failing that, ⋮ → Install app.' }),
+        el('li', { text: 'Open it from the home screen from now on.' }),
+      ]),
+      el('p', { class: 'muted', text: 'A device you only study on is now finished — it needs '
+        + 'no token at all. To let it save changes too, either give it the code below, or open '
+        + 'its Settings, where it will offer to make a token of its own.' }),
       tokenQr(current),
     ]));
   }

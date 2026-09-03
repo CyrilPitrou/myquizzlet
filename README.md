@@ -65,14 +65,23 @@ happens, revoke it on GitHub straight away and make a new one.
 
 ### Adding a second device
 
-**The safe way.** On a device that already works, open **Settings → Add a
-device**. It shows two QR codes: point the new phone's camera at the first to
-open the app, and at the second to reach GitHub's token page, where the phone
-makes its own token. That token belongs to that phone and can be revoked on
-its own.
+**Getting the app onto it.** On a device that already works, open **Settings →
+Add a device**. It shows one QR code — the app's address, nothing secret.
 
-A device you only ever study on needs no token at all — the first code is the
-whole of its setup.
+1. Scan it on the new phone. The app opens, but in a stripped browser view that
+   cannot install it. This is the step that catches people out.
+2. Tap **⋮ → Open in Chrome**.
+3. In Chrome, the app's own **Settings → Install** has an **Install this app**
+   button. If it is missing, **⋮ → Install app** does the same job.
+4. From then on, open it from the home screen.
+
+A device you only ever study on is now finished. It needs no token at all.
+
+**Giving it a token, the safe way.** On the new device, open **Settings**. With
+no token saved it shows **Set up this device**, which links straight to GitHub's
+token page and says exactly what to put in it: repository access limited to this
+one repo, and Contents → Read and write. The token is made on the phone that
+will hold it, so it can be revoked on its own.
 
 **The quick way, if you accept the price.** The same section has an opt-in
 **Show token QR** button. It draws a link carrying this device's token; the
@@ -91,8 +100,11 @@ No camera to hand? The token field also accepts the whole setup link, pasted.
 
 ## Install on Android
 
-1. Open the app URL in **Chrome**.
-2. Menu (⋮) → **Add to Home screen** → **Install**.
+1. Open the app URL in **Chrome**. It must be Chrome itself — a browser view
+   opened by scanning a QR code cannot install anything, and shows no Install
+   button. If you arrived that way, **⋮ → Open in Chrome** first.
+2. **Settings → Install → Install this app**. Chrome's own **⋮ → Add to Home
+   screen → Install** does the same job if the button is not there.
 3. Launch it from the home screen icon.
 
 Pick **Install** rather than a plain shortcut if Chrome offers both. Install
@@ -107,8 +119,8 @@ native Android app — and is not planned.
 
 ### Adding another device
 
-See **Adding a second device** above — the safe way needs no typing at all,
-scanning a code is enough.
+See **Adding a second device** above — scan one code, install, and a
+study-only device is done.
 
 ## Install on the computer
 
