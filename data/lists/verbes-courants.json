@@ -89,8 +89,8 @@
     },
     {
       "id": "s71ann",
-      "front": "elegir",
-      "back": "seleccionar,choisir"
+      "front": "elegir, seleccionar",
+      "back": "choisir"
     },
     {
       "id": "np6lvk",
@@ -144,8 +144,8 @@
     },
     {
       "id": "e7f4tr",
-      "front": "prevenir",
-      "back": "impedir,evitar,empêcher"
+      "front": "prevenir, impedir,evitar",
+      "back": "empêcher"
     },
     {
       "id": "anwh68",
@@ -373,5 +373,5 @@
       "back": "voler,dérober"
     }
   ],
-  "updatedAt": "2026-09-03T07:07:03.340Z"
+  "updatedAt": "2026-09-03T18:13:28.690Z"
 }
