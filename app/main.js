@@ -17,6 +17,7 @@ import { showHelp } from './screens/help.js';
 import { onInstallChange } from './install.js';
 import { showAdopt } from './screens/adopt.js';
 import { showToken } from './screens/token.js';
+import { showWishes } from './screens/wishes.js';
 
 function initSync() {
   ctx.sync?.stop();
@@ -46,7 +47,8 @@ function paintLang() {
   button.setAttribute('aria-label', t('nav.lang'));
 
   const nav = { '#/new': 'nav.new', '#/folders': 'nav.folders',
-                '#/': 'nav.lists', '#/settings': 'nav.settings', '#/help': 'nav.help' };
+                '#/': 'nav.lists', '#/wishes': 'nav.wishes',
+                '#/settings': 'nav.settings', '#/help': 'nav.help' };
   for (const [href, key] of Object.entries(nav)) {
     const link = document.querySelector(`#topbar a[href="${href}"]`);
     if (!link) continue;
@@ -73,6 +75,7 @@ function render() {
   else if (route === 'new') showNewList();
   else if (route === 'view' && arg) showView(arg);
   else if (route === 'adopt') showAdopt();
+  else if (route === 'wishes') showWishes();
   else if (route === 'settings') showSettings();
   else if (route === 'token') showToken();
   else if (route === 'help') showHelp();
