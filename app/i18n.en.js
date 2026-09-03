@@ -116,6 +116,7 @@ export const en = {
   'session.quit': '← Quit',
   'session.tally': '{done} learned · {right} right · {wrong} wrong',
   'session.done': 'Done',
+  'result.score': '{right} of {total} right',
   'session.answerPlaceholder': 'your answer',
   'session.check': 'Check',
   'session.typo': 'Almost — it is “{expected}”',

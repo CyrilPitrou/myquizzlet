@@ -12,6 +12,10 @@
   --shadow:  rgba(0, 0, 0, .18);
   --tint-ok:  rgba(77, 124, 63, .22);
   --tint-bad: rgba(185, 28, 28, .18);
+  --confetti-1: #d97706;
+  --confetti-2: #4d7c3f;
+  --confetti-3: #2563eb;
+  --confetti-4: #be185d;
 }
 
 :root { color-scheme: light; }
@@ -30,6 +34,10 @@
   --shadow:  rgba(15, 23, 42, .2);
   --tint-ok:  rgba(18, 183, 106, .22);
   --tint-bad: rgba(224, 67, 67, .18);
+  --confetti-1: #f59e0b;
+  --confetti-2: #22c55e;
+  --confetti-3: #3b82f6;
+  --confetti-4: #ec4899;
 }
 
 :root[data-theme="focus"] {
@@ -47,6 +55,10 @@
   --shadow:  rgba(0, 0, 0, .55);
   --tint-ok:  rgba(95, 208, 138, .28);
   --tint-bad: rgba(248, 113, 113, .26);
+  --confetti-1: #fbbf24;
+  --confetti-2: #5fd08a;
+  --confetti-3: #60a5fa;
+  --confetti-4: #f472b6;
 }
 
 :root { --chip-paper: #faf7f2; --chip-study: #f1f3f9; --chip-focus: #0f1720; }
@@ -275,3 +287,28 @@ dialog.dialog h2 { margin-top: 0; }
   .flash-bad { animation: flash-bad .45s ease-out; }   /* keep the colour, drop the shake */
   .verdict { animation: none; }
 }
+
+/* The Done screen: a dial, a number that arrives, and — for a good round —
+   confetti that removes itself. */
+/* Registered, so the fill can be transitioned rather than redrawn. Browsers
+   that do not register it simply arrive at the final value at once. */
+@property --pct { syntax: '<number>'; inherits: false; initial-value: 0; }
+.ring { --pct: 0; position: relative; width: 8rem; height: 8rem; margin: 1.5rem auto;
+        border-radius: 50%; display: flex; align-items: center; justify-content: center;
+        font-size: 1.6rem; transition: --pct .7s ease-out;
+        background: conic-gradient(var(--accent) calc(var(--pct) * 1%), var(--rule) 0); }
+.ring::after { content: ''; position: absolute; inset: 10px; border-radius: 50%;
+               background: var(--ground); }
+.ring-label { position: relative; z-index: 1; }
+.result-msg { font-size: 1.1rem; text-align: center; margin: 1rem 0 1.5rem; }
+
+.confetti { position: fixed; inset: 0; pointer-events: none; overflow: hidden; z-index: 50; }
+.confetti .bit { position: absolute; top: -10px; width: 8px; height: 14px;
+                 border-radius: 2px; animation: fall linear forwards; }
+.confetti .c1 { background: var(--confetti-1); }
+.confetti .c2 { background: var(--confetti-2); }
+.confetti .c3 { background: var(--confetti-3); }
+.confetti .c4 { background: var(--confetti-4); }
+@keyframes fall { to { transform: translateY(105vh) rotate(720deg); opacity: .2; } }
+
+@media (prefers-reduced-motion: reduce) { .confetti { display: none; } }

@@ -2,8 +2,9 @@ import { el, swipeable } from '../ui.js';
 import { buildQueue, newItem, nextItem, parseKey } from '../srs.js';
 import { grade } from '../grade.js';
 import { store, go, todayStr, screen, ctx } from '../app.js';
-import { t } from '../i18n.js';
-import { flash, flip, flyOut, slideIn, lift } from '../fx.js';
+import { t, lang } from '../i18n.js';
+import { bucketFor, pick } from '../messages.js';
+import { flash, flip, flyOut, slideIn, lift, ring, confetti } from '../fx.js';
 import { play } from '../audio.js';
 
 const setup = { mode: 'write', directions: ['f2b', 'b2f'], limit: 20, includeNew: true, free: false };
@@ -105,10 +106,20 @@ export function showTestSession(listId) {
   const view = screen();
 
   if (session.at >= session.queue.length) {
+    const { right, wrong } = session;
+    const total = right + wrong;
+    const bucket = bucketFor(right, total);
+    const pct = total ? Math.round((right / total) * 100) : 0;
+
     view.append(el('h2', { text: t('session.done') }));
-    view.append(el('p', { text: t('test.done.count', { right: session.right, wrong: session.wrong }) }));
+    view.append(ring(pct));
+    view.append(el('p', { class: 'result-msg', text: pick(bucket, lang()) }));
+    view.append(el('p', { class: 'muted', text: t('result.score', { right, total }) }));
     view.append(el('a', { class: 'btn', href: `#/test/${listId}`, text: t('test.studyMore') }));
     view.append(el('a', { class: 'btn', href: '#/', text: t('test.backToLists') }));
+
+    play(bucket);
+    if (bucket === 'perfect' || bucket === 'great') confetti(document.body);
     session = null;
     return;
   }

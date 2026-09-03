@@ -3,8 +3,9 @@ import { store, screen, go, todayStr, ctx } from '../app.js';
 import { pickBatch, choices, startBatch, currentKey, currentLevel, advance } from '../train.js';
 import { newItem, nextItem, parseKey } from '../srs.js';
 import { grade } from '../grade.js';
-import { t } from '../i18n.js';
-import { flash } from '../fx.js';
+import { t, lang } from '../i18n.js';
+import { bucketFor, pick } from '../messages.js';
+import { flash, ring, confetti } from '../fx.js';
 import { play } from '../audio.js';
 
 const BATCH = 8;
@@ -143,10 +144,20 @@ export function showTrainSession(id) {
   ]));
 
   if (!session.batch) {
+    const { right, wrong } = session;
+    const total = right + wrong;
+    const bucket = bucketFor(right, total);
+    const pct = total ? Math.round((right / total) * 100) : 0;
+
     view.append(el('h2', { text: t('session.done') }));
+    view.append(ring(pct));
+    view.append(el('p', { class: 'result-msg', text: pick(bucket, lang()) }));
     view.append(el('p', { text: t('train.done.count',
-      { n: session.done.length, right: session.right, wrong: session.wrong }) }));
+      { n: session.done.length, right, wrong }) }));
     view.append(el('a', { class: 'btn', href: `#/list/${id}`, text: t('session.backToList') }));
+
+    play(bucket);
+    if (bucket === 'perfect' || bucket === 'great') confetti(document.body);
     session = null;
     return;
   }

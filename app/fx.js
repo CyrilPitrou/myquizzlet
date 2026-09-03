@@ -1,4 +1,5 @@
 import { settings } from './app.js';
+import { el } from './ui.js';
 
 // One place decides whether an effect happens. Screens call these helpers
 // unconditionally and never ask the settings blob themselves.
@@ -83,4 +84,43 @@ export function flash(node, kind) {
   node.classList.add(kind === 'ok' ? 'flash-ok' : 'flash-bad');
   node.addEventListener('animationend',
     () => node.classList.remove('flash-ok', 'flash-bad'), { once: true });
+}
+
+// Counts to the final number, or arrives there at once when motion is off.
+export function countUp(node, to, ms = 700) {
+  if (!motionOn() || to === 0) { node.textContent = String(to); return; }
+  const started = performance.now();
+  const tick = (now) => {
+    const share = Math.min(1, (now - started) / ms);
+    node.textContent = String(Math.round(to * share));
+    if (share < 1) requestAnimationFrame(tick);
+  };
+  requestAnimationFrame(tick);
+}
+
+// A conic-gradient dial. The fill is set from a custom property so the
+// animation is a single transition rather than a redraw.
+export function ring(pct) {
+  const number = el('span', { class: 'ring-num', text: '0' });
+  const node = el('div', { class: 'ring' }, [el('span', { class: 'ring-label' }, [number, '%'])]);
+  node.style.setProperty('--pct', motionOn() ? '0' : String(pct));
+  if (motionOn()) requestAnimationFrame(() => node.style.setProperty('--pct', String(pct)));
+  countUp(number, pct);
+  return node;
+}
+
+export function confetti(node) {
+  if (!motionOn()) return;
+  const box = el('div', { class: 'confetti' });
+  for (let i = 0; i < 40; i += 1) {
+    const bit = el('span', { class: `bit c${(i % 4) + 1}` });
+    bit.style.left = `${Math.random() * 100}%`;
+    bit.style.animationDelay = `${Math.random() * 0.5}s`;
+    bit.style.animationDuration = `${1.6 + Math.random() * 1.2}s`;
+    bit.style.transform = `rotate(${Math.random() * 360}deg)`;
+    box.append(bit);
+  }
+  node.append(box);
+  // The whole burst removes itself; nothing else has to remember it exists.
+  setTimeout(() => box.remove(), 3600);
 }

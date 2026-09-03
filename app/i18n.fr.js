@@ -115,6 +115,7 @@ export const fr = {
   'session.quit': '← Quitter',
   'session.tally': '{done} appris · {right} bonnes · {wrong} mauvaises',
   'session.done': 'Terminé',
+  'result.score': '{right} bonnes sur {total}',
   'session.answerPlaceholder': 'votre réponse',
   'session.check': 'Vérifier',
   'session.typo': 'Presque — c’est « {expected} »',
