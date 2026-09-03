@@ -1,0 +1,512 @@
+{
+  "id": "capitales",
+  "name": "Capitales",
+  "folder": "Geography",
+  "frontLabel": "Pays",
+  "backLabel": "Capitale",
+  "frontLang": "fr",
+  "backLang": "fr",
+  "updatedAt": "2026-09-03T21:31:18.054Z",
+  "cards": [
+    {
+      "id": "q7m2xd",
+      "front": "l'Afghanistan",
+      "back": "Kaboul"
+    },
+    {
+      "id": "b4kz9p",
+      "front": "l'Afrique du Sud",
+      "back": "Pretoria"
+    },
+    {
+      "id": "vt61ha",
+      "front": "l'Algérie",
+      "back": "Alger"
+    },
+    {
+      "id": "k3f9aq",
+      "front": "l'Allemagne",
+      "back": "Berlin"
+    },
+    {
+      "id": "z8wnr5",
+      "front": "l'Angola",
+      "back": "Luanda"
+    },
+    {
+      "id": "j2pd7c",
+      "front": "l'Arabie saoudite",
+      "back": "Riyad"
+    },
+    {
+      "id": "m5hqe0",
+      "front": "l'Argentine",
+      "back": "Buenos Aires"
+    },
+    {
+      "id": "x9cbt4",
+      "front": "l'Australie",
+      "back": "Canberra"
+    },
+    {
+      "id": "r6ylv1",
+      "front": "l'Autriche",
+      "back": "Vienne"
+    },
+    {
+      "id": "d0suk8",
+      "front": "l'Azerbaïdjan",
+      "back": "Bakou"
+    },
+    {
+      "id": "h7gnw3",
+      "front": "le Bangladesh",
+      "back": "Dacca"
+    },
+    {
+      "id": "p1zjm6",
+      "front": "la Belgique",
+      "back": "Bruxelles"
+    },
+    {
+      "id": "c4txr9",
+      "front": "le Bénin",
+      "back": "Porto-Novo"
+    },
+    {
+      "id": "s8dqf2",
+      "front": "la Biélorussie",
+      "back": "Minsk"
+    },
+    {
+      "id": "n3vke7",
+      "front": "la Bolivie",
+      "back": "La Paz"
+    },
+    {
+      "id": "w6bpl0",
+      "front": "le Brésil",
+      "back": "Brasilia"
+    },
+    {
+      "id": "f9rhc5",
+      "front": "le Burkina Faso",
+      "back": "Ouagadougou"
+    },
+    {
+      "id": "t2mzg8",
+      "front": "le Burundi",
+      "back": "Gitega"
+    },
+    {
+      "id": "l5jyq1",
+      "front": "le Cambodge",
+      "back": "Phnom Penh"
+    },
+    {
+      "id": "a8ndw4",
+      "front": "le Cameroun",
+      "back": "Yaoundé"
+    },
+    {
+      "id": "g1ksp7",
+      "front": "le Canada",
+      "back": "Ottawa"
+    },
+    {
+      "id": "y4hvb0",
+      "front": "le Chili",
+      "back": "Santiago"
+    },
+    {
+      "id": "e7qzt3",
+      "front": "la Chine",
+      "back": "Pékin"
+    },
+    {
+      "id": "u0fnl6",
+      "front": "la Colombie",
+      "back": "Bogota"
+    },
+    {
+      "id": "i3xrd9",
+      "front": "la Corée du Nord",
+      "back": "Pyongyang"
+    },
+    {
+      "id": "o6cmk2",
+      "front": "la Corée du Sud",
+      "back": "Séoul"
+    },
+    {
+      "id": "q9wjh5",
+      "front": "la Côte d'Ivoire",
+      "back": "Yamoussoukro"
+    },
+    {
+      "id": "b2ptv8",
+      "front": "Cuba",
+      "back": "La Havane"
+    },
+    {
+      "id": "v5zgn1",
+      "front": "l'Égypte",
+      "back": "Le Caire"
+    },
+    {
+      "id": "k8lyd4",
+      "front": "les Émirats arabes unis",
+      "back": "Abou Dabi"
+    },
+    {
+      "id": "z1qsr7",
+      "front": "l'Équateur",
+      "back": "Quito"
+    },
+    {
+      "id": "j4hbf0",
+      "front": "l'Espagne",
+      "back": "Madrid"
+    },
+    {
+      "id": "m7dkw3",
+      "front": "les États-Unis",
+      "back": "Washington"
+    },
+    {
+      "id": "x0vnp6",
+      "front": "l'Éthiopie",
+      "back": "Addis-Abeba"
+    },
+    {
+      "id": "r3zcj9",
+      "front": "la France",
+      "back": "Paris"
+    },
+    {
+      "id": "d6mtg2",
+      "front": "le Ghana",
+      "back": "Accra"
+    },
+    {
+      "id": "h9pxl5",
+      "front": "la Grèce",
+      "back": "Athènes"
+    },
+    {
+      "id": "p2fyq8",
+      "front": "le Guatemala",
+      "back": "Guatemala"
+    },
+    {
+      "id": "c5kdn1",
+      "front": "la Guinée",
+      "back": "Conakry"
+    },
+    {
+      "id": "s8wrv4",
+      "front": "Haïti",
+      "back": "Port-au-Prince"
+    },
+    {
+      "id": "n1zhb7",
+      "front": "le Honduras",
+      "back": "Tegucigalpa"
+    },
+    {
+      "id": "w4jml0",
+      "front": "la Hongrie",
+      "back": "Budapest"
+    },
+    {
+      "id": "f7qtc3",
+      "front": "l'Inde",
+      "back": "New Delhi"
+    },
+    {
+      "id": "t0gyd6",
+      "front": "l'Indonésie",
+      "back": "Jakarta"
+    },
+    {
+      "id": "l3bnp9",
+      "front": "l'Irak",
+      "back": "Bagdad"
+    },
+    {
+      "id": "a6vsk2",
+      "front": "l'Iran",
+      "back": "Téhéran"
+    },
+    {
+      "id": "g9xrf5",
+      "front": "Israël",
+      "back": "Jérusalem"
+    },
+    {
+      "id": "y2ljw8",
+      "front": "l'Italie",
+      "back": "Rome"
+    },
+    {
+      "id": "e5cqm1",
+      "front": "le Japon",
+      "back": "Tokyo"
+    },
+    {
+      "id": "u8ndt4",
+      "front": "la Jordanie",
+      "back": "Amman"
+    },
+    {
+      "id": "i1zpg7",
+      "front": "le Kazakhstan",
+      "back": "Astana"
+    },
+    {
+      "id": "o4hkv0",
+      "front": "le Kenya",
+      "back": "Nairobi"
+    },
+    {
+      "id": "q7brl3",
+      "front": "Madagascar",
+      "back": "Antananarivo"
+    },
+    {
+      "id": "b0wyf6",
+      "front": "la Malaisie",
+      "back": "Kuala Lumpur"
+    },
+    {
+      "id": "v3mqj9",
+      "front": "le Malawi",
+      "back": "Lilongwe"
+    },
+    {
+      "id": "k6dsn2",
+      "front": "le Mali",
+      "back": "Bamako"
+    },
+    {
+      "id": "z9tpc5",
+      "front": "le Maroc",
+      "back": "Rabat"
+    },
+    {
+      "id": "j2gxh8",
+      "front": "le Mexique",
+      "back": "Mexico"
+    },
+    {
+      "id": "m5vkr1",
+      "front": "le Mozambique",
+      "back": "Maputo"
+    },
+    {
+      "id": "x8jlw4",
+      "front": "le Myanmar",
+      "back": "Naypyidaw"
+    },
+    {
+      "id": "r1ncq7",
+      "front": "le Népal",
+      "back": "Katmandou"
+    },
+    {
+      "id": "d4zfy0",
+      "front": "le Niger",
+      "back": "Niamey"
+    },
+    {
+      "id": "h7bmt3",
+      "front": "le Nigeria",
+      "back": "Abuja"
+    },
+    {
+      "id": "p0kqd6",
+      "front": "l'Ouganda",
+      "back": "Kampala"
+    },
+    {
+      "id": "c3wsg9",
+      "front": "l'Ouzbékistan",
+      "back": "Tachkent"
+    },
+    {
+      "id": "s6yhn2",
+      "front": "la Papouasie-Nouvelle-Guinée",
+      "back": "Port Moresby"
+    },
+    {
+      "id": "n9lvj5",
+      "front": "les Pays-Bas",
+      "back": "Amsterdam"
+    },
+    {
+      "id": "w2trf8",
+      "front": "le Pérou",
+      "back": "Lima"
+    },
+    {
+      "id": "f5qmz1",
+      "front": "les Philippines",
+      "back": "Manille"
+    },
+    {
+      "id": "t8dgc4",
+      "front": "la Pologne",
+      "back": "Varsovie"
+    },
+    {
+      "id": "l1xkp7",
+      "front": "le Portugal",
+      "back": "Lisbonne"
+    },
+    {
+      "id": "a4vny0",
+      "front": "la République démocratique du Congo",
+      "back": "Kinshasa"
+    },
+    {
+      "id": "g7jsb3",
+      "front": "la République dominicaine",
+      "back": "Saint-Domingue"
+    },
+    {
+      "id": "y0hwq6",
+      "front": "la Roumanie",
+      "back": "Bucarest"
+    },
+    {
+      "id": "e3ctm9",
+      "front": "le Royaume-Uni",
+      "back": "Londres"
+    },
+    {
+      "id": "u6pfk2",
+      "front": "la Russie",
+      "back": "Moscou"
+    },
+    {
+      "id": "i9zdl5",
+      "front": "le Rwanda",
+      "back": "Kigali"
+    },
+    {
+      "id": "o2gnr8",
+      "front": "le Sénégal",
+      "back": "Dakar"
+    },
+    {
+      "id": "q5vxc1",
+      "front": "la Sierra Leone",
+      "back": "Freetown"
+    },
+    {
+      "id": "b8jhw4",
+      "front": "la Somalie",
+      "back": "Mogadiscio"
+    },
+    {
+      "id": "v1ktp7",
+      "front": "le Soudan",
+      "back": "Khartoum"
+    },
+    {
+      "id": "k4nsy0",
+      "front": "le Soudan du Sud",
+      "back": "Djouba"
+    },
+    {
+      "id": "z7bqm3",
+      "front": "le Sri Lanka",
+      "back": "Colombo"
+    },
+    {
+      "id": "j0wfd6",
+      "front": "la Suède",
+      "back": "Stockholm"
+    },
+    {
+      "id": "m3lgx9",
+      "front": "la Suisse",
+      "back": "Berne"
+    },
+    {
+      "id": "x6ptv2",
+      "front": "la Syrie",
+      "back": "Damas"
+    },
+    {
+      "id": "r9cnh5",
+      "front": "le Tadjikistan",
+      "back": "Douchanbé"
+    },
+    {
+      "id": "d2ykq8",
+      "front": "la Tanzanie",
+      "back": "Dodoma"
+    },
+    {
+      "id": "h5wzj1",
+      "front": "le Tchad",
+      "back": "N'Djaména"
+    },
+    {
+      "id": "p8mrf4",
+      "front": "la Tchéquie",
+      "back": "Prague"
+    },
+    {
+      "id": "c1gvt7",
+      "front": "la Thaïlande",
+      "back": "Bangkok"
+    },
+    {
+      "id": "s4jdn0",
+      "front": "le Togo",
+      "back": "Lomé"
+    },
+    {
+      "id": "n7qbl3",
+      "front": "la Tunisie",
+      "back": "Tunis"
+    },
+    {
+      "id": "w0hkz6",
+      "front": "la Turquie",
+      "back": "Ankara"
+    },
+    {
+      "id": "f3ptm9",
+      "front": "l'Ukraine",
+      "back": "Kiev"
+    },
+    {
+      "id": "t6ycr2",
+      "front": "le Venezuela",
+      "back": "Caracas"
+    },
+    {
+      "id": "l9dws5",
+      "front": "le Viêt Nam",
+      "back": "Hanoï"
+    },
+    {
+      "id": "a2fnj8",
+      "front": "le Yémen",
+      "back": "Sanaa"
+    },
+    {
+      "id": "g5khv1",
+      "front": "la Zambie",
+      "back": "Lusaka"
+    },
+    {
+      "id": "y8qzp4",
+      "front": "le Zimbabwe",
+      "back": "Harare"
+    }
+  ]
+}
