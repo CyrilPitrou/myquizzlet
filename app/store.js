@@ -117,8 +117,17 @@ export function createStore(storage, now = () => new Date()) {
       const list = getList(id);
       if (!list) throw new Error(`no such list: ${id}`);
       const swapped = swapListSides({ list, progress: this.getProgress(id) });
+      // mergeProgress resolves per key, newest lastSeen wins. Re-keying an
+      // item to the other direction without restamping leaves it with its
+      // pre-swap lastSeen, so a peer that hasn't seen this swap yet can beat
+      // it at the *old* key and the merge resurrects the pre-swap
+      // arrangement. Restamp so the swapped state is unambiguously newer
+      // than anything a peer holds. Leave unstudied (lastSeen: null) items
+      // alone so they can never outrank a peer's studied record.
+      const items = Object.fromEntries(Object.entries(swapped.progress.items)
+        .map(([key, item]) => [key, item.lastSeen ? { ...item, lastSeen: stamp() } : item]));
       const savedList = saveList(swapped.list);
-      const savedProgress = this.saveProgress(swapped.progress);
+      const savedProgress = this.saveProgress({ ...swapped.progress, items });
       return { list: savedList, progress: savedProgress };
     },
     getProgress: (listId) => read(`progress:${listId}`, { listId, updatedAt: null, items: {} }),

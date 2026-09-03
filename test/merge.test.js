@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { mergeProgress, compareLists } from '../app/merge.js';
+import { swapSides } from '../app/sides.js';
 
 const item = (box, lastSeen) => ({ box, due: '2026-09-02', seen: box, lapses: 0, lastSeen });
 
@@ -45,6 +46,35 @@ describe('mergeProgress', () => {
   it('copes with a missing remote', () => {
     const local = { listId: 'f', items: { 'a:f2b': item(1, '2026-09-01T10:00:00Z') } };
     expect(mergeProgress(local, null)).toEqual(local);
+  });
+
+  // Regression for the whole-list-swap bug: swapping re-keys each item
+  // between f2b/b2f without touching lastSeen, so a peer that pulls after
+  // the swap can beat the re-keyed item at its *old* key with its own
+  // unswapped, more-recent copy — resurrecting the pre-swap arrangement and
+  // silently duplicating one direction's state onto both keys. Restamping
+  // the swapped items (as store.swapSides does) is what prevents this.
+  it('survives a whole-list swap without resurrecting the pre-swap state', () => {
+    const list = { frontLabel: 'A', backLabel: 'B', cards: [{ id: 'a1', front: 'x', back: 'y' }] };
+    const peer = {
+      listId: 'f',
+      items: {
+        'a1:f2b': item(1, '2026-09-01T10:00:00Z'),
+        'a1:b2f': item(9, '2026-09-01T12:00:00Z'),
+      },
+    };
+
+    const swapped = swapSides({ list, progress: peer });
+    const restamped = {
+      ...swapped.progress,
+      items: Object.fromEntries(Object.entries(swapped.progress.items)
+        .map(([key, i]) => [key, i.lastSeen ? { ...i, lastSeen: '2026-09-01T13:00:00Z' } : i])),
+    };
+
+    const merged = mergeProgress(restamped, peer);
+
+    expect(merged.items['a1:f2b'].box).toBe(9);
+    expect(merged.items['a1:b2f'].box).toBe(1);
   });
 });
 

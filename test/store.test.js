@@ -309,4 +309,40 @@ describe('swap sides', () => {
   it('throws for an unknown list', () => {
     expect(() => store.swapSides('nope')).toThrow('no such list: nope');
   });
+
+  it('restamps lastSeen on swapped items that had one, to the current time', () => {
+    const list = store.createList({ name: 'Food' });
+    const id = store.addCards(list.id, [{ front: 'el pan', back: 'le pain' }]).cards[0].id;
+    store.saveProgress({ listId: list.id, items: {
+      [`${id}:f2b`]: { box: 3, lastSeen: '2026-09-01T10:00:00Z' },
+    } });
+
+    const result = store.swapSides(list.id);
+
+    expect(result.progress.items[`${id}:b2f`].lastSeen).toBe(FIXED.toISOString());
+  });
+
+  it('leaves a null lastSeen null after swapping', () => {
+    const list = store.createList({ name: 'Food' });
+    const id = store.addCards(list.id, [{ front: 'el pan', back: 'le pain' }]).cards[0].id;
+    store.saveProgress({ listId: list.id, items: {
+      [`${id}:f2b`]: { box: 1, lastSeen: null },
+    } });
+
+    const result = store.swapSides(list.id);
+
+    expect(result.progress.items[`${id}:b2f`].lastSeen).toBeNull();
+  });
+
+  it('leaves every other field of a restamped item unchanged', () => {
+    const list = store.createList({ name: 'Food' });
+    const id = store.addCards(list.id, [{ front: 'el pan', back: 'le pain' }]).cards[0].id;
+    const item = { box: 3, due: '2026-09-05', seen: 7, lapses: 2, level: 'review',
+                    lastSeen: '2026-09-01T10:00:00Z' };
+    store.saveProgress({ listId: list.id, items: { [`${id}:f2b`]: item } });
+
+    const result = store.swapSides(list.id);
+
+    expect(result.progress.items[`${id}:b2f`]).toEqual({ ...item, lastSeen: FIXED.toISOString() });
+  });
 });
