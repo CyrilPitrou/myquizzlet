@@ -1,0 +1,377 @@
+{
+  "id": "verbes-courants",
+  "name": "Verbes courants",
+  "folder": "Spanish",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "cards": [
+    {
+      "id": "9ok1xx",
+      "front": "aceptar",
+      "back": "accepter"
+    },
+    {
+      "id": "8xe6c5",
+      "front": "comprar",
+      "back": "acheter"
+    },
+    {
+      "id": "cn6w1m",
+      "front": "ayudar",
+      "back": "aider"
+    },
+    {
+      "id": "si2cx4",
+      "front": "amar",
+      "back": "gustar,aimer"
+    },
+    {
+      "id": "a67a4s",
+      "front": "añadir",
+      "back": "ajouter"
+    },
+    {
+      "id": "0jkbfx",
+      "front": "ir",
+      "back": "aller"
+    },
+    {
+      "id": "gj5vdl",
+      "front": "encender",
+      "back": "allumer"
+    },
+    {
+      "id": "h59upv",
+      "front": "aportar",
+      "back": "apporter"
+    },
+    {
+      "id": "gdav6e",
+      "front": "aprender",
+      "back": "apprendre"
+    },
+    {
+      "id": "yl5h64",
+      "front": "detener",
+      "back": "arrêter,stopper"
+    },
+    {
+      "id": "wvp9hw",
+      "front": "llegar",
+      "back": "arriver,venir"
+    },
+    {
+      "id": "q90f3j",
+      "front": "esperar",
+      "back": "attendre"
+    },
+    {
+      "id": "4ofrdc",
+      "front": "necesitar",
+      "back": "avoir besoin de"
+    },
+    {
+      "id": "6qxkjo",
+      "front": "romper",
+      "back": "casser"
+    },
+    {
+      "id": "0yc4yi",
+      "front": "cambiar",
+      "back": "changer,modifier"
+    },
+    {
+      "id": "zl9kt3",
+      "front": "buscar",
+      "back": "chercher"
+    },
+    {
+      "id": "s71ann",
+      "front": "elegir",
+      "back": "seleccionar,choisir"
+    },
+    {
+      "id": "np6lvk",
+      "front": "empezar",
+      "back": "commencer"
+    },
+    {
+      "id": "jlyjj2",
+      "front": "contar",
+      "back": "compter"
+    },
+    {
+      "id": "ppw1ee",
+      "front": "conducir",
+      "back": "conduire,mener"
+    },
+    {
+      "id": "8505z5",
+      "front": "cortar",
+      "back": "couper"
+    },
+    {
+      "id": "znt75e",
+      "front": "creer",
+      "back": "croire,penser"
+    },
+    {
+      "id": "w4jqie",
+      "front": "preguntar",
+      "back": "demander,poser une question"
+    },
+    {
+      "id": "6zk0pj",
+      "front": "bajar",
+      "back": "descendre,baisser"
+    },
+    {
+      "id": "4nru6p",
+      "front": "convertirse",
+      "back": "devenir/se transformer"
+    },
+    {
+      "id": "837gbg",
+      "front": "deber",
+      "back": "devoir"
+    },
+    {
+      "id": "c24068",
+      "front": "dar",
+      "back": "donner"
+    },
+    {
+      "id": "e7f4tr",
+      "front": "prevenir",
+      "back": "impedir,evitar,empêcher"
+    },
+    {
+      "id": "anwh68",
+      "front": "entrar",
+      "back": "entrer"
+    },
+    {
+      "id": "qsle0d",
+      "front": "enviar",
+      "back": "envoyer,expédier"
+    },
+    {
+      "id": "8w0w8g",
+      "front": "intentar",
+      "back": "tratar,probar,essayer"
+    },
+    {
+      "id": "09692n",
+      "front": "apagar",
+      "back": "extinguir,éteindre"
+    },
+    {
+      "id": "5y14px",
+      "front": "existir",
+      "back": "exister,vivre"
+    },
+    {
+      "id": "oz7o7b",
+      "front": "ganar",
+      "back": "gagner"
+    },
+    {
+      "id": "ww5r5u",
+      "front": "mantener",
+      "back": "garder,maintenir"
+    },
+    {
+      "id": "i9ongg",
+      "front": "probar",
+      "back": "goûter"
+    },
+    {
+      "id": "aqk23r",
+      "front": "tirar",
+      "back": "jeter"
+    },
+    {
+      "id": "q70vmx",
+      "front": "desempeñarse",
+      "back": "jouer"
+    },
+    {
+      "id": "85v01c",
+      "front": "dejar",
+      "back": "laisser"
+    },
+    {
+      "id": "t82l7x",
+      "front": "lavar",
+      "back": "limpiar,laver,nettoyer"
+    },
+    {
+      "id": "tdilxh",
+      "front": "poner",
+      "back": "mettre,poser"
+    },
+    {
+      "id": "3q16it",
+      "front": "mostrar",
+      "back": "montrer"
+    },
+    {
+      "id": "g5vgk4",
+      "front": "olvidar",
+      "back": "oublier"
+    },
+    {
+      "id": "1p5t4a",
+      "front": "iniciar",
+      "back": "ouvrir"
+    },
+    {
+      "id": "q53nq6",
+      "front": "pagar",
+      "back": "payer"
+    },
+    {
+      "id": "wl1xnx",
+      "front": "pensar",
+      "back": "penser,réfléchir"
+    },
+    {
+      "id": "wgbno3",
+      "front": "permitir",
+      "back": "permettre"
+    },
+    {
+      "id": "96gzlh",
+      "front": "llorar",
+      "back": "pleurer"
+    },
+    {
+      "id": "3q2j6t",
+      "front": "llevar",
+      "back": "porter,emporter,emmener"
+    },
+    {
+      "id": "9o8rqs",
+      "front": "plantear",
+      "back": "poser"
+    },
+    {
+      "id": "2tjokv",
+      "front": "tomar",
+      "back": "prendre"
+    },
+    {
+      "id": "ewdb6t",
+      "front": "recordar",
+      "back": "se souvenir"
+    },
+    {
+      "id": "a35pku",
+      "front": "recibir",
+      "back": "recevoir,accueillir"
+    },
+    {
+      "id": "wh6fpb",
+      "front": "negarse",
+      "back": "refuser"
+    },
+    {
+      "id": "razngt",
+      "front": "rendir",
+      "back": "rendre"
+    },
+    {
+      "id": "m6likr",
+      "front": "volver a casa",
+      "back": "rentrer à la maison"
+    },
+    {
+      "id": "a0o2pf",
+      "front": "repetir",
+      "back": "répéter"
+    },
+    {
+      "id": "8mhnrg",
+      "front": "responder",
+      "back": "répondre"
+    },
+    {
+      "id": "xveqx7",
+      "front": "parecerse",
+      "back": "ressembler à"
+    },
+    {
+      "id": "iydgwl",
+      "front": "permanecer",
+      "back": "rester,demeurer"
+    },
+    {
+      "id": "4djgjz",
+      "front": "encontrar",
+      "back": "trouver,rencontrer"
+    },
+    {
+      "id": "bnps1u",
+      "front": "volver",
+      "back": "retourner"
+    },
+    {
+      "id": "tsr5p8",
+      "front": "tener éxito/lograr",
+      "back": "avoir du succès"
+    },
+    {
+      "id": "lnt6s6",
+      "front": "reir",
+      "back": "rire"
+    },
+    {
+      "id": "v02ylf",
+      "front": "sentarse",
+      "back": "s'asseoir"
+    },
+    {
+      "id": "043ljp",
+      "front": "lavarse",
+      "back": "se laver"
+    },
+    {
+      "id": "3063nh",
+      "front": "descansar",
+      "back": "se reposer"
+    },
+    {
+      "id": "9gk27e",
+      "front": "despertar",
+      "back": "se réveiller"
+    },
+    {
+      "id": "40q6lq",
+      "front": "salir",
+      "back": "sortir,partir"
+    },
+    {
+      "id": "0ess1g",
+      "front": "sacar",
+      "back": "tirer,retirer"
+    },
+    {
+      "id": "5vqxfl",
+      "front": "caer",
+      "back": "tomber,chuter"
+    },
+    {
+      "id": "r0upmf",
+      "front": "girar",
+      "back": "tourner"
+    },
+    {
+      "id": "3kra6x",
+      "front": "robar",
+      "back": "voler,dérober"
+    }
+  ],
+  "updatedAt": "2026-09-03T05:12:53.355Z"
+}
