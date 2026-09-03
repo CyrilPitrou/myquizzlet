@@ -3,18 +3,19 @@ import { store, screen, todayStr, settings } from '../app.js';
 import { recency } from '../store.js';
 import { listStats } from '../stats.js';
 import { expiryWarning } from '../setup.js';
+import { t } from '../i18n.js';
 
 function statsLine(stats) {
   const learned = el('span', {}, [
-    'learned ',
+    `${t('common.learned')} `,
     el('span', { class: 'bar' }, [el('span', { style: `width:${stats.learnedPct}%` })]),
     ` ${stats.learnedPct}%`,
   ]);
   const nodes = [learned];
-  if (stats.rightPct !== null) nodes.push(el('span', { text: `right ${stats.rightPct}%` }));
+  if (stats.rightPct !== null) nodes.push(el('span', { text: t('common.right', { n: stats.rightPct }) }));
   nodes.push(stats.due
-    ? el('span', { class: 'badge', text: `${stats.due} due` })
-    : el('span', { text: '—' }));
+    ? el('span', { class: 'badge', text: t('common.due', { n: stats.due }) })
+    : el('span', { text: t('common.dash') }));
   return nodes;
 }
 
@@ -24,8 +25,8 @@ function listRow(id) {
   return el('div', { class: 'listrow' }, [
     el('a', { href: `#/list/${id}`, text: list.name }),
     el('div', { class: 'liststats' }, [
-      el('span', { text: list.folder || 'Unfiled' }),
-      el('span', { text: `${stats.cards} cards` }),
+      el('span', { text: list.folder || t('common.unfiled') }),
+      el('span', { text: t('common.cards', { n: stats.cards }) }),
       ...statsLine(stats),
     ]),
   ]);
@@ -36,7 +37,7 @@ export function showLists() {
   const expiring = expiryWarning(settings().tokenExpiry, todayStr());
   if (expiring) {
     view.append(el('p', { class: 'warn' }, [`${expiring} `,
-      el('a', { href: '#/token', text: 'Replace it' })]));
+      el('a', { href: '#/token', text: t('lists.replaceToken') })]));
   }
 
   const ids = store.listIds().slice().sort((a, b) => {
@@ -46,22 +47,22 @@ export function showLists() {
   });
 
   if (ids.length === 0) {
-    view.append(el('h2', { text: 'Lists' }));
+    view.append(el('h2', { text: t('lists.title') }));
     view.append(el('p', { class: 'empty' }, [
-      'No lists yet. ', el('a', { href: '#/new', text: 'Create one' }), '.',
+      `${t('common.noLists')} `, el('a', { href: '#/new', text: t('common.createOne') }), '.',
     ]));
     return;
   }
 
   if (ids.length > 5) {
     view.append(el('section', { class: 'recent' }, [
-      el('h3', { text: 'Recent' }),
+      el('h3', { text: t('lists.recent') }),
       ...ids.slice(0, 5).map(listRow),
     ]));
   }
 
   view.append(el('section', { class: 'all' }, [
-    el('h3', { text: ids.length > 5 ? 'All lists' : 'Lists' }),
+    el('h3', { text: ids.length > 5 ? t('lists.all') : t('lists.title') }),
     ...ids.map(listRow),
   ]));
 }

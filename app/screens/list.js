@@ -3,9 +3,10 @@ import { store, screen, go, todayStr, ctx } from '../app.js';
 import { listStats } from '../stats.js';
 import { toCsv } from '../csv.js';
 import { openImportDialog } from './importdialog.js';
+import { t } from '../i18n.js';
 
 function renameList(list) {
-  const name = prompt('New title for this list', list.name);
+  const name = prompt(t('list.prompt.rename'), list.name);
   if (name === null) return;
   const trimmed = name.trim();
   if (!trimmed || trimmed === list.name) return;
@@ -17,8 +18,8 @@ function renameList(list) {
 function moveToFolder(list) {
   const known = store.folders();
   const message = known.length
-    ? `Folder for this list.\n\nIn use: ${known.join(', ')}\n\nLeave empty for Unfiled.`
-    : 'Folder for this list. Leave empty for Unfiled.';
+    ? t('list.prompt.folderKnown', { folders: known.join(', ') })
+    : t('list.prompt.folder');
   const folder = prompt(message, list.folder || '');
   if (folder === null) return;
   store.updateMeta(list.id, { folder: folder.trim() || null });
@@ -28,8 +29,8 @@ function moveToFolder(list) {
 
 function deleteList(list) {
   const records = Object.keys(store.getProgress(list.id).items).length;
-  const ok = confirm(`Delete "${list.name}"?\n\n${list.cards.length} card(s) and `
-    + `${records} progress record(s) go, here and on GitHub. This cannot be undone.`);
+  const ok = confirm(t('list.confirm.delete',
+    { name: list.name, cards: list.cards.length, records }));
   if (!ok) return;
   store.deleteList(list.id);
   ctx.sync?.schedule();
@@ -60,8 +61,8 @@ function escapeHtml(text) {
 }
 
 function generatePdf(list) {
-  const frontLabel = list.frontLabel || 'Front';
-  const backLabel = list.backLabel || 'Back';
+  const frontLabel = list.frontLabel || t('side.front');
+  const backLabel = list.backLabel || t('side.back');
   const rows = list.cards.map((c) =>
     `<tr><td>${escapeHtml(c.front)}</td><td>${escapeHtml(c.back)}</td></tr>`).join('');
   const html = `<!doctype html>
@@ -84,7 +85,7 @@ function generatePdf(list) {
 </body></html>`;
   const win = window.open('', '_blank');
   if (!win) {
-    alert('Your browser blocked the PDF popup. Allow popups for this site and try again.');
+    alert(t('list.alert.pdfBlocked'));
     return;
   }
   win.document.write(html);
@@ -97,38 +98,38 @@ export function showList(id) {
   const stats = listStats({ list, progress: store.getProgress(id), today: todayStr() });
 
   const view = screen();
-  view.append(el('a', { href: '#/', class: 'back', text: '← Lists' }));
+  view.append(el('a', { href: '#/', class: 'back', text: t('common.back.lists') }));
   view.append(el('div', { class: 'listhead' }, [
     el('h2', { text: list.name }),
     menu([
-      { label: 'Rename', onclick: () => renameList(list) },
-      { label: 'Move to folder', onclick: () => moveToFolder(list) },
-      { label: 'Sides', onclick: () => go(`#/list/${id}/edit`) },
-      { label: 'Edit cards', onclick: () => go(`#/list/${id}/cards`) },
-      { label: 'Import from file', onclick: () => importFromFile(list) },
-      { label: 'Export as CSV', onclick: () => exportCsv(list) },
-      { label: 'Generate PDF', onclick: () => generatePdf(list) },
-      { label: 'Delete list', onclick: () => deleteList(list) },
+      { label: t('list.menu.rename'), onclick: () => renameList(list) },
+      { label: t('list.menu.move'), onclick: () => moveToFolder(list) },
+      { label: t('list.menu.sides'), onclick: () => go(`#/list/${id}/edit`) },
+      { label: t('list.menu.cards'), onclick: () => go(`#/list/${id}/cards`) },
+      { label: t('list.menu.import'), onclick: () => importFromFile(list) },
+      { label: t('list.menu.exportCsv'), onclick: () => exportCsv(list) },
+      { label: t('list.menu.generatePdf'), onclick: () => generatePdf(list) },
+      { label: t('list.menu.delete'), onclick: () => deleteList(list) },
     ]),
   ]));
 
   view.append(el('div', { class: 'liststats' }, [
-    el('span', { text: list.folder || 'Unfiled' }),
-    el('span', { text: `${stats.cards} cards` }),
-    el('span', { text: `${list.frontLabel || 'Front'} → ${list.backLabel || 'Back'}` }),
+    el('span', { text: list.folder || t('common.unfiled') }),
+    el('span', { text: t('common.cards', { n: stats.cards }) }),
+    el('span', { text: `${list.frontLabel || t('side.front')} → ${list.backLabel || t('side.back')}` }),
   ]));
   view.append(el('div', { class: 'liststats' }, [
     el('span', { class: 'bar' }, [el('span', { style: `width:${stats.learnedPct}%` })]),
-    el('span', { text: `${stats.learnedPct}% learned` }),
-    stats.rightPct === null ? el('span', { text: 'not studied yet' })
-                            : el('span', { text: `${stats.rightPct}% right` }),
-    stats.due ? el('span', { class: 'badge', text: `${stats.due} due` })
-              : el('span', { text: '—' }),
+    el('span', { text: t('common.learnedPct', { n: stats.learnedPct }) }),
+    stats.rightPct === null ? el('span', { text: t('common.notStudied') })
+                            : el('span', { text: t('common.rightPct', { n: stats.rightPct }) }),
+    stats.due ? el('span', { class: 'badge', text: t('common.due', { n: stats.due }) })
+              : el('span', { text: t('common.dash') }),
   ]));
 
   view.append(el('div', { class: 'actions' }, [
-    el('a', { class: 'btn', href: `#/view/${id}`, text: 'View cards' }),
-    el('a', { class: 'btn primary', href: `#/train/${id}`, text: 'Train' }),
-    el('a', { class: 'btn', href: `#/test/${id}`, text: 'Test' }),
+    el('a', { class: 'btn', href: `#/view/${id}`, text: t('list.action.view') }),
+    el('a', { class: 'btn primary', href: `#/train/${id}`, text: t('list.action.train') }),
+    el('a', { class: 'btn', href: `#/test/${id}`, text: t('list.action.test') }),
   ]));
 }

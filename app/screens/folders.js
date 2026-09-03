@@ -1,6 +1,7 @@
 import { el } from '../ui.js';
 import { store, screen, todayStr } from '../app.js';
 import { listStats } from '../stats.js';
+import { t } from '../i18n.js';
 
 const UNFILED = 'Unfiled';
 
@@ -23,11 +24,11 @@ function grouped() {
 
 export function showFolders() {
   const view = screen();
-  view.append(el('h2', { text: 'Folders' }));
+  view.append(el('h2', { text: t('folders.title') }));
   const groups = grouped();
   if (groups.length === 0) {
     view.append(el('p', { class: 'empty' }, [
-      'No lists yet. ', el('a', { href: '#/new', text: 'Create one' }), '.',
+      `${t('common.noLists')} `, el('a', { href: '#/new', text: t('common.createOne') }), '.',
     ]));
     return;
   }
@@ -36,20 +37,20 @@ export function showFolders() {
       list, progress: store.getProgress(list.id), today: todayStr(),
     }).due, 0);
     view.append(el('div', { class: 'row' }, [
-      el('a', { href: `#/folder/${encodeURIComponent(name)}`, text: name }),
-      el('span', { class: 'muted', text: `${lists.length} list(s)` }),
-      due ? el('span', { class: 'badge', text: `${due} due` }) : el('span', { class: 'muted', text: '—' }),
+      el('a', { href: `#/folder/${encodeURIComponent(name)}`, text: name === UNFILED ? t('common.unfiled') : name }),
+      el('span', { class: 'muted', text: t('common.lists', { n: lists.length }) }),
+      due ? el('span', { class: 'badge', text: t('common.due', { n: due }) }) : el('span', { class: 'muted', text: t('common.dash') }),
     ]));
   }
 }
 
 export function showFolder(name) {
   const view = screen();
-  view.append(el('a', { href: '#/folders', class: 'back', text: '← Folders' }));
-  view.append(el('h2', { text: name }));
+  view.append(el('a', { href: '#/folders', class: 'back', text: t('folders.back') }));
+  view.append(el('h2', { text: name === UNFILED ? t('common.unfiled') : name }));
   const lists = (grouped().find(([folder]) => folder === name) || [name, []])[1];
   if (lists.length === 0) {
-    view.append(el('p', { class: 'empty', text: 'This folder is empty.' }));
+    view.append(el('p', { class: 'empty', text: t('folders.empty') }));
     return;
   }
   for (const list of lists) {
@@ -58,9 +59,9 @@ export function showFolder(name) {
       el('a', { href: `#/list/${list.id}`, text: list.name }),
       el('div', { class: 'liststats' }, [
         el('span', { class: 'bar' }, [el('span', { style: `width:${stats.learnedPct}%` })]),
-        el('span', { text: `${stats.learnedPct}% learned` }),
-        stats.due ? el('span', { class: 'badge', text: `${stats.due} due` })
-                  : el('span', { text: '—' }),
+        el('span', { text: t('common.learnedPct', { n: stats.learnedPct }) }),
+        stats.due ? el('span', { class: 'badge', text: t('common.due', { n: stats.due }) })
+                  : el('span', { text: t('common.dash') }),
       ]),
     ]));
   }
