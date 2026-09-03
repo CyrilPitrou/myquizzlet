@@ -1,6 +1,6 @@
 {
   "listId": "capitales",
-  "updatedAt": "2026-09-03T22:44:12.564Z",
+  "updatedAt": "2026-09-03T22:44:21.584Z",
   "items": {
     "y0hwq6:f2b": {
       "box": 2,
@@ -179,6 +179,14 @@
       "level": 0
     },
     "m5hqe0:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "q7brl3:f2b": {
       "box": 1,
       "due": "2026-09-03",
       "seen": 0,
