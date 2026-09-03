@@ -18,7 +18,9 @@ your data:
 2. **Your working copy** — kept by the browser on that device. Studying touches
    only this, which is why it is instant and works offline.
 3. **The durable copy** — JSON files in this repo, on the `data` branch. The app
-   pulls from it when it opens and pushes back after you make changes.
+   pulls from it when it opens and pushes back after you make changes. That
+   branch also carries `.github/workflows/suggestions.yml`, the repo's only
+   workflow, which opens an issue when the suggestion box is not empty.
 
 You never need to clone this repo to use the app. Clone it only to work on the
 code or to hand-edit word lists in a text editor.
