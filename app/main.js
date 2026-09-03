@@ -13,6 +13,7 @@ import { showNewList, showEditList } from './screens/editlist.js';
 import { showView } from './screens/view.js';
 import { showTrainSetup, showTrainSession } from './screens/train.js';
 import { showHelp } from './screens/help.js';
+import { onInstallChange } from './install.js';
 import { showAdopt } from './screens/adopt.js';
 
 function initSync() {
@@ -60,6 +61,9 @@ ctx.render = render;
 ctx.initSync = initSync;
 
 window.addEventListener('hashchange', render);
+// The browser's install offer can arrive while Settings is already on screen,
+// and installing removes the reason to show the section at all.
+onInstallChange(() => { if (location.hash.startsWith('#/settings')) render(); });
 applyTheme(settings().theme);
 initSync();
 render();

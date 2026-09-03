@@ -198,12 +198,26 @@ Living with it showed the price: creating a fine-grained token means logging int
 GitHub on a phone and working a form built for a desktop, every time. Both paths
 are now supported, and the second one is opt-in and honestly labelled.)*
 
-**Path 1 — generate a token on the new device.** Settings shows two QR codes: one
-for the app's own address, one for GitHub's token page. Both are static images of
-public links and neither carries a secret. Scanning the first is the whole of
-onboarding for a device that only studies; the second is scanned *on the phone
-being added*, so the token is created on the device that will hold it and can be
-revoked alone. This remains the path with the smallest blast radius.
+**Path 1 — generate a token on the new device.** Settings shows one QR code: the
+app's own address, a public link carrying no secret. Scanning it is the whole of
+onboarding for a device that only studies. To also save changes, the new device
+makes its own token from its own Settings, so the token is created on the device
+that will hold it and can be revoked alone. This remains the path with the
+smallest blast radius.
+
+*(Revised 2026-09-03. The first pass showed a second QR code, of GitHub's token
+page. It was dropped: the new device's own Settings already link there, and
+sending a phone to a token page before it has the app is the wrong order. The
+explanation moved to where the work is actually done.)*
+
+**Installing is part of path 1, and needs the app's help.** A code scanned by a
+phone camera opens a browser view with no install item, and `beforeinstallprompt`
+does not fire there — so the one route Chrome offers is the one a scan hides.
+`install.js` therefore catches that event whenever it does fire and Settings
+re-offers it as an *Install this app* button, with the manual ⋮ → Open in Chrome
+route written out beneath it for when it cannot. This is the only place the app
+works around a browser rather than around itself, and it earns it: without it,
+onboarding dead-ends on the very first step.
 
 **Path 2 — copy the token from a device that already has one.** Settings, on a
 device with a token, offers *Show token QR* behind an explicit button. It encodes

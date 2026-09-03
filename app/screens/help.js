@@ -61,13 +61,17 @@ export function showHelp() {
   ]));
 
   view.append(section('Adding another device', [
-    p(['Settings → ', b('Add a device'), ' shows two codes. Point the new phone at '
-      + 'the first to open the app, and at the second to make it a token of its own. '
-      + 'That is the safe route: the new token can be revoked on its own.']),
-    p(['The ', b('Show token QR'), ' button below them is the shortcut — it hands this '
-      + 'device’s token over instead. Both devices then share one token, so revoking '
-      + 'it cuts off both, and the code is on screen while you scan it. The other '
-      + 'device always asks before it saves anything.']),
-    p(['A device you only study on needs no token at all.']),
+    p(['Settings → ', b('Add a device'), ' shows a code of the app’s address. Scan it on '
+      + 'the new phone and the app opens — but in a browser view that cannot install it, '
+      + 'so tap ⋮ → ', b('Open in Chrome'), ' first. There the app’s own Settings offer an '
+      + b('Install'), ' button.']),
+    p(['That is the whole of setup for a device you only study on. It needs no token.']),
+    p(['To let it save changes too, it needs a token. Its own Settings will walk it '
+      + 'through making one on GitHub — the safe route, because a token made there can '
+      + 'be revoked on its own.']),
+    p(['The ', b('Show token QR'), ' button is the shortcut instead: it hands this '
+      + 'device’s token over. Both devices then share one token, so revoking it cuts off '
+      + 'both, and the code is on screen while you scan it. The other device always asks '
+      + 'before it saves anything.']),
   ]));
 }
