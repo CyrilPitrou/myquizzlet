@@ -96,17 +96,24 @@ export function showEditList(id) {
   const view = screen();
   view.append(el('a', { href: `#/list/${id}`, class: 'back', text: `← ${list.name}` }));
   view.append(el('h2', { text: 'Sides' }));
+  // type: 'button' matters — this sits inside the form, and a bare button
+  // there would submit it instead of swapping.
+  const swap = el('div', { class: 'swapsides' }, [
+    el('p', { class: 'muted', text: 'Entered the two sides the wrong way round? '
+      + 'Swapping turns every card in the list around. Each card keeps what you have '
+      + 'learned: its history follows the skill it was tracking, not the column.' }),
+    el('button', { class: 'btn', type: 'button', text: 'Swap sides',
+      onclick: () => confirmSwapSides(list) }),
+  ]);
+
   view.append(listForm({
     list,
     sidesOnly: true,
+    beforeSave: swap,
     onSave: (fields) => {
       store.updateMeta(id, fields);
       ctx.sync?.schedule();
       go(`#/list/${id}`);
     },
   }));
-  view.append(el('div', { class: 'actions' }, [
-    el('button', { class: 'btn', type: 'button', text: 'Swap sides',
-      onclick: () => confirmSwapSides(list) }),
-  ]));
 }

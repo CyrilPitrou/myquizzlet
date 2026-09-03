@@ -144,6 +144,8 @@ section.sect:last-child { border-bottom: none; }
 
 .listform .field { margin-bottom: .75rem; }
 .hint { font-size: .85rem; min-height: 1.2em; }
+.swapsides { margin: 1.25rem 0; padding-top: 1rem; border-top: 1px solid var(--rule); }
+.swapsides p { margin: 0 0 .6rem; }
 
 .listhead { display: flex; align-items: center; gap: .5rem; }
 .listhead h2 { margin: 0 auto 0 0; }

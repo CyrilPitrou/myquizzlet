@@ -22,7 +22,12 @@ function labelField(text, value, placeholder) {
 // sidesOnly restricts the form to the two side-label fields — used when
 // editing an existing list's sides only, so Title and Folder (already
 // handled by their own menu items) are neither shown nor sent.
-export function listForm({ list = null, onSave, sidesOnly = false }) {
+//
+// beforeSave is an optional node dropped in just above the submit button, for
+// an action that belongs to this form's subject but not to its fields. It is
+// a slot rather than something the caller appends afterwards, because "above
+// the submit button" is a position only this function can promise.
+export function listForm({ list = null, onSave, sidesOnly = false, beforeSave = null }) {
   const name = sidesOnly ? null : el('input', {
     value: list ? list.name : '', placeholder: 'Spanish – Food', required: 'required',
   });
@@ -61,6 +66,7 @@ export function listForm({ list = null, onSave, sidesOnly = false }) {
     back.field,
     el('p', { class: 'muted', text: 'Name the two sides of a card — '
       + 'Spanish and French, or Date and Event. Leave them blank for Front and Back.' }),
+    ...(beforeSave ? [beforeSave] : []),
     el('button', { class: 'primary', type: 'submit', text: list ? 'Save' : 'Create list' }),
   ]);
 }
