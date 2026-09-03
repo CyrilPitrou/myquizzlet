@@ -1,0 +1,22 @@
+{
+  "listId": "verbes-courants",
+  "updatedAt": "2026-09-03T11:39:29.241Z",
+  "items": {
+    "6qxkjo:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 0
+    },
+    "m6likr:b2f": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    }
+  }
+}
