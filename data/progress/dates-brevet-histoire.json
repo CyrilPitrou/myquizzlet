@@ -1,21 +1,21 @@
 {
   "listId": "dates-brevet-histoire",
-  "updatedAt": "2026-09-03T20:47:00.953Z",
+  "updatedAt": "2026-09-03T21:18:46.446Z",
   "items": {
     "esdci2:b2f": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T21:18:21.794Z",
       "level": 1
     },
     "hbyv9g:b2f": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T21:18:16.517Z",
       "level": 1
     },
     "zolif0:f2b": {
@@ -27,19 +27,19 @@
       "level": 1
     },
     "c6ahlr:b2f": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T21:18:23.612Z",
       "level": 1
     },
     "1aqhnk:b2f": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T21:18:13.028Z",
       "level": 1
     },
     "qluz2l:b2f": {
@@ -51,20 +51,68 @@
       "level": 0
     },
     "950ept:f2b": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T21:18:14.995Z",
       "level": 1
     },
     "b4kihk:b2f": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T21:18:19.277Z",
       "level": 1
+    },
+    "slvb4d:b2f": {
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-03T21:18:25.592Z",
+      "level": 0
+    },
+    "ckujmi:f2b": {
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-03T21:18:27.675Z",
+      "level": 0
+    },
+    "ktjxo4:f2b": {
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-03T21:18:29.542Z",
+      "level": 0
+    },
+    "a1ymow:f2b": {
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-03T21:18:31.858Z",
+      "level": 0
+    },
+    "8g63je:b2f": {
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-03T21:18:33.994Z",
+      "level": 0
+    },
+    "h3s5mb:b2f": {
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-03T21:18:46.445Z",
+      "level": 0
     }
   }
 }
