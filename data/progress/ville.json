@@ -1,13 +1,13 @@
 {
   "listId": "ville",
-  "updatedAt": "2026-09-03T15:15:58.238Z",
+  "updatedAt": "2026-09-03T15:16:12.388Z",
   "items": {
     "nq8fbs:b2f": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T15:16:10.482Z",
       "level": 1
     },
     "fg8lil:f2b": {
@@ -51,19 +51,19 @@
       "level": 1
     },
     "lwcfrk:b2f": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T15:16:03.670Z",
       "level": 1
     },
     "mjm6q3:b2f": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T15:16:07.696Z",
       "level": 1
     }
   }
