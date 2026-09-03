@@ -1,0 +1,907 @@
+{
+  "id": "verbes-irreguliers",
+  "name": "Verbes irréguliers",
+  "folder": "English",
+  "frontLabel": "French",
+  "backLabel": "English",
+  "frontLang": "fr",
+  "backLang": "en",
+  "updatedAt": "2026-09-03T22:00:00Z",
+  "cards": [
+    {
+      "id": "q7m2xd",
+      "front": "survenir",
+      "back": "arise / arose / arisen"
+    },
+    {
+      "id": "k9p4rb",
+      "front": "se réveiller",
+      "back": "awake / awoke / awoken"
+    },
+    {
+      "id": "z3n8vt",
+      "front": "être",
+      "back": "be / was / been"
+    },
+    {
+      "id": "h6w1cs",
+      "front": "porter (soutenir)",
+      "back": "bear / bore / borne"
+    },
+    {
+      "id": "t2f7jq",
+      "front": "battre",
+      "back": "beat / beat / beaten"
+    },
+    {
+      "id": "b5x9dm",
+      "front": "devenir",
+      "back": "become / became / become"
+    },
+    {
+      "id": "v8k3lp",
+      "front": "commencer",
+      "back": "begin / began / begun"
+    },
+    {
+      "id": "m4r6yn",
+      "front": "courber",
+      "back": "bend / bent / bent"
+    },
+    {
+      "id": "c7t1gz",
+      "front": "parier",
+      "back": "bet / bet / bet"
+    },
+    {
+      "id": "f2q7nd",
+      "front": "faire une offre",
+      "back": "bid / bid / bid"
+    },
+    {
+      "id": "j9d5wf",
+      "front": "lier",
+      "back": "bind / bound / bound"
+    },
+    {
+      "id": "s3h8qk",
+      "front": "mordre",
+      "back": "bite / bit / bitten"
+    },
+    {
+      "id": "n6v2xr",
+      "front": "saigner",
+      "back": "bleed / bled / bled"
+    },
+    {
+      "id": "p1z7bc",
+      "front": "souffler",
+      "back": "blow / blew / blown"
+    },
+    {
+      "id": "g4m9ts",
+      "front": "casser",
+      "back": "break / broke / broken"
+    },
+    {
+      "id": "d8j3nw",
+      "front": "élever (un enfant)",
+      "back": "breed / bred / bred"
+    },
+    {
+      "id": "x2q6ld",
+      "front": "apporter",
+      "back": "bring / brought / brought"
+    },
+    {
+      "id": "f5b1vh",
+      "front": "diffuser",
+      "back": "broadcast / broadcast / broadcast"
+    },
+    {
+      "id": "w7k4pm",
+      "front": "construire",
+      "back": "build / built / built"
+    },
+    {
+      "id": "r3n8cy",
+      "front": "brûler",
+      "back": "burn / burnt / burnt"
+    },
+    {
+      "id": "l6t2fj",
+      "front": "éclater",
+      "back": "burst / burst / burst"
+    },
+    {
+      "id": "y9x5gd",
+      "front": "acheter",
+      "back": "buy / bought / bought"
+    },
+    {
+      "id": "v6h1sk",
+      "front": "projeter (lancer au loin)",
+      "back": "cast / cast / cast"
+    },
+    {
+      "id": "a4v7zq",
+      "front": "attraper",
+      "back": "catch / caught / caught"
+    },
+    {
+      "id": "e8p1ms",
+      "front": "choisir",
+      "back": "choose / chose / chosen"
+    },
+    {
+      "id": "u2c9hb",
+      "front": "s'accrocher",
+      "back": "cling / clung / clung"
+    },
+    {
+      "id": "i5w3nk",
+      "front": "venir",
+      "back": "come / came / come"
+    },
+    {
+      "id": "o7j6tv",
+      "front": "coûter",
+      "back": "cost / cost / cost"
+    },
+    {
+      "id": "b1r4xf",
+      "front": "ramper",
+      "back": "creep / crept / crept"
+    },
+    {
+      "id": "k8m2sd",
+      "front": "couper",
+      "back": "cut / cut / cut"
+    },
+    {
+      "id": "t5g9wp",
+      "front": "traiter (avec)",
+      "back": "deal / dealt / dealt"
+    },
+    {
+      "id": "z4d7lc",
+      "front": "creuser",
+      "back": "dig / dug / dug"
+    },
+    {
+      "id": "m2x6bj",
+      "front": "faire",
+      "back": "do / did / done"
+    },
+    {
+      "id": "c6f1vt",
+      "front": "dessiner",
+      "back": "draw / drew / drawn"
+    },
+    {
+      "id": "s8k5nr",
+      "front": "rêver",
+      "back": "dream / dreamt / dreamt"
+    },
+    {
+      "id": "v3p9gm",
+      "front": "boire",
+      "back": "drink / drank / drunk"
+    },
+    {
+      "id": "n7t2ws",
+      "front": "conduire",
+      "back": "drive / drove / driven"
+    },
+    {
+      "id": "j1b8cx",
+      "front": "habiter",
+      "back": "dwell / dwelt / dwelt"
+    },
+    {
+      "id": "q5v4hd",
+      "front": "manger",
+      "back": "eat / ate / eaten"
+    },
+    {
+      "id": "x9m7pk",
+      "front": "tomber",
+      "back": "fall / fell / fallen"
+    },
+    {
+      "id": "d2j3nf",
+      "front": "nourrir",
+      "back": "feed / fed / fed"
+    },
+    {
+      "id": "w6c8ty",
+      "front": "sentir (éprouver)",
+      "back": "feel / felt / felt"
+    },
+    {
+      "id": "g3s1lq",
+      "front": "se battre",
+      "back": "fight / fought / fought"
+    },
+    {
+      "id": "r8h5vb",
+      "front": "trouver",
+      "back": "find / found / found"
+    },
+    {
+      "id": "l7w2ds",
+      "front": "fuir (s'échapper)",
+      "back": "flee / fled / fled"
+    },
+    {
+      "id": "y1t6kc",
+      "front": "lancer (avec force)",
+      "back": "fling / flung / flung"
+    },
+    {
+      "id": "a5x8jp",
+      "front": "voler (dans les airs)",
+      "back": "fly / flew / flown"
+    },
+    {
+      "id": "e9g3rw",
+      "front": "interdire",
+      "back": "forbid / forbade / forbidden"
+    },
+    {
+      "id": "u3m7bn",
+      "front": "prévoir (le temps)",
+      "back": "forecast / forecast / forecast"
+    },
+    {
+      "id": "i6d1xt",
+      "front": "prévoir (l'avenir)",
+      "back": "foresee / foresaw / foreseen"
+    },
+    {
+      "id": "o2k9fv",
+      "front": "oublier",
+      "back": "forget / forgot / forgotten"
+    },
+    {
+      "id": "b7p5cs",
+      "front": "pardonner",
+      "back": "forgive / forgave / forgiven"
+    },
+    {
+      "id": "k4n8hq",
+      "front": "abandonner (renoncer à)",
+      "back": "forsake / forsook / forsaken"
+    },
+    {
+      "id": "t9v2md",
+      "front": "geler",
+      "back": "freeze / froze / frozen"
+    },
+    {
+      "id": "z6j4wl",
+      "front": "obtenir",
+      "back": "get / got / got"
+    },
+    {
+      "id": "h1c7yb",
+      "front": "donner",
+      "back": "give / gave / given"
+    },
+    {
+      "id": "m8s3px",
+      "front": "aller",
+      "back": "go / went / gone"
+    },
+    {
+      "id": "c5r9tn",
+      "front": "moudre",
+      "back": "grind / ground / ground"
+    },
+    {
+      "id": "s2f6kg",
+      "front": "grandir",
+      "back": "grow / grew / grown"
+    },
+    {
+      "id": "v7w1dj",
+      "front": "suspendre",
+      "back": "hang / hung / hung"
+    },
+    {
+      "id": "n4b8qz",
+      "front": "avoir",
+      "back": "have / had / had"
+    },
+    {
+      "id": "j6x2vc",
+      "front": "entendre",
+      "back": "hear / heard / heard"
+    },
+    {
+      "id": "q1t5nm",
+      "front": "cacher",
+      "back": "hide / hid / hidden"
+    },
+    {
+      "id": "x8d9rs",
+      "front": "frapper (heurter)",
+      "back": "hit / hit / hit"
+    },
+    {
+      "id": "d3k4gp",
+      "front": "tenir",
+      "back": "hold / held / held"
+    },
+    {
+      "id": "w9n7lb",
+      "front": "blesser",
+      "back": "hurt / hurt / hurt"
+    },
+    {
+      "id": "g2m5xf",
+      "front": "garder",
+      "back": "keep / kept / kept"
+    },
+    {
+      "id": "r6c1wt",
+      "front": "s'agenouiller",
+      "back": "kneel / knelt / knelt"
+    },
+    {
+      "id": "l5v9cd",
+      "front": "savoir",
+      "back": "know / knew / known"
+    },
+    {
+      "id": "y3s7bq",
+      "front": "poser (à plat)",
+      "back": "lay / laid / laid"
+    },
+    {
+      "id": "a7j2mn",
+      "front": "mener",
+      "back": "lead / led / led"
+    },
+    {
+      "id": "e1p6ks",
+      "front": "se pencher",
+      "back": "lean / leant / leant"
+    },
+    {
+      "id": "u9x4tf",
+      "front": "bondir",
+      "back": "leap / leapt / leapt"
+    },
+    {
+      "id": "i2b8gw",
+      "front": "apprendre",
+      "back": "learn / learnt / learnt"
+    },
+    {
+      "id": "o5n1zc",
+      "front": "quitter",
+      "back": "leave / left / left"
+    },
+    {
+      "id": "b9t7hd",
+      "front": "prêter",
+      "back": "lend / lent / lent"
+    },
+    {
+      "id": "k2w5vp",
+      "front": "laisser (permettre)",
+      "back": "let / let / let"
+    },
+    {
+      "id": "t6d3nj",
+      "front": "être couché",
+      "back": "lie / lay / lain"
+    },
+    {
+      "id": "z8m1qx",
+      "front": "allumer",
+      "back": "light / lit / lit"
+    },
+    {
+      "id": "h4f9sb",
+      "front": "perdre",
+      "back": "lose / lost / lost"
+    },
+    {
+      "id": "m7k2cg",
+      "front": "fabriquer",
+      "back": "make / made / made"
+    },
+    {
+      "id": "c1n8wr",
+      "front": "signifier",
+      "back": "mean / meant / meant"
+    },
+    {
+      "id": "s9v3tp",
+      "front": "rencontrer",
+      "back": "meet / met / met"
+    },
+    {
+      "id": "v4b6dm",
+      "front": "égarer",
+      "back": "mislay / mislaid / mislaid"
+    },
+    {
+      "id": "n8j1lk",
+      "front": "induire en erreur",
+      "back": "mislead / misled / misled"
+    },
+    {
+      "id": "n9b4tw",
+      "front": "se tromper",
+      "back": "mistake / mistook / mistaken"
+    },
+    {
+      "id": "j3x7fy",
+      "front": "mal comprendre",
+      "back": "misunderstand / misunderstood / misunderstood"
+    },
+    {
+      "id": "q6c4bs",
+      "front": "tondre",
+      "back": "mow / mowed / mown"
+    },
+    {
+      "id": "x1s9hn",
+      "front": "dépasser (surpasser)",
+      "back": "outdo / outdid / outdone"
+    },
+    {
+      "id": "d7g2vt",
+      "front": "distancer (à la course)",
+      "back": "outrun / outran / outrun"
+    },
+    {
+      "id": "w3p5mc",
+      "front": "vaincre (une difficulté)",
+      "back": "overcome / overcame / overcome"
+    },
+    {
+      "id": "c3j8mp",
+      "front": "surprendre (une conversation)",
+      "back": "overhear / overheard / overheard"
+    },
+    {
+      "id": "r2m6xd",
+      "front": "superviser",
+      "back": "oversee / oversaw / overseen"
+    },
+    {
+      "id": "p9d4nw",
+      "front": "dormir trop longtemps",
+      "back": "oversleep / overslept / overslept"
+    },
+    {
+      "id": "g8t1jq",
+      "front": "dépasser (rattraper)",
+      "back": "overtake / overtook / overtaken"
+    },
+    {
+      "id": "l1k8gb",
+      "front": "payer",
+      "back": "pay / paid / paid"
+    },
+    {
+      "id": "y5n3ts",
+      "front": "prouver",
+      "back": "prove / proved / proven"
+    },
+    {
+      "id": "a8w7cf",
+      "front": "mettre (placer)",
+      "back": "put / put / put"
+    },
+    {
+      "id": "e4j1vz",
+      "front": "quitter (un emploi)",
+      "back": "quit / quit / quit"
+    },
+    {
+      "id": "u7b5pm",
+      "front": "lire",
+      "back": "read / read / read"
+    },
+    {
+      "id": "i3x9dh",
+      "front": "reconstruire",
+      "back": "rebuild / rebuilt / rebuilt"
+    },
+    {
+      "id": "b4v8kt",
+      "front": "refaire",
+      "back": "redo / redid / redone"
+    },
+    {
+      "id": "o6c2ns",
+      "front": "rembourser",
+      "back": "repay / repaid / repaid"
+    },
+    {
+      "id": "k1m5wq",
+      "front": "se débarrasser de",
+      "back": "rid / rid / rid"
+    },
+    {
+      "id": "t7s3bj",
+      "front": "monter (à cheval)",
+      "back": "ride / rode / ridden"
+    },
+    {
+      "id": "z2n9fx",
+      "front": "sonner",
+      "back": "ring / rang / rung"
+    },
+    {
+      "id": "h5t6dc",
+      "front": "se lever",
+      "back": "rise / rose / risen"
+    },
+    {
+      "id": "m9j2gv",
+      "front": "courir",
+      "back": "run / ran / run"
+    },
+    {
+      "id": "c3w7pn",
+      "front": "scier",
+      "back": "saw / sawed / sawn"
+    },
+    {
+      "id": "s6k1mb",
+      "front": "dire",
+      "back": "say / said / said"
+    },
+    {
+      "id": "v1d8ts",
+      "front": "voir",
+      "back": "see / saw / seen"
+    },
+    {
+      "id": "n5g4qh",
+      "front": "chercher",
+      "back": "seek / sought / sought"
+    },
+    {
+      "id": "j8p2xw",
+      "front": "vendre",
+      "back": "sell / sold / sold"
+    },
+    {
+      "id": "q4b6cd",
+      "front": "envoyer",
+      "back": "send / sent / sent"
+    },
+    {
+      "id": "x7n1vk",
+      "front": "poser (installer)",
+      "back": "set / set / set"
+    },
+    {
+      "id": "d5c9jt",
+      "front": "coudre",
+      "back": "sew / sewed / sewn"
+    },
+    {
+      "id": "w2m3fb",
+      "front": "secouer",
+      "back": "shake / shook / shaken"
+    },
+    {
+      "id": "s7v2gx",
+      "front": "verser (des larmes)",
+      "back": "shed / shed / shed"
+    },
+    {
+      "id": "g6v8ns",
+      "front": "briller",
+      "back": "shine / shone / shone"
+    },
+    {
+      "id": "r1j5pd",
+      "front": "tirer (une arme)",
+      "back": "shoot / shot / shot"
+    },
+    {
+      "id": "p3x7wg",
+      "front": "montrer",
+      "back": "show / showed / shown"
+    },
+    {
+      "id": "l9t2cm",
+      "front": "rétrécir",
+      "back": "shrink / shrank / shrunk"
+    },
+    {
+      "id": "y6d4kb",
+      "front": "fermer",
+      "back": "shut / shut / shut"
+    },
+    {
+      "id": "a1n8vs",
+      "front": "chanter",
+      "back": "sing / sang / sung"
+    },
+    {
+      "id": "e5w3qj",
+      "front": "couler (sombrer)",
+      "back": "sink / sank / sunk"
+    },
+    {
+      "id": "u8c6th",
+      "front": "être assis",
+      "back": "sit / sat / sat"
+    },
+    {
+      "id": "i4k9nf",
+      "front": "dormir",
+      "back": "sleep / slept / slept"
+    },
+    {
+      "id": "o7m1bw",
+      "front": "glisser",
+      "back": "slide / slid / slid"
+    },
+    {
+      "id": "b2s5xp",
+      "front": "sentir (percevoir une odeur)",
+      "back": "smell / smelt / smelt"
+    },
+    {
+      "id": "k6j3dv",
+      "front": "semer",
+      "back": "sow / sowed / sown"
+    },
+    {
+      "id": "t1v7cn",
+      "front": "parler",
+      "back": "speak / spoke / spoken"
+    },
+    {
+      "id": "z9p4mg",
+      "front": "accélérer",
+      "back": "speed / sped / sped"
+    },
+    {
+      "id": "h3b8tk",
+      "front": "dépenser",
+      "back": "spend / spent / spent"
+    },
+    {
+      "id": "m6x2ws",
+      "front": "renverser (un liquide)",
+      "back": "spill / spilt / spilt"
+    },
+    {
+      "id": "c8n5jq",
+      "front": "filer (le fil)",
+      "back": "spin / spun / spun"
+    },
+    {
+      "id": "s4d1vf",
+      "front": "cracher",
+      "back": "spit / spat / spat"
+    },
+    {
+      "id": "v7g9pb",
+      "front": "fendre",
+      "back": "split / split / split"
+    },
+    {
+      "id": "n2k6ct",
+      "front": "gâter",
+      "back": "spoil / spoilt / spoilt"
+    },
+    {
+      "id": "j5w8nm",
+      "front": "répandre",
+      "back": "spread / spread / spread"
+    },
+    {
+      "id": "q9t3xd",
+      "front": "jaillir",
+      "back": "spring / sprang / sprung"
+    },
+    {
+      "id": "x6m1hs",
+      "front": "se tenir debout",
+      "back": "stand / stood / stood"
+    },
+    {
+      "id": "d1p7kv",
+      "front": "voler (dérober)",
+      "back": "steal / stole / stolen"
+    },
+    {
+      "id": "w8j4gc",
+      "front": "coller",
+      "back": "stick / stuck / stuck"
+    },
+    {
+      "id": "g5c2nw",
+      "front": "piquer",
+      "back": "sting / stung / stung"
+    },
+    {
+      "id": "r7n9bt",
+      "front": "puer",
+      "back": "stink / stank / stunk"
+    },
+    {
+      "id": "k5d9wb",
+      "front": "marcher à grands pas",
+      "back": "stride / strode / stridden"
+    },
+    {
+      "id": "p2v6jm",
+      "front": "frapper (donner un coup)",
+      "back": "strike / struck / struck"
+    },
+    {
+      "id": "l4b1sq",
+      "front": "s'efforcer",
+      "back": "strive / strove / striven"
+    },
+    {
+      "id": "y8k5df",
+      "front": "jurer (prêter serment)",
+      "back": "swear / swore / sworn"
+    },
+    {
+      "id": "a3m9wc",
+      "front": "balayer",
+      "back": "sweep / swept / swept"
+    },
+    {
+      "id": "e6x2tp",
+      "front": "gonfler",
+      "back": "swell / swelled / swollen"
+    },
+    {
+      "id": "u1d7nb",
+      "front": "nager",
+      "back": "swim / swam / swum"
+    },
+    {
+      "id": "i9s4gv",
+      "front": "se balancer",
+      "back": "swing / swung / swung"
+    },
+    {
+      "id": "o5c8jk",
+      "front": "prendre",
+      "back": "take / took / taken"
+    },
+    {
+      "id": "b3n2ms",
+      "front": "enseigner",
+      "back": "teach / taught / taught"
+    },
+    {
+      "id": "k7w6xf",
+      "front": "déchirer",
+      "back": "tear / tore / torn"
+    },
+    {
+      "id": "t4j1pd",
+      "front": "raconter",
+      "back": "tell / told / told"
+    },
+    {
+      "id": "z1v5cq",
+      "front": "penser",
+      "back": "think / thought / thought"
+    },
+    {
+      "id": "h8m3bn",
+      "front": "jeter (lancer)",
+      "back": "throw / threw / thrown"
+    },
+    {
+      "id": "m2t9wk",
+      "front": "enfoncer (pousser)",
+      "back": "thrust / thrust / thrust"
+    },
+    {
+      "id": "c9k4vs",
+      "front": "piétiner",
+      "back": "tread / trod / trodden"
+    },
+    {
+      "id": "v8n1cm",
+      "front": "subir",
+      "back": "undergo / underwent / undergone"
+    },
+    {
+      "id": "n3x6tq",
+      "front": "comprendre",
+      "back": "understand / understood / understood"
+    },
+    {
+      "id": "j7d2pw",
+      "front": "entreprendre",
+      "back": "undertake / undertook / undertaken"
+    },
+    {
+      "id": "s5b7jg",
+      "front": "défaire",
+      "back": "undo / undid / undone"
+    },
+    {
+      "id": "t8p3cf",
+      "front": "faire respecter",
+      "back": "uphold / upheld / upheld"
+    },
+    {
+      "id": "q2g8nf",
+      "front": "bouleverser (contrarier)",
+      "back": "upset / upset / upset"
+    },
+    {
+      "id": "x5p3bd",
+      "front": "réveiller",
+      "back": "wake / woke / woken"
+    },
+    {
+      "id": "d9w7ks",
+      "front": "porter (un vêtement)",
+      "back": "wear / wore / worn"
+    },
+    {
+      "id": "w1c5mv",
+      "front": "tisser",
+      "back": "weave / wove / woven"
+    },
+    {
+      "id": "g4t8jn",
+      "front": "pleurer",
+      "back": "weep / wept / wept"
+    },
+    {
+      "id": "m1x6jv",
+      "front": "mouiller",
+      "back": "wet / wet / wet"
+    },
+    {
+      "id": "r9m2xb",
+      "front": "gagner",
+      "back": "win / won / won"
+    },
+    {
+      "id": "p6j4ct",
+      "front": "enrouler",
+      "back": "wind / wound / wound"
+    },
+    {
+      "id": "l2v9sk",
+      "front": "retirer",
+      "back": "withdraw / withdrew / withdrawn"
+    },
+    {
+      "id": "b4n7qs",
+      "front": "retenir (refuser de donner)",
+      "back": "withhold / withheld / withheld"
+    },
+    {
+      "id": "y7n5gp",
+      "front": "résister à",
+      "back": "withstand / withstood / withstood"
+    },
+    {
+      "id": "a4d1mw",
+      "front": "tordre (essorer)",
+      "back": "wring / wrung / wrung"
+    },
+    {
+      "id": "e8k6vj",
+      "front": "écrire",
+      "back": "write / wrote / written"
+    }
+  ]
+}
