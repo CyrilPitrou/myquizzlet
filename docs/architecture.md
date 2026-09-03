@@ -43,8 +43,8 @@ zip.js      pure. `zip(files) -> Uint8Array`, a stored (uncompressed) zip, and
 langs.js    pure. A side label ("Français") to a language code.
 install.js  the browser's `beforeinstallprompt` offer, caught at import time
             because it fires once and early, and re-offered as a button in
-            Settings. Chrome's own install item lives in a menu a QR scan
-            hides, so the app has to ask in its own words.
+            Settings. Only Chromium fires it — Firefox and Safari install
+            from their own menus, which Settings lists instead.
 stats.js    pure. The numbers on a list: learned %, right %, due.
 train.js    pure. Training batches: pickBatch, choices, the two-rung queue.
 listform.js the title/folder/side-label/language fields shared by editlist

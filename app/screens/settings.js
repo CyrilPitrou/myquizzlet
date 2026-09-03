@@ -135,8 +135,14 @@ export function showSettings() {
       })] : []),
       el('p', { class: 'muted', text: canInstall()
         ? 'Nothing is downloaded from a store — the app is already here.'
-        : 'No button? This tab cannot install, which is normal when the page was '
-          + 'opened by scanning a code. Tap ⋮ → Open in Chrome, then ⋮ → Install app.' }),
+        : 'No button? Only Chrome offers one. Every browser installs from its own menu:' }),
+      ...(canInstall() ? [] : [el('ul', { class: 'steps' }, [
+        el('li', { text: 'Firefox: ⋮ → Install, or Add to Home screen.' }),
+        el('li', { text: 'Chrome: ⋮ → Install app. If the bar shows ✕ and no tabs, the page '
+          + 'was opened by a scan — ⋮ → Open in Chrome first, then install there.' }),
+        el('li', { text: 'Samsung Internet: ≡ → Add page to → Home screen.' }),
+        el('li', { text: 'iPhone: Share → Add to Home Screen.' }),
+      ])]),
     ]));
   }
 
@@ -218,10 +224,9 @@ export function showSettings() {
         qrCard(APP_URL, 'Install it on the new device', 'A QR code of the app’s address'),
       ]),
       el('ol', { class: 'steps' }, [
-        el('li', { text: 'Scan it. The app opens, but in a browser view that cannot install it.' }),
-        el('li', { text: 'Tap ⋮ → Open in Chrome.' }),
-        el('li', { text: 'In Chrome, the app’s Settings offer an Install button. '
-          + 'Failing that, ⋮ → Install app.' }),
+        el('li', { text: 'Scan it. The app opens in whatever browser that phone uses.' }),
+        el('li', { text: 'Open its Settings → Install, which says how to install it in '
+          + 'that particular browser.' }),
         el('li', { text: 'Open it from the home screen from now on.' }),
       ]),
       el('p', { class: 'muted', text: 'A device you only study on is now finished — it needs '

@@ -62,9 +62,9 @@ export function showHelp() {
 
   view.append(section('Adding another device', [
     p(['Settings → ', b('Add a device'), ' shows a code of the app’s address. Scan it on '
-      + 'the new phone and the app opens — but in a browser view that cannot install it, '
-      + 'so tap ⋮ → ', b('Open in Chrome'), ' first. There the app’s own Settings offer an '
-      + b('Install'), ' button.']),
+      + 'the new phone and the app opens in that phone’s browser. Then open its own ',
+      b('Settings → Install'), ', which says how to install it in that browser — Chrome '
+      + 'offers a button, Firefox and the rest have it in their menu.']),
     p(['That is the whole of setup for a device you only study on. It needs no token.']),
     p(['To let it save changes too, it needs a token. Its own Settings will walk it '
       + 'through making one on GitHub — the safe route, because a token made there can '

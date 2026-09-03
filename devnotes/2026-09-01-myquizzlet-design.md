@@ -214,9 +214,13 @@ explanation moved to where the work is actually done.)*
 phone camera opens a browser view with no install item, and `beforeinstallprompt`
 does not fire there — so the one route Chrome offers is the one a scan hides.
 `install.js` therefore catches that event whenever it does fire and Settings
-re-offers it as an *Install this app* button, with the manual ⋮ → Open in Chrome
-route written out beneath it for when it cannot. This is the only place the app
-works around a browser rather than around itself, and it earns it: without it,
+re-offers it as an *Install this app* button. But only Chromium fires it at all:
+Firefox and Safari have no such event, so on those the button can never appear
+and the browser's own menu is the only way in. Settings therefore lists the
+menu route for each browser rather than assuming one — deliberately without
+sniffing the user agent, because a confidently wrong instruction is worse than
+a short list, which is exactly how this went wrong the first time. This is the only place the app
+works around browsers rather than around itself, and it earns it: without it,
 onboarding dead-ends on the very first step.
 
 **Path 2 — copy the token from a device that already has one.** Settings, on a
