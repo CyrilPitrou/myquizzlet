@@ -28,6 +28,13 @@ app.js      shared singletons: store, settings, go, todayStr, screen, ctx.
             screen imports main.js back.
 status.js   the sync status indicator.
 ui.js       shared DOM helpers: el, menu, swipeable, openDialog.
+i18n.js     t(), the plural rule, and the language setting. Reads and writes
+            `lang` in the same local settings blob as the theme — per-device,
+            never synced.
+i18n.en.js  the English dictionary — also the fallback for any key missing
+            from French.
+i18n.fr.js  the French dictionary. Same key set as i18n.en.js; a test fails
+            the moment the two drift apart.
 store.js    the working copy. The only module that touches browser storage.
 github.js   the network. Pull, push, status. Knows nothing about cards.
 sync.js     pull/merge/push orchestration.
@@ -78,8 +85,17 @@ setup.js    pure. The setup link and everything else derived from a token:
             a paste, masking a token for display, and how long one has left.
 screens/    one file per screen — lists, list, cards, view, train, test,
             folders, editlist, adopt, settings, token, help — each exporting a
-            `show*` function that renders into `screen()`.
+            `show*` function that renders into `screen()`. help.js keeps the
+            layout; help.en.js and help.fr.js hold the prose.
 ```
+
+Every user-visible string reaches the screen through `t()` from `i18n.js`,
+except Help's prose: at ~150 lines, mostly long-form text, it lives as data in
+`screens/help.en.js` and `screens/help.fr.js` instead of as sixty dictionary
+keys, so each language reads as prose written in that language rather than
+translated sentence by sentence. `t()` falls back to the English string for
+any key missing from French — never to the raw key — and the language choice
+is per-device, stored beside the theme, never synced.
 
 The dependency direction is one-way: screens use the pure modules and
 `app.js`; `store` uses `github`; the pure modules use nothing. Nothing calls

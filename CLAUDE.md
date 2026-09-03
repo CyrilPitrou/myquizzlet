@@ -18,8 +18,10 @@ These are deliberate. Do not "improve" past them without asking.
    deployed app has zero runtime dependencies. Never add a bundler, a framework,
    or a CDN script tag to the app.
 2. **Personal tool.** One user, a few thousand cards. Simplicity beats generality
-   every time. No accounts, no multi-user, no roles, no i18n of the UI, no
-   settings that exist "in case". YAGNI hard.
+   every time. No accounts, no multi-user, no roles, no settings that exist
+   "in case". YAGNI hard. The one exception is the UI language: the owner
+   reads both English and French, so the app is translated — see the i18n
+   rule below — but this does not open the door to further generality.
 3. **Local-first.** A study session touches only browser storage. Network work
    happens outside the answer loop. The app must be fully usable offline.
 4. **Data is plain JSON, editable by hand.** Anything that makes the files
@@ -36,6 +38,9 @@ main branch                          data branch
                     main.js, so nothing calls back up into the router.
      status.js     sync status indicator
      ui.js         shared DOM helpers
+     i18n.js      t(), the plural rule, and the language setting
+     i18n.en.js   the English dictionary — also the fallback
+     i18n.fr.js   the French dictionary — same keys, checked by a test
      store.js     browser-side state
      github.js    pull / push
      sync.js      pull/merge/push orchestration
@@ -51,7 +56,8 @@ main branch                          data branch
      qrcard.js    a QR code as DOM, shared by the token screen and help
      tokenshare.js the opt-in "show my token as a QR" box, same two screens
      screens/     lists list cards view train test folders editlist
-                   settings token help — one file per screen
+                   settings token help — one file per screen. help.js keeps
+                   the layout; help.en.js and help.fr.js hold the prose.
      screens/importdialog.js  shared file-import dialog, opened by list,
                    cards, and editlist
   sw.js           offline cache
@@ -78,6 +84,11 @@ site and does not clutter the code history.
 - **Every new module must be added to `SHELL` in `sw.js` and the cache name
   bumped.** Otherwise it is never cached, and the app breaks offline the
   moment the network is gone.
+- **The language is per-device and the dictionaries must agree.** `lang`
+  lives in `mq:settings` beside `theme` and is never synced. Every key in
+  `i18n.en.js` must exist in `i18n.fr.js`; a test enforces it. A key used
+  for grouping or in a URL — `Unfiled` in `folders.js` — is not a label:
+  translate where it is drawn, never where it is compared.
 
 ## Working locally
 

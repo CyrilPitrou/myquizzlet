@@ -139,6 +139,7 @@ export const fr = {
   'test.done.count': '{right} bonnes, {wrong} mauvaises.',
   'test.studyMore': 'Continuer à réviser',
   'test.backToLists': 'Retour aux listes',
+  'common.actions': 'Actions',
   'common.repository': 'Dépôt',
   'common.token': 'Jeton',
   'common.expires': 'Expire',

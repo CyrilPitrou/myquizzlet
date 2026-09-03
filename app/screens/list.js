@@ -110,7 +110,7 @@ export function showList(id) {
       { label: t('list.menu.exportCsv'), onclick: () => exportCsv(list) },
       { label: t('list.menu.generatePdf'), onclick: () => generatePdf(list) },
       { label: t('list.menu.delete'), onclick: () => deleteList(list) },
-    ]),
+    ], t('common.actions')),
   ]));
 
   view.append(el('div', { class: 'liststats' }, [

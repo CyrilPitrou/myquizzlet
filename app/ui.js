@@ -19,8 +19,10 @@ export function clear(node) {
 export const $ = (selector) => document.querySelector(selector);
 
 // A ⋮ button with a popover of actions. Closes on the next click anywhere,
-// which is the whole of its dismissal logic.
-export function menu(items) {
+// which is the whole of its dismissal logic. `label` names the button for a
+// screen reader and a tooltip; it comes from the caller rather than from a
+// dictionary lookup in here, so this module never has to know about i18n.js.
+export function menu(items, label) {
   const close = () => { pop.hidden = true; };
   const pop = el('div', { class: 'menu-pop', hidden: 'hidden' }, items.map((item) =>
     el('button', {
@@ -28,7 +30,7 @@ export function menu(items) {
       onclick: () => { close(); item.onclick(); },
     })));
   const button = el('button', {
-    class: 'menu-button', text: '⋮', title: 'Actions', 'aria-label': 'Actions',
+    class: 'menu-button', text: '⋮', title: label, 'aria-label': label,
     onclick: (event) => {
       event.stopPropagation();
       if (pop.hidden) {

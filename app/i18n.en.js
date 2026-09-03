@@ -140,6 +140,7 @@ export const en = {
   'test.done.count': '{right} right, {wrong} wrong.',
   'test.studyMore': 'Study more',
   'test.backToLists': 'Back to lists',
+  'common.actions': 'Actions',
   'common.repository': 'Repository',
   'common.token': 'Token',
   'common.expires': 'Expires',
