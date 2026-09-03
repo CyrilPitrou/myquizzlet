@@ -1,6 +1,8 @@
 import { el, menu } from '../ui.js';
 import { store, screen, go, todayStr, ctx } from '../app.js';
 import { listStats } from '../stats.js';
+import { toCsv } from '../csv.js';
+import { openImportDialog } from './importdialog.js';
 
 function renameList(list) {
   const name = prompt('New title for this list', list.name);
@@ -34,6 +36,59 @@ function deleteList(list) {
   go('#/');
 }
 
+function importFromFile(list) {
+  openImportDialog({
+    onCommit: (cards) => {
+      if (!cards.length) return;
+      store.addCards(list.id, cards);
+      ctx.sync?.schedule();
+      ctx.render();
+    },
+  });
+}
+
+function exportCsv(list) {
+  const blob = new Blob([toCsv(list.cards)], { type: 'text/csv' });
+  const a = el('a', { href: URL.createObjectURL(blob), download: `${list.id}.csv` });
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function escapeHtml(text) {
+  return String(text).replace(/[&<>"']/g, (c) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+  }[c]));
+}
+
+function generatePdf(list) {
+  const frontLabel = list.frontLabel || 'Front';
+  const backLabel = list.backLabel || 'Back';
+  const rows = list.cards.map((c) =>
+    `<tr><td>${escapeHtml(c.front)}</td><td>${escapeHtml(c.back)}</td></tr>`).join('');
+  const html = `<!doctype html>
+<html><head><meta charset="utf-8"><title>${escapeHtml(list.name)}</title>
+<style>
+  body { font: 14px/1.4 system-ui, sans-serif; padding: 1.5rem; color: #1c1917; }
+  h1 { font-size: 1.3rem; }
+  table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+  th, td { border: 1px solid #ccc; padding: .4rem .6rem; text-align: left; }
+  th { background: #f3f3f3; }
+</style>
+</head>
+<body>
+<h1>${escapeHtml(list.name)}</h1>
+<table>
+  <tr><th>${escapeHtml(frontLabel)}</th><th>${escapeHtml(backLabel)}</th></tr>
+  ${rows}
+</table>
+<script>window.onload = () => window.print();</script>
+</body></html>`;
+  const win = window.open('', '_blank');
+  if (!win) return;
+  win.document.write(html);
+  win.document.close();
+}
+
 export function showList(id) {
   const list = store.getList(id);
   if (!list) return go('#/');
@@ -48,6 +103,9 @@ export function showList(id) {
       { label: 'Move to folder', onclick: () => moveToFolder(list) },
       { label: 'Sides', onclick: () => go(`#/list/${id}/edit`) },
       { label: 'Edit cards', onclick: () => go(`#/list/${id}/cards`) },
+      { label: 'Import from file', onclick: () => importFromFile(list) },
+      { label: 'Export as CSV', onclick: () => exportCsv(list) },
+      { label: 'Generate PDF', onclick: () => generatePdf(list) },
       { label: 'Delete list', onclick: () => deleteList(list) },
     ]),
   ]));
