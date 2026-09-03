@@ -25,6 +25,17 @@ function themePicker() {
   }, [el('span', { class: `chip ${theme.id}` }), theme.name])));
 }
 
+// One flag per row, each written straight into settings. The browse screen has
+// its own Random order checkbox on the same key, so the two always agree.
+function toggle(key, label) {
+  return el('label', { class: 'opt' }, [
+    el('input', { type: 'checkbox',
+      ...(settings()[key] ? { checked: 'checked' } : {}),
+      onchange: (event) => saveSettings({ ...settings(), [key]: event.target.checked }) }),
+    label,
+  ]);
+}
+
 const waitingLine = (n) => (n === 0 ? 'Everything here is saved.'
   : `${n} change${n === 1 ? '' : 's'} waiting to be saved.`);
 
@@ -82,6 +93,14 @@ export function showSettings() {
   view.append(section('Appearance', [
     themePicker(),
     el('p', { class: 'muted', text: 'Only on this device. Your other devices keep their own.' }),
+  ]));
+
+  view.append(section('Options', [
+    el('div', { class: 'opts' }, [
+      toggle('visualEffects', 'Visual effects'),
+      toggle('audioEffects', 'Sound effects'),
+      toggle('browseShuffle', 'Random order when viewing lists'),
+    ]),
   ]));
 
   view.append(syncSection());
