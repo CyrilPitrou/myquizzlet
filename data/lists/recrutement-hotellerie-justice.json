@@ -1,6 +1,6 @@
 {
   "id": "recrutement-hotellerie-justice",
-  "name": "recrutement/ hotellerie/ justice",
+  "name": "recrutement / hôtellerie / justice",
   "frontLang": "en",
   "backLang": "fr",
   "cards": [
@@ -230,7 +230,7 @@
       "back": "détournement"
     }
   ],
-  "updatedAt": "2026-09-02T16:20:39.132Z",
+  "updatedAt": "2026-09-03T18:20:33.390Z",
   "folder": "English",
   "frontLabel": "English",
   "backLabel": "French"
