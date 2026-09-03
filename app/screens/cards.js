@@ -1,6 +1,7 @@
 import { el, $ } from '../ui.js';
 import { store, screen, go, ctx } from '../app.js';
-import { parseCards, toCsv } from '../csv.js';
+import { parseCards } from '../csv.js';
+import { openImportDialog } from './importdialog.js';
 
 function editableCell(listId, card, side) {
   return el('input', {
@@ -12,7 +13,7 @@ function editableCell(listId, card, side) {
   });
 }
 
-function importExport(listId) {
+function pasteBlock(listId) {
   const box = el('textarea', {
     placeholder: 'Paste rows: el pan, le pain — one card per line. Tabs work too.',
     rows: '4',
@@ -28,32 +29,31 @@ function importExport(listId) {
     ctx.render();
     $('#import-status')?.replaceWith(status);
   };
-  const file = el('input', {
-    type: 'file', accept: '.csv,.txt,text/csv',
-    onchange: async (event) => {
-      const chosen = event.target.files[0];
-      if (!chosen) return;
-      box.value = await chosen.text();
-      doImport();
-    },
-  });
-  const exportButton = el('button', {
-    text: 'Export CSV',
-    onclick: () => {
-      const list = store.getList(listId);
-      const blob = new Blob([toCsv(list.cards)], { type: 'text/csv' });
-      const a = el('a', { href: URL.createObjectURL(blob), download: `${listId}.csv` });
-      a.click();
-      URL.revokeObjectURL(a.href);
-    },
-  });
-  return el('details', { class: 'io' }, [
-    el('summary', { text: 'Import / export' }),
+  return el('div', { class: 'io' }, [
+    el('h3', { text: 'Paste text' }),
+    el('p', { class: 'muted', text: 'One card per line, front and back separated by a '
+      + 'comma, semicolon, or tab.' }),
     box,
-    el('div', { class: 'row' }, [
-      el('button', { text: 'Import pasted text', onclick: doImport }), file, exportButton,
-    ]),
+    el('button', { text: 'Import pasted text', type: 'button', onclick: doImport }),
     status,
+  ]);
+}
+
+function fileBlock(listId) {
+  return el('div', { class: 'io' }, [
+    el('h3', { text: 'Import file' }),
+    el('p', { class: 'muted', text: 'CSV, TSV, or text file.' }),
+    el('button', {
+      class: 'btn', type: 'button', text: 'Import file…',
+      onclick: () => openImportDialog({
+        onCommit: (cards) => {
+          if (!cards.length) return;
+          store.addCards(listId, cards);
+          ctx.sync?.schedule();
+          ctx.render();
+        },
+      }),
+    }),
   ]);
 }
 
@@ -90,12 +90,23 @@ export function showCards(id) {
     table.append(el('tr', {}, [
       el('td', {}, [editableCell(id, card, 'front')]),
       el('td', {}, [editableCell(id, card, 'back')]),
-      el('td', {}, [el('button', {
-        class: 'link', text: '✕', title: 'delete',
-        onclick: () => { store.deleteCard(id, card.id); ctx.sync?.schedule(); ctx.render(); },
-      })]),
+      el('td', {}, [el('div', { class: 'rowactions' }, [
+        el('button', {
+          class: 'link swap', text: '⇄', title: 'swap sides', type: 'button',
+          onclick: () => {
+            store.updateCard(id, card.id, { front: card.back, back: card.front });
+            ctx.sync?.schedule();
+            ctx.render();
+          },
+        }),
+        el('button', {
+          class: 'link', text: '✕', title: 'delete', type: 'button',
+          onclick: () => { store.deleteCard(id, card.id); ctx.sync?.schedule(); ctx.render(); },
+        }),
+      ])]),
     ]));
   }
   view.append(table);
-  view.append(importExport(id));
+  view.append(pasteBlock(id));
+  view.append(fileBlock(id));
 }

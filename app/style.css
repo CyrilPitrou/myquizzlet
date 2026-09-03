@@ -83,10 +83,12 @@ h3 { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase;
 
 table.cards { width: 100%; border-collapse: collapse; table-layout: fixed; }
 table.cards td { border-bottom: 1px solid var(--rule); }
-table.cards td:last-child { width: 3rem; }
+table.cards td:last-child { width: 4.75rem; }
 table.cards input { width: 100%; border: 1px solid transparent; padding: .5rem .4rem;
                     font-size: 1rem; background: transparent; color: var(--ink); }
 table.cards input:focus { border-color: var(--field); background: var(--surface); }
+.rowactions { display: flex; gap: .25rem; justify-content: flex-end; }
+button.link.swap { color: var(--ink); }
 
 form.addcard { display: flex; gap: .5rem; margin: 1rem 0; }
 form input { flex: 1; min-width: 0; }
