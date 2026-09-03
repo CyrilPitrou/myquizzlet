@@ -1,5 +1,5 @@
-// Written for English, not translated into it. Six or so per bucket, so the
-// same line does not come up twice in an evening.
+// Written for English, not translated into it. Sixteen or so per bucket, so
+// an evening of rounds keeps turning up lines you have not seen yet.
 export const messagesEn = {
   perfect: [
     'FLAWLESS 🏆 Not one wrong. The dictionary works for you now.',
@@ -8,6 +8,16 @@ export const messagesEn = {
     'Undefeated 🥇 The words have surrendered.',
     'A clean sweep! 🧹 Nothing left standing.',
     '100%. Absolute legend. 🌟',
+    'Immaculate 🕊️ Not a scratch on you.',
+    'The full house 🃏 Every card fell your way.',
+    'Textbook. Literally. 📘 Nothing missed.',
+    'You did not blink once 👁️ Perfect round.',
+    'Zero errors. The machine is checking twice. 🤖',
+    'Unstoppable 🚂 Straight through, no stops.',
+    'That was ruthless 🦈 In the nicest way.',
+    'Every answer, first time 🎪 Take the applause.',
+    'The words did not stand a chance 🌊',
+    'Nothing to correct. Frankly, nothing to say. 🎬',
   ],
   great: [
     'So close to perfect! 🔥 Just a couple got away.',
@@ -16,6 +26,16 @@ export const messagesEn = {
     'Very strong 🎉 Whatever you are doing, keep doing it.',
     'Nearly untouchable! ⚡',
     'Great work 🌈 That is a solid result.',
+    'One or two slipped the net 🕸️ The rest never had a chance.',
+    'Almost the whole set 🎁 Very nearly gift-wrapped.',
+    'Sharp round ✂️ Barely a loose end.',
+    'That is podium territory 🥈 The top step is one round away.',
+    'Nearly spotless 🧼 A smudge or two.',
+    'Strong showing 🏹 Most arrows in the middle.',
+    'The odd one escaped 🐇 You will catch it next time.',
+    'Confident stuff 😎 Hardly a hesitation.',
+    'Excellent aim 🎯 A hair off the bullseye.',
+    'That is the good end of the scale 📊 Comfortably.',
   ],
   ok: [
     'Not bad at all! 👍 Room to grow, and you are growing.',
@@ -24,6 +44,16 @@ export const messagesEn = {
     'Progress is progress 📈 Onwards!',
     'You got there 😌 A few gave you trouble, but you got there.',
     'Respectable! 🎈 Another round and those will stick.',
+    'Somewhere in the middle 🧭 Which is where learning happens.',
+    'Half the words know your name now 🪪',
+    'Steady 🚲 Not fast, but you did not fall off.',
+    'A fair result ⚖️ The rest are just not ready yet.',
+    'Perfectly reasonable 🍵 Sit with them once more.',
+    'That will do 🧩 A few pieces still on the table.',
+    'You are getting the hang of these 🎣 More in the net each time.',
+    'Middling, in the good sense 🏞️ The climb continues.',
+    'Some stuck, some did not 🧲 That is how it goes.',
+    'Reasonable round 🔧 A little more tightening.',
   ],
   rough: [
     'The vocabulary won this round 😵 Rematch?',
@@ -32,5 +62,15 @@ export const messagesEn = {
     'Not your finest hour 😅 But you showed up, and that counts.',
     'These ones need another look 🔍 No shame in it.',
     'Chaos reigns 🌪️ Try again — they are learnable, promise.',
+    'Bruising 🥊 Get back up, the words are not that tough.',
+    'A lot of new territory here 🗺️ That is what new looks like.',
+    'The dictionary is holding the line 🛡️ For now.',
+    'Nothing stuck to the wall 🍝 Cook them again.',
+    'Ouch 🙈 Onwards, though — nobody is watching.',
+    'Uphill 🧗 Steep bits come before the view.',
+    'That round belonged to the words 🐉 Yours is next.',
+    'Plenty of room here 🚪 Wide open, in fact.',
+    'A hard set, honestly 🪨 Chip away at it.',
+    'Start of the curve 📉 It only goes up from here.',
   ],
 };
