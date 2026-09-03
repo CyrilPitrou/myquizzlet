@@ -1,3 +1,27 @@
+function findDelimiter(line) {
+  // Scan for delimiters only outside quoted fields, in preference order: tab,
+  // semicolon, comma. This mirrors splitLine's quote handling exactly so the
+  // two functions cannot drift apart and cause delimiters inside quotes to
+  // incorrectly influence the choice. A quoted character — including tab,
+  // semicolon, and comma — must never vote.
+  let quoted = false;
+  let foundSemicolon = false;
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i];
+    if (quoted) {
+      if (c === '"' && line[i + 1] === '"') { i++; } // Skip escaped quote
+      else if (c === '"') quoted = false;
+    } else if (c === '"') {
+      quoted = true;
+    } else if (c === '\t') {
+      return '\t'; // Tab has highest priority, return immediately
+    } else if (c === ';' && !foundSemicolon) {
+      foundSemicolon = true; // Note that we found a semicolon, keep scanning for tab
+    }
+  }
+  return foundSemicolon ? ';' : ','; // Return semicolon if found, else comma
+}
+
 function splitLine(line, delimiter) {
   const fields = [];
   let field = '';
@@ -28,7 +52,7 @@ function splitLine(line, delimiter) {
 function parseLine(line) {
   const trimmed = line.trim();
   if (trimmed === '') return null;
-  const delimiter = trimmed.includes('\t') ? '\t' : trimmed.includes(';') ? ';' : ',';
+  const delimiter = findDelimiter(trimmed);
   const fields = splitLine(trimmed, delimiter);
   if (fields.length < 2) return { front: trimmed, back: '', error: 'no separator found' };
   const front = fields[0];
@@ -56,7 +80,7 @@ export function previewRows(text) {
 }
 
 function quote(value) {
-  return /[",\n\t]/.test(value) ? `"${value.replace(/"/g, '""')}"` : value;
+  return /[",;\n\t]/.test(value) ? `"${value.replace(/"/g, '""')}"` : value;
 }
 
 export function toCsv(cards) {

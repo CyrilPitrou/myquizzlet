@@ -24,6 +24,14 @@ describe('parseCards', () => {
       .toEqual([{ front: 'pan, integral', back: 'pain complet' }]);
   });
 
+  it('does not treat a quoted semicolon as the delimiter', () => {
+    expect(parseCards('"a;b",c').cards).toEqual([{ front: 'a;b', back: 'c' }]);
+  });
+
+  it('does not treat a quoted tab as the delimiter', () => {
+    expect(parseCards('"a\tb",c').cards).toEqual([{ front: 'a\tb', back: 'c' }]);
+  });
+
   it('joins extra columns into the back field', () => {
     expect(parseCards('a,b,c').cards).toEqual([{ front: 'a', back: 'b,c' }]);
   });
@@ -62,6 +70,18 @@ describe('toCsv', () => {
   it('quotes fields containing a comma or a quote', () => {
     expect(toCsv([{ front: 'a,b', back: 'say "hi"' }])).toBe('"a,b","say ""hi"""');
   });
+
+  it('quotes fields containing a semicolon', () => {
+    expect(toCsv([{ front: 'a;b', back: 'c' }])).toBe('"a;b",c');
+  });
+
+  it('round-trips cards with semicolons, commas, and tabs', () => {
+    const cards = [
+      { front: 'a;b', back: 'c,d' },
+      { front: 'e\tf', back: 'g;h' },
+    ];
+    expect(parseCards(toCsv(cards)).cards).toEqual(cards);
+  });
 });
 
 describe('previewRows', () => {
@@ -82,5 +102,9 @@ describe('previewRows', () => {
 
   it('respects semicolon as a delimiter', () => {
     expect(previewRows('el pan;le pain')).toEqual([{ front: 'el pan', back: 'le pain', error: null }]);
+  });
+
+  it('does not treat a quoted semicolon as the delimiter', () => {
+    expect(previewRows('"a;b",c')).toEqual([{ front: 'a;b', back: 'c', error: null }]);
   });
 });
