@@ -35,7 +35,7 @@ merge.js    pure. The progress merge rule: newest lastSeen wins, per item.
 srs.js      pure. Which items are due, and where an answer moves an item.
 grade.js    pure. Is this typed answer right?
 csv.js      pure. Text in, cards out, and back.
-langs.js    pure. A column label ("Français") to a language code.
+langs.js    pure. A side label ("Français") to a language code.
 stats.js    pure. The numbers on a list: learned %, right %, due.
 train.js    pure. Training batches: pickBatch, choices, the two-rung queue.
 listform.js the name/folder/label/language fields shared by editlist and

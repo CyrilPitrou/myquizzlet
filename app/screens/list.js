@@ -3,7 +3,7 @@ import { store, screen, go, todayStr, ctx } from '../app.js';
 import { listStats } from '../stats.js';
 
 function renameList(list) {
-  const name = prompt('New name for this list', list.name);
+  const name = prompt('New title for this list', list.name);
   if (name === null) return;
   const trimmed = name.trim();
   if (!trimmed || trimmed === list.name) return;
@@ -46,7 +46,7 @@ export function showList(id) {
     menu([
       { label: 'Rename', onclick: () => renameList(list) },
       { label: 'Move to folder', onclick: () => moveToFolder(list) },
-      { label: 'Column types', onclick: () => go(`#/list/${id}/edit`) },
+      { label: 'Sides', onclick: () => go(`#/list/${id}/edit`) },
       { label: 'Edit cards', onclick: () => go(`#/list/${id}/cards`) },
       { label: 'Delete list', onclick: () => deleteList(list) },
     ]),

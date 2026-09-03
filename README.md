@@ -123,8 +123,8 @@ Same app either way.
 
 ## Everyday use
 
-**Make a list.** The **＋** in the header. Give it a name and, optionally, the
-two column labels (Spanish, French, or whatever the two sides are). The
+**Make a list.** The **＋** in the header. Give it a title and, optionally, the
+two side labels (Spanish, French, or whatever the two sides hold). The
 languages are derived from those labels, and used to tune how accents are
 handled when grading typed answers.
 

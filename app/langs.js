@@ -1,4 +1,4 @@
-// A column label like "French" or "Français" is also a language declaration.
+// A side label like "French" or "Français" is also a language declaration.
 // Anything unrecognised ("Date", "Event") is simply a label, and grading falls
 // back to its language-neutral behaviour.
 const NAMES = {
