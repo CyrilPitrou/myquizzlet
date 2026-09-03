@@ -27,7 +27,7 @@ app.js      shared singletons: store, settings, go, todayStr, screen, ctx.
             Screens reach the router and the sync engine through ctx, so no
             screen imports main.js back.
 status.js   the sync status indicator.
-ui.js       shared DOM helpers: el, menu, swipeable.
+ui.js       shared DOM helpers: el, menu, swipeable, openDialog.
 store.js    the working copy. The only module that touches browser storage.
 github.js   the network. Pull, push, status. Knows nothing about cards.
 sync.js     pull/merge/push orchestration.
@@ -50,6 +50,10 @@ install.js  the browser's `beforeinstallprompt` offer, caught at import time
             can also be hidden by hand.
 stats.js    pure. The numbers on a list: learned %, right %, due.
 train.js    pure. Training batches: pickBatch, choices, the two-rung queue.
+sides.js    pure. Swaps which side of a list is front and which is back:
+            labels, languages, every card's text, and each card's progress
+            keys, so a card's f2b/b2f state keeps tracking the same skill
+            (recognising vs. producing) after the swap.
 listform.js the title/folder/side-label/language fields shared by editlist
             and the CSV import in cards.
 qrcard.js   a QR code as DOM: the <svg> of one, and the captioned figure
@@ -59,6 +63,10 @@ tokenshare.js the opt-in box that puts a token on screen as a QR, with its
             press-to-reveal and its minute-long timer. One module because two
             screens offer it: the Token page, and Help, where the instructions
             for adding a device are.
+screens/importdialog.js the shared file-import dialog: a styled file picker,
+            an editable preview of the parsed rows, and a commit button.
+            Storage-agnostic — onCommit(cards) decides what committing means,
+            so list, cards, and editlist all open the same dialog.
 qr.js       pure. `encode(text) -> boolean[][]`, a QR matrix: byte mode, error
             correction level L, versions 1–13. It exists because no
             third-party generator may ever see a token and the payload is

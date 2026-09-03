@@ -52,7 +52,7 @@ export function openImportDialog({ onCommit }) {
 
   function updateCommit() {
     const n = rows.filter((r) => !r.error).length;
-    commitBtn.textContent = `Import ${n} cards`;
+    commitBtn.textContent = `Import ${n} card${n === 1 ? '' : 's'}`;
     commitBtn.disabled = n === 0;
   }
 
@@ -70,6 +70,7 @@ export function openImportDialog({ onCommit }) {
     type: 'file', accept: ACCEPT, hidden: 'hidden',
     onchange: async (event) => {
       const chosen = event.target.files[0];
+      event.target.value = ''; // so re-picking the same path still fires change
       if (!chosen) return;
       const text = await chosen.text();
       rows = previewRows(text);

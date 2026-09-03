@@ -46,11 +46,14 @@ main branch                          data branch
      langs.js     pure. column label → language code
      stats.js     pure. per-list numbers
      train.js     pure. training batches and rungs
+     sides.js     pure. whole-list side swap: labels, card text, progress keys
      listform.js  shared list/card editing fields
      qrcard.js    a QR code as DOM, shared by the token screen and help
      tokenshare.js the opt-in "show my token as a QR" box, same two screens
      screens/     lists list cards view train test folders editlist
                    settings token help — one file per screen
+     screens/importdialog.js  shared file-import dialog, opened by list,
+                   cards, and editlist
   sw.js           offline cache
   test/*.test.js
 ```
@@ -87,6 +90,6 @@ Browsers refuse ES modules over `file://`, so the http server is required.
 
 ## Testing
 
-Pure modules (`srs`, `grade`, `csv`, `merge`, `langs`, `stats`, `train`) get
+Pure modules (`srs`, `grade`, `csv`, `merge`, `langs`, `stats`, `train`, `sides`) get
 real unit tests and are written test-first. Screens are verified by using
 them; do not add a headless-browser suite.

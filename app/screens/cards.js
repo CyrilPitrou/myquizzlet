@@ -97,6 +97,9 @@ export function showCards(id) {
             // Clicking here blurs a focused cell first, which commits any in-progress
             // edit to the store without re-rendering — so `card` may be stale. Re-read
             // the current text by (permanent) id rather than trusting the closure.
+            // This is a data-entry correction, not a change of reading direction, so
+            // unlike the whole-list swap in sides.js it deliberately leaves the card's
+            // f2b/b2f progress keys alone.
             const live = store.getList(id).cards.find((c) => c.id === card.id);
             store.updateCard(id, card.id, { front: live.back, back: live.front });
             ctx.sync?.schedule();
