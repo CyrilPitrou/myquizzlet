@@ -3,6 +3,7 @@ import { screen, settings, REPO } from '../app.js';
 import { createGitHub, ConflictError } from '../github.js';
 import { seedWish, recentEntries, suggestionsDoc } from '../wishes.js';
 import { t } from '../i18n.js';
+import { syncProblem } from '../syncerror.js';
 
 const PATH = 'data/suggestions.json';
 const LOG_PATH = 'data/suggestions-log.json';
@@ -40,15 +41,31 @@ function recentBox(log) {
 // Everything the screen does after the network answers. `sha` is the version
 // this box was filled from; saving carries it, so two people writing at once
 // produce a conflict rather than a silent overwrite.
-function paint(body, github, seed, doc, sha, log) {
+function paint(body, github, seed, doc, sha, log, pending) {
   clear(body);
 
+  const remote = (doc && doc.text) || '';
   const box = el('textarea', { rows: '10', placeholder: t('wishes.placeholder') });
-  box.value = seed ? seedWish((doc && doc.text) || '', t('wishes.seed', { name: seed }))
-                   : (doc && doc.text) || '';
+  // `pending` is what the person had typed when a conflict sent them back
+  // here for a Reload; it takes priority over re-seeding from the menu,
+  // which cannot happen on the same trip since a reload passes no seed.
+  box.value = pending ? seedWish(remote, pending)
+            : seed ? seedWish(remote, t('wishes.seed', { name: seed }))
+            : remote;
 
   const status = el('p', { class: 'muted' });
   const actions = el('div', { class: 'actions' });
+
+  // Built once and only ever appended once: reloading repaints this whole
+  // screen anyway, so a second conflict can only happen after a fresh paint
+  // with a fresh button, never as a second one piling onto this `actions`.
+  const reload = el('button', {
+    text: t('wishes.reload'),
+    onclick: () => {
+      const typed = box.value;
+      load(body, github, null, typed);
+    },
+  });
 
   const save = el('button', {
     class: 'primary', text: t('wishes.save'),
@@ -67,12 +84,9 @@ function paint(body, github, seed, doc, sha, log) {
         status.className = 'warn';
         if (error instanceof ConflictError) {
           status.textContent = t('wishes.conflict');
-          actions.append(el('button', {
-            text: t('wishes.reload'),
-            onclick: () => load(body, github, null),
-          }));
+          if (!reload.isConnected) actions.append(reload);
         } else {
-          status.textContent = error.message;
+          status.textContent = t(syncProblem(error.message).key);
         }
       } finally {
         save.disabled = false;
@@ -82,11 +96,11 @@ function paint(body, github, seed, doc, sha, log) {
 
   actions.append(save);
   body.append(box, actions, status, recentBox(log));
-  if (seed) box.focus();
-  if (seed) box.setSelectionRange(box.value.length, box.value.length);
+  if (seed || pending) box.focus();
+  if (seed || pending) box.setSelectionRange(box.value.length, box.value.length);
 }
 
-async function load(body, github, seed) {
+async function load(body, github, seed, pending) {
   clear(body);
   body.append(el('p', { class: 'muted', text: t('wishes.loading') }));
   try {
@@ -96,10 +110,10 @@ async function load(body, github, seed) {
     ]);
     paint(body, github, seed,
           current && current.json, current && current.sha,
-          log && log.json);
+          log && log.json, pending);
   } catch (error) {
     clear(body);
-    body.append(el('p', { class: 'warn', text: error.message }));
+    body.append(el('p', { class: 'warn', text: t(syncProblem(error.message).key) }));
   }
 }
 
