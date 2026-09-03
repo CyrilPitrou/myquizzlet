@@ -1,13 +1,13 @@
 {
   "listId": "ville",
-  "updatedAt": "2026-09-03T18:03:07.204Z",
+  "updatedAt": "2026-09-03T18:04:18.748Z",
   "items": {
     "nq8fbs:b2f": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": "2026-09-03T17:36:45.804Z",
+      "lastSeen": "2026-09-03T18:03:35.453Z",
       "level": 0
     },
     "fg8lil:f2b": {
@@ -43,11 +43,11 @@
       "level": 0
     },
     "hqrtsq:f2b": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": "2026-09-03T17:36:45.804Z",
+      "lastSeen": "2026-09-03T18:03:56.893Z",
       "level": 0
     },
     "lwcfrk:b2f": {
@@ -84,10 +84,10 @@
     },
     "keflm4:b2f": {
       "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
-      "lapses": 0,
-      "lastSeen": "2026-09-03T17:36:45.804Z",
+      "due": "2026-09-04",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-03T18:03:50.472Z",
       "level": 0
     },
     "qpnlua:f2b": {
@@ -155,11 +155,11 @@
       "level": 0
     },
     "83cas3:b2f": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": "2026-09-03T17:36:45.804Z",
+      "lastSeen": "2026-09-03T18:03:28.904Z",
       "level": 0
     },
     "9x0ja7:f2b": {
@@ -299,11 +299,11 @@
       "level": 1
     },
     "drc6ud:f2b": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T18:03:54.195Z",
       "level": 0
     },
     "mjm6q3:f2b": {
