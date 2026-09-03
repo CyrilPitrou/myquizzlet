@@ -17,24 +17,24 @@ function labelField(text, value, placeholder) {
 }
 
 // One form for both creating and editing. It never touches cards: renaming a
-// column is metadata, and every card id and progress entry must survive it.
+// side is metadata, and every card id and progress entry must survive it.
 //
-// columnsOnly restricts the form to the two column-label fields — used when
-// editing an existing list's column types only, so Name and Folder (already
+// sidesOnly restricts the form to the two side-label fields — used when
+// editing an existing list's sides only, so Title and Folder (already
 // handled by their own menu items) are neither shown nor sent.
-export function listForm({ list = null, onSave, columnsOnly = false }) {
-  const name = columnsOnly ? null : el('input', {
+export function listForm({ list = null, onSave, sidesOnly = false }) {
+  const name = sidesOnly ? null : el('input', {
     value: list ? list.name : '', placeholder: 'Spanish – Food', required: 'required',
   });
 
-  const folders = columnsOnly ? null : el('datalist', { id: 'folder-names' },
+  const folders = sidesOnly ? null : el('datalist', { id: 'folder-names' },
     store.folders().map((folder) => el('option', { value: folder })));
-  const folder = columnsOnly ? null : el('input', {
+  const folder = sidesOnly ? null : el('input', {
     value: (list && list.folder) || '', placeholder: 'Spanish', list: 'folder-names',
   });
 
-  const front = labelField('First column', list && list.frontLabel, 'Spanish');
-  const back = labelField('Second column', list && list.backLabel, 'French');
+  const front = labelField('First side', list && list.frontLabel, 'Spanish');
+  const back = labelField('Second side', list && list.backLabel, 'French');
 
   return el('form', {
     class: 'listform',
@@ -46,7 +46,7 @@ export function listForm({ list = null, onSave, columnsOnly = false }) {
         frontLang: langOf(front.input.value),
         backLang: langOf(back.input.value),
       };
-      if (!columnsOnly) {
+      if (!sidesOnly) {
         const trimmed = name.value.trim();
         if (!trimmed) return;
         fields.name = trimmed;
@@ -55,11 +55,11 @@ export function listForm({ list = null, onSave, columnsOnly = false }) {
       onSave(fields);
     },
   }, [
-    ...(columnsOnly ? [] : [el('label', { class: 'field' }, ['Name', name]),
-                            el('label', { class: 'field' }, ['Folder', folder]), folders]),
+    ...(sidesOnly ? [] : [el('label', { class: 'field' }, ['Title', name]),
+                          el('label', { class: 'field' }, ['Folder', folder]), folders]),
     front.field,
     back.field,
-    el('p', { class: 'muted', text: 'The columns are what the two sides are — '
+    el('p', { class: 'muted', text: 'Name the two sides of a card — '
       + 'Spanish and French, or Date and Event. Leave them blank for Front and Back.' }),
     el('button', { class: 'primary', type: 'submit', text: list ? 'Save' : 'Create list' }),
   ]);

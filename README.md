@@ -53,14 +53,39 @@ that device's token on the device itself — GitHub's copy button puts it straig
 on the clipboard, so there is nothing to type or transfer. A device that only
 studies needs no token at all.
 
-Tokens expire, at most a year out. The app records the expiry date you enter and
-reminds you two weeks ahead, so renewal is a two-minute chore rather than a
-surprise failure.
+Tokens expire, at most a year out. The app records the expiry date you enter
+and warns about it, on Home and in Settings, for the last fortnight; once the
+date passes it says so plainly and keeps your changes on the device until you
+replace the token.
 
 **Keep in mind:** the token lives in that browser's storage. It can only touch
 this one repo, which holds nothing but vocabulary, so the worst case is a
 vandalised word list. Never paste it into a file in this repo — if that ever
 happens, revoke it on GitHub straight away and make a new one.
+
+### Adding a second device
+
+**The safe way.** On a device that already works, open **Settings → Add a
+device**. It shows two QR codes: point the new phone's camera at the first to
+open the app, and at the second to reach GitHub's token page, where the phone
+makes its own token. That token belongs to that phone and can be revoked on
+its own.
+
+A device you only ever study on needs no token at all — the first code is the
+whole of its setup.
+
+**The quick way, if you accept the price.** The same section has an opt-in
+**Show token QR** button. It draws a link carrying this device's token; the
+other phone's camera opens it, and the app asks before saving anything. Two
+things to know before you use it: both devices then share one token, so
+revoking it cuts off both, and the token is briefly on screen, so do it where
+nobody is looking. The code hides itself again after a minute.
+
+The app draws these codes itself and sends nothing to a QR service — a token
+must never be handed to one. It reads no codes: your phone's own camera app
+opens the link, so the app asks for no camera permission.
+
+No camera to hand? The token field also accepts the whole setup link, pasted.
 
 ---
 
@@ -82,9 +107,8 @@ native Android app — and is not planned.
 
 ### Adding another device
 
-Generate a token **on that device**, in its own browser, and paste it into
-Settings. Nothing is copied between devices, and each can be revoked on its own.
-A device you only study on needs no token at all.
+See **Adding a second device** above — the safe way needs no typing at all,
+scanning a code is enough.
 
 ## Install on the computer
 
@@ -99,8 +123,8 @@ Same app either way.
 
 ## Everyday use
 
-**Make a list.** The **＋** in the header. Give it a name and, optionally, the
-two column labels (Spanish, French, or whatever the two sides are). The
+**Make a list.** The **＋** in the header. Give it a title and, optionally, the
+two side labels (Spanish, French, or whatever the two sides hold). The
 languages are derived from those labels, and used to tune how accents are
 handled when grading typed answers.
 
@@ -111,6 +135,10 @@ handled when grading typed answers.
 - Import a CSV: one row per card, first column the front, second the back.
 - Edit `data/lists/<name>.json` directly on github.com or in a text editor. The
   app picks up the change on its next pull. Best for bulk work.
+
+**Take a copy.** Settings → **Export all lists** downloads every list as a
+CSV, packed into one zip. It is a plain copy for keeping or reading elsewhere;
+the lists on GitHub remain the real ones.
 
 **Study.** Home → *Test*. Pick a mode:
 

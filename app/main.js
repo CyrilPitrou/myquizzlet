@@ -13,6 +13,7 @@ import { showNewList, showEditList } from './screens/editlist.js';
 import { showView } from './screens/view.js';
 import { showTrainSetup, showTrainSession } from './screens/train.js';
 import { showHelp } from './screens/help.js';
+import { showAdopt } from './screens/adopt.js';
 
 function initSync() {
   ctx.sync?.stop();
@@ -47,6 +48,7 @@ function render() {
   else if (route === 'train' && arg) showTrainSetup(arg);
   else if (route === 'new') showNewList();
   else if (route === 'view' && arg) showView(arg);
+  else if (route === 'adopt') showAdopt();
   else if (route === 'settings') showSettings();
   else if (route === 'help') showHelp();
   else if (route === 'folders') showFolders();

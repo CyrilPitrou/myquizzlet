@@ -45,6 +45,16 @@ One fine-grained token, scoped to `CyrilPitrou/myquizzlet`, Contents read+write,
 nothing else. Stored in browser storage on each device that edits. Never written
 to a file in the repo.
 
+A second device gets a token one of two ways: making its own (two public QR
+codes, the app's address and GitHub's token page — neither carries a secret),
+or adopting this device's over a link. That link lands on `#/adopt`,
+which names the repository, the masked token and the expiry, and saves the
+token only if the person there says yes. A shared token is plainly one token:
+revoking it cuts off both devices, not just the one you meant. The fragment
+(`#...`) of a URL is never sent to a server, so this route does not hand the
+token to GitHub Pages — the browser keeps it local, and only the app's own
+code, running in that browser, ever reads it.
+
 With no token the app is read-only against the public files — so a study-only
 device needs no setup, and a revoked token degrades the app rather than breaking
 it.

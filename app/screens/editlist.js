@@ -39,10 +39,10 @@ export function showEditList(id) {
   if (!list) return go('#/');
   const view = screen();
   view.append(el('a', { href: `#/list/${id}`, class: 'back', text: `← ${list.name}` }));
-  view.append(el('h2', { text: 'Column types' }));
+  view.append(el('h2', { text: 'Sides' }));
   view.append(listForm({
     list,
-    columnsOnly: true,
+    sidesOnly: true,
     onSave: (fields) => {
       store.updateMeta(id, fields);
       ctx.sync?.schedule();
