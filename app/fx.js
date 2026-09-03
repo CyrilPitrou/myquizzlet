@@ -69,3 +69,18 @@ export function lift(node, on) {
   if (!motionOn()) return;
   node.classList.toggle('lifted', on);
 }
+
+// Feedback, not travel: this one survives prefers-reduced-motion.
+//
+// Answering re-renders the screen, so the verdict cannot be washed over the
+// prompt itself — that node is thrown away before the animation is seen.
+// `#screen` is emptied and refilled but never replaced, so a wash on it
+// outlives the answer without making anyone wait for it.
+export function flash(node, kind) {
+  if (!node || !feedbackOn()) return;
+  node.classList.remove('flash-ok', 'flash-bad');
+  void node.offsetWidth;      // restart the animation when the verdict repeats
+  node.classList.add(kind === 'ok' ? 'flash-ok' : 'flash-bad');
+  node.addEventListener('animationend',
+    () => node.classList.remove('flash-ok', 'flash-bad'), { once: true });
+}

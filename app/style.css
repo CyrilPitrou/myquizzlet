@@ -10,6 +10,8 @@
   --bad:     #b91c1c;
   --warn:    #fdf6e7;
   --shadow:  rgba(0, 0, 0, .18);
+  --tint-ok:  rgba(77, 124, 63, .22);
+  --tint-bad: rgba(185, 28, 28, .18);
 }
 
 :root { color-scheme: light; }
@@ -26,6 +28,8 @@
   --bad:     #e04343;
   --warn:    #fff7e6;
   --shadow:  rgba(15, 23, 42, .2);
+  --tint-ok:  rgba(18, 183, 106, .22);
+  --tint-bad: rgba(224, 67, 67, .18);
 }
 
 :root[data-theme="focus"] {
@@ -41,6 +45,8 @@
   --bad:     #f87171;
   --warn:    #2a2416;
   --shadow:  rgba(0, 0, 0, .55);
+  --tint-ok:  rgba(95, 208, 138, .28);
+  --tint-bad: rgba(248, 113, 113, .26);
 }
 
 :root { --chip-paper: #faf7f2; --chip-study: #f1f3f9; --chip-focus: #0f1720; }
@@ -251,3 +257,21 @@ dialog.dialog h2 { margin-top: 0; }
 .import-row.error input { border-color: var(--bad); }
 .import-row .reason { font-size: .8rem; color: var(--bad); white-space: nowrap; }
 .dialog-actions { display: flex; justify-content: flex-end; gap: .5rem; margin-top: .75rem; }
+
+/* The verdict, seen. The colour wash is feedback rather than travel, so it
+   survives prefers-reduced-motion; the shake does not. */
+@keyframes flash-ok  { 0% { background: var(--tint-ok); }  100% { background: transparent; } }
+@keyframes flash-bad { 0% { background: var(--tint-bad); } 100% { background: transparent; } }
+@keyframes shake { 20% { transform: translateX(-6px); } 40% { transform: translateX(6px); }
+                   60% { transform: translateX(-4px); } 80% { transform: translateX(4px); }
+                   100% { transform: translateX(0); } }
+.flash-ok  { animation: flash-ok .45s ease-out; border-radius: 10px; }
+.flash-bad { animation: flash-bad .45s ease-out, shake .3s ease-out; border-radius: 10px; }
+
+@keyframes verdict-in { from { transform: translateY(8px); opacity: 0; } }
+.verdict { animation: verdict-in .18s ease-out; }
+
+@media (prefers-reduced-motion: reduce) {
+  .flash-bad { animation: flash-bad .45s ease-out; }   /* keep the colour, drop the shake */
+  .verdict { animation: none; }
+}

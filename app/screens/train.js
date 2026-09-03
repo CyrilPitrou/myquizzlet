@@ -4,6 +4,8 @@ import { pickBatch, choices, startBatch, currentKey, currentLevel, advance } fro
 import { newItem, nextItem, parseKey } from '../srs.js';
 import { grade } from '../grade.js';
 import { t } from '../i18n.js';
+import { flash } from '../fx.js';
+import { play } from '../audio.js';
 
 const BATCH = 8;
 
@@ -89,13 +91,22 @@ function settleBatch() {
 // can return null even at rung 0 (too few distractor texts), and a question
 // answered by typing is a real recall attempt regardless of which rung asked
 // for it.
-function answered(correct, wasMultipleChoice) {
+// `silent` is for a caller that has already sounded the verdict — the typo
+// panel plays its own note, and must not be answered by a second one.
+function answered(correct, wasMultipleChoice, silent = false) {
+  flash(document.querySelector('#screen'), correct ? 'ok' : 'bad');
   const key = currentKey(session.batch);
   if (wasMultipleChoice) saveLevel(session.listId, key, correct ? 1 : 0);
   else saveAnswer(session.listId, key, correct);
   session[correct ? 'right' : 'wrong'] += 1;
+  const banked = session.batch.graduated.length;
   session.batch = advance(session.batch, correct);
+  // A word that has just left the batch climbed its last rung: it gets the
+  // arpeggio instead of the plain blip, so one answer is still one sound.
+  const climbed = session.batch.graduated.length > banked;
   settleBatch();
+  if (climbed) play('graduate');
+  else if (!silent) play(correct ? 'right' : 'wrong');
   ctx.render();
 }
 
@@ -177,15 +188,17 @@ export function showTrainSession(id) {
       event.preventDefault();
       const verdict = grade(expected, input.value);
       if (verdict === 'correct') return answered(true, false);
+      flash(document.querySelector('#screen'), 'bad');
+      play(verdict === 'typo' ? 'typo' : 'wrong');
       form.replaceWith(el('div', { class: `verdict ${verdict}` }, [
         el('p', { text: verdict === 'typo' ? t('session.typo', { expected })
                                            : t('session.answerWas', { expected }) }),
         el('p', { class: 'muted', text: t('session.youWrote', { typed: input.value }) }),
         el('div', { class: 'row' }, [
-          el('button', { text: t('session.iWasRight'), onclick: () => answered(true, false) }),
+          el('button', { text: t('session.iWasRight'), onclick: () => answered(true, false, true) }),
           el('button', { class: 'primary',
             text: verdict === 'typo' ? t('session.gotIt') : t('session.continue'),
-            onclick: () => answered(verdict === 'typo', false) }),
+            onclick: () => answered(verdict === 'typo', false, true) }),
         ]),
       ]));
     },

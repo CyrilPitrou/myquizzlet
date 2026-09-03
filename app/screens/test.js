@@ -3,6 +3,8 @@ import { buildQueue, newItem, nextItem, parseKey } from '../srs.js';
 import { grade } from '../grade.js';
 import { store, go, todayStr, screen, ctx } from '../app.js';
 import { t } from '../i18n.js';
+import { flash } from '../fx.js';
+import { play } from '../audio.js';
 
 const setup = { mode: 'write', directions: ['f2b', 'b2f'], limit: 20, includeNew: true, free: false };
 
@@ -74,7 +76,11 @@ function startSession(listId, free = setup.free) {
   go(`#/test/${listId}/go`);
 }
 
-function answer(correct) {
+// `silent` is for a caller that has already sounded the verdict — the typo
+// panel plays its own note, and must not be answered by a second one.
+function answer(correct, silent = false) {
+  flash(document.querySelector('#screen'), correct ? 'ok' : 'bad');
+  if (!silent) play(correct ? 'right' : 'wrong');
   if (session.free) { session[correct ? 'right' : 'wrong'] += 1; session.at += 1; return ctx.render(); }
   const { listId, queue, at } = session;
   const key = queue[at];
@@ -143,6 +149,8 @@ export function showTestSession(listId) {
       e.preventDefault();
       const verdict = grade(expected, input.value);
       if (verdict === 'correct') return answer(true);
+      flash(document.querySelector('#screen'), 'bad');
+      play(verdict === 'typo' ? 'typo' : 'wrong');
       showVerdict(form, verdict, expected, input.value);
     },
   }, [input, el('button', { class: 'primary', type: 'submit', text: t('session.check') })]);
@@ -156,10 +164,10 @@ function showVerdict(anchor, verdict, expected, typed) {
                                        : t('session.answerWas', { expected }) }),
     el('p', { class: 'muted', text: t('session.youWrote', { typed }) }),
     el('div', { class: 'row' }, [
-      el('button', { text: t('session.iWasRight'), onclick: () => answer(true) }),
+      el('button', { text: t('session.iWasRight'), onclick: () => answer(true, true) }),
       el('button', { class: 'primary',
         text: verdict === 'typo' ? t('session.gotIt') : t('session.continue'),
-        onclick: () => answer(verdict === 'typo') }),
+        onclick: () => answer(verdict === 'typo', true) }),
     ]),
   ]);
   anchor.replaceWith(panel);
