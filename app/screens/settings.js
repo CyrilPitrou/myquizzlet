@@ -29,10 +29,13 @@ function themePicker() {
 
 // One flag per row, each written straight into settings. The browse screen has
 // its own Random order checkbox on the same key, so the two always agree.
-function toggle(key, label) {
+// `fallback` is what an absent key means — visual effects are on until you
+// turn them off, sound is off until you turn it on.
+function toggle(key, label, fallback = false) {
+  const on = settings()[key] ?? fallback;
   return el('label', { class: 'opt' }, [
     el('input', { type: 'checkbox',
-      ...(settings()[key] ? { checked: 'checked' } : {}),
+      ...(on ? { checked: 'checked' } : {}),
       onchange: (event) => saveSettings({ ...settings(), [key]: event.target.checked }) }),
     label,
   ]);
@@ -93,9 +96,9 @@ export function showSettings() {
 
   view.append(section(t('settings.options'), [
     el('div', { class: 'opts' }, [
-      toggle('visualEffects', t('settings.visualEffects')),
-      toggle('audioEffects', t('settings.audioEffects')),
-      toggle('browseShuffle', t('settings.shuffleOnView')),
+      toggle('visualEffects', t('settings.visualEffects'), true),
+      toggle('audioEffects', t('settings.audioEffects'), false),
+      toggle('browseShuffle', t('settings.shuffleOnView'), false),
     ]),
   ]));
 
