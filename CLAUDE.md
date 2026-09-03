@@ -33,6 +33,8 @@ These are deliberate. Do not "improve" past them without asking.
 main branch                          data branch
   index.html                           data/lists/<id>.json
   app/main.js     router + header      data/progress/<id>.json
+                                        data/suggestions.json        the 🪄 box — free text, "" when empty
+                                        data/suggestions-log.json    what was done about it, newest first
      app.js        shared singletons: store, settings, go, todayStr,
                     screen, ctx. Screens import from here, never from
                     main.js, so nothing calls back up into the router.
@@ -56,12 +58,14 @@ main branch                          data branch
      stats.js     pure. per-list numbers
      train.js     pure. training batches and rungs
      sides.js     pure. whole-list side swap: labels, card text, progress keys
+     wishes.js    pure. the suggestion document, seeding, recent entries
      listform.js  shared list/card editing fields
      qrcard.js    a QR code as DOM, shared by the token screen and help
      tokenshare.js the opt-in "show my token as a QR" box, same two screens
      screens/     lists list cards view train test folders editlist
-                   settings token help — one file per screen. help.js keeps
-                   the layout; help.en.js and help.fr.js hold the prose.
+                   settings token help wishes — one file per screen.
+                   help.js keeps the layout; help.en.js and help.fr.js
+                   hold the prose.
      screens/importdialog.js  shared file-import dialog, opened by list,
                    cards, and editlist
   sw.js           offline cache
@@ -108,6 +112,22 @@ npm test                        # vitest, pure modules only
 ```
 
 Browsers refuse ES modules over `file://`, so the http server is required.
+
+## Suggestions
+
+The 🪄 button in the app writes free text to `data/suggestions.json` on the
+`data` branch. Say **"let us review suggestions"** and the `suggestions`
+skill (`.claude/skills/suggestions/SKILL.md`) reads it, does the work in a
+worktree at `.data/`, records what was done in `data/suggestions-log.json`,
+empties the box and pushes.
+
+Additive work — a new list, more cards — proceeds on its own. Anything that
+changes an existing card stops and asks, with a source for each proposed
+change. Card ids never move, and `data/progress/` is never touched.
+
+A GitHub Action on the `data` branch opens an issue when the box stops being
+empty. It is the one workflow in this repo and it builds nothing: it only
+reports that a file changed.
 
 ## Testing
 
