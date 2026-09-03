@@ -8,4 +8,10 @@ export const en = {
   'nav.settings': 'Settings',
   'nav.help': 'Help',
   'nav.lang': 'Passer en français',
+  'status.synced': 'Everything is on GitHub',
+  'status.syncing': 'Syncing…',
+  'status.pending': 'Changes waiting to push',
+  'status.offline': 'Offline — will catch up',
+  'status.error': 'Sync failed',
+  'status.off': 'No token — read-only',
 };

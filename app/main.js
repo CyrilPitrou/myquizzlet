@@ -1,6 +1,6 @@
 import { $ } from './ui.js';
 import { ctx, settings, go, store, REPO } from './app.js';
-import { setStatus } from './status.js';
+import { setStatus, repaintStatus } from './status.js';
 import { t, lang, setLang } from './i18n.js';
 import { createGitHub } from './github.js';
 import { createSync } from './sync.js';
@@ -54,6 +54,7 @@ function paintLang() {
     link.setAttribute('aria-label', t(key));
     if (!link.classList.contains('icon')) link.textContent = t(key);
   }
+  repaintStatus();
 }
 
 function render() {

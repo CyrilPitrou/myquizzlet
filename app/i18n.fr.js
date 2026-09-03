@@ -7,4 +7,10 @@ export const fr = {
   'nav.settings': 'Réglages',
   'nav.help': 'Aide',
   'nav.lang': 'Switch to English',
+  'status.synced': 'Tout est sur GitHub',
+  'status.syncing': 'Synchronisation…',
+  'status.pending': 'Modifications en attente',
+  'status.offline': 'Hors ligne — se rattrapera',
+  'status.error': 'Échec de la synchronisation',
+  'status.off': 'Sans jeton — lecture seule',
 };
