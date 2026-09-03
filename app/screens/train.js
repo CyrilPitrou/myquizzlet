@@ -91,10 +91,10 @@ function settleBatch() {
 // can return null even at rung 0 (too few distractor texts), and a question
 // answered by typing is a real recall attempt regardless of which rung asked
 // for it.
-// `silent` is for a caller that has already sounded the verdict — the typo
-// panel plays its own note, and must not be answered by a second one.
+// `silent` is for a caller that has already given the verdict — the typo panel
+// shows and sounds it itself, and must not have a second one laid over the top.
 function answered(correct, wasMultipleChoice, silent = false) {
-  flash(document.querySelector('#screen'), correct ? 'ok' : 'bad');
+  if (!silent) flash(document.querySelector('#screen'), correct ? 'ok' : 'bad');
   const key = currentKey(session.batch);
   if (wasMultipleChoice) saveLevel(session.listId, key, correct ? 1 : 0);
   else saveAnswer(session.listId, key, correct);

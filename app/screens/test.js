@@ -1,9 +1,9 @@
-import { el, clear, swipeable } from '../ui.js';
+import { el, swipeable } from '../ui.js';
 import { buildQueue, newItem, nextItem, parseKey } from '../srs.js';
 import { grade } from '../grade.js';
 import { store, go, todayStr, screen, ctx } from '../app.js';
 import { t } from '../i18n.js';
-import { flash } from '../fx.js';
+import { flash, flip, flyOut, slideIn, lift } from '../fx.js';
 import { play } from '../audio.js';
 
 const setup = { mode: 'write', directions: ['f2b', 'b2f'], limit: 20, includeNew: true, free: false };
@@ -53,6 +53,8 @@ export function showTestSetup(listId) {
 }
 
 let session = null;
+// Which way the last flashcard left, so the next arrives from the other side.
+let arriving = null;
 
 function queueFor(listId, free) {
   const list = store.getList(listId);
@@ -76,11 +78,14 @@ function startSession(listId, free = setup.free) {
   go(`#/test/${listId}/go`);
 }
 
-// `silent` is for a caller that has already sounded the verdict — the typo
-// panel plays its own note, and must not be answered by a second one.
+// `silent` is for a caller that has already given the verdict — the typo panel
+// and the flashcard branch show and sound it themselves, and must not have a
+// second one laid over the top.
 function answer(correct, silent = false) {
-  flash(document.querySelector('#screen'), correct ? 'ok' : 'bad');
-  if (!silent) play(correct ? 'right' : 'wrong');
+  if (!silent) {
+    flash(document.querySelector('#screen'), correct ? 'ok' : 'bad');
+    play(correct ? 'right' : 'wrong');
+  }
   if (session.free) { session[correct ? 'right' : 'wrong'] += 1; session.at += 1; return ctx.render(); }
   const { listId, queue, at } = session;
   const key = queue[at];
@@ -121,21 +126,38 @@ export function showTestSession(listId) {
   const expected = direction === 'f2b' ? card.back : card.front;
 
   if (setup.mode === 'cards') {
-    const face = el('div', { class: 'card' }, [
-      el('p', { class: 'prompt', text: prompt }),
-      el('p', { class: 'muted', text: t('test.tapToReveal') }),
+    const faceNode = (valueText, hintKey, side) => el('div', { class: `face ${side}` }, [
+      el('p', { class: 'prompt', text: valueText }),
+      el('p', { class: 'muted', text: t(hintKey) }),
     ]);
-    const reveal = () => {
-      clear(face);
-      face.append(el('p', { class: 'prompt', text: expected }));
-      face.append(el('p', { class: 'muted', text: t('test.swipeIfKnown') }));
+    const face = el('div', { class: 'card deck' }, [
+      el('div', { class: 'faces' }, [
+        faceNode(prompt, 'test.tapToReveal', 'front'),
+        faceNode(expected, 'test.swipeIfKnown', 'back'),
+      ]),
+    ]);
+    face.addEventListener('click', () => flip(face));
+
+    // The card leaves in the direction of the verdict, and only then is the
+    // answer recorded — the sound has already played, hence `silent`.
+    const finish = async (correct) => {
+      flash(face, correct ? 'ok' : 'bad');
+      play(correct ? 'right' : 'wrong');
+      await flyOut(face, correct ? 'right' : 'left');
+      arriving = correct ? 'left' : 'right';
+      answer(correct, true);
     };
-    face.addEventListener('click', reveal);
-    swipeable(face, { onLeft: () => answer(false), onRight: () => answer(true) });
+
+    swipeable(face, {
+      onDrag: (dx) => lift(face, Math.abs(dx) > 8),
+      onLeft: () => finish(false),
+      onRight: () => finish(true),
+    });
     view.append(face);
+    if (arriving) { slideIn(face, arriving); arriving = null; }
     view.append(el('div', { class: 'actions' }, [
-      el('button', { text: t('test.didntKnow'), onclick: () => answer(false) }),
-      el('button', { class: 'primary', text: t('test.knewIt'), onclick: () => answer(true) }),
+      el('button', { text: t('test.didntKnow'), onclick: () => finish(false) }),
+      el('button', { class: 'primary', text: t('test.knewIt'), onclick: () => finish(true) }),
     ]));
     return;
   }
