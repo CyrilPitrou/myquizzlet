@@ -4,7 +4,7 @@ import { grade } from '../grade.js';
 import { store, go, todayStr, screen, ctx } from '../app.js';
 import { t, lang } from '../i18n.js';
 import { bucketFor, pick } from '../messages.js';
-import { flash, flip, flyOut, slideIn, lift, ring, confetti } from '../fx.js';
+import { flashWrong, flip, flyOut, slideIn, lift, ring, confetti } from '../fx.js';
 import { play } from '../audio.js';
 
 const setup = { mode: 'write', directions: ['f2b', 'b2f'], limit: 20, includeNew: true, free: false };
@@ -84,7 +84,7 @@ function startSession(listId, free = setup.free) {
 // second one laid over the top.
 function answer(correct, silent = false) {
   if (!silent) {
-    flash(document.querySelector('#screen'), correct ? 'ok' : 'bad');
+    if (!correct) flashWrong(document.querySelector('#screen'));
     play(correct ? 'right' : 'wrong');
   }
   if (session.free) { session[correct ? 'right' : 'wrong'] += 1; session.at += 1; return ctx.render(); }
@@ -152,7 +152,9 @@ export function showTestSession(listId) {
     // The card leaves in the direction of the verdict, and only then is the
     // answer recorded — the sound has already played, hence `silent`.
     const finish = async (correct) => {
-      flash(face, correct ? 'ok' : 'bad');
+      // The wash goes on the screen, not the card: the shake and the fly-out
+      // would otherwise fight over the same transform.
+      if (!correct) flashWrong(document.querySelector('#screen'));
       play(correct ? 'right' : 'wrong');
       await flyOut(face, correct ? 'right' : 'left');
       arriving = correct ? 'left' : 'right';
@@ -182,7 +184,7 @@ export function showTestSession(listId) {
       e.preventDefault();
       const verdict = grade(expected, input.value);
       if (verdict === 'correct') return answer(true);
-      flash(document.querySelector('#screen'), 'bad');
+      flashWrong(document.querySelector('#screen'));
       play(verdict === 'typo' ? 'typo' : 'wrong');
       showVerdict(form, verdict, expected, input.value);
     },

@@ -35,6 +35,15 @@ i18n.en.js  the English dictionary — also the fallback for any key missing
             from French.
 i18n.fr.js  the French dictionary. Same key set as i18n.en.js; a test fails
             the moment the two drift apart.
+fx.js       whether an effect happens, and the animations that do: flip,
+            flyOut, slideIn, lift, flashWrong, countUp, ring, confetti.
+audio.js    the sounds: a table of notes per sound, and a player built on
+            oscillators.
+messages.js pure. Which bucket a result falls in (perfect / great / ok /
+            rough) and which line to say about it.
+messages.en.js / messages.fr.js  the lines themselves, written natively in
+            each language rather than translated — the tone does not survive
+            a translation, so the two lists are independent.
 store.js    the working copy. The only module that touches browser storage.
 github.js   the network. Pull, push, status. Knows nothing about cards.
 sync.js     pull/merge/push orchestration.
@@ -96,6 +105,28 @@ keys, so each language reads as prose written in that language rather than
 translated sentence by sentence. `t()` falls back to the English string for
 any key missing from French — never to the raw key — and the language choice
 is per-device, stored beside the theme, never synced.
+
+## Effects
+
+`fx.js` and `audio.js` own the decision about whether an effect happens.
+A screen calls them unconditionally — `await flyOut(card, 'left')`,
+`play('right')` — and they no-op when the switch is off, so there is one code
+path through every screen in all four combinations of the two switches.
+`visualEffects` is on unless turned off; `audioEffects` is off unless turned
+on. The OS `prefers-reduced-motion` setting overrides the app switch for
+travel, but not for the wrong-answer wash: reduced motion is about things
+crossing the screen, not about feedback. Only a wrong answer is washed — a
+right one is already marked by a ✓ or by the card leaving to the right.
+
+Sounds are synthesised from oscillators rather than shipped as files: nothing
+to cache, nothing to fetch, and the note tables are plain data a test can
+check. No `AudioContext` is constructed while sound is off, so a silent app
+costs nothing and warns about nothing.
+
+Every colour the effects use is a custom property in `:root` and in each
+`:root[data-theme=…]` block — the wash tints, the drag shadow, the four
+confetti colours. `test/style.test.js` fails on a colour literal anywhere
+else, which is what keeps the themes honest.
 
 The dependency direction is one-way: screens use the pure modules and
 `app.js`; `store` uses `github`; the pure modules use nothing. Nothing calls

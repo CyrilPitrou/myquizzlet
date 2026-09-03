@@ -5,7 +5,7 @@ import { newItem, nextItem, parseKey } from '../srs.js';
 import { grade } from '../grade.js';
 import { t, lang } from '../i18n.js';
 import { bucketFor, pick } from '../messages.js';
-import { flash, ring, confetti } from '../fx.js';
+import { flashWrong, ring, confetti } from '../fx.js';
 import { play } from '../audio.js';
 
 const BATCH = 8;
@@ -95,7 +95,7 @@ function settleBatch() {
 // `silent` is for a caller that has already given the verdict — the typo panel
 // shows and sounds it itself, and must not have a second one laid over the top.
 function answered(correct, wasMultipleChoice, silent = false) {
-  if (!silent) flash(document.querySelector('#screen'), correct ? 'ok' : 'bad');
+  if (!silent && !correct) flashWrong(document.querySelector('#screen'));
   const key = currentKey(session.batch);
   if (wasMultipleChoice) saveLevel(session.listId, key, correct ? 1 : 0);
   else saveAnswer(session.listId, key, correct);
@@ -199,7 +199,7 @@ export function showTrainSession(id) {
       event.preventDefault();
       const verdict = grade(expected, input.value);
       if (verdict === 'correct') return answered(true, false);
-      flash(document.querySelector('#screen'), 'bad');
+      flashWrong(document.querySelector('#screen'));
       play(verdict === 'typo' ? 'typo' : 'wrong');
       form.replaceWith(el('div', { class: `verdict ${verdict}` }, [
         el('p', { text: verdict === 'typo' ? t('session.typo', { expected })
