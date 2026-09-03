@@ -2,6 +2,7 @@ import { el, swipeable } from '../ui.js';
 import { store, screen, go, settings, saveSettings, ctx } from '../app.js';
 import { shuffle } from '../srs.js';
 import { t } from '../i18n.js';
+import { flip } from '../fx.js';
 
 // Kept across renders so paging does not lose your place. Reset whenever the
 // list changes (tracked via its updatedAt stamp) or the shuffle preference changes.
@@ -45,13 +46,23 @@ export function showView(id) {
   const backLabel = list.backLabel || t('side.back');
 
   view.append(el('p', { class: 'muted', text: t('view.position', { at: browse.at + 1, total: list.cards.length }) }));
-  const face = el('div', {
-    class: `card${browse.flipped ? ' flipped' : ''}`,
-    onclick: () => { browse.flipped = !browse.flipped; ctx.render(); },
-  }, [
-    el('p', { class: 'muted', text: browse.flipped ? backLabel : frontLabel }),
-    el('p', { class: 'prompt', text: browse.flipped ? card.back : card.front }),
+  const faceNode = (labelText, valueText, side) => el('div', { class: `face ${side}` }, [
+    el('p', { class: 'muted', text: labelText }),
+    el('p', { class: 'prompt', text: valueText }),
   ]);
+
+  // Both faces live in the DOM at once; flipping toggles a class on a node
+  // that stays put, so there is an old state to animate from.
+  const face = el('div', { class: `card deck${browse.flipped ? ' flipped' : ''}` }, [
+    el('div', { class: 'faces' }, [
+      faceNode(frontLabel, card.front, 'front'),
+      faceNode(backLabel, card.back, 'back'),
+    ]),
+  ]);
+  face.addEventListener('click', () => {
+    browse.flipped = !browse.flipped;   // kept in step for the next real render
+    flip(face);
+  });
   swipeable(face, {
     onLeft: () => step(1, list.cards.length),
     onRight: () => step(-1, list.cards.length),
@@ -82,7 +93,9 @@ document.addEventListener('keydown', (event) => {
   else if (event.key === 'ArrowRight') step(1, list.cards.length);
   else if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || event.key === ' ') {
     event.preventDefault();
+    const node = document.querySelector('#screen .card');
+    if (!node) return;
     browse.flipped = !browse.flipped;
-    ctx.render();
+    flip(node);
   }
 });

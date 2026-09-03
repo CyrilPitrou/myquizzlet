@@ -19,3 +19,26 @@ const reduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matc
 
 export const motionOn = () => wantsMotion(settings(), reduced());
 export const feedbackOn = () => wantsFeedback(settings());
+
+// Every helper resolves immediately when motion is off, so a screen can await
+// it unconditionally. A transition that never fires must not hang a session,
+// hence the timeout alongside transitionend.
+function settle(node, ms) {
+  return new Promise((resolve) => {
+    let done = false;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      node.removeEventListener('transitionend', finish);
+      resolve();
+    };
+    node.addEventListener('transitionend', finish);
+    setTimeout(finish, ms);
+  });
+}
+
+export function flip(node) {
+  node.classList.toggle('flipped');
+  if (!motionOn()) return Promise.resolve();
+  return settle(node, 450);
+}

@@ -168,11 +168,31 @@ section.sect:last-child { border-bottom: none; }
 .btn.primary { background: var(--accent); color: var(--surface); border-color: var(--accent); }
 .cards th { text-align: left; color: var(--muted); font-weight: 600; font-size: .85rem; }
 
-.card { border: 1px solid var(--rule); border-radius: 14px; background: var(--surface);
-  padding: 1rem; text-align: center; min-height: 22vh;
-  display: flex; flex-direction: column; justify-content: center; gap: .5rem;
-  cursor: pointer; user-select: none; touch-action: pan-y; }
+/* Two faces, both in the DOM, so a flip is a class toggle rather than a
+   re-render — an element that is rebuilt has no old state to animate from. */
+.card { position: relative; perspective: 1000px; margin: 1.25rem 0; min-height: 9rem;
+  text-align: center; cursor: pointer; user-select: none; touch-action: pan-y; }
+.card .faces { position: relative; transform-style: preserve-3d;
+               transition: transform .35s ease; min-height: 9rem; }
+.card.flipped .faces { transform: rotateY(180deg); }
+.card .face { position: absolute; inset: 0; backface-visibility: hidden;
+              display: flex; flex-direction: column; align-items: center;
+              justify-content: center; gap: .5rem;
+              border: 1px solid var(--rule); border-radius: 14px;
+              background: var(--surface); padding: 1.5rem 1rem; }
+.card .face.back { transform: rotateY(180deg); }
 .card .prompt { margin: 0; }
+
+/* The paper stack behind, so a card reads as the top of a deck. */
+.card.deck::before, .card.deck::after { content: ''; position: absolute;
+  inset: 0; border: 1px solid var(--rule); border-radius: 14px;
+  background: var(--surface); z-index: -1; }
+.card.deck::before { transform: translate(3px, 3px); }
+.card.deck::after  { transform: translate(6px, 6px); opacity: .6; }
+
+@media (prefers-reduced-motion: reduce) {
+  .card .faces { transition: none; }
+}
 .actions.pager button { flex: 1; }
 
 .sessionbar { display: flex; align-items: center; justify-content: space-between;
