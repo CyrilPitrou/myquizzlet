@@ -1,6 +1,6 @@
 {
   "listId": "dates-brevet-histoire",
-  "updatedAt": "2026-09-03T15:26:24.435Z",
+  "updatedAt": "2026-09-03T20:46:44.984Z",
   "items": {
     "esdci2:b2f": {
       "box": 1,
@@ -19,11 +19,11 @@
       "level": 1
     },
     "zolif0:f2b": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T20:46:44.984Z",
       "level": 1
     },
     "c6ahlr:b2f": {
@@ -44,10 +44,10 @@
     },
     "qluz2l:b2f": {
       "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
-      "lapses": 0,
-      "lastSeen": null,
+      "due": "2026-09-04",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-03T20:46:34.571Z",
       "level": 0
     }
   }
