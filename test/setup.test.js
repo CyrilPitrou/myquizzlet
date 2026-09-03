@@ -103,20 +103,21 @@ describe('expiryWarning', () => {
 
   it('warns a fortnight ahead', () => {
     expect(expiryWarning('2026-09-16', '2026-09-02'))
-      .toBe('This token expires in 14 days, on 2026-09-16.');
+      .toEqual({ key: 'token.expiresIn', params: { n: 14, expiry: '2026-09-16' } });
   });
 
   it('counts down in the singular on the last day', () => {
     expect(expiryWarning('2026-09-03', '2026-09-02'))
-      .toBe('This token expires in 1 day, on 2026-09-03.');
+      .toEqual({ key: 'token.expiresIn', params: { n: 1, expiry: '2026-09-03' } });
   });
 
   it('says today plainly', () => {
-    expect(expiryWarning('2026-09-02', '2026-09-02')).toBe('This token expires today.');
+    expect(expiryWarning('2026-09-02', '2026-09-02'))
+      .toEqual({ key: 'token.expiresToday', params: {} });
   });
 
   it('states the past tense once it has lapsed', () => {
     expect(expiryWarning('2026-08-30', '2026-09-02'))
-      .toBe('This token expired on 2026-08-30. Changes stay on this device until you replace it.');
+      .toEqual({ key: 'token.expired', params: { expiry: '2026-08-30' } });
   });
 });

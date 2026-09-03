@@ -2,6 +2,7 @@ import { el, clear } from '../ui.js';
 import { settings, saveSettings, REPO, screen, ctx, todayStr } from '../app.js';
 import { tokenQr } from '../tokenshare.js';
 import { TOKEN_PAGE, parseSetup, maskToken, expiryWarning } from '../setup.js';
+import { t } from '../i18n.js';
 
 function section(title, nodes) {
   return el('section', { class: 'sect' }, [el('h3', { text: title }), ...nodes]);
@@ -21,26 +22,23 @@ function revokeBox() {
 
   const confirm = () => {
     clear(box);
-    box.append(el('h4', { text: 'Really remove it?' }));
-    box.append(el('p', { class: 'muted', text: 'You can still study on this device, but '
-      + 'anything you change stays here until you add a token again.' }));
+    box.append(el('h4', { text: t('token.remove.confirmTitle') }));
+    box.append(el('p', { class: 'muted', text: t('token.remove.confirmHint') }));
     box.append(el('div', { class: 'row' }, [
-      el('button', { class: 'primary', text: 'Yes, remove it', onclick: forget }),
-      el('button', { text: 'Keep it', onclick: () => show() }),
+      el('button', { class: 'primary', text: t('token.remove.yes'), onclick: forget }),
+      el('button', { text: t('token.remove.keep'), onclick: () => show() }),
     ]));
   };
 
   const show = () => {
     clear(box);
-    box.append(el('h4', { text: 'Remove this token' }));
-    box.append(el('p', { class: 'muted' }, ['This removes the token from this device only. '
-      + 'It keeps working elsewhere until you delete it on GitHub — ',
+    box.append(el('h4', { text: t('token.remove.title') }));
+    box.append(el('p', { class: 'muted' }, [t('token.remove.before'),
       el('a', { target: '_blank', rel: 'noopener',
         href: 'https://github.com/settings/personal-access-tokens',
-        text: 'your tokens on GitHub' }),
-      '. Delete it there too if someone else may have seen it, or if another device is '
-      + 'using the same one.']));
-    box.append(el('button', { text: 'Revoke token', onclick: confirm }));
+        text: t('token.remove.linkText') }),
+      t('token.remove.after')]));
+    box.append(el('button', { text: t('token.remove.button'), onclick: confirm }));
   };
 
   show();
@@ -48,46 +46,43 @@ function revokeBox() {
 }
 
 function addToken(view, current) {
-  view.append(section('Make a token on GitHub', [
-    el('p', { class: 'muted', text: 'This device can study, but it cannot save what you '
-      + 'add or change. Give it its own token, or a copy of another device’s.' }),
+  view.append(section(t('token.add.heading'), [
+    el('p', { class: 'muted', text: t('token.add.hint') }),
     el('ol', { class: 'steps' }, [
-      el('li', { text: 'On a device that already works, open Settings → Token and tap '
-        + '“Show token QR”.' }),
-      el('li', { text: 'Point this device’s camera at it and open the link.' }),
+      el('li', { text: t('token.add.step1') }),
+      el('li', { text: t('token.add.step2') }),
     ]),
-    el('p', { class: 'muted' }, ['No other device set up yet? Make this device its own token — ',
+    el('p', { class: 'muted' }, [t('token.add.noOther'),
       el('a', { target: '_blank', rel: 'noopener', href: TOKEN_PAGE,
-        text: 'open GitHub’s token page' }),
-      ' and fill it in like this:']),
+        text: t('token.add.linkText') }),
+      t('token.add.noOtherAfter')]),
     el('ul', { class: 'steps' }, [
-      el('li', { text: `Repository access: Only select repositories → ${REPO}.` }),
-      el('li', { text: 'Permissions: Repository permissions → Contents → Read and write.' }),
-      el('li', { text: 'Expiration: whatever you like — the app warns you a fortnight ahead.' }),
+      el('li', { text: t('token.add.repoStep', { repo: REPO }) }),
+      el('li', { text: t('token.add.permStep') }),
+      el('li', { text: t('token.add.expiryStep') }),
     ]),
-    el('p', { class: 'muted', text: 'GitHub shows the token once. Copy it straight into the '
-      + 'field below, and put its expiry date in beside it.' }),
+    el('p', { class: 'muted', text: t('token.add.copyHint') }),
   ]));
 
-  const token = el('input', { type: 'password', placeholder: 'github_pat_… or a setup link' });
+  const token = el('input', { type: 'password', placeholder: t('token.save.placeholder') });
   const expiry = el('input', { type: 'date', value: current.tokenExpiry || '' });
   const problem = el('p', { class: 'warn' });
 
-  view.append(section('Save it here', [
-    el('label', { class: 'field' }, ['Token, or a setup link from another device', token]),
-    el('label', { class: 'field' }, ['Expires on (from the GitHub page)', expiry]),
+  view.append(section(t('token.save.heading'), [
+    el('label', { class: 'field' }, [t('token.save.tokenLabel'), token]),
+    el('label', { class: 'field' }, [t('token.save.expiryLabel'), expiry]),
     problem,
     el('button', {
-      class: 'primary', text: 'Save token',
+      class: 'primary', text: t('token.save.button'),
       onclick: () => {
         const typed = token.value.trim();
         if (!typed) {
-          problem.textContent = 'Paste the token first.';
+          problem.textContent = t('token.save.missing');
           return;
         }
         const found = parseSetup(typed);
         if (!found) {
-          problem.textContent = 'That does not look like a token or a setup link.';
+          problem.textContent = t('token.save.invalid');
           return;
         }
         saveSettings({ ...settings(), token: found.token,
@@ -102,27 +97,26 @@ function addToken(view, current) {
 function haveToken(view, current) {
   const warning = expiryWarning(current.tokenExpiry, todayStr());
 
-  view.append(section('This device’s token', [
-    el('p', { class: 'muted', text: 'Changes made here are saved to GitHub.' }),
+  view.append(section(t('token.have.heading'), [
+    el('p', { class: 'muted', text: t('token.have.saved') }),
     el('dl', { class: 'facts' }, [
-      el('dt', { text: 'Repository' }), el('dd', { text: REPO }),
-      el('dt', { text: 'Token' }), el('dd', { text: maskToken(current.token) }),
-      el('dt', { text: 'Expires' }), el('dd', { text: current.tokenExpiry || 'not recorded' }),
+      el('dt', { text: t('common.repository') }), el('dd', { text: REPO }),
+      el('dt', { text: t('common.token') }), el('dd', { text: maskToken(current.token) }),
+      el('dt', { text: t('common.expires') }), el('dd', { text: current.tokenExpiry || t('common.notRecorded') }),
     ]),
-    ...(warning ? [el('p', { class: 'warn', text: warning })] : []),
-    el('p', { class: 'muted', text: 'Expired, or about to? Remove it below, then make a new '
-      + 'one on GitHub the same way you made this one.' }),
+    ...(warning ? [el('p', { class: 'warn', text: t(warning.key, warning.params) })] : []),
+    el('p', { class: 'muted', text: t('token.have.hint') }),
   ]));
 
-  view.append(section('Another device', [tokenQr(current)]));
-  view.append(section('Remove', [revokeBox()]));
+  view.append(section(t('token.another.heading'), [tokenQr(current)]));
+  view.append(section(t('token.remove.section'), [revokeBox()]));
 }
 
 export function showToken() {
   const view = screen();
   const current = settings();
-  view.append(el('a', { href: '#/settings', class: 'back', text: '← Settings' }));
-  view.append(el('h2', { text: 'Token' }));
+  view.append(el('a', { href: '#/settings', class: 'back', text: t('token.back') }));
+  view.append(el('h2', { text: t('token.title') }));
 
   if (current.token) haveToken(view, current);
   else addToken(view, current);

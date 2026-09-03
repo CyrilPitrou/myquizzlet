@@ -53,14 +53,15 @@ function isValidExpiry(expiry) {
   return Number.isFinite(parsed.getTime()) && parsed.toISOString().slice(0, 10) === expiry;
 }
 
+// Returns data, not prose, so this module stays pure and testable without a
+// language: { key, params } for t(), or null when there is nothing to warn
+// about. The two callers run the result through t().
 export function expiryWarning(expiry, today) {
   if (!expiry || !ISO_DATE.test(expiry) || !isValidExpiry(expiry)) return null;
   const days = Math.round(
     (Date.parse(`${expiry}T00:00:00Z`) - Date.parse(`${today}T00:00:00Z`)) / DAY);
   if (days > 14) return null;
-  if (days < 0) {
-    return `This token expired on ${expiry}. Changes stay on this device until you replace it.`;
-  }
-  if (days === 0) return 'This token expires today.';
-  return `This token expires in ${days} day${days === 1 ? '' : 's'}, on ${expiry}.`;
+  if (days < 0) return { key: 'token.expired', params: { expiry } };
+  if (days === 0) return { key: 'token.expiresToday', params: {} };
+  return { key: 'token.expiresIn', params: { n: days, expiry } };
 }

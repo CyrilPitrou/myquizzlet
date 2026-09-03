@@ -7,6 +7,7 @@
 import { el, clear } from './ui.js';
 import { qrCard } from './qrcard.js';
 import { setupLink } from './setup.js';
+import { t } from './i18n.js';
 
 const SHOW_FOR = 60_000;
 
@@ -21,29 +22,24 @@ export function tokenQr(current) {
     // Built before clear(box): encode() can throw on an oversized payload,
     // and if it does the box must be left with its "Show token QR" button
     // still standing, not a bare heading with no way back.
-    const card = qrCard(link, 'Opens the app and asks before saving',
-      'A QR code carrying this device’s token');
+    const card = qrCard(link, t('tokenshare.qr.caption'), t('tokenshare.qr.label'));
     const timer = setTimeout(() => { if (box.isConnected) show(); }, SHOW_FOR);
 
     clear(box);
-    box.append(el('h4', { text: 'Scan this on the other device' }));
+    box.append(el('h4', { text: t('tokenshare.reveal.heading') }));
     box.append(card);
-    box.append(el('p', { class: 'muted', text: 'The other device will ask you to confirm '
-      + 'before it saves anything. This code hides itself again in a minute.' }));
-    box.append(el('button', { text: 'Hide it now',
+    box.append(el('p', { class: 'muted', text: t('tokenshare.reveal.hint') }));
+    box.append(el('button', { text: t('tokenshare.reveal.hideButton'),
       onclick: () => { clearTimeout(timer); show(); } }));
   };
 
   const show = () => {
     clear(box);
-    box.append(el('h4', { text: 'Set up another device' }));
-    box.append(el('p', { class: 'muted', text: 'The other device scans a code and is ready to '
-      + 'save. Both devices then use the same token, so removing it later stops both. Your '
-      + 'token is on screen while you scan, so do this somewhere private.' }));
-    box.append(el('button', { text: 'Show token QR', onclick: reveal }));
+    box.append(el('h4', { text: t('tokenshare.setup.heading') }));
+    box.append(el('p', { class: 'muted', text: t('tokenshare.setup.hint') }));
+    box.append(el('button', { text: t('tokenshare.setup.button'), onclick: reveal }));
   };
 
   show();
   return box;
 }
-

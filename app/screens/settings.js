@@ -4,9 +4,11 @@ import { statusLine } from '../status.js';
 import { maskToken, expiryWarning } from '../setup.js';
 import { toCsv } from '../csv.js';
 import { zip, entryNames } from '../zip.js';
+import { t } from '../i18n.js';
 
-const THEMES = [{ id: 'paper', name: 'Paper' }, { id: 'study', name: 'Study' },
-                { id: 'focus', name: 'Focus' }];
+const THEMES = [{ id: 'paper', key: 'settings.theme.paper' },
+                { id: 'study', key: 'settings.theme.study' },
+                { id: 'focus', key: 'settings.theme.focus' }];
 
 export function applyTheme(id) {
   if (id && id !== 'paper') document.documentElement.dataset.theme = id;
@@ -22,7 +24,7 @@ function themePicker() {
       applyTheme(theme.id);
       ctx.render();
     },
-  }, [el('span', { class: `chip ${theme.id}` }), theme.name])));
+  }, [el('span', { class: `chip ${theme.id}` }), t(theme.key)])));
 }
 
 // One flag per row, each written straight into settings. The browse screen has
@@ -50,10 +52,10 @@ const csvFiles = (lists) => {
 // pulls, then pushes what needs pushing. Without a token the pull still works
 // and the push is skipped; the Token section below says so.
 function syncSection() {
-  return section('Sync', [
+  return section(t('settings.sync'), [
     statusLine(),
     el('div', { class: 'row' }, [
-      el('button', { text: 'Synchronise now', onclick: () => ctx.sync.syncNow().then(ctx.render) }),
+      el('button', { text: t('settings.syncNow'), onclick: () => ctx.sync.syncNow().then(ctx.render) }),
     ]),
   ]);
 }
@@ -64,37 +66,36 @@ function syncSection() {
 function tokenSection(current) {
   const warning = expiryWarning(current.tokenExpiry, todayStr());
 
-  return section('Token', [
+  return section(t('settings.token'), [
     ...(current.token
-      ? [el('p', { class: 'muted', text: 'Changes on this device are saved to GitHub.' }),
+      ? [el('p', { class: 'muted', text: t('settings.token.saved') }),
         el('dl', { class: 'facts' }, [
-          el('dt', { text: 'Token' }), el('dd', { text: maskToken(current.token) }),
-          el('dt', { text: 'Expires' }), el('dd', { text: current.tokenExpiry || 'not recorded' }),
+          el('dt', { text: t('common.token') }), el('dd', { text: maskToken(current.token) }),
+          el('dt', { text: t('common.expires') }), el('dd', { text: current.tokenExpiry || t('common.notRecorded') }),
         ]),
-        ...(warning ? [el('p', { class: 'warn', text: warning })] : [])]
-      : [el('p', { class: 'warn', text: 'Without a token, anything you add or change stays '
-          + 'on this device. Studying works fine either way.' })]),
+        ...(warning ? [el('p', { class: 'warn', text: t(warning.key, warning.params) })] : [])]
+      : [el('p', { class: 'warn', text: t('settings.token.none') })]),
     el('p', {}, [el('a', { class: `btn${current.token ? '' : ' primary'}`,
-      href: '#/token', text: 'Manage token' })]),
+      href: '#/token', text: t('settings.token.manage') })]),
   ]);
 }
 
 export function showSettings() {
   const view = screen();
   const current = settings();
-  view.append(el('a', { href: '#/', class: 'back', text: '← Lists' }));
-  view.append(el('h2', { text: 'Settings' }));
+  view.append(el('a', { href: '#/', class: 'back', text: t('common.back.lists') }));
+  view.append(el('h2', { text: t('settings.title') }));
 
-  view.append(section('Appearance', [
+  view.append(section(t('settings.appearance'), [
     themePicker(),
-    el('p', { class: 'muted', text: 'Only on this device. Your other devices keep their own.' }),
+    el('p', { class: 'muted', text: t('settings.appearance.hint') }),
   ]));
 
-  view.append(section('Options', [
+  view.append(section(t('settings.options'), [
     el('div', { class: 'opts' }, [
-      toggle('visualEffects', 'Visual effects'),
-      toggle('audioEffects', 'Sound effects'),
-      toggle('browseShuffle', 'Random order when viewing lists'),
+      toggle('visualEffects', t('settings.visualEffects')),
+      toggle('audioEffects', t('settings.audioEffects')),
+      toggle('browseShuffle', t('settings.shuffleOnView')),
     ]),
   ]));
 
@@ -103,15 +104,14 @@ export function showSettings() {
 
   const exported = el('p', { class: 'muted' });
 
-  view.append(section('Export', [
-    el('p', { class: 'muted', text: 'Every list as a CSV, in one zip. '
-      + 'A plain copy you can keep, read anywhere, or import again.' }),
+  view.append(section(t('settings.export'), [
+    el('p', { class: 'muted', text: t('settings.export.hint') }),
     el('button', {
-      text: 'Export all lists',
+      text: t('settings.export.button'),
       onclick: () => {
         const files = csvFiles(store.listIds().map((id) => store.getList(id)).filter(Boolean));
         if (!files.length) {
-          exported.textContent = 'There are no lists to export yet.';
+          exported.textContent = t('settings.export.none');
           return;
         }
         const blob = new Blob([zip(files)], { type: 'application/zip' });
@@ -119,18 +119,17 @@ export function showSettings() {
         a.click();
         URL.revokeObjectURL(a.href);
         const cards = files.reduce((total, file) => total + (file.text ? file.text.split('\n').length : 0), 0);
-        exported.textContent = `${files.length} list${files.length === 1 ? '' : 's'}, `
-          + `${cards} card${cards === 1 ? '' : 's'}.`;
+        exported.textContent = `${t('common.lists', { n: files.length })}, ${t('common.cards', { n: cards })}.`;
       },
     }),
     exported,
   ]));
 
-  view.append(section('About', [
-    el('p', {}, [el('a', { href: '#/help', text: 'See Help page' })]),
+  view.append(section(t('settings.about'), [
+    el('p', {}, [el('a', { href: '#/help', text: t('settings.about.help') })]),
     el('p', { class: 'muted' }, [
       'MyQuizzlet · ',
-      el('a', { href: `https://github.com/${REPO}`, target: '_blank', rel: 'noopener', text: 'source on GitHub' }),
+      el('a', { href: `https://github.com/${REPO}`, target: '_blank', rel: 'noopener', text: t('settings.about.source') }),
     ]),
   ]));
 }

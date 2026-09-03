@@ -36,7 +36,7 @@ export function showLists() {
   const view = screen();
   const expiring = expiryWarning(settings().tokenExpiry, todayStr());
   if (expiring) {
-    view.append(el('p', { class: 'warn' }, [`${expiring} `,
+    view.append(el('p', { class: 'warn' }, [`${t(expiring.key, expiring.params)} `,
       el('a', { href: '#/token', text: t('lists.replaceToken') })]));
   }
 
