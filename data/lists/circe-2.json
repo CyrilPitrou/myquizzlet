@@ -1,0 +1,162 @@
+{
+  "id": "circe-2",
+  "name": "Circe 2",
+  "folder": "Livres",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "cards": [
+    {
+      "id": "7x9kes",
+      "front": "to nose out",
+      "back": "détecter"
+    },
+    {
+      "id": "snqgc4",
+      "front": "to seep",
+      "back": "suinter,couler"
+    },
+    {
+      "id": "vx1elk",
+      "front": "murk",
+      "back": "obscurité"
+    },
+    {
+      "id": "ql3pod",
+      "front": "the palm of my hand",
+      "back": "la paume de ma main"
+    },
+    {
+      "id": "mojl3y",
+      "front": "to peel",
+      "back": "éplucher"
+    },
+    {
+      "id": "ldmc71",
+      "front": "a crag",
+      "back": "un rocher escarpé"
+    },
+    {
+      "id": "r4nu99",
+      "front": "woe",
+      "back": "souffrance,malheur"
+    },
+    {
+      "id": "izblh4",
+      "front": "to rot",
+      "back": "pourrir"
+    },
+    {
+      "id": "2o1ftn",
+      "front": "a reef",
+      "back": "un récif"
+    },
+    {
+      "id": "fk9wbh",
+      "front": "shoal",
+      "back": "banc de sable"
+    },
+    {
+      "id": "n7wu5g",
+      "front": "a raft",
+      "back": "un radeau"
+    },
+    {
+      "id": "tyl1qz",
+      "front": "a jest",
+      "back": "une plaisanterie"
+    },
+    {
+      "id": "qlwx84",
+      "front": "giddily",
+      "back": "avec insouciance"
+    },
+    {
+      "id": "9ws3gr",
+      "front": "a counsel",
+      "back": "un conseil"
+    },
+    {
+      "id": "2ge66u",
+      "front": "good riddance",
+      "back": "bon débarras"
+    },
+    {
+      "id": "e26lid",
+      "front": "the growth",
+      "back": "la croissance"
+    },
+    {
+      "id": "il2b89",
+      "front": "the knack",
+      "back": "tour de main,le truc"
+    },
+    {
+      "id": "pe1nwe",
+      "front": "a hearth",
+      "back": "un foyer,cheminée"
+    },
+    {
+      "id": "twnyvv",
+      "front": "a hovel",
+      "back": "un taudis"
+    },
+    {
+      "id": "xad28r",
+      "front": "a decree",
+      "back": "un décret"
+    },
+    {
+      "id": "37r1la",
+      "front": "a truce",
+      "back": "une trêve"
+    },
+    {
+      "id": "1c1mhx",
+      "front": "the pantry",
+      "back": "le garde-manger"
+    },
+    {
+      "id": "7q4b8n",
+      "front": "to hum",
+      "back": "fredonner"
+    },
+    {
+      "id": "kp5ntr",
+      "front": "a taper",
+      "back": "une chandelle"
+    },
+    {
+      "id": "4kf5qd",
+      "front": "a leviathan",
+      "back": "un colosse"
+    },
+    {
+      "id": "r9hda5",
+      "front": "a burrow",
+      "back": "un terrier"
+    },
+    {
+      "id": "vz0s8i",
+      "front": "to squirm",
+      "back": "se tortiller"
+    },
+    {
+      "id": "qkh6yf",
+      "front": "an oar",
+      "back": "une rame"
+    },
+    {
+      "id": "1j2faw",
+      "front": "a harbour",
+      "back": "un port"
+    },
+    {
+      "id": "o9bk76",
+      "front": "to slosh",
+      "back": "clapoter"
+    }
+  ],
+  "updatedAt": "2026-09-03T05:15:58.557Z"
+}
