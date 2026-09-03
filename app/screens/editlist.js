@@ -3,6 +3,7 @@ import { store, screen, go, ctx } from '../app.js';
 import { listForm } from '../listform.js';
 import { parseCards } from '../csv.js';
 import { importFileBlock } from './importdialog.js';
+import { t } from '../i18n.js';
 
 // New list has no storage yet, so both import blocks stage into this
 // in-memory array instead of writing straight to a list; showNewList's
@@ -16,15 +17,15 @@ import { importFileBlock } from './importdialog.js';
 // share one status line, so "Staged 3." after pasting 5 and importing 3 would
 // describe neither the action nor the draft.
 function reportStaged(draftCards, status, errors = []) {
-  const total = draftCards.length ? `Staged ${draftCards.length}.` : '';
+  const total = draftCards.length ? t('editlist.staged', { n: draftCards.length }) : '';
   status.textContent = errors.length
-    ? `${total} Skipped lines: ${errors.map((e) => e.line).join(', ')}.`.trim()
+    ? t('editlist.stagedSkipped', { staged: total, lines: errors.map((e) => e.line).join(', ') }).trim()
     : total;
 }
 
 function draftPasteBlock(draftCards, status) {
   const box = el('textarea', {
-    placeholder: 'Optional — paste rows: el pan, le pain — one card per line. Tabs work too.',
+    placeholder: t('editlist.new.paste'),
     rows: '4',
   });
   const flush = () => {
@@ -34,11 +35,10 @@ function draftPasteBlock(draftCards, status) {
     reportStaged(draftCards, status, errors);
   };
   const node = el('div', {}, [
-    el('h3', { text: 'Paste text' }),
-    el('p', { class: 'muted', text: 'One card per line, front and back separated by a '
-      + 'comma, semicolon, or tab.' }),
+    el('h3', { text: t('cards.paste.heading') }),
+    el('p', { class: 'muted', text: t('cards.paste.hint') }),
     box,
-    el('button', { text: 'Stage pasted text', type: 'button', onclick: flush }),
+    el('button', { text: t('editlist.stagePaste'), type: 'button', onclick: flush }),
   ]);
   return { node, flush };
 }
@@ -52,8 +52,8 @@ function draftFileBlock(draftCards, status) {
 
 export function showNewList() {
   const view = screen();
-  view.append(el('a', { href: '#/', class: 'back', text: '← Lists' }));
-  view.append(el('h2', { text: 'New list' }));
+  view.append(el('a', { href: '#/', class: 'back', text: t('common.back.lists') }));
+  view.append(el('h2', { text: t('editlist.new.title') }));
 
   const draftCards = [];
   const status = el('p', { class: 'muted' });
@@ -79,9 +79,11 @@ export function showNewList() {
 }
 
 function confirmSwapSides(list) {
-  const ok = confirm(`Swap sides of "${list.name}"?\n\n`
-    + `${list.frontLabel || 'Front'} and ${list.backLabel || 'Back'} trade places on `
-    + "every card, and each card's learning history moves with the skill it tracks.");
+  const ok = confirm(t('editlist.swap.confirm', {
+    name: list.name,
+    front: list.frontLabel || t('side.front'),
+    back: list.backLabel || t('side.back'),
+  }));
   if (!ok) return;
   store.swapSides(list.id);
   ctx.sync?.schedule();
@@ -93,14 +95,12 @@ export function showEditList(id) {
   if (!list) return go('#/');
   const view = screen();
   view.append(el('a', { href: `#/list/${id}`, class: 'back', text: `← ${list.name}` }));
-  view.append(el('h2', { text: 'Sides' }));
+  view.append(el('h2', { text: t('editlist.sides.title') }));
   // type: 'button' matters — this sits inside the form, and a bare button
   // there would submit it instead of swapping.
   const swap = el('div', { class: 'swapsides' }, [
-    el('p', { class: 'muted', text: 'Entered the two sides the wrong way round? '
-      + 'Swapping turns every card in the list around. Each card keeps what you have '
-      + 'learned: its history follows the skill it was tracking, not the column.' }),
-    el('button', { class: 'btn', type: 'button', text: 'Swap sides',
+    el('p', { class: 'muted', text: t('editlist.swap.hint') }),
+    el('button', { class: 'btn', type: 'button', text: t('editlist.swap.button'),
       onclick: () => confirmSwapSides(list) }),
   ]);
 

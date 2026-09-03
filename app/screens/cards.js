@@ -2,6 +2,7 @@ import { el, $ } from '../ui.js';
 import { store, screen, go, ctx } from '../app.js';
 import { parseCards } from '../csv.js';
 import { importFileBlock } from './importdialog.js';
+import { t } from '../i18n.js';
 
 function editableCell(listId, card, side) {
   return el('input', {
@@ -15,7 +16,7 @@ function editableCell(listId, card, side) {
 
 function pasteBlock(listId) {
   const box = el('textarea', {
-    placeholder: 'Paste rows: el pan, le pain — one card per line. Tabs work too.',
+    placeholder: t('cards.paste.placeholder'),
     rows: '4',
   });
   const status = el('p', { class: 'muted', id: 'import-status' });
@@ -23,18 +24,18 @@ function pasteBlock(listId) {
     const { cards, errors } = parseCards(box.value);
     if (cards.length) { store.addCards(listId, cards); ctx.sync?.schedule(); }
     box.value = '';
+    const imported = t('cards.imported', { n: cards.length });
     status.textContent = errors.length
-      ? `Imported ${cards.length}. Skipped lines: ${errors.map((e) => e.line).join(', ')}.`
-      : `Imported ${cards.length}.`;
+      ? t('cards.importedSkipped', { imported, lines: errors.map((e) => e.line).join(', ') })
+      : imported;
     ctx.render();
     $('#import-status')?.replaceWith(status);
   };
   return el('div', {}, [
-    el('h3', { text: 'Paste text' }),
-    el('p', { class: 'muted', text: 'One card per line, front and back separated by a '
-      + 'comma, semicolon, or tab.' }),
+    el('h3', { text: t('cards.paste.heading') }),
+    el('p', { class: 'muted', text: t('cards.paste.hint') }),
     box,
-    el('button', { text: 'Import pasted text', type: 'button', onclick: doImport }),
+    el('button', { text: t('cards.paste.button'), type: 'button', onclick: doImport }),
     status,
   ]);
 }
@@ -50,12 +51,12 @@ function fileBlock(listId) {
 export function showCards(id) {
   const list = store.getList(id);
   if (!list) return go('#/');
-  const frontLabel = list.frontLabel || 'Front';
-  const backLabel = list.backLabel || 'Back';
+  const frontLabel = list.frontLabel || t('side.front');
+  const backLabel = list.backLabel || t('side.back');
 
   const view = screen();
   view.append(el('a', { href: `#/list/${id}`, class: 'back', text: `← ${list.name}` }));
-  view.append(el('h2', { text: `${list.cards.length} cards` }));
+  view.append(el('h2', { text: t('common.cards', { n: list.cards.length }) }));
 
   const front = el('input', { placeholder: frontLabel.toLowerCase() });
   const back = el('input', { placeholder: backLabel.toLowerCase() });
@@ -71,7 +72,7 @@ export function showCards(id) {
       ctx.render();
       $('.addcard input')?.focus();
     },
-  }, [front, back, el('button', { type: 'submit', text: 'Add' })]));
+  }, [front, back, el('button', { type: 'submit', text: t('cards.add.button') })]));
 
   const table = el('table', { class: 'cards' }, [
     el('tr', {}, [el('th', { text: frontLabel }), el('th', { text: backLabel }), el('th', {})]),
@@ -82,7 +83,7 @@ export function showCards(id) {
       el('td', {}, [editableCell(id, card, 'back')]),
       el('td', {}, [el('div', { class: 'rowactions' }, [
         el('button', {
-          class: 'link swap', text: '⇄', title: 'swap sides', type: 'button',
+          class: 'link swap', text: '⇄', title: t('cards.swap.title'), type: 'button',
           onclick: () => {
             // Clicking here blurs a focused cell first, which commits any in-progress
             // edit to the store without re-rendering — so `card` may be stale. Re-read
@@ -97,7 +98,7 @@ export function showCards(id) {
           },
         }),
         el('button', {
-          class: 'link', text: '✕', title: 'delete', type: 'button',
+          class: 'link', text: '✕', title: t('cards.delete.title'), type: 'button',
           onclick: () => { store.deleteCard(id, card.id); ctx.sync?.schedule(); ctx.render(); },
         }),
       ])]),

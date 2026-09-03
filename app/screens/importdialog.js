@@ -1,5 +1,6 @@
 import { el, clear, openDialog } from '../ui.js';
 import { previewRows } from '../csv.js';
+import { t } from '../i18n.js';
 
 const ACCEPT = '.csv,.tsv,.txt,text/csv,text/tab-separated-values,text/plain';
 
@@ -30,7 +31,7 @@ function rowNode(row, onChange, onRemove) {
   const frontInput = el('input', { value: row.front, oninput: edit('front') });
   const backInput = el('input', { value: row.back, oninput: edit('back') });
   const removeBtn = el('button', {
-    class: 'link', text: '✕', title: 'remove', type: 'button', onclick: onRemove,
+    class: 'link', text: '✕', title: t('import.remove.title'), type: 'button', onclick: onRemove,
   });
   const wrap = el('div', { class: row.error ? 'import-row error' : 'import-row' },
     [frontInput, backInput, reason, removeBtn]);
@@ -47,12 +48,12 @@ export function openImportDialog({ onCommit }) {
   let rows = [];
   const rowsWrap = el('div', { class: 'import-rows' });
   const commitBtn = el('button', {
-    class: 'primary', type: 'button', text: 'Import 0 cards', disabled: 'disabled',
+    class: 'primary', type: 'button', text: t('import.commit', { n: 0 }), disabled: 'disabled',
   });
 
   function updateCommit() {
     const n = rows.filter((r) => !r.error).length;
-    commitBtn.textContent = `Import ${n} card${n === 1 ? '' : 's'}`;
+    commitBtn.textContent = t('import.commit', { n });
     commitBtn.disabled = n === 0;
   }
 
@@ -66,7 +67,7 @@ export function openImportDialog({ onCommit }) {
     updateCommit();
     // Once a file is loaded the picker stays — it is the only way back from
     // picking the wrong one — but it has to stop reading as "nothing happened".
-    pickButton.textContent = rows.length ? 'Choose a different file…' : 'Choose file…';
+    pickButton.textContent = rows.length ? t('import.pickAgain') : t('import.pick');
   }
 
   const file = el('input', {
@@ -83,8 +84,7 @@ export function openImportDialog({ onCommit }) {
         // or moved since. Saying nothing leaves the dialog exactly as it was,
         // which is indistinguishable from a dead button. Any rows already
         // loaded stay put, so a failed second pick costs nothing.
-        alert(`Could not read "${chosen.name}". If it is stored online, open it `
-          + 'once so it downloads to this device, then try again.');
+        alert(t('import.readError', { name: chosen.name }));
         return;
       }
       rows = previewRows(text);
@@ -92,10 +92,10 @@ export function openImportDialog({ onCommit }) {
     },
   });
   const pickButton = el('button', {
-    class: 'btn', type: 'button', text: 'Choose file…', onclick: () => file.click(),
+    class: 'btn', type: 'button', text: t('import.pick'), onclick: () => file.click(),
   });
 
-  const cancelBtn = el('button', { class: 'btn', type: 'button', text: 'Cancel',
+  const cancelBtn = el('button', { class: 'btn', type: 'button', text: t('import.cancel'),
     onclick: () => node.close() });
   commitBtn.addEventListener('click', () => {
     onCommit(rows.filter((r) => !r.error).map((r) => ({ front: r.front.trim(), back: r.back.trim() })));
@@ -103,10 +103,8 @@ export function openImportDialog({ onCommit }) {
   });
 
   const node = openDialog([
-    el('h2', { text: 'Import file' }),
-    el('p', { class: 'muted', text: 'Cards come from a file with two values per line, '
-      + 'separated by comma, semicolon, or tab. A value that contains the delimiter '
-      + 'should be wrapped in quotes.' }),
+    el('h2', { text: t('import.title') }),
+    el('p', { class: 'muted', text: t('import.instructions') }),
     el('div', { class: 'row' }, [pickButton, file]),
     rowsWrap,
     el('div', { class: 'dialog-actions' }, [cancelBtn, commitBtn]),
@@ -122,10 +120,10 @@ export function openImportDialog({ onCommit }) {
 // parameter list.
 export function importFileBlock(onCommit) {
   return el('div', {}, [
-    el('h3', { text: 'Import file' }),
-    el('p', { class: 'muted', text: 'CSV, TSV, or text file.' }),
+    el('h3', { text: t('import.block.heading') }),
+    el('p', { class: 'muted', text: t('import.block.hint') }),
     el('button', {
-      class: 'btn', type: 'button', text: 'Import file…',
+      class: 'btn', type: 'button', text: t('import.block.button'),
       onclick: () => openImportDialog({ onCommit }),
     }),
   ]);

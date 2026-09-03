@@ -1,15 +1,17 @@
 import { el } from './ui.js';
 import { store } from './app.js';
 import { langOf } from './langs.js';
-
-const DISPLAY = new Intl.DisplayNames(['en'], { type: 'language' });
+import { t, lang } from './i18n.js';
 
 function labelField(text, value, placeholder) {
   const input = el('input', { value: value || '', placeholder });
   const hint = el('span', { class: 'muted hint' });
   const update = () => {
     const code = langOf(input.value);
-    hint.textContent = code ? `→ ${DISPLAY.of(code)}` : '';
+    // Built per call, not once at module load: otherwise the hint under a
+    // side label stays in whatever language the page started in.
+    const display = new Intl.DisplayNames([lang()], { type: 'language' });
+    hint.textContent = code ? `→ ${display.of(code)}` : '';
   };
   input.addEventListener('input', update);
   update();
@@ -29,17 +31,17 @@ function labelField(text, value, placeholder) {
 // the submit button" is a position only this function can promise.
 export function listForm({ list = null, onSave, sidesOnly = false, beforeSave = null }) {
   const name = sidesOnly ? null : el('input', {
-    value: list ? list.name : '', placeholder: 'Spanish – Food', required: 'required',
+    value: list ? list.name : '', placeholder: t('form.title.placeholder'), required: 'required',
   });
 
   const folders = sidesOnly ? null : el('datalist', { id: 'folder-names' },
     store.folders().map((folder) => el('option', { value: folder })));
   const folder = sidesOnly ? null : el('input', {
-    value: (list && list.folder) || '', placeholder: 'Spanish', list: 'folder-names',
+    value: (list && list.folder) || '', placeholder: t('form.folder.placeholder'), list: 'folder-names',
   });
 
-  const front = labelField('First side', list && list.frontLabel, 'Spanish');
-  const back = labelField('Second side', list && list.backLabel, 'French');
+  const front = labelField(t('form.firstSide'), list && list.frontLabel, t('form.front.placeholder'));
+  const back = labelField(t('form.secondSide'), list && list.backLabel, t('form.back.placeholder'));
 
   return el('form', {
     class: 'listform',
@@ -60,13 +62,12 @@ export function listForm({ list = null, onSave, sidesOnly = false, beforeSave = 
       onSave(fields);
     },
   }, [
-    ...(sidesOnly ? [] : [el('label', { class: 'field' }, ['Title', name]),
-                          el('label', { class: 'field' }, ['Folder', folder]), folders]),
+    ...(sidesOnly ? [] : [el('label', { class: 'field' }, [t('form.title'), name]),
+                          el('label', { class: 'field' }, [t('form.folder'), folder]), folders]),
     front.field,
     back.field,
-    el('p', { class: 'muted', text: 'Name the two sides of a card — '
-      + 'Spanish and French, or Date and Event. Leave them blank for Front and Back.' }),
+    el('p', { class: 'muted', text: t('form.sidesHint') }),
     ...(beforeSave ? [beforeSave] : []),
-    el('button', { class: 'primary', type: 'submit', text: list ? 'Save' : 'Create list' }),
+    el('button', { class: 'primary', type: 'submit', text: list ? t('form.save') : t('form.create') }),
   ]);
 }

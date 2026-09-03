@@ -1,6 +1,7 @@
 import { el, swipeable } from '../ui.js';
 import { store, screen, go, settings, saveSettings, ctx } from '../app.js';
 import { shuffle } from '../srs.js';
+import { t } from '../i18n.js';
 
 // Kept across renders so paging does not lose your place. Reset whenever the
 // list changes (tracked via its updatedAt stamp) or the shuffle preference changes.
@@ -34,16 +35,16 @@ export function showView(id) {
   view.append(el('a', { href: `#/list/${id}`, class: 'back', text: `← ${list.name}` }));
 
   if (list.cards.length === 0) {
-    view.append(el('p', { class: 'empty', text: 'This list has no cards yet.' }));
+    view.append(el('p', { class: 'empty', text: t('view.empty') }));
     return;
   }
 
   ensure(list);
   const card = list.cards.find((c) => c.id === browse.order[browse.at]);
-  const frontLabel = list.frontLabel || 'Front';
-  const backLabel = list.backLabel || 'Back';
+  const frontLabel = list.frontLabel || t('side.front');
+  const backLabel = list.backLabel || t('side.back');
 
-  view.append(el('p', { class: 'muted', text: `${browse.at + 1} / ${list.cards.length}` }));
+  view.append(el('p', { class: 'muted', text: t('view.position', { at: browse.at + 1, total: list.cards.length }) }));
   const face = el('div', {
     class: `card${browse.flipped ? ' flipped' : ''}`,
     onclick: () => { browse.flipped = !browse.flipped; ctx.render(); },
@@ -58,8 +59,8 @@ export function showView(id) {
   view.append(face);
 
   view.append(el('div', { class: 'actions pager' }, [
-    el('button', { text: '‹ Prev', onclick: () => step(-1, list.cards.length) }),
-    el('button', { text: 'Next ›', onclick: () => step(1, list.cards.length) }),
+    el('button', { text: t('view.prev'), onclick: () => step(-1, list.cards.length) }),
+    el('button', { text: t('view.next'), onclick: () => step(1, list.cards.length) }),
   ]));
 
   const shuffled = el('input', { type: 'checkbox',
@@ -69,7 +70,7 @@ export function showView(id) {
       browse = null;
       ctx.render();
     } });
-  view.append(el('label', { class: 'opt' }, [shuffled, 'Random order']));
+  view.append(el('label', { class: 'opt' }, [shuffled, t('view.randomOrder')]));
 }
 
 // One listener for the life of the page; it only acts on the browser screen.
