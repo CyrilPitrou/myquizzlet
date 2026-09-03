@@ -64,6 +64,9 @@ export function openImportDialog({ onCommit }) {
       () => { rows = rows.filter((r) => r !== row); renderRows(); },
     )));
     updateCommit();
+    // Once a file is loaded the picker stays — it is the only way back from
+    // picking the wrong one — but it has to stop reading as "nothing happened".
+    pickButton.textContent = rows.length ? 'Choose a different file…' : 'Choose file…';
   }
 
   const file = el('input', {
