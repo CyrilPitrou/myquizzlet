@@ -1,6 +1,6 @@
 {
   "listId": "ville",
-  "updatedAt": "2026-09-03T15:17:21.426Z",
+  "updatedAt": "2026-09-03T15:19:48.060Z",
   "items": {
     "nq8fbs:b2f": {
       "box": 2,
@@ -67,43 +67,43 @@
       "level": 1
     },
     "ymx0fq:f2b": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T15:19:45.496Z",
       "level": 1
     },
     "is2tct:f2b": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T15:19:24.817Z",
       "level": 1
     },
     "keflm4:b2f": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T15:19:30.133Z",
       "level": 1
     },
     "qpnlua:f2b": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T15:19:32.484Z",
       "level": 1
     },
     "psi1x2:f2b": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T15:19:30.919Z",
       "level": 1
     },
     "kmdshw:f2b": {
@@ -147,27 +147,27 @@
       "level": 1
     },
     "s2yn5g:b2f": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T15:19:43.533Z",
       "level": 1
     },
     "83cas3:b2f": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T15:19:22.643Z",
       "level": 1
     },
     "9x0ja7:f2b": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T15:19:27.933Z",
       "level": 1
     }
   }
