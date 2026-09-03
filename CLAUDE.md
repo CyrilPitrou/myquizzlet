@@ -47,8 +47,9 @@ main branch                          data branch
      stats.js     pure. per-list numbers
      train.js     pure. training batches and rungs
      listform.js  shared list/card editing fields
+     qrcard.js    a QR code as DOM, shared by the token screen and help
      screens/     lists list cards view train test folders editlist
-                   settings help — one file per screen
+                   settings token help — one file per screen
   sw.js           offline cache
   test/*.test.js
 ```

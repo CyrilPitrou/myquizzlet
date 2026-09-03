@@ -1,4 +1,4 @@
-const CACHE = 'myquizzlet-v14';
+const CACHE = 'myquizzlet-v15';
 const SHELL = [
   './', './index.html', './manifest.webmanifest', './app/style.css',
   './icons/icon-192.png', './icons/icon-512.png',
@@ -6,11 +6,12 @@ const SHELL = [
   './app/store.js', './app/github.js', './app/sync.js', './app/srs.js',
   './app/grade.js', './app/csv.js', './app/merge.js',
   './app/langs.js', './app/stats.js', './app/train.js', './app/listform.js',
-  './app/qr.js', './app/setup.js', './app/zip.js', './app/install.js',
+  './app/qr.js', './app/qrcard.js', './app/setup.js', './app/zip.js', './app/install.js',
   './app/screens/lists.js', './app/screens/list.js', './app/screens/cards.js',
   './app/screens/test.js', './app/screens/settings.js',
   './app/screens/folders.js', './app/screens/editlist.js', './app/screens/view.js',
   './app/screens/train.js', './app/screens/help.js', './app/screens/adopt.js',
+  './app/screens/token.js',
 ];
 
 self.addEventListener('install', (event) => {

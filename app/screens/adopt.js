@@ -25,9 +25,9 @@ export function showAdopt() {
   if (!found) {
     view.append(el('p', { text: 'That link carried no token, so there is nothing to add.' }));
     view.append(el('p', { class: 'muted',
-      text: 'Scan the code again, or paste the token by hand in Settings.' }));
+      text: 'Scan the code again, or paste the token by hand on the Token page.' }));
     view.append(el('div', { class: 'actions' }, [
-      el('a', { class: 'btn primary', href: '#/settings', text: 'Open Settings' }),
+      el('a', { class: 'btn primary', href: '#/token', text: 'Open the Token page' }),
     ]));
     return;
   }
@@ -50,7 +50,7 @@ export function showAdopt() {
       onclick: () => {
         saveSettings({ ...settings(), token, tokenExpiry: expiry });
         ctx.initSync();
-        go('#/settings');
+        go('#/token');
       },
     }),
     el('button', {

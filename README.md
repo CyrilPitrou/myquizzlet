@@ -46,7 +46,7 @@ The app needs permission to write your lists back. Reading needs nothing.
 3. **Repository access:** only `CyrilPitrou/myquizzlet`.
 4. **Permissions:** *Contents* → **Read and write**. Nothing else.
 5. Generate, and copy the token — GitHub shows it exactly once.
-6. Open the app → **Settings** → paste it → Save.
+6. Open the app → **Settings → Sync → Set up a token** → paste it → Save.
 
 Repeat step 6 on every device where you want to *add or edit* words, generating
 that device's token on the device itself — GitHub's copy button puts it straight
@@ -54,7 +54,7 @@ on the clipboard, so there is nothing to type or transfer. A device that only
 studies needs no token at all.
 
 Tokens expire, at most a year out. The app records the expiry date you enter
-and warns about it, on Home and in Settings, for the last fortnight; once the
+and warns about it, on Home and on the Token page, for the last fortnight; once the
 date passes it says so plainly and keeps your changes on the device until you
 replace the token.
 
@@ -65,11 +65,11 @@ happens, revoke it on GitHub straight away and make a new one.
 
 ### Adding a second device
 
-**Getting the app onto it.** On a device that already works, open **Settings →
-Add a device**. It shows one QR code — the app's address, nothing secret.
+**Getting the app onto it.** On a device that already works, open **Help →
+Adding another device**. It shows one QR code — the app's address, nothing secret.
 
 1. Scan it on the new phone. The app opens in whatever browser that phone uses.
-2. Open the app's own **Settings → Install**. It lists the route for each
+2. Open the app's own **Help → Installing the app**. It lists the route for each
    browser, because they all differ: Chrome shows an **Install this app**
    button, Firefox has **⋮ → Install**, Samsung Internet **≡ → Add page to →
    Home screen**, and an iPhone **Share → Add to Home Screen**.
@@ -89,14 +89,15 @@ you use day to day.
 
 A device you only ever study on is now finished. It needs no token at all.
 
-**Giving it a token, the safe way.** On the new device, open **Settings**. With
-no token saved it shows **Set up this device**, which links straight to GitHub's
-token page and says exactly what to put in it: repository access limited to this
-one repo, and Contents → Read and write. The token is made on the phone that
-will hold it, so it can be revoked on its own.
+**Giving it a token, the safe way.** On the new device, open **Settings →
+Sync**, which says it has no token, and follow **Set up a token**. With no token
+saved that page links straight to GitHub's token page and says exactly what to
+put in it: repository access limited to this one repo, and Contents → Read and
+write. The token is made on the phone that will hold it, so it can be revoked on
+its own.
 
-**The quick way, if you accept the price.** The same section has an opt-in
-**Show token QR** button. It draws a link carrying this device's token; the
+**The quick way, if you accept the price.** On the device that already has a
+token, the same page has an opt-in **Show token QR** button. It draws a link carrying this device's token; the
 other phone's camera opens it, and the app asks before saving anything. Two
 things to know before you use it: both devices then share one token, so
 revoking it cuts off both, and the token is briefly on screen, so do it where
@@ -113,7 +114,7 @@ No camera to hand? The token field also accepts the whole setup link, pasted.
 ## Install on Android
 
 1. Open the app URL in your browser.
-2. **Settings → Install**. In Chrome that section has an **Install this app**
+2. **Help → Installing the app**. In Chrome that section has an **Install this app**
    button; in Firefox and the others it tells you which menu item to use.
    A page opened by scanning a QR code inside Chrome cannot install at all —
    **⋮ → Open in Chrome** first, then install there.
@@ -190,9 +191,10 @@ A small dot, and it is worth knowing what it means:
 | Green | Everything is on GitHub | Nothing |
 | Amber | Changes waiting to be pushed | Nothing; it goes on its own |
 | Grey | Offline, changes queued | Nothing; it catches up when you reconnect |
-| Red | A push failed | Open Settings, read the message, press *Retry* |
+| Red | A push failed | Open Settings → Sync, read the message, press *Retry* |
 
-Red usually means the token expired or was revoked — make a new one and paste it
+Red usually means the token expired or was revoked — remove it on **Settings →
+Token**, then make a new one and paste it
 in. Your work is still safe in the browser meanwhile.
 
 If you edited the same list on both devices while offline, the app shows both
