@@ -48,6 +48,7 @@ main branch                          data branch
      train.js     pure. training batches and rungs
      listform.js  shared list/card editing fields
      qrcard.js    a QR code as DOM, shared by the token screen and help
+     tokenshare.js the opt-in "show my token as a QR" box, same two screens
      screens/     lists list cards view train test folders editlist
                    settings token help — one file per screen
   sw.js           offline cache

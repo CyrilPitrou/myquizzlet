@@ -1,49 +1,10 @@
 import { el, clear } from '../ui.js';
 import { settings, saveSettings, REPO, screen, ctx, todayStr } from '../app.js';
-import { qrCard } from '../qrcard.js';
-import { TOKEN_PAGE, setupLink, parseSetup, maskToken, expiryWarning } from '../setup.js';
+import { tokenQr } from '../tokenshare.js';
+import { TOKEN_PAGE, parseSetup, maskToken, expiryWarning } from '../setup.js';
 
 function section(title, nodes) {
   return el('section', { class: 'sect' }, [el('h3', { text: title }), ...nodes]);
-}
-
-const SHOW_FOR = 60_000;
-
-// The token itself, on screen, as a link the other phone's camera can open.
-// Boxed off and behind a button because it is the only secret this app ever
-// displays, and hidden again on a timer so it does not sit there forgotten.
-function tokenQr(current) {
-  const box = el('div', { class: 'optin' });
-
-  const reveal = () => {
-    const link = setupLink({ token: current.token, expiry: current.tokenExpiry || null });
-    // Built before clear(box): encode() can throw on an oversized payload,
-    // and if it does the box must be left with its "Show token QR" button
-    // still standing, not a bare heading with no way back.
-    const card = qrCard(link, 'Opens the app and asks before saving',
-      'A QR code carrying this device’s token');
-    const timer = setTimeout(() => { if (box.isConnected) show(); }, SHOW_FOR);
-
-    clear(box);
-    box.append(el('h4', { text: 'Scan this on the other device' }));
-    box.append(card);
-    box.append(el('p', { class: 'muted', text: 'The other device will ask you to confirm '
-      + 'before it saves anything. This code hides itself again in a minute.' }));
-    box.append(el('button', { text: 'Hide it now',
-      onclick: () => { clearTimeout(timer); show(); } }));
-  };
-
-  const show = () => {
-    clear(box);
-    box.append(el('h4', { text: 'Copy this token to another device' }));
-    box.append(el('p', { class: 'muted', text: 'Faster than making a second token, and the '
-      + 'honest price: both devices then share one, so revoking it cuts off both. The token '
-      + 'is briefly on screen, so do this where nobody is watching.' }));
-    box.append(el('button', { text: 'Show token QR', onclick: reveal }));
-  };
-
-  show();
-  return box;
 }
 
 // Two clicks, because the token is not recoverable from here: whoever wrote it

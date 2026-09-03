@@ -55,6 +55,10 @@ listform.js the title/folder/side-label/language fields shared by editlist
 qrcard.js   a QR code as DOM: the <svg> of one, and the captioned figure
             around it. Shared by the Token screen and Help, the two places
             that hand a camera something to point at.
+tokenshare.js the opt-in box that puts a token on screen as a QR, with its
+            press-to-reveal and its minute-long timer. One module because two
+            screens offer it: the Token page, and Help, where the instructions
+            for adding a device are.
 qr.js       pure. `encode(text) -> boolean[][]`, a QR matrix: byte mode, error
             correction level L, versions 1–13. It exists because no
             third-party generator may ever see a token and the payload is
