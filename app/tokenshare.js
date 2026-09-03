@@ -36,10 +36,10 @@ export function tokenQr(current) {
 
   const show = () => {
     clear(box);
-    box.append(el('h4', { text: 'Copy this token to another device' }));
-    box.append(el('p', { class: 'muted', text: 'Faster than making a second token, and the '
-      + 'honest price: both devices then share one, so revoking it cuts off both. The token '
-      + 'is briefly on screen, so do this where nobody is watching.' }));
+    box.append(el('h4', { text: 'Set up another device' }));
+    box.append(el('p', { class: 'muted', text: 'The other device scans a code and is ready to '
+      + 'save. Both devices then use the same token, so removing it later stops both. Your '
+      + 'token is on screen while you scan, so do this somewhere private.' }));
     box.append(el('button', { text: 'Show token QR', onclick: reveal }));
   };
 

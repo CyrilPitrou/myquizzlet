@@ -25,6 +25,9 @@ function themePicker() {
   }, [el('span', { class: `chip ${theme.id}` }), theme.name])));
 }
 
+const waitingLine = (n) => (n === 0 ? 'Everything here is saved.'
+  : `${n} change${n === 1 ? '' : 's'} waiting to be saved.`);
+
 function section(title, nodes) {
   return el('section', { class: 'sect' }, [el('h3', { text: title }), ...nodes]);
 }
@@ -40,7 +43,7 @@ const csvFiles = (lists) => {
 function syncSection() {
   return section('Sync', [
     statusLine(),
-    el('p', { class: 'muted', text: `${store.dirtyKeys().length} change(s) waiting.` }),
+    el('p', { class: 'muted', text: waitingLine(store.dirtyKeys().length) }),
     el('div', { class: 'row' }, [
       el('button', { text: 'Pull now', onclick: () => ctx.sync.pullAll().then(ctx.render).catch((e) => setStatus('error', e.message)) }),
       el('button', { text: 'Push now', onclick: () => ctx.sync.pushDirty().then(ctx.render).catch((e) => setStatus('error', e.message)) }),
@@ -57,14 +60,14 @@ function tokenSection(current) {
 
   return section('Token', [
     ...(current.token
-      ? [el('p', { class: 'muted', text: 'Saving to GitHub is on.' }),
+      ? [el('p', { class: 'muted', text: 'Changes on this device are saved to GitHub.' }),
         el('dl', { class: 'facts' }, [
           el('dt', { text: 'Token' }), el('dd', { text: maskToken(current.token) }),
           el('dt', { text: 'Expires' }), el('dd', { text: current.tokenExpiry || 'not recorded' }),
         ]),
         ...(warning ? [el('p', { class: 'warn', text: warning })] : [])]
-      : [el('p', { class: 'warn', text: 'No token on this device, so changes stay here and '
-          + 'are never saved. Studying works fine without one.' })]),
+      : [el('p', { class: 'warn', text: 'Without a token, anything you add or change stays '
+          + 'on this device. Studying works fine either way.' })]),
     el('p', {}, [el('a', { class: `btn${current.token ? '' : ' primary'}`,
       href: '#/token', text: 'Manage token' })]),
   ]);
@@ -78,7 +81,7 @@ export function showSettings() {
 
   view.append(section('Appearance', [
     themePicker(),
-    el('p', { class: 'muted', text: 'Stored on this device only — it is a preference, not data, so it never syncs.' }),
+    el('p', { class: 'muted', text: 'Only on this device. Your other devices keep their own.' }),
   ]));
 
   view.append(syncSection());

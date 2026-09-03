@@ -22,8 +22,8 @@ function revokeBox() {
   const confirm = () => {
     clear(box);
     box.append(el('h4', { text: 'Really remove it?' }));
-    box.append(el('p', { class: 'muted', text: 'This device goes back to studying only, and '
-      + 'anything not yet pushed stays here until you give it a token again.' }));
+    box.append(el('p', { class: 'muted', text: 'You can still study on this device, but '
+      + 'anything you change stays here until you add a token again.' }));
     box.append(el('div', { class: 'row' }, [
       el('button', { class: 'primary', text: 'Yes, remove it', onclick: forget }),
       el('button', { text: 'Keep it', onclick: () => show() }),
@@ -33,12 +33,13 @@ function revokeBox() {
   const show = () => {
     clear(box);
     box.append(el('h4', { text: 'Remove this token' }));
-    box.append(el('p', { class: 'muted' }, ['Removing it here only forgets it on this device. '
-      + 'The token itself stays alive on GitHub until you delete it there — ',
+    box.append(el('p', { class: 'muted' }, ['This removes the token from this device only. '
+      + 'It keeps working elsewhere until you delete it on GitHub — ',
       el('a', { target: '_blank', rel: 'noopener',
         href: 'https://github.com/settings/personal-access-tokens',
         text: 'your tokens on GitHub' }),
-      '. Do that too if the token has leaked, or if another device is using this same one.']));
+      '. Delete it there too if someone else may have seen it, or if another device is '
+      + 'using the same one.']));
     box.append(el('button', { text: 'Revoke token', onclick: confirm }));
   };
 
@@ -48,8 +49,8 @@ function revokeBox() {
 
 function addToken(view, current) {
   view.append(section('Make a token on GitHub', [
-    el('p', { class: 'muted', text: 'Right now this device can study, but not save changes. '
-      + 'It needs a token of its own, or a copy of another device’s.' }),
+    el('p', { class: 'muted', text: 'This device can study, but it cannot save what you '
+      + 'add or change. Give it its own token, or a copy of another device’s.' }),
     el('ol', { class: 'steps' }, [
       el('li', { text: 'On a device that already works, open Settings → Token and tap '
         + '“Show token QR”.' }),
@@ -86,7 +87,7 @@ function addToken(view, current) {
         }
         const found = parseSetup(typed);
         if (!found) {
-          problem.textContent = 'That is neither a token nor a setup link.';
+          problem.textContent = 'That does not look like a token or a setup link.';
           return;
         }
         saveSettings({ ...settings(), token: found.token,
@@ -109,7 +110,7 @@ function haveToken(view, current) {
       el('dt', { text: 'Expires' }), el('dd', { text: current.tokenExpiry || 'not recorded' }),
     ]),
     ...(warning ? [el('p', { class: 'warn', text: warning })] : []),
-    el('p', { class: 'muted', text: 'Expired or about to? Remove it below, then make a new '
+    el('p', { class: 'muted', text: 'Expired, or about to? Remove it below, then make a new '
       + 'one on GitHub the same way you made this one.' }),
   ]));
 
