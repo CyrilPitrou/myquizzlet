@@ -61,8 +61,22 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
       await pullList(id);
       await pullProgress(id);
     }
+    // A list the remote does not have is one of two very different things.
+    // If we have never had a sha for it, it is ours and was never uploaded,
+    // so upload it. If we do have one, we and the remote agreed on this file
+    // once and it is gone now: another device deleted it, and re-uploading it
+    // would resurrect it — which is how a delete on one device kept coming
+    // back on the other. Follow the deletion instead.
+    //
+    // An empty listing is not evidence of anything: a 404 on data/lists reads
+    // the same whether every list was deleted or the token lost access to the
+    // repo. Reconciling on it would wipe the device. Skip it; the last list
+    // to be deleted simply needs its delete pushed from each device.
+    if (!entries.length) return;
     for (const id of store.listIds()) {
-      if (!entries.some((e) => e.name === `${id}.json`)) store.markDirty(`list:${id}`);
+      if (entries.some((e) => e.name === `${id}.json`)) continue;
+      if (store.getBase(`list:${id}`)) store.deleteList(id);
+      else store.markDirty(`list:${id}`);
     }
   }
 

@@ -89,3 +89,41 @@ describe('deleting a list through sync', () => {
     expect(store.dirtyKeys()).toEqual([]);
   });
 });
+
+// The other side of the delete: the peer that still holds the list. It must
+// read "the remote no longer has this" as a deletion to follow, not as a
+// file it has yet to upload — otherwise the two devices push a list back and
+// forth for ever and no delete ever sticks.
+describe('a list another device deleted', () => {
+  it('goes away locally instead of being uploaded again', async () => {
+    files['data/lists/es-verbs.json'] = { sha: 'L2', json: { id: 'es-verbs', name: 'Verbs', cards: [], updatedAt: '2026-09-01T00:00:00Z' } };
+    await sync.pullAll();
+    delete files['data/lists/es-food.json'];
+    delete files['data/progress/es-food.json'];
+
+    await sync.pullAll();
+    await sync.pushDirty();
+
+    expect(store.getList('es-food')).toBeNull();
+    expect(store.listIds()).toEqual(['es-verbs']);
+    expect(files['data/lists/es-food.json']).toBeUndefined();
+  });
+
+  it('still uploads a list the remote has never seen', async () => {
+    const list = store.createList({ name: 'Scratch' });
+    await sync.pullAll();
+    await sync.pushDirty();
+
+    expect(store.getList(list.id)).not.toBeNull();
+    expect(files[`data/lists/${list.id}.json`]).toBeDefined();
+  });
+
+  it('leaves local lists alone when the remote listing comes back empty', async () => {
+    await sync.pullAll();
+    for (const path of Object.keys(files)) delete files[path];
+
+    await sync.pullAll();
+
+    expect(store.getList('es-food')).not.toBeNull();
+  });
+});
