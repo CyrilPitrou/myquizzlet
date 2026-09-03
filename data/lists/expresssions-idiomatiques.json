@@ -1,0 +1,212 @@
+{
+  "id": "expresssions-idiomatiques",
+  "name": "Expresssions idiomatiques",
+  "folder": "English",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "cards": [
+    {
+      "id": "r8pzz0",
+      "front": "a bitter pill",
+      "back": "un truc dur à avaler (au sens figuré)"
+    },
+    {
+      "id": "z5lcaq",
+      "front": "Achilles' heel",
+      "back": "une faiblesse"
+    },
+    {
+      "id": "pr4hl3",
+      "front": "from A to Z",
+      "back": "de A à Z,en entier"
+    },
+    {
+      "id": "t7kslc",
+      "front": "proud as a peacock",
+      "back": "fier comme un paon / coq"
+    },
+    {
+      "id": "4n4o0n",
+      "front": "put the cart before the horse",
+      "back": "mettre la charrue avant les boeufs"
+    },
+    {
+      "id": "ybn8yt",
+      "front": "don't judge a book by its cover",
+      "back": "ne pas se fier aux apparences"
+    },
+    {
+      "id": "tgw4r3",
+      "front": "add insult to injury",
+      "back": "aggraver une situation"
+    },
+    {
+      "id": "6bq2j0",
+      "front": "kill two birds with one stone",
+      "back": "faire d'une pierre deux coups"
+    },
+    {
+      "id": "2vbwbe",
+      "front": "all ears",
+      "back": "tout ouïe"
+    },
+    {
+      "id": "r5b64q",
+      "front": "cross one's fingers",
+      "back": "croiser les doigts"
+    },
+    {
+      "id": "jdz2jw",
+      "front": "the apple of my eye",
+      "back": "la prunelle de mes yeux"
+    },
+    {
+      "id": "92qorz",
+      "front": "it's not my cup of tea",
+      "back": "ce n'est pas mon truc"
+    },
+    {
+      "id": "r8dlsa",
+      "front": "drive you crazy",
+      "back": "rendre fou"
+    },
+    {
+      "id": "ev0faw",
+      "front": "to beat around the bush",
+      "back": "tourner autour du pot,contourner un sujet"
+    },
+    {
+      "id": "ua1hjs",
+      "front": "as good as gold",
+      "back": "sage comme une image"
+    },
+    {
+      "id": "foou6k",
+      "front": "feel under the weather",
+      "back": "ne pas être dans son assiette"
+    },
+    {
+      "id": "wwjhzm",
+      "front": "Bob's your uncle",
+      "back": "tout va bien se passer"
+    },
+    {
+      "id": "shtudr",
+      "front": "like taking candy off a baby",
+      "back": "très facile à faire"
+    },
+    {
+      "id": "kjc9wn",
+      "front": "every cloud has a silver lining",
+      "back": "il y a toujours du positif dans une situation négative"
+    },
+    {
+      "id": "zex4pu",
+      "front": "cost an arm and a leg",
+      "back": "coûter un bras"
+    },
+    {
+      "id": "1x25sv",
+      "front": "play it by ear",
+      "back": "avancer à l'aveuglette,au hasard,improviser"
+    },
+    {
+      "id": "989lzv",
+      "front": "to get something off your chest",
+      "back": "se soulager de quelque chose en parlant"
+    },
+    {
+      "id": "ix0gum",
+      "front": "to have cold feet",
+      "back": "être inquiet,angoissé,regretter"
+    },
+    {
+      "id": "42hm13",
+      "front": "to keep an eye on something",
+      "back": "Garder un œil sur quelque chose"
+    },
+    {
+      "id": "e5yk1y",
+      "front": "to go over your head",
+      "back": "ne pas comprendre quelque chose"
+    },
+    {
+      "id": "74ujd9",
+      "front": "to catch somebody red-handed",
+      "back": "prendre quelqu'un la main dans le sac"
+    },
+    {
+      "id": "c5fqmx",
+      "front": "to bite off more than you can chew",
+      "back": "avoir les yeux plus gros que le ventre : mais pas seulement pour l'alimentation"
+    },
+    {
+      "id": "jbit93",
+      "front": "to be in a pickle / a bit of a pickle",
+      "back": "avoir un problème (pas très grave)"
+    },
+    {
+      "id": "lltu40",
+      "front": "icing on the cake",
+      "back": "la cerise sur le gâteau"
+    },
+    {
+      "id": "szmofg",
+      "front": "a little bird told me",
+      "back": "Mon petit doigt m'a dit"
+    },
+    {
+      "id": "vncske",
+      "front": "and pigs can fly",
+      "back": "quand les poules auront des dents"
+    },
+    {
+      "id": "wf72cn",
+      "front": "sleep with the fishes",
+      "back": "Euphémisme pour mourir."
+    },
+    {
+      "id": "7nka6r",
+      "front": "put the cat among the pigeons",
+      "back": "créer des problèmes"
+    },
+    {
+      "id": "t1d2d5",
+      "front": "selling like hotcakes",
+      "back": "se vendre comme des petits pains / très bien se vendre"
+    },
+    {
+      "id": "qbxl72",
+      "front": "on the back burner",
+      "back": "non-prioritaire"
+    },
+    {
+      "id": "kj90zz",
+      "front": "to eat like a horse",
+      "back": "manger comme un ogre"
+    },
+    {
+      "id": "g3t538",
+      "front": "take off",
+      "back": "argumenter"
+    },
+    {
+      "id": "ck6t5h",
+      "front": "think outside the box",
+      "back": "penser différemment"
+    },
+    {
+      "id": "16fdcx",
+      "front": "have a lot on your plate",
+      "back": "avoir du pain sur la planche"
+    },
+    {
+      "id": "qwu4cx",
+      "front": "win-win situation",
+      "back": "une situation gagnant-gagnant"
+    }
+  ],
+  "updatedAt": "2026-09-03T05:11:08.432Z"
+}
