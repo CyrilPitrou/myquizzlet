@@ -2,6 +2,7 @@ import { el, $ } from './ui.js';
 
 const STATUS = {
   synced:  { mark: '●', word: 'Everything is on GitHub' },
+  syncing: { mark: '↻', word: 'Syncing…' },
   pending: { mark: '↑', word: 'Changes waiting to push' },
   offline: { mark: '○', word: 'Offline — will catch up' },
   error:   { mark: '✕', word: 'Sync failed' },
