@@ -14,6 +14,7 @@ export const fr = {
   'status.offline': 'Hors ligne — se rattrapera',
   'status.error': 'Échec de la synchronisation',
   'status.off': 'Sans jeton — lecture seule',
+  'status.retry': 'Toucher pour synchroniser',
   'common.back.lists': '← Listes',
   'common.cards_one': '{n} carte',
   'common.cards_other': '{n} cartes',

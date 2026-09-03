@@ -16,7 +16,13 @@ export function setStatus(state, detail = '') {
   const dot = $('#sync-dot');
   dot.textContent = MARK[state];
   dot.className = `dot ${state}`;
-  dot.title = detail ? `${word(state)}: ${detail}` : word(state);
+  // Green means there is nothing to do; anything else is a state the owner
+  // can push out of, so the dot becomes a button that syncs on the spot.
+  const idle = state === 'synced' || state === 'syncing';
+  dot.disabled = idle;
+  const said = detail ? `${word(state)}: ${detail}` : word(state);
+  dot.title = idle ? said : `${said} — ${t('status.retry')}`;
+  dot.setAttribute('aria-label', dot.title);
   const line = $('#sync-line');
   if (line) line.replaceWith(statusLine());
 }

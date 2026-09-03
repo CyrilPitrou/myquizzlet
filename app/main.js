@@ -104,6 +104,7 @@ document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'visible') resync();
 });
 window.addEventListener('online', resync);
+$('#sync-dot').addEventListener('click', resync);
 $('#lang').addEventListener('click', () => setLang(lang() === 'fr' ? 'en' : 'fr'));
 // The browser's install offer can arrive while Help is already on screen,
 // and installing removes the reason to show the section at all.

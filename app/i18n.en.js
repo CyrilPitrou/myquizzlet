@@ -15,6 +15,7 @@ export const en = {
   'status.offline': 'Offline — will catch up',
   'status.error': 'Sync failed',
   'status.off': 'No token — read-only',
+  'status.retry': 'Tap to sync now',
   'common.back.lists': '← Lists',
   'common.cards_one': '{n} card',
   'common.cards_other': '{n} cards',
