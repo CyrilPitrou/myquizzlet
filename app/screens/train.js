@@ -99,6 +99,28 @@ function answered(correct, wasMultipleChoice) {
   ctx.render();
 }
 
+// Marks the picked and correct buttons with an icon + color (never color
+// alone, so the result reads without relying on any visual-effects setting).
+// A correct pick auto-advances; a wrong one waits for Continue, same as the
+// typed-answer path pauses on a mistake.
+function pickChoice(container, buttons, options, option, expected) {
+  buttons.forEach((btn) => { btn.disabled = true; });
+  const rightIdx = options.indexOf(expected);
+  buttons[rightIdx].classList.add('correct');
+  buttons[rightIdx].textContent = `✓ ${options[rightIdx]}`;
+  if (option === expected) {
+    setTimeout(() => answered(true, true), 550);
+    return;
+  }
+  const pickedIdx = options.indexOf(option);
+  buttons[pickedIdx].classList.add('wrong');
+  buttons[pickedIdx].textContent = `✗ ${options[pickedIdx]}`;
+  container.append(el('button', {
+    class: 'primary', text: t('session.continue'),
+    onclick: () => answered(false, true),
+  }));
+}
+
 export function showTrainSession(id) {
   if (!session || session.listId !== id) return go(`#/train/${id}`);
   const list = store.getList(id);
@@ -138,9 +160,13 @@ export function showTrainSession(id) {
 
   const options = currentLevel(session.batch) === 0 ? choices({ list, key }) : null;
   if (options) {
-    view.append(el('div', { class: 'opts choices' }, options.map((option) => el('button', {
-      class: 'choice', text: option, onclick: () => answered(option === expected, true),
-    }))));
+    const container = el('div', { class: 'opts choices' });
+    const buttons = options.map((option) => el('button', {
+      class: 'choice', text: option,
+      onclick: () => pickChoice(container, buttons, options, option, expected),
+    }));
+    container.append(...buttons);
+    view.append(container);
     return;
   }
 
