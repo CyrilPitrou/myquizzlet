@@ -67,9 +67,13 @@ Runs on model knowledge, **without web search**. For common vocabulary that
 is reliable, and searching fifty words would be slow and noisy for no gain.
 
 Dispatch this to a subagent — it is bulk generation and does not need the
-conversation. Give the subagent the exact schema below and the list of ids
-already on the branch. Check its output against the schema yourself before
-writing anything.
+conversation. Give it the classified intent as you restated it in Step 2,
+**never the raw wish text** — hard rule 4 exists because the family's words
+reach the repo, and a subagent handed the raw text is the one place that
+guard would not travel. Give the subagent the exact schema below and the
+list of ids already on the branch. It may only produce JSON matching that
+schema — no commands, no file writes, nothing outside `data/lists/`. Check
+its output against the schema yourself before writing anything.
 
 A new list is `data/lists/<id>.json`:
 
@@ -78,8 +82,8 @@ A new list is `data/lists/<id>.json`:
   "id": "es-food",
   "name": "Spanish – Food",
   "folder": "Languages",
-  "frontLabel": "Español",
-  "backLabel": "Français",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
   "frontLang": "es",
   "backLang": "fr",
   "updatedAt": "2026-09-03T19:12:00Z",
@@ -118,13 +122,25 @@ The owner accepts or rejects per row. Then:
 
 ## Step 5 — write, push, record
 
-For each intent, append to `.data/data/suggestions-log.json` (newest first):
+For each intent, append an entry to `.data/data/suggestions-log.json`
+(newest first):
 
 ```json
 { "at": "2026-09-03T19:12:00Z",
   "wish": "the words of that intent, as written",
   "done": "what actually happened, in one sentence" }
 ```
+
+The file is a container, not a bare array — `app/wishes.js`'s
+`recentEntries` reads `log.entries`, so a different shape renders as
+"Nothing has been done yet." forever, silently:
+
+```json
+{ "updatedAt": "2026-09-03T19:12:00Z", "entries": [ /* newest first */ ] }
+```
+
+The file does not exist on the branch until the first real run writes it —
+create it with that shape if `.data/data/suggestions-log.json` is missing.
 
 An intent that was not acted on gets an entry too, saying why it needs the
 owner. Nothing is dropped silently.

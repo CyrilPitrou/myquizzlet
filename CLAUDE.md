@@ -33,8 +33,8 @@ These are deliberate. Do not "improve" past them without asking.
 main branch                          data branch
   index.html                           data/lists/<id>.json
   app/main.js     router + header      data/progress/<id>.json
-                                        data/suggestions.json        the 🪄 box — free text, "" when empty
-                                        data/suggestions-log.json    what was done about it, newest first
+                                       data/suggestions.json        the 🪄 box — free text, "" when empty
+                                       data/suggestions-log.json    what was done about it, newest first
      app.js        shared singletons: store, settings, go, todayStr,
                     screen, ctx. Screens import from here, never from
                     main.js, so nothing calls back up into the router.
