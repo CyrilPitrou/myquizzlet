@@ -3,7 +3,10 @@ import { store, screen, go, todayStr, ctx } from '../app.js';
 import { pickBatch, choices, startBatch, currentKey, currentLevel, advance } from '../train.js';
 import { newItem, nextItem, parseKey } from '../srs.js';
 import { grade } from '../grade.js';
-import { t } from '../i18n.js';
+import { t, lang } from '../i18n.js';
+import { bucketFor, pick } from '../messages.js';
+import { flashWrong, ring, confetti } from '../fx.js';
+import { play } from '../audio.js';
 
 const BATCH = 8;
 
@@ -89,13 +92,22 @@ function settleBatch() {
 // can return null even at rung 0 (too few distractor texts), and a question
 // answered by typing is a real recall attempt regardless of which rung asked
 // for it.
-function answered(correct, wasMultipleChoice) {
+// `silent` is for a caller that has already given the verdict — the typo panel
+// shows and sounds it itself, and must not have a second one laid over the top.
+function answered(correct, wasMultipleChoice, silent = false) {
+  if (!silent && !correct) flashWrong(document.querySelector('#screen'));
   const key = currentKey(session.batch);
   if (wasMultipleChoice) saveLevel(session.listId, key, correct ? 1 : 0);
   else saveAnswer(session.listId, key, correct);
   session[correct ? 'right' : 'wrong'] += 1;
+  const banked = session.batch.graduated.length;
   session.batch = advance(session.batch, correct);
+  // A word that has just left the batch climbed its last rung: it gets the
+  // arpeggio instead of the plain blip, so one answer is still one sound.
+  const climbed = session.batch.graduated.length > banked;
   settleBatch();
+  if (climbed) play('graduate');
+  else if (!silent) play(correct ? 'right' : 'wrong');
   ctx.render();
 }
 
@@ -132,10 +144,20 @@ export function showTrainSession(id) {
   ]));
 
   if (!session.batch) {
+    const { right, wrong } = session;
+    const total = right + wrong;
+    const bucket = bucketFor(right, total);
+    const pct = total ? Math.round((right / total) * 100) : 0;
+
     view.append(el('h2', { text: t('session.done') }));
+    view.append(ring(pct));
+    view.append(el('p', { class: 'result-msg', text: pick(bucket, lang()) }));
     view.append(el('p', { text: t('train.done.count',
-      { n: session.done.length, right: session.right, wrong: session.wrong }) }));
+      { n: session.done.length, right, wrong }) }));
     view.append(el('a', { class: 'btn', href: `#/list/${id}`, text: t('session.backToList') }));
+
+    play(bucket);
+    if (bucket === 'perfect' || bucket === 'great') confetti(document.body);
     session = null;
     return;
   }
@@ -177,15 +199,17 @@ export function showTrainSession(id) {
       event.preventDefault();
       const verdict = grade(expected, input.value);
       if (verdict === 'correct') return answered(true, false);
+      flashWrong(document.querySelector('#screen'));
+      play(verdict === 'typo' ? 'typo' : 'wrong');
       form.replaceWith(el('div', { class: `verdict ${verdict}` }, [
         el('p', { text: verdict === 'typo' ? t('session.typo', { expected })
                                            : t('session.answerWas', { expected }) }),
         el('p', { class: 'muted', text: t('session.youWrote', { typed: input.value }) }),
         el('div', { class: 'row' }, [
-          el('button', { text: t('session.iWasRight'), onclick: () => answered(true, false) }),
+          el('button', { text: t('session.iWasRight'), onclick: () => answered(true, false, true) }),
           el('button', { class: 'primary',
             text: verdict === 'typo' ? t('session.gotIt') : t('session.continue'),
-            onclick: () => answered(verdict === 'typo', false) }),
+            onclick: () => answered(verdict === 'typo', false, true) }),
         ]),
       ]));
     },

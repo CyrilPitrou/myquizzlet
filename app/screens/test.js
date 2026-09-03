@@ -1,8 +1,11 @@
-import { el, clear, swipeable } from '../ui.js';
+import { el, swipeable } from '../ui.js';
 import { buildQueue, newItem, nextItem, parseKey } from '../srs.js';
 import { grade } from '../grade.js';
 import { store, go, todayStr, screen, ctx } from '../app.js';
-import { t } from '../i18n.js';
+import { t, lang } from '../i18n.js';
+import { bucketFor, pick } from '../messages.js';
+import { flashWrong, flip, flyOut, slideIn, lift, ring, confetti } from '../fx.js';
+import { play } from '../audio.js';
 
 const setup = { mode: 'write', directions: ['f2b', 'b2f'], limit: 20, includeNew: true, free: false };
 
@@ -51,6 +54,8 @@ export function showTestSetup(listId) {
 }
 
 let session = null;
+// Which way the last flashcard left, so the next arrives from the other side.
+let arriving = null;
 
 function queueFor(listId, free) {
   const list = store.getList(listId);
@@ -74,7 +79,14 @@ function startSession(listId, free = setup.free) {
   go(`#/test/${listId}/go`);
 }
 
-function answer(correct) {
+// `silent` is for a caller that has already given the verdict — the typo panel
+// and the flashcard branch show and sound it themselves, and must not have a
+// second one laid over the top.
+function answer(correct, silent = false) {
+  if (!silent) {
+    if (!correct) flashWrong(document.querySelector('#screen'));
+    play(correct ? 'right' : 'wrong');
+  }
   if (session.free) { session[correct ? 'right' : 'wrong'] += 1; session.at += 1; return ctx.render(); }
   const { listId, queue, at } = session;
   const key = queue[at];
@@ -94,10 +106,20 @@ export function showTestSession(listId) {
   const view = screen();
 
   if (session.at >= session.queue.length) {
+    const { right, wrong } = session;
+    const total = right + wrong;
+    const bucket = bucketFor(right, total);
+    const pct = total ? Math.round((right / total) * 100) : 0;
+
     view.append(el('h2', { text: t('session.done') }));
-    view.append(el('p', { text: t('test.done.count', { right: session.right, wrong: session.wrong }) }));
+    view.append(ring(pct));
+    view.append(el('p', { class: 'result-msg', text: pick(bucket, lang()) }));
+    view.append(el('p', { class: 'muted', text: t('result.score', { right, total }) }));
     view.append(el('a', { class: 'btn', href: `#/test/${listId}`, text: t('test.studyMore') }));
     view.append(el('a', { class: 'btn', href: '#/', text: t('test.backToLists') }));
+
+    play(bucket);
+    if (bucket === 'perfect' || bucket === 'great') confetti(document.body);
     session = null;
     return;
   }
@@ -115,21 +137,40 @@ export function showTestSession(listId) {
   const expected = direction === 'f2b' ? card.back : card.front;
 
   if (setup.mode === 'cards') {
-    const face = el('div', { class: 'card' }, [
-      el('p', { class: 'prompt', text: prompt }),
-      el('p', { class: 'muted', text: t('test.tapToReveal') }),
+    const faceNode = (valueText, hintKey, side) => el('div', { class: `face ${side}` }, [
+      el('p', { class: 'prompt', text: valueText }),
+      el('p', { class: 'muted', text: t(hintKey) }),
     ]);
-    const reveal = () => {
-      clear(face);
-      face.append(el('p', { class: 'prompt', text: expected }));
-      face.append(el('p', { class: 'muted', text: t('test.swipeIfKnown') }));
+    const face = el('div', { class: 'card deck' }, [
+      el('div', { class: 'faces' }, [
+        faceNode(prompt, 'test.tapToReveal', 'front'),
+        faceNode(expected, 'test.swipeIfKnown', 'back'),
+      ]),
+    ]);
+    face.addEventListener('click', () => flip(face));
+
+    // The card leaves in the direction of the verdict, and only then is the
+    // answer recorded — the sound has already played, hence `silent`.
+    const finish = async (correct) => {
+      // The wash goes on the screen, not the card: the shake and the fly-out
+      // would otherwise fight over the same transform.
+      if (!correct) flashWrong(document.querySelector('#screen'));
+      play(correct ? 'right' : 'wrong');
+      await flyOut(face, correct ? 'right' : 'left');
+      arriving = correct ? 'left' : 'right';
+      answer(correct, true);
     };
-    face.addEventListener('click', reveal);
-    swipeable(face, { onLeft: () => answer(false), onRight: () => answer(true) });
+
+    swipeable(face, {
+      onDrag: (dx) => lift(face, Math.abs(dx) > 8),
+      onLeft: () => finish(false),
+      onRight: () => finish(true),
+    });
     view.append(face);
+    if (arriving) { slideIn(face, arriving); arriving = null; }
     view.append(el('div', { class: 'actions' }, [
-      el('button', { text: t('test.didntKnow'), onclick: () => answer(false) }),
-      el('button', { class: 'primary', text: t('test.knewIt'), onclick: () => answer(true) }),
+      el('button', { text: t('test.didntKnow'), onclick: () => finish(false) }),
+      el('button', { class: 'primary', text: t('test.knewIt'), onclick: () => finish(true) }),
     ]));
     return;
   }
@@ -143,6 +184,8 @@ export function showTestSession(listId) {
       e.preventDefault();
       const verdict = grade(expected, input.value);
       if (verdict === 'correct') return answer(true);
+      flashWrong(document.querySelector('#screen'));
+      play(verdict === 'typo' ? 'typo' : 'wrong');
       showVerdict(form, verdict, expected, input.value);
     },
   }, [input, el('button', { class: 'primary', type: 'submit', text: t('session.check') })]);
@@ -156,10 +199,10 @@ function showVerdict(anchor, verdict, expected, typed) {
                                        : t('session.answerWas', { expected }) }),
     el('p', { class: 'muted', text: t('session.youWrote', { typed }) }),
     el('div', { class: 'row' }, [
-      el('button', { text: t('session.iWasRight'), onclick: () => answer(true) }),
+      el('button', { text: t('session.iWasRight'), onclick: () => answer(true, true) }),
       el('button', { class: 'primary',
         text: verdict === 'typo' ? t('session.gotIt') : t('session.continue'),
-        onclick: () => answer(verdict === 'typo') }),
+        onclick: () => answer(verdict === 'typo', true) }),
     ]),
   ]);
   anchor.replaceWith(panel);

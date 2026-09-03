@@ -56,13 +56,16 @@ export function openDialog(children) {
 
 // Claims the pointer only once horizontal movement clearly dominates, so a
 // vertical drag still scrolls the page.
-export function swipeable(node, { onLeft, onRight, threshold = 0.25 }) {
+export function swipeable(node, { onLeft, onRight, onDrag = () => {}, threshold = 0.25 }) {
   let startX = 0;
   let startY = 0;
   let dragging = false;
   let claimed = false;
 
-  const move = (dx) => { node.style.transform = `translateX(${dx}px) rotate(${dx / 25}deg)`; };
+  const move = (dx) => {
+    node.style.transform = `translateX(${dx}px) rotate(${dx / 25}deg)`;
+    onDrag(dx);
+  };
   const release = () => {
     node.style.transition = 'transform .18s ease-out';
     node.style.transform = '';
@@ -95,9 +98,10 @@ export function swipeable(node, { onLeft, onRight, threshold = 0.25 }) {
     if (!claimed) return;
     const dx = event.clientX - startX;
     const far = Math.abs(dx) > node.offsetWidth * threshold;
-    release();
-    if (!far) return;
-    if (dx > 0) onRight(); else onLeft();
+    // A card that was really swiped is handed to the caller mid-flight: it
+    // must not snap back to centre first.
+    if (!far) return release();
+    if (dx > 0) onRight(dx); else onLeft(dx);
   };
 
   node.addEventListener('pointerup', end);
