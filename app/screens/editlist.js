@@ -7,12 +7,17 @@ import { openImportDialog } from './importdialog.js';
 // New list has no storage yet, so both import blocks stage into this
 // in-memory array instead of writing straight to a list; showNewList's
 // onSave hands it to store.addCards once the list itself is created.
+// Returns { node, flush } rather than a bare node: `flush` is the same
+// staging logic the "Stage pasted text" button calls, exposed so showNewList
+// can also run it at save time. Without that, text left in the box when
+// "Create list" is clicked would be silently discarded — the screen
+// navigates away and takes the unstaged text with it.
 function draftPasteBlock(draftCards, status) {
   const box = el('textarea', {
     placeholder: 'Optional — paste rows: el pan, le pain — one card per line. Tabs work too.',
     rows: '4',
   });
-  const stage = () => {
+  const flush = () => {
     const { cards, errors } = parseCards(box.value);
     if (cards.length) draftCards.push(...cards);
     box.value = '';
@@ -20,13 +25,14 @@ function draftPasteBlock(draftCards, status) {
       ? `Staged ${cards.length}. Skipped lines: ${errors.map((e) => e.line).join(', ')}.`
       : cards.length ? `Staged ${cards.length}.` : '';
   };
-  return el('div', { class: 'io' }, [
+  const node = el('div', { class: 'io' }, [
     el('h3', { text: 'Paste text' }),
     el('p', { class: 'muted', text: 'One card per line, front and back separated by a '
       + 'comma, semicolon, or tab.' }),
     box,
-    el('button', { text: 'Stage pasted text', type: 'button', onclick: stage }),
+    el('button', { text: 'Stage pasted text', type: 'button', onclick: flush }),
   ]);
+  return { node, flush };
 }
 
 function draftFileBlock(draftCards, status) {
@@ -53,16 +59,23 @@ export function showNewList() {
 
   const draftCards = [];
   const status = el('p', { class: 'muted' });
+  const paste = draftPasteBlock(draftCards, status);
 
   view.append(listForm({
     onSave: (fields) => {
+      // Stage whatever is still sitting in the paste box, even if the user
+      // never clicked "Stage pasted text" — this screen navigates away on
+      // save, so unstaged text would otherwise be lost with no warning.
+      // A no-op when the box is already empty (button was clicked, or
+      // nothing was typed).
+      paste.flush();
       const list = store.createList(fields);
       if (draftCards.length) store.addCards(list.id, draftCards);
       ctx.sync?.schedule();
       go(`#/list/${list.id}`);
     },
   }));
-  view.append(draftPasteBlock(draftCards, status));
+  view.append(paste.node);
   view.append(draftFileBlock(draftCards, status));
   view.append(status);
 }
