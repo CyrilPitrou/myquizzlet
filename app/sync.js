@@ -119,7 +119,7 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
   async function syncNow() {
     if (!navigator.onLine) return onStatus('offline');
     try {
-      onStatus('pending');
+      onStatus('syncing');
       await pullAll();
       if (canPush) await pushDirty();
       onStatus(!canPush ? 'off' : store.dirtyKeys().length ? 'pending' : 'synced');

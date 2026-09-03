@@ -36,9 +36,6 @@ function toggle(key, label) {
   ]);
 }
 
-const waitingLine = (n) => (n === 0 ? 'Everything here is saved.'
-  : `${n} change${n === 1 ? '' : 's'} waiting to be saved.`);
-
 function section(title, nodes) {
   return el('section', { class: 'sect' }, [el('h3', { text: title }), ...nodes]);
 }
@@ -48,13 +45,13 @@ const csvFiles = (lists) => {
   return lists.map((list, i) => ({ name: names[i], text: toCsv(list.cards) }));
 };
 
-// One button. It pulls, then pushes what needs pushing, and reports through the
-// status line either way. Without a token the pull still works and the push is
-// skipped; the Token section below says so.
+// The status line is the only thing here that says where sync stands; a second
+// sentence counting dirty keys could disagree with it, and did. One button: it
+// pulls, then pushes what needs pushing. Without a token the pull still works
+// and the push is skipped; the Token section below says so.
 function syncSection() {
   return section('Sync', [
     statusLine(),
-    el('p', { class: 'muted', text: waitingLine(store.dirtyKeys().length) }),
     el('div', { class: 'row' }, [
       el('button', { text: 'Synchronise now', onclick: () => ctx.sync.syncNow().then(ctx.render) }),
     ]),

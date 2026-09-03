@@ -120,7 +120,7 @@ button.link { background: none; border: none; color: var(--bad); font-size: 1rem
 .verdict.typo { border-left: 4px solid var(--accent); padding-left: .75rem; }
 
 .dot.synced { color: var(--ok); }
-.dot.pending { color: var(--accent); }
+.dot.pending, .dot.syncing { color: var(--accent); }
 .dot.error { color: var(--bad); }
 .dot.offline, .dot.off { color: var(--muted); }
 
