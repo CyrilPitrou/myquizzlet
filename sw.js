@@ -1,9 +1,10 @@
-const CACHE = 'myquizzlet-v23';
+const CACHE = 'myquizzlet-v24';
 const SHELL = [
   './', './index.html', './manifest.webmanifest', './app/style.css',
   './icons/icon-192.png', './icons/icon-512.png',
   './app/main.js', './app/app.js', './app/status.js', './app/ui.js',
   './app/fx.js', './app/audio.js',
+  './app/messages.js', './app/messages.en.js', './app/messages.fr.js',
   './app/i18n.js', './app/i18n.en.js', './app/i18n.fr.js',
   './app/screens/help.en.js', './app/screens/help.fr.js',
   './app/store.js', './app/github.js', './app/sync.js', './app/srs.js',
