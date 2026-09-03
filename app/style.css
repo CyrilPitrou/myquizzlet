@@ -90,7 +90,7 @@ h3 { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase;
   text-transform: uppercase; letter-spacing: .05em; margin: .5rem 0; }
 .listrow { display: flex; flex-direction: column; gap: .15rem;
   padding: .4rem 0; border-bottom: 1px solid var(--rule);
-  width: fit-content; min-width: 16rem; max-width: 100%;
+  width: fit-content; min-width: 24rem; max-width: 100%;
   text-decoration: none; color: var(--ink); }
 .listrow .listname { font-size: 1.05rem; }
 .listcount { color: var(--muted); font-size: .9rem; }
@@ -140,6 +140,7 @@ button.link { background: none; border: none; color: var(--bad); font-size: 1rem
 .verdict.wrong { border-left: 4px solid var(--bad); padding-left: .75rem; }
 .verdict.typo { border-left: 4px solid var(--accent); padding-left: .75rem; }
 
+#sync-dot:disabled { cursor: default; opacity: 1; }
 .dot.synced { color: var(--ok); }
 .dot.pending, .dot.syncing { color: var(--accent); }
 .dot.error { color: var(--bad); }
@@ -196,12 +197,13 @@ section.sect:last-child { border-bottom: none; }
 
 /* Two faces, both in the DOM, so a flip is a class toggle rather than a
    re-render — an element that is rebuilt has no old state to animate from. */
-.card { position: relative; perspective: 1000px; margin: 1.25rem 0; min-height: 9rem;
+.card { position: relative; perspective: 1000px; margin: 1.25rem 0; min-height: 12rem;
   text-align: center; cursor: pointer; user-select: none; touch-action: pan-y; }
 .card .faces { position: relative; transform-style: preserve-3d;
-               transition: transform .35s ease; min-height: 9rem; }
+               transition: transform .35s ease; min-height: 12rem;
+               display: grid; }
 .card.flipped .faces { transform: rotateY(180deg); }
-.card .face { position: absolute; inset: 0; backface-visibility: hidden;
+.card .face { grid-area: 1 / 1; backface-visibility: hidden;
               display: flex; flex-direction: column; align-items: center;
               justify-content: center; gap: .5rem;
               border: 1px solid var(--rule); border-radius: 14px;

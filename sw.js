@@ -1,4 +1,4 @@
-const CACHE = 'myquizzlet-v27';
+const CACHE = 'myquizzlet-v28';
 const SHELL = [
   './', './index.html', './manifest.webmanifest', './app/style.css',
   './icons/icon-192.png', './icons/icon-512.png',
