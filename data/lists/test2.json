@@ -1,0 +1,17 @@
+{
+  "id": "test2",
+  "name": "Test2",
+  "folder": "French",
+  "frontLabel": "French",
+  "backLabel": "English",
+  "frontLang": "fr",
+  "backLang": "en",
+  "cards": [
+    {
+      "id": "nytump",
+      "front": "pain",
+      "back": "bread"
+    }
+  ],
+  "updatedAt": "2026-09-03T10:52:55.193Z"
+}
