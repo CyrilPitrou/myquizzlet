@@ -33,7 +33,7 @@ worst case is one word coming back a day early.
 | Green | Everything is on GitHub | None |
 | Amber | Changes waiting to push | None; it happens on its own |
 | Grey | Offline, changes queued | None; catches up on reconnect |
-| Red | A push failed | Settings → read the message → *Retry* |
+| Red | A push failed | Settings → read the message → *Synchronise now* |
 
 Failure must always be visible. A silent sync failure that eats a week of edits
 is the worst outcome this design guards against; a red dot and a working retry

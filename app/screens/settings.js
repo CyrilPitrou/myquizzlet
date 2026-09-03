@@ -1,6 +1,6 @@
 import { el } from '../ui.js';
 import { store, settings, saveSettings, REPO, screen, ctx, todayStr } from '../app.js';
-import { setStatus, statusLine } from '../status.js';
+import { statusLine } from '../status.js';
 import { maskToken, expiryWarning } from '../setup.js';
 import { toCsv } from '../csv.js';
 import { zip, entryNames } from '../zip.js';
@@ -48,17 +48,15 @@ const csvFiles = (lists) => {
   return lists.map((list, i) => ({ name: names[i], text: toCsv(list.cards) }));
 };
 
-// Pull works on a public repo without a token, so these buttons stay whatever
-// the token situation is; only pushing needs one, and the Token section below
-// says so.
+// One button. It pulls, then pushes what needs pushing, and reports through the
+// status line either way. Without a token the pull still works and the push is
+// skipped; the Token section below says so.
 function syncSection() {
   return section('Sync', [
     statusLine(),
     el('p', { class: 'muted', text: waitingLine(store.dirtyKeys().length) }),
     el('div', { class: 'row' }, [
-      el('button', { text: 'Pull now', onclick: () => ctx.sync.pullAll().then(ctx.render).catch((e) => setStatus('error', e.message)) }),
-      el('button', { text: 'Push now', onclick: () => ctx.sync.pushDirty().then(ctx.render).catch((e) => setStatus('error', e.message)) }),
-      el('button', { text: 'Retry', onclick: () => ctx.sync.syncNow().then(ctx.render) }),
+      el('button', { text: 'Synchronise now', onclick: () => ctx.sync.syncNow().then(ctx.render) }),
     ]),
   ]);
 }
