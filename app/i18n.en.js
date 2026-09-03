@@ -88,7 +88,7 @@ export const en = {
   'form.save': 'Save',
   'form.create': 'Create list',
   'cards.paste.heading': 'Paste text',
-  'cards.paste.hint': 'One card per line, front and back separated by a comma, semicolon, or tab.',
+  'cards.paste.hint': 'One card per line, front and back separated by a comma, semicolon, or tab. For a side of several lines, write \\n between them, or put the whole side in quotes.',
   'cards.paste.placeholder': 'Paste rows: el pan, le pain — one card per line. Tabs work too.',
   'cards.paste.button': 'Import pasted text',
   'cards.imported_one': 'Imported {n}.',

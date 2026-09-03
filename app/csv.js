@@ -41,17 +41,53 @@ function splitLine(line, delimiter) {
     }
   }
   fields.push(field);
-  return fields.map((f) => f.trim());
+  return fields.map((f) => unescapeBreaks(f).trim());
 }
 
-// One line, still carrying its own delimiter choice — tab first (it can't
-// appear naturally in prose text), then semicolon, else comma. Returns null
-// for a blank line (nothing to show, nothing to report), otherwise always a
-// { front, back, error } row: even a line that fails to parse gets *some*
+// The second way to write a line break, for text typed by hand: a literal
+// backslash-n, so one card can stay on one line. Unescaping before trimming
+// is what makes the rule the same as the card editor's — blank ends dropped,
+// breaks inside kept. A field holding a real backslash-n as text would be
+// changed by this; a vocabulary card never does.
+function unescapeBreaks(field) {
+  return field.replace(/\\n/g, '\n');
+}
+
+// Records, not lines: a newline between quotes belongs to its field, so a card
+// side may be several lines — the six forms of a tense. Splitting the text on
+// newlines first, as this used to, made such a card unreadable, including one
+// this module had itself exported: toCsv already quotes a field containing a
+// newline. Each record remembers the physical line it started on, because that
+// is the number the import dialog shows.
+//
+// An unterminated quote is reported rather than silently swallowing the rest
+// of the file into one card, which is the one bad failure this format has.
+function splitRecords(text) {
+  const records = [];
+  let current = '';
+  let line = 1;
+  let start = 1;
+  let quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (quoted && c === '"' && text[i + 1] === '"') { current += '""'; i++; }
+    else if (c === '"') { quoted = !quoted; current += c; }
+    else if (c === '\n' && !quoted) { records.push({ text: current, line: start }); current = ''; start = ++line; }
+    else { if (c === '\n') line++; current += c; }
+  }
+  records.push({ text: current, line: start });
+  return { records, unterminated: quoted };
+}
+
+// One record, carrying its own delimiter choice — tab first (it can't appear
+// naturally in prose text), then semicolon, else comma. Returns null for a
+// blank record (nothing to show, nothing to report), otherwise always a
+// { front, back, error } row: even a record that fails to parse gets *some*
 // front/back text, because the import dialog needs a row to make it editable.
-function parseLine(line) {
-  const trimmed = line.trim();
+function parseRecord(record, unterminated = false) {
+  const trimmed = record.trim();
   if (trimmed === '') return null;
+  if (unterminated) return { front: trimmed, back: '', error: 'unterminated quote' };
   const delimiter = findDelimiter(trimmed);
   const fields = splitLine(trimmed, delimiter);
   if (fields.length < 2) return { front: trimmed, back: '', error: 'no separator found' };
@@ -61,22 +97,32 @@ function parseLine(line) {
   return { front, back, error: null };
 }
 
+// Both entry points read the same rows; they differ only in what they keep.
+// CRLF is normalised once, here, so no later step has to know about it — a
+// \r\n inside a quoted field is a line break like any other.
+function rows(text) {
+  const { records, unterminated } = splitRecords(String(text).replace(/\r\n/g, '\n'));
+  return records.map((record, index) => {
+    const last = index === records.length - 1;
+    const parsed = parseRecord(record.text, unterminated && last);
+    return parsed && { ...parsed, line: record.line };
+  }).filter((row) => row);
+}
+
 export function parseCards(text) {
   const cards = [];
   const errors = [];
-  String(text).split(/\r?\n/).forEach((raw, index) => {
-    const parsed = parseLine(raw);
-    if (!parsed) return;
-    if (parsed.error) errors.push({ line: index + 1, reason: parsed.error });
-    else cards.push({ front: parsed.front, back: parsed.back });
-  });
+  for (const row of rows(text)) {
+    if (row.error) errors.push({ line: row.line, reason: row.error });
+    else cards.push({ front: row.front, back: row.back });
+  }
   return { cards, errors };
 }
 
-// Same per-line parse as parseCards, but keeps every non-blank line — including
-// the failed ones — in original order, for an editable preview.
+// Same parse as parseCards, but keeps every non-blank record — including the
+// failed ones — in original order, for an editable preview.
 export function previewRows(text) {
-  return String(text).split(/\r?\n/).map(parseLine).filter((row) => row !== null);
+  return rows(text).map(({ front, back, error }) => ({ front, back, error }));
 }
 
 function quote(value) {

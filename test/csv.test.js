@@ -59,6 +59,43 @@ describe('parseCards', () => {
   it('handles CRLF line endings', () => {
     expect(parseCards('a,b\r\nc,d').cards).toHaveLength(2);
   });
+
+  it('keeps a newline inside a quoted field', () => {
+    expect(parseCards('"yo fui\ntú fuiste",ser').cards)
+      .toEqual([{ front: 'yo fui\ntú fuiste', back: 'ser' }]);
+  });
+
+  it('keeps a blank line inside a quoted field rather than ending the card', () => {
+    expect(parseCards('"a\n\nb",c').cards).toEqual([{ front: 'a\n\nb', back: 'c' }]);
+  });
+
+  it('normalises CRLF inside a quoted field', () => {
+    expect(parseCards('"a\r\nb",c').cards).toEqual([{ front: 'a\nb', back: 'c' }]);
+  });
+
+  it('counts physical lines, so a record after a multi-line one is reported correctly', () => {
+    const result = parseCards('"a\nb",c\noops');
+    expect(result.errors).toEqual([{ line: 3, reason: 'no separator found' }]);
+  });
+
+  it('reports an unterminated quote instead of swallowing the rest of the file', () => {
+    const result = parseCards('a,b\n"oops,c\nd,e');
+    expect(result.cards).toEqual([{ front: 'a', back: 'b' }]);
+    expect(result.errors).toEqual([{ line: 2, reason: 'unterminated quote' }]);
+  });
+
+  it('turns a backslash-n escape into a line break', () => {
+    expect(parseCards('ser,yo fui\\ntú fuiste').cards)
+      .toEqual([{ front: 'ser', back: 'yo fui\ntú fuiste' }]);
+  });
+
+  it('turns a backslash-n escape inside a quoted field into a line break', () => {
+    expect(parseCards('"a\\nb",c').cards).toEqual([{ front: 'a\nb', back: 'c' }]);
+  });
+
+  it('trims the ends of a field but keeps the breaks inside it', () => {
+    expect(parseCards('  \\na\\nb\\n  ,c').cards).toEqual([{ front: 'a\nb', back: 'c' }]);
+  });
 });
 
 describe('toCsv', () => {
@@ -75,6 +112,11 @@ describe('toCsv', () => {
     expect(toCsv([{ front: 'a;b', back: 'c' }])).toBe('"a;b",c');
   });
 
+  it('round-trips a card whose side has several lines', () => {
+    const cards = [{ front: 'yo fui\ntú fuiste\nél fue', back: 'ser — pretérito' }];
+    expect(parseCards(toCsv(cards)).cards).toEqual(cards);
+  });
+
   it('round-trips cards with semicolons, commas, and tabs', () => {
     const cards = [
       { front: 'a;b', back: 'c,d' },
@@ -89,6 +131,13 @@ describe('previewRows', () => {
     expect(previewRows('a,b\n\nc,d')).toEqual([
       { front: 'a', back: 'b', error: null },
       { front: 'c', back: 'd', error: null },
+    ]);
+  });
+
+  it('returns one row per record, not one per physical line', () => {
+    expect(previewRows('"a\nb",c\nd,e')).toEqual([
+      { front: 'a\nb', back: 'c', error: null },
+      { front: 'd', back: 'e', error: null },
     ]);
   });
 

@@ -278,8 +278,8 @@ dialog.dialog h2 { margin-top: 0; }
 .import-rows { max-height: 45vh; overflow-y: auto; margin: .75rem 0; }
 .import-row { display: flex; gap: .4rem; align-items: center; padding: .4rem 0;
   border-bottom: 1px solid var(--rule); }
-.import-row input { flex: 1; min-width: 0; }
-.import-row.error input { border-color: var(--bad); }
+.import-row textarea { flex: 1; min-width: 0; resize: none; overflow: hidden; }
+.import-row.error textarea { border-color: var(--bad); }
 .import-row .reason { font-size: .8rem; color: var(--bad); white-space: nowrap; }
 .dialog-actions { display: flex; justify-content: flex-end; gap: .5rem; margin-top: .75rem; }
 

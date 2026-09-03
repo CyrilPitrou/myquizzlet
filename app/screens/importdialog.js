@@ -1,4 +1,4 @@
-import { el, clear, openDialog } from '../ui.js';
+import { el, clear, openDialog, growable } from '../ui.js';
 import { previewRows } from '../csv.js';
 import { t } from '../i18n.js';
 
@@ -28,8 +28,10 @@ function rowNode(row, onChange, onRemove) {
     };
   }
 
-  const frontInput = el('input', { value: row.front, oninput: edit('front') });
-  const backInput = el('input', { value: row.back, oninput: edit('back') });
+  // Textareas, not inputs: an imported side may be several lines, and an
+  // input would show it as one and flatten it on the first keystroke.
+  const frontInput = growable(row.front, { oninput: edit('front') });
+  const backInput = growable(row.back, { oninput: edit('back') });
   const removeBtn = el('button', {
     class: 'link', text: '✕', title: t('import.remove.title'), type: 'button', onclick: onRemove,
   });

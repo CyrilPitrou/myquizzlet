@@ -87,7 +87,7 @@ export const fr = {
   'form.save': 'Enregistrer',
   'form.create': 'Créer la liste',
   'cards.paste.heading': 'Coller du texte',
-  'cards.paste.hint': 'Une carte par ligne, recto et verso séparés par une virgule, un point-virgule ou une tabulation.',
+  'cards.paste.hint': 'Une carte par ligne, recto et verso séparés par une virgule, un point-virgule ou une tabulation. Pour un côté de plusieurs lignes, écrivez \\n entre elles, ou mettez tout le côté entre guillemets droits.',
   'cards.paste.placeholder': 'Collez des lignes : el pan, le pain — une carte par ligne. Les tabulations marchent aussi.',
   'cards.paste.button': 'Importer le texte collé',
   'cards.imported_one': '{n} importée.',
