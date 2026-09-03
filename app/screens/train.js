@@ -3,6 +3,7 @@ import { store, screen, go, todayStr, ctx } from '../app.js';
 import { pickBatch, choices, startBatch, currentKey, currentLevel, advance } from '../train.js';
 import { newItem, nextItem, parseKey } from '../srs.js';
 import { grade } from '../grade.js';
+import { t } from '../i18n.js';
 
 const BATCH = 8;
 
@@ -44,32 +45,31 @@ export function showTrainSetup(id) {
   if (!list) return go('#/');
   const view = screen();
   view.append(el('a', { href: `#/list/${id}`, class: 'back', text: `← ${list.name}` }));
-  view.append(el('h2', { text: 'Train' }));
-  view.append(el('p', { class: 'muted', text: 'Eight words at a time. Pick the answer from '
-    + 'four until it sticks, then type it. New words first, then whatever is shakiest.' }));
+  view.append(el('h2', { text: t('train.title') }));
+  view.append(el('p', { class: 'muted', text: t('train.blurb') }));
 
-  const front = list.frontLabel || 'Front';
-  const back = list.backLabel || 'Back';
+  const front = list.frontLabel || t('side.front');
+  const back = list.backLabel || t('side.back');
   const radio = (value, label, checked) => el('label', { class: 'opt' }, [
     el('input', { type: 'radio', name: 'dir', value, ...(checked ? { checked: 'checked' } : {}) }),
     label,
   ]);
   const dirs = el('div', { class: 'opts' }, [
-    radio('both', 'Both directions', setup.directions.length === 2),
-    radio('f2b', `${front} → ${back}`, setup.directions.join() === 'f2b'),
-    radio('b2f', `${back} → ${front}`, setup.directions.join() === 'b2f'),
+    radio('both', t('train.dir.both'), setup.directions.length === 2),
+    radio('f2b', t('train.dir.f2b', { front, back }), setup.directions.join() === 'f2b'),
+    radio('b2f', t('train.dir.f2b', { front: back, back: front }), setup.directions.join() === 'b2f'),
   ]);
   view.append(dirs);
 
   view.append(el('button', {
-    class: 'primary', text: 'Start',
+    class: 'primary', text: t('train.start'),
     onclick: () => {
       const dir = dirs.querySelector('input:checked').value;
       setup.directions = dir === 'both' ? ['f2b', 'b2f'] : [dir];
       session = { listId: id, directions: setup.directions, done: [], batch: null,
                   right: 0, wrong: 0, justRefilled: false };
       refill();
-      if (!session.batch) { alert('Nothing left to train in this list.'); return; }
+      if (!session.batch) { alert(t('train.nothingLeft')); return; }
       go(`#/train/${id}/go`);
     },
   }));
@@ -104,21 +104,22 @@ export function showTrainSession(id) {
   const list = store.getList(id);
   const view = screen();
   view.append(el('div', { class: 'sessionbar' }, [
-    el('a', { class: 'back', href: `#/list/${id}`, text: '← Quit' }),
-    el('span', { class: 'muted', text: `${session.done.length} learned · ${session.right} right · ${session.wrong} wrong` }),
+    el('a', { class: 'back', href: `#/list/${id}`, text: t('session.quit') }),
+    el('span', { class: 'muted', text: t('session.tally',
+      { done: session.done.length, right: session.right, wrong: session.wrong }) }),
   ]));
 
   if (!session.batch) {
-    view.append(el('h2', { text: 'Done' }));
-    view.append(el('p', { text: `${session.done.length} word(s) trained. `
-      + `${session.right} right, ${session.wrong} wrong.` }));
-    view.append(el('a', { class: 'btn', href: `#/list/${id}`, text: 'Back to the list' }));
+    view.append(el('h2', { text: t('session.done') }));
+    view.append(el('p', { text: t('train.done.count',
+      { n: session.done.length, right: session.right, wrong: session.wrong }) }));
+    view.append(el('a', { class: 'btn', href: `#/list/${id}`, text: t('session.backToList') }));
     session = null;
     return;
   }
 
   if (session.justRefilled) {
-    view.append(el('p', { class: 'muted', text: `${session.done.length} done — carrying on` }));
+    view.append(el('p', { class: 'muted', text: t('train.carryOn', { n: session.done.length }) }));
     session.justRefilled = false;
   }
 
@@ -144,23 +145,25 @@ export function showTrainSession(id) {
   }
 
   const input = el('input', { class: 'answer-input', autocapitalize: 'none',
-    autocorrect: 'off', spellcheck: 'false', placeholder: 'your answer' });
+    autocorrect: 'off', spellcheck: 'false', placeholder: t('session.answerPlaceholder') });
   const form = el('form', {
     onsubmit: (event) => {
       event.preventDefault();
       const verdict = grade(expected, input.value);
       if (verdict === 'correct') return answered(true, false);
       form.replaceWith(el('div', { class: `verdict ${verdict}` }, [
-        el('p', { text: verdict === 'typo' ? `Almost — it is “${expected}”` : `Answer: ${expected}` }),
-        el('p', { class: 'muted', text: `you wrote: ${input.value}` }),
+        el('p', { text: verdict === 'typo' ? t('session.typo', { expected })
+                                           : t('session.answerWas', { expected }) }),
+        el('p', { class: 'muted', text: t('session.youWrote', { typed: input.value }) }),
         el('div', { class: 'row' }, [
-          el('button', { text: 'I was right', onclick: () => answered(true, false) }),
-          el('button', { class: 'primary', text: verdict === 'typo' ? 'Got it' : 'Continue',
+          el('button', { text: t('session.iWasRight'), onclick: () => answered(true, false) }),
+          el('button', { class: 'primary',
+            text: verdict === 'typo' ? t('session.gotIt') : t('session.continue'),
             onclick: () => answered(verdict === 'typo', false) }),
         ]),
       ]));
     },
-  }, [input, el('button', { class: 'primary', type: 'submit', text: 'Check' })]);
+  }, [input, el('button', { class: 'primary', type: 'submit', text: t('session.check') })]);
   view.append(form);
   input.focus();
 }
