@@ -1,6 +1,6 @@
 {
   "listId": "capitales",
-  "updatedAt": "2026-09-03T22:44:01.461Z",
+  "updatedAt": "2026-09-03T22:44:12.564Z",
   "items": {
     "y0hwq6:f2b": {
       "box": 2,
@@ -147,6 +147,38 @@
       "level": 1
     },
     "j4hbf0:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "f7qtc3:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "z1qsr7:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "t2mzg8:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 0
+    },
+    "m5hqe0:f2b": {
       "box": 1,
       "due": "2026-09-03",
       "seen": 0,
