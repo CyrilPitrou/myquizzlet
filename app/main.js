@@ -1,6 +1,7 @@
 import { $ } from './ui.js';
 import { ctx, settings, go, store, REPO } from './app.js';
 import { setStatus } from './status.js';
+import { t, lang, setLang } from './i18n.js';
 import { createGitHub } from './github.js';
 import { createSync } from './sync.js';
 import { showLists } from './screens/lists.js';
@@ -36,7 +37,27 @@ function showConflict({ listId, resolve }) {
   resolve('local');
 }
 
+// The button shows the flag of the language you are in — a status you can
+// tap. Its title names the action, so the affordance is not left to the flag.
+function paintLang() {
+  const button = $('#lang');
+  button.textContent = lang() === 'fr' ? '🇫🇷' : '🇬🇧';
+  button.title = t('nav.lang');
+  button.setAttribute('aria-label', t('nav.lang'));
+
+  const nav = { '#/new': 'nav.new', '#/folders': 'nav.folders',
+                '#/': 'nav.lists', '#/settings': 'nav.settings', '#/help': 'nav.help' };
+  for (const [href, key] of Object.entries(nav)) {
+    const link = document.querySelector(`#topbar a[href="${href}"]`);
+    if (!link) continue;
+    link.title = t(key);
+    link.setAttribute('aria-label', t(key));
+    if (!link.classList.contains('icon')) link.textContent = t(key);
+  }
+}
+
 function render() {
+  paintLang();
   const [path] = location.hash.split('?');
   $('#topbar').classList.toggle('session', /\/(train|test)\/[^/]+\/go$/.test(path));
   const [, route, arg, sub] = path.split('/');
@@ -63,6 +84,7 @@ ctx.render = render;
 ctx.initSync = initSync;
 
 window.addEventListener('hashchange', render);
+$('#lang').addEventListener('click', () => setLang(lang() === 'fr' ? 'en' : 'fr'));
 // The browser's install offer can arrive while Help is already on screen,
 // and installing removes the reason to show the section at all.
 onInstallChange(() => { if (location.hash.startsWith('#/help')) render(); });

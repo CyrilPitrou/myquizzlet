@@ -11,8 +11,9 @@
     // Runs before first paint. main.js is a module and therefore deferred, so
     // without this the app flashes the default theme on every launch.
     try {
-      const theme = JSON.parse(localStorage.getItem('mq:settings') || '{}').theme;
-      if (theme && theme !== 'paper') document.documentElement.dataset.theme = theme;
+      const saved = JSON.parse(localStorage.getItem('mq:settings') || '{}');
+      if (saved.theme && saved.theme !== 'paper') document.documentElement.dataset.theme = saved.theme;
+      if (saved.lang === 'fr') document.documentElement.lang = 'fr';
     } catch (error) { /* a corrupt settings blob is not worth a blank screen */ }
   </script>
 </head>
@@ -23,6 +24,7 @@
     <a href="#/" class="nav" title="Lists">Lists</a>
     <a href="#/settings" class="nav icon" title="Settings" aria-label="Settings">⚙</a>
     <a href="#/help" class="nav icon" title="Help" aria-label="Help">?</a>
+    <button id="lang" class="nav icon" type="button"></button>
     <span id="sync-dot" title="No token — read-only">⊘</span>
   </header>
   <main id="screen"></main>
