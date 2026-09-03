@@ -85,6 +85,22 @@ ctx.render = render;
 ctx.initSync = initSync;
 
 window.addEventListener('hashchange', render);
+
+// Page load is not a reliable moment to sync on a phone: the app is kept
+// alive in the background for days, so it can go that long without ever
+// pulling, and an edit made just before the screen locks can outlive the 4s
+// push debounce. Coming back to the app, or back online, is the real moment.
+// Redraw afterwards so pulled changes are visible — but never mid-session,
+// where a redraw would restart the round the user is in the middle of.
+const resync = () => {
+  ctx.sync?.syncNow().then(() => {
+    if (!/\/(train|test)\/[^/]+\/go$/.test(location.hash.split('?')[0])) render();
+  });
+};
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') resync();
+});
+window.addEventListener('online', resync);
 $('#lang').addEventListener('click', () => setLang(lang() === 'fr' ? 'en' : 'fr'));
 // The browser's install offer can arrive while Help is already on screen,
 // and installing removes the reason to show the section at all.
