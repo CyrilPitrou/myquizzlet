@@ -123,7 +123,9 @@ export function showSettings() {
   view.append(el('a', { href: '#/', class: 'back', text: '← Lists' }));
   view.append(el('h2', { text: 'Settings' }));
 
-  if (!isInstalled()) {
+  // Hidden once the browser says so, once a home-screen launch says so, or
+  // once you have said so — the last because a Firefox shortcut says nothing.
+  if (!isInstalled() && !current.installHidden) {
     view.append(section('Install', [
       el('p', { class: 'muted', text: 'This is running in a browser tab. Installing gives it a '
         + 'home-screen icon and its own window, and it keeps working with no signal.' }),
@@ -143,6 +145,16 @@ export function showSettings() {
         el('li', { text: 'Samsung Internet: ≡ → Add page to → Home screen.' }),
         el('li', { text: 'iPhone: Share → Add to Home Screen.' }),
       ])]),
+      el('p', { class: 'muted', text: 'Firefox makes a shortcut rather than a real app: it '
+        + 'still works offline, but it opens in Firefox and cannot announce itself as '
+        + 'installed. Hide this section by hand once you have done it.' }),
+      el('button', {
+        text: 'Already installed — hide this',
+        onclick: () => {
+          saveSettings({ ...settings(), installHidden: true });
+          ctx.render();
+        },
+      }),
     ]));
   }
 
@@ -263,6 +275,12 @@ export function showSettings() {
 
   view.append(section('About', [
     el('p', {}, [el('a', { href: '#/help', text: 'What Train and Test are for, and what the numbers mean' })]),
+    ...(current.installHidden && !isInstalled() ? [el('p', { class: 'muted' }, [
+      el('a', {
+        href: '#/settings', text: 'Show the install instructions again',
+        onclick: () => { saveSettings({ ...settings(), installHidden: false }); ctx.render(); },
+      }),
+    ])] : []),
     el('p', { class: 'muted' }, [
       'MyQuizzlet · ',
       el('a', { href: `https://github.com/${REPO}`, target: '_blank', rel: 'noopener', text: 'source on GitHub' }),

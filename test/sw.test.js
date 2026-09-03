@@ -34,6 +34,17 @@ describe('the service worker shell', () => {
     expect(icons.filter((path) => !shell.includes(path))).toEqual([]);
   });
 
+  // install.js hides the Install section when it sees this marker, which is
+  // the only signal a Firefox home-screen shortcut gives — it never reports
+  // display-mode: standalone. Drop the marker and that section nags forever.
+  it('starts from a url carrying the marker install.js looks for', () => {
+    const manifest = JSON.parse(readFileSync(new URL('manifest.webmanifest', root), 'utf8'));
+    const marker = new URL(manifest.start_url, 'https://x/').searchParams;
+    expect([...marker.keys()]).toContain('home');
+    const install = readFileSync(new URL('app/install.js', root), 'utf8');
+    expect(install).toContain("has('home')");
+  });
+
   it('names a cache version, which every shell change must move', () => {
     expect(sw).toMatch(/const CACHE = 'myquizzlet-v\d+';/);
   });
