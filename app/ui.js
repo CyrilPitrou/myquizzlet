@@ -40,6 +40,18 @@ export function menu(items) {
   return el('div', { class: 'menu' }, [button, pop]);
 }
 
+// A native <dialog>-backed modal. The caller supplies its full content,
+// including whatever closes it (a button calling the returned node's
+// .close()) — Escape and .close() both fire the dialog's own 'close' event,
+// which is the only cleanup needed: no framework, no extra dismissal logic.
+export function openDialog(children) {
+  const node = el('dialog', { class: 'dialog' }, children);
+  document.body.append(node);
+  node.addEventListener('close', () => node.remove());
+  node.showModal();
+  return node;
+}
+
 // Claims the pointer only once horizontal movement clearly dominates, so a
 // vertical drag still scrolls the page.
 export function swipeable(node, { onLeft, onRight, threshold = 0.25 }) {

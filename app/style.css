@@ -41,6 +41,7 @@
 }
 
 :root { --chip-paper: #faf7f2; --chip-study: #f1f3f9; --chip-focus: #0f1720; }
+:root { --backdrop: rgba(0, 0, 0, .45); }
 
 *, *::before, *::after { box-sizing: border-box; }
 body { margin: 0; font: 16px/1.5 system-ui, sans-serif; background: var(--ground); color: var(--ink); }
@@ -190,3 +191,15 @@ section.sect:last-child { border-bottom: none; }
   padding: .75rem; margin-top: 1rem; }
 .optin h4 { margin: 0 0 .35rem; }
 .optin .qr-card { max-width: 14rem; }
+
+dialog.dialog { border: 1px solid var(--rule); border-radius: 14px; background: var(--surface);
+  color: var(--ink); padding: 1.25rem; max-width: 30rem; width: 90vw; }
+dialog.dialog::backdrop { background: var(--backdrop); }
+dialog.dialog h2 { margin-top: 0; }
+.import-rows { max-height: 45vh; overflow-y: auto; margin: .75rem 0; }
+.import-row { display: flex; gap: .4rem; align-items: center; padding: .4rem 0;
+  border-bottom: 1px solid var(--rule); }
+.import-row input { flex: 1; min-width: 0; }
+.import-row.error input { border-color: var(--bad); }
+.import-row .reason { font-size: .8rem; color: var(--bad); white-space: nowrap; }
+.dialog-actions { display: flex; justify-content: flex-end; gap: .5rem; margin-top: .75rem; }
