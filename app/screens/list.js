@@ -101,6 +101,7 @@ export function showList(id) {
   view.append(el('a', { href: '#/', class: 'back', text: t('common.back.lists') }));
   view.append(el('div', { class: 'listhead' }, [
     el('h2', { text: list.name }),
+    el('span', { class: 'listcount', text: t('common.cards', { n: stats.cards }) }),
     menu([
       { label: t('list.menu.rename'), onclick: () => renameList(list) },
       { label: t('list.menu.move'), onclick: () => moveToFolder(list) },
@@ -115,11 +116,9 @@ export function showList(id) {
 
   view.append(el('div', { class: 'liststats' }, [
     el('span', { text: list.folder || t('common.unfiled') }),
-    el('span', { text: t('common.cards', { n: stats.cards }) }),
     el('span', { text: `${list.frontLabel || t('side.front')} → ${list.backLabel || t('side.back')}` }),
   ]));
   view.append(el('div', { class: 'liststats' }, [
-    el('span', { class: 'bar' }, [el('span', { style: `width:${stats.learnedPct}%` })]),
     el('span', { text: t('common.learnedPct', { n: stats.learnedPct }) }),
     stats.rightPct === null ? el('span', { text: t('common.notStudied') })
                             : el('span', { text: t('common.rightPct', { n: stats.rightPct }) }),

@@ -67,9 +67,6 @@ h3 { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase;
   color: var(--muted); font-size: .9rem; }
 .liststats > *:not(:first-child):not(.badge)::before { content: '·'; margin-right: .5rem; color: var(--rule); }
 .liststats .badge { white-space: nowrap; }
-.bar { width: 84px; height: 6px; border-radius: 999px; background: var(--rule);
-  display: inline-block; vertical-align: middle; margin: 0 .25em; }
-.bar > span { display: block; height: 100%; border-radius: 999px; background: var(--accent); }
 .recent { margin-bottom: 1.5rem; }
 .recent h3, .all h3 { color: var(--muted); font-size: .85rem;
   text-transform: uppercase; letter-spacing: .05em; margin: .5rem 0; }
@@ -77,6 +74,8 @@ h3 { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase;
   padding: .4rem 0; border-bottom: 1px solid var(--rule);
   text-decoration: none; color: var(--ink); }
 .listrow .listname { font-size: 1.05rem; }
+.rowhead { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem; }
+.listcount { color: var(--muted); font-size: .9rem; white-space: nowrap; }
 
 .row { display: flex; justify-content: space-between; align-items: center; gap: .5rem;
        padding: .6rem 0; border-bottom: 1px solid var(--rule); }
