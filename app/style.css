@@ -66,6 +66,10 @@ h3 { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase;
 .liststats { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap;
   color: var(--muted); font-size: .9rem; }
 .liststats > *:not(:first-child)::before { content: '·'; margin-right: .5rem; color: var(--rule); }
+.liststats.cols { display: grid; overflow-x: auto;
+  grid-template-columns: minmax(3rem, 1.1fr) minmax(2.75rem, .8fr) minmax(90px, 2.2fr)
+                          minmax(4.5rem, 1.2fr) minmax(4.5rem, 1.2fr); }
+.liststats.cols > *:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .bar { width: 84px; height: 6px; border-radius: 999px; background: var(--rule);
   display: inline-block; vertical-align: middle; margin: 0 .25em; }
 .bar > span { display: block; height: 100%; border-radius: 999px; background: var(--accent); }
