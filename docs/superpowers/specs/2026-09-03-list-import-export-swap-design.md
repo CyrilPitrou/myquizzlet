@@ -1,6 +1,7 @@
 # List import/export, side-swap, and PDF export — design
 
-Status: approved, not yet implemented.
+Status: implemented, 2026-09-03. §4 was amended after the fact to describe
+what shipped — see the note on staging at the end of that section.
 
 ## Problem
 
@@ -144,15 +145,23 @@ Both "Edit cards" (`cards.js`) and "New list" (`editlist.js`'s
 mixing a paste textarea and a bare file input. Both are restructured into two
 clearly headed blocks:
 
-- **"Paste text"** — the existing textarea + "Import pasted text" button,
-  behavior unchanged (immediate import, no preview step), with a one-line
-  instruction ("one card per line, front and back separated by a comma,
-  semicolon, or tab").
+- **"Paste text"** — the existing textarea, with a one-line instruction ("one
+  card per line, front and back separated by a comma, semicolon, or tab") and
+  a button that parses it with no preview step. In "Edit cards" the button
+  reads "Import pasted text" and the behavior is unchanged from today:
+  immediate import into the list. In "New list" it reads "Stage pasted text"
+  and adds to the draft instead — there is no list to import into yet.
 - **"Import file"** — a button opening the shared dialog from §1, with a
   one-line instruction ("CSV, TSV, or text file").
 
 In "Edit cards", commit writes straight to the list (`store.addCards`). In
 "New list", commit stages cards into the draft, per §1.
+
+Because "New list" navigates away on save, creating the list also stages
+whatever is still sitting in the paste box unstaged — otherwise text pasted
+but not staged would be silently discarded. Both of its blocks share one
+status line, which therefore reports the draft's running total rather than
+the last action's count.
 
 ## Testing
 

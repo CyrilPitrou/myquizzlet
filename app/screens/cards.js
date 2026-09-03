@@ -1,7 +1,7 @@
 import { el, $ } from '../ui.js';
 import { store, screen, go, ctx } from '../app.js';
 import { parseCards } from '../csv.js';
-import { openImportDialog } from './importdialog.js';
+import { importFileBlock } from './importdialog.js';
 
 function editableCell(listId, card, side) {
   return el('input', {
@@ -29,7 +29,7 @@ function pasteBlock(listId) {
     ctx.render();
     $('#import-status')?.replaceWith(status);
   };
-  return el('div', { class: 'io' }, [
+  return el('div', {}, [
     el('h3', { text: 'Paste text' }),
     el('p', { class: 'muted', text: 'One card per line, front and back separated by a '
       + 'comma, semicolon, or tab.' }),
@@ -40,21 +40,11 @@ function pasteBlock(listId) {
 }
 
 function fileBlock(listId) {
-  return el('div', { class: 'io' }, [
-    el('h3', { text: 'Import file' }),
-    el('p', { class: 'muted', text: 'CSV, TSV, or text file.' }),
-    el('button', {
-      class: 'btn', type: 'button', text: 'Import file…',
-      onclick: () => openImportDialog({
-        onCommit: (cards) => {
-          if (!cards.length) return;
-          store.addCards(listId, cards);
-          ctx.sync?.schedule();
-          ctx.render();
-        },
-      }),
-    }),
-  ]);
+  return importFileBlock((cards) => {
+    store.addCards(listId, cards);
+    ctx.sync?.schedule();
+    ctx.render();
+  });
 }
 
 export function showCards(id) {

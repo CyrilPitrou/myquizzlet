@@ -2,7 +2,7 @@ import { el } from '../ui.js';
 import { store, screen, go, ctx } from '../app.js';
 import { listForm } from '../listform.js';
 import { parseCards } from '../csv.js';
-import { openImportDialog } from './importdialog.js';
+import { importFileBlock } from './importdialog.js';
 
 // New list has no storage yet, so both import blocks stage into this
 // in-memory array instead of writing straight to a list; showNewList's
@@ -12,6 +12,16 @@ import { openImportDialog } from './importdialog.js';
 // can also run it at save time. Without that, text left in the box when
 // "Create list" is clicked would be silently discarded — the screen
 // navigates away and takes the unstaged text with it.
+// Both blocks report the draft's running total, not their own last haul: they
+// share one status line, so "Staged 3." after pasting 5 and importing 3 would
+// describe neither the action nor the draft.
+function reportStaged(draftCards, status, errors = []) {
+  const total = draftCards.length ? `Staged ${draftCards.length}.` : '';
+  status.textContent = errors.length
+    ? `${total} Skipped lines: ${errors.map((e) => e.line).join(', ')}.`.trim()
+    : total;
+}
+
 function draftPasteBlock(draftCards, status) {
   const box = el('textarea', {
     placeholder: 'Optional — paste rows: el pan, le pain — one card per line. Tabs work too.',
@@ -21,11 +31,9 @@ function draftPasteBlock(draftCards, status) {
     const { cards, errors } = parseCards(box.value);
     if (cards.length) draftCards.push(...cards);
     box.value = '';
-    status.textContent = errors.length
-      ? `Staged ${cards.length}. Skipped lines: ${errors.map((e) => e.line).join(', ')}.`
-      : cards.length ? `Staged ${cards.length}.` : '';
+    reportStaged(draftCards, status, errors);
   };
-  const node = el('div', { class: 'io' }, [
+  const node = el('div', {}, [
     el('h3', { text: 'Paste text' }),
     el('p', { class: 'muted', text: 'One card per line, front and back separated by a '
       + 'comma, semicolon, or tab.' }),
@@ -36,20 +44,10 @@ function draftPasteBlock(draftCards, status) {
 }
 
 function draftFileBlock(draftCards, status) {
-  return el('div', { class: 'io' }, [
-    el('h3', { text: 'Import file' }),
-    el('p', { class: 'muted', text: 'CSV, TSV, or text file.' }),
-    el('button', {
-      class: 'btn', type: 'button', text: 'Import file…',
-      onclick: () => openImportDialog({
-        onCommit: (cards) => {
-          if (!cards.length) return;
-          draftCards.push(...cards);
-          status.textContent = `Staged ${cards.length}.`;
-        },
-      }),
-    }),
-  ]);
+  return importFileBlock((cards) => {
+    draftCards.push(...cards);
+    reportStaged(draftCards, status);
+  });
 }
 
 export function showNewList() {

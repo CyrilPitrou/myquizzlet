@@ -103,3 +103,19 @@ export function openImportDialog({ onCommit }) {
 
   return node;
 }
+
+// The standard way for a screen to offer file import: a headed block whose
+// button opens the dialog above. "Edit cards" and "New list" differ only in
+// what they do with the committed cards — write them straight to a list, or
+// stage them into an unsaved draft — so that difference is the whole of the
+// parameter list.
+export function importFileBlock(onCommit) {
+  return el('div', {}, [
+    el('h3', { text: 'Import file' }),
+    el('p', { class: 'muted', text: 'CSV, TSV, or text file.' }),
+    el('button', {
+      class: 'btn', type: 'button', text: 'Import file…',
+      onclick: () => openImportDialog({ onCommit }),
+    }),
+  ]);
+}

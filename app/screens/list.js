@@ -39,7 +39,6 @@ function deleteList(list) {
 function importFromFile(list) {
   openImportDialog({
     onCommit: (cards) => {
-      if (!cards.length) return;
       store.addCards(list.id, cards);
       ctx.sync?.schedule();
       ctx.render();
