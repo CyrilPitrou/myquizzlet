@@ -5,20 +5,6 @@ import { listStats } from '../stats.js';
 import { expiryWarning } from '../setup.js';
 import { t } from '../i18n.js';
 
-function statsLine(stats) {
-  const learned = el('span', {}, [
-    `${t('common.learned')} `,
-    el('span', { class: 'bar' }, [el('span', { style: `width:${stats.learnedPct}%` })]),
-    ` ${stats.learnedPct}%`,
-  ]);
-  const nodes = [learned];
-  if (stats.rightPct !== null) nodes.push(el('span', { text: t('common.right', { n: stats.rightPct }) }));
-  nodes.push(stats.due
-    ? el('span', { class: 'badge', text: t('common.due', { n: stats.due }) })
-    : el('span', { text: t('common.dash') }));
-  return nodes;
-}
-
 function listRow(id) {
   const list = store.getList(id);
   const stats = listStats({ list, progress: store.getProgress(id), today: todayStr() });
@@ -27,7 +13,8 @@ function listRow(id) {
     el('div', { class: 'liststats' }, [
       el('span', { text: list.folder || t('common.unfiled') }),
       el('span', { text: t('common.cards', { n: stats.cards }) }),
-      ...statsLine(stats),
+      stats.due ? el('span', { class: 'badge', text: t('common.due', { n: stats.due }) })
+                : el('span', { text: t('common.dash') }),
     ]),
   ]);
 }

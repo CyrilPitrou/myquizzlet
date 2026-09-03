@@ -58,8 +58,7 @@ export function showFolder(name) {
     view.append(el('a', { class: 'listrow', href: `#/list/${list.id}` }, [
       el('span', { class: 'listname', text: list.name }),
       el('div', { class: 'liststats' }, [
-        el('span', { class: 'bar' }, [el('span', { style: `width:${stats.learnedPct}%` })]),
-        el('span', { text: t('common.learnedPct', { n: stats.learnedPct }) }),
+        el('span', { text: t('common.cards', { n: stats.cards }) }),
         stats.due ? el('span', { class: 'badge', text: t('common.due', { n: stats.due }) })
                   : el('span', { text: t('common.dash') }),
       ]),
