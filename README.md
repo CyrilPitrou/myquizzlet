@@ -68,12 +68,16 @@ happens, revoke it on GitHub straight away and make a new one.
 **Getting the app onto it.** On a device that already works, open **Settings →
 Add a device**. It shows one QR code — the app's address, nothing secret.
 
-1. Scan it on the new phone. The app opens, but in a stripped browser view that
-   cannot install it. This is the step that catches people out.
-2. Tap **⋮ → Open in Chrome**.
-3. In Chrome, the app's own **Settings → Install** has an **Install this app**
-   button. If it is missing, **⋮ → Install app** does the same job.
-4. From then on, open it from the home screen.
+1. Scan it on the new phone. The app opens in whatever browser that phone uses.
+2. Open the app's own **Settings → Install**. It lists the route for each
+   browser, because they all differ: Chrome shows an **Install this app**
+   button, Firefox has **⋮ → Install**, Samsung Internet **≡ → Add page to →
+   Home screen**, and an iPhone **Share → Add to Home Screen**.
+3. From then on, open it from the home screen.
+
+Only Chrome fires the event that lets a page offer its own install button. In
+every other browser the app cannot ask, so the menu is the way in — which is
+why the app lists the menus rather than pretending a button will appear.
 
 A device you only ever study on is now finished. It needs no token at all.
 
@@ -100,11 +104,11 @@ No camera to hand? The token field also accepts the whole setup link, pasted.
 
 ## Install on Android
 
-1. Open the app URL in **Chrome**. It must be Chrome itself — a browser view
-   opened by scanning a QR code cannot install anything, and shows no Install
-   button. If you arrived that way, **⋮ → Open in Chrome** first.
-2. **Settings → Install → Install this app**. Chrome's own **⋮ → Add to Home
-   screen → Install** does the same job if the button is not there.
+1. Open the app URL in your browser.
+2. **Settings → Install**. In Chrome that section has an **Install this app**
+   button; in Firefox and the others it tells you which menu item to use.
+   A page opened by scanning a QR code inside Chrome cannot install at all —
+   **⋮ → Open in Chrome** first, then install there.
 3. Launch it from the home screen icon.
 
 Pick **Install** rather than a plain shortcut if Chrome offers both. Install
