@@ -90,7 +90,7 @@ h3 { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase;
   text-transform: uppercase; letter-spacing: .05em; margin: .5rem 0; }
 .listrow { display: flex; flex-direction: column; gap: .15rem;
   padding: .4rem 0; border-bottom: 1px solid var(--rule);
-  width: fit-content; min-width: 24rem; max-width: 100%;
+  width: fit-content; min-width: 30rem; max-width: 100%;
   text-decoration: none; color: var(--ink); }
 .listrow .listname { font-size: 1.05rem; }
 .listcount { color: var(--muted); font-size: .9rem; }
