@@ -2,6 +2,8 @@ import { describe, it, expect } from 'vitest';
 import { plural, translate } from '../app/i18n.js';
 import { en } from '../app/i18n.en.js';
 import { fr } from '../app/i18n.fr.js';
+import { helpEn } from '../app/screens/help.en.js';
+import { helpFr } from '../app/screens/help.fr.js';
 
 describe('plural', () => {
   // French puts zero in the singular and English does not. This disagreement
@@ -89,5 +91,42 @@ describe('the two dictionaries', () => {
     const holes = (text) => (text.match(/\{\w+\}/g) || []).sort().join(',');
     const mismatched = Object.keys(en).filter((key) => holes(en[key]) !== holes(fr[key]));
     expect(mismatched).toEqual([]);
+  });
+});
+
+describe('the help prose', () => {
+  // Recursively collects every string leaf a paragraph part can hold — a
+  // plain string, or a { b: text } bold span — so a bold span left empty in
+  // one language is caught the same as an empty paragraph.
+  function strings(value) {
+    if (typeof value === 'string') return [value];
+    if (Array.isArray(value)) return value.flatMap(strings);
+    if (value && typeof value === 'object') {
+      if ('b' in value) return [value.b];
+      return Object.values(value).flatMap(strings);
+    }
+    return [];
+  }
+
+  it('has the same sections in the same order in both languages', () => {
+    expect(helpFr.sections.length).toBe(helpEn.sections.length);
+    helpEn.sections.forEach((section, i) => {
+      expect(helpFr.sections[i].paragraphs.length).toBe(section.paragraphs.length);
+    });
+  });
+
+  it('has the same install steps and device-setup steps in both languages', () => {
+    expect(helpFr.install.steps.length).toBe(helpEn.install.steps.length);
+    const enDevices = helpEn.sections.at(-1);
+    const frDevices = helpFr.sections.at(-1);
+    expect(frDevices.steps.length).toBe(enDevices.steps.length);
+    expect(frDevices.afterSteps.length).toBe(enDevices.afterSteps.length);
+  });
+
+  it('leaves nothing empty', () => {
+    const blank = [helpEn, helpFr]
+      .flatMap((words) => strings(words))
+      .filter((text) => !text || !text.trim());
+    expect(blank).toEqual([]);
   });
 });

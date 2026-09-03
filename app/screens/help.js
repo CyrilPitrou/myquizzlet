@@ -4,10 +4,12 @@ import { qrCard } from '../qrcard.js';
 import { tokenQr } from '../tokenshare.js';
 import { APP_URL } from '../setup.js';
 import { isInstalled, canInstall, promptInstall } from '../install.js';
-import { t } from '../i18n.js';
+import { t, lang } from '../i18n.js';
 import { helpEn } from './help.en.js';
+import { helpFr } from './help.fr.js';
 
-const prose = () => helpEn;
+// Read at paint time, never at module load, so the words follow the flag.
+const prose = () => (lang() === 'fr' ? helpFr : helpEn);
 
 function section(title, nodes) {
   return el('section', { class: 'sect' }, [el('h3', { text: title }), ...nodes]);
