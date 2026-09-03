@@ -44,7 +44,10 @@ langs.js    pure. A side label ("Français") to a language code.
 install.js  the browser's `beforeinstallprompt` offer, caught at import time
             because it fires once and early, and re-offered as a button in
             Settings. Only Chromium fires it — Firefox and Safari install
-            from their own menus, which Settings lists instead.
+            from their own menus, which Settings lists instead. Firefox makes
+            a shortcut rather than an app, so it never reports standalone; the
+            manifest's start_url carries `?home=1` to say so, and the section
+            can also be hidden by hand.
 stats.js    pure. The numbers on a list: learned %, right %, due.
 train.js    pure. Training batches: pickBatch, choices, the two-rung queue.
 listform.js the title/folder/side-label/language fields shared by editlist

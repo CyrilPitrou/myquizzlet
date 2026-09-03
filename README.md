@@ -79,6 +79,14 @@ Only Chrome fires the event that lets a page offer its own install button. In
 every other browser the app cannot ask, so the menu is the way in — which is
 why the app lists the menus rather than pretending a button will appear.
 
+Firefox for Android goes further and makes a *shortcut* rather than a real
+app: it still works offline and behaves the same, but it opens inside Firefox
+with the address bar, and it cannot tell the app it was installed. If the
+**Install** section keeps appearing there, its **Already installed — hide
+this** button settles it, per device. Want the real thing on Android? Install
+it once from Chrome; the installed app then runs on its own whichever browser
+you use day to day.
+
 A device you only ever study on is now finished. It needs no token at all.
 
 **Giving it a token, the safe way.** On the new device, open **Settings**. With

@@ -30,8 +30,16 @@ window.addEventListener('appinstalled', () => {
 });
 
 // True once the app runs from the home screen rather than a browser tab.
+//
+// `display-mode: standalone` is the real answer, but it only holds where the
+// browser made a real app of it. Firefox for Android makes a shortcut instead:
+// it opens in Firefox, with the address bar, so standalone stays false and the
+// Install section would nag forever on a device that is as installed as that
+// browser allows. The manifest's start_url therefore carries `?home=1`, which
+// a launch from the home screen brings with it and an ordinary visit does not.
 export const isInstalled = () => window.matchMedia('(display-mode: standalone)').matches
-  || window.navigator.standalone === true;
+  || window.navigator.standalone === true
+  || new URLSearchParams(window.location.search).has('home');
 
 // True only where the browser has actually offered — never a guess.
 export const canInstall = () => offer !== null;
