@@ -1,6 +1,6 @@
 {
   "listId": "verbes-irreguliers",
-  "updatedAt": "2026-09-03T22:11:54.047Z",
+  "updatedAt": "2026-09-03T22:37:01.404Z",
   "items": {
     "f2q7nd:f2b": {
       "box": 1,
@@ -161,6 +161,70 @@
       "lapses": 0,
       "lastSeen": "2026-09-03T22:11:36.431Z",
       "level": 0
+    },
+    "z9p4mg:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "q4b6cd:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 0
+    },
+    "k6j3dv:b2f": {
+      "box": 1,
+      "due": "2026-09-04",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-03T22:36:56.562Z",
+      "level": 0
+    },
+    "h3b8tk:b2f": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "h4f9sb:b2f": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 0
+    },
+    "z1v5cq:b2f": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 0
+    },
+    "t2f7jq:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "a4v7zq:b2f": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
     }
   }
 }
