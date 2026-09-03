@@ -104,13 +104,17 @@ h3 { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase;
 table.cards { width: 100%; border-collapse: collapse; table-layout: fixed; }
 table.cards td { border-bottom: 1px solid var(--rule); }
 table.cards td:last-child { width: 4.75rem; }
-table.cards input { width: 100%; border: 1px solid transparent; padding: .5rem .4rem;
+/* Flat until focused, and as tall as its text — the height itself is set by
+   growable() in ui.js, so nothing here may cap or scroll it. */
+table.cards textarea { width: 100%; display: block; resize: none; overflow: hidden;
+                    border: 1px solid transparent; padding: .5rem .4rem;
                     font-size: 1rem; background: transparent; color: var(--ink); }
-table.cards input:focus { border-color: var(--field); background: var(--surface); }
+table.cards textarea:focus { border-color: var(--field); background: var(--surface); }
 .rowactions { display: flex; gap: .25rem; justify-content: flex-end; }
 button.link.swap { color: var(--ink); }
 
-form.addcard { display: flex; gap: .5rem; margin: 1rem 0; }
+form.addcard { display: flex; gap: .5rem; margin: 1rem 0; align-items: flex-start; }
+form.addcard textarea { flex: 1; min-width: 0; resize: none; overflow: hidden; }
 form input { flex: 1; min-width: 0; }
 input:not([type="radio"]):not([type="checkbox"]), textarea {
   padding: .5rem; font-size: 1rem; font-family: inherit;
@@ -134,7 +138,9 @@ button.link { background: none; border: none; color: var(--bad); font-size: 1rem
 .badge { background: var(--accent); color: var(--surface); border-radius: 999px;
          padding: 0 .5rem; font-size: .85rem; font-weight: 600; }
 
-.prompt { font-size: 2rem; text-align: center; margin: 2rem 0; }
+/* pre-line, not pre: a line break written into a card side is kept — a tense
+   is six lines — while a line too long for the card still wraps. */
+.prompt { font-size: 2rem; text-align: center; margin: 2rem 0; white-space: pre-line; }
 .answer { font-size: 1.5rem; text-align: center; }
 .answer-input { width: 100%; font-size: 1.5rem; padding: .6rem; }
 .verdict.wrong { border-left: 4px solid var(--bad); padding-left: .75rem; }
@@ -244,7 +250,7 @@ section.sect:last-child { border-bottom: none; }
   gap: .5rem; margin-bottom: .5rem; }
 .choices { gap: .5rem; }
 .choice { display: block; width: 100%; min-height: 52px; margin-bottom: .5rem;
-  padding: .7rem 1rem; font-size: 1.1rem; text-align: left;
+  padding: .7rem 1rem; font-size: 1.1rem; text-align: left; white-space: pre-line;
   background: var(--surface); color: var(--ink);
   border: 1px solid var(--rule); border-radius: 12px; }
 .choice.correct { border-color: var(--ok); color: var(--ok); font-weight: 600; }

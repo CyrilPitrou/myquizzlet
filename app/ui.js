@@ -18,6 +18,25 @@ export function clear(node) {
 
 export const $ = (selector) => document.querySelector(selector);
 
+// A textarea standing in where a one-line input used to be: it starts one line
+// tall and grows to fit its text, so a card side can hold the six forms of a
+// tense without a scrollbar or a fixed height. The height is remeasured on
+// every keystroke, and once on arrival because the value may already be
+// several lines long — scrollHeight is only meaningful once the node is laid
+// out, hence the frame's wait. offsetHeight - clientHeight is the border,
+// which box-sizing: border-box makes part of the height being set.
+export function growable(value, props = {}) {
+  const node = el('textarea', { rows: '1', ...props });
+  node.value = value || '';
+  const fit = () => {
+    node.style.height = 'auto';
+    node.style.height = `${node.scrollHeight + node.offsetHeight - node.clientHeight}px`;
+  };
+  node.addEventListener('input', fit);
+  requestAnimationFrame(fit);
+  return node;
+}
+
 // A ⋮ button with a popover of actions. Closes on the next click anywhere,
 // which is the whole of its dismissal logic. `label` names the button for a
 // screen reader and a tooltip; it comes from the caller rather than from a

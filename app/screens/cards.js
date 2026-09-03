@@ -1,12 +1,14 @@
-import { el, $ } from '../ui.js';
+import { el, $, growable } from '../ui.js';
 import { store, screen, go, ctx } from '../app.js';
 import { parseCards } from '../csv.js';
 import { importFileBlock } from './importdialog.js';
 import { t } from '../i18n.js';
 
+// A card side is a textarea rather than an input so a line break can be typed
+// into it: a conjugation card carries one form per line. trim() drops the
+// blank ends without touching the breaks inside.
 function editableCell(listId, card, side) {
-  return el('input', {
-    value: card[side],
+  return growable(card[side], {
     onchange: (event) => {
       store.updateCard(listId, card.id, { [side]: event.target.value.trim() });
       ctx.sync?.schedule();
@@ -58,9 +60,17 @@ export function showCards(id) {
   view.append(el('a', { href: `#/list/${id}`, class: 'back', text: `← ${list.name}` }));
   view.append(el('h2', { text: t('common.cards', { n: list.cards.length }) }));
 
-  const front = el('input', { placeholder: frontLabel.toLowerCase() });
-  const back = el('input', { placeholder: backLabel.toLowerCase() });
-  view.append(el('form', {
+  // These fields grew a second dimension, but the fast path through them has
+  // not changed: Enter adds the card, as it did when they were inputs. A line
+  // break — the reason they are textareas — is Shift+Enter.
+  const onEnter = (event) => {
+    if (event.key !== 'Enter' || event.shiftKey) return;
+    event.preventDefault();
+    form.requestSubmit();
+  };
+  const front = growable('', { placeholder: frontLabel.toLowerCase(), onkeydown: onEnter });
+  const back = growable('', { placeholder: backLabel.toLowerCase(), onkeydown: onEnter });
+  const form = el('form', {
     class: 'addcard',
     onsubmit: (event) => {
       event.preventDefault();
@@ -70,9 +80,10 @@ export function showCards(id) {
       front.value = '';
       back.value = '';
       ctx.render();
-      $('.addcard input')?.focus();
+      $('.addcard textarea')?.focus();
     },
-  }, [front, back, el('button', { type: 'submit', text: t('cards.add.button') })]));
+  }, [front, back, el('button', { type: 'submit', text: t('cards.add.button') })]);
+  view.append(form);
 
   const table = el('table', { class: 'cards' }, [
     el('tr', {}, [el('th', { text: frontLabel }), el('th', { text: backLabel }), el('th', {})]),
