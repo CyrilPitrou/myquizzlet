@@ -97,7 +97,8 @@ write. The token is made on the phone that will hold it, so it can be revoked on
 its own.
 
 **The quick way, if you accept the price.** On the device that already has a
-token, the same page has an opt-in **Show token QR** button. It draws a link carrying this device's token; the
+token, an opt-in **Show token QR** button sits both on that page and at the end
+of **Help → Adding another device**, where these instructions are. It draws a link carrying this device's token; the
 other phone's camera opens it, and the app asks before saving anything. Two
 things to know before you use it: both devices then share one token, so
 revoking it cuts off both, and the token is briefly on screen, so do it where

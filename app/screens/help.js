@@ -1,6 +1,7 @@
 import { el } from '../ui.js';
 import { screen, settings, saveSettings, ctx } from '../app.js';
 import { qrCard } from '../qrcard.js';
+import { tokenQr } from '../tokenshare.js';
 import { APP_URL } from '../setup.js';
 import { isInstalled, canInstall, promptInstall } from '../install.js';
 
@@ -55,6 +56,20 @@ function installSection() {
       },
     }),
   ]);
+}
+
+// The instructions above end in "hand the token over", so the thing that does
+// it is here rather than named and left three screens away. It is the same
+// control the Token page shows — one implementation, with its own opt-in and
+// its own minute-long timer — and it is simply absent on a device that has no
+// token to give.
+function shareToken() {
+  const current = settings();
+  if (current.token) return [tokenQr(current)];
+  return [
+    el('p', { class: 'muted', text: 'This device has no token, so it has none to share.' }),
+    el('p', {}, [el('a', { class: 'btn', href: '#/token', text: 'Manage token' })]),
+  ];
 }
 
 export function showHelp() {
@@ -128,9 +143,8 @@ export function showHelp() {
     p(['To let it save changes too, it needs a token. Its own ', b('Settings → Token'),
       ' will walk it through making one on GitHub — the safe route, because a token made '
       + 'there can be revoked on its own.']),
-    p(['The ', b('Show token QR'), ' button on that same page is the shortcut instead: it '
-      + 'hands this device’s token over. Both devices then share one token, so revoking it '
-      + 'cuts off both, and the code is on screen while you scan it. The other device always '
+    p(['Alternatively, hand this device’s token straight over. The other device always '
       + 'asks before it saves anything.']),
+    ...shareToken(),
   ]));
 }
