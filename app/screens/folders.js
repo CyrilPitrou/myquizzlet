@@ -55,8 +55,8 @@ export function showFolder(name) {
   }
   for (const list of lists) {
     const stats = listStats({ list, progress: store.getProgress(list.id), today: todayStr() });
-    view.append(el('div', { class: 'listrow' }, [
-      el('a', { href: `#/list/${list.id}`, text: list.name }),
+    view.append(el('a', { class: 'listrow', href: `#/list/${list.id}` }, [
+      el('span', { class: 'listname', text: list.name }),
       el('div', { class: 'liststats' }, [
         el('span', { class: 'bar' }, [el('span', { style: `width:${stats.learnedPct}%` })]),
         el('span', { text: t('common.learnedPct', { n: stats.learnedPct }) }),

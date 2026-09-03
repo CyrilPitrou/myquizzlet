@@ -74,8 +74,9 @@ h3 { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase;
 .recent h3, .all h3 { color: var(--muted); font-size: .85rem;
   text-transform: uppercase; letter-spacing: .05em; margin: .5rem 0; }
 .listrow { display: flex; flex-direction: column; gap: .25rem;
-  padding: .6rem 0; border-bottom: 1px solid var(--rule); }
-.listrow a { font-size: 1.05rem; text-decoration: none; color: var(--ink); }
+  padding: .6rem 0; border-bottom: 1px solid var(--rule);
+  text-decoration: none; color: var(--ink); }
+.listrow .listname { font-size: 1.05rem; }
 
 .row { display: flex; justify-content: space-between; align-items: center; gap: .5rem;
        padding: .6rem 0; border-bottom: 1px solid var(--rule); }

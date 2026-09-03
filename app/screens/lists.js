@@ -22,8 +22,8 @@ function statsLine(stats) {
 function listRow(id) {
   const list = store.getList(id);
   const stats = listStats({ list, progress: store.getProgress(id), today: todayStr() });
-  return el('div', { class: 'listrow' }, [
-    el('a', { href: `#/list/${id}`, text: list.name }),
+  return el('a', { class: 'listrow', href: `#/list/${id}` }, [
+    el('span', { class: 'listname', text: list.name }),
     el('div', { class: 'liststats' }, [
       el('span', { text: list.folder || t('common.unfiled') }),
       el('span', { text: t('common.cards', { n: stats.cards }) }),
