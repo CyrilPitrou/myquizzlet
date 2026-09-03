@@ -7,6 +7,7 @@ import { t, lang } from '../i18n.js';
 import { bucketFor, pick } from '../messages.js';
 import { flashWrong, ring, confetti } from '../fx.js';
 import { play } from '../audio.js';
+import { tokenNote } from '../tokennote.js';
 
 const BATCH = 8;
 
@@ -50,6 +51,8 @@ export function showTrainSetup(id) {
   view.append(el('a', { href: `#/list/${id}`, class: 'back', text: `← ${list.name}` }));
   view.append(el('h2', { text: t('train.title') }));
   view.append(el('p', { class: 'muted', text: t('train.blurb') }));
+  const note = tokenNote();
+  if (note) view.append(note);
 
   const front = list.frontLabel || t('side.front');
   const back = list.backLabel || t('side.back');

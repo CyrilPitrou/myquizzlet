@@ -6,6 +6,7 @@ import { t, lang } from '../i18n.js';
 import { bucketFor, pick } from '../messages.js';
 import { flashWrong, flip, flyOut, slideIn, lift, ring, confetti } from '../fx.js';
 import { play } from '../audio.js';
+import { tokenNote } from '../tokennote.js';
 
 const setup = { mode: 'write', directions: ['f2b', 'b2f'], limit: 20, includeNew: true, free: false };
 
@@ -15,6 +16,8 @@ export function showTestSetup(listId) {
   const view = screen();
   view.append(el('a', { href: '#/', class: 'back', text: t('common.back.lists') }));
   view.append(el('h2', { text: t('test.title', { name: list.name }) }));
+  const note = tokenNote();
+  if (note) view.append(note);
 
   const front = list.frontLabel || t('side.front');
   const back = list.backLabel || t('side.back');

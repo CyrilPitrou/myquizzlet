@@ -147,6 +147,11 @@ button.link { background: none; border: none; color: var(--bad); font-size: 1rem
 
 .warn { background: var(--warn); border-left: 4px solid var(--accent); padding: .5rem .75rem; }
 
+/* A warn box with something to do in it, rather than a warn sentence. */
+.notice { margin: 1rem 0; border-radius: 0 8px 8px 0; padding: .75rem; }
+.notice h4 { margin: 0 0 .35rem; }
+.notice p { margin: 0 0 .6rem; }
+
 .themes { display: flex; gap: .6rem; }
 .themes button { flex: 1; padding: .5rem; border: 2px solid var(--rule); border-radius: 10px;
                  background: var(--surface); color: var(--ink); font-size: .85rem; font-weight: 600; }
@@ -158,7 +163,10 @@ button.link { background: none; border: none; color: var(--bad); font-size: 1rem
 .chip.focus { background: var(--chip-focus); }
 section.sect { padding: .2rem 0 1rem; border-bottom: 1px solid var(--rule); }
 section.sect:last-child { border-bottom: none; }
-.statusline { display: flex; align-items: center; gap: .5rem; font-weight: 600; }
+.statusline { font-weight: 600; }
+.statusrow { display: flex; align-items: center; gap: .5rem; }
+.statusline .warn { font-weight: 400; margin: .6rem 0 .4rem; }
+.statusline .muted { font-weight: 400; }
 .steps { margin: .5rem 0; padding-left: 1.2rem; }
 .steps li { margin: .35rem 0; }
 

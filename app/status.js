@@ -1,5 +1,6 @@
 import { el, $ } from './ui.js';
 import { t } from './i18n.js';
+import { syncProblem } from './syncerror.js';
 
 const MARK = {
   synced: '●', syncing: '↻', pending: '↑',
@@ -20,10 +21,28 @@ export function setStatus(state, detail = '') {
   if (line) line.replaceWith(statusLine());
 }
 
+// The whole of what the Settings page says about sync, because setStatus
+// replaces this node and nothing else: an explanation rendered by the screen
+// around it would be painted once, before the first sync has even failed, and
+// then never updated. That is exactly what happened.
+//
+// A failure shows a sentence instead of the thrown message, which is a status
+// code with a lump of JSON after it. The raw text is not lost — the dot's
+// title still carries it.
 export function statusLine() {
+  const failure = status.state === 'error' ? syncProblem(status.detail) : null;
+
   return el('div', { class: 'statusline', id: 'sync-line' }, [
-    el('span', { class: `dot ${status.state}`, text: MARK[status.state] }),
-    status.detail ? `${word(status.state)}: ${status.detail}` : word(status.state),
+    el('div', { class: 'statusrow' }, [
+      el('span', { class: `dot ${status.state}`, text: MARK[status.state] }),
+      status.detail && !failure ? `${word(status.state)}: ${status.detail}` : word(status.state),
+    ]),
+    ...(failure ? [el('p', { class: 'warn', text: t(failure.key) })] : []),
+    // A rejected or forbidden token is the one failure with somewhere to go.
+    ...(failure && failure.token ? [
+      el('p', { class: 'muted', text: t('settings.sync.checkToken') }),
+      el('p', {}, [el('a', { class: 'btn primary', href: '#/token', text: t('settings.token.manage') })]),
+    ] : []),
   ]);
 }
 

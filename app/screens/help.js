@@ -58,11 +58,12 @@ function installSection(words) {
   ]);
 }
 
-// The instructions above end in "hand the token over", so the thing that does
-// it is here rather than named and left three screens away. It is the same
-// control the Token page shows — one implementation, with its own opt-in and
-// its own minute-long timer — and it is simply absent on a device that has no
-// token to give.
+// The token section ends by describing the quick way — scan a code from a
+// device already set up — so the thing that shows that code is here rather
+// than named and left three screens away. It is the same control the Token
+// page offers: one implementation, with its own opt-in and its own
+// minute-long timer. On a device with no token there is nothing to show, so
+// it becomes the way in to getting one.
 function shareToken(words) {
   const current = settings();
   if (current.token) return [tokenQr(current)];
@@ -81,7 +82,7 @@ export function showHelp() {
   const install = installSection(active);
   if (install) view.append(install);
 
-  const [activities, due, which, learned, devices] = active.sections;
+  const [activities, due, which, learned, devices, token] = active.sections;
 
   view.append(section(activities.heading, activities.paragraphs.map(p)));
   view.append(section(due.heading, due.paragraphs.map(p)));
@@ -95,6 +96,10 @@ export function showHelp() {
     ]),
     steps(devices.steps),
     ...devices.afterSteps.map(p),
+  ]));
+
+  view.append(section(token.heading, [
+    ...token.paragraphs.map(p),
     ...shareToken(active),
   ]));
 }

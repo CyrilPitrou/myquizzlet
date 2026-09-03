@@ -45,13 +45,24 @@ function revokeBox() {
   return box;
 }
 
+// Two routes, each under its own heading, scanning first. Both used to sit
+// under one "Make a token on GitHub" heading, which made the quick route —
+// point this device's camera at one already set up — read as a footnote to
+// the long one. On a phone it is the answer, so it goes first and says so.
 function addToken(view, current) {
-  view.append(section(t('token.add.heading'), [
-    el('p', { class: 'muted', text: t('token.add.hint') }),
+  view.append(el('p', { class: 'muted', text: t('token.add.hint') }));
+  view.append(el('p', { class: 'muted', text: t('token.add.twoWays') }));
+
+  view.append(section(t('token.add.scanHeading'), [
+    el('p', { class: 'muted', text: t('token.add.scanHint') }),
     el('ol', { class: 'steps' }, [
       el('li', { text: t('token.add.step1') }),
       el('li', { text: t('token.add.step2') }),
     ]),
+    el('p', { class: 'muted', text: t('token.add.scanNoCamera') }),
+  ]));
+
+  view.append(section(t('token.add.githubHeading'), [
     el('p', { class: 'muted' }, [t('token.add.noOther'),
       el('a', { target: '_blank', rel: 'noopener', href: TOKEN_PAGE,
         text: t('token.add.linkText') }),

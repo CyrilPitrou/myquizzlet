@@ -117,8 +117,9 @@ describe('the help prose', () => {
 
   it('has the same install steps and device-setup steps in both languages', () => {
     expect(helpFr.install.steps.length).toBe(helpEn.install.steps.length);
-    const enDevices = helpEn.sections.at(-1);
-    const frDevices = helpFr.sections.at(-1);
+    // Found by shape, not by position: the token section was added after it.
+    const enDevices = helpEn.sections.find((section) => section.steps);
+    const frDevices = helpFr.sections.find((section) => section.steps);
     expect(frDevices.steps.length).toBe(enDevices.steps.length);
     expect(frDevices.afterSteps.length).toBe(enDevices.afterSteps.length);
   });

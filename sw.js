@@ -1,4 +1,4 @@
-const CACHE = 'myquizzlet-v25';
+const CACHE = 'myquizzlet-v26';
 const SHELL = [
   './', './index.html', './manifest.webmanifest', './app/style.css',
   './icons/icon-192.png', './icons/icon-512.png',
@@ -10,6 +10,7 @@ const SHELL = [
   './app/store.js', './app/github.js', './app/sync.js', './app/srs.js',
   './app/grade.js', './app/csv.js', './app/merge.js', './app/sides.js',
   './app/langs.js', './app/stats.js', './app/train.js', './app/listform.js',
+  './app/syncerror.js', './app/tokennote.js',
   './app/qr.js', './app/qrcard.js', './app/tokenshare.js', './app/setup.js', './app/zip.js', './app/install.js',
   './app/screens/lists.js', './app/screens/list.js', './app/screens/cards.js',
   './app/screens/test.js', './app/screens/settings.js',

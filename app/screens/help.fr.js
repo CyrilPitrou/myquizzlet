@@ -68,10 +68,17 @@ export const helpFr = {
         'Ouvrez-la depuis l’écran d’accueil à partir de maintenant.',
       ],
       afterSteps: [
-        ['C’est tout ce qu’il faut pour un appareil qui ne fait qu’étudier. Il n’a besoin d’aucun jeton.'],
-        ['Pour qu’il puisse aussi enregistrer des modifications, il lui faut un jeton. Sa propre page ', { b: 'Réglages → Jeton' },
-          ' l’accompagnera pour en créer un sur GitHub — la voie sûre, car un jeton créé là-bas peut être révoqué indépendamment.'],
-        ['Vous pouvez aussi transmettre directement le jeton de cet appareil. L’autre appareil demande toujours confirmation avant d’enregistrer quoi que ce soit.'],
+        ['C’est tout ce qu’il faut pour un appareil qui ne fait qu’étudier. Il n’a besoin d’aucun jeton. Pour qu’il puisse aussi enregistrer des modifications, lisez la suite.'],
+      ],
+    },
+    {
+      heading: 'Qu’est-ce qu’un jeton ?',
+      paragraphs: [
+        ['Un jeton est un mot de passe que l’appli utilise pour écrire sur GitHub en votre nom. Sans jeton, elle reste un entraîneur complet : vous pouvez étudier, ajouter des listes, modifier des cartes, et rien ne manque à l’écran. Ce qui manque, c’est tout le reste. Les modifications restent dans ce navigateur, elles n’atteignent jamais vos autres appareils, et effacer les données du navigateur les emporte avec elles.'],
+        ['Avec un jeton, chaque modification est enregistrée sur GitHub en quelques secondes, et tous les autres appareils munis d’un jeton la reçoivent. Un appareil sans jeton lit quand même : il reste à jour, il ne peut simplement rien apporter.'],
+        [{ b: 'La façon rapide d’en obtenir un' }, ' — sur un appareil doté d’une caméra, scannez le code d’un appareil déjà configuré. Sa page ', { b: 'Réglages → Jeton' }, ' en affiche un. C’est toute la procédure : aucune page GitHub, rien à taper. L’appareil qui scanne demande confirmation avant d’enregistrer quoi que ce soit.'],
+        [{ b: 'L’autre façon' }, ' — créer son propre jeton sur GitHub. La page ', { b: 'Réglages → Jeton' }, ' de cet appareil accompagne le formulaire champ par champ. C’est plus long, mais le jeton est indépendant : le révoquer plus tard arrête ce seul appareil.'],
+        ['Deux appareils qui partagent un jeton partagent son sort — le révoquer et les deux cessent d’enregistrer. C’est généralement sans importance, et c’est pourquoi la façon rapide vaut la peine. Dans les deux cas, le jeton ne vit que dans le navigateur qui le détient. Il n’est jamais écrit dans une liste, jamais exporté, et cette appli n’a aucun serveur où le garder.'],
       ],
     },
   ],

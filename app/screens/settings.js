@@ -54,11 +54,20 @@ const csvFiles = (lists) => {
 // sentence counting dirty keys could disagree with it, and did. One button: it
 // pulls, then pushes what needs pushing. Without a token the pull still works
 // and the push is skipped; the Token section below says so.
-function syncSection() {
+// A failure explains itself inside statusLine(), not here: setStatus replaces
+// that node alone, and an explanation drawn around it would be painted before
+// the first sync has even failed and never updated. What is left here is the
+// one thing that cannot change while the page is on screen — whether there is
+// a token at all — and the way to go and add one.
+function syncSection(current) {
   return section(t('settings.sync'), [
     statusLine(),
+    ...(!current.token
+      ? [el('p', { class: 'muted', text: t('settings.sync.noToken') })] : []),
     el('div', { class: 'row' }, [
       el('button', { text: t('settings.syncNow'), onclick: () => ctx.sync.syncNow().then(ctx.render) }),
+      ...(!current.token
+        ? [el('a', { class: 'btn primary', href: '#/token', text: t('settings.token.manage') })] : []),
     ]),
   ]);
 }
@@ -102,7 +111,7 @@ export function showSettings() {
     ]),
   ]));
 
-  view.append(syncSection());
+  view.append(syncSection(current));
   view.append(tokenSection(current));
 
   const exported = el('p', { class: 'muted' });

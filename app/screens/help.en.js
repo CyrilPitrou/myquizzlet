@@ -69,10 +69,17 @@ export const helpEn = {
         'Open it from the home screen from now on.',
       ],
       afterSteps: [
-        ['That is the whole of setup for a device you only study on. It needs no token.'],
-        ['To let it save changes too, it needs a token. Its own ', { b: 'Settings → Token' },
-          ' will walk it through making one on GitHub — the safe route, because a token made there can be revoked on its own.'],
-        ['Alternatively, hand this device’s token straight over. The other device always asks before it saves anything.'],
+        ['That is the whole of setup for a device you only study on. It needs no token. To let it save changes too, read on.'],
+      ],
+    },
+    {
+      heading: 'What is a token?',
+      paragraphs: [
+        ['A token is a password this app uses to write to GitHub on your behalf. Without one it is still a complete trainer: you can study, add lists, edit cards, and nothing is missing from the screen. What is missing is everywhere else. Changes stay in this browser, they never reach your other devices, and clearing the browser’s data takes them with it.'],
+        ['With one, every change is saved to GitHub within seconds, and every other device with a token picks it up. A device with no token still reads: it stays up to date, it just cannot contribute.'],
+        [{ b: 'The quick way to get one' }, ' — on a device with a camera, scan the code from a device that is already set up. Its ', { b: 'Settings → Token' }, ' shows one. That is the whole procedure: no GitHub page, nothing to type. The scanning device asks you to confirm before it saves anything.'],
+        [{ b: 'The other way' }, ' — make a token of its own on GitHub. This device’s ', { b: 'Settings → Token' }, ' walks through the form field by field. It is longer, but the token is separate: revoking it later stops that one device and no other.'],
+        ['Two devices sharing one token share its fate — revoke it and both stop saving. That is usually fine, and it is why the quick way is worth taking. Either way, the token lives only in the browser that holds it. It is never written into a list, never exported, and this app has no server to keep it on.'],
       ],
     },
   ],
