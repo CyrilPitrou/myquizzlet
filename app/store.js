@@ -1,4 +1,5 @@
 import { swapSides as swapListSides } from './sides.js';
+import { resetItems } from './srs.js';
 
 const PREFIX = 'mq:';
 const ALPHABET = 'abcdefghijklmnopqrstuvwxyz0123456789';
@@ -131,6 +132,11 @@ export function createStore(storage, now = () => new Date()) {
       return { list: savedList, progress: savedProgress };
     },
     getProgress: (listId) => read(`progress:${listId}`, { listId, updatedAt: null, items: {} }),
+    resetProgress(id) {
+      const progress = this.getProgress(id);
+      const today = stamp().slice(0, 10);
+      return this.saveProgress({ ...progress, items: resetItems(progress.items, today, stamp()) });
+    },
     saveProgress(progress) {
       const saved = { ...progress, updatedAt: stamp() };
       const list = getList(saved.listId);

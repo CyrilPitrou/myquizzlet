@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { INTERVALS, itemKey, parseKey, newItem, nextItem, dueKeys, buildQueue, shuffle } from '../app/srs.js';
+import { INTERVALS, itemKey, parseKey, newItem, nextItem, dueKeys, buildQueue, shuffle, resetItems } from '../app/srs.js';
 
 const TODAY = '2026-09-01';
 const NOW = '2026-09-01T14:03:00Z';
@@ -147,5 +147,37 @@ describe('shuffle', () => {
     expect(output).not.toBe(input);
     expect(output.slice().sort()).toEqual([1, 2, 3, 4, 5]);
     expect(input).toEqual([1, 2, 3, 4, 5]);   // the input is not disturbed
+  });
+});
+
+describe('resetItems', () => {
+  const LATER = '2026-09-03T09:00:00Z';
+
+  it('puts every studied item back at the start', () => {
+    const items = {
+      'a:f2b': { box: 4, due: '2026-10-01', seen: 9, lapses: 2, lastSeen: NOW, level: 2 },
+      'a:b2f': { box: 2, due: '2026-09-04', seen: 3, lapses: 1, lastSeen: NOW, level: 1 },
+    };
+    expect(resetItems(items, TODAY, LATER)).toEqual({
+      'a:f2b': { box: 1, due: TODAY, seen: 0, lapses: 0, lastSeen: LATER, level: 0 },
+      'a:b2f': { box: 1, due: TODAY, seen: 0, lapses: 0, lastSeen: LATER, level: 0 },
+    });
+  });
+
+  it('stamps the reset so a peer’s old record cannot outrank it', () => {
+    const items = { 'a:f2b': { ...newItem(TODAY), seen: 5, lastSeen: NOW } };
+    const reset = resetItems(items, TODAY, LATER);
+    expect(reset['a:f2b'].lastSeen).toBe(LATER);
+  });
+
+  it('leaves an unstudied item unstamped, so it cannot outrank a peer', () => {
+    const items = { 'a:f2b': newItem('2026-08-01') };
+    expect(resetItems(items, TODAY, LATER)).toEqual({ 'a:f2b': newItem(TODAY) });
+  });
+
+  it('does not disturb the input', () => {
+    const items = { 'a:f2b': { ...newItem(TODAY), box: 3, lastSeen: NOW } };
+    resetItems(items, TODAY, LATER);
+    expect(items['a:f2b'].box).toBe(3);
   });
 });

@@ -59,3 +59,14 @@ export function buildQueue({ list, progress, directions, today, limit,
   }
   return shuffleFn(due).concat(shuffleFn(fresh)).slice(0, limit);
 }
+
+// Starting a list over. mergeProgress resolves per key by newest lastSeen, so
+// a reset written with the blank lastSeen of a new item would lose to the very
+// record it is meant to erase, and the next pull would bring the old boxes
+// back. Stamp the reset instead. An item that was never studied has nothing to
+// erase and stays unstamped, so it can never outrank a peer's real record.
+export function resetItems(items, today, nowIso) {
+  return Object.fromEntries(Object.entries(items).map(([key, item]) => [
+    key, { ...newItem(today), lastSeen: item.lastSeen ? nowIso : null },
+  ]));
+}

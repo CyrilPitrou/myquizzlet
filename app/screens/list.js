@@ -37,6 +37,19 @@ function deleteList(list) {
   go('#/');
 }
 
+function resetProgress(list) {
+  const records = Object.keys(store.getProgress(list.id).items).length;
+  if (!records) {
+    alert(t('list.alert.nothingToReset'));
+    return;
+  }
+  const ok = confirm(t('list.confirm.reset', { name: list.name, records }));
+  if (!ok) return;
+  store.resetProgress(list.id);
+  ctx.sync?.schedule();
+  ctx.render();
+}
+
 function importFromFile(list) {
   openImportDialog({
     onCommit: (cards) => {
@@ -112,6 +125,7 @@ export function showList(id) {
       { label: t('list.menu.import'), onclick: () => importFromFile(list) },
       { label: t('list.menu.exportCsv'), onclick: () => exportCsv(list) },
       { label: t('list.menu.generatePdf'), onclick: () => generatePdf(list) },
+      { label: t('list.menu.reset'), onclick: () => resetProgress(list) },
       { label: t('list.menu.delete'), onclick: () => deleteList(list) },
     ], t('common.actions')),
   ]));
