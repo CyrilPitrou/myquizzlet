@@ -1,246 +1,246 @@
 {
   "listId": "ville",
-  "updatedAt": "2026-09-03T16:31:18.738Z",
+  "updatedAt": "2026-09-03T16:33:14.205Z",
   "items": {
     "nq8fbs:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:16:10.482Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "fg8lil:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:16:14.486Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "nq8fbs:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:15:38.628Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "eq66tu:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:15:43.359Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "drc6ud:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:15:52.777Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "hqrtsq:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:15:56.497Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "lwcfrk:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:16:03.670Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "mjm6q3:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:16:07.696Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "ymx0fq:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:19:45.496Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "is2tct:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:19:24.817Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "keflm4:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:19:30.133Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "qpnlua:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:19:32.484Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "psi1x2:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:19:30.919Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "kmdshw:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:16:58.990Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "lkdx3c:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:17:03.548Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "xihv1b:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:17:06.222Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "dsrk97:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:17:11.804Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "wg359d:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:17:15.782Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "s2yn5g:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:19:43.533Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "83cas3:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:19:22.643Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "9x0ja7:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:19:27.933Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "5odw74:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:19:50.573Z",
+      "lastSeen": "2026-09-03T16:32:56.927Z",
       "level": 0
     },
     "1nmo7h:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:19:58.589Z",
+      "lastSeen": "2026-09-03T16:32:56.927Z",
       "level": 0
     },
     "9x0ja7:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:20:08.076Z",
+      "lastSeen": "2026-09-03T16:32:56.927Z",
       "level": 0
     },
     "wg359d:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:20:10.563Z",
+      "lastSeen": "2026-09-03T16:32:56.927Z",
       "level": 0
     },
     "kulecs:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T16:30:51.569Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "il01ec:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:31:40.785Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "1nmo7h:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:31:46.318Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "fg8lil:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T15:31:43.347Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "qrflk9:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T16:30:58.313Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "yikt9x:b2f": {
       "box": 1,
@@ -252,19 +252,19 @@
     },
     "lwcfrk:f2b": {
       "box": 1,
-      "due": "2026-09-04",
-      "seen": 1,
-      "lapses": 1,
-      "lastSeen": "2026-09-03T16:30:11.396Z",
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": "2026-09-03T16:32:56.927Z",
       "level": 0
     },
     "qpnlua:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T16:30:15.339Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "lkdx3c:f2b": {
       "box": 1,
@@ -275,20 +275,20 @@
       "level": 1
     },
     "5h3zve:b2f": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T16:30:39.468Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "ixt60u:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T16:30:46.836Z",
-      "level": 1
+      "lastSeen": "2026-09-03T16:32:56.927Z",
+      "level": 0
     },
     "psi1x2:b2f": {
       "box": 1,
@@ -307,11 +307,11 @@
       "level": 0
     },
     "mjm6q3:f2b": {
-      "box": 2,
-      "due": "2026-09-06",
-      "seen": 1,
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
       "lapses": 0,
-      "lastSeen": "2026-09-03T16:30:32.567Z",
+      "lastSeen": "2026-09-03T16:32:56.927Z",
       "level": 0
     }
   }
