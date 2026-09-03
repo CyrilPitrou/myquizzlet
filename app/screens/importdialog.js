@@ -75,7 +75,18 @@ export function openImportDialog({ onCommit }) {
       const chosen = event.target.files[0];
       event.target.value = ''; // so re-picking the same path still fires change
       if (!chosen) return;
-      const text = await chosen.text();
+      let text;
+      try {
+        text = await chosen.text();
+      } catch {
+        // A file the picker listed but cannot read — one still in the cloud,
+        // or moved since. Saying nothing leaves the dialog exactly as it was,
+        // which is indistinguishable from a dead button. Any rows already
+        // loaded stay put, so a failed second pick costs nothing.
+        alert(`Could not read "${chosen.name}". If it is stored online, open it `
+          + 'once so it downloads to this device, then try again.');
+        return;
+      }
       rows = previewRows(text);
       renderRows();
     },
