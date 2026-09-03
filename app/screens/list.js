@@ -84,7 +84,10 @@ function generatePdf(list) {
 <script>window.onload = () => window.print();</script>
 </body></html>`;
   const win = window.open('', '_blank');
-  if (!win) return;
+  if (!win) {
+    alert('Your browser blocked the PDF popup. Allow popups for this site and try again.');
+    return;
+  }
   win.document.write(html);
   win.document.close();
 }
