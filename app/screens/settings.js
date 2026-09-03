@@ -3,6 +3,8 @@ import { store, settings, saveSettings, REPO, screen, ctx, todayStr } from '../a
 import { setStatus, statusLine } from '../status.js';
 import { encode } from '../qr.js';
 import { APP_URL, TOKEN_PAGE, setupLink, parseSetup, expiryWarning } from '../setup.js';
+import { toCsv } from '../csv.js';
+import { zip, entryNames } from '../zip.js';
 
 const THEMES = [{ id: 'paper', name: 'Paper' }, { id: 'study', name: 'Study' },
                 { id: 'focus', name: 'Focus' }];
@@ -109,6 +111,11 @@ function tokenQr(current) {
   return box;
 }
 
+const csvFiles = (lists) => {
+  const names = entryNames(lists.map((list) => ({ title: list.name, id: list.id })));
+  return lists.map((list, i) => ({ name: names[i], text: toCsv(list.cards) }));
+};
+
 export function showSettings() {
   const view = screen();
   const current = settings();
@@ -195,6 +202,31 @@ export function showSettings() {
       tokenQr(current),
     ]));
   }
+
+  const exported = el('p', { class: 'muted' });
+
+  view.append(section('Export', [
+    el('p', { class: 'muted', text: 'Every list as a CSV, in one zip. '
+      + 'A plain copy you can keep, read anywhere, or import again.' }),
+    el('button', {
+      text: 'Export all lists',
+      onclick: () => {
+        const files = csvFiles(store.listIds().map((id) => store.getList(id)).filter(Boolean));
+        if (!files.length) {
+          exported.textContent = 'There are no lists to export yet.';
+          return;
+        }
+        const blob = new Blob([zip(files)], { type: 'application/zip' });
+        const a = el('a', { href: URL.createObjectURL(blob), download: 'myquizzlet.zip' });
+        a.click();
+        URL.revokeObjectURL(a.href);
+        const cards = files.reduce((total, file) => total + (file.text ? file.text.split('\n').length : 0), 0);
+        exported.textContent = `${files.length} list${files.length === 1 ? '' : 's'}, `
+          + `${cards} card${cards === 1 ? '' : 's'}.`;
+      },
+    }),
+    exported,
+  ]));
 
   view.append(section('About', [
     el('p', {}, [el('a', { href: '#/help', text: 'What Train and Test are for, and what the numbers mean' })]),

@@ -136,6 +136,10 @@ handled when grading typed answers.
 - Edit `data/lists/<name>.json` directly on github.com or in a text editor. The
   app picks up the change on its next pull. Best for bulk work.
 
+**Take a copy.** Settings → **Export all lists** downloads every list as a
+CSV, packed into one zip. It is a plain copy for keeping or reading elsewhere;
+the lists on GitHub remain the real ones.
+
 **Study.** Home → *Test*. Pick a mode:
 
 - **Flashcards** — see one side, reveal the other, say whether you knew it.
