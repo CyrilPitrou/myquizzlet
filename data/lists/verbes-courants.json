@@ -204,7 +204,7 @@
     },
     {
       "id": "t82l7x",
-      "front": "lavar",
+      "front": "lavar, limpiar",
       "back": "laver,nettoyer"
     },
     {
@@ -373,5 +373,5 @@
       "back": "voler,dérober"
     }
   ],
-  "updatedAt": "2026-09-03T18:13:45.889Z"
+  "updatedAt": "2026-09-03T18:14:20.197Z"
 }
