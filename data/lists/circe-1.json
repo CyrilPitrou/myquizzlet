@@ -1,0 +1,167 @@
+{
+  "id": "circe-1",
+  "name": "Circe 1",
+  "folder": "Livres",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "cards": [
+    {
+      "id": "idzdpn",
+      "front": "a crook",
+      "back": "un escroc"
+    },
+    {
+      "id": "isjhzz",
+      "front": "dough",
+      "back": "fric"
+    },
+    {
+      "id": "o8l8we",
+      "front": "deaf",
+      "back": "sourd,sourde"
+    },
+    {
+      "id": "h3kqnn",
+      "front": "a moron",
+      "back": "un idiot"
+    },
+    {
+      "id": "9oa79m",
+      "front": "the grandstand",
+      "back": "la tribune"
+    },
+    {
+      "id": "pk774x",
+      "front": "pimples",
+      "back": "boutons d'acné"
+    },
+    {
+      "id": "qkku23",
+      "front": "a ledge",
+      "back": "un rebord"
+    },
+    {
+      "id": "kh5a14",
+      "front": "to shave",
+      "back": "se raser,raser"
+    },
+    {
+      "id": "4ymemi",
+      "front": "scarcely",
+      "back": "à peine,quasiment pas"
+    },
+    {
+      "id": "vxeg02",
+      "front": "to coax",
+      "back": "amadouer"
+    },
+    {
+      "id": "1plji3",
+      "front": "breadth",
+      "back": "ampleur,étendue"
+    },
+    {
+      "id": "8uwq6i",
+      "front": "bride",
+      "back": "mariée"
+    },
+    {
+      "id": "loa4qw",
+      "front": "to gild something",
+      "back": "dorer quelque chose"
+    },
+    {
+      "id": "0md9nr",
+      "front": "in the midst of something",
+      "back": "au milieu de quelque chose"
+    },
+    {
+      "id": "lcviyw",
+      "front": "strand",
+      "back": "cheveu (un seul)"
+    },
+    {
+      "id": "notgbq",
+      "front": "lustrous",
+      "back": "brillant,lustré"
+    },
+    {
+      "id": "nhdb2y",
+      "front": "crafty",
+      "back": "rusé,malin"
+    },
+    {
+      "id": "l2zxed",
+      "front": "an eel",
+      "back": "une anguille"
+    },
+    {
+      "id": "ptdxnc",
+      "front": "a bead",
+      "back": "une perle,une goutte"
+    },
+    {
+      "id": "8cma4v",
+      "front": "to weep",
+      "back": "pleurer,sangloter"
+    },
+    {
+      "id": "jvsstk",
+      "front": "a log",
+      "back": "une bûche"
+    },
+    {
+      "id": "9y7p95",
+      "front": "a plait",
+      "back": "une tresse,une natte"
+    },
+    {
+      "id": "38eh8w",
+      "front": "utterly",
+      "back": "tout à fait,complètement"
+    },
+    {
+      "id": "y515md",
+      "front": "a spear",
+      "back": "une lance"
+    },
+    {
+      "id": "2ceftv",
+      "front": "a pit",
+      "back": "un trou"
+    },
+    {
+      "id": "2kc1fx",
+      "front": "a throng",
+      "back": "une foule,une multitude"
+    },
+    {
+      "id": "tayvm6",
+      "front": "a quarry",
+      "back": "une proie,gibier"
+    },
+    {
+      "id": "klflgm",
+      "front": "to dangle",
+      "back": "balancer,pendre"
+    },
+    {
+      "id": "067plm",
+      "front": "taut",
+      "back": "tendu,crispé"
+    },
+    {
+      "id": "ea4ril",
+      "front": "to muffle",
+      "back": "étouffer,assourdir"
+    },
+    {
+      "id": "i9bxqn",
+      "front": "a whip",
+      "back": "un fouet"
+    }
+  ],
+  "updatedAt": "2026-09-03T05:14:37.075Z"
+}
