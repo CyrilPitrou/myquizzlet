@@ -100,8 +100,10 @@ export function showList(id) {
   const view = screen();
   view.append(el('a', { href: '#/', class: 'back', text: t('common.back.lists') }));
   view.append(el('div', { class: 'listhead' }, [
-    el('h2', { text: list.name }),
-    el('span', { class: 'listcount', text: t('common.cards', { n: stats.cards }) }),
+    el('h2', {}, [
+      list.name,
+      el('span', { class: 'listcount', text: ` — ${t('common.cards', { n: stats.cards })}` }),
+    ]),
     menu([
       { label: t('list.menu.rename'), onclick: () => renameList(list) },
       { label: t('list.menu.move'), onclick: () => moveToFolder(list) },
