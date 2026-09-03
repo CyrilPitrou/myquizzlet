@@ -1,6 +1,6 @@
 {
   "listId": "capitales",
-  "updatedAt": "2026-09-03T22:45:24.923Z",
+  "updatedAt": "2026-09-03T22:45:49.917Z",
   "items": {
     "y0hwq6:f2b": {
       "box": 2,
@@ -195,19 +195,19 @@
       "level": 1
     },
     "j2pd7c:f2b": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T22:45:46.775Z",
       "level": 1
     },
     "x6ptv2:f2b": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-06",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-03T22:45:49.917Z",
       "level": 1
     },
     "e5cqm1:f2b": {
@@ -219,6 +219,38 @@
       "level": 1
     },
     "v5zgn1:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "g1ksp7:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "r3zcj9:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "a6vsk2:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "y8qzp4:f2b": {
       "box": 1,
       "due": "2026-09-03",
       "seen": 0,
