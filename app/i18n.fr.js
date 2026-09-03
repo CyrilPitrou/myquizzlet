@@ -177,7 +177,6 @@ export const fr = {
   'sync.problem.unknown': 'La synchronisation n’est pas allée au bout. Votre travail est en sécurité sur cet appareil ; réessayez.',
   'settings.syncNow': 'Synchroniser maintenant',
   'settings.token': 'Jeton',
-  'settings.token.saved': 'Les modifications sur cet appareil sont enregistrées sur GitHub.',
   'settings.token.none': 'Sans jeton, tout ce que vous ajoutez ou modifiez reste sur cet appareil. L’étude fonctionne quand même.',
   'settings.token.manage': 'Gérer le jeton',
   'settings.export': 'Exporter',

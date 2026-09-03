@@ -178,7 +178,6 @@ export const en = {
   'sync.problem.unknown': 'The sync did not finish. Your work is safe on this device; try again.',
   'settings.syncNow': 'Synchronise now',
   'settings.token': 'Token',
-  'settings.token.saved': 'Changes on this device are saved to GitHub.',
   'settings.token.none': 'Without a token, anything you add or change stays on this device. Studying works fine either way.',
   'settings.token.manage': 'Manage token',
   'settings.export': 'Export',

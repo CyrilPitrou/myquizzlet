@@ -75,13 +75,17 @@ function syncSection(current) {
 // Everything about the token, and one button in the same place in both states.
 // The heading and the button never move; only the lines between them change,
 // so there is no hunting for the way in.
+//
+// It states no opinion on whether changes are reaching GitHub. That is the
+// status line's job one section up, and it is the only thing here that knows:
+// this section is painted once, and it went on claiming "changes are saved to
+// GitHub" directly beneath a sync that had just failed with a dead token.
 function tokenSection(current) {
   const warning = expiryWarning(current.tokenExpiry, todayStr());
 
   return section(t('settings.token'), [
     ...(current.token
-      ? [el('p', { class: 'muted', text: t('settings.token.saved') }),
-        el('dl', { class: 'facts' }, [
+      ? [el('dl', { class: 'facts' }, [
           el('dt', { text: t('common.token') }), el('dd', { text: maskToken(current.token) }),
           el('dt', { text: t('common.expires') }), el('dd', { text: current.tokenExpiry || t('common.notRecorded') }),
         ]),
