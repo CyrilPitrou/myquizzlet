@@ -12,9 +12,7 @@ function statsLine(stats) {
     ` ${stats.learnedPct}%`,
   ]);
   const nodes = [learned];
-  nodes.push(stats.rightPct !== null
-    ? el('span', { text: t('common.right', { n: stats.rightPct }) })
-    : el('span', { text: t('common.dash') }));
+  if (stats.rightPct !== null) nodes.push(el('span', { text: t('common.right', { n: stats.rightPct }) }));
   nodes.push(stats.due
     ? el('span', { class: 'badge', text: t('common.due', { n: stats.due }) })
     : el('span', { text: t('common.dash') }));
@@ -26,7 +24,7 @@ function listRow(id) {
   const stats = listStats({ list, progress: store.getProgress(id), today: todayStr() });
   return el('div', { class: 'listrow' }, [
     el('a', { href: `#/list/${id}`, text: list.name }),
-    el('div', { class: 'liststats cols' }, [
+    el('div', { class: 'liststats' }, [
       el('span', { text: list.folder || t('common.unfiled') }),
       el('span', { text: t('common.cards', { n: stats.cards }) }),
       ...statsLine(stats),
