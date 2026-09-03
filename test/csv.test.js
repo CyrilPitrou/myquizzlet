@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { parseCards, toCsv } from '../app/csv.js';
+import { parseCards, toCsv, previewRows } from '../app/csv.js';
 
 describe('parseCards', () => {
   it('parses comma-separated pairs', () => {
@@ -9,6 +9,14 @@ describe('parseCards', () => {
 
   it('parses tab-separated pairs pasted from a spreadsheet', () => {
     expect(parseCards('el pan\tle pain').cards).toEqual([{ front: 'el pan', back: 'le pain' }]);
+  });
+
+  it('parses semicolon-separated pairs', () => {
+    expect(parseCards('el pan;le pain').cards).toEqual([{ front: 'el pan', back: 'le pain' }]);
+  });
+
+  it('prefers tab over semicolon when both are present on a line', () => {
+    expect(parseCards('a;b\tc').cards).toEqual([{ front: 'a;b', back: 'c' }]);
   });
 
   it('respects quotes around a field containing the delimiter', () => {
@@ -53,5 +61,26 @@ describe('toCsv', () => {
 
   it('quotes fields containing a comma or a quote', () => {
     expect(toCsv([{ front: 'a,b', back: 'say "hi"' }])).toBe('"a,b","say ""hi"""');
+  });
+});
+
+describe('previewRows', () => {
+  it('returns one row per non-blank line, in order', () => {
+    expect(previewRows('a,b\n\nc,d')).toEqual([
+      { front: 'a', back: 'b', error: null },
+      { front: 'c', back: 'd', error: null },
+    ]);
+  });
+
+  it('flags a line with no delimiter, but still returns its text for editing', () => {
+    expect(previewRows('oops')).toEqual([{ front: 'oops', back: '', error: 'no separator found' }]);
+  });
+
+  it('flags a line with an empty side', () => {
+    expect(previewRows('a,')).toEqual([{ front: 'a', back: '', error: 'empty side' }]);
+  });
+
+  it('respects semicolon as a delimiter', () => {
+    expect(previewRows('el pan;le pain')).toEqual([{ front: 'el pan', back: 'le pain', error: null }]);
   });
 });

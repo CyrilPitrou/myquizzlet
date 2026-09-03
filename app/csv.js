@@ -20,28 +20,39 @@ function splitLine(line, delimiter) {
   return fields.map((f) => f.trim());
 }
 
+// One line, still carrying its own delimiter choice — tab first (it can't
+// appear naturally in prose text), then semicolon, else comma. Returns null
+// for a blank line (nothing to show, nothing to report), otherwise always a
+// { front, back, error } row: even a line that fails to parse gets *some*
+// front/back text, because the import dialog needs a row to make it editable.
+function parseLine(line) {
+  const trimmed = line.trim();
+  if (trimmed === '') return null;
+  const delimiter = trimmed.includes('\t') ? '\t' : trimmed.includes(';') ? ';' : ',';
+  const fields = splitLine(trimmed, delimiter);
+  if (fields.length < 2) return { front: trimmed, back: '', error: 'no separator found' };
+  const front = fields[0];
+  const back = fields.slice(1).join(delimiter);
+  if (front === '' || back === '') return { front, back, error: 'empty side' };
+  return { front, back, error: null };
+}
+
 export function parseCards(text) {
   const cards = [];
   const errors = [];
-  const lines = String(text).split(/\r?\n/);
-  lines.forEach((raw, index) => {
-    const line = raw.trim();
-    if (line === '') return;
-    const delimiter = line.includes('\t') ? '\t' : ',';
-    const fields = splitLine(line, delimiter);
-    if (fields.length < 2) {
-      errors.push({ line: index + 1, reason: 'no separator found' });
-      return;
-    }
-    const front = fields[0];
-    const back = fields.slice(1).join(delimiter);
-    if (front === '' || back === '') {
-      errors.push({ line: index + 1, reason: 'empty side' });
-      return;
-    }
-    cards.push({ front, back });
+  String(text).split(/\r?\n/).forEach((raw, index) => {
+    const parsed = parseLine(raw);
+    if (!parsed) return;
+    if (parsed.error) errors.push({ line: index + 1, reason: parsed.error });
+    else cards.push({ front: parsed.front, back: parsed.back });
   });
   return { cards, errors };
+}
+
+// Same per-line parse as parseCards, but keeps every non-blank line — including
+// the failed ones — in original order, for an editable preview.
+export function previewRows(text) {
+  return String(text).split(/\r?\n/).map(parseLine).filter((row) => row !== null);
 }
 
 function quote(value) {
