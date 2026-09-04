@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-ciudad-desplazamientos",
+  "name": "La ciudad y los desplazamientos",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "svq6p1",
+      "front": "la ciudad",
+      "back": "la ville"
+    },
+    {
+      "id": "vfq675",
+      "front": "el pueblo",
+      "back": "le village"
+    },
+    {
+      "id": "6l0dji",
+      "front": "el barrio",
+      "back": "le quartier"
+    },
+    {
+      "id": "dl9nv6",
+      "front": "el centro",
+      "back": "le centre-ville"
+    },
+    {
+      "id": "94w4ui",
+      "front": "las afueras",
+      "back": "la banlieue"
+    },
+    {
+      "id": "jriez3",
+      "front": "la calle",
+      "back": "la rue"
+    },
+    {
+      "id": "573z77",
+      "front": "la avenida",
+      "back": "l'avenue"
+    },
+    {
+      "id": "guxxql",
+      "front": "la plaza",
+      "back": "la place"
+    },
+    {
+      "id": "eg6sey",
+      "front": "la acera",
+      "back": "le trottoir"
+    },
+    {
+      "id": "rpo5c8",
+      "front": "la carretera",
+      "back": "la route"
+    },
+    {
+      "id": "7mjbhu",
+      "front": "la autopista",
+      "back": "l'autoroute"
+    },
+    {
+      "id": "nvq6dd",
+      "front": "el cruce",
+      "back": "le carrefour"
+    },
+    {
+      "id": "jdh0bm",
+      "front": "la esquina",
+      "back": "le coin (de rue)"
+    },
+    {
+      "id": "vz08e0",
+      "front": "el semáforo",
+      "back": "le feu de signalisation"
+    },
+    {
+      "id": "3115wy",
+      "front": "el paso de peatones",
+      "back": "le passage piéton"
+    },
+    {
+      "id": "v8po4f",
+      "front": "el peatón",
+      "back": "le piéton"
+    },
+    {
+      "id": "6hgosb",
+      "front": "la señal de tráfico",
+      "back": "le panneau de signalisation"
+    },
+    {
+      "id": "uvgxas",
+      "front": "el tráfico",
+      "back": "la circulation"
+    },
+    {
+      "id": "id4qqa",
+      "front": "el atasco",
+      "back": "l'embouteillage"
+    },
+    {
+      "id": "dd5nsa",
+      "front": "el puente",
+      "back": "le pont"
+    },
+    {
+      "id": "muwdjq",
+      "front": "el túnel",
+      "back": "le tunnel"
+    },
+    {
+      "id": "r44foe",
+      "front": "el parque",
+      "back": "le parc"
+    },
+    {
+      "id": "2eoa13",
+      "front": "la fuente",
+      "back": "la fontaine"
+    },
+    {
+      "id": "h2xxj1",
+      "front": "la iglesia",
+      "back": "l'église"
+    },
+    {
+      "id": "3ojsok",
+      "front": "el ayuntamiento",
+      "back": "la mairie"
+    },
+    {
+      "id": "o1upb5",
+      "front": "la comisaría",
+      "back": "le commissariat"
+    },
+    {
+      "id": "ehxmpc",
+      "front": "los bomberos",
+      "back": "les pompiers"
+    },
+    {
+      "id": "s4stvu",
+      "front": "la oficina de correos",
+      "back": "le bureau de poste"
+    },
+    {
+      "id": "39wadt",
+      "front": "el banco",
+      "back": "la banque"
+    },
+    {
+      "id": "44faqh",
+      "front": "la biblioteca",
+      "back": "la bibliothèque"
+    },
+    {
+      "id": "qdmo66",
+      "front": "el museo",
+      "back": "le musée"
+    },
+    {
+      "id": "4xzamw",
+      "front": "el teatro",
+      "back": "le théâtre"
+    },
+    {
+      "id": "ycgfro",
+      "front": "el cine",
+      "back": "le cinéma"
+    },
+    {
+      "id": "2pxayr",
+      "front": "el mercado",
+      "back": "le marché"
+    },
+    {
+      "id": "1yx89v",
+      "front": "el quiosco",
+      "back": "le kiosque"
+    },
+    {
+      "id": "xstpvm",
+      "front": "la peluquería",
+      "back": "le salon de coiffure"
+    },
+    {
+      "id": "8rru8a",
+      "front": "la gasolinera",
+      "back": "la station-service"
+    },
+    {
+      "id": "egy9gx",
+      "front": "el aparcamiento",
+      "back": "le parking"
+    },
+    {
+      "id": "xiw223",
+      "front": "el transporte público",
+      "back": "les transports en commun"
+    },
+    {
+      "id": "ggsezr",
+      "front": "el autobús",
+      "back": "le bus"
+    },
+    {
+      "id": "txu8ws",
+      "front": "el metro",
+      "back": "le métro"
+    },
+    {
+      "id": "ry387k",
+      "front": "el tranvía",
+      "back": "le tramway"
+    },
+    {
+      "id": "erffqo",
+      "front": "el tren",
+      "back": "le train"
+    },
+    {
+      "id": "7myl4c",
+      "front": "la parada",
+      "back": "l'arrêt"
+    },
+    {
+      "id": "elbxl9",
+      "front": "la estación",
+      "back": "la gare"
+    },
+    {
+      "id": "q7ik9v",
+      "front": "el andén",
+      "back": "le quai"
+    },
+    {
+      "id": "xogo3j",
+      "front": "el billete",
+      "back": "le billet"
+    },
+    {
+      "id": "yhi798",
+      "front": "el abono",
+      "back": "l'abonnement"
+    },
+    {
+      "id": "s78bdr",
+      "front": "el horario",
+      "back": "l'horaire"
+    },
+    {
+      "id": "t6xi9b",
+      "front": "la línea",
+      "back": "la ligne"
+    },
+    {
+      "id": "0cxv5y",
+      "front": "el trayecto",
+      "back": "le trajet"
+    },
+    {
+      "id": "qqxxth",
+      "front": "el retraso",
+      "back": "le retard"
+    },
+    {
+      "id": "3v2xs1",
+      "front": "el conductor",
+      "back": "le conducteur"
+    },
+    {
+      "id": "rdoiyh",
+      "front": "el pasajero",
+      "back": "le passager"
+    },
+    {
+      "id": "qavhvb",
+      "front": "el coche",
+      "back": "la voiture"
+    },
+    {
+      "id": "pwwae2",
+      "front": "la moto",
+      "back": "la moto"
+    },
+    {
+      "id": "yvryqh",
+      "front": "la bicicleta",
+      "back": "le vélo"
+    },
+    {
+      "id": "iry4di",
+      "front": "el casco",
+      "back": "le casque"
+    },
+    {
+      "id": "s57nj1",
+      "front": "el taxi",
+      "back": "le taxi"
+    },
+    {
+      "id": "2jgiot",
+      "front": "el volante",
+      "back": "le volant"
+    },
+    {
+      "id": "hzneis",
+      "front": "el freno",
+      "back": "le frein"
+    },
+    {
+      "id": "moid08",
+      "front": "la rueda",
+      "back": "la roue"
+    },
+    {
+      "id": "g39nw2",
+      "front": "el motor",
+      "back": "le moteur"
+    },
+    {
+      "id": "9vzvw3",
+      "front": "la gasolina",
+      "back": "l'essence"
+    },
+    {
+      "id": "cgdnab",
+      "front": "el cinturón de seguridad",
+      "back": "la ceinture de sécurité"
+    },
+    {
+      "id": "g5l85r",
+      "front": "el carné de conducir",
+      "back": "le permis de conduire"
+    },
+    {
+      "id": "y31ruy",
+      "front": "la multa",
+      "back": "l'amende"
+    },
+    {
+      "id": "tyzabb",
+      "front": "el accidente",
+      "back": "l'accident"
+    },
+    {
+      "id": "bniz98",
+      "front": "el seguro del coche",
+      "back": "l'assurance automobile"
+    },
+    {
+      "id": "9qfhzt",
+      "front": "el taller",
+      "back": "le garage (atelier)"
+    },
+    {
+      "id": "82c82d",
+      "front": "la velocidad",
+      "back": "la vitesse"
+    },
+    {
+      "id": "zrvb3x",
+      "front": "el ruido",
+      "back": "le bruit"
+    },
+    {
+      "id": "9rfbtn",
+      "front": "la contaminación",
+      "back": "la pollution"
+    },
+    {
+      "id": "fd14s0",
+      "front": "conducir",
+      "back": "conduire"
+    },
+    {
+      "id": "50vmyq",
+      "front": "aparcar",
+      "back": "se garer"
+    },
+    {
+      "id": "xddyxj",
+      "front": "adelantar",
+      "back": "doubler"
+    },
+    {
+      "id": "syy4a9",
+      "front": "frenar",
+      "back": "freiner"
+    },
+    {
+      "id": "ybqgih",
+      "front": "acelerar",
+      "back": "accélérer"
+    },
+    {
+      "id": "b18yzh",
+      "front": "girar",
+      "back": "tourner"
+    },
+    {
+      "id": "cg5gsf",
+      "front": "cruzar",
+      "back": "traverser"
+    },
+    {
+      "id": "8qc5ya",
+      "front": "seguir recto",
+      "back": "continuer tout droit"
+    },
+    {
+      "id": "8q279n",
+      "front": "torcer a la derecha",
+      "back": "tourner à droite"
+    },
+    {
+      "id": "rcvzeg",
+      "front": "coger el autobús",
+      "back": "prendre le bus"
+    },
+    {
+      "id": "ybu6pu",
+      "front": "bajarse",
+      "back": "descendre (d'un véhicule)"
+    },
+    {
+      "id": "hgrt79",
+      "front": "subirse",
+      "back": "monter (dans un véhicule)"
+    },
+    {
+      "id": "zng5uk",
+      "front": "hacer transbordo",
+      "back": "changer de ligne"
+    },
+    {
+      "id": "c1t4p6",
+      "front": "perder el tren",
+      "back": "rater le train"
+    },
+    {
+      "id": "3492ay",
+      "front": "andar",
+      "back": "marcher"
+    },
+    {
+      "id": "n66o5q",
+      "front": "pasear",
+      "back": "se promener"
+    },
+    {
+      "id": "6tzh0u",
+      "front": "recorrer",
+      "back": "parcourir"
+    },
+    {
+      "id": "80xgac",
+      "front": "llegar",
+      "back": "arriver"
+    },
+    {
+      "id": "jj6526",
+      "front": "salir de casa",
+      "back": "partir de chez soi"
+    },
+    {
+      "id": "lc6tqo",
+      "front": "volver",
+      "back": "revenir, rentrer"
+    },
+    {
+      "id": "4e6nuw",
+      "front": "cerca de",
+      "back": "près de"
+    },
+    {
+      "id": "097qd4",
+      "front": "lejos de",
+      "back": "loin de"
+    },
+    {
+      "id": "93m6lt",
+      "front": "enfrente de",
+      "back": "en face de"
+    },
+    {
+      "id": "mqr5ol",
+      "front": "al lado de",
+      "back": "à côté de"
+    },
+    {
+      "id": "sm6cc0",
+      "front": "a la vuelta de la esquina",
+      "back": "au coin de la rue"
+    },
+    {
+      "id": "fpimro",
+      "front": "la rotonda",
+      "back": "le rond-point"
+    },
+    {
+      "id": "1jy5na",
+      "front": "peatonal",
+      "back": "piétonnier"
+    }
+  ]
+}
