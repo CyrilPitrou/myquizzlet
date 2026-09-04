@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-expresiones-diarias",
+  "name": "Expresiones de la vida diaria",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "9j61eo",
+      "front": "tener ganas de",
+      "back": "avoir envie de"
+    },
+    {
+      "id": "z221vm",
+      "front": "dar igual",
+      "back": "être égal, ne pas importer"
+    },
+    {
+      "id": "av0k7t",
+      "front": "da lo mismo",
+      "back": "c'est du pareil au même"
+    },
+    {
+      "id": "uw9y90",
+      "front": "hace falta",
+      "back": "il faut"
+    },
+    {
+      "id": "y54og9",
+      "front": "tener que ver con",
+      "back": "avoir à voir avec"
+    },
+    {
+      "id": "zkn1lk",
+      "front": "tener razón",
+      "back": "avoir raison"
+    },
+    {
+      "id": "vty993",
+      "front": "no tener ni idea",
+      "back": "ne pas en avoir la moindre idée"
+    },
+    {
+      "id": "50rr41",
+      "front": "tener prisa",
+      "back": "être pressé"
+    },
+    {
+      "id": "uuodko",
+      "front": "tener sueño",
+      "back": "avoir sommeil"
+    },
+    {
+      "id": "u76qvl",
+      "front": "tener frío",
+      "back": "avoir froid"
+    },
+    {
+      "id": "6x9n06",
+      "front": "tener calor",
+      "back": "avoir chaud"
+    },
+    {
+      "id": "vryszh",
+      "front": "tener suerte",
+      "back": "avoir de la chance"
+    },
+    {
+      "id": "qqs1f6",
+      "front": "tener cuidado",
+      "back": "faire attention"
+    },
+    {
+      "id": "hpiwae",
+      "front": "tener miedo de",
+      "back": "avoir peur de"
+    },
+    {
+      "id": "hfss35",
+      "front": "tener éxito",
+      "back": "avoir du succès"
+    },
+    {
+      "id": "9mrdpy",
+      "front": "darse cuenta de",
+      "back": "se rendre compte de"
+    },
+    {
+      "id": "ayhpqx",
+      "front": "darse prisa",
+      "back": "se dépêcher"
+    },
+    {
+      "id": "fi7yev",
+      "front": "dar un paseo",
+      "back": "faire une promenade"
+    },
+    {
+      "id": "ppu1v1",
+      "front": "dar las gracias",
+      "back": "remercier"
+    },
+    {
+      "id": "tnpznd",
+      "front": "dar la vuelta",
+      "back": "faire le tour, retourner"
+    },
+    {
+      "id": "ekmkx9",
+      "front": "dar pena",
+      "back": "faire de la peine"
+    },
+    {
+      "id": "1bfd7c",
+      "front": "dar asco",
+      "back": "dégoûter"
+    },
+    {
+      "id": "6lhahb",
+      "front": "hacer caso",
+      "back": "prêter attention, obéir"
+    },
+    {
+      "id": "3xw6w3",
+      "front": "hacer falta",
+      "back": "être nécessaire"
+    },
+    {
+      "id": "6fth77",
+      "front": "hacer cola",
+      "back": "faire la queue"
+    },
+    {
+      "id": "vbcbal",
+      "front": "hacer daño",
+      "back": "faire mal"
+    },
+    {
+      "id": "7deakn",
+      "front": "hacer un favor",
+      "back": "rendre service"
+    },
+    {
+      "id": "ee7ikn",
+      "front": "hacerse tarde",
+      "back": "se faire tard"
+    },
+    {
+      "id": "15bypa",
+      "front": "echar de menos a alguien",
+      "back": "regretter quelqu'un"
+    },
+    {
+      "id": "oene42",
+      "front": "echar la culpa",
+      "back": "rejeter la faute"
+    },
+    {
+      "id": "el48y5",
+      "front": "ponerse de acuerdo",
+      "back": "se mettre d'accord"
+    },
+    {
+      "id": "7zx6yy",
+      "front": "ponerse nervioso",
+      "back": "devenir nerveux"
+    },
+    {
+      "id": "pubknb",
+      "front": "ponerse en marcha",
+      "back": "se mettre en route"
+    },
+    {
+      "id": "vhtqzk",
+      "front": "llevarse un susto",
+      "back": "avoir une frayeur"
+    },
+    {
+      "id": "j6laa8",
+      "front": "quedarse sin",
+      "back": "se retrouver sans"
+    },
+    {
+      "id": "f5tvot",
+      "front": "quedar en",
+      "back": "convenir de"
+    },
+    {
+      "id": "aw6ktz",
+      "front": "estar de acuerdo",
+      "back": "être d'accord"
+    },
+    {
+      "id": "nn47aq",
+      "front": "estar a punto de",
+      "back": "être sur le point de"
+    },
+    {
+      "id": "1g7p24",
+      "front": "estar harto de",
+      "back": "en avoir assez de"
+    },
+    {
+      "id": "9w779d",
+      "front": "estar de moda",
+      "back": "être à la mode"
+    },
+    {
+      "id": "iqho0m",
+      "front": "estar en forma",
+      "back": "être en forme"
+    },
+    {
+      "id": "cj2mte",
+      "front": "estar hecho polvo",
+      "back": "être épuisé"
+    },
+    {
+      "id": "pio0i8",
+      "front": "ir de compras",
+      "back": "faire les courses"
+    },
+    {
+      "id": "f32676",
+      "front": "ir al grano",
+      "back": "aller droit au but"
+    },
+    {
+      "id": "2dvioe",
+      "front": "ir tirando",
+      "back": "aller doucement, faire aller"
+    },
+    {
+      "id": "iz0kqb",
+      "front": "valer la pena",
+      "back": "valoir la peine"
+    },
+    {
+      "id": "u2180i",
+      "front": "no valer para nada",
+      "back": "ne servir à rien"
+    },
+    {
+      "id": "5f0xj0",
+      "front": "merecer la pena",
+      "back": "valoir le coup"
+    },
+    {
+      "id": "jlr5ss",
+      "front": "llevar a cabo",
+      "back": "mener à bien"
+    },
+    {
+      "id": "atp5zs",
+      "front": "tomar una decisión",
+      "back": "prendre une décision"
+    },
+    {
+      "id": "ajkq18",
+      "front": "tomar el pelo",
+      "back": "se moquer de quelqu'un"
+    },
+    {
+      "id": "vszccl",
+      "front": "poner en marcha",
+      "back": "mettre en route"
+    },
+    {
+      "id": "mufvkm",
+      "front": "poner de manifiesto",
+      "back": "mettre en évidence"
+    },
+    {
+      "id": "lnz4xd",
+      "front": "sacar provecho",
+      "back": "tirer profit"
+    },
+    {
+      "id": "dweotv",
+      "front": "sacar de quicio",
+      "back": "mettre hors de soi"
+    },
+    {
+      "id": "n623za",
+      "front": "meter la pata",
+      "back": "faire une gaffe"
+    },
+    {
+      "id": "jiqtcb",
+      "front": "pasarlo bien",
+      "back": "passer un bon moment"
+    },
+    {
+      "id": "ddxeuy",
+      "front": "pasarlo mal",
+      "back": "passer un mauvais moment"
+    },
+    {
+      "id": "wxrmd7",
+      "front": "pasar de largo",
+      "back": "passer sans s'arrêter"
+    },
+    {
+      "id": "xr408w",
+      "front": "darse por vencido",
+      "back": "s'avouer vaincu"
+    },
+    {
+      "id": "w5x1hd",
+      "front": "salirse con la suya",
+      "back": "arriver à ses fins"
+    },
+    {
+      "id": "v5fkxf",
+      "front": "caer en la cuenta",
+      "back": "réaliser, comprendre enfin"
+    },
+    {
+      "id": "lgp0jg",
+      "front": "por si acaso",
+      "back": "au cas où"
+    },
+    {
+      "id": "35iij5",
+      "front": "de todas formas",
+      "back": "de toute façon"
+    },
+    {
+      "id": "q3pooz",
+      "front": "de todos modos",
+      "back": "en tout cas"
+    },
+    {
+      "id": "2g4bpj",
+      "front": "en seguida vuelvo",
+      "back": "je reviens tout de suite"
+    },
+    {
+      "id": "ohecce",
+      "front": "a lo sumo",
+      "back": "tout au plus"
+    },
+    {
+      "id": "0h1iyt",
+      "front": "más o menos",
+      "back": "plus ou moins"
+    },
+    {
+      "id": "664dur",
+      "front": "poco más o menos",
+      "back": "à peu près"
+    },
+    {
+      "id": "6cm1v1",
+      "front": "de golpe",
+      "back": "d'un coup"
+    },
+    {
+      "id": "42mp0g",
+      "front": "de pronto",
+      "back": "tout à coup"
+    },
+    {
+      "id": "7uyg7h",
+      "front": "a menudo llueve",
+      "back": "il pleut souvent"
+    },
+    {
+      "id": "7co3zf",
+      "front": "por lo visto",
+      "back": "apparemment"
+    },
+    {
+      "id": "4a6cdr",
+      "front": "al parecer",
+      "back": "à ce qu'il paraît"
+    },
+    {
+      "id": "iqsnln",
+      "front": "menos mal",
+      "back": "heureusement"
+    },
+    {
+      "id": "y78bcb",
+      "front": "ojalá",
+      "back": "pourvu que, si seulement"
+    },
+    {
+      "id": "a5sjyg",
+      "front": "qué va",
+      "back": "mais non, pas du tout"
+    },
+    {
+      "id": "cp222i",
+      "front": "ni hablar",
+      "back": "pas question"
+    },
+    {
+      "id": "mx2yei",
+      "front": "vale",
+      "back": "d'accord"
+    },
+    {
+      "id": "nqmuzi",
+      "front": "venga",
+      "back": "allez"
+    },
+    {
+      "id": "l7dymy",
+      "front": "oye",
+      "back": "dis donc"
+    },
+    {
+      "id": "6cw8z7",
+      "front": "a ver",
+      "back": "voyons"
+    },
+    {
+      "id": "vl8awh",
+      "front": "ya está",
+      "back": "ça y est"
+    },
+    {
+      "id": "fsaiv3",
+      "front": "en absoluto",
+      "back": "pas du tout"
+    },
+    {
+      "id": "acl3h4",
+      "front": "de ninguna manera",
+      "back": "en aucune façon"
+    },
+    {
+      "id": "6khrue",
+      "front": "sin falta",
+      "back": "sans faute"
+    },
+    {
+      "id": "ytzc39",
+      "front": "a tiempo",
+      "back": "à temps"
+    },
+    {
+      "id": "ug19cj",
+      "front": "a la vez",
+      "back": "à la fois"
+    },
+    {
+      "id": "6fzbpy",
+      "front": "en punto",
+      "back": "pile (à l'heure)"
+    },
+    {
+      "id": "lo7uj5",
+      "front": "de repente se fue",
+      "back": "il est parti soudainement"
+    },
+    {
+      "id": "k6z6zo",
+      "front": "por lo menos",
+      "back": "au moins"
+    },
+    {
+      "id": "d54wl6",
+      "front": "más bien",
+      "back": "plutôt"
+    },
+    {
+      "id": "uj0xr6",
+      "front": "como mucho",
+      "back": "tout au plus"
+    },
+    {
+      "id": "rxle0q",
+      "front": "al fin y al cabo",
+      "back": "après tout"
+    },
+    {
+      "id": "orbf9f",
+      "front": "en el fondo",
+      "back": "au fond"
+    },
+    {
+      "id": "6xo9zt",
+      "front": "por si las moscas",
+      "back": "au cas où (familier)"
+    },
+    {
+      "id": "jdnqwf",
+      "front": "de buena gana",
+      "back": "volontiers"
+    },
+    {
+      "id": "as0eaf",
+      "front": "a regañadientes",
+      "back": "à contrecœur"
+    },
+    {
+      "id": "3vga8x",
+      "front": "sin más",
+      "back": "sans plus"
+    },
+    {
+      "id": "6waen2",
+      "front": "tal como",
+      "back": "tel que"
+    }
+  ]
+}
