@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-environment-1",
+  "name": "Environment and Climate 1",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "eautms",
+      "front": "greenhouse gas emissions",
+      "back": "les émissions de gaz à effet de serre"
+    },
+    {
+      "id": "g8kav0",
+      "front": "a carbon footprint",
+      "back": "une empreinte carbone"
+    },
+    {
+      "id": "g3pb1w",
+      "front": "carbon neutrality",
+      "back": "la neutralité carbone"
+    },
+    {
+      "id": "1fd5jg",
+      "front": "net zero",
+      "back": "le zéro émission nette"
+    },
+    {
+      "id": "h9m9td",
+      "front": "a carbon sink",
+      "back": "un puits de carbone"
+    },
+    {
+      "id": "l0li5n",
+      "front": "an offset",
+      "back": "une compensation carbone"
+    },
+    {
+      "id": "g0r2j3",
+      "front": "carbon pricing",
+      "back": "la tarification du carbone"
+    },
+    {
+      "id": "u8ug5b",
+      "front": "an emissions trading scheme",
+      "back": "un marché des quotas d'émission"
+    },
+    {
+      "id": "osjuze",
+      "front": "mitigation",
+      "back": "l'atténuation"
+    },
+    {
+      "id": "1npreu",
+      "front": "adaptation",
+      "back": "l'adaptation"
+    },
+    {
+      "id": "eycmap",
+      "front": "resilience",
+      "back": "la résilience"
+    },
+    {
+      "id": "kbmubx",
+      "front": "global warming",
+      "back": "le réchauffement climatique"
+    },
+    {
+      "id": "9b8n0o",
+      "front": "climate change",
+      "back": "le changement climatique"
+    },
+    {
+      "id": "lfjfib",
+      "front": "a heatwave",
+      "back": "une canicule"
+    },
+    {
+      "id": "y273ho",
+      "front": "a drought",
+      "back": "une sécheresse"
+    },
+    {
+      "id": "ui2fd1",
+      "front": "a flood plain",
+      "back": "une plaine inondable"
+    },
+    {
+      "id": "ysdt47",
+      "front": "flash flooding",
+      "back": "une crue soudaine"
+    },
+    {
+      "id": "9nw755",
+      "front": "a wildfire",
+      "back": "un incendie de forêt"
+    },
+    {
+      "id": "moxufy",
+      "front": "desertification",
+      "back": "la désertification"
+    },
+    {
+      "id": "eivwsi",
+      "front": "soil erosion",
+      "back": "l'érosion des sols"
+    },
+    {
+      "id": "h176km",
+      "front": "sea level rise",
+      "back": "l'élévation du niveau de la mer"
+    },
+    {
+      "id": "91thzf",
+      "front": "ocean acidification",
+      "back": "l'acidification des océans"
+    },
+    {
+      "id": "p0q52d",
+      "front": "coral bleaching",
+      "back": "le blanchissement des coraux"
+    },
+    {
+      "id": "66ofqp",
+      "front": "permafrost",
+      "back": "le pergélisol"
+    },
+    {
+      "id": "a9cwvw",
+      "front": "an ice sheet",
+      "back": "une calotte glaciaire"
+    },
+    {
+      "id": "ylshte",
+      "front": "a glacier retreat",
+      "back": "le recul d'un glacier"
+    },
+    {
+      "id": "he91q5",
+      "front": "a habitat",
+      "back": "un habitat"
+    },
+    {
+      "id": "sh16xc",
+      "front": "biodiversity",
+      "back": "la biodiversité"
+    },
+    {
+      "id": "zr7wrl",
+      "front": "an ecosystem",
+      "back": "un écosystème"
+    },
+    {
+      "id": "e32m4z",
+      "front": "a food chain",
+      "back": "une chaîne alimentaire"
+    },
+    {
+      "id": "l8wrj3",
+      "front": "an apex predator",
+      "back": "un superprédateur"
+    },
+    {
+      "id": "luv6xq",
+      "front": "a keystone species",
+      "back": "une espèce clé de voûte"
+    },
+    {
+      "id": "i9o7kr",
+      "front": "an endangered species",
+      "back": "une espèce menacée"
+    },
+    {
+      "id": "bhosc8",
+      "front": "extinction",
+      "back": "l'extinction"
+    },
+    {
+      "id": "ma22rj",
+      "front": "rewilding",
+      "back": "la renaturation"
+    },
+    {
+      "id": "r8ilkt",
+      "front": "reforestation",
+      "back": "le reboisement"
+    },
+    {
+      "id": "d9qyih",
+      "front": "deforestation",
+      "back": "la déforestation"
+    },
+    {
+      "id": "18sxy8",
+      "front": "logging",
+      "back": "l'exploitation forestière"
+    },
+    {
+      "id": "4whk45",
+      "front": "a monoculture",
+      "back": "une monoculture"
+    },
+    {
+      "id": "sr8go0",
+      "front": "intensive farming",
+      "back": "l'agriculture intensive"
+    },
+    {
+      "id": "symolz",
+      "front": "a pesticide",
+      "back": "un pesticide"
+    },
+    {
+      "id": "skshde",
+      "front": "a fertiliser",
+      "back": "un engrais"
+    },
+    {
+      "id": "iw01fr",
+      "front": "runoff",
+      "back": "le ruissellement, les eaux de ruissellement"
+    },
+    {
+      "id": "z5knf1",
+      "front": "a watershed",
+      "back": "un bassin versant"
+    },
+    {
+      "id": "sm44h8",
+      "front": "an aquifer",
+      "back": "une nappe phréatique"
+    },
+    {
+      "id": "6lvzbp",
+      "front": "water stress",
+      "back": "le stress hydrique"
+    },
+    {
+      "id": "xeymnz",
+      "front": "a catchment area",
+      "back": "un bassin d'alimentation"
+    },
+    {
+      "id": "zymupd",
+      "front": "irrigation",
+      "back": "l'irrigation"
+    },
+    {
+      "id": "cuoqbi",
+      "front": "overfishing",
+      "back": "la surpêche"
+    },
+    {
+      "id": "n0gpai",
+      "front": "a bycatch",
+      "back": "les prises accessoires"
+    },
+    {
+      "id": "5iop3b",
+      "front": "a nature reserve",
+      "back": "une réserve naturelle"
+    },
+    {
+      "id": "75wlmn",
+      "front": "a wildlife corridor",
+      "back": "un corridor écologique"
+    },
+    {
+      "id": "osnfab",
+      "front": "conservation",
+      "back": "la conservation, la protection de la nature"
+    },
+    {
+      "id": "m655d2",
+      "front": "a protected area",
+      "back": "une aire protégée"
+    },
+    {
+      "id": "opkjb1",
+      "front": "a moratorium on drilling",
+      "back": "un moratoire sur les forages"
+    },
+    {
+      "id": "758q6q",
+      "front": "fossil fuels",
+      "back": "les énergies fossiles"
+    },
+    {
+      "id": "6grfmd",
+      "front": "a fossil fuel subsidy",
+      "back": "une subvention aux énergies fossiles"
+    },
+    {
+      "id": "4hx1j0",
+      "front": "renewables",
+      "back": "les énergies renouvelables"
+    },
+    {
+      "id": "dhrjdl",
+      "front": "a wind farm",
+      "back": "un parc éolien"
+    },
+    {
+      "id": "gbz371",
+      "front": "an offshore turbine",
+      "back": "une éolienne en mer"
+    },
+    {
+      "id": "d7g4nu",
+      "front": "a solar array",
+      "back": "une centrale solaire"
+    },
+    {
+      "id": "3duwa5",
+      "front": "photovoltaics",
+      "back": "le photovoltaïque"
+    },
+    {
+      "id": "bf6gb0",
+      "front": "hydropower",
+      "back": "l'hydroélectricité"
+    },
+    {
+      "id": "bkz0hb",
+      "front": "geothermal energy",
+      "back": "la géothermie"
+    },
+    {
+      "id": "b66nbt",
+      "front": "biomass",
+      "back": "la biomasse"
+    },
+    {
+      "id": "jng00o",
+      "front": "a biofuel",
+      "back": "un biocarburant"
+    },
+    {
+      "id": "tsr9t6",
+      "front": "nuclear power",
+      "back": "le nucléaire"
+    },
+    {
+      "id": "dsfk52",
+      "front": "a decommissioning",
+      "back": "un démantèlement"
+    },
+    {
+      "id": "iq4riv",
+      "front": "the grid",
+      "back": "le réseau électrique"
+    },
+    {
+      "id": "y1ijem",
+      "front": "baseload",
+      "back": "la production de base"
+    },
+    {
+      "id": "0y5ast",
+      "front": "intermittency",
+      "back": "l'intermittence"
+    },
+    {
+      "id": "4ydhrr",
+      "front": "energy storage",
+      "back": "le stockage d'énergie"
+    },
+    {
+      "id": "czjuc4",
+      "front": "a battery",
+      "back": "une batterie"
+    },
+    {
+      "id": "5iagl5",
+      "front": "the energy transition",
+      "back": "la transition énergétique"
+    },
+    {
+      "id": "q69256",
+      "front": "energy security",
+      "back": "la sécurité énergétique"
+    },
+    {
+      "id": "bap6oe",
+      "front": "fuel poverty",
+      "back": "la précarité énergétique"
+    },
+    {
+      "id": "6805ub",
+      "front": "insulation",
+      "back": "l'isolation"
+    },
+    {
+      "id": "lszgs3",
+      "front": "retrofitting",
+      "back": "la rénovation énergétique"
+    },
+    {
+      "id": "2vkwqw",
+      "front": "a heat pump",
+      "back": "une pompe à chaleur"
+    },
+    {
+      "id": "sxekaf",
+      "front": "a smart meter",
+      "back": "un compteur intelligent"
+    },
+    {
+      "id": "c86fzi",
+      "front": "particulate matter",
+      "back": "les particules fines"
+    },
+    {
+      "id": "dm85ls",
+      "front": "smog",
+      "back": "le smog"
+    },
+    {
+      "id": "68zz5k",
+      "front": "an air quality index",
+      "back": "un indice de qualité de l'air"
+    },
+    {
+      "id": "dv1b6a",
+      "front": "a pollutant",
+      "back": "un polluant"
+    },
+    {
+      "id": "qhv24w",
+      "front": "effluent",
+      "back": "les effluents"
+    },
+    {
+      "id": "izke93",
+      "front": "a landfill",
+      "back": "une décharge"
+    },
+    {
+      "id": "xluz7w",
+      "front": "incineration",
+      "back": "l'incinération"
+    },
+    {
+      "id": "3n3yjy",
+      "front": "recycling",
+      "back": "le recyclage"
+    },
+    {
+      "id": "yjkgvc",
+      "front": "a circular economy",
+      "back": "une économie circulaire"
+    },
+    {
+      "id": "dry2wq",
+      "front": "single-use plastic",
+      "back": "le plastique à usage unique"
+    },
+    {
+      "id": "inoc9r",
+      "front": "a microplastic",
+      "back": "un microplastique"
+    },
+    {
+      "id": "5lw43g",
+      "front": "a contaminant",
+      "back": "un contaminant"
+    },
+    {
+      "id": "fn0vb1",
+      "front": "toxic waste",
+      "back": "les déchets toxiques"
+    },
+    {
+      "id": "j5alkk",
+      "front": "remediation",
+      "back": "la dépollution, la remise en état"
+    },
+    {
+      "id": "psdk49",
+      "front": "an environmental impact assessment",
+      "back": "une étude d'impact environnemental"
+    },
+    {
+      "id": "mkdk0o",
+      "front": "a planning permission",
+      "back": "un permis de construire"
+    },
+    {
+      "id": "hajhol",
+      "front": "greenwashing",
+      "back": "l'écoblanchiment"
+    },
+    {
+      "id": "1ac0yu",
+      "front": "a climate summit",
+      "back": "un sommet sur le climat"
+    },
+    {
+      "id": "rtzjt9",
+      "front": "a binding target",
+      "back": "un objectif contraignant"
+    },
+    {
+      "id": "ynqhxz",
+      "front": "a sustainability target",
+      "back": "un objectif de durabilité"
+    }
+  ]
+}
