@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-character-1",
+  "name": "Character and Human Judgement 1",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "aonu8u",
+      "front": "conscientious",
+      "back": "consciencieux"
+    },
+    {
+      "id": "21dyto",
+      "front": "diligent",
+      "back": "assidu, appliqué"
+    },
+    {
+      "id": "sy7sll",
+      "front": "meticulous",
+      "back": "méticuleux"
+    },
+    {
+      "id": "ig07g6",
+      "front": "painstaking",
+      "back": "minutieux, appliqué"
+    },
+    {
+      "id": "qey9l1",
+      "front": "thorough",
+      "back": "approfondi, minutieux"
+    },
+    {
+      "id": "o5lqt1",
+      "front": "resourceful",
+      "back": "débrouillard, ingénieux"
+    },
+    {
+      "id": "mko38b",
+      "front": "enterprising",
+      "back": "entreprenant"
+    },
+    {
+      "id": "ux92yq",
+      "front": "industrious",
+      "back": "travailleur, laborieux"
+    },
+    {
+      "id": "ozx3t5",
+      "front": "tenacious",
+      "back": "tenace"
+    },
+    {
+      "id": "n90you",
+      "front": "dogged",
+      "back": "opiniâtre"
+    },
+    {
+      "id": "w5awqw",
+      "front": "persevering",
+      "back": "persévérant"
+    },
+    {
+      "id": "q47nwi",
+      "front": "steadfast",
+      "back": "inébranlable, constant"
+    },
+    {
+      "id": "ags4la",
+      "front": "resolute",
+      "back": "résolu"
+    },
+    {
+      "id": "597kma",
+      "front": "determined",
+      "back": "déterminé"
+    },
+    {
+      "id": "ojc6w9",
+      "front": "single-minded",
+      "back": "résolument concentré sur un but"
+    },
+    {
+      "id": "honigs",
+      "front": "driven",
+      "back": "animé par une ambition dévorante"
+    },
+    {
+      "id": "u8qb08",
+      "front": "ambitious",
+      "back": "ambitieux"
+    },
+    {
+      "id": "bdl5bo",
+      "front": "ruthless",
+      "back": "impitoyable"
+    },
+    {
+      "id": "crx2og",
+      "front": "calculating",
+      "back": "calculateur"
+    },
+    {
+      "id": "vstodl",
+      "front": "shrewd",
+      "back": "perspicace, avisé"
+    },
+    {
+      "id": "mabhcs",
+      "front": "astute",
+      "back": "astucieux, fin"
+    },
+    {
+      "id": "x7gcke",
+      "front": "canny",
+      "back": "malin, prudent"
+    },
+    {
+      "id": "xr5rai",
+      "front": "prudent",
+      "back": "prudent, avisé"
+    },
+    {
+      "id": "f0fq4p",
+      "front": "judicious",
+      "back": "judicieux"
+    },
+    {
+      "id": "7crtb9",
+      "front": "discerning",
+      "back": "perspicace, avisé"
+    },
+    {
+      "id": "i156z1",
+      "front": "level-headed",
+      "back": "pondéré"
+    },
+    {
+      "id": "oycvx4",
+      "front": "even-tempered",
+      "back": "d'humeur égale"
+    },
+    {
+      "id": "9egkaj",
+      "front": "unflappable",
+      "back": "imperturbable"
+    },
+    {
+      "id": "weq459",
+      "front": "composed",
+      "back": "posé, maître de soi"
+    },
+    {
+      "id": "3wfs1c",
+      "front": "self-possessed",
+      "back": "maître de soi"
+    },
+    {
+      "id": "4hq9rg",
+      "front": "poised",
+      "back": "assuré, plein d'aplomb"
+    },
+    {
+      "id": "8lpi8i",
+      "front": "assured",
+      "back": "assuré, confiant"
+    },
+    {
+      "id": "ocvoo9",
+      "front": "assertive",
+      "back": "affirmé, qui s'impose"
+    },
+    {
+      "id": "i76mxe",
+      "front": "forthright",
+      "back": "franc, direct"
+    },
+    {
+      "id": "2ry200",
+      "front": "candid",
+      "back": "franc, sincère"
+    },
+    {
+      "id": "n2724t",
+      "front": "frank",
+      "back": "franc"
+    },
+    {
+      "id": "5xkat9",
+      "front": "outspoken",
+      "back": "qui ne mâche pas ses mots"
+    },
+    {
+      "id": "j1c4hy",
+      "front": "blunt",
+      "back": "brusque, sans détour"
+    },
+    {
+      "id": "cnthus",
+      "front": "brusque",
+      "back": "brusque"
+    },
+    {
+      "id": "m7otpc",
+      "front": "abrasive",
+      "back": "caustique, désagréable"
+    },
+    {
+      "id": "9ol3tq",
+      "front": "overbearing",
+      "back": "autoritaire, dominateur"
+    },
+    {
+      "id": "lcqv98",
+      "front": "domineering",
+      "back": "dominateur"
+    },
+    {
+      "id": "x78hz0",
+      "front": "high-handed",
+      "back": "autoritaire, cavalier"
+    },
+    {
+      "id": "gl2wmj",
+      "front": "peremptory in manner",
+      "back": "péremptoire dans les manières"
+    },
+    {
+      "id": "bw7jju",
+      "front": "opinionated",
+      "back": "qui a des idées bien arrêtées"
+    },
+    {
+      "id": "sf98ra",
+      "front": "dogmatic",
+      "back": "dogmatique"
+    },
+    {
+      "id": "226x3t",
+      "front": "intransigent",
+      "back": "intransigeant"
+    },
+    {
+      "id": "x29p75",
+      "front": "inflexible",
+      "back": "inflexible"
+    },
+    {
+      "id": "83f4uw",
+      "front": "obstinate",
+      "back": "obstiné"
+    },
+    {
+      "id": "38ir6k",
+      "front": "stubborn",
+      "back": "têtu"
+    },
+    {
+      "id": "c00cps",
+      "front": "headstrong",
+      "back": "entêté, impétueux"
+    },
+    {
+      "id": "ew7t1t",
+      "front": "wilful",
+      "back": "entêté, délibéré"
+    },
+    {
+      "id": "kggkdg",
+      "front": "impetuous",
+      "back": "impétueux"
+    },
+    {
+      "id": "p1olp4",
+      "front": "rash",
+      "back": "irréfléchi, imprudent"
+    },
+    {
+      "id": "v63lf9",
+      "front": "reckless",
+      "back": "téméraire, imprudent"
+    },
+    {
+      "id": "71wa51",
+      "front": "foolhardy",
+      "back": "téméraire jusqu'à l'imprudence"
+    },
+    {
+      "id": "y57nxe",
+      "front": "brazen",
+      "back": "effronté"
+    },
+    {
+      "id": "idl2e8",
+      "front": "audacious",
+      "back": "audacieux"
+    },
+    {
+      "id": "7vk7ay",
+      "front": "intrepid",
+      "back": "intrépide"
+    },
+    {
+      "id": "fbuiy0",
+      "front": "plucky",
+      "back": "courageux, vaillant"
+    },
+    {
+      "id": "penk60",
+      "front": "gallant",
+      "back": "galant, vaillant"
+    },
+    {
+      "id": "p2tu17",
+      "front": "chivalrous",
+      "back": "chevaleresque"
+    },
+    {
+      "id": "p1p3q1",
+      "front": "magnanimous",
+      "back": "magnanime"
+    },
+    {
+      "id": "2iwa5t",
+      "front": "gracious",
+      "back": "gracieux, bienveillant"
+    },
+    {
+      "id": "kixey3",
+      "front": "affable",
+      "back": "affable"
+    },
+    {
+      "id": "a7mlme",
+      "front": "genial",
+      "back": "cordial, jovial"
+    },
+    {
+      "id": "w3v046",
+      "front": "amiable",
+      "back": "aimable"
+    },
+    {
+      "id": "23d7k7",
+      "front": "convivial",
+      "back": "convivial"
+    },
+    {
+      "id": "dipo6d",
+      "front": "gregarious",
+      "back": "sociable, grégaire"
+    },
+    {
+      "id": "k6pt8r",
+      "front": "reserved",
+      "back": "réservé"
+    },
+    {
+      "id": "w75uqi",
+      "front": "retiring",
+      "back": "effacé, réservé"
+    },
+    {
+      "id": "02sb7u",
+      "front": "diffident",
+      "back": "qui manque d'assurance, timide"
+    },
+    {
+      "id": "a8xg8i",
+      "front": "self-effacing",
+      "back": "effacé, modeste"
+    },
+    {
+      "id": "8u0qnd",
+      "front": "modest",
+      "back": "modeste"
+    },
+    {
+      "id": "1cid9j",
+      "front": "humble",
+      "back": "humble"
+    },
+    {
+      "id": "eyv0sj",
+      "front": "unassuming",
+      "back": "sans prétention"
+    },
+    {
+      "id": "fpeiiu",
+      "front": "earnest",
+      "back": "sérieux, appliqué"
+    },
+    {
+      "id": "1svgnl",
+      "front": "scrupulous",
+      "back": "scrupuleux"
+    },
+    {
+      "id": "ewb9db",
+      "front": "principled",
+      "back": "qui a des principes"
+    },
+    {
+      "id": "z8cuq6",
+      "front": "upright",
+      "back": "droit, intègre"
+    },
+    {
+      "id": "utv3l0",
+      "front": "honourable",
+      "back": "honorable"
+    },
+    {
+      "id": "lvptsz",
+      "front": "trustworthy",
+      "back": "digne de confiance"
+    },
+    {
+      "id": "ifc3k1",
+      "front": "dependable",
+      "back": "fiable"
+    },
+    {
+      "id": "60y6fe",
+      "front": "loyal",
+      "back": "loyal"
+    },
+    {
+      "id": "ffg31s",
+      "front": "devoted",
+      "back": "dévoué"
+    },
+    {
+      "id": "8edw4u",
+      "front": "solicitous",
+      "back": "attentionné, empressé"
+    },
+    {
+      "id": "rarixq",
+      "front": "compassionate",
+      "back": "compatissant"
+    },
+    {
+      "id": "7ofyu2",
+      "front": "empathetic",
+      "back": "empathique"
+    },
+    {
+      "id": "pz18cl",
+      "front": "considerate",
+      "back": "prévenant"
+    },
+    {
+      "id": "zdzgaz",
+      "front": "tactful",
+      "back": "plein de tact"
+    },
+    {
+      "id": "5q0opf",
+      "front": "diplomatic",
+      "back": "diplomate"
+    },
+    {
+      "id": "4sb2cs",
+      "front": "discreet",
+      "back": "discret"
+    },
+    {
+      "id": "8syygz",
+      "front": "circumspect",
+      "back": "circonspect"
+    },
+    {
+      "id": "7mbmi0",
+      "front": "guarded",
+      "back": "sur ses gardes, réservé"
+    },
+    {
+      "id": "g1w3ql",
+      "front": "wary",
+      "back": "méfiant, prudent"
+    },
+    {
+      "id": "yfwm7f",
+      "front": "sceptical",
+      "back": "sceptique"
+    },
+    {
+      "id": "iogqmi",
+      "front": "cynical",
+      "back": "cynique"
+    },
+    {
+      "id": "knitmo",
+      "front": "jaded",
+      "back": "blasé"
+    },
+    {
+      "id": "vvhxnn",
+      "front": "world-weary",
+      "back": "las du monde"
+    },
+    {
+      "id": "2ga4yh",
+      "front": "disillusioned",
+      "back": "désabusé"
+    }
+  ]
+}
