@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-character-feelings",
+  "name": "Character and Feelings",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "tt53q2",
+      "front": "a character",
+      "back": "un caractère"
+    },
+    {
+      "id": "8hq53c",
+      "front": "a personality",
+      "back": "une personnalité"
+    },
+    {
+      "id": "heib4p",
+      "front": "a mood",
+      "back": "une humeur"
+    },
+    {
+      "id": "uglw2z",
+      "front": "a feeling",
+      "back": "un sentiment"
+    },
+    {
+      "id": "pf2eux",
+      "front": "an emotion",
+      "back": "une émotion"
+    },
+    {
+      "id": "2oqpje",
+      "front": "a temper",
+      "back": "un tempérament, une colère"
+    },
+    {
+      "id": "9j69ck",
+      "front": "a quality of a person",
+      "back": "une qualité"
+    },
+    {
+      "id": "pnnkhh",
+      "front": "a fault",
+      "back": "un défaut"
+    },
+    {
+      "id": "1ekswh",
+      "front": "a virtue",
+      "back": "une vertu"
+    },
+    {
+      "id": "9k56zu",
+      "front": "kind",
+      "back": "gentil"
+    },
+    {
+      "id": "0id8k8",
+      "front": "nice",
+      "back": "sympathique"
+    },
+    {
+      "id": "253xto",
+      "front": "friendly",
+      "back": "amical"
+    },
+    {
+      "id": "8zn2tp",
+      "front": "generous",
+      "back": "généreux"
+    },
+    {
+      "id": "grg2s8",
+      "front": "selfish",
+      "back": "égoïste"
+    },
+    {
+      "id": "wdgxhz",
+      "front": "mean",
+      "back": "mesquin, méchant"
+    },
+    {
+      "id": "649ber",
+      "front": "honest",
+      "back": "honnête"
+    },
+    {
+      "id": "rf6s4a",
+      "front": "dishonest",
+      "back": "malhonnête"
+    },
+    {
+      "id": "ioyb00",
+      "front": "loyal",
+      "back": "loyal"
+    },
+    {
+      "id": "m05z1n",
+      "front": "reliable",
+      "back": "fiable"
+    },
+    {
+      "id": "63o63w",
+      "front": "polite",
+      "back": "poli"
+    },
+    {
+      "id": "6w1im2",
+      "front": "rude",
+      "back": "impoli, grossier"
+    },
+    {
+      "id": "pm6wsy",
+      "front": "patient",
+      "back": "patient"
+    },
+    {
+      "id": "w2oue9",
+      "front": "impatient",
+      "back": "impatient"
+    },
+    {
+      "id": "wdwc0l",
+      "front": "calm",
+      "back": "calme"
+    },
+    {
+      "id": "yrkp6u",
+      "front": "nervous",
+      "back": "nerveux"
+    },
+    {
+      "id": "amxifr",
+      "front": "shy",
+      "back": "timide"
+    },
+    {
+      "id": "q36j5i",
+      "front": "confident",
+      "back": "sûr de soi"
+    },
+    {
+      "id": "qo71lh",
+      "front": "outgoing",
+      "back": "extraverti"
+    },
+    {
+      "id": "w6f2e8",
+      "front": "quiet",
+      "back": "discret, silencieux"
+    },
+    {
+      "id": "l9iuw5",
+      "front": "talkative",
+      "back": "bavard"
+    },
+    {
+      "id": "6a6hx6",
+      "front": "cheerful",
+      "back": "joyeux"
+    },
+    {
+      "id": "ixp5zn",
+      "front": "funny",
+      "back": "drôle"
+    },
+    {
+      "id": "koos6t",
+      "front": "serious",
+      "back": "sérieux"
+    },
+    {
+      "id": "l7h2fh",
+      "front": "lazy",
+      "back": "paresseux"
+    },
+    {
+      "id": "j8xjl9",
+      "front": "ambitious",
+      "back": "ambitieux"
+    },
+    {
+      "id": "1pzf5i",
+      "front": "stubborn",
+      "back": "têtu"
+    },
+    {
+      "id": "4bftrw",
+      "front": "proud",
+      "back": "fier"
+    },
+    {
+      "id": "396odb",
+      "front": "modest",
+      "back": "modeste"
+    },
+    {
+      "id": "4v22jh",
+      "front": "arrogant",
+      "back": "arrogant"
+    },
+    {
+      "id": "97dzva",
+      "front": "jealous",
+      "back": "jaloux"
+    },
+    {
+      "id": "h87zr5",
+      "front": "greedy",
+      "back": "avide, gourmand"
+    },
+    {
+      "id": "m2fquo",
+      "front": "brave",
+      "back": "courageux"
+    },
+    {
+      "id": "a3z8lh",
+      "front": "cowardly",
+      "back": "lâche"
+    },
+    {
+      "id": "958q63",
+      "front": "careful",
+      "back": "prudent, soigneux"
+    },
+    {
+      "id": "wiig49",
+      "front": "careless",
+      "back": "négligent"
+    },
+    {
+      "id": "u3ietn",
+      "front": "curious",
+      "back": "curieux"
+    },
+    {
+      "id": "uxr6s1",
+      "front": "thoughtful",
+      "back": "attentionné, réfléchi"
+    },
+    {
+      "id": "iz2hiu",
+      "front": "sensitive",
+      "back": "sensible"
+    },
+    {
+      "id": "i05yy9",
+      "front": "moody",
+      "back": "lunatique"
+    },
+    {
+      "id": "g5maeo",
+      "front": "happy",
+      "back": "heureux"
+    },
+    {
+      "id": "se79t1",
+      "front": "delighted",
+      "back": "ravi"
+    },
+    {
+      "id": "ci9g7n",
+      "front": "pleased",
+      "back": "satisfait"
+    },
+    {
+      "id": "kfj425",
+      "front": "sad",
+      "back": "triste"
+    },
+    {
+      "id": "ll4n7s",
+      "front": "unhappy",
+      "back": "malheureux"
+    },
+    {
+      "id": "t22cak",
+      "front": "miserable",
+      "back": "malheureux, misérable"
+    },
+    {
+      "id": "03qmbh",
+      "front": "depressed",
+      "back": "déprimé"
+    },
+    {
+      "id": "cxr1qc",
+      "front": "lonely",
+      "back": "seul, esseulé"
+    },
+    {
+      "id": "qz820l",
+      "front": "angry",
+      "back": "en colère"
+    },
+    {
+      "id": "qqry5u",
+      "front": "furious",
+      "back": "furieux"
+    },
+    {
+      "id": "50pznt",
+      "front": "annoyed",
+      "back": "agacé"
+    },
+    {
+      "id": "xexgso",
+      "front": "upset",
+      "back": "contrarié, bouleversé"
+    },
+    {
+      "id": "upih5s",
+      "front": "disappointed",
+      "back": "déçu"
+    },
+    {
+      "id": "s8x00t",
+      "front": "frustrated",
+      "back": "frustré"
+    },
+    {
+      "id": "q2f7h4",
+      "front": "worried",
+      "back": "inquiet"
+    },
+    {
+      "id": "zsqe9d",
+      "front": "anxious",
+      "back": "angoissé"
+    },
+    {
+      "id": "00q9hp",
+      "front": "afraid",
+      "back": "effrayé"
+    },
+    {
+      "id": "alz53f",
+      "front": "scared",
+      "back": "apeuré"
+    },
+    {
+      "id": "lk9jxv",
+      "front": "terrified",
+      "back": "terrifié"
+    },
+    {
+      "id": "31d3nk",
+      "front": "surprised",
+      "back": "surpris"
+    },
+    {
+      "id": "em6k3i",
+      "front": "astonished",
+      "back": "stupéfait"
+    },
+    {
+      "id": "t6qpbh",
+      "front": "shocked",
+      "back": "choqué"
+    },
+    {
+      "id": "ot5aoa",
+      "front": "confused",
+      "back": "perplexe"
+    },
+    {
+      "id": "6hhaqh",
+      "front": "embarrassed",
+      "back": "gêné"
+    },
+    {
+      "id": "zarykk",
+      "front": "ashamed",
+      "back": "honteux"
+    },
+    {
+      "id": "0xxvr9",
+      "front": "guilty",
+      "back": "coupable"
+    },
+    {
+      "id": "nxbmiv",
+      "front": "relieved",
+      "back": "soulagé"
+    },
+    {
+      "id": "t5c0qq",
+      "front": "grateful",
+      "back": "reconnaissant"
+    },
+    {
+      "id": "rnabk0",
+      "front": "excited",
+      "back": "enthousiaste, excité"
+    },
+    {
+      "id": "pbokoh",
+      "front": "bored",
+      "back": "ennuyé"
+    },
+    {
+      "id": "8a6u6f",
+      "front": "tired",
+      "back": "fatigué"
+    },
+    {
+      "id": "mjryff",
+      "front": "jealousy",
+      "back": "la jalousie"
+    },
+    {
+      "id": "yuruir",
+      "front": "anger",
+      "back": "la colère"
+    },
+    {
+      "id": "vozi4w",
+      "front": "fear",
+      "back": "la peur"
+    },
+    {
+      "id": "7rdhej",
+      "front": "joy",
+      "back": "la joie"
+    },
+    {
+      "id": "h4seyi",
+      "front": "sorrow",
+      "back": "le chagrin"
+    },
+    {
+      "id": "9ueqrj",
+      "front": "hope",
+      "back": "l'espoir"
+    },
+    {
+      "id": "dht6pg",
+      "front": "despair",
+      "back": "le désespoir"
+    },
+    {
+      "id": "865p68",
+      "front": "pride",
+      "back": "la fierté"
+    },
+    {
+      "id": "dkvf5e",
+      "front": "shame",
+      "back": "la honte"
+    },
+    {
+      "id": "wdsguv",
+      "front": "love",
+      "back": "l'amour"
+    },
+    {
+      "id": "fn14na",
+      "front": "hatred",
+      "back": "la haine"
+    },
+    {
+      "id": "lrzo8f",
+      "front": "to feel",
+      "back": "ressentir, se sentir"
+    },
+    {
+      "id": "eksxb6",
+      "front": "to smile",
+      "back": "sourire"
+    },
+    {
+      "id": "2cvf2f",
+      "front": "to laugh",
+      "back": "rire"
+    },
+    {
+      "id": "yg367p",
+      "front": "to cry",
+      "back": "pleurer"
+    },
+    {
+      "id": "j443ti",
+      "front": "to worry",
+      "back": "s'inquiéter"
+    },
+    {
+      "id": "jyex6m",
+      "front": "to regret",
+      "back": "regretter"
+    },
+    {
+      "id": "km9c35",
+      "front": "to dare",
+      "back": "oser"
+    },
+    {
+      "id": "siht10",
+      "front": "to trust",
+      "back": "faire confiance à"
+    },
+    {
+      "id": "p0lnyw",
+      "front": "to cheer up",
+      "back": "se remonter le moral"
+    }
+  ]
+}
