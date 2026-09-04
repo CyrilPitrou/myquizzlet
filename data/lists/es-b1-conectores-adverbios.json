@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-conectores-adverbios",
+  "name": "Conectores y adverbios",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "4q5hbz",
+      "front": "y",
+      "back": "et"
+    },
+    {
+      "id": "bqig5s",
+      "front": "o",
+      "back": "ou"
+    },
+    {
+      "id": "qhwsc3",
+      "front": "pero",
+      "back": "mais"
+    },
+    {
+      "id": "4t7tnl",
+      "front": "sino",
+      "back": "mais (au contraire)"
+    },
+    {
+      "id": "r6yhb1",
+      "front": "sin embargo",
+      "back": "cependant"
+    },
+    {
+      "id": "guprf8",
+      "front": "no obstante",
+      "back": "néanmoins"
+    },
+    {
+      "id": "1kafq9",
+      "front": "aunque",
+      "back": "bien que, même si"
+    },
+    {
+      "id": "zjcsl0",
+      "front": "a pesar de",
+      "back": "malgré"
+    },
+    {
+      "id": "hxr4r2",
+      "front": "en cambio",
+      "back": "en revanche"
+    },
+    {
+      "id": "fruldg",
+      "front": "por el contrario",
+      "back": "au contraire"
+    },
+    {
+      "id": "f9uqa8",
+      "front": "porque",
+      "back": "parce que"
+    },
+    {
+      "id": "z58da0",
+      "front": "ya que",
+      "back": "puisque"
+    },
+    {
+      "id": "sbcdko",
+      "front": "puesto que",
+      "back": "étant donné que"
+    },
+    {
+      "id": "qttmyg",
+      "front": "como",
+      "back": "comme (cause)"
+    },
+    {
+      "id": "82pudy",
+      "front": "por eso",
+      "back": "c'est pourquoi"
+    },
+    {
+      "id": "d3rjtx",
+      "front": "por lo tanto",
+      "back": "par conséquent"
+    },
+    {
+      "id": "r0hy3w",
+      "front": "así que",
+      "back": "donc, si bien que"
+    },
+    {
+      "id": "91aer8",
+      "front": "de modo que",
+      "back": "de sorte que"
+    },
+    {
+      "id": "i1bze8",
+      "front": "entonces",
+      "back": "alors"
+    },
+    {
+      "id": "t5w14n",
+      "front": "para que",
+      "back": "pour que"
+    },
+    {
+      "id": "cyn911",
+      "front": "a fin de",
+      "back": "afin de"
+    },
+    {
+      "id": "rf8gup",
+      "front": "si",
+      "back": "si"
+    },
+    {
+      "id": "2dui5d",
+      "front": "en caso de que",
+      "back": "au cas où"
+    },
+    {
+      "id": "ltmdwy",
+      "front": "a menos que",
+      "back": "à moins que"
+    },
+    {
+      "id": "tjfb2h",
+      "front": "siempre que",
+      "back": "à condition que"
+    },
+    {
+      "id": "ey1674",
+      "front": "mientras tanto",
+      "back": "pendant ce temps"
+    },
+    {
+      "id": "wxqb7u",
+      "front": "en cuanto",
+      "back": "dès que"
+    },
+    {
+      "id": "n7mhid",
+      "front": "tan pronto como",
+      "back": "aussitôt que"
+    },
+    {
+      "id": "6id2mn",
+      "front": "después de que",
+      "back": "après que"
+    },
+    {
+      "id": "o9t124",
+      "front": "antes de que",
+      "back": "avant que"
+    },
+    {
+      "id": "zxajst",
+      "front": "además",
+      "back": "de plus"
+    },
+    {
+      "id": "bm0k8j",
+      "front": "también",
+      "back": "aussi"
+    },
+    {
+      "id": "vskndz",
+      "front": "tampoco",
+      "back": "non plus"
+    },
+    {
+      "id": "z0t7a9",
+      "front": "incluso",
+      "back": "même (y compris)"
+    },
+    {
+      "id": "8yqkmq",
+      "front": "sobre todo",
+      "back": "surtout"
+    },
+    {
+      "id": "ln4nfe",
+      "front": "en particular",
+      "back": "en particulier"
+    },
+    {
+      "id": "icuzap",
+      "front": "por ejemplo",
+      "back": "par exemple"
+    },
+    {
+      "id": "wd4dg5",
+      "front": "es decir",
+      "back": "c'est-à-dire"
+    },
+    {
+      "id": "dkcuzy",
+      "front": "o sea",
+      "back": "autrement dit"
+    },
+    {
+      "id": "oiodi4",
+      "front": "en resumen",
+      "back": "en résumé"
+    },
+    {
+      "id": "ka7f6v",
+      "front": "en conclusión",
+      "back": "en conclusion"
+    },
+    {
+      "id": "4hv2ej",
+      "front": "en primer lugar",
+      "back": "en premier lieu"
+    },
+    {
+      "id": "s5g68g",
+      "front": "por último",
+      "back": "enfin"
+    },
+    {
+      "id": "57cjz9",
+      "front": "finalmente",
+      "back": "finalement"
+    },
+    {
+      "id": "si4d6y",
+      "front": "por una parte",
+      "back": "d'une part"
+    },
+    {
+      "id": "61m6zw",
+      "front": "por otra parte",
+      "back": "d'autre part"
+    },
+    {
+      "id": "sizq0k",
+      "front": "en realidad",
+      "back": "en réalité"
+    },
+    {
+      "id": "n43igp",
+      "front": "de hecho",
+      "back": "en fait"
+    },
+    {
+      "id": "3a9yve",
+      "front": "en efecto",
+      "back": "en effet"
+    },
+    {
+      "id": "asx0am",
+      "front": "por supuesto",
+      "back": "bien sûr"
+    },
+    {
+      "id": "q021f3",
+      "front": "desde luego",
+      "back": "évidemment"
+    },
+    {
+      "id": "0jltb5",
+      "front": "claro que sí",
+      "back": "bien entendu"
+    },
+    {
+      "id": "afmo0j",
+      "front": "quizás",
+      "back": "peut-être"
+    },
+    {
+      "id": "qf090i",
+      "front": "tal vez",
+      "back": "peut-être"
+    },
+    {
+      "id": "1owkex",
+      "front": "a lo mejor",
+      "back": "peut-être bien"
+    },
+    {
+      "id": "3mbq8d",
+      "front": "seguramente",
+      "back": "sûrement"
+    },
+    {
+      "id": "xkfl4b",
+      "front": "probablemente",
+      "back": "probablement"
+    },
+    {
+      "id": "p9gu92",
+      "front": "sin duda",
+      "back": "sans doute"
+    },
+    {
+      "id": "bywxxo",
+      "front": "en fin",
+      "back": "bref"
+    },
+    {
+      "id": "veplit",
+      "front": "por cierto",
+      "back": "au fait"
+    },
+    {
+      "id": "m5wdi0",
+      "front": "respecto a",
+      "back": "à propos de"
+    },
+    {
+      "id": "znqxi5",
+      "front": "en cuanto a",
+      "back": "quant à"
+    },
+    {
+      "id": "ynw6rr",
+      "front": "según",
+      "back": "selon"
+    },
+    {
+      "id": "c29spd",
+      "front": "gracias a",
+      "back": "grâce à"
+    },
+    {
+      "id": "u5vqtk",
+      "front": "debido a",
+      "back": "en raison de"
+    },
+    {
+      "id": "gti31z",
+      "front": "a causa de",
+      "back": "à cause de"
+    },
+    {
+      "id": "ni3vky",
+      "front": "muy",
+      "back": "très"
+    },
+    {
+      "id": "n7pdpo",
+      "front": "bastante",
+      "back": "assez"
+    },
+    {
+      "id": "mhpxa3",
+      "front": "demasiado",
+      "back": "trop"
+    },
+    {
+      "id": "zjwei4",
+      "front": "poco",
+      "back": "peu"
+    },
+    {
+      "id": "nk8nqr",
+      "front": "un poco",
+      "back": "un peu"
+    },
+    {
+      "id": "arks2x",
+      "front": "mucho",
+      "back": "beaucoup"
+    },
+    {
+      "id": "vj7ukx",
+      "front": "tanto",
+      "back": "tant, autant"
+    },
+    {
+      "id": "z37d2z",
+      "front": "más",
+      "back": "plus"
+    },
+    {
+      "id": "a0jymk",
+      "front": "menos",
+      "back": "moins"
+    },
+    {
+      "id": "801iub",
+      "front": "casi",
+      "back": "presque"
+    },
+    {
+      "id": "whec2e",
+      "front": "apenas",
+      "back": "à peine"
+    },
+    {
+      "id": "j1cvgp",
+      "front": "sólo",
+      "back": "seulement"
+    },
+    {
+      "id": "t9ys52",
+      "front": "al menos",
+      "back": "au moins"
+    },
+    {
+      "id": "g69k68",
+      "front": "como máximo",
+      "back": "au maximum"
+    },
+    {
+      "id": "5s7eue",
+      "front": "todo",
+      "back": "tout"
+    },
+    {
+      "id": "ypi87h",
+      "front": "nada",
+      "back": "rien"
+    },
+    {
+      "id": "993yx6",
+      "front": "algo",
+      "back": "quelque chose"
+    },
+    {
+      "id": "dr0p53",
+      "front": "alguien",
+      "back": "quelqu'un"
+    },
+    {
+      "id": "viz0dt",
+      "front": "nadie",
+      "back": "personne"
+    },
+    {
+      "id": "puoppr",
+      "front": "cada",
+      "back": "chaque"
+    },
+    {
+      "id": "f71okp",
+      "front": "varios",
+      "back": "plusieurs"
+    },
+    {
+      "id": "bfdqp2",
+      "front": "la mayoría",
+      "back": "la plupart"
+    },
+    {
+      "id": "kthau1",
+      "front": "la mitad",
+      "back": "la moitié"
+    },
+    {
+      "id": "grbqzt",
+      "front": "ninguno",
+      "back": "aucun"
+    },
+    {
+      "id": "qbg0e6",
+      "front": "bien",
+      "back": "bien"
+    },
+    {
+      "id": "0gt26u",
+      "front": "mal",
+      "back": "mal"
+    },
+    {
+      "id": "4ypo05",
+      "front": "así",
+      "back": "ainsi"
+    },
+    {
+      "id": "k7lhza",
+      "front": "despacio",
+      "back": "lentement"
+    },
+    {
+      "id": "1wlbgb",
+      "front": "deprisa",
+      "back": "vite"
+    },
+    {
+      "id": "2aruoo",
+      "front": "de repente",
+      "back": "soudain"
+    },
+    {
+      "id": "oxpzak",
+      "front": "poco a poco",
+      "back": "peu à peu"
+    },
+    {
+      "id": "fgt7zg",
+      "front": "en general",
+      "back": "en général"
+    },
+    {
+      "id": "88jvlg",
+      "front": "por fin",
+      "back": "enfin, à la fin"
+    },
+    {
+      "id": "bn0hor",
+      "front": "a propósito",
+      "back": "exprès"
+    }
+  ]
+}
