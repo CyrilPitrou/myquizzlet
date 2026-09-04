@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-comunicacion-tecnologia",
+  "name": "La comunicación y la tecnología",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "kuz8xd",
+      "front": "la comunicación",
+      "back": "la communication"
+    },
+    {
+      "id": "n4esdw",
+      "front": "el teléfono",
+      "back": "le téléphone"
+    },
+    {
+      "id": "7qzjoh",
+      "front": "el móvil",
+      "back": "le portable"
+    },
+    {
+      "id": "x0k6n4",
+      "front": "la llamada",
+      "back": "l'appel"
+    },
+    {
+      "id": "h83r73",
+      "front": "el mensaje",
+      "back": "le message"
+    },
+    {
+      "id": "4rtira",
+      "front": "el buzón de voz",
+      "back": "la messagerie vocale"
+    },
+    {
+      "id": "x4edfc",
+      "front": "el timbre del móvil",
+      "back": "la sonnerie"
+    },
+    {
+      "id": "0hco65",
+      "front": "la señal",
+      "back": "le signal, le réseau"
+    },
+    {
+      "id": "vl38g9",
+      "front": "la cobertura",
+      "back": "la couverture réseau"
+    },
+    {
+      "id": "b3lt8j",
+      "front": "la batería",
+      "back": "la batterie"
+    },
+    {
+      "id": "t0bwza",
+      "front": "el cargador",
+      "back": "le chargeur"
+    },
+    {
+      "id": "xyc6by",
+      "front": "la pantalla",
+      "back": "l'écran"
+    },
+    {
+      "id": "l9o5uk",
+      "front": "el teclado",
+      "back": "le clavier"
+    },
+    {
+      "id": "2l4jez",
+      "front": "el ratón informático",
+      "back": "la souris"
+    },
+    {
+      "id": "hhhf9u",
+      "front": "el altavoz",
+      "back": "le haut-parleur"
+    },
+    {
+      "id": "va6zxt",
+      "front": "los auriculares",
+      "back": "les écouteurs"
+    },
+    {
+      "id": "f607ww",
+      "front": "la cámara",
+      "back": "l'appareil photo"
+    },
+    {
+      "id": "1m6az9",
+      "front": "la tarjeta SIM",
+      "back": "la carte SIM"
+    },
+    {
+      "id": "9k4hfq",
+      "front": "la aplicación",
+      "back": "l'application"
+    },
+    {
+      "id": "j67khn",
+      "front": "el ordenador",
+      "back": "l'ordinateur"
+    },
+    {
+      "id": "4hkw4y",
+      "front": "el portátil",
+      "back": "l'ordinateur portable"
+    },
+    {
+      "id": "79qqr6",
+      "front": "la tableta",
+      "back": "la tablette"
+    },
+    {
+      "id": "qc2m6o",
+      "front": "la impresora",
+      "back": "l'imprimante"
+    },
+    {
+      "id": "fyr6nz",
+      "front": "el disco duro",
+      "back": "le disque dur"
+    },
+    {
+      "id": "cuzqxf",
+      "front": "la memoria USB",
+      "back": "la clé USB"
+    },
+    {
+      "id": "od9j2c",
+      "front": "el archivo",
+      "back": "le fichier"
+    },
+    {
+      "id": "57qqtk",
+      "front": "la carpeta",
+      "back": "le dossier"
+    },
+    {
+      "id": "6944ko",
+      "front": "el programa",
+      "back": "le programme, le logiciel"
+    },
+    {
+      "id": "g14doz",
+      "front": "la contraseña",
+      "back": "le mot de passe"
+    },
+    {
+      "id": "ddm8xs",
+      "front": "el usuario",
+      "back": "l'utilisateur"
+    },
+    {
+      "id": "r0sww0",
+      "front": "la cuenta de usuario",
+      "back": "le compte utilisateur"
+    },
+    {
+      "id": "s2ipwr",
+      "front": "la red informática",
+      "back": "le réseau informatique"
+    },
+    {
+      "id": "vxr17d",
+      "front": "internet",
+      "back": "Internet"
+    },
+    {
+      "id": "oa8v43",
+      "front": "el correo electrónico",
+      "back": "le courrier électronique"
+    },
+    {
+      "id": "mn7dxv",
+      "front": "la bandeja de entrada",
+      "back": "la boîte de réception"
+    },
+    {
+      "id": "luqrg7",
+      "front": "el archivo adjunto",
+      "back": "la pièce jointe"
+    },
+    {
+      "id": "bj2c1s",
+      "front": "la página web",
+      "back": "la page web"
+    },
+    {
+      "id": "ulyqiz",
+      "front": "el sitio web",
+      "back": "le site web"
+    },
+    {
+      "id": "41vy0v",
+      "front": "el enlace",
+      "back": "le lien"
+    },
+    {
+      "id": "13px4c",
+      "front": "el buscador",
+      "back": "le moteur de recherche"
+    },
+    {
+      "id": "i9fdy4",
+      "front": "la búsqueda",
+      "back": "la recherche"
+    },
+    {
+      "id": "59mbih",
+      "front": "la descarga",
+      "back": "le téléchargement"
+    },
+    {
+      "id": "5pz0ec",
+      "front": "la copia de seguridad",
+      "back": "la sauvegarde"
+    },
+    {
+      "id": "g3m7ul",
+      "front": "el virus informático",
+      "back": "le virus informatique"
+    },
+    {
+      "id": "kpr5te",
+      "front": "la red social",
+      "back": "le réseau social"
+    },
+    {
+      "id": "muwmky",
+      "front": "el perfil",
+      "back": "le profil"
+    },
+    {
+      "id": "s0g5rp",
+      "front": "la publicación",
+      "back": "la publication"
+    },
+    {
+      "id": "ucmjyb",
+      "front": "el seguidor",
+      "back": "l'abonné"
+    },
+    {
+      "id": "3k5h2f",
+      "front": "el comentario",
+      "back": "le commentaire"
+    },
+    {
+      "id": "zdtcly",
+      "front": "la videollamada",
+      "back": "l'appel vidéo"
+    },
+    {
+      "id": "unxuwg",
+      "front": "el correo postal",
+      "back": "le courrier postal"
+    },
+    {
+      "id": "wdo523",
+      "front": "la carta manuscrita",
+      "back": "la lettre manuscrite"
+    },
+    {
+      "id": "oxkc9k",
+      "front": "el sobre",
+      "back": "l'enveloppe"
+    },
+    {
+      "id": "p44ddq",
+      "front": "el sello",
+      "back": "le timbre"
+    },
+    {
+      "id": "n2d0x4",
+      "front": "la dirección",
+      "back": "l'adresse"
+    },
+    {
+      "id": "jrmw2m",
+      "front": "el remitente",
+      "back": "l'expéditeur"
+    },
+    {
+      "id": "vk138v",
+      "front": "el destinatario",
+      "back": "le destinataire"
+    },
+    {
+      "id": "17vsoi",
+      "front": "el paquete postal",
+      "back": "le colis"
+    },
+    {
+      "id": "bqu0ni",
+      "front": "el buzón",
+      "back": "la boîte aux lettres"
+    },
+    {
+      "id": "97p64a",
+      "front": "el cartero",
+      "back": "le facteur"
+    },
+    {
+      "id": "ju5n9c",
+      "front": "el periódico",
+      "back": "le journal"
+    },
+    {
+      "id": "4vvw4c",
+      "front": "la revista",
+      "back": "le magazine"
+    },
+    {
+      "id": "sdd8kx",
+      "front": "el titular",
+      "back": "le gros titre"
+    },
+    {
+      "id": "5cb7e9",
+      "front": "la noticia",
+      "back": "la nouvelle, l'information"
+    },
+    {
+      "id": "gpjnoo",
+      "front": "el artículo",
+      "back": "l'article"
+    },
+    {
+      "id": "ol5hhg",
+      "front": "el reportaje",
+      "back": "le reportage"
+    },
+    {
+      "id": "uvlkyt",
+      "front": "la entrevista periodística",
+      "back": "l'interview"
+    },
+    {
+      "id": "dp98iv",
+      "front": "la radio",
+      "back": "la radio"
+    },
+    {
+      "id": "j8h95t",
+      "front": "la televisión",
+      "back": "la télévision"
+    },
+    {
+      "id": "v8bd14",
+      "front": "el canal",
+      "back": "la chaîne"
+    },
+    {
+      "id": "svgyet",
+      "front": "el programa de televisión",
+      "back": "l'émission"
+    },
+    {
+      "id": "a37kqn",
+      "front": "el telediario",
+      "back": "le journal télévisé"
+    },
+    {
+      "id": "je9mpm",
+      "front": "el anuncio",
+      "back": "la publicité, l'annonce"
+    },
+    {
+      "id": "3crihm",
+      "front": "el público",
+      "back": "le public"
+    },
+    {
+      "id": "nqwylm",
+      "front": "el mando a distancia",
+      "back": "la télécommande"
+    },
+    {
+      "id": "12d8ow",
+      "front": "el presentador",
+      "back": "le présentateur"
+    },
+    {
+      "id": "4li0ho",
+      "front": "el oyente",
+      "back": "l'auditeur"
+    },
+    {
+      "id": "pxxkpy",
+      "front": "el espectador",
+      "back": "le spectateur"
+    },
+    {
+      "id": "f0gm5r",
+      "front": "el lector",
+      "back": "le lecteur"
+    },
+    {
+      "id": "snmj8g",
+      "front": "llamar por teléfono",
+      "back": "téléphoner"
+    },
+    {
+      "id": "3n6227",
+      "front": "marcar",
+      "back": "composer (un numéro)"
+    },
+    {
+      "id": "v3r1gp",
+      "front": "colgar el teléfono",
+      "back": "raccrocher"
+    },
+    {
+      "id": "qxhiar",
+      "front": "contestar",
+      "back": "répondre"
+    },
+    {
+      "id": "hsydr0",
+      "front": "sonar",
+      "back": "sonner"
+    },
+    {
+      "id": "b66y2z",
+      "front": "enviar",
+      "back": "envoyer"
+    },
+    {
+      "id": "q86xdi",
+      "front": "recibir",
+      "back": "recevoir"
+    },
+    {
+      "id": "9e6b92",
+      "front": "escribir",
+      "back": "écrire"
+    },
+    {
+      "id": "0rzrte",
+      "front": "leer",
+      "back": "lire"
+    },
+    {
+      "id": "yd3hu6",
+      "front": "navegar",
+      "back": "naviguer"
+    },
+    {
+      "id": "azph9y",
+      "front": "descargar",
+      "back": "télécharger"
+    },
+    {
+      "id": "1pr1uu",
+      "front": "subir un archivo",
+      "back": "téléverser un fichier"
+    },
+    {
+      "id": "5k7b4w",
+      "front": "conectarse",
+      "back": "se connecter"
+    },
+    {
+      "id": "fd5mfn",
+      "front": "guardar",
+      "back": "enregistrer"
+    },
+    {
+      "id": "rlw8i5",
+      "front": "borrar",
+      "back": "effacer"
+    },
+    {
+      "id": "ra8hx8",
+      "front": "imprimir",
+      "back": "imprimer"
+    },
+    {
+      "id": "xt7xuo",
+      "front": "encender",
+      "back": "allumer"
+    },
+    {
+      "id": "htwy3r",
+      "front": "apagar",
+      "back": "éteindre"
+    },
+    {
+      "id": "f8dbkh",
+      "front": "grabar",
+      "back": "enregistrer (un son, une vidéo)"
+    },
+    {
+      "id": "wj95ao",
+      "front": "emitir",
+      "back": "diffuser"
+    },
+    {
+      "id": "ul9az8",
+      "front": "la conexión",
+      "back": "la connexion"
+    }
+  ]
+}
