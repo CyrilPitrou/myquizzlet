@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-cine-musica-espectaculo",
+  "name": "El cine, la música y el espectáculo",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "oq5rko",
+      "front": "el cine",
+      "back": "le cinéma"
+    },
+    {
+      "id": "7llaff",
+      "front": "la película de autor",
+      "back": "le film d'auteur"
+    },
+    {
+      "id": "j5xtie",
+      "front": "el largometraje",
+      "back": "le long métrage"
+    },
+    {
+      "id": "a4lm4q",
+      "front": "el cortometraje",
+      "back": "le court métrage"
+    },
+    {
+      "id": "dawgrg",
+      "front": "el documental",
+      "back": "le documentaire"
+    },
+    {
+      "id": "2u2q9m",
+      "front": "la película de animación",
+      "back": "le film d'animation"
+    },
+    {
+      "id": "25iqnw",
+      "front": "el guion",
+      "back": "le scénario"
+    },
+    {
+      "id": "pmsyyh",
+      "front": "el guionista",
+      "back": "le scénariste"
+    },
+    {
+      "id": "allytf",
+      "front": "el director de cine",
+      "back": "le réalisateur"
+    },
+    {
+      "id": "w4s6uk",
+      "front": "el productor",
+      "back": "le producteur"
+    },
+    {
+      "id": "ygy0bk",
+      "front": "el reparto",
+      "back": "la distribution"
+    },
+    {
+      "id": "mjmxs9",
+      "front": "el actor protagonista",
+      "back": "l'acteur principal"
+    },
+    {
+      "id": "2000k4",
+      "front": "el secundario",
+      "back": "le second rôle"
+    },
+    {
+      "id": "xm1hu2",
+      "front": "el figurante",
+      "back": "le figurant"
+    },
+    {
+      "id": "d9dvyn",
+      "front": "el doble",
+      "back": "la doublure"
+    },
+    {
+      "id": "b5oq98",
+      "front": "el papel",
+      "back": "le rôle"
+    },
+    {
+      "id": "nmhdum",
+      "front": "la interpretación",
+      "back": "l'interprétation"
+    },
+    {
+      "id": "a6ok0m",
+      "front": "el rodaje",
+      "back": "le tournage"
+    },
+    {
+      "id": "6hlkd3",
+      "front": "el plató",
+      "back": "le plateau"
+    },
+    {
+      "id": "ilrsnz",
+      "front": "la localización",
+      "back": "le lieu de tournage"
+    },
+    {
+      "id": "2q911z",
+      "front": "la escena rodada",
+      "back": "la scène tournée"
+    },
+    {
+      "id": "2pbarb",
+      "front": "el plano",
+      "back": "le plan"
+    },
+    {
+      "id": "dqdrke",
+      "front": "el primer plano",
+      "back": "le gros plan"
+    },
+    {
+      "id": "punm5n",
+      "front": "el travelling",
+      "back": "le travelling"
+    },
+    {
+      "id": "g66yb6",
+      "front": "el encuadre",
+      "back": "le cadrage"
+    },
+    {
+      "id": "hjck2t",
+      "front": "la iluminación",
+      "back": "l'éclairage"
+    },
+    {
+      "id": "2ndlux",
+      "front": "el montaje",
+      "back": "le montage"
+    },
+    {
+      "id": "84gwbi",
+      "front": "la banda sonora",
+      "back": "la bande originale"
+    },
+    {
+      "id": "naxilv",
+      "front": "el doblaje",
+      "back": "le doublage"
+    },
+    {
+      "id": "hc1ebs",
+      "front": "los subtítulos",
+      "back": "les sous-titres"
+    },
+    {
+      "id": "bvc2dg",
+      "front": "los efectos especiales",
+      "back": "les effets spéciaux"
+    },
+    {
+      "id": "uwwmyn",
+      "front": "el estreno",
+      "back": "la sortie, la première"
+    },
+    {
+      "id": "vqvidl",
+      "front": "la taquilla",
+      "back": "le box-office, le guichet"
+    },
+    {
+      "id": "n9i2dv",
+      "front": "la cartelera",
+      "back": "l'affiche des cinémas"
+    },
+    {
+      "id": "aj5sna",
+      "front": "la sala de cine",
+      "back": "la salle de cinéma"
+    },
+    {
+      "id": "9r3rgc",
+      "front": "la pantalla grande",
+      "back": "le grand écran"
+    },
+    {
+      "id": "fhj9gc",
+      "front": "el festival de cine",
+      "back": "le festival de cinéma"
+    },
+    {
+      "id": "b9lniy",
+      "front": "el galardón",
+      "back": "la récompense"
+    },
+    {
+      "id": "xv9mjd",
+      "front": "el premio",
+      "back": "le prix"
+    },
+    {
+      "id": "4omwzh",
+      "front": "la nominación",
+      "back": "la nomination"
+    },
+    {
+      "id": "384pf0",
+      "front": "la música clásica",
+      "back": "la musique classique"
+    },
+    {
+      "id": "jmpbay",
+      "front": "la ópera",
+      "back": "l'opéra"
+    },
+    {
+      "id": "pds9lj",
+      "front": "la zarzuela",
+      "back": "la zarzuela"
+    },
+    {
+      "id": "kcqunp",
+      "front": "el flamenco",
+      "back": "le flamenco"
+    },
+    {
+      "id": "tak4jf",
+      "front": "la orquesta",
+      "back": "l'orchestre"
+    },
+    {
+      "id": "mw0e9e",
+      "front": "el director de orquesta",
+      "back": "le chef d'orchestre"
+    },
+    {
+      "id": "33uon6",
+      "front": "el solista",
+      "back": "le soliste"
+    },
+    {
+      "id": "wj7x43",
+      "front": "el coro",
+      "back": "le chœur"
+    },
+    {
+      "id": "emki21",
+      "front": "el cantante",
+      "back": "le chanteur"
+    },
+    {
+      "id": "efvbyw",
+      "front": "el compositor",
+      "back": "le compositeur"
+    },
+    {
+      "id": "6udwmg",
+      "front": "la partitura",
+      "back": "la partition"
+    },
+    {
+      "id": "sts8rd",
+      "front": "la melodía",
+      "back": "la mélodie"
+    },
+    {
+      "id": "8pwh8y",
+      "front": "la armonía",
+      "back": "l'harmonie"
+    },
+    {
+      "id": "3hvsoe",
+      "front": "el ritmo",
+      "back": "le rythme"
+    },
+    {
+      "id": "fjbyfc",
+      "front": "el compás",
+      "back": "la mesure"
+    },
+    {
+      "id": "0zoguf",
+      "front": "el acorde",
+      "back": "l'accord"
+    },
+    {
+      "id": "ewb7bm",
+      "front": "la letra",
+      "back": "les paroles"
+    },
+    {
+      "id": "v3xkq1",
+      "front": "el álbum",
+      "back": "l'album"
+    },
+    {
+      "id": "349f3e",
+      "front": "el sencillo",
+      "back": "le single"
+    },
+    {
+      "id": "b6ysjd",
+      "front": "la gira",
+      "back": "la tournée"
+    },
+    {
+      "id": "ymyf6z",
+      "front": "el ensayo musical",
+      "back": "la répétition"
+    },
+    {
+      "id": "m7ijms",
+      "front": "el escenario",
+      "back": "la scène (plateau)"
+    },
+    {
+      "id": "osqkfn",
+      "front": "el telón",
+      "back": "le rideau de scène"
+    },
+    {
+      "id": "vy5t2t",
+      "front": "la butaca",
+      "back": "le fauteuil (de salle)"
+    },
+    {
+      "id": "eyxvsu",
+      "front": "el patio de butacas",
+      "back": "l'orchestre (salle)"
+    },
+    {
+      "id": "qh36uh",
+      "front": "el palco",
+      "back": "la loge"
+    },
+    {
+      "id": "6up64r",
+      "front": "el camerino",
+      "back": "la loge d'artiste"
+    },
+    {
+      "id": "7hslkz",
+      "front": "el vestuario",
+      "back": "les costumes"
+    },
+    {
+      "id": "yja7rg",
+      "front": "la escenografía",
+      "back": "la scénographie"
+    },
+    {
+      "id": "djaf9t",
+      "front": "el atrezo",
+      "back": "les accessoires"
+    },
+    {
+      "id": "sju119",
+      "front": "la puesta en escena",
+      "back": "la mise en scène"
+    },
+    {
+      "id": "6q1hkg",
+      "front": "el ensayo general",
+      "back": "la répétition générale"
+    },
+    {
+      "id": "hl40uo",
+      "front": "la función",
+      "back": "la représentation"
+    },
+    {
+      "id": "rkeqx5",
+      "front": "el intermedio",
+      "back": "l'entracte"
+    },
+    {
+      "id": "r7wzbd",
+      "front": "el aplauso",
+      "back": "les applaudissements"
+    },
+    {
+      "id": "9cyafr",
+      "front": "el abucheo",
+      "back": "les huées"
+    },
+    {
+      "id": "6qguc5",
+      "front": "la ovación",
+      "back": "l'ovation"
+    },
+    {
+      "id": "vnmlnf",
+      "front": "la crítica teatral",
+      "back": "la critique théâtrale"
+    },
+    {
+      "id": "s7hpwf",
+      "front": "el espectáculo",
+      "back": "le spectacle"
+    },
+    {
+      "id": "94f66c",
+      "front": "la actuación",
+      "back": "la prestation"
+    },
+    {
+      "id": "seeqyi",
+      "front": "el artista",
+      "back": "l'artiste"
+    },
+    {
+      "id": "2vbkzi",
+      "front": "el bailarín",
+      "back": "le danseur"
+    },
+    {
+      "id": "6f06gi",
+      "front": "la coreografía",
+      "back": "la chorégraphie"
+    },
+    {
+      "id": "eanuiz",
+      "front": "el circo",
+      "back": "le cirque"
+    },
+    {
+      "id": "vtcu8w",
+      "front": "el monólogo cómico",
+      "back": "le one-man-show"
+    },
+    {
+      "id": "tlbr8j",
+      "front": "el humorista",
+      "back": "l'humoriste"
+    },
+    {
+      "id": "i6hj5u",
+      "front": "la serie de televisión",
+      "back": "la série télévisée"
+    },
+    {
+      "id": "zx8tgu",
+      "front": "la temporada de una serie",
+      "back": "la saison d'une série"
+    },
+    {
+      "id": "ee8vqw",
+      "front": "el capítulo",
+      "back": "l'épisode"
+    },
+    {
+      "id": "fioyze",
+      "front": "el episodio piloto",
+      "back": "l'épisode pilote"
+    },
+    {
+      "id": "pml6cl",
+      "front": "la plataforma de streaming",
+      "back": "la plateforme de streaming"
+    },
+    {
+      "id": "vkpdio",
+      "front": "el éxito de público",
+      "back": "le succès public"
+    },
+    {
+      "id": "sm72o7",
+      "front": "el fracaso de taquilla",
+      "back": "l'échec commercial"
+    },
+    {
+      "id": "j2lqh4",
+      "front": "la película de culto",
+      "back": "le film culte"
+    },
+    {
+      "id": "bb9h42",
+      "front": "rodar",
+      "back": "tourner (un film)"
+    },
+    {
+      "id": "hy3nwl",
+      "front": "interpretar",
+      "back": "interpréter"
+    },
+    {
+      "id": "0jdazp",
+      "front": "dirigir una película",
+      "back": "réaliser un film"
+    },
+    {
+      "id": "2qpimb",
+      "front": "estrenar",
+      "back": "sortir (un film)"
+    },
+    {
+      "id": "rrg8nw",
+      "front": "ensayar",
+      "back": "répéter"
+    },
+    {
+      "id": "pcfy3u",
+      "front": "aplaudir",
+      "back": "applaudir"
+    }
+  ]
+}
