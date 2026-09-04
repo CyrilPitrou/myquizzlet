@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-literature-2",
+  "name": "Literature and Criticism 2",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "z7lcs4",
+      "front": "a bildungsroman",
+      "back": "un roman d'apprentissage"
+    },
+    {
+      "id": "3mba44",
+      "front": "free indirect style",
+      "back": "le style indirect libre"
+    },
+    {
+      "id": "nlgt6r",
+      "front": "prosody",
+      "back": "la prosodie"
+    },
+    {
+      "id": "3617i6",
+      "front": "bathos",
+      "back": "la chute dans le trivial, le bathos"
+    },
+    {
+      "id": "c3o36i",
+      "front": "pathos",
+      "back": "le pathos"
+    },
+    {
+      "id": "yzpfhl",
+      "front": "ethos",
+      "back": "l'ethos"
+    },
+    {
+      "id": "bbu78p",
+      "front": "a künstlerroman",
+      "back": "un roman de l'artiste"
+    },
+    {
+      "id": "rjs5am",
+      "front": "a roman à clef",
+      "back": "un roman à clef"
+    },
+    {
+      "id": "8sz1c4",
+      "front": "a picaresque novel",
+      "back": "un roman picaresque"
+    },
+    {
+      "id": "rkoldk",
+      "front": "an epistolary novel",
+      "back": "un roman épistolaire"
+    },
+    {
+      "id": "xwb51i",
+      "front": "a frame narrative",
+      "back": "un récit enchâssé"
+    },
+    {
+      "id": "mvkbm2",
+      "front": "metafiction",
+      "back": "la métafiction"
+    },
+    {
+      "id": "8l04xg",
+      "front": "intertextuality",
+      "back": "l'intertextualité"
+    },
+    {
+      "id": "flgw36",
+      "front": "a hypotext",
+      "back": "un hypotexte"
+    },
+    {
+      "id": "4q2ply",
+      "front": "a paratext",
+      "back": "un paratexte"
+    },
+    {
+      "id": "9fthp9",
+      "front": "a topos",
+      "back": "un topos, un lieu commun littéraire"
+    },
+    {
+      "id": "22hctm",
+      "front": "an ekphrasis",
+      "back": "une ekphrasis"
+    },
+    {
+      "id": "cxqml2",
+      "front": "an apostrophe",
+      "back": "une apostrophe (figure)"
+    },
+    {
+      "id": "bgb3w5",
+      "front": "an invocation",
+      "back": "une invocation"
+    },
+    {
+      "id": "oilzgd",
+      "front": "an epithet",
+      "back": "une épithète"
+    },
+    {
+      "id": "0fvibq",
+      "front": "a Homeric simile",
+      "back": "une comparaison homérique"
+    },
+    {
+      "id": "edyfvg",
+      "front": "in medias res",
+      "back": "in medias res"
+    },
+    {
+      "id": "omqo3r",
+      "front": "a deus ex machina",
+      "back": "un deus ex machina"
+    },
+    {
+      "id": "yd4m87",
+      "front": "peripeteia",
+      "back": "la péripétie"
+    },
+    {
+      "id": "88ubf0",
+      "front": "anagnorisis",
+      "back": "la reconnaissance, l'anagnorisis"
+    },
+    {
+      "id": "nk22oh",
+      "front": "hamartia",
+      "back": "la faute tragique"
+    },
+    {
+      "id": "8rugta",
+      "front": "hubris",
+      "back": "l'hybris, la démesure"
+    },
+    {
+      "id": "rg7a3p",
+      "front": "catharsis",
+      "back": "la catharsis"
+    },
+    {
+      "id": "vgdzf1",
+      "front": "the tragic flaw",
+      "back": "le défaut tragique"
+    },
+    {
+      "id": "9j2cey",
+      "front": "the unities",
+      "back": "les unités (de temps, lieu, action)"
+    },
+    {
+      "id": "t5fvri",
+      "front": "a chorus",
+      "back": "un chœur"
+    },
+    {
+      "id": "ltx4pj",
+      "front": "a caesura",
+      "back": "une césure"
+    },
+    {
+      "id": "2pyv2h",
+      "front": "enjambment",
+      "back": "l'enjambement"
+    },
+    {
+      "id": "qri4xv",
+      "front": "a couplet",
+      "back": "un distique"
+    },
+    {
+      "id": "h21bz2",
+      "front": "a quatrain",
+      "back": "un quatrain"
+    },
+    {
+      "id": "j2rue2",
+      "front": "a tercet",
+      "back": "un tercet"
+    },
+    {
+      "id": "ndu8ld",
+      "front": "an octave",
+      "back": "un octave (de sonnet)"
+    },
+    {
+      "id": "vwv7dz",
+      "front": "a sestet",
+      "back": "un sizain"
+    },
+    {
+      "id": "eujsv7",
+      "front": "a volta",
+      "back": "une volta, un tournant du sonnet"
+    },
+    {
+      "id": "0ps8gu",
+      "front": "iambic pentameter",
+      "back": "le pentamètre iambique"
+    },
+    {
+      "id": "tgv54e",
+      "front": "a trochee",
+      "back": "un trochée"
+    },
+    {
+      "id": "37t1dk",
+      "front": "a dactyl",
+      "back": "un dactyle"
+    },
+    {
+      "id": "3noi3t",
+      "front": "a spondee",
+      "back": "un spondée"
+    },
+    {
+      "id": "5puoe0",
+      "front": "blank verse",
+      "back": "le vers blanc"
+    },
+    {
+      "id": "lvxtuw",
+      "front": "free verse",
+      "back": "le vers libre"
+    },
+    {
+      "id": "eda118",
+      "front": "sprung rhythm",
+      "back": "le rythme bondissant"
+    },
+    {
+      "id": "riaiym",
+      "front": "alliteration",
+      "back": "l'allitération"
+    },
+    {
+      "id": "a6gp08",
+      "front": "assonance",
+      "back": "l'assonance"
+    },
+    {
+      "id": "5wuf6b",
+      "front": "consonance",
+      "back": "la consonance"
+    },
+    {
+      "id": "80oj5h",
+      "front": "sibilance",
+      "back": "la sifflante, l'effet de sifflement"
+    },
+    {
+      "id": "u2m2ui",
+      "front": "onomatopoeia",
+      "back": "l'onomatopée"
+    },
+    {
+      "id": "uw87cp",
+      "front": "a refrain",
+      "back": "un refrain"
+    },
+    {
+      "id": "se1qni",
+      "front": "a conceit",
+      "back": "une conceit, une métaphore filée ingénieuse"
+    },
+    {
+      "id": "yz9wrd",
+      "front": "a metaphysical conceit",
+      "back": "une métaphore métaphysique"
+    },
+    {
+      "id": "ekj6fg",
+      "front": "an oxymoron",
+      "back": "un oxymore"
+    },
+    {
+      "id": "u3b9xt",
+      "front": "a paradox",
+      "back": "un paradoxe"
+    },
+    {
+      "id": "gc9g35",
+      "front": "synecdoche",
+      "back": "la synecdoque"
+    },
+    {
+      "id": "8dyer2",
+      "front": "metonymy",
+      "back": "la métonymie"
+    },
+    {
+      "id": "ywkqlq",
+      "front": "the pathetic fallacy",
+      "back": "l'attribution de sentiments à la nature"
+    },
+    {
+      "id": "6i180k",
+      "front": "an objective correlative",
+      "back": "un corrélat objectif"
+    },
+    {
+      "id": "huwe2r",
+      "front": "defamiliarisation",
+      "back": "la défamiliarisation, l'ostranenie"
+    },
+    {
+      "id": "mkr4tm",
+      "front": "the sublime",
+      "back": "le sublime"
+    },
+    {
+      "id": "ddsv6y",
+      "front": "the grotesque",
+      "back": "le grotesque"
+    },
+    {
+      "id": "917j87",
+      "front": "the uncanny",
+      "back": "l'inquiétante étrangeté"
+    },
+    {
+      "id": "emx2gu",
+      "front": "mimesis",
+      "back": "la mimésis"
+    },
+    {
+      "id": "0nbrmi",
+      "front": "diegesis",
+      "back": "la diégèse"
+    },
+    {
+      "id": "yl6sgg",
+      "front": "verisimilitude",
+      "back": "la vraisemblance"
+    },
+    {
+      "id": "fcviao",
+      "front": "a heteroglossia",
+      "back": "une hétéroglossie"
+    },
+    {
+      "id": "8tlw74",
+      "front": "the carnivalesque",
+      "back": "le carnavalesque"
+    },
+    {
+      "id": "jb2ok1",
+      "front": "a chronotope",
+      "back": "un chronotope"
+    },
+    {
+      "id": "wx6e1n",
+      "front": "a hermeneutic",
+      "back": "une herméneutique"
+    },
+    {
+      "id": "ze59tc",
+      "front": "exegesis",
+      "back": "l'exégèse"
+    },
+    {
+      "id": "bnvke2",
+      "front": "close reading",
+      "back": "la lecture rapprochée"
+    },
+    {
+      "id": "x1su33",
+      "front": "a New Critic",
+      "back": "un critique de la New Criticism"
+    },
+    {
+      "id": "c1pzj3",
+      "front": "structuralism",
+      "back": "le structuralisme"
+    },
+    {
+      "id": "vyhpsh",
+      "front": "poststructuralism",
+      "back": "le poststructuralisme"
+    },
+    {
+      "id": "ngqbh0",
+      "front": "deconstruction",
+      "back": "la déconstruction"
+    },
+    {
+      "id": "y0f0gf",
+      "front": "a signifier",
+      "back": "un signifiant"
+    },
+    {
+      "id": "6slmen",
+      "front": "a signified",
+      "back": "un signifié"
+    },
+    {
+      "id": "jm3a2r",
+      "front": "the death of the author",
+      "back": "la mort de l'auteur"
+    },
+    {
+      "id": "9h18n2",
+      "front": "reception theory",
+      "back": "la théorie de la réception"
+    },
+    {
+      "id": "kyaz2l",
+      "front": "a horizon of expectation",
+      "back": "un horizon d'attente"
+    },
+    {
+      "id": "aoif02",
+      "front": "a canon formation",
+      "back": "la constitution d'un canon"
+    },
+    {
+      "id": "igdq62",
+      "front": "a marginalia",
+      "back": "des notes marginales"
+    },
+    {
+      "id": "sgkzsu",
+      "front": "a variorum edition",
+      "back": "une édition variorum"
+    },
+    {
+      "id": "cn1r46",
+      "front": "a critical apparatus",
+      "back": "un appareil critique"
+    },
+    {
+      "id": "kccdvq",
+      "front": "textual criticism",
+      "back": "la critique textuelle"
+    },
+    {
+      "id": "lo4zvd",
+      "front": "an emendation",
+      "back": "une correction de texte"
+    },
+    {
+      "id": "ilqofw",
+      "front": "a lacuna",
+      "back": "une lacune"
+    },
+    {
+      "id": "vwi2mg",
+      "front": "an interpolation",
+      "back": "une interpolation"
+    },
+    {
+      "id": "k4oxn2",
+      "front": "a redaction",
+      "back": "une rédaction, une recension"
+    },
+    {
+      "id": "mvib4a",
+      "front": "a recension",
+      "back": "une recension"
+    },
+    {
+      "id": "7y8tim",
+      "front": "an editio princeps",
+      "back": "une édition princeps"
+    },
+    {
+      "id": "qdf6vz",
+      "front": "a florilegium",
+      "back": "un florilège"
+    },
+    {
+      "id": "x8fry8",
+      "front": "a commonplace book",
+      "back": "un livre de lieux communs"
+    },
+    {
+      "id": "z8c2yh",
+      "front": "a pseudonym",
+      "back": "un pseudonyme"
+    },
+    {
+      "id": "2ympxz",
+      "front": "a nom de plume",
+      "back": "un nom de plume"
+    },
+    {
+      "id": "fc6n6t",
+      "front": "posthumous publication",
+      "back": "une publication posthume"
+    },
+    {
+      "id": "lkynqe",
+      "front": "a juvenilia",
+      "back": "des œuvres de jeunesse"
+    },
+    {
+      "id": "f4gdd8",
+      "front": "an oeuvre",
+      "back": "une œuvre (ensemble)"
+    }
+  ]
+}
