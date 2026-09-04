@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-history-geography",
+  "name": "History and Geography",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "1e1d33",
+      "front": "history",
+      "back": "l'histoire"
+    },
+    {
+      "id": "eaa454",
+      "front": "a historian",
+      "back": "un historien"
+    },
+    {
+      "id": "571f1d",
+      "front": "a source document",
+      "back": "une source, un document d'archive"
+    },
+    {
+      "id": "215598",
+      "front": "an archive",
+      "back": "une archive"
+    },
+    {
+      "id": "2767fb",
+      "front": "a chronicle",
+      "back": "une chronique"
+    },
+    {
+      "id": "9a7ef7",
+      "front": "an era",
+      "back": "une ère"
+    },
+    {
+      "id": "ae9f8d",
+      "front": "an epoch",
+      "back": "une époque"
+    },
+    {
+      "id": "442dcd",
+      "front": "a century",
+      "back": "un siècle"
+    },
+    {
+      "id": "d880ba",
+      "front": "a decade",
+      "back": "une décennie"
+    },
+    {
+      "id": "c9849e",
+      "front": "prehistory",
+      "back": "la préhistoire"
+    },
+    {
+      "id": "0d5883",
+      "front": "antiquity",
+      "back": "l'Antiquité"
+    },
+    {
+      "id": "9b1014",
+      "front": "the Middle Ages",
+      "back": "le Moyen Âge"
+    },
+    {
+      "id": "64af3f",
+      "front": "medieval",
+      "back": "médiéval"
+    },
+    {
+      "id": "c42743",
+      "front": "the Renaissance",
+      "back": "la Renaissance"
+    },
+    {
+      "id": "48415a",
+      "front": "the Enlightenment",
+      "back": "les Lumières"
+    },
+    {
+      "id": "aa12ba",
+      "front": "the Industrial Revolution",
+      "back": "la révolution industrielle"
+    },
+    {
+      "id": "56bcc6",
+      "front": "a dynasty",
+      "back": "une dynastie"
+    },
+    {
+      "id": "150980",
+      "front": "a reign",
+      "back": "un règne"
+    },
+    {
+      "id": "235a0c",
+      "front": "to reign",
+      "back": "régner"
+    },
+    {
+      "id": "989499",
+      "front": "a monarch",
+      "back": "un monarque"
+    },
+    {
+      "id": "d34e3e",
+      "front": "a sovereign",
+      "back": "un souverain"
+    },
+    {
+      "id": "1f0483",
+      "front": "an heir",
+      "back": "un héritier"
+    },
+    {
+      "id": "2653d5",
+      "front": "a successor",
+      "back": "un successeur"
+    },
+    {
+      "id": "c2c793",
+      "front": "succession",
+      "back": "la succession"
+    },
+    {
+      "id": "418ba2",
+      "front": "the nobility",
+      "back": "la noblesse"
+    },
+    {
+      "id": "d84484",
+      "front": "the clergy",
+      "back": "le clergé"
+    },
+    {
+      "id": "f59b90",
+      "front": "a peasant",
+      "back": "un paysan"
+    },
+    {
+      "id": "a62f1c",
+      "front": "serfdom",
+      "back": "le servage"
+    },
+    {
+      "id": "81087a",
+      "front": "feudalism",
+      "back": "la féodalité"
+    },
+    {
+      "id": "2c938c",
+      "front": "an empire",
+      "back": "un empire"
+    },
+    {
+      "id": "666170",
+      "front": "an emperor",
+      "back": "un empereur"
+    },
+    {
+      "id": "a256e2",
+      "front": "a colony",
+      "back": "une colonie"
+    },
+    {
+      "id": "5b2ca6",
+      "front": "colonisation",
+      "back": "la colonisation"
+    },
+    {
+      "id": "9fdb9f",
+      "front": "a settler",
+      "back": "un colon"
+    },
+    {
+      "id": "53a8c9",
+      "front": "decolonisation",
+      "back": "la décolonisation"
+    },
+    {
+      "id": "e0b3c8",
+      "front": "independence",
+      "back": "l'indépendance"
+    },
+    {
+      "id": "b847a7",
+      "front": "an uprising",
+      "back": "un soulèvement"
+    },
+    {
+      "id": "d76072",
+      "front": "a rebellion",
+      "back": "une rébellion"
+    },
+    {
+      "id": "c0331e",
+      "front": "a revolt",
+      "back": "une révolte"
+    },
+    {
+      "id": "d90ab3",
+      "front": "a revolution",
+      "back": "une révolution"
+    },
+    {
+      "id": "a131dd",
+      "front": "a civil war",
+      "back": "une guerre civile"
+    },
+    {
+      "id": "a8a69b",
+      "front": "a war",
+      "back": "une guerre"
+    },
+    {
+      "id": "2cdd58",
+      "front": "warfare",
+      "back": "la guerre, l'art de la guerre"
+    },
+    {
+      "id": "97d77b",
+      "front": "a battle",
+      "back": "une bataille"
+    },
+    {
+      "id": "331522",
+      "front": "a siege",
+      "back": "un siège"
+    },
+    {
+      "id": "135084",
+      "front": "a campaign of conquest",
+      "back": "une campagne de conquête"
+    },
+    {
+      "id": "8b625b",
+      "front": "to conquer",
+      "back": "conquérir"
+    },
+    {
+      "id": "59e224",
+      "front": "a conquest",
+      "back": "une conquête"
+    },
+    {
+      "id": "922d1e",
+      "front": "to invade",
+      "back": "envahir"
+    },
+    {
+      "id": "857c9b",
+      "front": "an invasion",
+      "back": "une invasion"
+    },
+    {
+      "id": "ce9885",
+      "front": "to occupy",
+      "back": "occuper"
+    },
+    {
+      "id": "db75b4",
+      "front": "an occupation",
+      "back": "une occupation"
+    },
+    {
+      "id": "c67541",
+      "front": "to surrender",
+      "back": "capituler, se rendre"
+    },
+    {
+      "id": "780006",
+      "front": "a defeat",
+      "back": "une défaite"
+    },
+    {
+      "id": "329d26",
+      "front": "a victory",
+      "back": "une victoire"
+    },
+    {
+      "id": "59f4f5",
+      "front": "an armistice",
+      "back": "un armistice"
+    },
+    {
+      "id": "4f7243",
+      "front": "a truce",
+      "back": "une trêve"
+    },
+    {
+      "id": "a0a800",
+      "front": "a peace treaty",
+      "back": "un traité de paix"
+    },
+    {
+      "id": "8a5655",
+      "front": "an alliance",
+      "back": "une alliance"
+    },
+    {
+      "id": "6489a7",
+      "front": "an ally",
+      "back": "un allié"
+    },
+    {
+      "id": "e707a3",
+      "front": "an enemy",
+      "back": "un ennemi"
+    },
+    {
+      "id": "a3d7a6",
+      "front": "a troop",
+      "back": "une troupe"
+    },
+    {
+      "id": "7d07c0",
+      "front": "an army",
+      "back": "une armée"
+    },
+    {
+      "id": "db51a3",
+      "front": "a soldier",
+      "back": "un soldat"
+    },
+    {
+      "id": "9add7b",
+      "front": "a general",
+      "back": "un général"
+    },
+    {
+      "id": "966b20",
+      "front": "a fortress",
+      "back": "une forteresse"
+    },
+    {
+      "id": "8b74aa",
+      "front": "a weapon",
+      "back": "une arme"
+    },
+    {
+      "id": "2cfb84",
+      "front": "artillery",
+      "back": "l'artillerie"
+    },
+    {
+      "id": "2c885d",
+      "front": "a casualty",
+      "back": "une victime, un mort ou blessé"
+    },
+    {
+      "id": "004e97",
+      "front": "a refugee",
+      "back": "un réfugié"
+    },
+    {
+      "id": "ad9ccf",
+      "front": "an exile",
+      "back": "un exilé"
+    },
+    {
+      "id": "27f851",
+      "front": "persecution",
+      "back": "la persécution"
+    },
+    {
+      "id": "d31e89",
+      "front": "a massacre",
+      "back": "un massacre"
+    },
+    {
+      "id": "0612e0",
+      "front": "a genocide",
+      "back": "un génocide"
+    },
+    {
+      "id": "f95a14",
+      "front": "a resistance movement",
+      "back": "un mouvement de résistance"
+    },
+    {
+      "id": "b704eb",
+      "front": "liberation",
+      "back": "la libération"
+    },
+    {
+      "id": "d32b3f",
+      "front": "geography",
+      "back": "la géographie"
+    },
+    {
+      "id": "5dfb6c",
+      "front": "a continent",
+      "back": "un continent"
+    },
+    {
+      "id": "e5aea2",
+      "front": "a border",
+      "back": "une frontière"
+    },
+    {
+      "id": "7c40cd",
+      "front": "a territory",
+      "back": "un territoire"
+    },
+    {
+      "id": "1d6759",
+      "front": "a region",
+      "back": "une région"
+    },
+    {
+      "id": "cf824f",
+      "front": "a province",
+      "back": "une province"
+    },
+    {
+      "id": "b9d9b1",
+      "front": "a county",
+      "back": "un comté"
+    },
+    {
+      "id": "5a0573",
+      "front": "a plain",
+      "back": "une plaine"
+    },
+    {
+      "id": "6ba8b0",
+      "front": "a plateau",
+      "back": "un plateau"
+    },
+    {
+      "id": "7cd1e3",
+      "front": "a valley",
+      "back": "une vallée"
+    },
+    {
+      "id": "d92d49",
+      "front": "a mountain range",
+      "back": "une chaîne de montagnes"
+    },
+    {
+      "id": "73c082",
+      "front": "a peak",
+      "back": "un sommet"
+    },
+    {
+      "id": "0c23b3",
+      "front": "a hill",
+      "back": "une colline"
+    },
+    {
+      "id": "7df3c0",
+      "front": "a cliff",
+      "back": "une falaise"
+    },
+    {
+      "id": "6a685b",
+      "front": "a coastline",
+      "back": "un littoral"
+    },
+    {
+      "id": "b91470",
+      "front": "a peninsula",
+      "back": "une péninsule"
+    },
+    {
+      "id": "26b722",
+      "front": "an island",
+      "back": "une île"
+    },
+    {
+      "id": "7b4374",
+      "front": "an archipelago",
+      "back": "un archipel"
+    },
+    {
+      "id": "007309",
+      "front": "a strait",
+      "back": "un détroit"
+    },
+    {
+      "id": "d6c71d",
+      "front": "a gulf",
+      "back": "un golfe"
+    },
+    {
+      "id": "93eede",
+      "front": "an estuary",
+      "back": "un estuaire"
+    },
+    {
+      "id": "a4b9c5",
+      "front": "a tributary",
+      "back": "un affluent"
+    },
+    {
+      "id": "fdb9a9",
+      "front": "a basin",
+      "back": "un bassin"
+    },
+    {
+      "id": "93ee5e",
+      "front": "a watershed",
+      "back": "une ligne de partage des eaux"
+    }
+  ]
+}
