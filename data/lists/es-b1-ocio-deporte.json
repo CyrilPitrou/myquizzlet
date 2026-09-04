@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-ocio-deporte",
+  "name": "El tiempo libre y el deporte",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "9qvkcd",
+      "front": "el tiempo libre",
+      "back": "le temps libre"
+    },
+    {
+      "id": "kzrjun",
+      "front": "el ocio",
+      "back": "les loisirs"
+    },
+    {
+      "id": "gbcy37",
+      "front": "la afición",
+      "back": "le passe-temps, la passion"
+    },
+    {
+      "id": "410vqs",
+      "front": "el pasatiempo",
+      "back": "le passe-temps"
+    },
+    {
+      "id": "6lplm1",
+      "front": "el deporte",
+      "back": "le sport"
+    },
+    {
+      "id": "ydd7w7",
+      "front": "el fútbol",
+      "back": "le football"
+    },
+    {
+      "id": "c5kdrw",
+      "front": "el baloncesto",
+      "back": "le basket-ball"
+    },
+    {
+      "id": "36s2zp",
+      "front": "el balonmano",
+      "back": "le handball"
+    },
+    {
+      "id": "3uylv9",
+      "front": "el voleibol",
+      "back": "le volley-ball"
+    },
+    {
+      "id": "l1cljj",
+      "front": "el tenis",
+      "back": "le tennis"
+    },
+    {
+      "id": "vfibpc",
+      "front": "la natación",
+      "back": "la natation"
+    },
+    {
+      "id": "q1mf9i",
+      "front": "el atletismo",
+      "back": "l'athlétisme"
+    },
+    {
+      "id": "yb6bcs",
+      "front": "el ciclismo",
+      "back": "le cyclisme"
+    },
+    {
+      "id": "m23y69",
+      "front": "el senderismo",
+      "back": "la randonnée"
+    },
+    {
+      "id": "muextz",
+      "front": "el esquí",
+      "back": "le ski"
+    },
+    {
+      "id": "1renat",
+      "front": "el patinaje",
+      "back": "le patinage"
+    },
+    {
+      "id": "k9quas",
+      "front": "la vela",
+      "back": "la voile"
+    },
+    {
+      "id": "p24vkg",
+      "front": "el surf",
+      "back": "le surf"
+    },
+    {
+      "id": "cep1ad",
+      "front": "el boxeo",
+      "back": "la boxe"
+    },
+    {
+      "id": "aw591u",
+      "front": "las artes marciales",
+      "back": "les arts martiaux"
+    },
+    {
+      "id": "giat5d",
+      "front": "la gimnasia",
+      "back": "la gymnastique"
+    },
+    {
+      "id": "zbz7s2",
+      "front": "el equipo deportivo",
+      "back": "l'équipe sportive"
+    },
+    {
+      "id": "zjoqo5",
+      "front": "el jugador",
+      "back": "le joueur"
+    },
+    {
+      "id": "le2qwn",
+      "front": "el entrenador",
+      "back": "l'entraîneur"
+    },
+    {
+      "id": "3y827z",
+      "front": "el árbitro",
+      "back": "l'arbitre"
+    },
+    {
+      "id": "mf0df6",
+      "front": "el aficionado",
+      "back": "le supporter"
+    },
+    {
+      "id": "n5k111",
+      "front": "el partido",
+      "back": "le match"
+    },
+    {
+      "id": "2165vw",
+      "front": "el campeonato",
+      "back": "le championnat"
+    },
+    {
+      "id": "m1spzy",
+      "front": "la liga",
+      "back": "le championnat (compétition)"
+    },
+    {
+      "id": "ma3ecn",
+      "front": "el torneo",
+      "back": "le tournoi"
+    },
+    {
+      "id": "f8cm08",
+      "front": "la copa",
+      "back": "la coupe"
+    },
+    {
+      "id": "wdalwg",
+      "front": "la final",
+      "back": "la finale"
+    },
+    {
+      "id": "1i4bpw",
+      "front": "el gol",
+      "back": "le but"
+    },
+    {
+      "id": "283r3r",
+      "front": "el tanteo",
+      "back": "le score"
+    },
+    {
+      "id": "4p43n5",
+      "front": "el empate",
+      "back": "le match nul"
+    },
+    {
+      "id": "xh87uv",
+      "front": "la victoria",
+      "back": "la victoire"
+    },
+    {
+      "id": "2kh4bz",
+      "front": "la derrota",
+      "back": "la défaite"
+    },
+    {
+      "id": "7teynp",
+      "front": "la medalla",
+      "back": "la médaille"
+    },
+    {
+      "id": "ikkmx2",
+      "front": "el récord",
+      "back": "le record"
+    },
+    {
+      "id": "3da55m",
+      "front": "el entrenamiento",
+      "back": "l'entraînement"
+    },
+    {
+      "id": "yc0nnl",
+      "front": "el gimnasio",
+      "back": "la salle de sport"
+    },
+    {
+      "id": "wvnzbf",
+      "front": "el estadio",
+      "back": "le stade"
+    },
+    {
+      "id": "b9iul5",
+      "front": "la piscina",
+      "back": "la piscine"
+    },
+    {
+      "id": "1kkair",
+      "front": "la cancha",
+      "back": "le terrain (de jeu)"
+    },
+    {
+      "id": "2j1rc6",
+      "front": "la pista",
+      "back": "la piste"
+    },
+    {
+      "id": "cyakgw",
+      "front": "la pelota",
+      "back": "la balle, le ballon"
+    },
+    {
+      "id": "sif0j4",
+      "front": "la raqueta",
+      "back": "la raquette"
+    },
+    {
+      "id": "2cavcg",
+      "front": "la red",
+      "back": "le filet"
+    },
+    {
+      "id": "gx4tm2",
+      "front": "el juego",
+      "back": "le jeu"
+    },
+    {
+      "id": "19aje0",
+      "front": "el juego de mesa",
+      "back": "le jeu de société"
+    },
+    {
+      "id": "b8m2w3",
+      "front": "el ajedrez",
+      "back": "les échecs"
+    },
+    {
+      "id": "47iau9",
+      "front": "las cartas",
+      "back": "les cartes à jouer"
+    },
+    {
+      "id": "mnplya",
+      "front": "el rompecabezas",
+      "back": "le puzzle"
+    },
+    {
+      "id": "10vr8c",
+      "front": "el videojuego",
+      "back": "le jeu vidéo"
+    },
+    {
+      "id": "q0fn6p",
+      "front": "la lectura",
+      "back": "la lecture"
+    },
+    {
+      "id": "iwwlxq",
+      "front": "la novela",
+      "back": "le roman"
+    },
+    {
+      "id": "mjdzo4",
+      "front": "el cómic",
+      "back": "la bande dessinée"
+    },
+    {
+      "id": "px0bzf",
+      "front": "la película",
+      "back": "le film"
+    },
+    {
+      "id": "xogpbt",
+      "front": "la serie",
+      "back": "la série"
+    },
+    {
+      "id": "kkfyce",
+      "front": "el concierto",
+      "back": "le concert"
+    },
+    {
+      "id": "1kawu4",
+      "front": "el baile",
+      "back": "la danse"
+    },
+    {
+      "id": "6q1246",
+      "front": "la canción",
+      "back": "la chanson"
+    },
+    {
+      "id": "otf5a7",
+      "front": "el instrumento",
+      "back": "l'instrument"
+    },
+    {
+      "id": "v3posm",
+      "front": "la guitarra",
+      "back": "la guitare"
+    },
+    {
+      "id": "o65ua8",
+      "front": "el piano",
+      "back": "le piano"
+    },
+    {
+      "id": "2b3ort",
+      "front": "la fotografía",
+      "back": "la photographie"
+    },
+    {
+      "id": "3szgyc",
+      "front": "la pintura",
+      "back": "la peinture"
+    },
+    {
+      "id": "08pgkx",
+      "front": "el dibujo",
+      "back": "le dessin"
+    },
+    {
+      "id": "6f5fln",
+      "front": "la costura",
+      "back": "la couture"
+    },
+    {
+      "id": "4e50c2",
+      "front": "la jardinería",
+      "back": "le jardinage"
+    },
+    {
+      "id": "79f0xy",
+      "front": "el coleccionismo",
+      "back": "la collection"
+    },
+    {
+      "id": "tkrgth",
+      "front": "la fiesta",
+      "back": "la fête"
+    },
+    {
+      "id": "f1kb46",
+      "front": "la discoteca",
+      "back": "la boîte de nuit"
+    },
+    {
+      "id": "2ymwjq",
+      "front": "el bar",
+      "back": "le bar"
+    },
+    {
+      "id": "zmouc4",
+      "front": "la excursión",
+      "back": "l'excursion"
+    },
+    {
+      "id": "j1p7ao",
+      "front": "el camping",
+      "back": "le camping"
+    },
+    {
+      "id": "t2effs",
+      "front": "la merienda campestre",
+      "back": "le pique-nique"
+    },
+    {
+      "id": "j8o8l3",
+      "front": "el fin de semana",
+      "back": "le week-end"
+    },
+    {
+      "id": "7qhjvl",
+      "front": "el club",
+      "back": "le club"
+    },
+    {
+      "id": "fzmj79",
+      "front": "el socio",
+      "back": "le membre, l'adhérent"
+    },
+    {
+      "id": "0vtsvj",
+      "front": "la taquilla",
+      "back": "le guichet, la billetterie"
+    },
+    {
+      "id": "ob1o84",
+      "front": "jugar",
+      "back": "jouer"
+    },
+    {
+      "id": "ozev06",
+      "front": "entrenar",
+      "back": "s'entraîner"
+    },
+    {
+      "id": "encw0z",
+      "front": "ganar",
+      "back": "gagner"
+    },
+    {
+      "id": "040s2h",
+      "front": "perder",
+      "back": "perdre"
+    },
+    {
+      "id": "er8sg3",
+      "front": "empatar",
+      "back": "faire match nul"
+    },
+    {
+      "id": "wreevi",
+      "front": "marcar un gol",
+      "back": "marquer un but"
+    },
+    {
+      "id": "v1vgln",
+      "front": "correr",
+      "back": "courir"
+    },
+    {
+      "id": "66d6ud",
+      "front": "nadar",
+      "back": "nager"
+    },
+    {
+      "id": "7twz1e",
+      "front": "saltar",
+      "back": "sauter"
+    },
+    {
+      "id": "g2ir4t",
+      "front": "montar en bici",
+      "back": "faire du vélo"
+    },
+    {
+      "id": "om9sj0",
+      "front": "esquiar",
+      "back": "skier"
+    },
+    {
+      "id": "voh3bb",
+      "front": "bailar",
+      "back": "danser"
+    },
+    {
+      "id": "yajp45",
+      "front": "cantar",
+      "back": "chanter"
+    },
+    {
+      "id": "xy733u",
+      "front": "tocar",
+      "back": "jouer (d'un instrument)"
+    },
+    {
+      "id": "ww1m8l",
+      "front": "dibujar",
+      "back": "dessiner"
+    },
+    {
+      "id": "ddg9zt",
+      "front": "divertirse",
+      "back": "s'amuser"
+    },
+    {
+      "id": "3oif5i",
+      "front": "aburrirse",
+      "back": "s'ennuyer"
+    },
+    {
+      "id": "ld02xy",
+      "front": "quedar con alguien",
+      "back": "donner rendez-vous à quelqu'un"
+    },
+    {
+      "id": "vs39ev",
+      "front": "salir de marcha",
+      "back": "sortir faire la fête"
+    }
+  ]
+}
