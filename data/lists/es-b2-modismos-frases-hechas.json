@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-modismos-frases-hechas",
+  "name": "Modismos y frases hechas",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "3a3k6i",
+      "front": "estar en las nubes",
+      "back": "être dans la lune"
+    },
+    {
+      "id": "e7zfzs",
+      "front": "ponerse las pilas",
+      "back": "se secouer, s'y mettre"
+    },
+    {
+      "id": "qzfwx9",
+      "front": "dar en el clavo",
+      "back": "mettre dans le mille"
+    },
+    {
+      "id": "k4hbz1",
+      "front": "tirar la toalla",
+      "back": "jeter l'éponge"
+    },
+    {
+      "id": "418l76",
+      "front": "echar leña al fuego",
+      "back": "jeter de l'huile sur le feu"
+    },
+    {
+      "id": "8s9z5k",
+      "front": "meterse en camisa de once varas",
+      "back": "se mettre dans de beaux draps"
+    },
+    {
+      "id": "9x0yij",
+      "front": "no tener pelos en la lengua",
+      "back": "ne pas mâcher ses mots"
+    },
+    {
+      "id": "2hsh7k",
+      "front": "hablar por los codos",
+      "back": "être un moulin à paroles"
+    },
+    {
+      "id": "ucrf62",
+      "front": "tomar el pelo a alguien",
+      "back": "se payer la tête de quelqu'un"
+    },
+    {
+      "id": "a2wpl5",
+      "front": "estar como una cabra",
+      "back": "être complètement fou"
+    },
+    {
+      "id": "4evy61",
+      "front": "ser pan comido",
+      "back": "être du gâteau"
+    },
+    {
+      "id": "q5tujk",
+      "front": "costar un ojo de la cara",
+      "back": "coûter les yeux de la tête"
+    },
+    {
+      "id": "fkvt1m",
+      "front": "estar sin blanca",
+      "back": "être sans le sou"
+    },
+    {
+      "id": "hse97k",
+      "front": "ganarse el pan",
+      "back": "gagner son pain"
+    },
+    {
+      "id": "2pct2j",
+      "front": "apretarse el cinturón",
+      "back": "se serrer la ceinture"
+    },
+    {
+      "id": "3lwjb4",
+      "front": "pagar los platos rotos",
+      "back": "payer les pots cassés"
+    },
+    {
+      "id": "mw3g6y",
+      "front": "salir el tiro por la culata",
+      "back": "l'effet inverse se produire"
+    },
+    {
+      "id": "cnv8di",
+      "front": "tener la sartén por el mango",
+      "back": "tenir le manche"
+    },
+    {
+      "id": "ezx1lg",
+      "front": "poner las cartas sobre la mesa",
+      "back": "jouer cartes sur table"
+    },
+    {
+      "id": "896dwz",
+      "front": "dar gato por liebre",
+      "back": "rouler dans la farine"
+    },
+    {
+      "id": "g8k3l5",
+      "front": "buscarle tres pies al gato",
+      "back": "chercher midi à quatorze heures"
+    },
+    {
+      "id": "cxlks2",
+      "front": "haber gato encerrado",
+      "back": "il y a anguille sous roche"
+    },
+    {
+      "id": "bbama7",
+      "front": "llevarse el gato al agua",
+      "back": "remporter la partie"
+    },
+    {
+      "id": "cslrrw",
+      "front": "ser el chivo expiatorio",
+      "back": "être le bouc émissaire"
+    },
+    {
+      "id": "km874l",
+      "front": "llorar sobre la leche derramada",
+      "back": "pleurer sur le lait renversé"
+    },
+    {
+      "id": "vn869e",
+      "front": "estar entre la espada y la pared",
+      "back": "être entre le marteau et l'enclume"
+    },
+    {
+      "id": "tgdlcr",
+      "front": "irse por las ramas",
+      "back": "tourner autour du pot"
+    },
+    {
+      "id": "kj5jg7",
+      "front": "ir al meollo del asunto",
+      "back": "aller au cœur du sujet"
+    },
+    {
+      "id": "frycip",
+      "front": "cortar por lo sano",
+      "back": "trancher dans le vif"
+    },
+    {
+      "id": "b358a5",
+      "front": "no dar el brazo a torcer",
+      "back": "ne pas céder d'un pouce"
+    },
+    {
+      "id": "m08if9",
+      "front": "hacer la vista gorda",
+      "back": "fermer les yeux"
+    },
+    {
+      "id": "6sids3",
+      "front": "mirar por encima del hombro",
+      "back": "regarder de haut"
+    },
+    {
+      "id": "nbjadt",
+      "front": "poner el grito en el cielo",
+      "back": "pousser les hauts cris"
+    },
+    {
+      "id": "j8rx2q",
+      "front": "ponerse hecho una furia",
+      "back": "entrer dans une colère noire"
+    },
+    {
+      "id": "gb5n96",
+      "front": "subirse por las paredes",
+      "back": "être hors de soi"
+    },
+    {
+      "id": "gjrmy6",
+      "front": "perder los estribos",
+      "back": "perdre son sang-froid"
+    },
+    {
+      "id": "hnpm10",
+      "front": "sacar las castañas del fuego",
+      "back": "tirer les marrons du feu"
+    },
+    {
+      "id": "7ka2im",
+      "front": "arrimar el ascua a su sardina",
+      "back": "prêcher pour sa paroisse"
+    },
+    {
+      "id": "zm2pxu",
+      "front": "barrer para casa",
+      "back": "tirer la couverture à soi"
+    },
+    {
+      "id": "13319s",
+      "front": "tener enchufe",
+      "back": "avoir du piston"
+    },
+    {
+      "id": "3fxja4",
+      "front": "estar en el ajo",
+      "back": "être dans le coup"
+    },
+    {
+      "id": "gew5k8",
+      "front": "dar la lata",
+      "back": "casser les pieds"
+    },
+    {
+      "id": "9byc2d",
+      "front": "poner verde a alguien",
+      "back": "dire pis que pendre de quelqu'un"
+    },
+    {
+      "id": "wy58r0",
+      "front": "poner a caldo",
+      "back": "passer un savon"
+    },
+    {
+      "id": "25qu1g",
+      "front": "dejar plantado",
+      "back": "poser un lapin"
+    },
+    {
+      "id": "jj3kta",
+      "front": "dar plantón",
+      "back": "faire faux bond"
+    },
+    {
+      "id": "ha29lq",
+      "front": "quedarse de piedra",
+      "back": "rester baba"
+    },
+    {
+      "id": "iufgxp",
+      "front": "poner los pelos de punta",
+      "back": "faire dresser les cheveux sur la tête"
+    },
+    {
+      "id": "d321zo",
+      "front": "salírsele el corazón por la boca",
+      "back": "avoir le cœur qui bat la chamade"
+    },
+    {
+      "id": "smbwa1",
+      "front": "no pegar ojo",
+      "back": "ne pas fermer l'œil"
+    },
+    {
+      "id": "w7dn38",
+      "front": "dormir a pierna suelta",
+      "back": "dormir à poings fermés"
+    },
+    {
+      "id": "zm22z0",
+      "front": "levantarse con el pie izquierdo",
+      "back": "se lever du pied gauche"
+    },
+    {
+      "id": "2vb4vk",
+      "front": "estar de mala uva",
+      "back": "être de mauvais poil"
+    },
+    {
+      "id": "s1cbp4",
+      "front": "dar la nota",
+      "back": "se faire remarquer"
+    },
+    {
+      "id": "3hinaq",
+      "front": "ser la oveja negra",
+      "back": "être le mouton noir"
+    },
+    {
+      "id": "ee4x1v",
+      "front": "ser un cero a la izquierda",
+      "back": "être une quantité négligeable"
+    },
+    {
+      "id": "e7otjq",
+      "front": "no tener ni pies ni cabeza",
+      "back": "n'avoir ni queue ni tête"
+    },
+    {
+      "id": "88tnhk",
+      "front": "sacar de sus casillas",
+      "back": "faire sortir de ses gonds"
+    },
+    {
+      "id": "l3748s",
+      "front": "llevar la voz cantante",
+      "back": "mener la danse"
+    },
+    {
+      "id": "zpwoi6",
+      "front": "cortar el bacalao",
+      "back": "faire la pluie et le beau temps"
+    },
+    {
+      "id": "93o0w7",
+      "front": "ser uña y carne",
+      "back": "être comme les deux doigts de la main"
+    },
+    {
+      "id": "v52ztc",
+      "front": "llevarse como el perro y el gato",
+      "back": "s'entendre comme chien et chat"
+    },
+    {
+      "id": "muha7t",
+      "front": "echar una cana al aire",
+      "back": "faire une petite folie"
+    },
+    {
+      "id": "l2gj3q",
+      "front": "matar dos pájaros de un tiro",
+      "back": "faire d'une pierre deux coups"
+    },
+    {
+      "id": "acpkf3",
+      "front": "a otro perro con ese hueso",
+      "back": "à d'autres"
+    },
+    {
+      "id": "oo72i8",
+      "front": "en un abrir y cerrar de ojos",
+      "back": "en un clin d'œil"
+    },
+    {
+      "id": "c8f29k",
+      "front": "de higos a brevas",
+      "back": "tous les trente-six du mois"
+    },
+    {
+      "id": "phidu5",
+      "front": "cada dos por tres",
+      "back": "tout le temps"
+    },
+    {
+      "id": "97ygwb",
+      "front": "a las mil maravillas",
+      "back": "à merveille"
+    },
+    {
+      "id": "pd7fh3",
+      "front": "a duras penas",
+      "back": "à grand-peine"
+    },
+    {
+      "id": "ttt7in",
+      "front": "a pies juntillas",
+      "back": "dur comme fer"
+    },
+    {
+      "id": "l2im1u",
+      "front": "sin ton ni son",
+      "back": "sans rime ni raison"
+    },
+    {
+      "id": "6urajd",
+      "front": "al pie de la letra",
+      "back": "au pied de la lettre"
+    },
+    {
+      "id": "90zf6p",
+      "front": "de pe a pa",
+      "back": "de A à Z"
+    },
+    {
+      "id": "1uf09f",
+      "front": "a bombo y platillo",
+      "back": "à grand renfort de publicité"
+    },
+    {
+      "id": "36kov6",
+      "front": "a la chita callando",
+      "back": "en douce"
+    },
+    {
+      "id": "cjax14",
+      "front": "a rajatabla",
+      "back": "à la lettre, strictement"
+    },
+    {
+      "id": "u5w8wc",
+      "front": "por los pelos",
+      "back": "de justesse"
+    },
+    {
+      "id": "ta5ghh",
+      "front": "como anillo al dedo",
+      "back": "comme un gant"
+    },
+    {
+      "id": "1m5l5c",
+      "front": "como agua de mayo",
+      "back": "comme la pluie après la sécheresse"
+    },
+    {
+      "id": "6jtkdy",
+      "front": "más vale tarde que nunca",
+      "back": "mieux vaut tard que jamais"
+    },
+    {
+      "id": "r3uewr",
+      "front": "más vale prevenir que curar",
+      "back": "mieux vaut prévenir que guérir"
+    },
+    {
+      "id": "at0s62",
+      "front": "no hay mal que por bien no venga",
+      "back": "à quelque chose malheur est bon"
+    },
+    {
+      "id": "h9d7bt",
+      "front": "a quien madruga Dios le ayuda",
+      "back": "l'avenir appartient à ceux qui se lèvent tôt"
+    },
+    {
+      "id": "mddu0j",
+      "front": "en boca cerrada no entran moscas",
+      "back": "la parole est d'argent, le silence est d'or"
+    },
+    {
+      "id": "g7cdtk",
+      "front": "dime con quién andas y te diré quién eres",
+      "back": "dis-moi qui tu fréquentes, je te dirai qui tu es"
+    },
+    {
+      "id": "rj3v0w",
+      "front": "no es oro todo lo que reluce",
+      "back": "tout ce qui brille n'est pas or"
+    },
+    {
+      "id": "gzspex",
+      "front": "del dicho al hecho hay mucho trecho",
+      "back": "il y a loin de la coupe aux lèvres"
+    },
+    {
+      "id": "0wd0zt",
+      "front": "quien mucho abarca poco aprieta",
+      "back": "qui trop embrasse mal étreint"
+    },
+    {
+      "id": "0oi9gj",
+      "front": "más vale pájaro en mano que ciento volando",
+      "back": "un tiens vaut mieux que deux tu l'auras"
+    },
+    {
+      "id": "5roy7p",
+      "front": "aunque la mona se vista de seda, mona se queda",
+      "back": "l'habit ne fait pas le moine"
+    },
+    {
+      "id": "f2v8v5",
+      "front": "a caballo regalado no le mires el diente",
+      "back": "à cheval donné on ne regarde pas les dents"
+    },
+    {
+      "id": "p9t4i7",
+      "front": "donde fueres, haz lo que vieres",
+      "back": "à Rome fais comme les Romains"
+    },
+    {
+      "id": "la5k8r",
+      "front": "no dejes para mañana lo que puedas hacer hoy",
+      "back": "ne remets pas à demain ce que tu peux faire aujourd'hui"
+    },
+    {
+      "id": "v6e6jq",
+      "front": "ojos que no ven, corazón que no siente",
+      "back": "loin des yeux, loin du cœur"
+    },
+    {
+      "id": "oz6o7x",
+      "front": "el que la sigue la consigue",
+      "back": "à force de persévérer on réussit"
+    },
+    {
+      "id": "1zqw61",
+      "front": "más sabe el diablo por viejo que por diablo",
+      "back": "l'expérience prime sur tout"
+    },
+    {
+      "id": "eo0mj0",
+      "front": "no por mucho madrugar amanece más temprano",
+      "back": "rien ne sert de courir"
+    },
+    {
+      "id": "daqxos",
+      "front": "cría cuervos y te sacarán los ojos",
+      "back": "nourris un corbeau, il te crèvera les yeux"
+    },
+    {
+      "id": "h5ldv6",
+      "front": "la letra con sangre entra",
+      "back": "on n'apprend pas sans peine"
+    }
+  ]
+}
