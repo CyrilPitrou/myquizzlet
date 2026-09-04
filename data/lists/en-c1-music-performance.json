@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-music-performance",
+  "name": "Music and Performance",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "uzf3fb",
+      "front": "a score",
+      "back": "une partition"
+    },
+    {
+      "id": "iumih6",
+      "front": "a symphonic movement",
+      "back": "un mouvement de symphonie"
+    },
+    {
+      "id": "mgpo2d",
+      "front": "a symphony",
+      "back": "une symphonie"
+    },
+    {
+      "id": "ox6fdz",
+      "front": "a concerto",
+      "back": "un concerto"
+    },
+    {
+      "id": "ta26pt",
+      "front": "a sonata",
+      "back": "une sonate"
+    },
+    {
+      "id": "1ojo68",
+      "front": "a suite",
+      "back": "une suite"
+    },
+    {
+      "id": "3fpxkp",
+      "front": "an overture",
+      "back": "une ouverture"
+    },
+    {
+      "id": "743m2l",
+      "front": "a prelude",
+      "back": "un prélude"
+    },
+    {
+      "id": "qt96fy",
+      "front": "a fugue",
+      "back": "une fugue"
+    },
+    {
+      "id": "x5qmi2",
+      "front": "a musical canon",
+      "back": "un canon (forme musicale)"
+    },
+    {
+      "id": "0xc394",
+      "front": "a cantata",
+      "back": "une cantate"
+    },
+    {
+      "id": "jk387d",
+      "front": "an oratorio",
+      "back": "un oratorio"
+    },
+    {
+      "id": "3s143z",
+      "front": "a requiem",
+      "back": "un requiem"
+    },
+    {
+      "id": "qfbie7",
+      "front": "an aria",
+      "back": "un air, une aria"
+    },
+    {
+      "id": "pxslfh",
+      "front": "a recitative",
+      "back": "un récitatif"
+    },
+    {
+      "id": "8m7iv8",
+      "front": "a libretto",
+      "back": "un livret"
+    },
+    {
+      "id": "3czweq",
+      "front": "an opera",
+      "back": "un opéra"
+    },
+    {
+      "id": "cq85on",
+      "front": "an operetta",
+      "back": "une opérette"
+    },
+    {
+      "id": "70ifjd",
+      "front": "a chorale",
+      "back": "un choral"
+    },
+    {
+      "id": "jjbgox",
+      "front": "a madrigal",
+      "back": "un madrigal"
+    },
+    {
+      "id": "iemrla",
+      "front": "a nocturne",
+      "back": "un nocturne"
+    },
+    {
+      "id": "55xyx1",
+      "front": "an étude",
+      "back": "une étude"
+    },
+    {
+      "id": "rpmui2",
+      "front": "a rhapsody",
+      "back": "une rhapsodie"
+    },
+    {
+      "id": "jgli3u",
+      "front": "a scherzo",
+      "back": "un scherzo"
+    },
+    {
+      "id": "von6f3",
+      "front": "a coda",
+      "back": "une coda"
+    },
+    {
+      "id": "ipjic0",
+      "front": "a cadenza",
+      "back": "une cadence (soliste)"
+    },
+    {
+      "id": "zb1uer",
+      "front": "a leitmotif in music",
+      "back": "un leitmotiv musical"
+    },
+    {
+      "id": "shycph",
+      "front": "a theme and variations",
+      "back": "un thème et variations"
+    },
+    {
+      "id": "6d14y1",
+      "front": "counterpoint",
+      "back": "le contrepoint"
+    },
+    {
+      "id": "ow9qjz",
+      "front": "harmony",
+      "back": "l'harmonie"
+    },
+    {
+      "id": "meowke",
+      "front": "dissonance",
+      "back": "la dissonance"
+    },
+    {
+      "id": "rwhqcg",
+      "front": "consonance in music",
+      "back": "la consonance"
+    },
+    {
+      "id": "6x7kky",
+      "front": "a chord",
+      "back": "un accord"
+    },
+    {
+      "id": "yfsn9h",
+      "front": "a key",
+      "back": "une tonalité"
+    },
+    {
+      "id": "y0sjkz",
+      "front": "a modulation",
+      "back": "une modulation"
+    },
+    {
+      "id": "h9faq5",
+      "front": "a cadence",
+      "back": "une cadence"
+    },
+    {
+      "id": "zaazuk",
+      "front": "a scale",
+      "back": "une gamme"
+    },
+    {
+      "id": "6ghhge",
+      "front": "a mode",
+      "back": "un mode"
+    },
+    {
+      "id": "9aey57",
+      "front": "an octave interval",
+      "back": "un intervalle d'octave"
+    },
+    {
+      "id": "cd21h3",
+      "front": "a semitone",
+      "back": "un demi-ton"
+    },
+    {
+      "id": "h7xjxx",
+      "front": "pitch",
+      "back": "la hauteur du son"
+    },
+    {
+      "id": "sdbfwr",
+      "front": "timbre",
+      "back": "le timbre"
+    },
+    {
+      "id": "8oxy34",
+      "front": "tempo",
+      "back": "le tempo"
+    },
+    {
+      "id": "bumthn",
+      "front": "a bar",
+      "back": "une mesure"
+    },
+    {
+      "id": "62r5ng",
+      "front": "a time signature",
+      "back": "une indication de mesure"
+    },
+    {
+      "id": "xet6ib",
+      "front": "syncopation",
+      "back": "la syncope"
+    },
+    {
+      "id": "qkpl3f",
+      "front": "a rest",
+      "back": "un silence"
+    },
+    {
+      "id": "nzzrux",
+      "front": "a crescendo",
+      "back": "un crescendo"
+    },
+    {
+      "id": "dcejg4",
+      "front": "a diminuendo",
+      "back": "un diminuendo"
+    },
+    {
+      "id": "s9as6m",
+      "front": "vibrato",
+      "back": "le vibrato"
+    },
+    {
+      "id": "34lemf",
+      "front": "tremolo",
+      "back": "le trémolo"
+    },
+    {
+      "id": "j92dxy",
+      "front": "legato",
+      "back": "le legato"
+    },
+    {
+      "id": "3fhrky",
+      "front": "staccato",
+      "back": "le staccato"
+    },
+    {
+      "id": "11qfey",
+      "front": "pizzicato",
+      "back": "le pizzicato"
+    },
+    {
+      "id": "23udrc",
+      "front": "an ensemble",
+      "back": "un ensemble"
+    },
+    {
+      "id": "bb2n5j",
+      "front": "a quartet",
+      "back": "un quatuor"
+    },
+    {
+      "id": "0dw9wd",
+      "front": "a quintet",
+      "back": "un quintette"
+    },
+    {
+      "id": "7snx2v",
+      "front": "a chamber orchestra",
+      "back": "un orchestre de chambre"
+    },
+    {
+      "id": "q3hzrf",
+      "front": "a philharmonic",
+      "back": "une philharmonie"
+    },
+    {
+      "id": "olfa7p",
+      "front": "a conductor",
+      "back": "un chef d'orchestre"
+    },
+    {
+      "id": "afomcw",
+      "front": "a baton",
+      "back": "une baguette"
+    },
+    {
+      "id": "v250cy",
+      "front": "a soloist",
+      "back": "un soliste"
+    },
+    {
+      "id": "x7hr8a",
+      "front": "a virtuoso",
+      "back": "un virtuose"
+    },
+    {
+      "id": "rfi96x",
+      "front": "a maestro",
+      "back": "un maestro"
+    },
+    {
+      "id": "l2i2yo",
+      "front": "a repertoire",
+      "back": "un répertoire"
+    },
+    {
+      "id": "kald16",
+      "front": "a recital",
+      "back": "un récital"
+    },
+    {
+      "id": "jklfob",
+      "front": "a premiere",
+      "back": "une première"
+    },
+    {
+      "id": "s6a4yr",
+      "front": "an encore",
+      "back": "un bis"
+    },
+    {
+      "id": "noy0re",
+      "front": "a matinee",
+      "back": "une matinée"
+    },
+    {
+      "id": "tujckp",
+      "front": "an interval",
+      "back": "un entracte"
+    },
+    {
+      "id": "8x7xsw",
+      "front": "a curtain call",
+      "back": "un rappel"
+    },
+    {
+      "id": "wcuw94",
+      "front": "a standing ovation",
+      "back": "une ovation debout"
+    },
+    {
+      "id": "r7h7m5",
+      "front": "a stage",
+      "back": "une scène"
+    },
+    {
+      "id": "tj64qp",
+      "front": "the wings",
+      "back": "les coulisses"
+    },
+    {
+      "id": "2p4sdj",
+      "front": "the proscenium",
+      "back": "l'avant-scène"
+    },
+    {
+      "id": "p74tkt",
+      "front": "the auditorium",
+      "back": "la salle"
+    },
+    {
+      "id": "g1qh6j",
+      "front": "the stalls",
+      "back": "l'orchestre (places)"
+    },
+    {
+      "id": "zl17qw",
+      "front": "a box",
+      "back": "une loge"
+    },
+    {
+      "id": "a7b8n5",
+      "front": "the gallery",
+      "back": "le poulailler, le balcon"
+    },
+    {
+      "id": "vlv8nz",
+      "front": "a backdrop",
+      "back": "une toile de fond"
+    },
+    {
+      "id": "cbnztn",
+      "front": "a set",
+      "back": "un décor"
+    },
+    {
+      "id": "19q7ah",
+      "front": "lighting",
+      "back": "les éclairages"
+    },
+    {
+      "id": "4iqb8m",
+      "front": "a cue",
+      "back": "un signal, une réplique de départ"
+    },
+    {
+      "id": "5kz5dz",
+      "front": "a rehearsal",
+      "back": "une répétition"
+    },
+    {
+      "id": "8yia2f",
+      "front": "a dress rehearsal",
+      "back": "une répétition générale"
+    },
+    {
+      "id": "dyfyqc",
+      "front": "a run-through",
+      "back": "un filage"
+    },
+    {
+      "id": "pvv20l",
+      "front": "an understudy",
+      "back": "une doublure"
+    },
+    {
+      "id": "hyhejl",
+      "front": "a cast",
+      "back": "une distribution"
+    },
+    {
+      "id": "mf28l8",
+      "front": "a troupe",
+      "back": "une troupe"
+    },
+    {
+      "id": "cqieir",
+      "front": "a company",
+      "back": "une compagnie"
+    },
+    {
+      "id": "d1x0c8",
+      "front": "a director of a play",
+      "back": "un metteur en scène"
+    },
+    {
+      "id": "8dfrmj",
+      "front": "a choreographer",
+      "back": "un chorégraphe"
+    },
+    {
+      "id": "07g3t6",
+      "front": "a pas de deux",
+      "back": "un pas de deux"
+    },
+    {
+      "id": "neu6zq",
+      "front": "a corps de ballet",
+      "back": "un corps de ballet"
+    },
+    {
+      "id": "0s1omu",
+      "front": "staging",
+      "back": "la mise en scène"
+    },
+    {
+      "id": "s939t9",
+      "front": "a revival",
+      "back": "une reprise"
+    },
+    {
+      "id": "8v5cfp",
+      "front": "a residency",
+      "back": "une résidence artistique"
+    },
+    {
+      "id": "oyc6j3",
+      "front": "a commission of a work",
+      "back": "une commande d'œuvre"
+    },
+    {
+      "id": "o03bxb",
+      "front": "an impresario",
+      "back": "un imprésario"
+    },
+    {
+      "id": "zub6sl",
+      "front": "a first night review",
+      "back": "une critique de première"
+    }
+  ]
+}
