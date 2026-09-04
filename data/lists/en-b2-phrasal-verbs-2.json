@@ -1,0 +1,412 @@
+{
+  "id": "en-b2-phrasal-verbs-2",
+  "name": "Phrasal Verbs 2",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "a235af",
+      "front": "to weigh up",
+      "back": "peser, évaluer"
+    },
+    {
+      "id": "3b04e1",
+      "front": "to bank on",
+      "back": "compter sur"
+    },
+    {
+      "id": "b6729f",
+      "front": "to bear out",
+      "back": "confirmer, corroborer"
+    },
+    {
+      "id": "f7ac23",
+      "front": "to boil down to",
+      "back": "se résumer à"
+    },
+    {
+      "id": "9e05b5",
+      "front": "to branch out",
+      "back": "se diversifier"
+    },
+    {
+      "id": "631239",
+      "front": "to brush aside",
+      "back": "écarter, balayer"
+    },
+    {
+      "id": "688b06",
+      "front": "to bring about",
+      "back": "provoquer, entraîner"
+    },
+    {
+      "id": "279ca5",
+      "front": "to bring forward",
+      "back": "avancer, présenter"
+    },
+    {
+      "id": "0bcffe",
+      "front": "to carry off",
+      "back": "réussir, mener à bien"
+    },
+    {
+      "id": "e11898",
+      "front": "to cash in on",
+      "back": "tirer profit de"
+    },
+    {
+      "id": "878d49",
+      "front": "to chalk up",
+      "back": "remporter, inscrire à son actif"
+    },
+    {
+      "id": "f25233",
+      "front": "to churn out",
+      "back": "produire en série"
+    },
+    {
+      "id": "5e219b",
+      "front": "to clamp down on",
+      "back": "sévir contre"
+    },
+    {
+      "id": "4e0ae2",
+      "front": "to conjure up",
+      "back": "évoquer, faire surgir"
+    },
+    {
+      "id": "13214c",
+      "front": "to crack down on",
+      "back": "réprimer"
+    },
+    {
+      "id": "8f5eb6",
+      "front": "to cut back on",
+      "back": "réduire"
+    },
+    {
+      "id": "c611de",
+      "front": "to drag on",
+      "back": "traîner en longueur"
+    },
+    {
+      "id": "a4dbca",
+      "front": "to draw on",
+      "back": "puiser dans, s'appuyer sur"
+    },
+    {
+      "id": "8ea6dc",
+      "front": "to drum up",
+      "back": "susciter, racoler"
+    },
+    {
+      "id": "1f9c56",
+      "front": "to edge out",
+      "back": "évincer de justesse"
+    },
+    {
+      "id": "f06eac",
+      "front": "to eke out",
+      "back": "faire durer, gagner péniblement"
+    },
+    {
+      "id": "6a3b84",
+      "front": "to fall back on",
+      "back": "se rabattre sur"
+    },
+    {
+      "id": "56f075",
+      "front": "to fend off",
+      "back": "repousser, parer"
+    },
+    {
+      "id": "c1fe0e",
+      "front": "to ferret out",
+      "back": "dénicher, dépister"
+    },
+    {
+      "id": "4194ec",
+      "front": "to fizzle out",
+      "back": "tourner court, s'éteindre"
+    },
+    {
+      "id": "7255b7",
+      "front": "to flesh out",
+      "back": "étoffer, développer"
+    },
+    {
+      "id": "0106d3",
+      "front": "to gloss over",
+      "back": "passer sous silence, escamoter"
+    },
+    {
+      "id": "6e437a",
+      "front": "to hammer out",
+      "back": "élaborer à force de négociations"
+    },
+    {
+      "id": "c9264e",
+      "front": "to hark back to",
+      "back": "remonter à, rappeler"
+    },
+    {
+      "id": "bf8dc3",
+      "front": "to head off",
+      "back": "éviter, prévenir"
+    },
+    {
+      "id": "2569af",
+      "front": "to hedge against",
+      "back": "se prémunir contre"
+    },
+    {
+      "id": "ebcd91",
+      "front": "to hinge on",
+      "back": "dépendre de"
+    },
+    {
+      "id": "9edb7c",
+      "front": "to hold back",
+      "back": "retenir, freiner"
+    },
+    {
+      "id": "aca0fc",
+      "front": "to hush up",
+      "back": "étouffer une affaire"
+    },
+    {
+      "id": "36511f",
+      "front": "to iron out",
+      "back": "aplanir, régler"
+    },
+    {
+      "id": "88dee0",
+      "front": "to lash out at",
+      "back": "s'en prendre violemment à"
+    },
+    {
+      "id": "b07aef",
+      "front": "to latch onto",
+      "back": "s'accrocher à, saisir"
+    },
+    {
+      "id": "0ff662",
+      "front": "to make inroads into",
+      "back": "percer, gagner du terrain dans"
+    },
+    {
+      "id": "725dd9",
+      "front": "to mete out",
+      "back": "infliger, administrer"
+    },
+    {
+      "id": "ded9cb",
+      "front": "to mull over",
+      "back": "ruminer, examiner"
+    },
+    {
+      "id": "c2c5f1",
+      "front": "to nail down",
+      "back": "préciser, verrouiller"
+    },
+    {
+      "id": "fcbe90",
+      "front": "to opt out of",
+      "back": "se retirer de, choisir de ne pas participer"
+    },
+    {
+      "id": "b3e346",
+      "front": "to pan out",
+      "back": "se dérouler, aboutir"
+    },
+    {
+      "id": "b4b12d",
+      "front": "to paper over",
+      "back": "masquer, colmater"
+    },
+    {
+      "id": "5c129c",
+      "front": "to peter out",
+      "back": "s'épuiser, s'éteindre"
+    },
+    {
+      "id": "707f3b",
+      "front": "to phase in",
+      "back": "introduire progressivement"
+    },
+    {
+      "id": "c2933c",
+      "front": "to pin down",
+      "back": "cerner, coincer"
+    },
+    {
+      "id": "b67d8f",
+      "front": "to play down",
+      "back": "minimiser"
+    },
+    {
+      "id": "38515f",
+      "front": "to prop up",
+      "back": "soutenir, étayer"
+    },
+    {
+      "id": "2d3e00",
+      "front": "to pull off a deal",
+      "back": "réussir un accord"
+    },
+    {
+      "id": "005cf4",
+      "front": "to push through",
+      "back": "faire adopter, faire passer"
+    },
+    {
+      "id": "b89341",
+      "front": "to ramp up",
+      "back": "intensifier, accélérer"
+    },
+    {
+      "id": "c1dd91",
+      "front": "to rein in",
+      "back": "brider, maîtriser"
+    },
+    {
+      "id": "36d497",
+      "front": "to rope in",
+      "back": "embarquer, enrôler"
+    },
+    {
+      "id": "b31831",
+      "front": "to rule out",
+      "back": "exclure, écarter"
+    },
+    {
+      "id": "0504c5",
+      "front": "to shore up",
+      "back": "consolider, étayer"
+    },
+    {
+      "id": "ad2b78",
+      "front": "to shrug off",
+      "back": "balayer, ne pas se laisser affecter par"
+    },
+    {
+      "id": "236d89",
+      "front": "to sift through",
+      "back": "passer au crible"
+    },
+    {
+      "id": "b4e0b1",
+      "front": "to single out",
+      "back": "distinguer, désigner"
+    },
+    {
+      "id": "5c6fbd",
+      "front": "to smooth over",
+      "back": "arranger, aplanir"
+    },
+    {
+      "id": "18e30f",
+      "front": "to snap up",
+      "back": "sauter sur, rafler"
+    },
+    {
+      "id": "74c247",
+      "front": "to spell out",
+      "back": "expliciter, détailler"
+    },
+    {
+      "id": "3c9eb4",
+      "front": "to stamp out",
+      "back": "éradiquer"
+    },
+    {
+      "id": "ada8b4",
+      "front": "to stave off",
+      "back": "écarter, conjurer"
+    },
+    {
+      "id": "26d042",
+      "front": "to step down",
+      "back": "démissionner, se retirer"
+    },
+    {
+      "id": "a2d8b6",
+      "front": "to stir up",
+      "back": "attiser, semer"
+    },
+    {
+      "id": "3b6625",
+      "front": "to tail off",
+      "back": "décliner, diminuer"
+    },
+    {
+      "id": "0bb243",
+      "front": "to talk down to",
+      "back": "parler avec condescendance à"
+    },
+    {
+      "id": "f6736c",
+      "front": "to tap into",
+      "back": "exploiter, puiser dans"
+    },
+    {
+      "id": "6db68a",
+      "front": "to thrash out",
+      "back": "débattre à fond pour aboutir"
+    },
+    {
+      "id": "169286",
+      "front": "to tide over",
+      "back": "dépanner, faire tenir"
+    },
+    {
+      "id": "0c659f",
+      "front": "to tone down",
+      "back": "atténuer, adoucir"
+    },
+    {
+      "id": "ab1cc8",
+      "front": "to usher in",
+      "back": "inaugurer, ouvrir la voie à"
+    },
+    {
+      "id": "52ee0e",
+      "front": "to water down",
+      "back": "édulcorer, diluer"
+    },
+    {
+      "id": "b91732",
+      "front": "to weed out",
+      "back": "éliminer, écarter"
+    },
+    {
+      "id": "4bb74e",
+      "front": "to whip up",
+      "back": "susciter, attiser"
+    },
+    {
+      "id": "b09e4a",
+      "front": "to wind down",
+      "back": "réduire progressivement, se détendre"
+    },
+    {
+      "id": "ef7fa2",
+      "front": "to wriggle out of",
+      "back": "se défiler, se dérober à"
+    },
+    {
+      "id": "0ffa01",
+      "front": "to write off",
+      "back": "amortir, considérer comme perdu"
+    },
+    {
+      "id": "a9a058",
+      "front": "to zero in on",
+      "back": "cibler, se concentrer sur"
+    }
+  ]
+}
