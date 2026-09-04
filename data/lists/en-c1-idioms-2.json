@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-idioms-2",
+  "name": "Idioms and Figurative Language 2",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "f40pqe",
+      "front": "to hoist with one's own petard",
+      "back": "être pris à son propre piège"
+    },
+    {
+      "id": "5birem",
+      "front": "beyond the pale",
+      "back": "au-delà des limites de l'acceptable"
+    },
+    {
+      "id": "407w8w",
+      "front": "to gild the lily",
+      "back": "en rajouter inutilement"
+    },
+    {
+      "id": "6dhweq",
+      "front": "to cast pearls before swine",
+      "back": "donner de la confiture aux cochons"
+    },
+    {
+      "id": "pduj9p",
+      "front": "a wolf in sheep's clothing",
+      "back": "un loup déguisé en agneau"
+    },
+    {
+      "id": "p3h616",
+      "front": "to hide one's light under a bushel",
+      "back": "cacher ses talents"
+    },
+    {
+      "id": "tc789c",
+      "front": "to separate the wheat from the chaff",
+      "back": "séparer le bon grain de l'ivraie"
+    },
+    {
+      "id": "9n4qd5",
+      "front": "a fly in the ointment",
+      "back": "un cheveu sur la soupe, un bémol"
+    },
+    {
+      "id": "fuolfg",
+      "front": "the fly in the amber",
+      "back": "un vestige figé du passé"
+    },
+    {
+      "id": "ax3brl",
+      "front": "to bell the cat",
+      "back": "prendre le risque au nom de tous"
+    },
+    {
+      "id": "si8mqn",
+      "front": "to draw a long bow",
+      "back": "exagérer, forcer le trait"
+    },
+    {
+      "id": "zuymsz",
+      "front": "to make a virtue of necessity",
+      "back": "faire de nécessité vertu"
+    },
+    {
+      "id": "7zb1um",
+      "front": "to damn with faint praise",
+      "back": "éreinter sous couvert de compliment"
+    },
+    {
+      "id": "y2194l",
+      "front": "to protest too much",
+      "back": "se défendre avec trop d'insistance"
+    },
+    {
+      "id": "lv0i7d",
+      "front": "to strain at a gnat and swallow a camel",
+      "back": "ergoter sur des détails en laissant passer l'essentiel"
+    },
+    {
+      "id": "qqcdnw",
+      "front": "to have a bee in one's bonnet",
+      "back": "avoir une idée fixe"
+    },
+    {
+      "id": "onf2qm",
+      "front": "to be at sixes and sevens",
+      "back": "être en plein désordre"
+    },
+    {
+      "id": "g8t0jl",
+      "front": "to spike someone's guns",
+      "back": "contrecarrer les plans de quelqu'un"
+    },
+    {
+      "id": "eb0dcf",
+      "front": "to steal a march on",
+      "back": "prendre de vitesse"
+    },
+    {
+      "id": "5xsj02",
+      "front": "to cut the Gordian knot",
+      "back": "trancher le nœud gordien"
+    },
+    {
+      "id": "igflqy",
+      "front": "to cross the Rubicon",
+      "back": "franchir le Rubicon"
+    },
+    {
+      "id": "r5mrnb",
+      "front": "to fiddle while Rome burns",
+      "back": "se distraire pendant que tout s'effondre"
+    },
+    {
+      "id": "z9je02",
+      "front": "to sow dragon's teeth",
+      "back": "semer les germes d'un conflit"
+    },
+    {
+      "id": "ng9g4h",
+      "front": "to open Pandora's box",
+      "back": "ouvrir la boîte de Pandore"
+    },
+    {
+      "id": "e5lt6m",
+      "front": "an Augean stable",
+      "back": "une tâche de nettoyage titanesque"
+    },
+    {
+      "id": "s8u7us",
+      "front": "a Procrustean bed",
+      "back": "un lit de Procuste"
+    },
+    {
+      "id": "ff3rxi",
+      "front": "a Gordian solution",
+      "back": "une solution expéditive"
+    },
+    {
+      "id": "fahk3g",
+      "front": "a Faustian bargain",
+      "back": "un pacte faustien"
+    },
+    {
+      "id": "phkc25",
+      "front": "a Rubicon moment",
+      "back": "un point de non-retour"
+    },
+    {
+      "id": "ga6ab0",
+      "front": "a Pyrrhic gain",
+      "back": "un gain payé trop cher"
+    },
+    {
+      "id": "hbshv5",
+      "front": "a poisoned chalice",
+      "back": "un cadeau empoisonné"
+    },
+    {
+      "id": "5md937",
+      "front": "a millstone round one's neck",
+      "back": "un boulet, un fardeau"
+    },
+    {
+      "id": "t5ggd8",
+      "front": "an albatross around one's neck",
+      "back": "un fardeau qui poursuit"
+    },
+    {
+      "id": "xkvdhf",
+      "front": "a Sword of Damocles",
+      "back": "une épée de Damoclès"
+    },
+    {
+      "id": "nplrkp",
+      "front": "a Trojan horse",
+      "back": "un cheval de Troie"
+    },
+    {
+      "id": "mjtuuk",
+      "front": "a siren song",
+      "back": "un chant des sirènes"
+    },
+    {
+      "id": "tusz0h",
+      "front": "a will-o'-the-wisp",
+      "back": "un feu follet, une chimère"
+    },
+    {
+      "id": "5kb563",
+      "front": "a chimera",
+      "back": "une chimère"
+    },
+    {
+      "id": "0ld5be",
+      "front": "a mare's nest",
+      "back": "une découverte illusoire, un imbroglio"
+    },
+    {
+      "id": "r49cm8",
+      "front": "a wild goose chase",
+      "back": "une quête vaine"
+    },
+    {
+      "id": "dm9duq",
+      "front": "a fool's errand",
+      "back": "une mission vouée à l'échec"
+    },
+    {
+      "id": "mrsqcq",
+      "front": "a busman's holiday",
+      "back": "des vacances passées à faire son métier"
+    },
+    {
+      "id": "rplv06",
+      "front": "a curate's egg",
+      "back": "une chose bonne par endroits"
+    },
+    {
+      "id": "45o9zk",
+      "front": "a dog in the manger",
+      "back": "un chien du jardinier, un empêcheur"
+    },
+    {
+      "id": "0wzcwn",
+      "front": "a stalking horse",
+      "back": "un prête-nom, un candidat de diversion"
+    },
+    {
+      "id": "618nq9",
+      "front": "a straw man",
+      "back": "un homme de paille, un argument fallacieux"
+    },
+    {
+      "id": "txzxik",
+      "front": "a paper tiger",
+      "back": "un tigre de papier"
+    },
+    {
+      "id": "mgz57f",
+      "front": "a house of cards",
+      "back": "un château de cartes"
+    },
+    {
+      "id": "vqd03a",
+      "front": "a Potemkin village",
+      "back": "un village Potemkine, une façade"
+    },
+    {
+      "id": "lk5eyy",
+      "front": "a whited sepulchre",
+      "back": "un sépulcre blanchi, une hypocrisie"
+    },
+    {
+      "id": "d8xy8e",
+      "front": "a broken reed",
+      "back": "un roseau brisé, un appui fragile"
+    },
+    {
+      "id": "av24y0",
+      "front": "a Damoclean threat",
+      "back": "une menace suspendue"
+    },
+    {
+      "id": "cm0ilz",
+      "front": "the sword of justice",
+      "back": "le glaive de la justice"
+    },
+    {
+      "id": "hdutk1",
+      "front": "the ivory tower",
+      "back": "la tour d'ivoire"
+    },
+    {
+      "id": "bx71ax",
+      "front": "the fourth estate",
+      "back": "le quatrième pouvoir, la presse"
+    },
+    {
+      "id": "filwtx",
+      "front": "the ship of state",
+      "back": "le vaisseau de l'État"
+    },
+    {
+      "id": "wrisaf",
+      "front": "the tide of history",
+      "back": "le cours de l'histoire"
+    },
+    {
+      "id": "7zid5b",
+      "front": "the wheels of justice",
+      "back": "les rouages de la justice"
+    },
+    {
+      "id": "jsfmp9",
+      "front": "the corridors of power",
+      "back": "les allées du pouvoir"
+    },
+    {
+      "id": "ldiwvk",
+      "front": "the levers of power",
+      "back": "les leviers du pouvoir"
+    },
+    {
+      "id": "7cexaz",
+      "front": "the machinery of government",
+      "back": "les rouages de l'État"
+    },
+    {
+      "id": "cf8k7j",
+      "front": "a crucible",
+      "back": "un creuset, une épreuve formatrice"
+    },
+    {
+      "id": "v8g4vc",
+      "front": "a melting pot",
+      "back": "un creuset, un melting-pot"
+    },
+    {
+      "id": "qr4e1e",
+      "front": "a lightning rod",
+      "back": "un paratonnerre, un catalyseur de critiques"
+    },
+    {
+      "id": "ng9wqc",
+      "front": "a harbinger",
+      "back": "un signe avant-coureur, un présage"
+    },
+    {
+      "id": "at0ioi",
+      "front": "a canary in the coal mine",
+      "back": "un signal d'alerte précoce"
+    },
+    {
+      "id": "3d1ayy",
+      "front": "a watershed in fortunes",
+      "back": "un renversement de situation"
+    },
+    {
+      "id": "yys6cm",
+      "front": "a groundswell",
+      "back": "une lame de fond"
+    },
+    {
+      "id": "ozj6i4",
+      "front": "a sea of troubles",
+      "back": "un océan d'ennuis"
+    },
+    {
+      "id": "chkcz5",
+      "front": "a slough of despond",
+      "back": "un marais du découragement"
+    },
+    {
+      "id": "e4a8zy",
+      "front": "the slings and arrows",
+      "back": "les coups du sort"
+    },
+    {
+      "id": "xck9zj",
+      "front": "the milk of human kindness",
+      "back": "le lait de la tendresse humaine"
+    },
+    {
+      "id": "0fh9z4",
+      "front": "a pound of flesh",
+      "back": "une livre de chair, une exigence impitoyable"
+    },
+    {
+      "id": "qjhc13",
+      "front": "salad days",
+      "back": "les années de jeunesse et d'inexpérience"
+    },
+    {
+      "id": "fidpzi",
+      "front": "a winter of discontent",
+      "back": "un hiver de mécontentement"
+    },
+    {
+      "id": "nfpjuf",
+      "front": "the be-all and end-all",
+      "back": "le fin mot de tout, l'essentiel"
+    },
+    {
+      "id": "k3i5ce",
+      "front": "a foregone reputation",
+      "back": "une réputation acquise d'avance"
+    },
+    {
+      "id": "7runo0",
+      "front": "to give up the ghost",
+      "back": "rendre l'âme"
+    },
+    {
+      "id": "tbvfca",
+      "front": "to shuffle off this mortal coil",
+      "back": "quitter cette vallée de larmes"
+    },
+    {
+      "id": "bmijra",
+      "front": "to go the way of all flesh",
+      "back": "subir le sort commun"
+    },
+    {
+      "id": "kwppvp",
+      "front": "to meet one's Waterloo",
+      "back": "connaître sa déroute finale"
+    },
+    {
+      "id": "uch9ga",
+      "front": "to cry wolf",
+      "back": "crier au loup"
+    },
+    {
+      "id": "vcx5mv",
+      "front": "to be a prophet in one's own country",
+      "back": "être prophète en son pays"
+    },
+    {
+      "id": "4hv4kd",
+      "front": "to see through a glass darkly",
+      "back": "voir de façon confuse"
+    },
+    {
+      "id": "rrb8eu",
+      "front": "to reap the whirlwind",
+      "back": "récolter la tempête"
+    },
+    {
+      "id": "2vs9th",
+      "front": "to sow the wind",
+      "back": "semer le vent"
+    },
+    {
+      "id": "pbnax5",
+      "front": "to have feet of clay",
+      "back": "avoir des pieds d'argile"
+    },
+    {
+      "id": "v2r2rt",
+      "front": "to rest on one's laurels",
+      "back": "se reposer sur ses lauriers"
+    },
+    {
+      "id": "dfwu1a",
+      "front": "to burn one's boats",
+      "back": "brûler ses vaisseaux"
+    },
+    {
+      "id": "42n8vz",
+      "front": "to nail one's colours to the mast",
+      "back": "afficher clairement sa position"
+    },
+    {
+      "id": "vhq7hx",
+      "front": "to run the gauntlet",
+      "back": "passer sous les fourches caudines"
+    },
+    {
+      "id": "d3cjf1",
+      "front": "to bite the dust",
+      "back": "mordre la poussière"
+    },
+    {
+      "id": "gzk8bv",
+      "front": "to gnash one's teeth",
+      "back": "grincer des dents"
+    },
+    {
+      "id": "rr6z9x",
+      "front": "to gird one's loins",
+      "back": "se préparer au combat"
+    },
+    {
+      "id": "5vf9q4",
+      "front": "to beat swords into ploughshares",
+      "back": "transformer les épées en socs de charrue"
+    },
+    {
+      "id": "94y528",
+      "front": "to speak with forked tongue",
+      "back": "parler avec duplicité"
+    },
+    {
+      "id": "77jlw5",
+      "front": "to hold a candle to",
+      "back": "arriver à la cheville de"
+    },
+    {
+      "id": "c6jqyz",
+      "front": "to sup with a long spoon",
+      "back": "se méfier en fréquentant un dangereux personnage"
+    },
+    {
+      "id": "bzk544",
+      "front": "to make bricks without straw",
+      "back": "faire quelque chose sans les moyens"
+    },
+    {
+      "id": "b9knif",
+      "front": "to be hoist by the same rope",
+      "back": "subir le même sort"
+    }
+  ]
+}
