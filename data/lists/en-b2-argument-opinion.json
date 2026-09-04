@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-argument-opinion",
+  "name": "Argument and Opinion",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "4ef396",
+      "front": "an argument",
+      "back": "un argument, un raisonnement"
+    },
+    {
+      "id": "f0bb44",
+      "front": "to argue that",
+      "back": "soutenir que"
+    },
+    {
+      "id": "132ba9",
+      "front": "a claim about something",
+      "back": "une affirmation"
+    },
+    {
+      "id": "e989ad",
+      "front": "to assert",
+      "back": "affirmer"
+    },
+    {
+      "id": "fdff70",
+      "front": "an assertion",
+      "back": "une assertion"
+    },
+    {
+      "id": "e2c8ac",
+      "front": "to state",
+      "back": "déclarer, énoncer"
+    },
+    {
+      "id": "634606",
+      "front": "to contend",
+      "back": "soutenir, prétendre"
+    },
+    {
+      "id": "7c7a20",
+      "front": "to maintain",
+      "back": "maintenir, soutenir"
+    },
+    {
+      "id": "2b1f87",
+      "front": "a thesis of an essay",
+      "back": "une thèse"
+    },
+    {
+      "id": "88c6e0",
+      "front": "a premise",
+      "back": "une prémisse"
+    },
+    {
+      "id": "e05679",
+      "front": "a conclusion",
+      "back": "une conclusion"
+    },
+    {
+      "id": "a0a5d0",
+      "front": "to conclude",
+      "back": "conclure"
+    },
+    {
+      "id": "7b0ad0",
+      "front": "to infer",
+      "back": "déduire, inférer"
+    },
+    {
+      "id": "e7fa51",
+      "front": "an inference",
+      "back": "une déduction"
+    },
+    {
+      "id": "659745",
+      "front": "to deduce",
+      "back": "déduire"
+    },
+    {
+      "id": "1f7a86",
+      "front": "to imply",
+      "back": "sous-entendre, impliquer"
+    },
+    {
+      "id": "1a416c",
+      "front": "an implication",
+      "back": "une implication, une conséquence"
+    },
+    {
+      "id": "5b0b28",
+      "front": "reasoning by analogy",
+      "back": "le raisonnement par analogie"
+    },
+    {
+      "id": "0b2ed2",
+      "front": "an assumption",
+      "back": "une hypothèse, un présupposé"
+    },
+    {
+      "id": "8cb98c",
+      "front": "to assume",
+      "back": "supposer, présumer"
+    },
+    {
+      "id": "47883f",
+      "front": "to presuppose",
+      "back": "présupposer"
+    },
+    {
+      "id": "d5a306",
+      "front": "to take for granted",
+      "back": "tenir pour acquis"
+    },
+    {
+      "id": "1d9f23",
+      "front": "to demonstrate",
+      "back": "démontrer"
+    },
+    {
+      "id": "e940b8",
+      "front": "to establish",
+      "back": "établir"
+    },
+    {
+      "id": "b3b05e",
+      "front": "to substantiate",
+      "back": "étayer, corroborer"
+    },
+    {
+      "id": "196dd8",
+      "front": "to corroborate",
+      "back": "corroborer"
+    },
+    {
+      "id": "107b7e",
+      "front": "to back up a claim",
+      "back": "étayer une affirmation"
+    },
+    {
+      "id": "f96d77",
+      "front": "a piece of evidence",
+      "back": "un élément de preuve"
+    },
+    {
+      "id": "231748",
+      "front": "grounds for",
+      "back": "des motifs, des raisons de"
+    },
+    {
+      "id": "34041e",
+      "front": "a justification",
+      "back": "une justification"
+    },
+    {
+      "id": "7cc178",
+      "front": "to justify",
+      "back": "justifier"
+    },
+    {
+      "id": "00b812",
+      "front": "to warrant",
+      "back": "justifier, mériter"
+    },
+    {
+      "id": "ace912",
+      "front": "a rationale",
+      "back": "une justification, une logique"
+    },
+    {
+      "id": "d88d15",
+      "front": "to account for",
+      "back": "expliquer, rendre compte de"
+    },
+    {
+      "id": "4c37c1",
+      "front": "to illustrate",
+      "back": "illustrer"
+    },
+    {
+      "id": "9869a3",
+      "front": "an instance",
+      "back": "un exemple, un cas"
+    },
+    {
+      "id": "4f66ee",
+      "front": "a counterexample",
+      "back": "un contre-exemple"
+    },
+    {
+      "id": "079226",
+      "front": "a counterargument",
+      "back": "un contre-argument"
+    },
+    {
+      "id": "064bda",
+      "front": "to object",
+      "back": "objecter"
+    },
+    {
+      "id": "f74244",
+      "front": "an objection",
+      "back": "une objection"
+    },
+    {
+      "id": "d4db8e",
+      "front": "to refute",
+      "back": "réfuter"
+    },
+    {
+      "id": "993754",
+      "front": "to rebut",
+      "back": "réfuter, contredire"
+    },
+    {
+      "id": "cce688",
+      "front": "to disprove",
+      "back": "infirmer"
+    },
+    {
+      "id": "2a96cd",
+      "front": "to challenge a view",
+      "back": "contester un point de vue"
+    },
+    {
+      "id": "22deac",
+      "front": "to dispute",
+      "back": "contester"
+    },
+    {
+      "id": "324d9d",
+      "front": "to contradict",
+      "back": "contredire"
+    },
+    {
+      "id": "4fadd5",
+      "front": "a contradiction",
+      "back": "une contradiction"
+    },
+    {
+      "id": "a3f745",
+      "front": "inconsistent",
+      "back": "incohérent, contradictoire"
+    },
+    {
+      "id": "27e3c2",
+      "front": "a fallacy",
+      "back": "un sophisme, un raisonnement fallacieux"
+    },
+    {
+      "id": "58a4dd",
+      "front": "flawed",
+      "back": "défectueux, vicié"
+    },
+    {
+      "id": "8fb7f8",
+      "front": "misleading",
+      "back": "trompeur"
+    },
+    {
+      "id": "5674f2",
+      "front": "far-fetched",
+      "back": "tiré par les cheveux"
+    },
+    {
+      "id": "8737e1",
+      "front": "groundless",
+      "back": "sans fondement"
+    },
+    {
+      "id": "0c5d9e",
+      "front": "compelling",
+      "back": "convaincant, irrésistible"
+    },
+    {
+      "id": "7169e3",
+      "front": "persuasive",
+      "back": "persuasif"
+    },
+    {
+      "id": "524224",
+      "front": "cogent",
+      "back": "convaincant, pertinent"
+    },
+    {
+      "id": "623641",
+      "front": "sound",
+      "back": "solide, valable"
+    },
+    {
+      "id": "7ceb9d",
+      "front": "valid",
+      "back": "valide"
+    },
+    {
+      "id": "df6417",
+      "front": "plausible",
+      "back": "plausible"
+    },
+    {
+      "id": "06ab46",
+      "front": "questionable",
+      "back": "discutable"
+    },
+    {
+      "id": "849b3c",
+      "front": "debatable",
+      "back": "discutable"
+    },
+    {
+      "id": "f67b2e",
+      "front": "to concede",
+      "back": "concéder"
+    },
+    {
+      "id": "aeefc9",
+      "front": "a concession",
+      "back": "une concession"
+    },
+    {
+      "id": "e9ff8e",
+      "front": "admittedly",
+      "back": "certes, il est vrai que"
+    },
+    {
+      "id": "30ec1f",
+      "front": "granted",
+      "back": "admettons, certes"
+    },
+    {
+      "id": "8a1455",
+      "front": "to acknowledge",
+      "back": "reconnaître, admettre"
+    },
+    {
+      "id": "d8fedd",
+      "front": "to qualify a statement",
+      "back": "nuancer une affirmation"
+    },
+    {
+      "id": "2579ff",
+      "front": "a caveat",
+      "back": "une réserve, une mise en garde"
+    },
+    {
+      "id": "a00209",
+      "front": "a reservation",
+      "back": "une réserve"
+    },
+    {
+      "id": "8b70ac",
+      "front": "to hedge",
+      "back": "nuancer, prendre des précautions"
+    },
+    {
+      "id": "d68a2b",
+      "front": "arguably",
+      "back": "on peut soutenir que"
+    },
+    {
+      "id": "624f07",
+      "front": "to some extent",
+      "back": "dans une certaine mesure"
+    },
+    {
+      "id": "159441",
+      "front": "by and large",
+      "back": "dans l'ensemble"
+    },
+    {
+      "id": "9ff450",
+      "front": "on the whole",
+      "back": "dans l'ensemble"
+    },
+    {
+      "id": "494f82",
+      "front": "broadly speaking",
+      "back": "de manière générale"
+    },
+    {
+      "id": "53a93a",
+      "front": "strictly speaking",
+      "back": "à proprement parler"
+    },
+    {
+      "id": "e1d197",
+      "front": "conversely",
+      "back": "inversement"
+    },
+    {
+      "id": "302dea",
+      "front": "whereas",
+      "back": "alors que, tandis que"
+    },
+    {
+      "id": "fbea4e",
+      "front": "nonetheless",
+      "back": "néanmoins"
+    },
+    {
+      "id": "f79715",
+      "front": "notwithstanding",
+      "back": "nonobstant, malgré"
+    },
+    {
+      "id": "0d3055",
+      "front": "albeit",
+      "back": "quoique, bien que"
+    },
+    {
+      "id": "074ff5",
+      "front": "insofar as",
+      "back": "dans la mesure où"
+    },
+    {
+      "id": "d5bcf4",
+      "front": "provided that",
+      "back": "à condition que"
+    },
+    {
+      "id": "d0f5ef",
+      "front": "regardless of",
+      "back": "indépendamment de"
+    },
+    {
+      "id": "cf4417",
+      "front": "in the light of",
+      "back": "à la lumière de"
+    },
+    {
+      "id": "817451",
+      "front": "with regard to",
+      "back": "en ce qui concerne"
+    },
+    {
+      "id": "f30c69",
+      "front": "as far as X is concerned",
+      "back": "pour ce qui est de X"
+    },
+    {
+      "id": "3fbffa",
+      "front": "a case in point",
+      "back": "un exemple typique"
+    },
+    {
+      "id": "301272",
+      "front": "to be borne out by",
+      "back": "être confirmé par"
+    },
+    {
+      "id": "a351a4",
+      "front": "to bear on",
+      "back": "avoir un rapport avec"
+    },
+    {
+      "id": "ff2024",
+      "front": "relevant",
+      "back": "pertinent"
+    },
+    {
+      "id": "5257f1",
+      "front": "pertinent",
+      "back": "pertinent"
+    },
+    {
+      "id": "197267",
+      "front": "beside the point",
+      "back": "hors sujet"
+    },
+    {
+      "id": "8aaef1",
+      "front": "a digression",
+      "back": "une digression"
+    },
+    {
+      "id": "be43b7",
+      "front": "to belabour a point",
+      "back": "insister lourdement sur un point"
+    },
+    {
+      "id": "bdbf3a",
+      "front": "to sum up",
+      "back": "résumer"
+    },
+    {
+      "id": "766b06",
+      "front": "in short",
+      "back": "en somme, bref"
+    },
+    {
+      "id": "28ae24",
+      "front": "on balance",
+      "back": "tout compte fait"
+    },
+    {
+      "id": "fb1402",
+      "front": "ultimately",
+      "back": "en fin de compte"
+    },
+    {
+      "id": "280047",
+      "front": "to reach a consensus",
+      "back": "parvenir à un consensus"
+    }
+  ]
+}
