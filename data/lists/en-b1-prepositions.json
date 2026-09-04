@@ -1,0 +1,362 @@
+{
+  "id": "en-b1-prepositions",
+  "name": "Prepositions after Verbs and Adjectives",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "q0xtsq",
+      "front": "to depend on somebody",
+      "back": "dépendre de quelqu'un"
+    },
+    {
+      "id": "tqtwuz",
+      "front": "to listen to music",
+      "back": "écouter de la musique"
+    },
+    {
+      "id": "thazh2",
+      "front": "to look at a picture",
+      "back": "regarder une image"
+    },
+    {
+      "id": "fwoh43",
+      "front": "to wait for a bus",
+      "back": "attendre un bus"
+    },
+    {
+      "id": "h97sf9",
+      "front": "to ask for help",
+      "back": "demander de l'aide"
+    },
+    {
+      "id": "mlbj97",
+      "front": "to pay for a meal",
+      "back": "payer un repas"
+    },
+    {
+      "id": "w5bj9n",
+      "front": "to care about something",
+      "back": "se soucier de quelque chose"
+    },
+    {
+      "id": "i2u7n8",
+      "front": "to think about a problem",
+      "back": "réfléchir à un problème"
+    },
+    {
+      "id": "ctq0av",
+      "front": "to think of an idea",
+      "back": "penser à une idée"
+    },
+    {
+      "id": "0s1k9l",
+      "front": "to dream about something",
+      "back": "rêver de quelque chose"
+    },
+    {
+      "id": "633hnd",
+      "front": "to worry about money",
+      "back": "s'inquiéter pour l'argent"
+    },
+    {
+      "id": "6cgw4l",
+      "front": "to complain about noise",
+      "back": "se plaindre du bruit"
+    },
+    {
+      "id": "3lyel1",
+      "front": "to argue about politics",
+      "back": "se disputer à propos de politique"
+    },
+    {
+      "id": "935sao",
+      "front": "to talk about a film",
+      "back": "parler d'un film"
+    },
+    {
+      "id": "ogtr07",
+      "front": "to apologise for a delay",
+      "back": "s'excuser d'un retard"
+    },
+    {
+      "id": "bs7pab",
+      "front": "to blame somebody for",
+      "back": "reprocher quelque chose à quelqu'un"
+    },
+    {
+      "id": "5r7id1",
+      "front": "to thank somebody for",
+      "back": "remercier quelqu'un de"
+    },
+    {
+      "id": "oce6r5",
+      "front": "to insist on a point",
+      "back": "insister sur un point"
+    },
+    {
+      "id": "298pju",
+      "front": "to concentrate on work",
+      "back": "se concentrer sur son travail"
+    },
+    {
+      "id": "gg13n7",
+      "front": "to rely on a friend",
+      "back": "compter sur un ami"
+    },
+    {
+      "id": "0jlb6i",
+      "front": "to agree with somebody",
+      "back": "être d'accord avec quelqu'un"
+    },
+    {
+      "id": "soycch",
+      "front": "to deal with a problem",
+      "back": "traiter un problème"
+    },
+    {
+      "id": "glssgt",
+      "front": "to cope with stress",
+      "back": "faire face au stress"
+    },
+    {
+      "id": "r0ppg1",
+      "front": "to help with the cooking",
+      "back": "aider à la cuisine"
+    },
+    {
+      "id": "juc4kn",
+      "front": "to be married to somebody",
+      "back": "être marié à quelqu'un"
+    },
+    {
+      "id": "wpbxtn",
+      "front": "to explain to somebody",
+      "back": "expliquer à quelqu'un"
+    },
+    {
+      "id": "xdtf5q",
+      "front": "to introduce to a friend",
+      "back": "présenter à un ami"
+    },
+    {
+      "id": "0kr572",
+      "front": "to borrow from a friend",
+      "back": "emprunter à un ami"
+    },
+    {
+      "id": "6tmtjh",
+      "front": "to suffer from a disease",
+      "back": "souffrir d'une maladie"
+    },
+    {
+      "id": "yzo9dc",
+      "front": "to protect from danger",
+      "back": "protéger du danger"
+    },
+    {
+      "id": "42czej",
+      "front": "to prevent from doing",
+      "back": "empêcher de faire"
+    },
+    {
+      "id": "v15sic",
+      "front": "to escape from prison",
+      "back": "s'échapper de prison"
+    },
+    {
+      "id": "070nvu",
+      "front": "to believe in justice",
+      "back": "croire en la justice"
+    },
+    {
+      "id": "07uih0",
+      "front": "to succeed in doing",
+      "back": "réussir à faire"
+    },
+    {
+      "id": "se88l1",
+      "front": "to specialise in a field",
+      "back": "se spécialiser dans un domaine"
+    },
+    {
+      "id": "v984cx",
+      "front": "to consist of parts",
+      "back": "se composer de parties"
+    },
+    {
+      "id": "cfnrsk",
+      "front": "to accuse of a crime",
+      "back": "accuser d'un crime"
+    },
+    {
+      "id": "fnm68u",
+      "front": "to remind of somebody",
+      "back": "rappeler quelqu'un"
+    },
+    {
+      "id": "g4yszm",
+      "front": "to approve of a decision",
+      "back": "approuver une décision"
+    },
+    {
+      "id": "h1wbw7",
+      "front": "to be afraid of the dark",
+      "back": "avoir peur du noir"
+    },
+    {
+      "id": "m4yqie",
+      "front": "to be aware of a risk",
+      "back": "être conscient d'un risque"
+    },
+    {
+      "id": "1hrqt6",
+      "front": "to be capable of doing",
+      "back": "être capable de faire"
+    },
+    {
+      "id": "iq4fip",
+      "front": "to be fond of music",
+      "back": "aimer beaucoup la musique"
+    },
+    {
+      "id": "vqxcwu",
+      "front": "to be full of energy",
+      "back": "être plein d'énergie"
+    },
+    {
+      "id": "g7f2lh",
+      "front": "to be proud of a child",
+      "back": "être fier d'un enfant"
+    },
+    {
+      "id": "mmcf0s",
+      "front": "to be tired of waiting",
+      "back": "être fatigué d'attendre"
+    },
+    {
+      "id": "nfa600",
+      "front": "to be jealous of somebody",
+      "back": "être jaloux de quelqu'un"
+    },
+    {
+      "id": "awoh6v",
+      "front": "to be short of money",
+      "back": "être à court d'argent"
+    },
+    {
+      "id": "axyc8w",
+      "front": "to be good at maths",
+      "back": "être bon en mathématiques"
+    },
+    {
+      "id": "wnkzz5",
+      "front": "to be bad at sport",
+      "back": "être mauvais en sport"
+    },
+    {
+      "id": "pf47ie",
+      "front": "to be surprised at the news",
+      "back": "être surpris par la nouvelle"
+    },
+    {
+      "id": "y7j6it",
+      "front": "to be angry with somebody",
+      "back": "être en colère contre quelqu'un"
+    },
+    {
+      "id": "lmuwqa",
+      "front": "to be pleased with a result",
+      "back": "être satisfait d'un résultat"
+    },
+    {
+      "id": "rgjtyf",
+      "front": "to be bored with a job",
+      "back": "s'ennuyer dans un travail"
+    },
+    {
+      "id": "4t7vqm",
+      "front": "to be familiar with a place",
+      "back": "bien connaître un lieu"
+    },
+    {
+      "id": "ipuamj",
+      "front": "to be interested in art",
+      "back": "s'intéresser à l'art"
+    },
+    {
+      "id": "d0sq6i",
+      "front": "to be involved in a project",
+      "back": "être impliqué dans un projet"
+    },
+    {
+      "id": "ff2qgg",
+      "front": "to be rich in vitamins",
+      "back": "être riche en vitamines"
+    },
+    {
+      "id": "ys65rc",
+      "front": "to be responsible for a team",
+      "back": "être responsable d'une équipe"
+    },
+    {
+      "id": "9n1h64",
+      "front": "to be famous for a dish",
+      "back": "être célèbre pour un plat"
+    },
+    {
+      "id": "90st4w",
+      "front": "to be ready for an exam",
+      "back": "être prêt pour un examen"
+    },
+    {
+      "id": "ugwdyu",
+      "front": "to be suitable for children",
+      "back": "convenir aux enfants"
+    },
+    {
+      "id": "8lw2a3",
+      "front": "to be different from others",
+      "back": "être différent des autres"
+    },
+    {
+      "id": "08gcf3",
+      "front": "to be kind to animals",
+      "back": "être gentil avec les animaux"
+    },
+    {
+      "id": "b3h259",
+      "front": "to be used to noise",
+      "back": "être habitué au bruit"
+    },
+    {
+      "id": "xm0evx",
+      "front": "to be keen on football",
+      "back": "être passionné de football"
+    },
+    {
+      "id": "kccfqh",
+      "front": "to be made of wood",
+      "back": "être fait de bois"
+    },
+    {
+      "id": "kfgm9r",
+      "front": "to be covered with snow",
+      "back": "être couvert de neige"
+    },
+    {
+      "id": "zg6jie",
+      "front": "to be crowded with people",
+      "back": "être bondé de monde"
+    },
+    {
+      "id": "vf22m1",
+      "front": "to be grateful to somebody",
+      "back": "être reconnaissant envers quelqu'un"
+    }
+  ]
+}
