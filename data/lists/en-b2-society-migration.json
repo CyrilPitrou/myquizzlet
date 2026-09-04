@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-society-migration",
+  "name": "Society and Migration",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "a8b9dd",
+      "front": "society",
+      "back": "la société"
+    },
+    {
+      "id": "886990",
+      "front": "a social class",
+      "back": "une classe sociale"
+    },
+    {
+      "id": "7c28e1",
+      "front": "the working class",
+      "back": "la classe ouvrière"
+    },
+    {
+      "id": "e0b0b6",
+      "front": "the middle class",
+      "back": "la classe moyenne"
+    },
+    {
+      "id": "0260e1",
+      "front": "the upper class",
+      "back": "la haute société"
+    },
+    {
+      "id": "558e63",
+      "front": "social mobility",
+      "back": "la mobilité sociale"
+    },
+    {
+      "id": "7fa328",
+      "front": "a social ladder",
+      "back": "une échelle sociale"
+    },
+    {
+      "id": "e41ba6",
+      "front": "status",
+      "back": "le statut"
+    },
+    {
+      "id": "f29878",
+      "front": "prestige",
+      "back": "le prestige"
+    },
+    {
+      "id": "f4e1e0",
+      "front": "privilege",
+      "back": "le privilège"
+    },
+    {
+      "id": "f752b7",
+      "front": "inequality",
+      "back": "l'inégalité"
+    },
+    {
+      "id": "5f2058",
+      "front": "a gap",
+      "back": "un écart, un fossé"
+    },
+    {
+      "id": "9c0e91",
+      "front": "the wealth gap",
+      "back": "l'écart de richesse"
+    },
+    {
+      "id": "dc29a8",
+      "front": "poverty",
+      "back": "la pauvreté"
+    },
+    {
+      "id": "bc057b",
+      "front": "the poverty line",
+      "back": "le seuil de pauvreté"
+    },
+    {
+      "id": "40fee8",
+      "front": "deprivation",
+      "back": "la privation, la précarité"
+    },
+    {
+      "id": "c185cd",
+      "front": "destitution",
+      "back": "le dénuement"
+    },
+    {
+      "id": "565197",
+      "front": "affluence",
+      "back": "l'aisance, la prospérité"
+    },
+    {
+      "id": "5cc87a",
+      "front": "a welfare state",
+      "back": "un État-providence"
+    },
+    {
+      "id": "1b0387",
+      "front": "welfare benefits",
+      "back": "les prestations sociales"
+    },
+    {
+      "id": "733543",
+      "front": "a safety net",
+      "back": "un filet de sécurité"
+    },
+    {
+      "id": "f16971",
+      "front": "social housing",
+      "back": "le logement social"
+    },
+    {
+      "id": "1ce24e",
+      "front": "homelessness",
+      "back": "le sans-abrisme"
+    },
+    {
+      "id": "7d3c88",
+      "front": "a slum",
+      "back": "un bidonville, un taudis"
+    },
+    {
+      "id": "4a780f",
+      "front": "gentrification",
+      "back": "l'embourgeoisement"
+    },
+    {
+      "id": "28f8bc",
+      "front": "an inner city",
+      "back": "un quartier défavorisé du centre-ville"
+    },
+    {
+      "id": "de708d",
+      "front": "the suburbs",
+      "back": "la banlieue"
+    },
+    {
+      "id": "834aa8",
+      "front": "urban",
+      "back": "urbain"
+    },
+    {
+      "id": "e5c3b5",
+      "front": "rural",
+      "back": "rural"
+    },
+    {
+      "id": "471cb4",
+      "front": "urbanisation",
+      "back": "l'urbanisation"
+    },
+    {
+      "id": "22aeba",
+      "front": "a rural exodus",
+      "back": "un exode rural"
+    },
+    {
+      "id": "db9707",
+      "front": "overcrowding",
+      "back": "la surpopulation, la promiscuité"
+    },
+    {
+      "id": "3d5b31",
+      "front": "demography",
+      "back": "la démographie"
+    },
+    {
+      "id": "86da37",
+      "front": "a population",
+      "back": "une population"
+    },
+    {
+      "id": "850349",
+      "front": "the birth rate",
+      "back": "le taux de natalité"
+    },
+    {
+      "id": "f2f568",
+      "front": "the death rate",
+      "back": "le taux de mortalité"
+    },
+    {
+      "id": "aede56",
+      "front": "a declining birth rate",
+      "back": "une baisse de la natalité"
+    },
+    {
+      "id": "80f334",
+      "front": "an ageing population",
+      "back": "le vieillissement de la population"
+    },
+    {
+      "id": "5a228d",
+      "front": "a generation",
+      "back": "une génération"
+    },
+    {
+      "id": "7646b4",
+      "front": "a generation gap",
+      "back": "un fossé des générations"
+    },
+    {
+      "id": "b32374",
+      "front": "a household",
+      "back": "un ménage"
+    },
+    {
+      "id": "913e7e",
+      "front": "a single-parent family",
+      "back": "une famille monoparentale"
+    },
+    {
+      "id": "54f1f8",
+      "front": "a census",
+      "back": "un recensement"
+    },
+    {
+      "id": "58d5f9",
+      "front": "migration",
+      "back": "la migration"
+    },
+    {
+      "id": "6a1720",
+      "front": "an immigrant",
+      "back": "un immigré"
+    },
+    {
+      "id": "3b7125",
+      "front": "an emigrant",
+      "back": "un émigré"
+    },
+    {
+      "id": "b589db",
+      "front": "to emigrate",
+      "back": "émigrer"
+    },
+    {
+      "id": "354118",
+      "front": "a migrant worker",
+      "back": "un travailleur immigré"
+    },
+    {
+      "id": "22eb45",
+      "front": "an asylum seeker",
+      "back": "un demandeur d'asile"
+    },
+    {
+      "id": "119af2",
+      "front": "asylum",
+      "back": "l'asile"
+    },
+    {
+      "id": "5d5f49",
+      "front": "a residence permit",
+      "back": "un titre de séjour"
+    },
+    {
+      "id": "1e6149",
+      "front": "a work permit",
+      "back": "un permis de travail"
+    },
+    {
+      "id": "8e258e",
+      "front": "an undocumented migrant",
+      "back": "un sans-papiers"
+    },
+    {
+      "id": "e44d65",
+      "front": "a border control",
+      "back": "un contrôle aux frontières"
+    },
+    {
+      "id": "b4013a",
+      "front": "deportation",
+      "back": "l'expulsion"
+    },
+    {
+      "id": "3009f7",
+      "front": "naturalisation",
+      "back": "la naturalisation"
+    },
+    {
+      "id": "e8a9fb",
+      "front": "citizenship",
+      "back": "la citoyenneté"
+    },
+    {
+      "id": "3586e0",
+      "front": "a citizen",
+      "back": "un citoyen"
+    },
+    {
+      "id": "89ad88",
+      "front": "integration",
+      "back": "l'intégration"
+    },
+    {
+      "id": "c38457",
+      "front": "assimilation",
+      "back": "l'assimilation"
+    },
+    {
+      "id": "9c22fd",
+      "front": "multiculturalism",
+      "back": "le multiculturalisme"
+    },
+    {
+      "id": "8c61c8",
+      "front": "a diaspora",
+      "back": "une diaspora"
+    },
+    {
+      "id": "3786e6",
+      "front": "a minority",
+      "back": "une minorité"
+    },
+    {
+      "id": "9df0a5",
+      "front": "an ethnic group",
+      "back": "un groupe ethnique"
+    },
+    {
+      "id": "12d50c",
+      "front": "diversity",
+      "back": "la diversité"
+    },
+    {
+      "id": "85c3d6",
+      "front": "tolerance",
+      "back": "la tolérance"
+    },
+    {
+      "id": "90f173",
+      "front": "prejudice",
+      "back": "le préjugé"
+    },
+    {
+      "id": "cbf46b",
+      "front": "a stereotype",
+      "back": "un stéréotype"
+    },
+    {
+      "id": "041159",
+      "front": "racism",
+      "back": "le racisme"
+    },
+    {
+      "id": "5c798e",
+      "front": "xenophobia",
+      "back": "la xénophobie"
+    },
+    {
+      "id": "3d1264",
+      "front": "segregation",
+      "back": "la ségrégation"
+    },
+    {
+      "id": "c26ceb",
+      "front": "exclusion from society",
+      "back": "la marginalisation"
+    },
+    {
+      "id": "d8e266",
+      "front": "marginalisation",
+      "back": "la marginalisation"
+    },
+    {
+      "id": "ddff9d",
+      "front": "social cohesion",
+      "back": "la cohésion sociale"
+    },
+    {
+      "id": "739118",
+      "front": "solidarity",
+      "back": "la solidarité"
+    },
+    {
+      "id": "aae6d9",
+      "front": "a community",
+      "back": "une communauté"
+    },
+    {
+      "id": "9e456f",
+      "front": "an association",
+      "back": "une association"
+    },
+    {
+      "id": "986782",
+      "front": "a charity",
+      "back": "une association caritative"
+    },
+    {
+      "id": "8aa705",
+      "front": "a volunteer",
+      "back": "un bénévole"
+    },
+    {
+      "id": "0fafb8",
+      "front": "volunteering",
+      "back": "le bénévolat"
+    },
+    {
+      "id": "031ed8",
+      "front": "a social worker",
+      "back": "un travailleur social"
+    },
+    {
+      "id": "38bf67",
+      "front": "social change",
+      "back": "le changement social"
+    },
+    {
+      "id": "05e46e",
+      "front": "a social movement",
+      "back": "un mouvement social"
+    },
+    {
+      "id": "2d448b",
+      "front": "a demonstration",
+      "back": "une manifestation"
+    },
+    {
+      "id": "0bc26e",
+      "front": "a protest",
+      "back": "une contestation, une protestation"
+    },
+    {
+      "id": "6a61d2",
+      "front": "a petition",
+      "back": "une pétition"
+    },
+    {
+      "id": "cace2b",
+      "front": "civil disobedience",
+      "back": "la désobéissance civile"
+    },
+    {
+      "id": "86eb76",
+      "front": "a riot",
+      "back": "une émeute"
+    },
+    {
+      "id": "818343",
+      "front": "unrest",
+      "back": "les troubles, l'agitation"
+    },
+    {
+      "id": "3b17bc",
+      "front": "a norm",
+      "back": "une norme"
+    },
+    {
+      "id": "8a7df3",
+      "front": "a custom",
+      "back": "une coutume"
+    },
+    {
+      "id": "d4b8aa",
+      "front": "a tradition",
+      "back": "une tradition"
+    },
+    {
+      "id": "9c9674",
+      "front": "a taboo",
+      "back": "un tabou"
+    },
+    {
+      "id": "dde019",
+      "front": "secularism",
+      "back": "la laïcité"
+    },
+    {
+      "id": "1a491d",
+      "front": "gender equality",
+      "back": "l'égalité des sexes"
+    },
+    {
+      "id": "b9ed03",
+      "front": "feminism",
+      "back": "le féminisme"
+    },
+    {
+      "id": "98d602",
+      "front": "an ageing society",
+      "back": "une société vieillissante"
+    },
+    {
+      "id": "8a7e70",
+      "front": "literacy rate",
+      "back": "le taux d'alphabétisation"
+    },
+    {
+      "id": "b1ddbd",
+      "front": "standard of living",
+      "back": "le niveau de vie"
+    },
+    {
+      "id": "f6b505",
+      "front": "quality of life",
+      "back": "la qualité de vie"
+    }
+  ]
+}
