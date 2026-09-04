@@ -1,0 +1,412 @@
+{
+  "id": "en-c1-advanced-false-friends",
+  "name": "Advanced False Friends",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "egve8q",
+      "front": "to prevaricate",
+      "back": "tergiverser, biaiser (et non « prévariquer »)"
+    },
+    {
+      "id": "rolnnc",
+      "front": "ostensibly (false friend)",
+      "back": "en apparence, officiellement (et non « ostensiblement »)"
+    },
+    {
+      "id": "w8giac",
+      "front": "to demand",
+      "back": "exiger (et non « demander »)"
+    },
+    {
+      "id": "87bhd1",
+      "front": "inconvenient",
+      "back": "gênant, malcommode (et non « inconvenant »)"
+    },
+    {
+      "id": "jpo4ml",
+      "front": "disposed to",
+      "back": "enclin à (et non « disposé de »)"
+    },
+    {
+      "id": "tcgveg",
+      "front": "to resume",
+      "back": "reprendre (et non « résumer »)"
+    },
+    {
+      "id": "dtxkj9",
+      "front": "to comprehend",
+      "back": "saisir, comprendre pleinement (et non « comprendre » au sens d'inclure)"
+    },
+    {
+      "id": "py7y5z",
+      "front": "comprehensive",
+      "back": "exhaustif, complet (et non « compréhensif »)"
+    },
+    {
+      "id": "nyrqwt",
+      "front": "to assist",
+      "back": "aider (et non « assister à »)"
+    },
+    {
+      "id": "7c5zai",
+      "front": "to attend",
+      "back": "assister à (et non « attendre »)"
+    },
+    {
+      "id": "tnrbot",
+      "front": "to expect",
+      "back": "s'attendre à (et non « espérer »)"
+    },
+    {
+      "id": "rf7ivi",
+      "front": "to pretend",
+      "back": "faire semblant (et non « prétendre »)"
+    },
+    {
+      "id": "c4irb2",
+      "front": "to support",
+      "back": "soutenir (et non « supporter » endurer)"
+    },
+    {
+      "id": "ru27fx",
+      "front": "to endure",
+      "back": "supporter, endurer"
+    },
+    {
+      "id": "via5c9",
+      "front": "to achieve",
+      "back": "réaliser, accomplir (et non « achever »)"
+    },
+    {
+      "id": "prgeed",
+      "front": "to abuse",
+      "back": "maltraiter, insulter (et non « abuser de » au sens faible)"
+    },
+    {
+      "id": "b46tbb",
+      "front": "to affect",
+      "back": "influer sur, affecter"
+    },
+    {
+      "id": "i5gk6b",
+      "front": "eventually",
+      "back": "finalement, à terme (et non « éventuellement »)"
+    },
+    {
+      "id": "lf087l",
+      "front": "possibly",
+      "back": "éventuellement, peut-être"
+    },
+    {
+      "id": "2rhwpj",
+      "front": "actually",
+      "back": "en réalité (et non « actuellement »)"
+    },
+    {
+      "id": "syecfj",
+      "front": "currently",
+      "back": "actuellement"
+    },
+    {
+      "id": "dl5116",
+      "front": "sensible",
+      "back": "sensé, raisonnable (et non « sensible »)"
+    },
+    {
+      "id": "wh3y1u",
+      "front": "sensitive",
+      "back": "sensible, susceptible"
+    },
+    {
+      "id": "719unr",
+      "front": "a physician",
+      "back": "un médecin (et non « un physicien »)"
+    },
+    {
+      "id": "75dojv",
+      "front": "a physicist",
+      "back": "un physicien"
+    },
+    {
+      "id": "686489",
+      "front": "a chemist",
+      "back": "un pharmacien, un chimiste"
+    },
+    {
+      "id": "1eimz0",
+      "front": "a library (false friend)",
+      "back": "une bibliothèque (et non « une librairie »)"
+    },
+    {
+      "id": "znr4zk",
+      "front": "a bookshop",
+      "back": "une librairie"
+    },
+    {
+      "id": "bxe486",
+      "front": "a lecture (false friend)",
+      "back": "une conférence, un cours (et non « une lecture »)"
+    },
+    {
+      "id": "jzryyr",
+      "front": "a delay",
+      "back": "un retard (et non « un délai »)"
+    },
+    {
+      "id": "sn627t",
+      "front": "a deadline",
+      "back": "un délai, une échéance"
+    },
+    {
+      "id": "k8f5aa",
+      "front": "a location",
+      "back": "un emplacement (et non « une location »)"
+    },
+    {
+      "id": "0f93ab",
+      "front": "a rental",
+      "back": "une location"
+    },
+    {
+      "id": "0icmdp",
+      "front": "an issue",
+      "back": "une question, un problème"
+    },
+    {
+      "id": "zoxul3",
+      "front": "a journey",
+      "back": "un trajet, un voyage (et non « une journée »)"
+    },
+    {
+      "id": "s50hx4",
+      "front": "a day",
+      "back": "une journée"
+    },
+    {
+      "id": "ejl8jp",
+      "front": "a college",
+      "back": "un établissement d'enseignement supérieur ou secondaire"
+    },
+    {
+      "id": "64zqcs",
+      "front": "a course (false friend)",
+      "back": "un cursus, un cours suivi"
+    },
+    {
+      "id": "ld25hm",
+      "front": "an agenda",
+      "back": "un ordre du jour, un programme politique"
+    },
+    {
+      "id": "86y46n",
+      "front": "a diary",
+      "back": "un agenda, un journal intime"
+    },
+    {
+      "id": "mp8w8s",
+      "front": "a notice",
+      "back": "un avis, un préavis"
+    },
+    {
+      "id": "orwo7u",
+      "front": "a cave",
+      "back": "une grotte (et non « une cave »)"
+    },
+    {
+      "id": "8x6oaf",
+      "front": "a cellar (false friend)",
+      "back": "une cave"
+    },
+    {
+      "id": "xiujvn",
+      "front": "a coin",
+      "back": "une pièce de monnaie (et non « un coin »)"
+    },
+    {
+      "id": "64ljwi",
+      "front": "a corner",
+      "back": "un coin"
+    },
+    {
+      "id": "5t1f3k",
+      "front": "a hazard",
+      "back": "un danger, un risque (et non « le hasard »)"
+    },
+    {
+      "id": "0te4k9",
+      "front": "chance",
+      "back": "le hasard, l'occasion"
+    },
+    {
+      "id": "5foca5",
+      "front": "an opportunity",
+      "back": "une occasion, une possibilité"
+    },
+    {
+      "id": "119uxa",
+      "front": "a fabric",
+      "back": "un tissu (et non « une fabrique »)"
+    },
+    {
+      "id": "ry5t1a",
+      "front": "a factory",
+      "back": "une usine"
+    },
+    {
+      "id": "faf2yi",
+      "front": "a store",
+      "back": "un magasin, une réserve"
+    },
+    {
+      "id": "ldy6yb",
+      "front": "a magazine (false friend)",
+      "back": "une revue (et non « un magasin »)"
+    },
+    {
+      "id": "wrqati",
+      "front": "an advertisement",
+      "back": "une publicité"
+    },
+    {
+      "id": "l8dhi2",
+      "front": "publicity",
+      "back": "la couverture médiatique, la notoriété"
+    },
+    {
+      "id": "scy71a",
+      "front": "an audience",
+      "back": "un public, une assistance"
+    },
+    {
+      "id": "fgpuby",
+      "front": "a patron of the arts",
+      "back": "un mécène (et non « un patron »)"
+    },
+    {
+      "id": "g0hd25",
+      "front": "an employer",
+      "back": "un patron, un employeur"
+    },
+    {
+      "id": "402xfe",
+      "front": "a rest (false friend)",
+      "back": "un repos, un reste"
+    },
+    {
+      "id": "0z2371",
+      "front": "a remainder",
+      "back": "un reste"
+    },
+    {
+      "id": "sb7aih",
+      "front": "to rest",
+      "back": "se reposer"
+    },
+    {
+      "id": "tkaoyc",
+      "front": "to stay",
+      "back": "rester"
+    },
+    {
+      "id": "tsa82y",
+      "front": "gentle",
+      "back": "doux, délicat (et non « gentil »)"
+    },
+    {
+      "id": "15hzd3",
+      "front": "kind",
+      "back": "gentil, aimable"
+    },
+    {
+      "id": "9yvekf",
+      "front": "large",
+      "back": "grand, vaste (et non « large »)"
+    },
+    {
+      "id": "425n6z",
+      "front": "wide",
+      "back": "large"
+    },
+    {
+      "id": "agkndf",
+      "front": "brave",
+      "back": "courageux (et non « brave » honnête)"
+    },
+    {
+      "id": "7b2bmn",
+      "front": "honest",
+      "back": "honnête"
+    },
+    {
+      "id": "tx8rdj",
+      "front": "grand",
+      "back": "majestueux, imposant (et non « grand » de taille)"
+    },
+    {
+      "id": "mf7kad",
+      "front": "tall",
+      "back": "grand (de taille)"
+    },
+    {
+      "id": "yakb2w",
+      "front": "versatile",
+      "back": "polyvalent (et non « versatile » changeant)"
+    },
+    {
+      "id": "pinl6w",
+      "front": "fickle",
+      "back": "versatile, inconstant"
+    },
+    {
+      "id": "8otyx3",
+      "front": "notorious (false friend)",
+      "back": "tristement célèbre (et non « notoire » neutre)"
+    },
+    {
+      "id": "kdshsb",
+      "front": "renowned",
+      "back": "renommé, réputé"
+    },
+    {
+      "id": "kyqj98",
+      "front": "crude",
+      "back": "grossier, brut (et non « cru » d'un aliment)"
+    },
+    {
+      "id": "op5geb",
+      "front": "raw",
+      "back": "cru, brut"
+    },
+    {
+      "id": "bvlopp",
+      "front": "spurious",
+      "back": "fallacieux, factice"
+    },
+    {
+      "id": "8pujtu",
+      "front": "genuine",
+      "back": "authentique"
+    },
+    {
+      "id": "1qcbcd",
+      "front": "an intoxication",
+      "back": "une ivresse, une intoxication alcoolique"
+    },
+    {
+      "id": "41twro",
+      "front": "to injure",
+      "back": "blesser (et non « injurier »)"
+    },
+    {
+      "id": "0qsjg3",
+      "front": "to insult",
+      "back": "injurier, insulter"
+    }
+  ]
+}
