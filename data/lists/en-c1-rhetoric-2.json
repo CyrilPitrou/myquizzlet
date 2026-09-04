@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-rhetoric-2",
+  "name": "Rhetoric, Argument and Register 2",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "3s37ry",
+      "front": "litotes",
+      "back": "la litote"
+    },
+    {
+      "id": "alz4fb",
+      "front": "anaphora",
+      "back": "l'anaphore"
+    },
+    {
+      "id": "mpu7ir",
+      "front": "epistrophe",
+      "back": "l'épistrophe"
+    },
+    {
+      "id": "ak6lem",
+      "front": "apophasis",
+      "back": "l'apophase, la prétérition"
+    },
+    {
+      "id": "024hqz",
+      "front": "tendentious",
+      "back": "tendancieux"
+    },
+    {
+      "id": "8xjni8",
+      "front": "sophistry",
+      "back": "la sophistique, les arguments spécieux"
+    },
+    {
+      "id": "flf4ay",
+      "front": "casuistry",
+      "back": "la casuistique"
+    },
+    {
+      "id": "a3mie4",
+      "front": "eristic",
+      "back": "éristique, polémique"
+    },
+    {
+      "id": "wndtgk",
+      "front": "dialectical",
+      "back": "dialectique"
+    },
+    {
+      "id": "dq4mlu",
+      "front": "apodictic",
+      "back": "apodictique"
+    },
+    {
+      "id": "1vmudd",
+      "front": "polemical",
+      "back": "polémique"
+    },
+    {
+      "id": "lyfzif",
+      "front": "didactic",
+      "back": "didactique"
+    },
+    {
+      "id": "hsatii",
+      "front": "hortatory",
+      "back": "exhortatif"
+    },
+    {
+      "id": "vwqaaf",
+      "front": "minatory",
+      "back": "comminatoire, menaçant"
+    },
+    {
+      "id": "iacx8p",
+      "front": "peremptory",
+      "back": "péremptoire"
+    },
+    {
+      "id": "8zl3v1",
+      "front": "categorical",
+      "back": "catégorique"
+    },
+    {
+      "id": "39emso",
+      "front": "emphatic",
+      "back": "emphatique, catégorique"
+    },
+    {
+      "id": "dsbiek",
+      "front": "declamatory",
+      "back": "déclamatoire"
+    },
+    {
+      "id": "iso4cx",
+      "front": "bombastic",
+      "back": "ampoulé, grandiloquent"
+    },
+    {
+      "id": "txins9",
+      "front": "grandiloquent",
+      "back": "grandiloquent"
+    },
+    {
+      "id": "hnb61x",
+      "front": "magniloquent",
+      "back": "pompeux"
+    },
+    {
+      "id": "t7unip",
+      "front": "turgid",
+      "back": "boursouflé, ampoulé"
+    },
+    {
+      "id": "uhg4wl",
+      "front": "prolix",
+      "back": "prolixe"
+    },
+    {
+      "id": "xx8yh1",
+      "front": "verbose",
+      "back": "verbeux"
+    },
+    {
+      "id": "l2f7k8",
+      "front": "sententious",
+      "back": "sentencieux"
+    },
+    {
+      "id": "lv40gl",
+      "front": "aphoristic",
+      "back": "aphoristique"
+    },
+    {
+      "id": "tub60h",
+      "front": "epigrammatic",
+      "back": "épigrammatique"
+    },
+    {
+      "id": "698lrv",
+      "front": "laconic",
+      "back": "laconique"
+    },
+    {
+      "id": "dcke6t",
+      "front": "terse",
+      "back": "laconique, sec"
+    },
+    {
+      "id": "jqzyca",
+      "front": "pithy",
+      "back": "concis et percutant"
+    },
+    {
+      "id": "8cuxkr",
+      "front": "trenchant",
+      "back": "incisif, mordant"
+    },
+    {
+      "id": "p23p9m",
+      "front": "acerbic",
+      "back": "acerbe"
+    },
+    {
+      "id": "84dvbg",
+      "front": "caustic",
+      "back": "caustique"
+    },
+    {
+      "id": "7w1x4v",
+      "front": "mordant",
+      "back": "mordant"
+    },
+    {
+      "id": "3dzu15",
+      "front": "withering",
+      "back": "cinglant"
+    },
+    {
+      "id": "ow0xrg",
+      "front": "scathing",
+      "back": "cinglant, virulent"
+    },
+    {
+      "id": "mq9pir",
+      "front": "vitriolic",
+      "back": "au vitriol"
+    },
+    {
+      "id": "7yjrrw",
+      "front": "excoriating",
+      "back": "accablant, éreintant"
+    },
+    {
+      "id": "5fzbux",
+      "front": "damning",
+      "back": "accablant"
+    },
+    {
+      "id": "wvydbg",
+      "front": "searching",
+      "back": "pénétrant, approfondi"
+    },
+    {
+      "id": "699omr",
+      "front": "probing",
+      "back": "pénétrant, fouillé"
+    },
+    {
+      "id": "e8on7e",
+      "front": "incisive",
+      "back": "incisif"
+    },
+    {
+      "id": "igzeq2",
+      "front": "cogent",
+      "back": "convaincant, pertinent"
+    },
+    {
+      "id": "hits0a",
+      "front": "compelling",
+      "back": "convaincant, irrésistible"
+    },
+    {
+      "id": "v33ht0",
+      "front": "persuasive",
+      "back": "persuasif"
+    },
+    {
+      "id": "6ycoeo",
+      "front": "specious",
+      "back": "spécieux"
+    },
+    {
+      "id": "4d5z8u",
+      "front": "disingenuous",
+      "back": "de mauvaise foi"
+    },
+    {
+      "id": "t3rk2d",
+      "front": "mendacious in argument",
+      "back": "mensonger dans l'argumentation"
+    },
+    {
+      "id": "eimxwk",
+      "front": "evasive",
+      "back": "évasif"
+    },
+    {
+      "id": "56xe0d",
+      "front": "equivocal",
+      "back": "équivoque"
+    },
+    {
+      "id": "xsc39q",
+      "front": "ambivalent",
+      "back": "ambivalent"
+    },
+    {
+      "id": "gq7fug",
+      "front": "oblique",
+      "back": "oblique, indirect"
+    },
+    {
+      "id": "da1x4p",
+      "front": "elliptical",
+      "back": "elliptique"
+    },
+    {
+      "id": "6ppjrz",
+      "front": "allusive",
+      "back": "allusif"
+    },
+    {
+      "id": "qlsnoh",
+      "front": "oracular",
+      "back": "oraculaire, sibyllin"
+    },
+    {
+      "id": "c7o4qj",
+      "front": "gnomic",
+      "back": "gnomique, sentencieux et obscur"
+    },
+    {
+      "id": "pq9z6c",
+      "front": "abstruse",
+      "back": "abscons"
+    },
+    {
+      "id": "dw22c0",
+      "front": "opaque",
+      "back": "opaque, obscur"
+    },
+    {
+      "id": "6qvtx9",
+      "front": "lucid",
+      "back": "lucide, clair"
+    },
+    {
+      "id": "29t1aq",
+      "front": "perspicuous",
+      "back": "clair, intelligible"
+    },
+    {
+      "id": "touijh",
+      "front": "limpid",
+      "back": "limpide"
+    },
+    {
+      "id": "1ls64x",
+      "front": "felicitous",
+      "back": "heureux, bien trouvé"
+    },
+    {
+      "id": "5csfxy",
+      "front": "infelicitous",
+      "back": "malheureux, mal choisi"
+    },
+    {
+      "id": "mj58op",
+      "front": "apt",
+      "back": "juste, approprié"
+    },
+    {
+      "id": "35pfgj",
+      "front": "germane",
+      "back": "pertinent"
+    },
+    {
+      "id": "4aq8bq",
+      "front": "extraneous",
+      "back": "étranger au sujet, superflu"
+    },
+    {
+      "id": "va3ai2",
+      "front": "tangential",
+      "back": "tangentiel, marginal"
+    },
+    {
+      "id": "m82u1r",
+      "front": "digressive",
+      "back": "digressif"
+    },
+    {
+      "id": "vgpaap",
+      "front": "discursive",
+      "back": "décousu, digressif"
+    },
+    {
+      "id": "uq2sjv",
+      "front": "rambling",
+      "back": "décousu"
+    },
+    {
+      "id": "j86tma",
+      "front": "circumlocutory",
+      "back": "circonlocutoire"
+    },
+    {
+      "id": "y2urky",
+      "front": "periphrastic",
+      "back": "périphrastique"
+    },
+    {
+      "id": "zcdujk",
+      "front": "euphemistic",
+      "back": "euphémique"
+    },
+    {
+      "id": "xpvuzq",
+      "front": "dysphemistic",
+      "back": "dysphémique"
+    },
+    {
+      "id": "3kvibo",
+      "front": "hyperbolic",
+      "back": "hyperbolique"
+    },
+    {
+      "id": "264fuo",
+      "front": "understated",
+      "back": "en demi-teinte, tout en retenue"
+    },
+    {
+      "id": "jcifna",
+      "front": "deadpan",
+      "back": "pince-sans-rire"
+    },
+    {
+      "id": "qbi091",
+      "front": "tongue-in-cheek",
+      "back": "ironique, au second degré"
+    },
+    {
+      "id": "j2bwr4",
+      "front": "wry",
+      "back": "ironique et désabusé"
+    },
+    {
+      "id": "5su3oy",
+      "front": "droll",
+      "back": "cocasse, drôle"
+    },
+    {
+      "id": "addpz4",
+      "front": "arch",
+      "back": "espiègle, malicieux"
+    },
+    {
+      "id": "4vtkq5",
+      "front": "facetious",
+      "back": "facétieux, badin"
+    },
+    {
+      "id": "m5m9os",
+      "front": "flippant",
+      "back": "désinvolte"
+    },
+    {
+      "id": "rdnpny",
+      "front": "glib",
+      "back": "qui a la parole trop facile, superficiel"
+    },
+    {
+      "id": "qy9gw1",
+      "front": "unctuous",
+      "back": "onctueux, mielleux"
+    },
+    {
+      "id": "d63fyh",
+      "front": "fulsome",
+      "back": "excessif jusqu'à l'écœurement"
+    },
+    {
+      "id": "fzxadr",
+      "front": "obsequious in tone",
+      "back": "obséquieux"
+    },
+    {
+      "id": "ufqxvz",
+      "front": "condescending",
+      "back": "condescendant"
+    },
+    {
+      "id": "7imgil",
+      "front": "patronising",
+      "back": "paternaliste, condescendant"
+    },
+    {
+      "id": "7a4of6",
+      "front": "supercilious",
+      "back": "hautain"
+    },
+    {
+      "id": "6h3aqo",
+      "front": "haughty",
+      "back": "hautain"
+    },
+    {
+      "id": "nv9w40",
+      "front": "imperious",
+      "back": "impérieux"
+    },
+    {
+      "id": "nb6dxb",
+      "front": "insinuating",
+      "back": "insinuant"
+    },
+    {
+      "id": "5b6ajx",
+      "front": "tendentiousness",
+      "back": "le caractère tendancieux"
+    },
+    {
+      "id": "o0018q",
+      "front": "a straw-man rebuttal",
+      "back": "une réfutation d'un homme de paille"
+    },
+    {
+      "id": "wgy01k",
+      "front": "a rhetorical question",
+      "back": "une question rhétorique"
+    },
+    {
+      "id": "n1znae",
+      "front": "a peroration",
+      "back": "une péroraison"
+    },
+    {
+      "id": "on58d8",
+      "front": "an exordium",
+      "back": "un exorde"
+    },
+    {
+      "id": "5ix0ic",
+      "front": "an encomium",
+      "back": "un panégyrique"
+    },
+    {
+      "id": "ineg9y",
+      "front": "a philippic",
+      "back": "une philippique"
+    }
+  ]
+}
