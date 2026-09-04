@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-coloquial-jerga",
+  "name": "Registro coloquial y jerga",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "u9g83e",
+      "front": "el tío",
+      "back": "le type, le mec (familier)"
+    },
+    {
+      "id": "fyrloj",
+      "front": "la tía",
+      "back": "la nana, la meuf (familier)"
+    },
+    {
+      "id": "m5se4b",
+      "front": "el colega",
+      "back": "le pote"
+    },
+    {
+      "id": "1oqiil",
+      "front": "el chaval",
+      "back": "le gamin, le jeune"
+    },
+    {
+      "id": "elhaec",
+      "front": "la peña",
+      "back": "la bande, les gens"
+    },
+    {
+      "id": "di66ck",
+      "front": "el currante",
+      "back": "le bosseur"
+    },
+    {
+      "id": "yr6n0o",
+      "front": "el curro",
+      "back": "le boulot"
+    },
+    {
+      "id": "dqrdas",
+      "front": "la pasta",
+      "back": "le fric"
+    },
+    {
+      "id": "4ea7xg",
+      "front": "la tela",
+      "back": "le pognon"
+    },
+    {
+      "id": "pkeouy",
+      "front": "el pastón",
+      "back": "une fortune"
+    },
+    {
+      "id": "4sn0n1",
+      "front": "el chollo",
+      "back": "le bon plan"
+    },
+    {
+      "id": "uj10de",
+      "front": "el marrón",
+      "back": "la corvée, l'embrouille"
+    },
+    {
+      "id": "oabmve",
+      "front": "el follón",
+      "back": "le bazar, la pagaille"
+    },
+    {
+      "id": "nkw500",
+      "front": "el lío",
+      "back": "le pétrin"
+    },
+    {
+      "id": "irgsh4",
+      "front": "el cachondeo",
+      "back": "la rigolade"
+    },
+    {
+      "id": "cftghv",
+      "front": "la juerga",
+      "back": "la fête, la bringue"
+    },
+    {
+      "id": "9jm3hj",
+      "front": "el botellón",
+      "back": "l'apéro de rue"
+    },
+    {
+      "id": "e8ledj",
+      "front": "la resaca",
+      "back": "la gueule de bois"
+    },
+    {
+      "id": "zgczjn",
+      "front": "la movida",
+      "back": "l'ambiance, l'histoire"
+    },
+    {
+      "id": "wqq6cn",
+      "front": "el rollo",
+      "back": "le truc, le laïus ennuyeux"
+    },
+    {
+      "id": "f6cuzy",
+      "front": "la chapa",
+      "back": "le baratin"
+    },
+    {
+      "id": "sb0tmr",
+      "front": "el careto",
+      "back": "la tronche"
+    },
+    {
+      "id": "tdn0rq",
+      "front": "la pinta",
+      "back": "l'allure"
+    },
+    {
+      "id": "9juehi",
+      "front": "el garito",
+      "back": "le rade, le troquet"
+    },
+    {
+      "id": "oqejez",
+      "front": "el piso compartido",
+      "back": "la coloc"
+    },
+    {
+      "id": "hjpxe3",
+      "front": "el cutre",
+      "back": "le miteux"
+    },
+    {
+      "id": "5ma4ml",
+      "front": "el pijo",
+      "back": "le bourge, le BCBG"
+    },
+    {
+      "id": "29m6ze",
+      "front": "el hortera",
+      "back": "le ringard"
+    },
+    {
+      "id": "frjm38",
+      "front": "el friki",
+      "back": "le geek, l'allumé"
+    },
+    {
+      "id": "ao7307",
+      "front": "el pringado",
+      "back": "le pigeon, le nul"
+    },
+    {
+      "id": "hq7vf0",
+      "front": "el listillo",
+      "back": "le petit malin"
+    },
+    {
+      "id": "wrucsu",
+      "front": "el cotilla",
+      "back": "le fouineur, le pipelette"
+    },
+    {
+      "id": "rsl6rp",
+      "front": "el cotilleo",
+      "back": "les potins"
+    },
+    {
+      "id": "e1ygb8",
+      "front": "la bronca",
+      "back": "l'engueulade"
+    },
+    {
+      "id": "al12a8",
+      "front": "el mosqueo",
+      "back": "l'agacement, la susceptibilité"
+    },
+    {
+      "id": "qrdc1w",
+      "front": "el cabreo",
+      "back": "la rogne"
+    },
+    {
+      "id": "wa42ik",
+      "front": "el susto padre",
+      "back": "la trouille bleue"
+    },
+    {
+      "id": "k8baaq",
+      "front": "la chorrada",
+      "back": "la bêtise"
+    },
+    {
+      "id": "qz7acf",
+      "front": "la tontería",
+      "back": "la sottise"
+    },
+    {
+      "id": "rn9y98",
+      "front": "la gilipollez",
+      "back": "la connerie"
+    },
+    {
+      "id": "gqg7y9",
+      "front": "el tostón",
+      "back": "le truc barbant"
+    },
+    {
+      "id": "vqmksq",
+      "front": "el palo",
+      "back": "le coup dur"
+    },
+    {
+      "id": "va3vk0",
+      "front": "la paliza",
+      "back": "la raclée, le calvaire"
+    },
+    {
+      "id": "z5cmnx",
+      "front": "el pelotazo",
+      "back": "le gros coup"
+    },
+    {
+      "id": "4d27z4",
+      "front": "el enchufe laboral",
+      "back": "le piston professionnel"
+    },
+    {
+      "id": "xgv7u5",
+      "front": "currar",
+      "back": "bosser"
+    },
+    {
+      "id": "hacqf2",
+      "front": "molar",
+      "back": "plaire, être top"
+    },
+    {
+      "id": "09je9q",
+      "front": "flipar",
+      "back": "halluciner"
+    },
+    {
+      "id": "ocisg9",
+      "front": "alucinar",
+      "back": "être sidéré"
+    },
+    {
+      "id": "r4hj02",
+      "front": "pillar",
+      "back": "choper, piger"
+    },
+    {
+      "id": "ty82ef",
+      "front": "cascar",
+      "back": "casser, dire"
+    },
+    {
+      "id": "v8rrbo",
+      "front": "chivarse",
+      "back": "cafter"
+    },
+    {
+      "id": "y0lhjj",
+      "front": "liarse",
+      "back": "s'embrouiller, se lancer"
+    },
+    {
+      "id": "og0e1h",
+      "front": "rajar",
+      "back": "médire"
+    },
+    {
+      "id": "qahgga",
+      "front": "picarse",
+      "back": "se vexer"
+    },
+    {
+      "id": "gna0fu",
+      "front": "mosquearse",
+      "back": "se froisser"
+    },
+    {
+      "id": "xmeelu",
+      "front": "cabrearse",
+      "back": "se foutre en rogne"
+    },
+    {
+      "id": "zrwq7p",
+      "front": "pasar de algo",
+      "back": "s'en ficher"
+    },
+    {
+      "id": "ibhk43",
+      "front": "petar",
+      "back": "être bondé, planter"
+    },
+    {
+      "id": "5ps8zu",
+      "front": "palmar",
+      "back": "casser sa pipe"
+    },
+    {
+      "id": "0588s6",
+      "front": "espabilar",
+      "back": "se dégourdir"
+    },
+    {
+      "id": "wmrd5e",
+      "front": "apalancarse",
+      "back": "se vautrer, s'installer"
+    },
+    {
+      "id": "ynwe1x",
+      "front": "enrollarse",
+      "back": "se lancer dans un discours, flirter"
+    },
+    {
+      "id": "8pr5tx",
+      "front": "ligar",
+      "back": "draguer"
+    },
+    {
+      "id": "g27zxy",
+      "front": "quedarse frito",
+      "back": "tomber comme une masse"
+    },
+    {
+      "id": "r1p4u6",
+      "front": "pirarse",
+      "back": "se tirer, se casser"
+    },
+    {
+      "id": "9vza3g",
+      "front": "largarse",
+      "back": "filer"
+    },
+    {
+      "id": "cl4cqi",
+      "front": "currárselo",
+      "back": "se donner du mal"
+    },
+    {
+      "id": "l6e2d8",
+      "front": "comerse el coco",
+      "back": "se prendre la tête"
+    },
+    {
+      "id": "i99bcu",
+      "front": "tener morro",
+      "back": "avoir du culot"
+    },
+    {
+      "id": "w52xom",
+      "front": "dar la brasa",
+      "back": "saouler quelqu'un"
+    },
+    {
+      "id": "2gv13p",
+      "front": "estar hasta las narices",
+      "back": "en avoir ras le bol"
+    },
+    {
+      "id": "0yr9qh",
+      "front": "ni de coña",
+      "back": "pas question, pas du tout"
+    },
+    {
+      "id": "iaqcag",
+      "front": "ni idea",
+      "back": "aucune idée"
+    },
+    {
+      "id": "ko1wyc",
+      "front": "qué fuerte",
+      "back": "c'est dingue"
+    },
+    {
+      "id": "t6zw12",
+      "front": "menuda faena",
+      "back": "quelle tuile"
+    },
+    {
+      "id": "5bup7f",
+      "front": "vaya tela",
+      "back": "c'est quelque chose"
+    },
+    {
+      "id": "fvrsrv",
+      "front": "qué palo",
+      "back": "quelle galère"
+    },
+    {
+      "id": "tjnljj",
+      "front": "está chupado",
+      "back": "c'est du gâteau"
+    },
+    {
+      "id": "ban0a8",
+      "front": "es la leche",
+      "back": "c'est le pied, c'est incroyable"
+    },
+    {
+      "id": "kpdpzt",
+      "front": "mola mucho",
+      "back": "c'est génial"
+    },
+    {
+      "id": "z1djym",
+      "front": "está guay",
+      "back": "c'est cool"
+    },
+    {
+      "id": "980yc6",
+      "front": "qué chungo",
+      "back": "c'est chaud"
+    },
+    {
+      "id": "bkpnds",
+      "front": "es un rollo",
+      "back": "c'est barbant"
+    },
+    {
+      "id": "ph3vt4",
+      "front": "tela marinera",
+      "back": "ça alors, c'est coton"
+    },
+    {
+      "id": "hlvqfq",
+      "front": "o sea, vamos",
+      "back": "enfin, bref"
+    },
+    {
+      "id": "igr0py",
+      "front": "en plan",
+      "back": "genre"
+    },
+    {
+      "id": "mr5zmq",
+      "front": "tío, escucha",
+      "back": "écoute, mec"
+    },
+    {
+      "id": "mtpj1f",
+      "front": "venga ya",
+      "back": "allons donc"
+    },
+    {
+      "id": "9hiwst",
+      "front": "anda ya",
+      "back": "arrête, tu plaisantes"
+    },
+    {
+      "id": "i5uzve",
+      "front": "qué va, hombre",
+      "back": "mais non, voyons"
+    },
+    {
+      "id": "m29zm7",
+      "front": "madre mía",
+      "back": "oh là là"
+    },
+    {
+      "id": "pnaaev",
+      "front": "joder",
+      "back": "putain (vulgaire)"
+    },
+    {
+      "id": "z43kmi",
+      "front": "hostia",
+      "back": "bon sang (vulgaire)"
+    },
+    {
+      "id": "wcsv28",
+      "front": "la hostia de bueno",
+      "back": "vachement bon (vulgaire)"
+    },
+    {
+      "id": "0pzl51",
+      "front": "un montón",
+      "back": "un tas, plein"
+    },
+    {
+      "id": "bab9ol",
+      "front": "mogollón",
+      "back": "un max"
+    },
+    {
+      "id": "a9usfq",
+      "front": "un porrón",
+      "back": "des tonnes"
+    },
+    {
+      "id": "zwjxrf",
+      "front": "a tope",
+      "back": "à fond"
+    },
+    {
+      "id": "qe1pom",
+      "front": "de puta madre",
+      "back": "super, génial (vulgaire)"
+    }
+  ]
+}
