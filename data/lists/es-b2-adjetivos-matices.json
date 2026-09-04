@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-adjetivos-matices",
+  "name": "Adjetivos y matices",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "hv04h1",
+      "front": "acertado",
+      "back": "judicieux, bien vu"
+    },
+    {
+      "id": "v88uo5",
+      "front": "acuciante",
+      "back": "pressant, urgent"
+    },
+    {
+      "id": "39q61s",
+      "front": "adverso",
+      "back": "défavorable"
+    },
+    {
+      "id": "77gpdv",
+      "front": "afín",
+      "back": "proche, apparenté"
+    },
+    {
+      "id": "hmyg1d",
+      "front": "aciago",
+      "back": "funeste"
+    },
+    {
+      "id": "vphc6d",
+      "front": "agudo",
+      "back": "aigu, perspicace"
+    },
+    {
+      "id": "m84z3v",
+      "front": "ajeno",
+      "back": "étranger, d'autrui"
+    },
+    {
+      "id": "6vbmbu",
+      "front": "alentador",
+      "back": "encourageant"
+    },
+    {
+      "id": "25a66i",
+      "front": "ameno",
+      "back": "agréable, plaisant"
+    },
+    {
+      "id": "isjjuk",
+      "front": "anodino",
+      "back": "anodin, insipide"
+    },
+    {
+      "id": "5luhnl",
+      "front": "apremiante",
+      "back": "pressant"
+    },
+    {
+      "id": "q2ebx3",
+      "front": "arduo",
+      "back": "ardu"
+    },
+    {
+      "id": "8gk0s9",
+      "front": "asequible",
+      "back": "abordable"
+    },
+    {
+      "id": "c7zxo3",
+      "front": "atinado",
+      "back": "pertinent"
+    },
+    {
+      "id": "069yea",
+      "front": "audaz",
+      "back": "audacieux"
+    },
+    {
+      "id": "tji9od",
+      "front": "austero",
+      "back": "austère"
+    },
+    {
+      "id": "4iyh7w",
+      "front": "baladí",
+      "back": "insignifiant"
+    },
+    {
+      "id": "v2p12b",
+      "front": "banal",
+      "back": "banal"
+    },
+    {
+      "id": "u6rtjj",
+      "front": "brusco",
+      "back": "brusque"
+    },
+    {
+      "id": "v2p94m",
+      "front": "candente",
+      "back": "brûlant (sujet)"
+    },
+    {
+      "id": "a89p84",
+      "front": "categórico",
+      "back": "catégorique"
+    },
+    {
+      "id": "bubsos",
+      "front": "certero",
+      "back": "précis, juste"
+    },
+    {
+      "id": "5kro0m",
+      "front": "consabido",
+      "back": "bien connu, habituel"
+    },
+    {
+      "id": "vlwjwh",
+      "front": "contundente",
+      "back": "sans appel, percutant"
+    },
+    {
+      "id": "chv2o3",
+      "front": "cuantioso",
+      "back": "considérable"
+    },
+    {
+      "id": "2hsfp2",
+      "front": "decisivo",
+      "back": "décisif"
+    },
+    {
+      "id": "x1u4og",
+      "front": "denodado",
+      "back": "acharné, vaillant"
+    },
+    {
+      "id": "n5akgn",
+      "front": "desalentador",
+      "back": "décourageant"
+    },
+    {
+      "id": "e9g546",
+      "front": "descabellado",
+      "back": "insensé"
+    },
+    {
+      "id": "ufz97w",
+      "front": "desmedido",
+      "back": "démesuré"
+    },
+    {
+      "id": "rbjo7r",
+      "front": "determinante",
+      "back": "déterminant"
+    },
+    {
+      "id": "dmfg2d",
+      "front": "diáfano",
+      "back": "limpide"
+    },
+    {
+      "id": "s8zuo2",
+      "front": "discutible",
+      "back": "contestable"
+    },
+    {
+      "id": "q6jozd",
+      "front": "dispar",
+      "back": "disparate, inégal"
+    },
+    {
+      "id": "blkw2a",
+      "front": "dudoso",
+      "back": "douteux"
+    },
+    {
+      "id": "o74m4x",
+      "front": "eficaz",
+      "back": "efficace"
+    },
+    {
+      "id": "mfs9f7",
+      "front": "elocuente",
+      "back": "éloquent"
+    },
+    {
+      "id": "xj1ab2",
+      "front": "encomiable",
+      "back": "louable"
+    },
+    {
+      "id": "k3rrpf",
+      "front": "engañoso",
+      "back": "trompeur"
+    },
+    {
+      "id": "2acmmj",
+      "front": "enrevesado",
+      "back": "alambiqué"
+    },
+    {
+      "id": "668q7i",
+      "front": "escaso",
+      "back": "rare, insuffisant"
+    },
+    {
+      "id": "nprxwu",
+      "front": "escueto",
+      "back": "concis, sobre"
+    },
+    {
+      "id": "9nxkf7",
+      "front": "esmerado",
+      "back": "soigné"
+    },
+    {
+      "id": "68290r",
+      "front": "espinoso",
+      "back": "épineux"
+    },
+    {
+      "id": "uuy6a6",
+      "front": "estéril",
+      "back": "stérile, vain"
+    },
+    {
+      "id": "dgti0f",
+      "front": "exhaustivo",
+      "back": "exhaustif"
+    },
+    {
+      "id": "qlxu4v",
+      "front": "farragoso",
+      "back": "touffu, indigeste"
+    },
+    {
+      "id": "trnnrl",
+      "front": "ferviente",
+      "back": "fervent"
+    },
+    {
+      "id": "2wih1e",
+      "front": "fidedigno",
+      "back": "digne de foi"
+    },
+    {
+      "id": "b9h2en",
+      "front": "fructífero",
+      "back": "fructueux"
+    },
+    {
+      "id": "ogn39b",
+      "front": "halagüeño",
+      "back": "prometteur, flatteur"
+    },
+    {
+      "id": "3fpb5u",
+      "front": "idóneo",
+      "back": "approprié"
+    },
+    {
+      "id": "v7wpnw",
+      "front": "ilusorio",
+      "back": "illusoire"
+    },
+    {
+      "id": "k5z25m",
+      "front": "imprescindible",
+      "back": "indispensable"
+    },
+    {
+      "id": "ezcr4i",
+      "front": "inaudito",
+      "back": "inouï"
+    },
+    {
+      "id": "9defwr",
+      "front": "incierto",
+      "back": "incertain"
+    },
+    {
+      "id": "t3hf0q",
+      "front": "incuestionable",
+      "back": "incontestable"
+    },
+    {
+      "id": "g574xs",
+      "front": "indiscutible",
+      "back": "indiscutable"
+    },
+    {
+      "id": "urw22q",
+      "front": "ineludible",
+      "back": "incontournable"
+    },
+    {
+      "id": "884vr8",
+      "front": "infundado",
+      "back": "sans fondement"
+    },
+    {
+      "id": "rcj9nm",
+      "front": "ingente",
+      "back": "énorme"
+    },
+    {
+      "id": "56a5ot",
+      "front": "inquietante",
+      "back": "inquiétant"
+    },
+    {
+      "id": "0v8kgj",
+      "front": "insólito",
+      "back": "insolite"
+    },
+    {
+      "id": "0qaju7",
+      "front": "irrisorio",
+      "back": "dérisoire"
+    },
+    {
+      "id": "m5960j",
+      "front": "lacónico",
+      "back": "laconique"
+    },
+    {
+      "id": "3tzv1r",
+      "front": "llamativo",
+      "back": "frappant, voyant"
+    },
+    {
+      "id": "82uilz",
+      "front": "manifiesto",
+      "back": "manifeste"
+    },
+    {
+      "id": "4s9lw3",
+      "front": "mordaz",
+      "back": "mordant"
+    },
+    {
+      "id": "rz9d7t",
+      "front": "notorio",
+      "back": "notoire"
+    },
+    {
+      "id": "06ph85",
+      "front": "nefasto",
+      "back": "néfaste"
+    },
+    {
+      "id": "hwyzh0",
+      "front": "nimio",
+      "back": "insignifiant"
+    },
+    {
+      "id": "iq0fy7",
+      "front": "nítido",
+      "back": "net"
+    },
+    {
+      "id": "fbi8d6",
+      "front": "obsoleto",
+      "back": "obsolète"
+    },
+    {
+      "id": "095vns",
+      "front": "oneroso",
+      "back": "onéreux"
+    },
+    {
+      "id": "4ee6r2",
+      "front": "paulatino",
+      "back": "graduel"
+    },
+    {
+      "id": "7ognbs",
+      "front": "perentorio",
+      "back": "péremptoire"
+    },
+    {
+      "id": "hfatmp",
+      "front": "pertinaz",
+      "back": "tenace, persistant"
+    },
+    {
+      "id": "v1hnbl",
+      "front": "plausible",
+      "back": "plausible"
+    },
+    {
+      "id": "drb5f6",
+      "front": "pormenorizado",
+      "back": "détaillé"
+    },
+    {
+      "id": "vmcf98",
+      "front": "prolijo",
+      "back": "prolixe"
+    },
+    {
+      "id": "q6umz1",
+      "front": "pujante",
+      "back": "florissant, vigoureux"
+    },
+    {
+      "id": "28rwxx",
+      "front": "puntero",
+      "back": "de pointe"
+    },
+    {
+      "id": "lu7oum",
+      "front": "reacio",
+      "back": "réticent"
+    },
+    {
+      "id": "c8lftv",
+      "front": "relevante",
+      "back": "notable, marquant"
+    },
+    {
+      "id": "v170o6",
+      "front": "reñido",
+      "back": "disputé, serré"
+    },
+    {
+      "id": "nnbdcc",
+      "front": "rotundo",
+      "back": "catégorique, net"
+    },
+    {
+      "id": "tdalbk",
+      "front": "sesgado",
+      "back": "biaisé"
+    },
+    {
+      "id": "6nu0sd",
+      "front": "somero",
+      "back": "sommaire"
+    },
+    {
+      "id": "kmapw4",
+      "front": "sostenido",
+      "back": "soutenu, continu"
+    },
+    {
+      "id": "d2t1zr",
+      "front": "sustancial",
+      "back": "substantiel"
+    },
+    {
+      "id": "e7fuzq",
+      "front": "tajante",
+      "back": "tranchant, catégorique"
+    },
+    {
+      "id": "fza3n7",
+      "front": "tangible",
+      "back": "tangible"
+    },
+    {
+      "id": "9afw6c",
+      "front": "tenue",
+      "back": "ténu"
+    },
+    {
+      "id": "eptd9j",
+      "front": "vertiginoso",
+      "back": "vertigineux"
+    },
+    {
+      "id": "ux3tbe",
+      "front": "viable",
+      "back": "viable"
+    },
+    {
+      "id": "zvzvbw",
+      "front": "vinculante",
+      "back": "contraignant"
+    },
+    {
+      "id": "rsaxij",
+      "front": "llevadero",
+      "back": "supportable"
+    },
+    {
+      "id": "m0bzui",
+      "front": "apabullante",
+      "back": "écrasant, renversant"
+    },
+    {
+      "id": "zjalw9",
+      "front": "escalofriante",
+      "back": "glaçant"
+    },
+    {
+      "id": "kx2st1",
+      "front": "esclarecedor",
+      "back": "éclairant"
+    }
+  ]
+}
