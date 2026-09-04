@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-history-1",
+  "name": "History and War 1",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "ajsqz1",
+      "front": "an era",
+      "back": "une ère"
+    },
+    {
+      "id": "nrn9ew",
+      "front": "an epoch",
+      "back": "une époque"
+    },
+    {
+      "id": "d2bhvh",
+      "front": "an age",
+      "back": "un âge, une ère"
+    },
+    {
+      "id": "5tdemq",
+      "front": "antiquity",
+      "back": "l'Antiquité"
+    },
+    {
+      "id": "xteyxf",
+      "front": "the Middle Ages",
+      "back": "le Moyen Âge"
+    },
+    {
+      "id": "htj7ut",
+      "front": "the Renaissance",
+      "back": "la Renaissance"
+    },
+    {
+      "id": "bias8b",
+      "front": "the Enlightenment",
+      "back": "les Lumières"
+    },
+    {
+      "id": "qq3vsq",
+      "front": "the Reformation",
+      "back": "la Réforme"
+    },
+    {
+      "id": "2heta6",
+      "front": "the Counter-Reformation",
+      "back": "la Contre-Réforme"
+    },
+    {
+      "id": "893z05",
+      "front": "the Industrial Revolution",
+      "back": "la révolution industrielle"
+    },
+    {
+      "id": "6kdo5f",
+      "front": "a dynasty",
+      "back": "une dynastie"
+    },
+    {
+      "id": "t0l3n4",
+      "front": "a reign",
+      "back": "un règne"
+    },
+    {
+      "id": "jt9rwb",
+      "front": "an accession",
+      "back": "une accession au trône"
+    },
+    {
+      "id": "bh7yc1",
+      "front": "an abdication",
+      "back": "une abdication"
+    },
+    {
+      "id": "zd5nzp",
+      "front": "a succession crisis",
+      "back": "une crise de succession"
+    },
+    {
+      "id": "ylz6tv",
+      "front": "a monarch",
+      "back": "un monarque"
+    },
+    {
+      "id": "7h37qr",
+      "front": "a sovereign",
+      "back": "un souverain"
+    },
+    {
+      "id": "ab18fz",
+      "front": "a vassal",
+      "back": "un vassal"
+    },
+    {
+      "id": "ay8rpt",
+      "front": "a fiefdom",
+      "back": "un fief"
+    },
+    {
+      "id": "v4afgi",
+      "front": "feudalism",
+      "back": "la féodalité"
+    },
+    {
+      "id": "ygjfqa",
+      "front": "serfdom",
+      "back": "le servage"
+    },
+    {
+      "id": "w7jm8u",
+      "front": "a peasantry",
+      "back": "une paysannerie"
+    },
+    {
+      "id": "zntz75",
+      "front": "a guild",
+      "back": "une corporation, une guilde"
+    },
+    {
+      "id": "hsnycn",
+      "front": "an estate",
+      "back": "un ordre, un état (société d'Ancien Régime)"
+    },
+    {
+      "id": "x3unxw",
+      "front": "the nobility",
+      "back": "la noblesse"
+    },
+    {
+      "id": "12ojfh",
+      "front": "the clergy",
+      "back": "le clergé"
+    },
+    {
+      "id": "8zgjiu",
+      "front": "the gentry",
+      "back": "la petite noblesse terrienne"
+    },
+    {
+      "id": "r351uk",
+      "front": "a bourgeoisie",
+      "back": "une bourgeoisie"
+    },
+    {
+      "id": "ug55ov",
+      "front": "an uprising",
+      "back": "un soulèvement"
+    },
+    {
+      "id": "wl1glv",
+      "front": "a revolt",
+      "back": "une révolte"
+    },
+    {
+      "id": "qc72ga",
+      "front": "a mutiny",
+      "back": "une mutinerie"
+    },
+    {
+      "id": "f509yc",
+      "front": "an insurgency",
+      "back": "une insurrection"
+    },
+    {
+      "id": "v1grif",
+      "front": "a revolution",
+      "back": "une révolution"
+    },
+    {
+      "id": "zv089p",
+      "front": "a civil war",
+      "back": "une guerre civile"
+    },
+    {
+      "id": "pg8bn8",
+      "front": "a war of succession",
+      "back": "une guerre de succession"
+    },
+    {
+      "id": "5z94k3",
+      "front": "a campaign",
+      "back": "une campagne militaire"
+    },
+    {
+      "id": "kyva12",
+      "front": "a siege",
+      "back": "un siège"
+    },
+    {
+      "id": "orolgo",
+      "front": "a skirmish",
+      "back": "une escarmouche"
+    },
+    {
+      "id": "tc84h5",
+      "front": "a battle",
+      "back": "une bataille"
+    },
+    {
+      "id": "ak2k3k",
+      "front": "a rout",
+      "back": "une déroute"
+    },
+    {
+      "id": "c4gisq",
+      "front": "a retreat",
+      "back": "une retraite"
+    },
+    {
+      "id": "cku0fd",
+      "front": "a stalemate",
+      "back": "une impasse, un statu quo militaire"
+    },
+    {
+      "id": "oft2fh",
+      "front": "attrition",
+      "back": "l'usure, l'attrition"
+    },
+    {
+      "id": "0od6ve",
+      "front": "a truce",
+      "back": "une trêve"
+    },
+    {
+      "id": "e1q4c3",
+      "front": "an armistice",
+      "back": "un armistice"
+    },
+    {
+      "id": "2nsvjn",
+      "front": "a treaty",
+      "back": "un traité"
+    },
+    {
+      "id": "0slib2",
+      "front": "a peace settlement",
+      "back": "un règlement de paix"
+    },
+    {
+      "id": "yav94p",
+      "front": "reparations",
+      "back": "des réparations"
+    },
+    {
+      "id": "u79vev",
+      "front": "an annexation",
+      "back": "une annexion"
+    },
+    {
+      "id": "r0bpge",
+      "front": "an occupation",
+      "back": "une occupation"
+    },
+    {
+      "id": "0xrdq9",
+      "front": "a colony",
+      "back": "une colonie"
+    },
+    {
+      "id": "w48rrm",
+      "front": "colonialism",
+      "back": "le colonialisme"
+    },
+    {
+      "id": "bzg2cy",
+      "front": "imperialism",
+      "back": "l'impérialisme"
+    },
+    {
+      "id": "em8oui",
+      "front": "an empire",
+      "back": "un empire"
+    },
+    {
+      "id": "8utgxm",
+      "front": "decolonisation",
+      "back": "la décolonisation"
+    },
+    {
+      "id": "qwdxvl",
+      "front": "independence",
+      "back": "l'indépendance"
+    },
+    {
+      "id": "ccd9bb",
+      "front": "a trusteeship",
+      "back": "une tutelle (territoriale)"
+    },
+    {
+      "id": "xb0cgl",
+      "front": "a settler",
+      "back": "un colon"
+    },
+    {
+      "id": "goiw0o",
+      "front": "indentured labour",
+      "back": "le travail sous contrat d'engagement"
+    },
+    {
+      "id": "gkwvqp",
+      "front": "the slave trade",
+      "back": "la traite des esclaves"
+    },
+    {
+      "id": "53ryn9",
+      "front": "abolition",
+      "back": "l'abolition"
+    },
+    {
+      "id": "nmnm37",
+      "front": "emancipation",
+      "back": "l'émancipation"
+    },
+    {
+      "id": "1s5rj4",
+      "front": "a diaspora",
+      "back": "une diaspora"
+    },
+    {
+      "id": "l46m52",
+      "front": "an exodus",
+      "back": "un exode"
+    },
+    {
+      "id": "8rlg81",
+      "front": "a famine",
+      "back": "une famine"
+    },
+    {
+      "id": "hryl1f",
+      "front": "a plague",
+      "back": "une peste, une épidémie"
+    },
+    {
+      "id": "dkwhvy",
+      "front": "a crusade",
+      "back": "une croisade"
+    },
+    {
+      "id": "lnpvai",
+      "front": "an inquisition",
+      "back": "une inquisition"
+    },
+    {
+      "id": "n0vild",
+      "front": "a heretic",
+      "back": "un hérétique"
+    },
+    {
+      "id": "1jqhwd",
+      "front": "a schismatic",
+      "back": "un schismatique"
+    },
+    {
+      "id": "tqo8jb",
+      "front": "a pogrom",
+      "back": "un pogrom"
+    },
+    {
+      "id": "3gwbdm",
+      "front": "genocide",
+      "back": "un génocide"
+    },
+    {
+      "id": "tyr5ia",
+      "front": "an atrocity",
+      "back": "une atrocité"
+    },
+    {
+      "id": "2vqy8s",
+      "front": "a massacre",
+      "back": "un massacre"
+    },
+    {
+      "id": "43nd0l",
+      "front": "a purge trial",
+      "back": "un procès d'épuration"
+    },
+    {
+      "id": "a7hjnr",
+      "front": "a resistance movement",
+      "back": "un mouvement de résistance"
+    },
+    {
+      "id": "84kb61",
+      "front": "collaboration",
+      "back": "la collaboration"
+    },
+    {
+      "id": "32n85v",
+      "front": "an armaments race",
+      "back": "une course aux armements"
+    },
+    {
+      "id": "14zu5s",
+      "front": "a standing army",
+      "back": "une armée permanente"
+    },
+    {
+      "id": "jbcjbn",
+      "front": "conscription",
+      "back": "la conscription"
+    },
+    {
+      "id": "t0xuc2",
+      "front": "a levy of troops",
+      "back": "une levée de troupes"
+    },
+    {
+      "id": "it761g",
+      "front": "a mercenary",
+      "back": "un mercenaire"
+    },
+    {
+      "id": "sgnu7k",
+      "front": "a garrison",
+      "back": "une garnison"
+    },
+    {
+      "id": "je9xhn",
+      "front": "a fortification",
+      "back": "une fortification"
+    },
+    {
+      "id": "pkl6pp",
+      "front": "a rampart",
+      "back": "un rempart"
+    },
+    {
+      "id": "zqu6j4",
+      "front": "a keep",
+      "back": "un donjon"
+    },
+    {
+      "id": "sm4egi",
+      "front": "a chronicle",
+      "back": "une chronique"
+    },
+    {
+      "id": "ovqxgy",
+      "front": "an annal",
+      "back": "une annale"
+    },
+    {
+      "id": "kqdpks",
+      "front": "an archive",
+      "back": "une archive"
+    },
+    {
+      "id": "q064qm",
+      "front": "a primary source",
+      "back": "une source primaire"
+    },
+    {
+      "id": "qbyb2n",
+      "front": "a secondary source",
+      "back": "une source secondaire"
+    },
+    {
+      "id": "aeur89",
+      "front": "an artefact",
+      "back": "un artefact"
+    },
+    {
+      "id": "d9mf66",
+      "front": "an excavation",
+      "back": "une fouille"
+    },
+    {
+      "id": "zhonmv",
+      "front": "a dig",
+      "back": "un chantier de fouilles"
+    },
+    {
+      "id": "h7udb2",
+      "front": "a manuscript",
+      "back": "un manuscrit"
+    },
+    {
+      "id": "hg8qmm",
+      "front": "a charter",
+      "back": "une charte"
+    },
+    {
+      "id": "njc82v",
+      "front": "an edict",
+      "back": "un édit"
+    },
+    {
+      "id": "jxrluf",
+      "front": "a decree",
+      "back": "un décret"
+    },
+    {
+      "id": "xknwrh",
+      "front": "a proclamation",
+      "back": "une proclamation"
+    },
+    {
+      "id": "qszw8w",
+      "front": "a dispatch",
+      "back": "une dépêche, un rapport militaire"
+    }
+  ]
+}
