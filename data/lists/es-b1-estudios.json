@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-estudios",
+  "name": "Los estudios",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "yazlds",
+      "front": "los estudios",
+      "back": "les études"
+    },
+    {
+      "id": "oirbs1",
+      "front": "la escuela",
+      "back": "l'école"
+    },
+    {
+      "id": "soi2m4",
+      "front": "el colegio",
+      "back": "l'établissement scolaire"
+    },
+    {
+      "id": "3321ed",
+      "front": "el instituto",
+      "back": "le lycée"
+    },
+    {
+      "id": "nxm8e0",
+      "front": "la universidad",
+      "back": "l'université"
+    },
+    {
+      "id": "ib1ubk",
+      "front": "la guardería",
+      "back": "la crèche"
+    },
+    {
+      "id": "ah5fn2",
+      "front": "la facultad",
+      "back": "la faculté"
+    },
+    {
+      "id": "8718m2",
+      "front": "el aula",
+      "back": "la salle de classe"
+    },
+    {
+      "id": "jmr354",
+      "front": "el laboratorio",
+      "back": "le laboratoire"
+    },
+    {
+      "id": "fo7d2k",
+      "front": "el patio de recreo",
+      "back": "la cour de récréation"
+    },
+    {
+      "id": "zaijrk",
+      "front": "el comedor escolar",
+      "back": "la cantine"
+    },
+    {
+      "id": "ui1fmr",
+      "front": "el internado",
+      "back": "l'internat"
+    },
+    {
+      "id": "cgbx1w",
+      "front": "la matrícula",
+      "back": "l'inscription"
+    },
+    {
+      "id": "p4awjf",
+      "front": "el curso",
+      "back": "l'année scolaire, le cours"
+    },
+    {
+      "id": "8um33c",
+      "front": "el nivel",
+      "back": "le niveau"
+    },
+    {
+      "id": "u5hpsp",
+      "front": "el semestre",
+      "back": "le semestre"
+    },
+    {
+      "id": "a2hivx",
+      "front": "el trimestre",
+      "back": "le trimestre"
+    },
+    {
+      "id": "apydz0",
+      "front": "la asignatura",
+      "back": "la matière"
+    },
+    {
+      "id": "6v2mll",
+      "front": "las matemáticas",
+      "back": "les mathématiques"
+    },
+    {
+      "id": "m1cri5",
+      "front": "la historia",
+      "back": "l'histoire"
+    },
+    {
+      "id": "ap1lsd",
+      "front": "la geografía",
+      "back": "la géographie"
+    },
+    {
+      "id": "pyvy9g",
+      "front": "la lengua castellana",
+      "back": "l’espagnol (matière)"
+    },
+    {
+      "id": "fp2gb9",
+      "front": "la literatura",
+      "back": "la littérature"
+    },
+    {
+      "id": "n76f89",
+      "front": "la filosofía",
+      "back": "la philosophie"
+    },
+    {
+      "id": "8xu9x7",
+      "front": "la física",
+      "back": "la physique"
+    },
+    {
+      "id": "t4rz47",
+      "front": "la química",
+      "back": "la chimie"
+    },
+    {
+      "id": "bcrjv7",
+      "front": "la biología",
+      "back": "la biologie"
+    },
+    {
+      "id": "olqeav",
+      "front": "la informática",
+      "back": "l'informatique"
+    },
+    {
+      "id": "ubmxaj",
+      "front": "la economía",
+      "back": "l'économie"
+    },
+    {
+      "id": "drvi1n",
+      "front": "el derecho",
+      "back": "le droit"
+    },
+    {
+      "id": "ix7gcn",
+      "front": "la medicina",
+      "back": "la médecine"
+    },
+    {
+      "id": "bunc4n",
+      "front": "el idioma extranjero",
+      "back": "la langue étrangère"
+    },
+    {
+      "id": "jd750m",
+      "front": "la educación física",
+      "back": "l'éducation physique"
+    },
+    {
+      "id": "fljms2",
+      "front": "la clase",
+      "back": "le cours, la classe"
+    },
+    {
+      "id": "lcdx3o",
+      "front": "la lección",
+      "back": "la leçon"
+    },
+    {
+      "id": "zbeq0a",
+      "front": "el ejercicio",
+      "back": "l'exercice"
+    },
+    {
+      "id": "2dpr9v",
+      "front": "los deberes",
+      "back": "les devoirs"
+    },
+    {
+      "id": "c3yjap",
+      "front": "el trabajo escrito",
+      "back": "le devoir écrit"
+    },
+    {
+      "id": "46gemi",
+      "front": "la redacción",
+      "back": "la rédaction"
+    },
+    {
+      "id": "dlb16y",
+      "front": "el resumen",
+      "back": "le résumé"
+    },
+    {
+      "id": "oilcsf",
+      "front": "el examen",
+      "back": "l'examen"
+    },
+    {
+      "id": "rkkndp",
+      "front": "la prueba",
+      "back": "le contrôle"
+    },
+    {
+      "id": "ofnmvo",
+      "front": "el aprobado",
+      "back": "la mention passable, la réussite"
+    },
+    {
+      "id": "hpb20q",
+      "front": "el suspenso",
+      "back": "l'échec"
+    },
+    {
+      "id": "rmhekw",
+      "front": "la nota",
+      "back": "la note"
+    },
+    {
+      "id": "j5rdjo",
+      "front": "la media",
+      "back": "la moyenne"
+    },
+    {
+      "id": "64fp6j",
+      "front": "el boletín de notas",
+      "back": "le bulletin scolaire"
+    },
+    {
+      "id": "s34zma",
+      "front": "el título",
+      "back": "le diplôme"
+    },
+    {
+      "id": "dpl0ml",
+      "front": "la licenciatura",
+      "back": "la licence"
+    },
+    {
+      "id": "aa3res",
+      "front": "el máster",
+      "back": "le master"
+    },
+    {
+      "id": "muvrkj",
+      "front": "el doctorado",
+      "back": "le doctorat"
+    },
+    {
+      "id": "v0f3ut",
+      "front": "la beca",
+      "back": "la bourse"
+    },
+    {
+      "id": "nuhf5w",
+      "front": "el alumno",
+      "back": "l'élève"
+    },
+    {
+      "id": "uudxcr",
+      "front": "el estudiante",
+      "back": "l'étudiant"
+    },
+    {
+      "id": "hj5g7h",
+      "front": "el compañero de clase",
+      "back": "le camarade de classe"
+    },
+    {
+      "id": "4hkqep",
+      "front": "el director del colegio",
+      "back": "le proviseur"
+    },
+    {
+      "id": "eczlad",
+      "front": "el tutor",
+      "back": "le professeur principal"
+    },
+    {
+      "id": "il2skt",
+      "front": "el pupitre",
+      "back": "le pupitre"
+    },
+    {
+      "id": "ut6dbw",
+      "front": "la pizarra",
+      "back": "le tableau"
+    },
+    {
+      "id": "n2f9fo",
+      "front": "la tiza",
+      "back": "la craie"
+    },
+    {
+      "id": "25awzb",
+      "front": "el cuaderno",
+      "back": "le cahier"
+    },
+    {
+      "id": "9mvf50",
+      "front": "el libro de texto",
+      "back": "le manuel"
+    },
+    {
+      "id": "u64evo",
+      "front": "el bolígrafo",
+      "back": "le stylo"
+    },
+    {
+      "id": "cu7dzj",
+      "front": "el lápiz",
+      "back": "le crayon"
+    },
+    {
+      "id": "pl6miw",
+      "front": "la goma",
+      "back": "la gomme"
+    },
+    {
+      "id": "140398",
+      "front": "la regla",
+      "back": "la règle"
+    },
+    {
+      "id": "wekysx",
+      "front": "la mochila",
+      "back": "le cartable, le sac à dos"
+    },
+    {
+      "id": "awb2gs",
+      "front": "el diccionario",
+      "back": "le dictionnaire"
+    },
+    {
+      "id": "qv5imd",
+      "front": "el apunte",
+      "back": "la note (prise en cours)"
+    },
+    {
+      "id": "eg44i6",
+      "front": "el horario de clases",
+      "back": "l'emploi du temps"
+    },
+    {
+      "id": "x8qhu9",
+      "front": "la asistencia",
+      "back": "l'assiduité, la présence"
+    },
+    {
+      "id": "6qxmhp",
+      "front": "la falta",
+      "back": "l'absence"
+    },
+    {
+      "id": "5tydg7",
+      "front": "el recreo",
+      "back": "la récréation"
+    },
+    {
+      "id": "rnpd4j",
+      "front": "el castigo",
+      "back": "la punition"
+    },
+    {
+      "id": "s26fro",
+      "front": "la disciplina",
+      "back": "la discipline"
+    },
+    {
+      "id": "271w8i",
+      "front": "el esfuerzo",
+      "back": "l'effort"
+    },
+    {
+      "id": "nhzbdn",
+      "front": "la memoria",
+      "back": "la mémoire"
+    },
+    {
+      "id": "6k8f9r",
+      "front": "el conocimiento",
+      "back": "la connaissance"
+    },
+    {
+      "id": "9uvi0d",
+      "front": "el error",
+      "back": "l'erreur"
+    },
+    {
+      "id": "p1lr8h",
+      "front": "la duda",
+      "back": "le doute"
+    },
+    {
+      "id": "8akubk",
+      "front": "la respuesta",
+      "back": "la réponse"
+    },
+    {
+      "id": "c8s1zm",
+      "front": "la pregunta",
+      "back": "la question"
+    },
+    {
+      "id": "w9xlas",
+      "front": "estudiar",
+      "back": "étudier"
+    },
+    {
+      "id": "v2v21q",
+      "front": "aprender",
+      "back": "apprendre"
+    },
+    {
+      "id": "8dnbb6",
+      "front": "enseñar",
+      "back": "enseigner"
+    },
+    {
+      "id": "dexvoi",
+      "front": "explicar",
+      "back": "expliquer"
+    },
+    {
+      "id": "w0d7nz",
+      "front": "entender",
+      "back": "comprendre"
+    },
+    {
+      "id": "ed2uk3",
+      "front": "repasar",
+      "back": "réviser"
+    },
+    {
+      "id": "oijgp4",
+      "front": "memorizar",
+      "back": "mémoriser"
+    },
+    {
+      "id": "qb0p4f",
+      "front": "apuntar",
+      "back": "noter"
+    },
+    {
+      "id": "esgswh",
+      "front": "corregir",
+      "back": "corriger"
+    },
+    {
+      "id": "h874gf",
+      "front": "aprobar",
+      "back": "réussir (un examen)"
+    },
+    {
+      "id": "wqk8j3",
+      "front": "suspender",
+      "back": "échouer (à un examen)"
+    },
+    {
+      "id": "w90rmk",
+      "front": "matricularse",
+      "back": "s'inscrire"
+    },
+    {
+      "id": "7p6r7x",
+      "front": "graduarse",
+      "back": "obtenir son diplôme"
+    },
+    {
+      "id": "5ktjdw",
+      "front": "faltar a clase",
+      "back": "manquer le cours"
+    },
+    {
+      "id": "4b3y7q",
+      "front": "copiar",
+      "back": "copier, tricher"
+    },
+    {
+      "id": "71zp4o",
+      "front": "sacar buenas notas",
+      "back": "avoir de bonnes notes"
+    },
+    {
+      "id": "wkjc5g",
+      "front": "obligatorio",
+      "back": "obligatoire"
+    },
+    {
+      "id": "5adlom",
+      "front": "la investigación",
+      "back": "la recherche"
+    }
+  ]
+}
