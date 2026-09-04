@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-food-senses",
+  "name": "Food, Drink and the Senses",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "3kptrb",
+      "front": "to sear",
+      "back": "saisir (à feu vif)"
+    },
+    {
+      "id": "nuair5",
+      "front": "to sauté",
+      "back": "faire sauter"
+    },
+    {
+      "id": "63qqot",
+      "front": "to braise",
+      "back": "braiser"
+    },
+    {
+      "id": "ug6buh",
+      "front": "to poach",
+      "back": "pocher"
+    },
+    {
+      "id": "6jvf67",
+      "front": "to blanch",
+      "back": "blanchir"
+    },
+    {
+      "id": "12ahtu",
+      "front": "to simmer",
+      "back": "mijoter"
+    },
+    {
+      "id": "tojgjw",
+      "front": "to reduce a sauce",
+      "back": "faire réduire une sauce"
+    },
+    {
+      "id": "ucsbgv",
+      "front": "to deglaze",
+      "back": "déglacer"
+    },
+    {
+      "id": "p5wkyf",
+      "front": "to caramelise",
+      "back": "caraméliser"
+    },
+    {
+      "id": "tubeok",
+      "front": "to render fat",
+      "back": "faire fondre la graisse"
+    },
+    {
+      "id": "29rx5f",
+      "front": "to baste",
+      "back": "arroser (une viande)"
+    },
+    {
+      "id": "xzi0pj",
+      "front": "to marinate",
+      "back": "mariner"
+    },
+    {
+      "id": "u42wlf",
+      "front": "to cure",
+      "back": "saler, saumurer"
+    },
+    {
+      "id": "pysfn4",
+      "front": "to brine",
+      "back": "mettre en saumure"
+    },
+    {
+      "id": "c72x69",
+      "front": "to ferment",
+      "back": "fermenter"
+    },
+    {
+      "id": "rctflk",
+      "front": "to pickle",
+      "back": "mettre au vinaigre"
+    },
+    {
+      "id": "03tf3s",
+      "front": "to proof dough",
+      "back": "laisser lever la pâte"
+    },
+    {
+      "id": "ujgu6y",
+      "front": "to knead",
+      "back": "pétrir"
+    },
+    {
+      "id": "7omzac",
+      "front": "to fold in",
+      "back": "incorporer délicatement"
+    },
+    {
+      "id": "xbn3b7",
+      "front": "to whisk",
+      "back": "fouetter"
+    },
+    {
+      "id": "z81ioj",
+      "front": "to emulsify",
+      "back": "émulsionner"
+    },
+    {
+      "id": "fj5zvp",
+      "front": "to temper chocolate",
+      "back": "tempérer le chocolat"
+    },
+    {
+      "id": "9n4me9",
+      "front": "to julienne",
+      "back": "tailler en julienne"
+    },
+    {
+      "id": "0u6imo",
+      "front": "to dice",
+      "back": "couper en dés"
+    },
+    {
+      "id": "0xgbl2",
+      "front": "to mince",
+      "back": "hacher menu"
+    },
+    {
+      "id": "22ook7",
+      "front": "to zest",
+      "back": "zester"
+    },
+    {
+      "id": "o3nujj",
+      "front": "to infuse",
+      "back": "infuser"
+    },
+    {
+      "id": "hw4e0b",
+      "front": "to macerate",
+      "back": "macérer"
+    },
+    {
+      "id": "g3i52x",
+      "front": "to garnish",
+      "back": "garnir"
+    },
+    {
+      "id": "3aq93h",
+      "front": "to plate up",
+      "back": "dresser une assiette"
+    },
+    {
+      "id": "p89441",
+      "front": "a roux",
+      "back": "un roux"
+    },
+    {
+      "id": "vw8pih",
+      "front": "a stock",
+      "back": "un fond, un bouillon"
+    },
+    {
+      "id": "5mqnm8",
+      "front": "a broth",
+      "back": "un bouillon"
+    },
+    {
+      "id": "zgdvwg",
+      "front": "a consommé",
+      "back": "un consommé"
+    },
+    {
+      "id": "9alug9",
+      "front": "a coulis",
+      "back": "un coulis"
+    },
+    {
+      "id": "0xtqk9",
+      "front": "a reduction",
+      "back": "une réduction"
+    },
+    {
+      "id": "57pqbp",
+      "front": "a vinaigrette",
+      "back": "une vinaigrette"
+    },
+    {
+      "id": "gtgyam",
+      "front": "a marinade",
+      "back": "une marinade"
+    },
+    {
+      "id": "tub6sx",
+      "front": "a rub",
+      "back": "un mélange d'épices à frotter"
+    },
+    {
+      "id": "w8f433",
+      "front": "a garnish",
+      "back": "une garniture"
+    },
+    {
+      "id": "r4io4i",
+      "front": "a crumb",
+      "back": "une mie, une chapelure"
+    },
+    {
+      "id": "yoc68s",
+      "front": "a crust",
+      "back": "une croûte"
+    },
+    {
+      "id": "w7twh7",
+      "front": "a glaze on food",
+      "back": "un glaçage"
+    },
+    {
+      "id": "lo2axu",
+      "front": "a mouthfeel",
+      "back": "une texture en bouche"
+    },
+    {
+      "id": "tashcp",
+      "front": "a palate",
+      "back": "un palais"
+    },
+    {
+      "id": "ezlq2l",
+      "front": "an aftertaste",
+      "back": "un arrière-goût"
+    },
+    {
+      "id": "xtkjlf",
+      "front": "a finish",
+      "back": "une finale (en dégustation)"
+    },
+    {
+      "id": "l5zcjt",
+      "front": "a bouquet",
+      "back": "un bouquet (arômes)"
+    },
+    {
+      "id": "ly3qpe",
+      "front": "an aroma",
+      "back": "un arôme"
+    },
+    {
+      "id": "1jxzk9",
+      "front": "a nose",
+      "back": "un nez (en dégustation)"
+    },
+    {
+      "id": "lha0oa",
+      "front": "astringent",
+      "back": "astringent"
+    },
+    {
+      "id": "ie66eq",
+      "front": "tannic",
+      "back": "tannique"
+    },
+    {
+      "id": "0rt55n",
+      "front": "acidic",
+      "back": "acide"
+    },
+    {
+      "id": "p5xav0",
+      "front": "tart",
+      "back": "acidulé"
+    },
+    {
+      "id": "omhlxe",
+      "front": "piquant",
+      "back": "piquant"
+    },
+    {
+      "id": "dfx8wi",
+      "front": "pungent",
+      "back": "âcre, piquant"
+    },
+    {
+      "id": "yjk1o3",
+      "front": "savoury",
+      "back": "salé, savoureux"
+    },
+    {
+      "id": "h3edmj",
+      "front": "umami",
+      "back": "l'umami"
+    },
+    {
+      "id": "w7cktr",
+      "front": "unctuous in texture",
+      "back": "onctueux"
+    },
+    {
+      "id": "lw2r6r",
+      "front": "velvety",
+      "back": "velouté"
+    },
+    {
+      "id": "57q7gc",
+      "front": "silky",
+      "back": "soyeux"
+    },
+    {
+      "id": "4ir41s",
+      "front": "crisp",
+      "back": "croquant"
+    },
+    {
+      "id": "rp9nql",
+      "front": "brittle",
+      "back": "cassant"
+    },
+    {
+      "id": "jwa10b",
+      "front": "chewy",
+      "back": "moelleux, qui se mâche"
+    },
+    {
+      "id": "mkuxv2",
+      "front": "succulent",
+      "back": "succulent"
+    },
+    {
+      "id": "7u11bt",
+      "front": "tender",
+      "back": "tendre"
+    },
+    {
+      "id": "4o9xts",
+      "front": "gamey",
+      "back": "qui a un goût de gibier"
+    },
+    {
+      "id": "17p1zw",
+      "front": "rancid",
+      "back": "rance"
+    },
+    {
+      "id": "s18kkx",
+      "front": "cloying",
+      "back": "écœurant de sucre"
+    },
+    {
+      "id": "xiiueg",
+      "front": "insipid",
+      "back": "insipide"
+    },
+    {
+      "id": "jhx7ar",
+      "front": "bland",
+      "back": "fade"
+    },
+    {
+      "id": "gms8vx",
+      "front": "full of body",
+      "back": "corsé, charpenté"
+    },
+    {
+      "id": "fe63g7",
+      "front": "full-bodied",
+      "back": "corsé"
+    },
+    {
+      "id": "9stizm",
+      "front": "light-bodied",
+      "back": "léger"
+    },
+    {
+      "id": "8ct0dj",
+      "front": "mellow",
+      "back": "moelleux, doux"
+    },
+    {
+      "id": "7txfzo",
+      "front": "sharp",
+      "back": "piquant, vif"
+    },
+    {
+      "id": "y1cdtq",
+      "front": "smoky",
+      "back": "fumé"
+    },
+    {
+      "id": "j466k5",
+      "front": "earthy",
+      "back": "terreux"
+    },
+    {
+      "id": "bubd0w",
+      "front": "floral",
+      "back": "floral"
+    },
+    {
+      "id": "0tepl1",
+      "front": "herbaceous",
+      "back": "herbacé"
+    },
+    {
+      "id": "fp1fh8",
+      "front": "citrusy",
+      "back": "citronné"
+    },
+    {
+      "id": "xhu08e",
+      "front": "a vintage",
+      "back": "un millésime"
+    },
+    {
+      "id": "y95muf",
+      "front": "a terroir",
+      "back": "un terroir"
+    },
+    {
+      "id": "oukk7j",
+      "front": "a cellar",
+      "back": "une cave"
+    },
+    {
+      "id": "rb5pvb",
+      "front": "decanting",
+      "back": "la décantation"
+    },
+    {
+      "id": "cgi7kn",
+      "front": "a sommelier",
+      "back": "un sommelier"
+    },
+    {
+      "id": "tpzlxp",
+      "front": "a tasting note",
+      "back": "une note de dégustation"
+    },
+    {
+      "id": "7mzr2b",
+      "front": "a pairing",
+      "back": "un accord mets-vins"
+    },
+    {
+      "id": "5y3zdr",
+      "front": "a course",
+      "back": "un plat, un service"
+    },
+    {
+      "id": "kjprph",
+      "front": "an amuse-bouche",
+      "back": "un amuse-bouche"
+    },
+    {
+      "id": "i7fbrk",
+      "front": "a palate cleanser",
+      "back": "un rince-bouche, un trou normand"
+    },
+    {
+      "id": "c9ppep",
+      "front": "a tasting menu",
+      "back": "un menu dégustation"
+    },
+    {
+      "id": "23o8sg",
+      "front": "provenance of produce",
+      "back": "la provenance des produits"
+    },
+    {
+      "id": "a8y2rj",
+      "front": "seasonality",
+      "back": "la saisonnalité"
+    },
+    {
+      "id": "njotdf",
+      "front": "a foodstuff",
+      "back": "une denrée alimentaire"
+    },
+    {
+      "id": "w27y3d",
+      "front": "a delicacy",
+      "back": "un mets délicat"
+    },
+    {
+      "id": "l81m03",
+      "front": "a staple",
+      "back": "un aliment de base"
+    },
+    {
+      "id": "24ynm8",
+      "front": "a condiment",
+      "back": "un condiment"
+    },
+    {
+      "id": "fmtc53",
+      "front": "a preserve",
+      "back": "une conserve, une confiture"
+    },
+    {
+      "id": "mliki3",
+      "front": "offal",
+      "back": "les abats"
+    }
+  ]
+}
