@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-science-technology",
+  "name": "Science and Technology",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "920c98",
+      "front": "science",
+      "back": "la science"
+    },
+    {
+      "id": "6cc356",
+      "front": "a scientist",
+      "back": "un scientifique"
+    },
+    {
+      "id": "c91998",
+      "front": "a researcher",
+      "back": "un chercheur"
+    },
+    {
+      "id": "019ad4",
+      "front": "research",
+      "back": "la recherche"
+    },
+    {
+      "id": "b83c2a",
+      "front": "a laboratory",
+      "back": "un laboratoire"
+    },
+    {
+      "id": "4e802e",
+      "front": "an experiment",
+      "back": "une expérience"
+    },
+    {
+      "id": "dfaa0c",
+      "front": "to carry out an experiment",
+      "back": "mener une expérience"
+    },
+    {
+      "id": "a5bde9",
+      "front": "a hypothesis",
+      "back": "une hypothèse"
+    },
+    {
+      "id": "ec1f95",
+      "front": "a theory",
+      "back": "une théorie"
+    },
+    {
+      "id": "49b7ed",
+      "front": "a law",
+      "back": "une loi"
+    },
+    {
+      "id": "1f3687",
+      "front": "a model",
+      "back": "un modèle"
+    },
+    {
+      "id": "36a232",
+      "front": "a variable",
+      "back": "une variable"
+    },
+    {
+      "id": "885242",
+      "front": "a control group",
+      "back": "un groupe témoin"
+    },
+    {
+      "id": "f6eba4",
+      "front": "a sample",
+      "back": "un échantillon"
+    },
+    {
+      "id": "b19647",
+      "front": "a clinical trial",
+      "back": "un essai clinique"
+    },
+    {
+      "id": "c10077",
+      "front": "data",
+      "back": "les données"
+    },
+    {
+      "id": "a0c19a",
+      "front": "a finding",
+      "back": "un résultat, une conclusion"
+    },
+    {
+      "id": "880318",
+      "front": "a result",
+      "back": "un résultat"
+    },
+    {
+      "id": "2b8e36",
+      "front": "an outcome",
+      "back": "un résultat, une issue"
+    },
+    {
+      "id": "eede0e",
+      "front": "accuracy",
+      "back": "l'exactitude, la précision"
+    },
+    {
+      "id": "ada970",
+      "front": "reliable",
+      "back": "fiable"
+    },
+    {
+      "id": "6ece15",
+      "front": "to replicate",
+      "back": "reproduire"
+    },
+    {
+      "id": "bc3cea",
+      "front": "peer review",
+      "back": "l'évaluation par les pairs"
+    },
+    {
+      "id": "9dfb23",
+      "front": "a paper",
+      "back": "un article scientifique"
+    },
+    {
+      "id": "856780",
+      "front": "a journal",
+      "back": "une revue"
+    },
+    {
+      "id": "093b5e",
+      "front": "to publish findings",
+      "back": "publier des résultats"
+    },
+    {
+      "id": "5d8963",
+      "front": "a breakthrough",
+      "back": "une percée, une découverte majeure"
+    },
+    {
+      "id": "ba864d",
+      "front": "a discovery",
+      "back": "une découverte"
+    },
+    {
+      "id": "b0fca1",
+      "front": "to discover",
+      "back": "découvrir"
+    },
+    {
+      "id": "2dd76c",
+      "front": "an invention",
+      "back": "une invention"
+    },
+    {
+      "id": "d03a83",
+      "front": "to invent",
+      "back": "inventer"
+    },
+    {
+      "id": "45ac92",
+      "front": "innovation",
+      "back": "l'innovation"
+    },
+    {
+      "id": "4e7223",
+      "front": "a patent",
+      "back": "un brevet"
+    },
+    {
+      "id": "aa247d",
+      "front": "a prototype",
+      "back": "un prototype"
+    },
+    {
+      "id": "90327c",
+      "front": "to develop",
+      "back": "mettre au point, développer"
+    },
+    {
+      "id": "9095b2",
+      "front": "a device",
+      "back": "un appareil, un dispositif"
+    },
+    {
+      "id": "c365f2",
+      "front": "equipment",
+      "back": "le matériel, l'équipement"
+    },
+    {
+      "id": "8c84ce",
+      "front": "a microscope",
+      "back": "un microscope"
+    },
+    {
+      "id": "4d6593",
+      "front": "a telescope",
+      "back": "un télescope"
+    },
+    {
+      "id": "ae8700",
+      "front": "a lens",
+      "back": "une lentille"
+    },
+    {
+      "id": "b98f20",
+      "front": "a sensor",
+      "back": "un capteur"
+    },
+    {
+      "id": "b1f500",
+      "front": "matter",
+      "back": "la matière"
+    },
+    {
+      "id": "32aea1",
+      "front": "an atom",
+      "back": "un atome"
+    },
+    {
+      "id": "a0c63d",
+      "front": "a molecule",
+      "back": "une molécule"
+    },
+    {
+      "id": "f9f144",
+      "front": "a particle",
+      "back": "une particule"
+    },
+    {
+      "id": "f1c2a4",
+      "front": "an element",
+      "back": "un élément"
+    },
+    {
+      "id": "c6cda4",
+      "front": "a compound",
+      "back": "un composé"
+    },
+    {
+      "id": "fbf918",
+      "front": "a chemical reaction",
+      "back": "une réaction chimique"
+    },
+    {
+      "id": "0be88e",
+      "front": "a solution",
+      "back": "une solution"
+    },
+    {
+      "id": "0bb96d",
+      "front": "to dissolve",
+      "back": "dissoudre"
+    },
+    {
+      "id": "3afb47",
+      "front": "density",
+      "back": "la densité"
+    },
+    {
+      "id": "a23295",
+      "front": "mass",
+      "back": "la masse"
+    },
+    {
+      "id": "ea18b3",
+      "front": "gravity",
+      "back": "la gravité, la pesanteur"
+    },
+    {
+      "id": "d77575",
+      "front": "force",
+      "back": "la force"
+    },
+    {
+      "id": "6575b6",
+      "front": "energy",
+      "back": "l'énergie"
+    },
+    {
+      "id": "300c48",
+      "front": "friction",
+      "back": "le frottement"
+    },
+    {
+      "id": "c6a885",
+      "front": "a wave",
+      "back": "une onde"
+    },
+    {
+      "id": "f0f47f",
+      "front": "radiation",
+      "back": "le rayonnement"
+    },
+    {
+      "id": "6a5485",
+      "front": "a magnetic field",
+      "back": "un champ magnétique"
+    },
+    {
+      "id": "fda8e0",
+      "front": "a circuit",
+      "back": "un circuit"
+    },
+    {
+      "id": "200c63",
+      "front": "voltage",
+      "back": "la tension"
+    },
+    {
+      "id": "1e37d5",
+      "front": "a cell",
+      "back": "une cellule"
+    },
+    {
+      "id": "285ca7",
+      "front": "a gene",
+      "back": "un gène"
+    },
+    {
+      "id": "45dde9",
+      "front": "DNA",
+      "back": "l'ADN"
+    },
+    {
+      "id": "1e6e6c",
+      "front": "a chromosome",
+      "back": "un chromosome"
+    },
+    {
+      "id": "e0eb52",
+      "front": "heredity",
+      "back": "l'hérédité"
+    },
+    {
+      "id": "7a97e5",
+      "front": "evolution",
+      "back": "l'évolution"
+    },
+    {
+      "id": "c1e23e",
+      "front": "natural selection",
+      "back": "la sélection naturelle"
+    },
+    {
+      "id": "a0bffe",
+      "front": "an organism",
+      "back": "un organisme"
+    },
+    {
+      "id": "b9565b",
+      "front": "a bacterium",
+      "back": "une bactérie"
+    },
+    {
+      "id": "85f9cf",
+      "front": "a virus",
+      "back": "un virus"
+    },
+    {
+      "id": "1fa2d7",
+      "front": "a vaccine",
+      "back": "un vaccin"
+    },
+    {
+      "id": "3a9dd3",
+      "front": "an antibody",
+      "back": "un anticorps"
+    },
+    {
+      "id": "ca5873",
+      "front": "metabolism",
+      "back": "le métabolisme"
+    },
+    {
+      "id": "cc708c",
+      "front": "a tissue",
+      "back": "un tissu"
+    },
+    {
+      "id": "267621",
+      "front": "an enzyme",
+      "back": "une enzyme"
+    },
+    {
+      "id": "cfe2e8",
+      "front": "the solar system",
+      "back": "le système solaire"
+    },
+    {
+      "id": "507701",
+      "front": "an orbit",
+      "back": "une orbite"
+    },
+    {
+      "id": "2256cd",
+      "front": "a galaxy",
+      "back": "une galaxie"
+    },
+    {
+      "id": "52186e",
+      "front": "a comet",
+      "back": "une comète"
+    },
+    {
+      "id": "cef7d6",
+      "front": "a satellite",
+      "back": "un satellite"
+    },
+    {
+      "id": "13cfb8",
+      "front": "a spacecraft",
+      "back": "un vaisseau spatial"
+    },
+    {
+      "id": "d89023",
+      "front": "a probe",
+      "back": "une sonde"
+    },
+    {
+      "id": "050fff",
+      "front": "a launch",
+      "back": "un lancement"
+    },
+    {
+      "id": "5a27b3",
+      "front": "computing",
+      "back": "l'informatique"
+    },
+    {
+      "id": "04b5b4",
+      "front": "a computer program",
+      "back": "un programme informatique"
+    },
+    {
+      "id": "9d820a",
+      "front": "software",
+      "back": "les logiciels"
+    },
+    {
+      "id": "6c9a2d",
+      "front": "hardware",
+      "back": "le matériel informatique"
+    },
+    {
+      "id": "def5db",
+      "front": "an algorithm",
+      "back": "un algorithme"
+    },
+    {
+      "id": "f295be",
+      "front": "a database",
+      "back": "une base de données"
+    },
+    {
+      "id": "bfd5d8",
+      "front": "a network",
+      "back": "un réseau"
+    },
+    {
+      "id": "1ebb43",
+      "front": "a server",
+      "back": "un serveur"
+    },
+    {
+      "id": "b35f57",
+      "front": "artificial intelligence",
+      "back": "l'intelligence artificielle"
+    },
+    {
+      "id": "d5c8c4",
+      "front": "machine learning",
+      "back": "l'apprentissage automatique"
+    },
+    {
+      "id": "399abb",
+      "front": "a robot",
+      "back": "un robot"
+    },
+    {
+      "id": "918f2c",
+      "front": "automation",
+      "back": "l'automatisation"
+    },
+    {
+      "id": "cc869f",
+      "front": "a chip",
+      "back": "une puce"
+    },
+    {
+      "id": "0081ff",
+      "front": "processing power",
+      "back": "la puissance de calcul"
+    },
+    {
+      "id": "3a7910",
+      "front": "a simulation",
+      "back": "une simulation"
+    },
+    {
+      "id": "39b718",
+      "front": "engineering",
+      "back": "l'ingénierie"
+    }
+  ]
+}
