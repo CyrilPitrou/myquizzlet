@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-body-health",
+  "name": "The Body and Health",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "247wjh",
+      "front": "1:the body",
+      "back": "le corps"
+    },
+    {
+      "id": "k2tvqr",
+      "front": "2:the head",
+      "back": "la tête"
+    },
+    {
+      "id": "d946w4",
+      "front": "3:the hair",
+      "back": "les cheveux"
+    },
+    {
+      "id": "i45yb8",
+      "front": "4:the face",
+      "back": "le visage"
+    },
+    {
+      "id": "bxb30s",
+      "front": "5:the forehead",
+      "back": "le front"
+    },
+    {
+      "id": "2hroy5",
+      "front": "6:an eye",
+      "back": "un œil"
+    },
+    {
+      "id": "yutppv",
+      "front": "7:an eyebrow",
+      "back": "un sourcil"
+    },
+    {
+      "id": "3fympq",
+      "front": "8:an eyelash",
+      "back": "un cil"
+    },
+    {
+      "id": "8aezhg",
+      "front": "9:an ear",
+      "back": "une oreille"
+    },
+    {
+      "id": "i5cedo",
+      "front": "10:the nose",
+      "back": "le nez"
+    },
+    {
+      "id": "mp831s",
+      "front": "11:the mouth",
+      "back": "la bouche"
+    },
+    {
+      "id": "ta7kde",
+      "front": "12:a lip",
+      "back": "une lèvre"
+    },
+    {
+      "id": "c1csva",
+      "front": "13:a tooth",
+      "back": "une dent"
+    },
+    {
+      "id": "xupxox",
+      "front": "14:the tongue",
+      "back": "la langue"
+    },
+    {
+      "id": "10abdj",
+      "front": "15:the chin",
+      "back": "le menton"
+    },
+    {
+      "id": "kggy89",
+      "front": "16:the cheek",
+      "back": "la joue"
+    },
+    {
+      "id": "hdksab",
+      "front": "17:the neck",
+      "back": "le cou"
+    },
+    {
+      "id": "u8w34b",
+      "front": "18:the throat",
+      "back": "la gorge"
+    },
+    {
+      "id": "2g73bg",
+      "front": "19:a shoulder",
+      "back": "une épaule"
+    },
+    {
+      "id": "7sho90",
+      "front": "20:an arm",
+      "back": "un bras"
+    },
+    {
+      "id": "cl12zm",
+      "front": "21:an elbow",
+      "back": "un coude"
+    },
+    {
+      "id": "vi3yr5",
+      "front": "22:a wrist",
+      "back": "un poignet"
+    },
+    {
+      "id": "5d1qgv",
+      "front": "23:a hand",
+      "back": "une main"
+    },
+    {
+      "id": "gm1ctf",
+      "front": "24:a finger",
+      "back": "un doigt"
+    },
+    {
+      "id": "67p67i",
+      "front": "25:a thumb",
+      "back": "un pouce"
+    },
+    {
+      "id": "y730ul",
+      "front": "26:a nail",
+      "back": "un ongle"
+    },
+    {
+      "id": "xpd6uf",
+      "front": "27:the chest",
+      "back": "la poitrine"
+    },
+    {
+      "id": "n275ex",
+      "front": "28:the back",
+      "back": "le dos"
+    },
+    {
+      "id": "9m70cf",
+      "front": "29:the stomach",
+      "back": "le ventre, l'estomac"
+    },
+    {
+      "id": "6ulbi4",
+      "front": "30:the waist",
+      "back": "la taille"
+    },
+    {
+      "id": "ymmhvz",
+      "front": "31:a hip",
+      "back": "une hanche"
+    },
+    {
+      "id": "pj8nic",
+      "front": "32:a leg",
+      "back": "une jambe"
+    },
+    {
+      "id": "4k6z5m",
+      "front": "33:a knee",
+      "back": "un genou"
+    },
+    {
+      "id": "4wtp3k",
+      "front": "34:an ankle",
+      "back": "une cheville"
+    },
+    {
+      "id": "35sz21",
+      "front": "35:a foot",
+      "back": "un pied"
+    },
+    {
+      "id": "9xglkg",
+      "front": "36:a toe",
+      "back": "un orteil"
+    },
+    {
+      "id": "7qenhs",
+      "front": "37:the skin",
+      "back": "la peau"
+    },
+    {
+      "id": "umi87u",
+      "front": "38:a bone",
+      "back": "un os"
+    },
+    {
+      "id": "0ivhv4",
+      "front": "39:a muscle",
+      "back": "un muscle"
+    },
+    {
+      "id": "u23csy",
+      "front": "40:the heart",
+      "back": "le cœur"
+    },
+    {
+      "id": "lmnzdj",
+      "front": "41:the brain",
+      "back": "le cerveau"
+    },
+    {
+      "id": "cuyic8",
+      "front": "42:a lung",
+      "back": "un poumon"
+    },
+    {
+      "id": "tdzkm4",
+      "front": "43:the liver",
+      "back": "le foie"
+    },
+    {
+      "id": "4iuwvz",
+      "front": "44:the blood",
+      "back": "le sang"
+    },
+    {
+      "id": "o5hgxe",
+      "front": "45:a nerve",
+      "back": "un nerf"
+    },
+    {
+      "id": "84pqel",
+      "front": "46:health",
+      "back": "la santé"
+    },
+    {
+      "id": "m1etwg",
+      "front": "47:an illness",
+      "back": "une maladie"
+    },
+    {
+      "id": "k8f66g",
+      "front": "48:a disease",
+      "back": "une maladie"
+    },
+    {
+      "id": "c7robc",
+      "front": "49:a cold",
+      "back": "un rhume"
+    },
+    {
+      "id": "k46wxo",
+      "front": "50:the flu",
+      "back": "la grippe"
+    },
+    {
+      "id": "nytsu9",
+      "front": "51:a fever",
+      "back": "une fièvre"
+    },
+    {
+      "id": "h18e9v",
+      "front": "52:a cough",
+      "back": "une toux"
+    },
+    {
+      "id": "9a8ivm",
+      "front": "53:a sore throat",
+      "back": "un mal de gorge"
+    },
+    {
+      "id": "s2bkvs",
+      "front": "54:a headache",
+      "back": "un mal de tête"
+    },
+    {
+      "id": "od58rx",
+      "front": "55:a stomach ache",
+      "back": "un mal de ventre"
+    },
+    {
+      "id": "8b8i00",
+      "front": "56:a pain",
+      "back": "une douleur"
+    },
+    {
+      "id": "gertni",
+      "front": "58:a wound",
+      "back": "une blessure, une plaie"
+    },
+    {
+      "id": "l612hw",
+      "front": "59:a bruise",
+      "back": "un bleu, une ecchymose"
+    },
+    {
+      "id": "rn1lvy",
+      "front": "60:a burn",
+      "back": "une brûlure"
+    },
+    {
+      "id": "ek7sss",
+      "front": "61:an allergy",
+      "back": "une allergie"
+    },
+    {
+      "id": "vgb5go",
+      "front": "62:a rash",
+      "back": "une éruption cutanée"
+    },
+    {
+      "id": "kooxrs",
+      "front": "63:a symptom",
+      "back": "un symptôme"
+    },
+    {
+      "id": "i84khj",
+      "front": "64:a diagnosis",
+      "back": "un diagnostic"
+    },
+    {
+      "id": "lmf3rz",
+      "front": "65:a treatment",
+      "back": "un traitement"
+    },
+    {
+      "id": "vfbzu5",
+      "front": "66:a doctor",
+      "back": "un médecin"
+    },
+    {
+      "id": "fdb85s",
+      "front": "67:a nurse",
+      "back": "un infirmier, une infirmière"
+    },
+    {
+      "id": "u0yebt",
+      "front": "68:a dentist",
+      "back": "un dentiste"
+    },
+    {
+      "id": "i2dh3l",
+      "front": "69:a surgeon",
+      "back": "un chirurgien"
+    },
+    {
+      "id": "upqjsn",
+      "front": "70:a patient",
+      "back": "un patient"
+    },
+    {
+      "id": "7t54vw",
+      "front": "71:a hospital",
+      "back": "un hôpital"
+    },
+    {
+      "id": "skzd1g",
+      "front": "72:a surgery",
+      "back": "un cabinet médical"
+    },
+    {
+      "id": "p4ju5z",
+      "front": "73:a chemist",
+      "back": "une pharmacie"
+    },
+    {
+      "id": "bla5c5",
+      "front": "74:a prescription",
+      "back": "une ordonnance"
+    },
+    {
+      "id": "875t0w",
+      "front": "75:a medicine",
+      "back": "un médicament"
+    },
+    {
+      "id": "fzdihq",
+      "front": "76:a pill",
+      "back": "un comprimé, une pilule"
+    },
+    {
+      "id": "1y97t4",
+      "front": "77:a plaster",
+      "back": "un pansement"
+    },
+    {
+      "id": "rtpjsa",
+      "front": "78:an injection",
+      "back": "une piqûre"
+    },
+    {
+      "id": "cpy1j2",
+      "front": "79:an operation",
+      "back": "une opération"
+    },
+    {
+      "id": "dfob4z",
+      "front": "80:an X-ray",
+      "back": "une radiographie"
+    },
+    {
+      "id": "n8bk85",
+      "front": "81:an appointment",
+      "back": "un rendez-vous"
+    },
+    {
+      "id": "e9v3i8",
+      "front": "82:an ambulance",
+      "back": "une ambulance"
+    },
+    {
+      "id": "t1503g",
+      "front": "83:first aid",
+      "back": "les premiers secours"
+    },
+    {
+      "id": "j5qfji",
+      "front": "84:to be ill",
+      "back": "être malade"
+    },
+    {
+      "id": "j4mq11",
+      "front": "85:to catch a cold",
+      "back": "attraper un rhume"
+    },
+    {
+      "id": "efemr2",
+      "front": "86:to hurt",
+      "back": "faire mal, blesser"
+    },
+    {
+      "id": "u22ugh",
+      "front": "87:to ache",
+      "back": "faire mal"
+    },
+    {
+      "id": "v7sq8b",
+      "front": "88:to bleed",
+      "back": "saigner"
+    },
+    {
+      "id": "17vn4t",
+      "front": "89:to sneeze",
+      "back": "éternuer"
+    },
+    {
+      "id": "9f9m44",
+      "front": "90:to cough",
+      "back": "tousser"
+    },
+    {
+      "id": "obrgwm",
+      "front": "91:to breathe",
+      "back": "respirer"
+    },
+    {
+      "id": "td05vs",
+      "front": "92:to swallow",
+      "back": "avaler"
+    },
+    {
+      "id": "vrw5hz",
+      "front": "93:to recover",
+      "back": "guérir, se rétablir"
+    },
+    {
+      "id": "wg5t0q",
+      "front": "94:to heal",
+      "back": "cicatriser, guérir"
+    },
+    {
+      "id": "1fpy77",
+      "front": "95:to cure",
+      "back": "guérir, soigner"
+    },
+    {
+      "id": "6ky57l",
+      "front": "96:to treat",
+      "back": "soigner, traiter"
+    },
+    {
+      "id": "t9oyv8",
+      "front": "97:to feel sick",
+      "back": "avoir mal au cœur"
+    },
+    {
+      "id": "i2blow",
+      "front": "98:to faint",
+      "back": "s'évanouir"
+    },
+    {
+      "id": "05top5",
+      "front": "99:healthy",
+      "back": "sain, en bonne santé"
+    },
+    {
+      "id": "b026xw",
+      "front": "100:painful",
+      "back": "douloureux"
+    },
+    {
+      "id": "5u6ewz",
+      "front": "101:exhausted",
+      "back": "épuisé"
+    }
+  ]
+}
