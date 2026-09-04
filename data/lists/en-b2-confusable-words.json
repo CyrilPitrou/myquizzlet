@@ -1,0 +1,362 @@
+{
+  "id": "en-b2-confusable-words",
+  "name": "Confusable Words",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "84544d",
+      "front": "to affect",
+      "back": "affecter, influer sur — verbe"
+    },
+    {
+      "id": "11619c",
+      "front": "an effect",
+      "back": "un effet — nom"
+    },
+    {
+      "id": "158b0a",
+      "front": "to lie",
+      "back": "être couché, s'allonger — intransitif"
+    },
+    {
+      "id": "3b1a98",
+      "front": "to lay",
+      "back": "poser, déposer — transitif"
+    },
+    {
+      "id": "6563b3",
+      "front": "economic",
+      "back": "économique, relatif à l'économie"
+    },
+    {
+      "id": "02fc80",
+      "front": "economical",
+      "back": "économe, peu coûteux"
+    },
+    {
+      "id": "6d4ef6",
+      "front": "historic",
+      "back": "historique, qui fera date"
+    },
+    {
+      "id": "d83007",
+      "front": "historical",
+      "back": "historique, relatif à l'histoire"
+    },
+    {
+      "id": "a4ce2e",
+      "front": "classic",
+      "back": "classique, exemplaire"
+    },
+    {
+      "id": "7423a0",
+      "front": "classical",
+      "back": "classique, de l'Antiquité ou de la musique savante"
+    },
+    {
+      "id": "3a362e",
+      "front": "electric",
+      "back": "électrique, qui fonctionne à l'électricité"
+    },
+    {
+      "id": "41344b",
+      "front": "electrical",
+      "back": "électrique, relatif à l'électricité en général"
+    },
+    {
+      "id": "488b71",
+      "front": "continual",
+      "back": "répété, incessant"
+    },
+    {
+      "id": "c5291e",
+      "front": "continuous",
+      "back": "continu, ininterrompu"
+    },
+    {
+      "id": "c9cc88",
+      "front": "practical",
+      "back": "pratique, concret"
+    },
+    {
+      "id": "5cfb8f",
+      "front": "practicable",
+      "back": "réalisable, faisable"
+    },
+    {
+      "id": "d49fe9",
+      "front": "sensitive",
+      "back": "sensible, susceptible"
+    },
+    {
+      "id": "8bda5d",
+      "front": "sensible in judgement",
+      "back": "sensé, raisonnable"
+    },
+    {
+      "id": "218340",
+      "front": "imaginary",
+      "back": "imaginaire, fictif"
+    },
+    {
+      "id": "50e0ce",
+      "front": "imaginative",
+      "back": "imaginatif, plein d'imagination"
+    },
+    {
+      "id": "e99baa",
+      "front": "industrial",
+      "back": "industriel"
+    },
+    {
+      "id": "d32e32",
+      "front": "industrious in habit",
+      "back": "travailleur, assidu"
+    },
+    {
+      "id": "65c5d4",
+      "front": "literal",
+      "back": "littéral, au pied de la lettre"
+    },
+    {
+      "id": "e64dc9",
+      "front": "literate",
+      "back": "instruit, qui sait lire et écrire"
+    },
+    {
+      "id": "d64f3f",
+      "front": "literary",
+      "back": "littéraire"
+    },
+    {
+      "id": "7f84d5",
+      "front": "comprehensive in scope",
+      "back": "complet, exhaustif"
+    },
+    {
+      "id": "2cf98e",
+      "front": "comprehensible",
+      "back": "compréhensible"
+    },
+    {
+      "id": "50eb75",
+      "front": "credible",
+      "back": "crédible"
+    },
+    {
+      "id": "935669",
+      "front": "credulous",
+      "back": "crédule"
+    },
+    {
+      "id": "b1f23d",
+      "front": "ingenious",
+      "back": "ingénieux"
+    },
+    {
+      "id": "493898",
+      "front": "ingenuous",
+      "back": "candide, ingénu"
+    },
+    {
+      "id": "8b3dce",
+      "front": "judicial",
+      "back": "judiciaire"
+    },
+    {
+      "id": "752825",
+      "front": "judicious",
+      "back": "judicieux"
+    },
+    {
+      "id": "50d4d5",
+      "front": "official",
+      "back": "officiel"
+    },
+    {
+      "id": "536532",
+      "front": "officious",
+      "back": "trop zélé, importun"
+    },
+    {
+      "id": "f568ee",
+      "front": "prescribe",
+      "back": "prescrire, ordonner"
+    },
+    {
+      "id": "3219e6",
+      "front": "proscribe",
+      "back": "proscrire, interdire"
+    },
+    {
+      "id": "281de8",
+      "front": "adapt",
+      "back": "adapter, s'adapter"
+    },
+    {
+      "id": "84c9ad",
+      "front": "adopt",
+      "back": "adopter"
+    },
+    {
+      "id": "e14330",
+      "front": "elicit",
+      "back": "obtenir, susciter"
+    },
+    {
+      "id": "c26d04",
+      "front": "illicit",
+      "back": "illicite"
+    },
+    {
+      "id": "4a192a",
+      "front": "allusion",
+      "back": "une allusion"
+    },
+    {
+      "id": "dbf159",
+      "front": "illusion",
+      "back": "une illusion"
+    },
+    {
+      "id": "3190e8",
+      "front": "delusion",
+      "back": "une idée fausse, un délire"
+    },
+    {
+      "id": "77b53f",
+      "front": "eminent",
+      "back": "éminent"
+    },
+    {
+      "id": "ac1280",
+      "front": "imminent",
+      "back": "imminent"
+    },
+    {
+      "id": "8ecf33",
+      "front": "principal",
+      "back": "principal, un directeur"
+    },
+    {
+      "id": "62f7bf",
+      "front": "principle",
+      "back": "un principe"
+    },
+    {
+      "id": "3ffe68",
+      "front": "stationary",
+      "back": "immobile"
+    },
+    {
+      "id": "990b19",
+      "front": "stationery",
+      "back": "la papeterie, les fournitures"
+    },
+    {
+      "id": "a783bb",
+      "front": "complement",
+      "back": "un complément, compléter"
+    },
+    {
+      "id": "aac416",
+      "front": "compliment",
+      "back": "un compliment, complimenter"
+    },
+    {
+      "id": "0aae16",
+      "front": "council",
+      "back": "un conseil, une assemblée"
+    },
+    {
+      "id": "081cd7",
+      "front": "counsel",
+      "back": "un conseil, conseiller"
+    },
+    {
+      "id": "308676",
+      "front": "discreet",
+      "back": "discret"
+    },
+    {
+      "id": "e85110",
+      "front": "discrete",
+      "back": "distinct, séparé"
+    },
+    {
+      "id": "6b3641",
+      "front": "dependent",
+      "back": "dépendant"
+    },
+    {
+      "id": "84b071",
+      "front": "dependant",
+      "back": "une personne à charge"
+    },
+    {
+      "id": "c22582",
+      "front": "licence",
+      "back": "une licence, un permis — nom"
+    },
+    {
+      "id": "64c9c5",
+      "front": "license",
+      "back": "autoriser, délivrer un permis — verbe"
+    },
+    {
+      "id": "c97ce7",
+      "front": "practice",
+      "back": "la pratique — nom"
+    },
+    {
+      "id": "9ab935",
+      "front": "practise",
+      "back": "pratiquer, s'exercer — verbe"
+    },
+    {
+      "id": "65219d",
+      "front": "advice",
+      "back": "un conseil — nom"
+    },
+    {
+      "id": "1fc60a",
+      "front": "advise",
+      "back": "conseiller — verbe"
+    },
+    {
+      "id": "3b944b",
+      "front": "device",
+      "back": "un appareil — nom"
+    },
+    {
+      "id": "950ab8",
+      "front": "devise a plan",
+      "back": "concevoir un plan — verbe"
+    },
+    {
+      "id": "52fadc",
+      "front": "prophecy",
+      "back": "une prophétie — nom"
+    },
+    {
+      "id": "a549c1",
+      "front": "prophesy",
+      "back": "prophétiser — verbe"
+    },
+    {
+      "id": "3b826e",
+      "front": "loose",
+      "back": "lâche, desserré"
+    },
+    {
+      "id": "455ef4",
+      "front": "lose",
+      "back": "perdre"
+    }
+  ]
+}
