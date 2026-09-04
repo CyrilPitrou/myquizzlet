@@ -16,22 +16,22 @@
     },
     {
       "id": "bav40r",
-      "front": "An industrialist",
+      "front": "an industrialist",
       "back": "un industriel"
     },
     {
       "id": "b3vfyt",
-      "front": "Automation",
-      "back": "automatisation"
+      "front": "automation",
+      "back": "l'automatisation"
     },
     {
       "id": "eme8aw",
       "front": "A company",
-      "back": "société"
+      "back": "une société"
     },
     {
       "id": "fl1y1f",
-      "front": "Corporate life",
+      "front": "corporate life",
       "back": "la vie dans l'entreprise"
     },
     {
@@ -41,12 +41,12 @@
     },
     {
       "id": "ppptf1",
-      "front": "Raw material",
-      "back": "matière première"
+      "front": "raw material",
+      "back": "la matière première"
     },
     {
       "id": "90aw5r",
-      "front": "A (nuclear) plant",
+      "front": "A nuclear plant",
       "back": "une centrale nucléaire"
     },
     {
@@ -61,12 +61,12 @@
     },
     {
       "id": "u2n6et",
-      "front": "Spare parts",
-      "back": "pièces de rechange"
+      "front": "spare parts",
+      "back": "des pièces de rechange"
     },
     {
       "id": "r13xw3",
-      "front": "A store floor",
+      "front": "the shop floor",
       "back": "un atelier"
     },
     {
@@ -76,47 +76,47 @@
     },
     {
       "id": "znn7j0",
-      "front": "The construction industry",
+      "front": "the construction industry",
       "back": "le secteur de la construction"
     },
     {
       "id": "4a8qit",
-      "front": "The motor industry",
+      "front": "the motor industry",
       "back": "l'industrie automobile"
     },
     {
       "id": "xx1ar5",
-      "front": "The oil industry",
+      "front": "the oil industry",
       "back": "l'industrie pétrolière"
     },
     {
       "id": "o47tct",
-      "front": "The shipping industry",
-      "back": "L'industrie maritime"
+      "front": "the shipping industry",
+      "back": "l'industrie maritime"
     },
     {
       "id": "yd4wgf",
-      "front": "To convene",
-      "back": "Convoquer,réunir"
+      "front": "to convene",
+      "back": "convoquer, réunir"
     },
     {
       "id": "4frhbx",
-      "front": "To schedule an appointment",
+      "front": "to schedule an appointment",
       "back": "fixer un rendez-vous"
     },
     {
       "id": "v1oj6a",
-      "front": "The workload",
-      "back": "charge de travail"
+      "front": "the workload",
+      "back": "la charge de travail"
     },
     {
       "id": "tzabtf",
-      "front": "The backlog",
-      "back": "travail en retard"
+      "front": "the backlog",
+      "back": "du travail en retard"
     },
     {
       "id": "c8vycq",
-      "front": "An invoice",
+      "front": "an invoice",
       "back": "une facture"
     },
     {
@@ -126,47 +126,47 @@
     },
     {
       "id": "n7h3eu",
-      "front": "The patrons",
-      "back": "La clientèle / les clients"
+      "front": "the patrons",
+      "back": "la clientèle / les clients"
     },
     {
       "id": "w801hm",
-      "front": "To make benefits / profits / money",
+      "front": "to make profits / money",
       "back": "faire du profit"
     },
     {
       "id": "xwf8f7",
       "front": "A department / a division (US)",
-      "back": "Un service / rayon (magasin)"
+      "back": "un service / rayon (magasin)"
     },
     {
       "id": "oov1zb",
-      "front": "To run a business",
+      "front": "to run a business",
       "back": "gérer une entreprise"
     },
     {
       "id": "kmrqxo",
-      "front": "To hold a conference",
-      "back": "Tenir un congrès,une conférence"
+      "front": "to hold a conference",
+      "back": "tenir un congrès, une conférence"
     },
     {
       "id": "mkz2x6",
-      "front": "Office chores",
-      "back": "Tâches de bureau"
+      "front": "office chores",
+      "back": "tâches de bureau"
     },
     {
       "id": "a3huxk",
-      "front": "The letterhead",
-      "back": "L'en-tête (d'une lettre)"
+      "front": "the letterhead",
+      "back": "l'en-tête (d'une lettre)"
     },
     {
       "id": "93tqxo",
-      "front": "To sort out",
+      "front": "to sort out",
       "back": "trier"
     },
     {
       "id": "110msg",
-      "front": "To enclose",
+      "front": "to enclose",
       "back": "joindre (à une lettre)"
     },
     {
@@ -182,17 +182,17 @@
     {
       "id": "z9xwqd",
       "front": "A draft",
-      "back": "brouillon"
+      "back": "un brouillon"
     },
     {
       "id": "zxdx9i",
       "front": "A fan",
-      "back": "ventilateur"
+      "back": "un ventilateur"
     },
     {
       "id": "ek6hf4",
-      "front": "Postage",
-      "back": "Affranchissement,frais de port"
+      "front": "postage",
+      "back": "affranchissement, frais de port"
     },
     {
       "id": "qbry70",
@@ -205,7 +205,7 @@
       "back": "un rapporteur"
     }
   ],
-  "updatedAt": "2026-09-02T16:19:56.034Z",
+  "updatedAt": "2026-09-04T00:00:00.000Z",
   "frontLabel": "English",
   "backLabel": "French",
   "folder": "English"

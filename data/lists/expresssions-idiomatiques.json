@@ -9,18 +9,18 @@
   "cards": [
     {
       "id": "r8pzz0",
-      "front": "un truc dur à avaler (au sens figuré)",
-      "back": "a bitter pill"
+      "front": "a bitter pill",
+      "back": "un truc dur à avaler (au sens figuré)"
     },
     {
       "id": "z5lcaq",
       "front": "Achilles' heel",
-      "back": "une faiblesse"
+      "back": "le talon d'Achille"
     },
     {
       "id": "pr4hl3",
       "front": "from A to Z",
-      "back": "de A à Z,en entier"
+      "back": "de A à Z, en entier"
     },
     {
       "id": "t7kslc",
@@ -29,8 +29,8 @@
     },
     {
       "id": "4n4o0n",
-      "front": "put the cart before the horse",
-      "back": "mettre la charrue avant les boeufs"
+      "front": "to put the cart before the horse",
+      "back": "mettre la charrue avant les bœufs"
     },
     {
       "id": "ybn8yt",
@@ -39,12 +39,12 @@
     },
     {
       "id": "tgw4r3",
-      "front": "add insult to injury",
+      "front": "to add insult to injury",
       "back": "aggraver une situation"
     },
     {
       "id": "6bq2j0",
-      "front": "kill two birds with one stone",
+      "front": "to kill two birds with one stone",
       "back": "faire d'une pierre deux coups"
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "id": "r5b64q",
-      "front": "cross one's fingers",
+      "front": "to cross one's fingers",
       "back": "croiser les doigts"
     },
     {
@@ -69,13 +69,13 @@
     },
     {
       "id": "r8dlsa",
-      "front": "drive you crazy",
+      "front": "to drive you crazy",
       "back": "rendre fou"
     },
     {
       "id": "ev0faw",
       "front": "to beat around the bush",
-      "back": "tourner autour du pot,contourner un sujet"
+      "back": "tourner autour du pot, contourner un sujet"
     },
     {
       "id": "ua1hjs",
@@ -84,17 +84,17 @@
     },
     {
       "id": "foou6k",
-      "front": "feel under the weather",
+      "front": "to feel under the weather",
       "back": "ne pas être dans son assiette"
     },
     {
       "id": "wwjhzm",
       "front": "Bob's your uncle",
-      "back": "tout va bien se passer"
+      "back": "et voilà !/le tour est joué"
     },
     {
       "id": "shtudr",
-      "front": "like taking candy off a baby",
+      "front": "like taking candy from a baby",
       "back": "très facile à faire"
     },
     {
@@ -109,8 +109,8 @@
     },
     {
       "id": "1x25sv",
-      "front": "play it by ear",
-      "back": "avancer à l'aveuglette,au hasard,improviser"
+      "front": "to play it by ear",
+      "back": "avancer à l'aveuglette, au hasard, improviser"
     },
     {
       "id": "989lzv",
@@ -120,12 +120,12 @@
     {
       "id": "ix0gum",
       "front": "to have cold feet",
-      "back": "être inquiet,angoissé,regretter"
+      "back": "être inquiet, angoissé, regretter"
     },
     {
       "id": "42hm13",
       "front": "to keep an eye on something",
-      "back": "Garder un œil sur quelque chose"
+      "back": "garder un œil sur quelque chose"
     },
     {
       "id": "e5yk1y",
@@ -140,7 +140,7 @@
     {
       "id": "c5fqmx",
       "front": "to bite off more than you can chew",
-      "back": "avoir les yeux plus gros que le ventre : mais pas seulement pour l'alimentation"
+      "back": "avoir les yeux plus gros que le ventre (pas seulement au sens alimentaire)"
     },
     {
       "id": "jbit93",
@@ -155,21 +155,21 @@
     {
       "id": "szmofg",
       "front": "a little bird told me",
-      "back": "Mon petit doigt m'a dit"
+      "back": "mon petit doigt m'a dit"
     },
     {
       "id": "vncske",
-      "front": "and pigs can fly",
+      "front": "and pigs might fly",
       "back": "quand les poules auront des dents"
     },
     {
       "id": "wf72cn",
-      "front": "sleep with the fishes",
-      "back": "Euphémisme pour mourir."
+      "front": "to sleep with the fishes",
+      "back": "manger les pissenlits par la racine (être mort, assassiné)"
     },
     {
       "id": "7nka6r",
-      "front": "put the cat among the pigeons",
+      "front": "to put the cat among the pigeons",
       "back": "créer des problèmes"
     },
     {
@@ -189,17 +189,17 @@
     },
     {
       "id": "g3t538",
-      "front": "take off",
-      "back": "argumenter"
+      "front": "to take off",
+      "back": "décoller, prendre son essor"
     },
     {
       "id": "ck6t5h",
-      "front": "think outside the box",
+      "front": "to think outside the box",
       "back": "penser différemment"
     },
     {
       "id": "16fdcx",
-      "front": "have a lot on your plate",
+      "front": "to have a lot on your plate",
       "back": "avoir du pain sur la planche"
     },
     {
@@ -208,5 +208,5 @@
       "back": "une situation gagnant-gagnant"
     }
   ],
-  "updatedAt": "2026-09-03T10:49:47.753Z"
+  "updatedAt": "2026-09-04T00:00:00.000Z"
 }

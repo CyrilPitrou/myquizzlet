@@ -16,33 +16,33 @@
     },
     {
       "id": "6ivq6d",
-      "front": "A commodity",
-      "back": "marchandise,denrée,produit"
+      "front": "a commodity",
+      "back": "marchandise, denrée, produit"
     },
     {
       "id": "b6r49g",
-      "front": "The management",
-      "back": "la gestion,la direction"
+      "front": "the management",
+      "back": "la gestion, la direction"
     },
     {
       "id": "kr684q",
-      "front": "Customs tariffs",
+      "front": "customs tariffs",
       "back": "tarifs douaniers"
     },
     {
       "id": "doaq0m",
-      "front": "A blockade",
+      "front": "a blockade",
       "back": "un blocus"
     },
     {
       "id": "la2h43",
-      "front": "A goal / a target",
+      "front": "a goal / a target",
       "back": "un objectif"
     },
     {
       "id": "nwubwm",
       "front": "talks",
-      "back": "des entretiens,des pourparlers"
+      "back": "des entretiens, des pourparlers"
     },
     {
       "id": "qy3vjc",
@@ -51,33 +51,33 @@
     },
     {
       "id": "lumdvq",
-      "front": "An investment",
+      "front": "an investment",
       "back": "un investissement"
     },
     {
       "id": "nq8c99",
-      "front": "Bankruptcy / To go bankrupt",
-      "back": "une faillite,faire faillite"
+      "front": "bankruptcy / to go bankrupt",
+      "back": "une faillite, faire faillite"
     },
     {
       "id": "ux0qqi",
-      "front": "A partnership",
+      "front": "a partnership",
       "back": "un partenariat"
     },
     {
       "id": "6tzazq",
-      "front": "An incentive",
+      "front": "an incentive",
       "back": "une incitation"
     },
     {
       "id": "qsm24u",
-      "front": "A firm / a company",
+      "front": "a firm / a company",
       "back": "une entreprise"
     },
     {
       "id": "9a5exk",
-      "front": "The Stock Exchange",
-      "back": "la bourse (des valeurs)"
+      "front": "the Stock Exchange",
+      "back": "la Bourse (des valeurs)"
     },
     {
       "id": "od83wx",
@@ -86,27 +86,27 @@
     },
     {
       "id": "fb9y8o",
-      "front": "Debt-ridden",
+      "front": "debt-ridden",
       "back": "criblé de dettes"
     },
     {
       "id": "umwaat",
-      "front": "To be in the red",
-      "back": "être à découvert/déficit"
+      "front": "to be in the red",
+      "back": "être à découvert/être en déficit"
     },
     {
       "id": "irgz3c",
-      "front": "To set up a business",
+      "front": "to set up a business",
       "back": "monter une entreprise"
     },
     {
       "id": "rbbbcp",
-      "front": "The C.E.O (Chief Executive Officer = US) /",
+      "front": "the C.E.O. (US) / the Managing Director (UK)",
       "back": "le PDG"
     },
     {
       "id": "snjd4e",
-      "front": "To strike a deal",
+      "front": "to strike a deal",
       "back": "conclure un marché"
     },
     {
@@ -127,7 +127,7 @@
     {
       "id": "cv6ov3",
       "front": "to work full-time (part-time)",
-      "back": "travailler à temps plein,à temps partiel"
+      "back": "travailler à temps plein, à temps partiel"
     },
     {
       "id": "mzejb9",
@@ -172,7 +172,7 @@
     {
       "id": "ygmkta",
       "front": "to earn one's living",
-      "back": "gagner bien sa vie"
+      "back": "gagner sa vie"
     },
     {
       "id": "n27jlo",
@@ -185,7 +185,7 @@
       "back": "reprendre le travail"
     }
   ],
-  "updatedAt": "2026-09-02T16:20:24.755Z",
+  "updatedAt": "2026-09-04T00:00:00.000Z",
   "folder": "English",
   "frontLabel": "English",
   "backLabel": "French"

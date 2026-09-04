@@ -11,8 +11,13 @@
     },
     {
       "id": "xv2an7",
-      "front": "sulk/sullen",
+      "front": "sulky/sullen",
       "back": "maussade/boudeur (renfrogné)"
+    },
+    {
+      "id": "qc539i",
+      "front": "to sulk",
+      "back": "bouder"
     },
     {
       "id": "qsu419",
@@ -51,8 +56,8 @@
     },
     {
       "id": "two60d",
-      "front": "to grieve at sth",
-      "back": "avoir du chagrin pour"
+      "front": "to grieve over sth",
+      "back": "avoir du chagrin pour qqch"
     },
     {
       "id": "tjd0y9",
@@ -62,7 +67,7 @@
     {
       "id": "bgt4l0",
       "front": "to burst out laughing",
-      "back": "exploser de rire"
+      "back": "éclater de rire"
     },
     {
       "id": "r9klf6",
@@ -87,7 +92,7 @@
     {
       "id": "cc538m",
       "front": "to be saddened by",
-      "back": "être attrisé par"
+      "back": "être attristé par"
     },
     {
       "id": "mb0cj7",
@@ -181,7 +186,7 @@
     },
     {
       "id": "sdr2cp",
-      "front": "to be dazed at sth",
+      "front": "to be dazed by sth",
       "back": "être abasourdi par qqch"
     },
     {
@@ -192,7 +197,7 @@
     {
       "id": "z55kja",
       "front": "to feel a deep agony at sth",
-      "back": "sentir une grande souffrance face à"
+      "back": "sentir une grande souffrance face à qqch"
     },
     {
       "id": "afolru",
@@ -207,7 +212,7 @@
     {
       "id": "9b4vqf",
       "front": "to fret about sth",
-      "back": "se faire du souci pour"
+      "back": "se faire du souci pour qqch"
     },
     {
       "id": "6fvsbt",
@@ -217,15 +222,15 @@
     {
       "id": "s6ycxa",
       "front": "to be overcome with joy",
-      "back": "être bouleversé de joie"
+      "back": "être fou de joie"
     },
     {
       "id": "5680q6",
-      "front": "he became a craze",
-      "back": "il devint un engouement"
+      "front": "it became a craze",
+      "back": "cela devint un engouement"
     }
   ],
-  "updatedAt": "2026-09-02T16:18:33.613Z",
+  "updatedAt": "2026-09-04T00:00:00.000Z",
   "frontLabel": "English",
   "backLabel": "French",
   "folder": "English"

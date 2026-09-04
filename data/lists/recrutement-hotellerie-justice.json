@@ -137,7 +137,7 @@
     {
       "id": "fsyjqy",
       "front": "acquit",
-      "back": "Acquitter/décharger"
+      "back": "acquitter/décharger"
     },
     {
       "id": "inms85",
@@ -230,7 +230,7 @@
       "back": "détournement"
     }
   ],
-  "updatedAt": "2026-09-03T18:20:33.390Z",
+  "updatedAt": "2026-09-04T00:00:00.000Z",
   "folder": "English",
   "frontLabel": "English",
   "backLabel": "French"

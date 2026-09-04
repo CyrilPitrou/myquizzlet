@@ -26,7 +26,7 @@
     },
     {
       "id": "vrrb79",
-      "front": "a photoframe",
+      "front": "a photo frame",
       "back": "un cadre photo"
     },
     {
@@ -97,7 +97,7 @@
     {
       "id": "kly651",
       "front": "conditioner",
-      "back": "après shampoing"
+      "back": "après-shampooing"
     },
     {
       "id": "m2tsum",
@@ -122,7 +122,7 @@
     {
       "id": "nh0shi",
       "front": "hair clip",
-      "back": "barette"
+      "back": "barrette"
     },
     {
       "id": "0iu56q",
@@ -132,7 +132,7 @@
     {
       "id": "d2cjtg",
       "front": "nail clippers",
-      "back": "pince à ongles"
+      "back": "coupe-ongles"
     },
     {
       "id": "oetxqp",
@@ -142,7 +142,7 @@
     {
       "id": "uz28lo",
       "front": "fitted sheet",
-      "back": "drap housse"
+      "back": "drap-housse"
     },
     {
       "id": "bhzxjb",
@@ -197,10 +197,10 @@
     {
       "id": "0riowa",
       "front": "threshold",
-      "back": "le seuil"
+      "back": "seuil"
     }
   ],
-  "updatedAt": "2026-09-02T16:19:38.976Z",
+  "updatedAt": "2026-09-04T00:00:00.000Z",
   "folder": "English",
   "frontLabel": "English",
   "backLabel": "French"
