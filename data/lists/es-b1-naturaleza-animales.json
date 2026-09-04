@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-naturaleza-animales",
+  "name": "La naturaleza y los animales",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "bm55w9",
+      "front": "la naturaleza",
+      "back": "la nature"
+    },
+    {
+      "id": "dzroha",
+      "front": "el paisaje",
+      "back": "le paysage"
+    },
+    {
+      "id": "cksxpl",
+      "front": "el medio ambiente",
+      "back": "l'environnement"
+    },
+    {
+      "id": "6x3fn5",
+      "front": "la tierra",
+      "back": "la terre"
+    },
+    {
+      "id": "1nhuzu",
+      "front": "el suelo del bosque",
+      "back": "le sol forestier"
+    },
+    {
+      "id": "i60oyv",
+      "front": "la roca",
+      "back": "le rocher"
+    },
+    {
+      "id": "jwefli",
+      "front": "la piedra",
+      "back": "la pierre"
+    },
+    {
+      "id": "1alf0y",
+      "front": "la arena",
+      "back": "le sable"
+    },
+    {
+      "id": "beumbq",
+      "front": "el barro",
+      "back": "la boue"
+    },
+    {
+      "id": "piq81k",
+      "front": "la colina",
+      "back": "la colline"
+    },
+    {
+      "id": "lb23k7",
+      "front": "el valle",
+      "back": "la vallée"
+    },
+    {
+      "id": "k8uiol",
+      "front": "la cumbre",
+      "back": "le sommet"
+    },
+    {
+      "id": "gylz3e",
+      "front": "el acantilado",
+      "back": "la falaise"
+    },
+    {
+      "id": "ycgmnp",
+      "front": "la cueva",
+      "back": "la grotte"
+    },
+    {
+      "id": "qzy615",
+      "front": "el desierto",
+      "back": "le désert"
+    },
+    {
+      "id": "hny1dz",
+      "front": "la selva",
+      "back": "la jungle"
+    },
+    {
+      "id": "ka7lzs",
+      "front": "el bosque",
+      "back": "la forêt"
+    },
+    {
+      "id": "0n49pv",
+      "front": "el prado",
+      "back": "la prairie"
+    },
+    {
+      "id": "q4azsi",
+      "front": "el río",
+      "back": "la rivière, le fleuve"
+    },
+    {
+      "id": "60t6a2",
+      "front": "el arroyo",
+      "back": "le ruisseau"
+    },
+    {
+      "id": "9ftngn",
+      "front": "el lago",
+      "back": "le lac"
+    },
+    {
+      "id": "5gmve3",
+      "front": "el estanque",
+      "back": "l'étang"
+    },
+    {
+      "id": "0qz68q",
+      "front": "la cascada",
+      "back": "la cascade"
+    },
+    {
+      "id": "b8r7ep",
+      "front": "el mar",
+      "back": "la mer"
+    },
+    {
+      "id": "lq8mnb",
+      "front": "el océano",
+      "back": "l'océan"
+    },
+    {
+      "id": "wjm3z4",
+      "front": "la ola",
+      "back": "la vague"
+    },
+    {
+      "id": "uy5xo0",
+      "front": "la marea",
+      "back": "la marée"
+    },
+    {
+      "id": "qm3rx3",
+      "front": "la isla",
+      "back": "l'île"
+    },
+    {
+      "id": "gf3a9g",
+      "front": "el árbol",
+      "back": "l'arbre"
+    },
+    {
+      "id": "tinsa9",
+      "front": "el roble",
+      "back": "le chêne"
+    },
+    {
+      "id": "y6i0d8",
+      "front": "el pino",
+      "back": "le pin"
+    },
+    {
+      "id": "kg747b",
+      "front": "el olivo",
+      "back": "l'olivier"
+    },
+    {
+      "id": "580lso",
+      "front": "la rama",
+      "back": "la branche"
+    },
+    {
+      "id": "wl4anv",
+      "front": "la hoja",
+      "back": "la feuille"
+    },
+    {
+      "id": "k4qaos",
+      "front": "el tronco",
+      "back": "le tronc"
+    },
+    {
+      "id": "owzpy6",
+      "front": "la raíz",
+      "back": "la racine"
+    },
+    {
+      "id": "own8pd",
+      "front": "la flor",
+      "back": "la fleur"
+    },
+    {
+      "id": "ka5sxa",
+      "front": "la rosa",
+      "back": "la rose"
+    },
+    {
+      "id": "7bde06",
+      "front": "la semilla",
+      "back": "la graine"
+    },
+    {
+      "id": "i3bwd7",
+      "front": "la hierba",
+      "back": "l'herbe"
+    },
+    {
+      "id": "fc7c1r",
+      "front": "el arbusto",
+      "back": "le buisson"
+    },
+    {
+      "id": "e7taqe",
+      "front": "el musgo",
+      "back": "la mousse"
+    },
+    {
+      "id": "eaus2n",
+      "front": "la cosecha",
+      "back": "la récolte"
+    },
+    {
+      "id": "3ia7nd",
+      "front": "el clima",
+      "back": "le climat"
+    },
+    {
+      "id": "kn30kn",
+      "front": "el tiempo atmosférico",
+      "back": "la météo"
+    },
+    {
+      "id": "profqq",
+      "front": "el sol",
+      "back": "le soleil"
+    },
+    {
+      "id": "kxrl5k",
+      "front": "la lluvia",
+      "back": "la pluie"
+    },
+    {
+      "id": "77i7pd",
+      "front": "la nieve",
+      "back": "la neige"
+    },
+    {
+      "id": "ziy350",
+      "front": "el hielo",
+      "back": "la glace"
+    },
+    {
+      "id": "rdjtqr",
+      "front": "el granizo",
+      "back": "la grêle"
+    },
+    {
+      "id": "fehj6p",
+      "front": "la niebla",
+      "back": "le brouillard"
+    },
+    {
+      "id": "gx18xj",
+      "front": "la nube",
+      "back": "le nuage"
+    },
+    {
+      "id": "cinmmy",
+      "front": "el viento",
+      "back": "le vent"
+    },
+    {
+      "id": "ymiiu6",
+      "front": "la tormenta",
+      "back": "l'orage"
+    },
+    {
+      "id": "mwxtby",
+      "front": "el relámpago",
+      "back": "l'éclair"
+    },
+    {
+      "id": "8jptbn",
+      "front": "el trueno",
+      "back": "le tonnerre"
+    },
+    {
+      "id": "gbh4l9",
+      "front": "la sequía",
+      "back": "la sécheresse"
+    },
+    {
+      "id": "zkc1nf",
+      "front": "la inundación",
+      "back": "l'inondation"
+    },
+    {
+      "id": "1st9um",
+      "front": "el terremoto",
+      "back": "le tremblement de terre"
+    },
+    {
+      "id": "gfuboc",
+      "front": "el incendio forestal",
+      "back": "l'incendie de forêt"
+    },
+    {
+      "id": "y0037g",
+      "front": "el animal",
+      "back": "l'animal"
+    },
+    {
+      "id": "zoggxw",
+      "front": "el perro",
+      "back": "le chien"
+    },
+    {
+      "id": "507j11",
+      "front": "el gato",
+      "back": "le chat"
+    },
+    {
+      "id": "pz23ug",
+      "front": "el caballo",
+      "back": "le cheval"
+    },
+    {
+      "id": "0pt7bo",
+      "front": "la vaca",
+      "back": "la vache"
+    },
+    {
+      "id": "2ek2lo",
+      "front": "el toro",
+      "back": "le taureau"
+    },
+    {
+      "id": "b83hae",
+      "front": "la oveja",
+      "back": "le mouton"
+    },
+    {
+      "id": "u5jzfo",
+      "front": "la cabra",
+      "back": "la chèvre"
+    },
+    {
+      "id": "rfny0p",
+      "front": "el cerdo de granja",
+      "back": "le cochon"
+    },
+    {
+      "id": "k4tad5",
+      "front": "la gallina",
+      "back": "la poule"
+    },
+    {
+      "id": "z28qz2",
+      "front": "el gallo",
+      "back": "le coq"
+    },
+    {
+      "id": "0i2oo2",
+      "front": "el pato",
+      "back": "le canard"
+    },
+    {
+      "id": "y3374d",
+      "front": "el conejo",
+      "back": "le lapin"
+    },
+    {
+      "id": "0utl3o",
+      "front": "el ratón",
+      "back": "la souris"
+    },
+    {
+      "id": "cz1ljj",
+      "front": "el burro",
+      "back": "l'âne"
+    },
+    {
+      "id": "dnsrcp",
+      "front": "el lobo",
+      "back": "le loup"
+    },
+    {
+      "id": "2dnar4",
+      "front": "el zorro",
+      "back": "le renard"
+    },
+    {
+      "id": "p9689l",
+      "front": "el oso",
+      "back": "l'ours"
+    },
+    {
+      "id": "zfnihm",
+      "front": "el ciervo",
+      "back": "le cerf"
+    },
+    {
+      "id": "o62wr5",
+      "front": "el jabalí",
+      "back": "le sanglier"
+    },
+    {
+      "id": "6axblp",
+      "front": "el león",
+      "back": "le lion"
+    },
+    {
+      "id": "1b5bzp",
+      "front": "el elefante",
+      "back": "l'éléphant"
+    },
+    {
+      "id": "853gb7",
+      "front": "el mono",
+      "back": "le singe"
+    },
+    {
+      "id": "9yy2fg",
+      "front": "el pájaro",
+      "back": "l'oiseau"
+    },
+    {
+      "id": "2k0pos",
+      "front": "el águila",
+      "back": "l'aigle"
+    },
+    {
+      "id": "p4eyzz",
+      "front": "la paloma",
+      "back": "la colombe, le pigeon"
+    },
+    {
+      "id": "0ga9e4",
+      "front": "la serpiente",
+      "back": "le serpent"
+    },
+    {
+      "id": "ra00ue",
+      "front": "la rana",
+      "back": "la grenouille"
+    },
+    {
+      "id": "8m6sjj",
+      "front": "la tortuga",
+      "back": "la tortue"
+    },
+    {
+      "id": "ahaozx",
+      "front": "la abeja",
+      "back": "l'abeille"
+    },
+    {
+      "id": "e4pbjd",
+      "front": "la mosca",
+      "back": "la mouche"
+    },
+    {
+      "id": "h4l9zh",
+      "front": "el mosquito",
+      "back": "le moustique"
+    },
+    {
+      "id": "fo6itd",
+      "front": "la hormiga",
+      "back": "la fourmi"
+    },
+    {
+      "id": "02yez9",
+      "front": "la araña",
+      "back": "l'araignée"
+    },
+    {
+      "id": "giwnea",
+      "front": "la mariposa",
+      "back": "le papillon"
+    },
+    {
+      "id": "m0lyli",
+      "front": "la granja",
+      "back": "la ferme"
+    },
+    {
+      "id": "vmh8f1",
+      "front": "la especie",
+      "back": "l'espèce"
+    },
+    {
+      "id": "jizrnr",
+      "front": "salvaje",
+      "back": "sauvage"
+    },
+    {
+      "id": "hsjrmi",
+      "front": "doméstico",
+      "back": "domestique"
+    },
+    {
+      "id": "szdrqq",
+      "front": "contaminar",
+      "back": "polluer"
+    }
+  ]
+}
