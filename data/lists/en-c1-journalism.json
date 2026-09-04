@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-journalism",
+  "name": "Journalism: Headlines, Hedging and House Style",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "9pq956",
+      "front": "to mull",
+      "back": "envisager, étudier (dans un titre)"
+    },
+    {
+      "id": "827uu4",
+      "front": "to slam",
+      "back": "fustiger, critiquer vivement"
+    },
+    {
+      "id": "nkd6j0",
+      "front": "to hail",
+      "back": "saluer, applaudir"
+    },
+    {
+      "id": "ft5rxb",
+      "front": "to vow",
+      "back": "promettre, jurer"
+    },
+    {
+      "id": "6rmirx",
+      "front": "to eye",
+      "back": "lorgner, envisager"
+    },
+    {
+      "id": "yujgle",
+      "front": "to spark",
+      "back": "déclencher, provoquer"
+    },
+    {
+      "id": "yn2al9",
+      "front": "to spur",
+      "back": "stimuler, encourager"
+    },
+    {
+      "id": "q7rnm5",
+      "front": "to fuel",
+      "back": "alimenter, attiser"
+    },
+    {
+      "id": "5ppg6r",
+      "front": "to stoke",
+      "back": "attiser"
+    },
+    {
+      "id": "j14krw",
+      "front": "to curb",
+      "back": "freiner, limiter"
+    },
+    {
+      "id": "97kckj",
+      "front": "to axe",
+      "back": "supprimer, abandonner"
+    },
+    {
+      "id": "fulnfn",
+      "front": "to scrap",
+      "back": "abandonner, mettre au rebut"
+    },
+    {
+      "id": "06gnkb",
+      "front": "to ditch",
+      "back": "laisser tomber, abandonner"
+    },
+    {
+      "id": "fjqgiz",
+      "front": "to unveil",
+      "back": "dévoiler"
+    },
+    {
+      "id": "gkbg3b",
+      "front": "to pledge in a headline",
+      "back": "s'engager à"
+    },
+    {
+      "id": "rmdsa1",
+      "front": "to urge",
+      "back": "exhorter, presser"
+    },
+    {
+      "id": "k3ul30",
+      "front": "to warn",
+      "back": "mettre en garde"
+    },
+    {
+      "id": "bauizm",
+      "front": "to hit out at",
+      "back": "s'en prendre à"
+    },
+    {
+      "id": "zfvhap",
+      "front": "to face calls to",
+      "back": "être sommé de"
+    },
+    {
+      "id": "h4tn5g",
+      "front": "to come under fire",
+      "back": "essuyer des critiques"
+    },
+    {
+      "id": "oq6d4r",
+      "front": "to be set to",
+      "back": "être sur le point de"
+    },
+    {
+      "id": "qea3hi",
+      "front": "to be poised to",
+      "back": "être prêt à"
+    },
+    {
+      "id": "dvy1i0",
+      "front": "to look set for",
+      "back": "sembler s'orienter vers"
+    },
+    {
+      "id": "ulr26f",
+      "front": "a bid in a headline",
+      "back": "une tentative, une candidature"
+    },
+    {
+      "id": "zdf5gx",
+      "front": "a row",
+      "back": "une querelle, une polémique"
+    },
+    {
+      "id": "3dwlxm",
+      "front": "a probe in a headline",
+      "back": "une enquête"
+    },
+    {
+      "id": "0e2nog",
+      "front": "a rap",
+      "back": "un blâme, une réprimande"
+    },
+    {
+      "id": "gvd3k1",
+      "front": "a snub",
+      "back": "un affront, une rebuffade"
+    },
+    {
+      "id": "mv6feo",
+      "front": "a rift",
+      "back": "une brouille, une fracture"
+    },
+    {
+      "id": "cfldfv",
+      "front": "a rout in a headline",
+      "back": "une déroute"
+    },
+    {
+      "id": "j1ntq4",
+      "front": "a boost",
+      "back": "un coup de pouce, une relance"
+    },
+    {
+      "id": "sjfhh3",
+      "front": "a blow",
+      "back": "un coup dur"
+    },
+    {
+      "id": "efzbfm",
+      "front": "a setback",
+      "back": "un revers"
+    },
+    {
+      "id": "hfxgkh",
+      "front": "a hike",
+      "back": "une forte hausse"
+    },
+    {
+      "id": "zpr5lp",
+      "front": "a plunge",
+      "back": "une chute brutale"
+    },
+    {
+      "id": "0hc4x2",
+      "front": "a surge",
+      "back": "une flambée, une poussée"
+    },
+    {
+      "id": "t26o7i",
+      "front": "a spike",
+      "back": "un pic"
+    },
+    {
+      "id": "gx9cdx",
+      "front": "a slump in a headline",
+      "back": "un effondrement"
+    },
+    {
+      "id": "g42d1z",
+      "front": "a swoop",
+      "back": "une descente (de police)"
+    },
+    {
+      "id": "6yf2ps",
+      "front": "a crackdown",
+      "back": "une répression, un tour de vis"
+    },
+    {
+      "id": "nihqmt",
+      "front": "a clampdown",
+      "back": "un durcissement"
+    },
+    {
+      "id": "rcyr5x",
+      "front": "a shake-up",
+      "back": "une refonte, un bouleversement"
+    },
+    {
+      "id": "jb2xgr",
+      "front": "a climbdown",
+      "back": "une reculade"
+    },
+    {
+      "id": "4p7h6o",
+      "front": "a showdown",
+      "back": "une confrontation décisive"
+    },
+    {
+      "id": "0xll35",
+      "front": "a standoff",
+      "back": "un bras de fer"
+    },
+    {
+      "id": "mwtuqm",
+      "front": "a deal",
+      "back": "un accord"
+    },
+    {
+      "id": "ecj6i3",
+      "front": "a pact",
+      "back": "un pacte"
+    },
+    {
+      "id": "mtoett",
+      "front": "a vow in a headline",
+      "back": "une promesse solennelle"
+    },
+    {
+      "id": "tndv4g",
+      "front": "a call for action",
+      "back": "un appel à agir"
+    },
+    {
+      "id": "k29gqm",
+      "front": "a plea for help",
+      "back": "un appel à l'aide"
+    },
+    {
+      "id": "3rx9q6",
+      "front": "a fear over",
+      "back": "une inquiétude au sujet de"
+    },
+    {
+      "id": "e0igcv",
+      "front": "a fury over",
+      "back": "une colère au sujet de"
+    },
+    {
+      "id": "wqihuw",
+      "front": "a backlash over",
+      "back": "une levée de boucliers"
+    },
+    {
+      "id": "2ptifi",
+      "front": "a storm over",
+      "back": "une tempête, une polémique"
+    },
+    {
+      "id": "bhqz2r",
+      "front": "a gaffe",
+      "back": "une gaffe, un impair"
+    },
+    {
+      "id": "o4ukzl",
+      "front": "a U-turn in a headline",
+      "back": "un revirement"
+    },
+    {
+      "id": "um9mc5",
+      "front": "a blunder",
+      "back": "une bévue"
+    },
+    {
+      "id": "p8v213",
+      "front": "a fiasco",
+      "back": "un fiasco"
+    },
+    {
+      "id": "rivnjs",
+      "front": "a debacle",
+      "back": "une débâcle"
+    },
+    {
+      "id": "lkt3vg",
+      "front": "a shambles",
+      "back": "une pagaille"
+    },
+    {
+      "id": "t1vhkv",
+      "front": "a bombshell",
+      "back": "une révélation fracassante"
+    },
+    {
+      "id": "y927ww",
+      "front": "a scoop",
+      "back": "un scoop"
+    },
+    {
+      "id": "apl8m8",
+      "front": "an exclusive",
+      "back": "une exclusivité"
+    },
+    {
+      "id": "ri7np0",
+      "front": "a leak",
+      "back": "une fuite"
+    },
+    {
+      "id": "6gthjg",
+      "front": "a tip-off",
+      "back": "un tuyau, un renseignement"
+    },
+    {
+      "id": "k3d9mc",
+      "front": "a source close to",
+      "back": "une source proche de"
+    },
+    {
+      "id": "do1vi2",
+      "front": "an insider",
+      "back": "un initié"
+    },
+    {
+      "id": "3961eh",
+      "front": "a spokesperson",
+      "back": "un porte-parole"
+    },
+    {
+      "id": "82t2bz",
+      "front": "off the record",
+      "back": "officieusement"
+    },
+    {
+      "id": "xrbz6c",
+      "front": "on condition of anonymity",
+      "back": "sous couvert d'anonymat"
+    },
+    {
+      "id": "dz0kab",
+      "front": "a briefing",
+      "back": "un point presse"
+    },
+    {
+      "id": "z9v1rl",
+      "front": "a press release",
+      "back": "un communiqué de presse"
+    },
+    {
+      "id": "sigycn",
+      "front": "an embargoed story",
+      "back": "une information sous embargo"
+    },
+    {
+      "id": "2no0pw",
+      "front": "a byline",
+      "back": "une signature d'article"
+    },
+    {
+      "id": "dwj5lq",
+      "front": "a dateline",
+      "back": "la mention de lieu et date"
+    },
+    {
+      "id": "dchqdy",
+      "front": "a standfirst",
+      "back": "un chapeau d'article"
+    },
+    {
+      "id": "ld9djr",
+      "front": "a strapline",
+      "back": "une accroche"
+    },
+    {
+      "id": "kc9pbg",
+      "front": "a subheading",
+      "back": "un intertitre"
+    },
+    {
+      "id": "7x8ttv",
+      "front": "a pull quote",
+      "back": "une citation mise en exergue"
+    },
+    {
+      "id": "c7ewf2",
+      "front": "a caption",
+      "back": "une légende"
+    },
+    {
+      "id": "ohx4f7",
+      "front": "a masthead",
+      "back": "un bandeau-titre"
+    },
+    {
+      "id": "094qik",
+      "front": "a splash",
+      "back": "la une, l'article de couverture"
+    },
+    {
+      "id": "1eg2dm",
+      "front": "a front-page lead",
+      "back": "l'article principal de une"
+    },
+    {
+      "id": "gfg9cm",
+      "front": "a filler",
+      "back": "un bouche-trou"
+    },
+    {
+      "id": "9sq2ri",
+      "front": "a column inch",
+      "back": "un centimètre-colonne"
+    },
+    {
+      "id": "txa7y0",
+      "front": "a leader",
+      "back": "un éditorial"
+    },
+    {
+      "id": "0rx0hm",
+      "front": "an op-ed",
+      "back": "une tribune libre"
+    },
+    {
+      "id": "5xa7t1",
+      "front": "a comment piece",
+      "back": "une chronique d'opinion"
+    },
+    {
+      "id": "a5x9e1",
+      "front": "a correction notice",
+      "back": "un rectificatif"
+    },
+    {
+      "id": "6dcq9q",
+      "front": "a right of reply",
+      "back": "un droit de réponse"
+    },
+    {
+      "id": "fdkbjg",
+      "front": "alleged",
+      "back": "présumé, allégué"
+    },
+    {
+      "id": "ejmm0j",
+      "front": "purported",
+      "back": "prétendu"
+    },
+    {
+      "id": "5yws5j",
+      "front": "is said to",
+      "back": "serait, on dit qu'il"
+    },
+    {
+      "id": "cnxds7",
+      "front": "is understood to",
+      "back": "il semblerait que, on croit savoir"
+    },
+    {
+      "id": "1baupn",
+      "front": "is believed to",
+      "back": "serait, on pense que"
+    },
+    {
+      "id": "z68fze",
+      "front": "is thought to",
+      "back": "passerait pour"
+    },
+    {
+      "id": "t2usvm",
+      "front": "according to sources",
+      "back": "selon des sources"
+    },
+    {
+      "id": "jv8kj4",
+      "front": "amid reports that",
+      "back": "sur fond d'informations selon lesquelles"
+    },
+    {
+      "id": "h38w8c",
+      "front": "in a move seen as",
+      "back": "dans une décision perçue comme"
+    },
+    {
+      "id": "yyo8ta",
+      "front": "in what critics call",
+      "back": "dans ce que les critiques appellent"
+    }
+  ]
+}
