@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-medio-ambiente",
+  "name": "El medio ambiente",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "nd4va0",
+      "front": "el medio ambiente natural",
+      "back": "l'environnement naturel"
+    },
+    {
+      "id": "dby7wz",
+      "front": "la ecología",
+      "back": "l'écologie"
+    },
+    {
+      "id": "ns0rw9",
+      "front": "el ecosistema",
+      "back": "l'écosystème"
+    },
+    {
+      "id": "h9i38b",
+      "front": "la biodiversidad",
+      "back": "la biodiversité"
+    },
+    {
+      "id": "abrwtw",
+      "front": "el hábitat",
+      "back": "l'habitat"
+    },
+    {
+      "id": "ps4z4y",
+      "front": "la especie protegida",
+      "back": "l'espèce protégée"
+    },
+    {
+      "id": "znvf9t",
+      "front": "la especie invasora",
+      "back": "l'espèce invasive"
+    },
+    {
+      "id": "y5lnga",
+      "front": "la extinción",
+      "back": "l'extinction"
+    },
+    {
+      "id": "f10vy0",
+      "front": "la fauna",
+      "back": "la faune"
+    },
+    {
+      "id": "qelou7",
+      "front": "la flora",
+      "back": "la flore"
+    },
+    {
+      "id": "qfa9gs",
+      "front": "el cambio climático",
+      "back": "le changement climatique"
+    },
+    {
+      "id": "34b22f",
+      "front": "el calentamiento global",
+      "back": "le réchauffement climatique"
+    },
+    {
+      "id": "4g0w02",
+      "front": "el efecto invernadero",
+      "back": "l'effet de serre"
+    },
+    {
+      "id": "zv5mbh",
+      "front": "el gas de efecto invernadero",
+      "back": "le gaz à effet de serre"
+    },
+    {
+      "id": "s6rzvx",
+      "front": "la emisión contaminante",
+      "back": "l'émission polluante"
+    },
+    {
+      "id": "o951k4",
+      "front": "la huella de carbono",
+      "back": "l'empreinte carbone"
+    },
+    {
+      "id": "qce13f",
+      "front": "la capa de ozono",
+      "back": "la couche d'ozone"
+    },
+    {
+      "id": "wfvw8o",
+      "front": "el deshielo",
+      "back": "la fonte des glaces"
+    },
+    {
+      "id": "l7c3li",
+      "front": "el nivel del mar",
+      "back": "le niveau de la mer"
+    },
+    {
+      "id": "byh4qc",
+      "front": "la desertificación",
+      "back": "la désertification"
+    },
+    {
+      "id": "v7xd43",
+      "front": "la deforestación",
+      "back": "la déforestation"
+    },
+    {
+      "id": "42lb5c",
+      "front": "la tala",
+      "back": "l'abattage"
+    },
+    {
+      "id": "crym19",
+      "front": "la erosión",
+      "back": "l'érosion"
+    },
+    {
+      "id": "q9mxai",
+      "front": "la contaminación atmosférica",
+      "back": "la pollution atmosphérique"
+    },
+    {
+      "id": "kve1wq",
+      "front": "el vertido",
+      "back": "le déversement"
+    },
+    {
+      "id": "thif5u",
+      "front": "el residuo",
+      "back": "le déchet"
+    },
+    {
+      "id": "4uh49o",
+      "front": "los residuos tóxicos",
+      "back": "les déchets toxiques"
+    },
+    {
+      "id": "90lcps",
+      "front": "el vertedero",
+      "back": "la décharge"
+    },
+    {
+      "id": "sxtzp1",
+      "front": "la incineradora",
+      "back": "l'incinérateur"
+    },
+    {
+      "id": "dpt66a",
+      "front": "el reciclaje",
+      "back": "le recyclage"
+    },
+    {
+      "id": "y0k8yo",
+      "front": "la recogida selectiva",
+      "back": "le tri sélectif"
+    },
+    {
+      "id": "qpnvrr",
+      "front": "el envase reciclable",
+      "back": "l'emballage recyclable"
+    },
+    {
+      "id": "1m22s8",
+      "front": "el plástico de un solo uso",
+      "back": "le plastique à usage unique"
+    },
+    {
+      "id": "ex2i20",
+      "front": "la depuradora",
+      "back": "la station d'épuration"
+    },
+    {
+      "id": "k3hxcb",
+      "front": "las aguas residuales",
+      "back": "les eaux usées"
+    },
+    {
+      "id": "nzkkey",
+      "front": "el agua potable",
+      "back": "l'eau potable"
+    },
+    {
+      "id": "7iprbi",
+      "front": "el acuífero",
+      "back": "la nappe phréatique"
+    },
+    {
+      "id": "cj9n5d",
+      "front": "la escasez de agua",
+      "back": "la pénurie d'eau"
+    },
+    {
+      "id": "ue6e2s",
+      "front": "el riego",
+      "back": "l'irrigation"
+    },
+    {
+      "id": "q5zmsg",
+      "front": "el embalse",
+      "back": "le barrage-réservoir"
+    },
+    {
+      "id": "cg0sx1",
+      "front": "la energía renovable",
+      "back": "l'énergie renouvelable"
+    },
+    {
+      "id": "oll78z",
+      "front": "la energía eólica",
+      "back": "l'énergie éolienne"
+    },
+    {
+      "id": "c457tz",
+      "front": "la energía solar",
+      "back": "l'énergie solaire"
+    },
+    {
+      "id": "5imisu",
+      "front": "el aerogenerador",
+      "back": "l'éolienne"
+    },
+    {
+      "id": "nfzr4a",
+      "front": "la placa solar",
+      "back": "le panneau solaire"
+    },
+    {
+      "id": "hu5f5w",
+      "front": "la central nuclear",
+      "back": "la centrale nucléaire"
+    },
+    {
+      "id": "fxt1nw",
+      "front": "el residuo radiactivo",
+      "back": "le déchet radioactif"
+    },
+    {
+      "id": "ir4kqh",
+      "front": "el combustible fósil",
+      "back": "le combustible fossile"
+    },
+    {
+      "id": "j01sas",
+      "front": "el carbón",
+      "back": "le charbon"
+    },
+    {
+      "id": "pryu7r",
+      "front": "el petróleo",
+      "back": "le pétrole"
+    },
+    {
+      "id": "nvqcgy",
+      "front": "el gas natural",
+      "back": "le gaz naturel"
+    },
+    {
+      "id": "0xuz7v",
+      "front": "la red eléctrica",
+      "back": "le réseau électrique"
+    },
+    {
+      "id": "e6nvxa",
+      "front": "el consumo energético",
+      "back": "la consommation d'énergie"
+    },
+    {
+      "id": "ksmwwl",
+      "front": "la eficiencia energética",
+      "back": "l'efficacité énergétique"
+    },
+    {
+      "id": "7ue8js",
+      "front": "el ahorro de energía",
+      "back": "les économies d'énergie"
+    },
+    {
+      "id": "r8jpkv",
+      "front": "la transición ecológica",
+      "back": "la transition écologique"
+    },
+    {
+      "id": "208ecb",
+      "front": "la sostenibilidad",
+      "back": "la durabilité"
+    },
+    {
+      "id": "xvmvqm",
+      "front": "el desarrollo sostenible",
+      "back": "le développement durable"
+    },
+    {
+      "id": "hukswo",
+      "front": "la economía circular",
+      "back": "l'économie circulaire"
+    },
+    {
+      "id": "lbsfvw",
+      "front": "la agricultura ecológica",
+      "back": "l'agriculture biologique"
+    },
+    {
+      "id": "0jvboj",
+      "front": "el pesticida",
+      "back": "le pesticide"
+    },
+    {
+      "id": "ikv86j",
+      "front": "el abono",
+      "back": "l'engrais"
+    },
+    {
+      "id": "t6wc05",
+      "front": "el transgénico",
+      "back": "l'OGM"
+    },
+    {
+      "id": "gcwo5c",
+      "front": "la ganadería intensiva",
+      "back": "l'élevage intensif"
+    },
+    {
+      "id": "i802kn",
+      "front": "la sobrepesca",
+      "back": "la surpêche"
+    },
+    {
+      "id": "29blcw",
+      "front": "la caza furtiva",
+      "back": "le braconnage"
+    },
+    {
+      "id": "5rr527",
+      "front": "el parque natural",
+      "back": "le parc naturel"
+    },
+    {
+      "id": "5p4nur",
+      "front": "la reserva de la biosfera",
+      "back": "la réserve de biosphère"
+    },
+    {
+      "id": "7ano3p",
+      "front": "el espacio protegido",
+      "back": "l'espace protégé"
+    },
+    {
+      "id": "slm46t",
+      "front": "la repoblación forestal",
+      "back": "le reboisement"
+    },
+    {
+      "id": "6gorpj",
+      "front": "el guardabosques",
+      "back": "le garde forestier"
+    },
+    {
+      "id": "fwd8so",
+      "front": "el incendio provocado",
+      "back": "l'incendie criminel"
+    },
+    {
+      "id": "6np471",
+      "front": "la catástrofe natural",
+      "back": "la catastrophe naturelle"
+    },
+    {
+      "id": "12uthy",
+      "front": "el desastre ecológico",
+      "back": "le désastre écologique"
+    },
+    {
+      "id": "1obaic",
+      "front": "la marea negra",
+      "back": "la marée noire"
+    },
+    {
+      "id": "y7mu8k",
+      "front": "el temporal",
+      "back": "la tempête"
+    },
+    {
+      "id": "jiczzm",
+      "front": "la ola de calor",
+      "back": "la canicule"
+    },
+    {
+      "id": "hmfhbn",
+      "front": "la cumbre del clima",
+      "back": "le sommet sur le climat"
+    },
+    {
+      "id": "hw8979",
+      "front": "el acuerdo climático",
+      "back": "l'accord sur le climat"
+    },
+    {
+      "id": "2icjpd",
+      "front": "la normativa ambiental",
+      "back": "la réglementation environnementale"
+    },
+    {
+      "id": "gfwuwd",
+      "front": "el impacto ambiental",
+      "back": "l'impact environnemental"
+    },
+    {
+      "id": "471vu1",
+      "front": "la evaluación de impacto",
+      "back": "l'étude d'impact"
+    },
+    {
+      "id": "l473y0",
+      "front": "el ecologismo",
+      "back": "l'écologisme"
+    },
+    {
+      "id": "wn7bka",
+      "front": "el activista",
+      "back": "le militant"
+    },
+    {
+      "id": "iy88or",
+      "front": "la concienciación",
+      "back": "la sensibilisation"
+    },
+    {
+      "id": "c9dlm8",
+      "front": "el consumo responsable",
+      "back": "la consommation responsable"
+    },
+    {
+      "id": "kysf28",
+      "front": "contaminar el aire",
+      "back": "polluer l'air"
+    },
+    {
+      "id": "1actqs",
+      "front": "reciclar",
+      "back": "recycler"
+    },
+    {
+      "id": "g58498",
+      "front": "reutilizar",
+      "back": "réutiliser"
+    },
+    {
+      "id": "5oga2t",
+      "front": "depurar",
+      "back": "épurer"
+    },
+    {
+      "id": "0byijd",
+      "front": "verter",
+      "back": "déverser"
+    },
+    {
+      "id": "amdzdz",
+      "front": "talar",
+      "back": "abattre (des arbres)"
+    },
+    {
+      "id": "j6m6j2",
+      "front": "repoblar",
+      "back": "reboiser"
+    },
+    {
+      "id": "wukj5p",
+      "front": "preservar",
+      "back": "préserver"
+    },
+    {
+      "id": "hidkd3",
+      "front": "proteger el entorno",
+      "back": "protéger le milieu"
+    },
+    {
+      "id": "uy4l2o",
+      "front": "agotar los recursos",
+      "back": "épuiser les ressources"
+    },
+    {
+      "id": "hvr5q0",
+      "front": "malgastar",
+      "back": "gaspiller"
+    },
+    {
+      "id": "2prwva",
+      "front": "concienciar",
+      "back": "sensibiliser"
+    },
+    {
+      "id": "s9033o",
+      "front": "sostenible",
+      "back": "durable"
+    },
+    {
+      "id": "k31gbu",
+      "front": "respetuoso con el medio ambiente",
+      "back": "respectueux de l'environnement"
+    }
+  ]
+}
