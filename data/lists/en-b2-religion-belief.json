@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-religion-belief",
+  "name": "Religion and Belief",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "13ae5f",
+      "front": "religion",
+      "back": "la religion"
+    },
+    {
+      "id": "b59836",
+      "front": "religious",
+      "back": "religieux"
+    },
+    {
+      "id": "4f6438",
+      "front": "a faith",
+      "back": "une foi, une religion"
+    },
+    {
+      "id": "7d6762",
+      "front": "a believer",
+      "back": "un croyant"
+    },
+    {
+      "id": "b3c841",
+      "front": "belief",
+      "back": "la croyance"
+    },
+    {
+      "id": "df01da",
+      "front": "to believe in",
+      "back": "croire en"
+    },
+    {
+      "id": "b1a71a",
+      "front": "a creed",
+      "back": "un credo, une profession de foi"
+    },
+    {
+      "id": "bd6fbc",
+      "front": "a doctrine",
+      "back": "une doctrine"
+    },
+    {
+      "id": "65cfc3",
+      "front": "dogma",
+      "back": "le dogme"
+    },
+    {
+      "id": "ea3b5e",
+      "front": "a denomination",
+      "back": "une confession"
+    },
+    {
+      "id": "9c6039",
+      "front": "a sect",
+      "back": "une secte"
+    },
+    {
+      "id": "d8234c",
+      "front": "a cult",
+      "back": "un culte, une secte"
+    },
+    {
+      "id": "20b0c9",
+      "front": "a church",
+      "back": "une église"
+    },
+    {
+      "id": "ba8452",
+      "front": "a chapel",
+      "back": "une chapelle"
+    },
+    {
+      "id": "f5b077",
+      "front": "a cathedral",
+      "back": "une cathédrale"
+    },
+    {
+      "id": "22cdde",
+      "front": "a temple",
+      "back": "un temple"
+    },
+    {
+      "id": "794907",
+      "front": "a mosque",
+      "back": "une mosquée"
+    },
+    {
+      "id": "9d9fcb",
+      "front": "a synagogue",
+      "back": "une synagogue"
+    },
+    {
+      "id": "000c64",
+      "front": "a monastery",
+      "back": "un monastère"
+    },
+    {
+      "id": "42c140",
+      "front": "a convent",
+      "back": "un couvent"
+    },
+    {
+      "id": "769c0c",
+      "front": "a shrine",
+      "back": "un sanctuaire"
+    },
+    {
+      "id": "15a53a",
+      "front": "a pilgrimage",
+      "back": "un pèlerinage"
+    },
+    {
+      "id": "3325fa",
+      "front": "a pilgrim",
+      "back": "un pèlerin"
+    },
+    {
+      "id": "6dc037",
+      "front": "a priest",
+      "back": "un prêtre"
+    },
+    {
+      "id": "10800f",
+      "front": "a minister of religion",
+      "back": "un pasteur"
+    },
+    {
+      "id": "d002fa",
+      "front": "a bishop",
+      "back": "un évêque"
+    },
+    {
+      "id": "7c30c8",
+      "front": "an archbishop",
+      "back": "un archevêque"
+    },
+    {
+      "id": "fd9b88",
+      "front": "a cardinal",
+      "back": "un cardinal"
+    },
+    {
+      "id": "f39a2f",
+      "front": "the Pope",
+      "back": "le pape"
+    },
+    {
+      "id": "b0ec81",
+      "front": "a monk",
+      "back": "un moine"
+    },
+    {
+      "id": "0e591e",
+      "front": "a nun",
+      "back": "une religieuse"
+    },
+    {
+      "id": "e34237",
+      "front": "a rabbi",
+      "back": "un rabbin"
+    },
+    {
+      "id": "db141d",
+      "front": "an imam",
+      "back": "un imam"
+    },
+    {
+      "id": "0629ca",
+      "front": "a congregation",
+      "back": "une assemblée de fidèles"
+    },
+    {
+      "id": "19a4bb",
+      "front": "the laity",
+      "back": "les laïcs"
+    },
+    {
+      "id": "6a742b",
+      "front": "a worshipper",
+      "back": "un fidèle"
+    },
+    {
+      "id": "a31223",
+      "front": "worship",
+      "back": "le culte, l'adoration"
+    },
+    {
+      "id": "1b7b30",
+      "front": "to worship",
+      "back": "adorer, vénérer"
+    },
+    {
+      "id": "dc9ca0",
+      "front": "a service",
+      "back": "un office"
+    },
+    {
+      "id": "b571c6",
+      "front": "to say mass",
+      "back": "dire la messe"
+    },
+    {
+      "id": "9c3633",
+      "front": "a sermon",
+      "back": "un sermon"
+    },
+    {
+      "id": "6284e7",
+      "front": "a prayer",
+      "back": "une prière"
+    },
+    {
+      "id": "fad829",
+      "front": "to pray",
+      "back": "prier"
+    },
+    {
+      "id": "6944b3",
+      "front": "a hymn",
+      "back": "un cantique"
+    },
+    {
+      "id": "20baf5",
+      "front": "a psalm",
+      "back": "un psaume"
+    },
+    {
+      "id": "c1fc14",
+      "front": "a liturgy",
+      "back": "une liturgie"
+    },
+    {
+      "id": "b69de8",
+      "front": "a rite",
+      "back": "un rite"
+    },
+    {
+      "id": "3f1946",
+      "front": "a ritual",
+      "back": "un rituel"
+    },
+    {
+      "id": "df69d6",
+      "front": "a sacrament",
+      "back": "un sacrement"
+    },
+    {
+      "id": "4f56b3",
+      "front": "baptism",
+      "back": "le baptême"
+    },
+    {
+      "id": "cef710",
+      "front": "communion",
+      "back": "la communion"
+    },
+    {
+      "id": "6ea7f4",
+      "front": "confession of sins",
+      "back": "la confession"
+    },
+    {
+      "id": "8c3e4b",
+      "front": "a blessing",
+      "back": "une bénédiction"
+    },
+    {
+      "id": "1f478d",
+      "front": "to bless",
+      "back": "bénir"
+    },
+    {
+      "id": "b16848",
+      "front": "a vow",
+      "back": "un vœu"
+    },
+    {
+      "id": "958ce6",
+      "front": "a fast",
+      "back": "un jeûne"
+    },
+    {
+      "id": "492ac6",
+      "front": "to fast",
+      "back": "jeûner"
+    },
+    {
+      "id": "3937a9",
+      "front": "an offering",
+      "back": "une offrande"
+    },
+    {
+      "id": "01609f",
+      "front": "a sacrifice",
+      "back": "un sacrifice"
+    },
+    {
+      "id": "61fb7e",
+      "front": "a scripture",
+      "back": "une écriture sainte"
+    },
+    {
+      "id": "b55c22",
+      "front": "the Bible",
+      "back": "la Bible"
+    },
+    {
+      "id": "6d800f",
+      "front": "the Gospel",
+      "back": "l'Évangile"
+    },
+    {
+      "id": "8ec894",
+      "front": "a parable",
+      "back": "une parabole"
+    },
+    {
+      "id": "63a4fa",
+      "front": "a commandment",
+      "back": "un commandement"
+    },
+    {
+      "id": "0d9303",
+      "front": "a prophet",
+      "back": "un prophète"
+    },
+    {
+      "id": "ab4466",
+      "front": "a prophecy",
+      "back": "une prophétie"
+    },
+    {
+      "id": "2cb681",
+      "front": "a disciple",
+      "back": "un disciple"
+    },
+    {
+      "id": "170f48",
+      "front": "an apostle",
+      "back": "un apôtre"
+    },
+    {
+      "id": "e2e7fc",
+      "front": "a saint",
+      "back": "un saint"
+    },
+    {
+      "id": "209be9",
+      "front": "a martyr",
+      "back": "un martyr"
+    },
+    {
+      "id": "41689f",
+      "front": "a miracle",
+      "back": "un miracle"
+    },
+    {
+      "id": "e19f44",
+      "front": "the sacred",
+      "back": "le sacré"
+    },
+    {
+      "id": "995a05",
+      "front": "holy",
+      "back": "saint, sacré"
+    },
+    {
+      "id": "44d9f0",
+      "front": "divine",
+      "back": "divin"
+    },
+    {
+      "id": "d8d096",
+      "front": "a deity",
+      "back": "une divinité"
+    },
+    {
+      "id": "e3b2cb",
+      "front": "the soul",
+      "back": "l'âme"
+    },
+    {
+      "id": "5fd486",
+      "front": "the spirit",
+      "back": "l'esprit"
+    },
+    {
+      "id": "2a34f9",
+      "front": "the afterlife",
+      "back": "l'au-delà"
+    },
+    {
+      "id": "3f22d5",
+      "front": "salvation",
+      "back": "le salut"
+    },
+    {
+      "id": "00dffd",
+      "front": "redemption",
+      "back": "la rédemption"
+    },
+    {
+      "id": "cb4f3a",
+      "front": "damnation",
+      "back": "la damnation"
+    },
+    {
+      "id": "4e69c9",
+      "front": "sin",
+      "back": "le péché"
+    },
+    {
+      "id": "8bc0ed",
+      "front": "grace",
+      "back": "la grâce"
+    },
+    {
+      "id": "1f4714",
+      "front": "repentance",
+      "back": "le repentir"
+    },
+    {
+      "id": "af53af",
+      "front": "atonement",
+      "back": "l'expiation"
+    },
+    {
+      "id": "a2f912",
+      "front": "a heresy",
+      "back": "une hérésie"
+    },
+    {
+      "id": "491f15",
+      "front": "a heretic",
+      "back": "un hérétique"
+    },
+    {
+      "id": "cbd2d1",
+      "front": "blasphemy",
+      "back": "le blasphème"
+    },
+    {
+      "id": "8ee440",
+      "front": "a schism",
+      "back": "un schisme"
+    },
+    {
+      "id": "7ec166",
+      "front": "orthodoxy",
+      "back": "l'orthodoxie"
+    },
+    {
+      "id": "4d0b14",
+      "front": "fundamentalism",
+      "back": "le fondamentalisme"
+    },
+    {
+      "id": "4eeb09",
+      "front": "an atheist",
+      "back": "un athée"
+    },
+    {
+      "id": "0cd4f1",
+      "front": "agnosticism",
+      "back": "l'agnosticisme"
+    },
+    {
+      "id": "dde9c8",
+      "front": "superstition",
+      "back": "la superstition"
+    },
+    {
+      "id": "89ccd9",
+      "front": "a myth",
+      "back": "un mythe"
+    },
+    {
+      "id": "fd5a17",
+      "front": "mythology",
+      "back": "la mythologie"
+    },
+    {
+      "id": "4b6281",
+      "front": "a legend",
+      "back": "une légende"
+    },
+    {
+      "id": "9e301d",
+      "front": "a ghost",
+      "back": "un fantôme"
+    },
+    {
+      "id": "4c1620",
+      "front": "paganism",
+      "back": "le paganisme"
+    },
+    {
+      "id": "1ff0b0",
+      "front": "a spiritual quest",
+      "back": "une quête spirituelle"
+    }
+  ]
+}
