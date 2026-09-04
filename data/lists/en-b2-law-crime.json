@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-law-crime",
+  "name": "Law and Crime",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "e87b0e",
+      "front": "the law",
+      "back": "le droit, la loi"
+    },
+    {
+      "id": "e4f162",
+      "front": "a lawyer",
+      "back": "un avocat, un juriste"
+    },
+    {
+      "id": "1c1f6f",
+      "front": "a solicitor",
+      "back": "un avocat conseil"
+    },
+    {
+      "id": "34cdf8",
+      "front": "a barrister",
+      "back": "un avocat plaidant"
+    },
+    {
+      "id": "7678cc",
+      "front": "an attorney",
+      "back": "un avocat"
+    },
+    {
+      "id": "d7beeb",
+      "front": "a legal adviser",
+      "back": "un conseiller juridique"
+    },
+    {
+      "id": "00ecca",
+      "front": "a law firm",
+      "back": "un cabinet d'avocats"
+    },
+    {
+      "id": "3b5836",
+      "front": "a judge",
+      "back": "un juge"
+    },
+    {
+      "id": "11726c",
+      "front": "a magistrate",
+      "back": "un magistrat"
+    },
+    {
+      "id": "49a75a",
+      "front": "a jury",
+      "back": "un jury"
+    },
+    {
+      "id": "666791",
+      "front": "a juror",
+      "back": "un juré"
+    },
+    {
+      "id": "99c5c7",
+      "front": "a court",
+      "back": "un tribunal"
+    },
+    {
+      "id": "b22107",
+      "front": "a courtroom",
+      "back": "une salle d'audience"
+    },
+    {
+      "id": "8212dd",
+      "front": "a court hearing",
+      "back": "une audience"
+    },
+    {
+      "id": "622c70",
+      "front": "a trial",
+      "back": "un procès"
+    },
+    {
+      "id": "865bcc",
+      "front": "a case",
+      "back": "une affaire"
+    },
+    {
+      "id": "eae98d",
+      "front": "a lawsuit",
+      "back": "un procès civil"
+    },
+    {
+      "id": "5b49a2",
+      "front": "to sue",
+      "back": "poursuivre en justice"
+    },
+    {
+      "id": "f0381a",
+      "front": "a plaintiff",
+      "back": "un plaignant, un demandeur"
+    },
+    {
+      "id": "37eccb",
+      "front": "a defendant",
+      "back": "un prévenu, un défendeur"
+    },
+    {
+      "id": "9cf335",
+      "front": "a prosecutor",
+      "back": "un procureur"
+    },
+    {
+      "id": "8a8829",
+      "front": "the prosecution",
+      "back": "l'accusation"
+    },
+    {
+      "id": "53ec29",
+      "front": "the defence",
+      "back": "la défense"
+    },
+    {
+      "id": "57e31b",
+      "front": "a witness",
+      "back": "un témoin"
+    },
+    {
+      "id": "122a8c",
+      "front": "to testify",
+      "back": "témoigner"
+    },
+    {
+      "id": "a1fcc3",
+      "front": "testimony",
+      "back": "un témoignage"
+    },
+    {
+      "id": "06c217",
+      "front": "evidence",
+      "back": "les preuves"
+    },
+    {
+      "id": "eced50",
+      "front": "an exhibit",
+      "back": "une pièce à conviction"
+    },
+    {
+      "id": "90f267",
+      "front": "proof",
+      "back": "la preuve"
+    },
+    {
+      "id": "b0f04f",
+      "front": "an oath",
+      "back": "un serment"
+    },
+    {
+      "id": "2886a4",
+      "front": "perjury",
+      "back": "le faux témoignage"
+    },
+    {
+      "id": "1874fe",
+      "front": "a statement",
+      "back": "une déposition, une déclaration"
+    },
+    {
+      "id": "38f6bd",
+      "front": "a confession",
+      "back": "des aveux"
+    },
+    {
+      "id": "61e56d",
+      "front": "a plea",
+      "back": "un plaidoyer"
+    },
+    {
+      "id": "fccba7",
+      "front": "to plead guilty",
+      "back": "plaider coupable"
+    },
+    {
+      "id": "638426",
+      "front": "a verdict",
+      "back": "un verdict"
+    },
+    {
+      "id": "8e14f3",
+      "front": "guilty",
+      "back": "coupable"
+    },
+    {
+      "id": "e066ce",
+      "front": "innocent",
+      "back": "innocent"
+    },
+    {
+      "id": "7b40d5",
+      "front": "an acquittal",
+      "back": "un acquittement"
+    },
+    {
+      "id": "67dd17",
+      "front": "to acquit",
+      "back": "acquitter"
+    },
+    {
+      "id": "348d59",
+      "front": "a conviction",
+      "back": "une condamnation"
+    },
+    {
+      "id": "2baf30",
+      "front": "to convict",
+      "back": "condamner, déclarer coupable"
+    },
+    {
+      "id": "c8efca",
+      "front": "a sentence",
+      "back": "une peine"
+    },
+    {
+      "id": "5eff0a",
+      "front": "to sentence",
+      "back": "condamner à une peine"
+    },
+    {
+      "id": "8cb0bb",
+      "front": "a fine",
+      "back": "une amende"
+    },
+    {
+      "id": "442c56",
+      "front": "imprisonment",
+      "back": "l'emprisonnement"
+    },
+    {
+      "id": "ee0247",
+      "front": "a life sentence",
+      "back": "une peine de prison à perpétuité"
+    },
+    {
+      "id": "3bbc64",
+      "front": "a suspended sentence",
+      "back": "une peine avec sursis"
+    },
+    {
+      "id": "21978f",
+      "front": "parole",
+      "back": "la liberté conditionnelle"
+    },
+    {
+      "id": "679dba",
+      "front": "probation",
+      "back": "le sursis avec mise à l'épreuve"
+    },
+    {
+      "id": "b11a72",
+      "front": "community service",
+      "back": "les travaux d'intérêt général"
+    },
+    {
+      "id": "dcfd7b",
+      "front": "an appeal",
+      "back": "un appel"
+    },
+    {
+      "id": "d45861",
+      "front": "to appeal",
+      "back": "faire appel"
+    },
+    {
+      "id": "24bf9f",
+      "front": "a pardon",
+      "back": "une grâce"
+    },
+    {
+      "id": "763055",
+      "front": "an amnesty",
+      "back": "une amnistie"
+    },
+    {
+      "id": "db9849",
+      "front": "a crime",
+      "back": "un crime, un délit"
+    },
+    {
+      "id": "aa49b1",
+      "front": "an offence",
+      "back": "une infraction"
+    },
+    {
+      "id": "f6af9b",
+      "front": "a felony",
+      "back": "un crime"
+    },
+    {
+      "id": "14f70b",
+      "front": "a misdemeanour",
+      "back": "un délit mineur"
+    },
+    {
+      "id": "93db0e",
+      "front": "a criminal",
+      "back": "un criminel"
+    },
+    {
+      "id": "5f35a7",
+      "front": "an offender",
+      "back": "un délinquant"
+    },
+    {
+      "id": "757779",
+      "front": "a suspect",
+      "back": "un suspect"
+    },
+    {
+      "id": "d9e750",
+      "front": "a culprit",
+      "back": "un coupable"
+    },
+    {
+      "id": "afb04d",
+      "front": "an accomplice",
+      "back": "un complice"
+    },
+    {
+      "id": "be0902",
+      "front": "a motive",
+      "back": "un mobile"
+    },
+    {
+      "id": "34ddc1",
+      "front": "an alibi",
+      "back": "un alibi"
+    },
+    {
+      "id": "74df31",
+      "front": "theft",
+      "back": "le vol"
+    },
+    {
+      "id": "e0fb2e",
+      "front": "a burglary",
+      "back": "un cambriolage"
+    },
+    {
+      "id": "f3383a",
+      "front": "a robbery",
+      "back": "un vol à main armée"
+    },
+    {
+      "id": "a029bc",
+      "front": "shoplifting",
+      "back": "le vol à l'étalage"
+    },
+    {
+      "id": "f1e482",
+      "front": "fraud",
+      "back": "la fraude, l'escroquerie"
+    },
+    {
+      "id": "39de99",
+      "front": "embezzlement",
+      "back": "le détournement de fonds"
+    },
+    {
+      "id": "ec1518",
+      "front": "bribery",
+      "back": "la corruption"
+    },
+    {
+      "id": "3d82ed",
+      "front": "a bribe",
+      "back": "un pot-de-vin"
+    },
+    {
+      "id": "8fc065",
+      "front": "blackmail",
+      "back": "le chantage"
+    },
+    {
+      "id": "c48459",
+      "front": "extortion",
+      "back": "l'extorsion"
+    },
+    {
+      "id": "96479a",
+      "front": "money laundering",
+      "back": "le blanchiment d'argent"
+    },
+    {
+      "id": "98043f",
+      "front": "forgery",
+      "back": "la contrefaçon, le faux"
+    },
+    {
+      "id": "6a8e80",
+      "front": "smuggling",
+      "back": "la contrebande"
+    },
+    {
+      "id": "23796a",
+      "front": "trafficking",
+      "back": "le trafic"
+    },
+    {
+      "id": "c0cbd9",
+      "front": "assault",
+      "back": "une agression, des coups et blessures"
+    },
+    {
+      "id": "cd4950",
+      "front": "manslaughter",
+      "back": "l'homicide involontaire"
+    },
+    {
+      "id": "fd8cf7",
+      "front": "murder",
+      "back": "le meurtre"
+    },
+    {
+      "id": "1b49ad",
+      "front": "homicide",
+      "back": "l'homicide"
+    },
+    {
+      "id": "721669",
+      "front": "arson",
+      "back": "l'incendie criminel"
+    },
+    {
+      "id": "b6a236",
+      "front": "vandalism",
+      "back": "le vandalisme"
+    },
+    {
+      "id": "575fb7",
+      "front": "kidnapping",
+      "back": "l'enlèvement"
+    },
+    {
+      "id": "167cad",
+      "front": "a hostage",
+      "back": "un otage"
+    },
+    {
+      "id": "8dfa0d",
+      "front": "the police force",
+      "back": "la police"
+    },
+    {
+      "id": "4ee88e",
+      "front": "a detective",
+      "back": "un inspecteur, un enquêteur"
+    },
+    {
+      "id": "822f72",
+      "front": "an inquiry",
+      "back": "une enquête"
+    },
+    {
+      "id": "724580",
+      "front": "a warrant",
+      "back": "un mandat"
+    },
+    {
+      "id": "fe4364",
+      "front": "a search warrant",
+      "back": "un mandat de perquisition"
+    },
+    {
+      "id": "33b8e2",
+      "front": "to arrest",
+      "back": "arrêter"
+    },
+    {
+      "id": "f9e1ab",
+      "front": "custody",
+      "back": "la garde à vue, la détention"
+    },
+    {
+      "id": "afc57e",
+      "front": "bail",
+      "back": "la caution, la liberté sous caution"
+    },
+    {
+      "id": "94ea79",
+      "front": "a raid",
+      "back": "une descente de police"
+    },
+    {
+      "id": "0c5303",
+      "front": "a crackdown",
+      "back": "un coup de filet, une répression"
+    },
+    {
+      "id": "3a5cd4",
+      "front": "forensic",
+      "back": "médico-légal"
+    },
+    {
+      "id": "4c87fb",
+      "front": "a criminal record",
+      "back": "un casier judiciaire"
+    }
+  ]
+}
