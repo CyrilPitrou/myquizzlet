@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-free-time-sport",
+  "name": "Free Time and Sport",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "5gn6nz",
+      "front": "free time",
+      "back": "le temps libre"
+    },
+    {
+      "id": "q4kgm5",
+      "front": "leisure",
+      "back": "les loisirs"
+    },
+    {
+      "id": "r46ft8",
+      "front": "a hobby",
+      "back": "un passe-temps"
+    },
+    {
+      "id": "kv0t1p",
+      "front": "an interest",
+      "back": "un centre d'intérêt"
+    },
+    {
+      "id": "m77raz",
+      "front": "a club",
+      "back": "un club"
+    },
+    {
+      "id": "72f149",
+      "front": "a member",
+      "back": "un membre"
+    },
+    {
+      "id": "1g3f1d",
+      "front": "a sport",
+      "back": "un sport"
+    },
+    {
+      "id": "9r5kqx",
+      "front": "football",
+      "back": "le football"
+    },
+    {
+      "id": "vozq9q",
+      "front": "rugby",
+      "back": "le rugby"
+    },
+    {
+      "id": "nby8qw",
+      "front": "basketball",
+      "back": "le basket-ball"
+    },
+    {
+      "id": "ijic54",
+      "front": "tennis",
+      "back": "le tennis"
+    },
+    {
+      "id": "ai0ca1",
+      "front": "golf",
+      "back": "le golf"
+    },
+    {
+      "id": "mwnyxj",
+      "front": "cricket",
+      "back": "le cricket"
+    },
+    {
+      "id": "xd1vx7",
+      "front": "athletics",
+      "back": "l'athlétisme"
+    },
+    {
+      "id": "77jfpa",
+      "front": "running",
+      "back": "la course à pied"
+    },
+    {
+      "id": "4vgru3",
+      "front": "swimming",
+      "back": "la natation"
+    },
+    {
+      "id": "2okaav",
+      "front": "cycling",
+      "back": "le cyclisme"
+    },
+    {
+      "id": "1etitu",
+      "front": "skiing",
+      "back": "le ski"
+    },
+    {
+      "id": "cgihro",
+      "front": "skating",
+      "back": "le patinage"
+    },
+    {
+      "id": "2p61zf",
+      "front": "sailing",
+      "back": "la voile"
+    },
+    {
+      "id": "4j2c87",
+      "front": "climbing",
+      "back": "l'escalade"
+    },
+    {
+      "id": "u7prq7",
+      "front": "hiking",
+      "back": "la randonnée"
+    },
+    {
+      "id": "5rdsxk",
+      "front": "riding",
+      "back": "l'équitation"
+    },
+    {
+      "id": "1frsd2",
+      "front": "boxing",
+      "back": "la boxe"
+    },
+    {
+      "id": "75v541",
+      "front": "judo",
+      "back": "le judo"
+    },
+    {
+      "id": "sjwwgl",
+      "front": "gymnastics",
+      "back": "la gymnastique"
+    },
+    {
+      "id": "i0webb",
+      "front": "a match",
+      "back": "un match"
+    },
+    {
+      "id": "cjetrm",
+      "front": "a game",
+      "back": "un jeu, une partie"
+    },
+    {
+      "id": "92qzt7",
+      "front": "a competition",
+      "back": "une compétition"
+    },
+    {
+      "id": "9cqgav",
+      "front": "a tournament",
+      "back": "un tournoi"
+    },
+    {
+      "id": "lqt9no",
+      "front": "a championship",
+      "back": "un championnat"
+    },
+    {
+      "id": "sd6djw",
+      "front": "a race",
+      "back": "une course"
+    },
+    {
+      "id": "h483zu",
+      "front": "a round",
+      "back": "une manche, un tour"
+    },
+    {
+      "id": "dnxa4i",
+      "front": "a half",
+      "back": "une mi-temps"
+    },
+    {
+      "id": "vusk01",
+      "front": "a score",
+      "back": "un score"
+    },
+    {
+      "id": "qkyatl",
+      "front": "a goal",
+      "back": "un but"
+    },
+    {
+      "id": "6fd90o",
+      "front": "a point",
+      "back": "un point"
+    },
+    {
+      "id": "atjnjl",
+      "front": "a draw",
+      "back": "un match nul"
+    },
+    {
+      "id": "jeb57n",
+      "front": "a victory",
+      "back": "une victoire"
+    },
+    {
+      "id": "nc0t59",
+      "front": "a defeat",
+      "back": "une défaite"
+    },
+    {
+      "id": "ywu9jg",
+      "front": "a title",
+      "back": "un titre"
+    },
+    {
+      "id": "ebwnde",
+      "front": "a medal",
+      "back": "une médaille"
+    },
+    {
+      "id": "c7dydt",
+      "front": "a cup as a prize",
+      "back": "une coupe"
+    },
+    {
+      "id": "bcz6rl",
+      "front": "a trophy",
+      "back": "un trophée"
+    },
+    {
+      "id": "klpx0f",
+      "front": "a record",
+      "back": "un record"
+    },
+    {
+      "id": "f3dpzc",
+      "front": "a player",
+      "back": "un joueur"
+    },
+    {
+      "id": "q5tw9o",
+      "front": "a team-mate",
+      "back": "un coéquipier"
+    },
+    {
+      "id": "sjsje7",
+      "front": "an opponent",
+      "back": "un adversaire"
+    },
+    {
+      "id": "xy1lj2",
+      "front": "a referee",
+      "back": "un arbitre"
+    },
+    {
+      "id": "qyt2bi",
+      "front": "a coach who trains",
+      "back": "un entraîneur"
+    },
+    {
+      "id": "a7o5dk",
+      "front": "a fan",
+      "back": "un supporter"
+    },
+    {
+      "id": "a72bp9",
+      "front": "a spectator",
+      "back": "un spectateur"
+    },
+    {
+      "id": "5h3tcn",
+      "front": "a crowd",
+      "back": "une foule"
+    },
+    {
+      "id": "9su4h9",
+      "front": "a pitch",
+      "back": "un terrain"
+    },
+    {
+      "id": "ogtdd6",
+      "front": "a court",
+      "back": "un court"
+    },
+    {
+      "id": "uk42bm",
+      "front": "a track",
+      "back": "une piste"
+    },
+    {
+      "id": "4ed0jg",
+      "front": "a gym",
+      "back": "une salle de sport"
+    },
+    {
+      "id": "vv5uep",
+      "front": "a changing room",
+      "back": "un vestiaire"
+    },
+    {
+      "id": "q3oib2",
+      "front": "a racket",
+      "back": "une raquette"
+    },
+    {
+      "id": "y8daz7",
+      "front": "a ball",
+      "back": "un ballon, une balle"
+    },
+    {
+      "id": "9g4a6f",
+      "front": "a net",
+      "back": "un filet"
+    },
+    {
+      "id": "s7sfqa",
+      "front": "a bat",
+      "back": "une batte"
+    },
+    {
+      "id": "jjhsli",
+      "front": "a helmet",
+      "back": "un casque"
+    },
+    {
+      "id": "aht2oq",
+      "front": "a whistle",
+      "back": "un sifflet"
+    },
+    {
+      "id": "ji4ewm",
+      "front": "a board game",
+      "back": "un jeu de société"
+    },
+    {
+      "id": "elg4r5",
+      "front": "a card game",
+      "back": "un jeu de cartes"
+    },
+    {
+      "id": "2031dt",
+      "front": "chess",
+      "back": "les échecs"
+    },
+    {
+      "id": "pymnlj",
+      "front": "a puzzle",
+      "back": "un casse-tête, un puzzle"
+    },
+    {
+      "id": "onu4wt",
+      "front": "a video game",
+      "back": "un jeu vidéo"
+    },
+    {
+      "id": "lskng4",
+      "front": "a toy",
+      "back": "un jouet"
+    },
+    {
+      "id": "9fo6y8",
+      "front": "a doll",
+      "back": "une poupée"
+    },
+    {
+      "id": "kfkrze",
+      "front": "reading",
+      "back": "la lecture"
+    },
+    {
+      "id": "u28nza",
+      "front": "gardening",
+      "back": "le jardinage"
+    },
+    {
+      "id": "myee6b",
+      "front": "painting as a hobby",
+      "back": "la peinture"
+    },
+    {
+      "id": "tdd5dj",
+      "front": "drawing",
+      "back": "le dessin"
+    },
+    {
+      "id": "qx9q06",
+      "front": "photography",
+      "back": "la photographie"
+    },
+    {
+      "id": "u9hykw",
+      "front": "knitting",
+      "back": "le tricot"
+    },
+    {
+      "id": "94l47t",
+      "front": "cooking as a hobby",
+      "back": "la cuisine"
+    },
+    {
+      "id": "u86ofe",
+      "front": "dancing",
+      "back": "la danse"
+    },
+    {
+      "id": "mh2vgp",
+      "front": "singing",
+      "back": "le chant"
+    },
+    {
+      "id": "xwwv0s",
+      "front": "a concert",
+      "back": "un concert"
+    },
+    {
+      "id": "g403u4",
+      "front": "a party",
+      "back": "une fête, une soirée"
+    },
+    {
+      "id": "ib2kcj",
+      "front": "a picnic",
+      "back": "un pique-nique"
+    },
+    {
+      "id": "wnqweb",
+      "front": "a walk",
+      "back": "une promenade"
+    },
+    {
+      "id": "3dkrgd",
+      "front": "a bike ride",
+      "back": "une balade à vélo"
+    },
+    {
+      "id": "wj6dak",
+      "front": "a camp",
+      "back": "un camp"
+    },
+    {
+      "id": "tjlgof",
+      "front": "a fair",
+      "back": "une foire, une fête foraine"
+    },
+    {
+      "id": "0bbutx",
+      "front": "to play",
+      "back": "jouer"
+    },
+    {
+      "id": "v1n01i",
+      "front": "to practise",
+      "back": "s'entraîner, pratiquer"
+    },
+    {
+      "id": "ysyu53",
+      "front": "to train for sport",
+      "back": "s'entraîner"
+    },
+    {
+      "id": "9w3jxf",
+      "front": "to win",
+      "back": "gagner"
+    },
+    {
+      "id": "cbv1lv",
+      "front": "to lose",
+      "back": "perdre"
+    },
+    {
+      "id": "un7kdz",
+      "front": "to beat",
+      "back": "battre"
+    },
+    {
+      "id": "4fljx0",
+      "front": "to score",
+      "back": "marquer"
+    },
+    {
+      "id": "cxg0fc",
+      "front": "to take part in",
+      "back": "participer à"
+    },
+    {
+      "id": "skfkeu",
+      "front": "to support a team",
+      "back": "soutenir une équipe"
+    },
+    {
+      "id": "kn4x44",
+      "front": "to relax",
+      "back": "se détendre"
+    },
+    {
+      "id": "viql8u",
+      "front": "to enjoy oneself",
+      "back": "s'amuser"
+    },
+    {
+      "id": "fojlyi",
+      "front": "to go out",
+      "back": "sortir"
+    },
+    {
+      "id": "6uwmm9",
+      "front": "keen on",
+      "back": "passionné de"
+    }
+  ]
+}
