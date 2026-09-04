@@ -1,0 +1,412 @@
+{
+  "id": "en-c1-allusions",
+  "name": "Proverbs and Allusions",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "jy55qg",
+      "front": "the writing on the wall (Daniel)",
+      "back": "les signes annonciateurs d'une chute"
+    },
+    {
+      "id": "9cleht",
+      "front": "a Daniel come to judgement",
+      "back": "un juge d'une sagesse inattendue"
+    },
+    {
+      "id": "6moq93",
+      "front": "the patience of Job",
+      "back": "la patience de Job"
+    },
+    {
+      "id": "mvelf2",
+      "front": "a Judas kiss",
+      "back": "un baiser de Judas"
+    },
+    {
+      "id": "dmwk5i",
+      "front": "thirty pieces of silver",
+      "back": "les trente deniers de la trahison"
+    },
+    {
+      "id": "8tr1y5",
+      "front": "a doubting Thomas",
+      "back": "un saint Thomas, un incrédule"
+    },
+    {
+      "id": "2mz3eb",
+      "front": "a good Samaritan",
+      "back": "un bon Samaritain"
+    },
+    {
+      "id": "ko6znr",
+      "front": "the prodigal son",
+      "back": "le fils prodigue"
+    },
+    {
+      "id": "otdko2",
+      "front": "a fatted calf",
+      "back": "le veau gras du retour"
+    },
+    {
+      "id": "cy0yjh",
+      "front": "a golden calf",
+      "back": "un veau d'or"
+    },
+    {
+      "id": "npzoc6",
+      "front": "a mess of pottage",
+      "back": "un plat de lentilles, un marché de dupes"
+    },
+    {
+      "id": "vexd3i",
+      "front": "a scapegoat",
+      "back": "un bouc émissaire"
+    },
+    {
+      "id": "mv14uk",
+      "front": "a sacrificial lamb",
+      "back": "un agneau sacrificiel"
+    },
+    {
+      "id": "7xkf80",
+      "front": "a lamb to the slaughter",
+      "back": "un agneau qu'on mène à l'abattoir"
+    },
+    {
+      "id": "74x7m8",
+      "front": "the salt of the earth",
+      "back": "le sel de la terre"
+    },
+    {
+      "id": "9q0cwk",
+      "front": "a voice crying in the wilderness",
+      "back": "une voix qui prêche dans le désert"
+    },
+    {
+      "id": "tui4wg",
+      "front": "manna from heaven",
+      "back": "la manne céleste"
+    },
+    {
+      "id": "vgk19f",
+      "front": "the promised land",
+      "back": "la terre promise"
+    },
+    {
+      "id": "g23igk",
+      "front": "a forbidden fruit",
+      "back": "un fruit défendu"
+    },
+    {
+      "id": "jq1b4w",
+      "front": "an apple of discord",
+      "back": "une pomme de discorde"
+    },
+    {
+      "id": "4k4578",
+      "front": "the mark of Cain",
+      "back": "la marque de Caïn"
+    },
+    {
+      "id": "5fxr48",
+      "front": "a David and Goliath contest",
+      "back": "un combat de David contre Goliath"
+    },
+    {
+      "id": "92we4m",
+      "front": "the wisdom of Solomon",
+      "back": "la sagesse de Salomon"
+    },
+    {
+      "id": "wa2qad",
+      "front": "a Jezebel",
+      "back": "une Jézabel, une femme sans scrupules"
+    },
+    {
+      "id": "3f6rd4",
+      "front": "an eye for an eye",
+      "back": "œil pour œil"
+    },
+    {
+      "id": "28obfm",
+      "front": "to turn the other cheek",
+      "back": "tendre l'autre joue"
+    },
+    {
+      "id": "gm4azr",
+      "front": "to wash one's hands of",
+      "back": "s'en laver les mains"
+    },
+    {
+      "id": "hr4kv6",
+      "front": "to fall by the wayside",
+      "back": "rester en chemin, être abandonné"
+    },
+    {
+      "id": "jincz1",
+      "front": "to see the light",
+      "back": "avoir une révélation"
+    },
+    {
+      "id": "fbu7m8",
+      "front": "a road to Damascus moment",
+      "back": "un chemin de Damas"
+    },
+    {
+      "id": "lq922v",
+      "front": "a den of thieves",
+      "back": "une caverne de voleurs"
+    },
+    {
+      "id": "okr00c",
+      "front": "the blind leading the blind",
+      "back": "un aveugle qui guide un aveugle"
+    },
+    {
+      "id": "e3lz70",
+      "front": "a house divided",
+      "back": "une maison divisée contre elle-même"
+    },
+    {
+      "id": "jdn61g",
+      "front": "a millstone",
+      "back": "une meule au cou, un fardeau"
+    },
+    {
+      "id": "5zkffk",
+      "front": "the eleventh hour",
+      "back": "la onzième heure, l'ultime moment"
+    },
+    {
+      "id": "er5akr",
+      "front": "an Achilles heel",
+      "back": "un talon d'Achille"
+    },
+    {
+      "id": "bmc11d",
+      "front": "a Herculean task",
+      "back": "un travail d'Hercule"
+    },
+    {
+      "id": "34k6zv",
+      "front": "a Sisyphean labour",
+      "back": "un travail de Sisyphe"
+    },
+    {
+      "id": "310p8w",
+      "front": "a Promethean ambition",
+      "back": "une ambition prométhéenne"
+    },
+    {
+      "id": "nuwu2v",
+      "front": "a Tantalus torment",
+      "back": "un supplice de Tantale"
+    },
+    {
+      "id": "ruatkr",
+      "front": "an Icarus flight",
+      "back": "un vol d'Icare"
+    },
+    {
+      "id": "n9vwss",
+      "front": "a Cassandra",
+      "back": "une Cassandre"
+    },
+    {
+      "id": "i6g9ti",
+      "front": "a Penelope's web",
+      "back": "un ouvrage de Pénélope"
+    },
+    {
+      "id": "r8x0g7",
+      "front": "a siren's call",
+      "back": "un appel des sirènes"
+    },
+    {
+      "id": "r2ywyc",
+      "front": "Scylla and Charybdis",
+      "back": "Charybde et Scylla"
+    },
+    {
+      "id": "9az10n",
+      "front": "a labyrinth",
+      "back": "un labyrinthe"
+    },
+    {
+      "id": "75arze",
+      "front": "Ariadne's thread",
+      "back": "le fil d'Ariane"
+    },
+    {
+      "id": "vnt28j",
+      "front": "a Midas touch",
+      "back": "un don de Midas"
+    },
+    {
+      "id": "08n9al",
+      "front": "an Elysian calm",
+      "back": "un calme élyséen"
+    },
+    {
+      "id": "glhutq",
+      "front": "a Spartan life",
+      "back": "une vie spartiate"
+    },
+    {
+      "id": "0x6649",
+      "front": "a laconic reply",
+      "back": "une réponse laconique"
+    },
+    {
+      "id": "kbdzxt",
+      "front": "a Draconian measure",
+      "back": "une mesure draconienne"
+    },
+    {
+      "id": "mfw8li",
+      "front": "a Socratic question",
+      "back": "une question socratique"
+    },
+    {
+      "id": "cjhn9f",
+      "front": "a Platonic ideal",
+      "back": "un idéal platonicien"
+    },
+    {
+      "id": "2830n9",
+      "front": "a Stoic endurance",
+      "back": "une endurance stoïque"
+    },
+    {
+      "id": "10di0k",
+      "front": "an Epicurean taste",
+      "back": "un goût épicurien"
+    },
+    {
+      "id": "hdcju6",
+      "front": "a Delphic utterance",
+      "back": "un propos sibyllin"
+    },
+    {
+      "id": "0vz079",
+      "front": "a Bacchanalian revel",
+      "back": "une bacchanale"
+    },
+    {
+      "id": "m6ph8z",
+      "front": "a Janus face",
+      "back": "un visage de Janus"
+    },
+    {
+      "id": "bec40t",
+      "front": "a Mercurial temper",
+      "back": "un caractère versatile"
+    },
+    {
+      "id": "bqhc73",
+      "front": "a Machiavellian scheme",
+      "back": "une manœuvre machiavélique"
+    },
+    {
+      "id": "cfvwzi",
+      "front": "a Quixotic venture",
+      "back": "une entreprise donquichottesque"
+    },
+    {
+      "id": "vgqdoz",
+      "front": "a Panglossian optimism",
+      "back": "un optimisme panglossien"
+    },
+    {
+      "id": "auwq6v",
+      "front": "a Falstaffian humour",
+      "back": "un humour falstaffien"
+    },
+    {
+      "id": "qbalhi",
+      "front": "a Shylock's bargain",
+      "back": "un marché de Shylock"
+    },
+    {
+      "id": "ln65tn",
+      "front": "to out-Herod Herod",
+      "back": "dépasser Hérode en cruauté"
+    },
+    {
+      "id": "v6ke92",
+      "front": "the green-eyed monster",
+      "back": "le monstre aux yeux verts, la jalousie"
+    },
+    {
+      "id": "vzhu0z",
+      "front": "brevity is the soul of wit",
+      "back": "la brièveté est l'âme de l'esprit"
+    },
+    {
+      "id": "6a6s25",
+      "front": "something is rotten in the state",
+      "back": "il y a quelque chose de pourri au royaume"
+    },
+    {
+      "id": "lq26c1",
+      "front": "to be hoist with one's own petard (Hamlet)",
+      "back": "être pris à son propre piège"
+    },
+    {
+      "id": "5z5dya",
+      "front": "a winter of discontent (Richard III)",
+      "back": "un hiver de mécontentement"
+    },
+    {
+      "id": "hd00wg",
+      "front": "the be-all and the end-all (Macbeth)",
+      "back": "le tout de l'affaire"
+    },
+    {
+      "id": "q6cp6v",
+      "front": "a sound and fury",
+      "back": "du bruit et de la fureur"
+    },
+    {
+      "id": "znozvl",
+      "front": "the world is one's oyster",
+      "back": "le monde vous appartient"
+    },
+    {
+      "id": "14g39g",
+      "front": "a foregone conclusion (Othello)",
+      "back": "une conclusion inévitable"
+    },
+    {
+      "id": "v3y59g",
+      "front": "to wear one's heart on one's sleeve",
+      "back": "montrer ses sentiments"
+    },
+    {
+      "id": "ke0l5i",
+      "front": "more in sorrow than in anger",
+      "back": "plus par tristesse que par colère"
+    },
+    {
+      "id": "vsuxkn",
+      "front": "the primrose path",
+      "back": "le chemin des plaisirs faciles"
+    },
+    {
+      "id": "gvbcfl",
+      "front": "a tower of Babel",
+      "back": "une tour de Babel"
+    },
+    {
+      "id": "iksjpi",
+      "front": "a wolf at the door",
+      "back": "le loup à la porte, la misère qui menace"
+    }
+  ]
+}
