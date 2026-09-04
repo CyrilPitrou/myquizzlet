@@ -82,12 +82,13 @@ export function showHelp() {
   const install = installSection(active);
   if (install) view.append(install);
 
-  const [activities, due, which, learned, devices, token] = active.sections;
+  const [activities, due, which, learned, wishes, devices, token] = active.sections;
 
   view.append(section(activities.heading, activities.paragraphs.map(p)));
   view.append(section(due.heading, due.paragraphs.map(p)));
   view.append(section(which.heading, which.paragraphs.map(p)));
   view.append(section(learned.heading, learned.paragraphs.map(p)));
+  view.append(section(wishes.heading, wishes.paragraphs.map(p)));
 
   view.append(section(devices.heading, [
     ...devices.paragraphs.map(p),
