@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-educacion",
+  "name": "La educación",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "h16syq",
+      "front": "la educación pública",
+      "back": "l'enseignement public"
+    },
+    {
+      "id": "4q04gh",
+      "front": "el sistema educativo",
+      "back": "le système éducatif"
+    },
+    {
+      "id": "whdzov",
+      "front": "la enseñanza",
+      "back": "l'enseignement"
+    },
+    {
+      "id": "iy18it",
+      "front": "la escolarización",
+      "back": "la scolarisation"
+    },
+    {
+      "id": "dpvims",
+      "front": "la etapa educativa",
+      "back": "le cycle scolaire"
+    },
+    {
+      "id": "j2jhys",
+      "front": "la educación infantil",
+      "back": "l'école maternelle"
+    },
+    {
+      "id": "36mml3",
+      "front": "la educación primaria",
+      "back": "l'enseignement primaire"
+    },
+    {
+      "id": "xccite",
+      "front": "la educación secundaria",
+      "back": "l'enseignement secondaire"
+    },
+    {
+      "id": "l1ijr9",
+      "front": "el bachillerato",
+      "back": "le baccalauréat"
+    },
+    {
+      "id": "9kwbj8",
+      "front": "la formación profesional",
+      "back": "la formation professionnelle"
+    },
+    {
+      "id": "9gn8yb",
+      "front": "la enseñanza superior",
+      "back": "l'enseignement supérieur"
+    },
+    {
+      "id": "t29dv6",
+      "front": "la titulación",
+      "back": "le diplôme délivré"
+    },
+    {
+      "id": "n1oxxv",
+      "front": "el grado universitario",
+      "back": "la licence"
+    },
+    {
+      "id": "cu3qmx",
+      "front": "el posgrado",
+      "back": "le troisième cycle"
+    },
+    {
+      "id": "m1mzkr",
+      "front": "el rector",
+      "back": "le président d'université"
+    },
+    {
+      "id": "il0exz",
+      "front": "el decano",
+      "back": "le doyen"
+    },
+    {
+      "id": "n60ydz",
+      "front": "el claustro",
+      "back": "le conseil des professeurs"
+    },
+    {
+      "id": "yljnna",
+      "front": "el consejo escolar",
+      "back": "le conseil d'établissement"
+    },
+    {
+      "id": "mlr27p",
+      "front": "la inspección educativa",
+      "back": "l'inspection académique"
+    },
+    {
+      "id": "071iww",
+      "front": "el currículo",
+      "back": "le programme d'études"
+    },
+    {
+      "id": "9wumzi",
+      "front": "el plan de estudios",
+      "back": "la maquette d'enseignement"
+    },
+    {
+      "id": "iyeyxs",
+      "front": "la asignatura optativa",
+      "back": "la matière optionnelle"
+    },
+    {
+      "id": "jax3z7",
+      "front": "la carga lectiva",
+      "back": "la charge de cours"
+    },
+    {
+      "id": "4bzxyx",
+      "front": "el crédito académico",
+      "back": "le crédit universitaire"
+    },
+    {
+      "id": "xb1p0z",
+      "front": "la evaluación continua",
+      "back": "le contrôle continu"
+    },
+    {
+      "id": "w0f4sn",
+      "front": "la convocatoria",
+      "back": "la session d'examen"
+    },
+    {
+      "id": "zmnkle",
+      "front": "la prueba de acceso",
+      "back": "l'examen d'entrée"
+    },
+    {
+      "id": "1dae6g",
+      "front": "la nota de corte",
+      "back": "la note d'admission"
+    },
+    {
+      "id": "43p0xe",
+      "front": "la matrícula de honor",
+      "back": "la mention très bien"
+    },
+    {
+      "id": "4a9fze",
+      "front": "el expediente académico",
+      "back": "le relevé de notes"
+    },
+    {
+      "id": "nfs9xb",
+      "front": "la titulación homologada",
+      "back": "le diplôme reconnu"
+    },
+    {
+      "id": "0ycfjr",
+      "front": "la convalidación",
+      "back": "l'équivalence"
+    },
+    {
+      "id": "21n7oc",
+      "front": "el intercambio",
+      "back": "l'échange universitaire"
+    },
+    {
+      "id": "044741",
+      "front": "la movilidad estudiantil",
+      "back": "la mobilité étudiante"
+    },
+    {
+      "id": "z206th",
+      "front": "el máster oficial",
+      "back": "le master reconnu par l'État"
+    },
+    {
+      "id": "zmqmkx",
+      "front": "la tesis doctoral",
+      "back": "la thèse de doctorat"
+    },
+    {
+      "id": "i7qxyi",
+      "front": "el tribunal de tesis",
+      "back": "le jury de thèse"
+    },
+    {
+      "id": "mmvhwt",
+      "front": "la defensa",
+      "back": "la soutenance"
+    },
+    {
+      "id": "x6279g",
+      "front": "la investigación educativa",
+      "back": "la recherche en éducation"
+    },
+    {
+      "id": "855dy8",
+      "front": "la pedagogía",
+      "back": "la pédagogie"
+    },
+    {
+      "id": "cqobhp",
+      "front": "la didáctica",
+      "back": "la didactique"
+    },
+    {
+      "id": "q3ojmw",
+      "front": "la metodología",
+      "back": "la méthodologie"
+    },
+    {
+      "id": "8qrlem",
+      "front": "el aprendizaje significativo",
+      "back": "l'apprentissage signifiant"
+    },
+    {
+      "id": "w4w1s7",
+      "front": "la motivación del alumno",
+      "back": "la motivation de l'élève"
+    },
+    {
+      "id": "ekbe91",
+      "front": "el rendimiento escolar",
+      "back": "les résultats scolaires"
+    },
+    {
+      "id": "708hwm",
+      "front": "el fracaso escolar",
+      "back": "l'échec scolaire"
+    },
+    {
+      "id": "ywqviw",
+      "front": "el abandono escolar",
+      "back": "le décrochage scolaire"
+    },
+    {
+      "id": "79y5r2",
+      "front": "la repetición de curso",
+      "back": "le redoublement"
+    },
+    {
+      "id": "qrbw1e",
+      "front": "el refuerzo",
+      "back": "le soutien scolaire"
+    },
+    {
+      "id": "zsf0wp",
+      "front": "la tutoría",
+      "back": "le suivi individualisé"
+    },
+    {
+      "id": "527f4t",
+      "front": "la orientación profesional",
+      "back": "l'orientation professionnelle"
+    },
+    {
+      "id": "4qhkcd",
+      "front": "la diversidad en el aula",
+      "back": "la diversité en classe"
+    },
+    {
+      "id": "u2q582",
+      "front": "la educación inclusiva",
+      "back": "l'éducation inclusive"
+    },
+    {
+      "id": "woba9o",
+      "front": "las necesidades especiales",
+      "back": "les besoins particuliers"
+    },
+    {
+      "id": "6a2sj1",
+      "front": "la igualdad de oportunidades",
+      "back": "l'égalité des chances"
+    },
+    {
+      "id": "yl3aek",
+      "front": "la brecha educativa",
+      "back": "l'écart de réussite"
+    },
+    {
+      "id": "s0ja4c",
+      "front": "la segregación escolar",
+      "back": "la ségrégation scolaire"
+    },
+    {
+      "id": "pw55bj",
+      "front": "el centro concertado",
+      "back": "l'établissement sous contrat"
+    },
+    {
+      "id": "uva1zc",
+      "front": "el centro privado",
+      "back": "l'établissement privé"
+    },
+    {
+      "id": "uhpgch",
+      "front": "la escuela pública",
+      "back": "l'école publique"
+    },
+    {
+      "id": "ob18fa",
+      "front": "la ratio de alumnos",
+      "back": "le nombre d'élèves par classe"
+    },
+    {
+      "id": "asg1cx",
+      "front": "la plantilla docente",
+      "back": "l'équipe enseignante"
+    },
+    {
+      "id": "xvpi4v",
+      "front": "el profesorado",
+      "back": "le corps enseignant"
+    },
+    {
+      "id": "0n0inp",
+      "front": "el docente",
+      "back": "l'enseignant"
+    },
+    {
+      "id": "zehtns",
+      "front": "la vocación",
+      "back": "la vocation"
+    },
+    {
+      "id": "me2fzb",
+      "front": "las oposiciones",
+      "back": "le concours de recrutement"
+    },
+    {
+      "id": "fmoo26",
+      "front": "la plaza fija",
+      "back": "le poste titulaire"
+    },
+    {
+      "id": "xkbcxj",
+      "front": "el interino",
+      "back": "le contractuel"
+    },
+    {
+      "id": "au6fm1",
+      "front": "la formación continua",
+      "back": "la formation continue"
+    },
+    {
+      "id": "zg7h5u",
+      "front": "el reciclaje profesional",
+      "back": "la remise à niveau professionnelle"
+    },
+    {
+      "id": "75ferj",
+      "front": "la reforma educativa",
+      "back": "la réforme de l'éducation"
+    },
+    {
+      "id": "x8k7gd",
+      "front": "el debate pedagógico",
+      "back": "le débat pédagogique"
+    },
+    {
+      "id": "fuw0eo",
+      "front": "la evaluación externa",
+      "back": "l'évaluation externe"
+    },
+    {
+      "id": "tlu8mu",
+      "front": "el informe PISA",
+      "back": "l'enquête PISA"
+    },
+    {
+      "id": "cn7nrp",
+      "front": "el analfabetismo",
+      "back": "l'analphabétisme"
+    },
+    {
+      "id": "09l6qj",
+      "front": "la alfabetización",
+      "back": "l'alphabétisation"
+    },
+    {
+      "id": "ncqho9",
+      "front": "la competencia lectora",
+      "back": "la compétence en lecture"
+    },
+    {
+      "id": "2bnvf6",
+      "front": "el pensamiento crítico",
+      "back": "l'esprit critique"
+    },
+    {
+      "id": "hssxfl",
+      "front": "la autonomía del alumno",
+      "back": "l'autonomie de l'élève"
+    },
+    {
+      "id": "m2glct",
+      "front": "el trabajo en equipo",
+      "back": "le travail en équipe"
+    },
+    {
+      "id": "sukb0z",
+      "front": "el acoso escolar",
+      "back": "le harcèlement scolaire"
+    },
+    {
+      "id": "3zuc11",
+      "front": "la convivencia escolar",
+      "back": "le climat scolaire"
+    },
+    {
+      "id": "lwpc3u",
+      "front": "la disciplina en el aula",
+      "back": "la discipline en classe"
+    },
+    {
+      "id": "vic50e",
+      "front": "la expulsión",
+      "back": "l'exclusion"
+    },
+    {
+      "id": "5erub7",
+      "front": "la beca de estudios",
+      "back": "la bourse d'études"
+    },
+    {
+      "id": "5tzcul",
+      "front": "la tasa universitaria",
+      "back": "les frais d'inscription"
+    },
+    {
+      "id": "nysu4a",
+      "front": "el préstamo estudiantil",
+      "back": "le prêt étudiant"
+    },
+    {
+      "id": "3kqqr6",
+      "front": "la enseñanza a distancia",
+      "back": "l'enseignement à distance"
+    },
+    {
+      "id": "scbe06",
+      "front": "la plataforma educativa",
+      "back": "la plateforme pédagogique"
+    },
+    {
+      "id": "wpn8uj",
+      "front": "la digitalización del aula",
+      "back": "la numérisation de la classe"
+    },
+    {
+      "id": "xfwt54",
+      "front": "impartir clase",
+      "back": "dispenser un cours"
+    },
+    {
+      "id": "bc1ohi",
+      "front": "cursar estudios",
+      "back": "suivre des études"
+    },
+    {
+      "id": "3zr8sb",
+      "front": "titularse",
+      "back": "obtenir son diplôme"
+    },
+    {
+      "id": "f2lbpo",
+      "front": "homologar",
+      "back": "faire reconnaître"
+    },
+    {
+      "id": "h06w26",
+      "front": "evaluar",
+      "back": "évaluer"
+    },
+    {
+      "id": "8tikil",
+      "front": "calificar",
+      "back": "noter"
+    },
+    {
+      "id": "gb6d69",
+      "front": "reprobar",
+      "back": "recaler"
+    },
+    {
+      "id": "cphd6z",
+      "front": "promocionar de curso",
+      "back": "passer dans la classe supérieure"
+    },
+    {
+      "id": "oa1tmy",
+      "front": "fomentar",
+      "back": "favoriser, encourager"
+    },
+    {
+      "id": "nq5o1n",
+      "front": "capacitar",
+      "back": "former, qualifier"
+    }
+  ]
+}
