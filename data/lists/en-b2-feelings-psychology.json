@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-feelings-psychology",
+  "name": "Feelings and Psychology",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "fd207e",
+      "front": "psychology",
+      "back": "la psychologie"
+    },
+    {
+      "id": "00f63a",
+      "front": "a psychologist",
+      "back": "un psychologue"
+    },
+    {
+      "id": "73bb9e",
+      "front": "a psychiatrist",
+      "back": "un psychiatre"
+    },
+    {
+      "id": "bc1dfd",
+      "front": "a therapist",
+      "back": "un thérapeute"
+    },
+    {
+      "id": "a7f6d0",
+      "front": "psychoanalysis",
+      "back": "la psychanalyse"
+    },
+    {
+      "id": "1fde10",
+      "front": "counselling",
+      "back": "le soutien psychologique"
+    },
+    {
+      "id": "b9bc5a",
+      "front": "the mind",
+      "back": "l'esprit"
+    },
+    {
+      "id": "f76744",
+      "front": "consciousness",
+      "back": "la conscience"
+    },
+    {
+      "id": "93a3e8",
+      "front": "the unconscious",
+      "back": "l'inconscient"
+    },
+    {
+      "id": "61ebe9",
+      "front": "the subconscious",
+      "back": "le subconscient"
+    },
+    {
+      "id": "4b401a",
+      "front": "cognition",
+      "back": "la cognition"
+    },
+    {
+      "id": "d4e0ee",
+      "front": "perception",
+      "back": "la perception"
+    },
+    {
+      "id": "35023d",
+      "front": "awareness",
+      "back": "la conscience, la prise de conscience"
+    },
+    {
+      "id": "4294f3",
+      "front": "attention",
+      "back": "l'attention"
+    },
+    {
+      "id": "99f57a",
+      "front": "concentration",
+      "back": "la concentration"
+    },
+    {
+      "id": "888cdb",
+      "front": "memory",
+      "back": "la mémoire"
+    },
+    {
+      "id": "c3a2d5",
+      "front": "recall",
+      "back": "le rappel, la remémoration"
+    },
+    {
+      "id": "229e2b",
+      "front": "to recollect",
+      "back": "se remémorer"
+    },
+    {
+      "id": "116f1b",
+      "front": "oblivion",
+      "back": "l'oubli"
+    },
+    {
+      "id": "f57e53",
+      "front": "a reflex",
+      "back": "un réflexe"
+    },
+    {
+      "id": "fad929",
+      "front": "an instinct",
+      "back": "un instinct"
+    },
+    {
+      "id": "4744fd",
+      "front": "intuition",
+      "back": "l'intuition"
+    },
+    {
+      "id": "b8e1df",
+      "front": "reasoning",
+      "back": "le raisonnement"
+    },
+    {
+      "id": "f2d213",
+      "front": "judgement",
+      "back": "le jugement"
+    },
+    {
+      "id": "da7d2d",
+      "front": "insight",
+      "back": "la perspicacité, la compréhension profonde"
+    },
+    {
+      "id": "50cefa",
+      "front": "self-awareness",
+      "back": "la conscience de soi"
+    },
+    {
+      "id": "8ca7bf",
+      "front": "self-esteem",
+      "back": "l'estime de soi"
+    },
+    {
+      "id": "209f62",
+      "front": "identity",
+      "back": "l'identité"
+    },
+    {
+      "id": "b55ad1",
+      "front": "a personality trait",
+      "back": "un trait de personnalité"
+    },
+    {
+      "id": "879a98",
+      "front": "temperament",
+      "back": "le tempérament"
+    },
+    {
+      "id": "2d563d",
+      "front": "a disposition",
+      "back": "une disposition, un penchant"
+    },
+    {
+      "id": "035530",
+      "front": "behaviour",
+      "back": "le comportement"
+    },
+    {
+      "id": "35e2eb",
+      "front": "conditioning",
+      "back": "le conditionnement"
+    },
+    {
+      "id": "eba24d",
+      "front": "motivation",
+      "back": "la motivation"
+    },
+    {
+      "id": "2cbe18",
+      "front": "a drive",
+      "back": "une pulsion, un besoin impérieux"
+    },
+    {
+      "id": "b3f662",
+      "front": "an urge",
+      "back": "une envie irrépressible"
+    },
+    {
+      "id": "003dcd",
+      "front": "a craving",
+      "back": "une envie violente"
+    },
+    {
+      "id": "e98f75",
+      "front": "an impulse",
+      "back": "une impulsion"
+    },
+    {
+      "id": "5a3526",
+      "front": "willpower",
+      "back": "la volonté"
+    },
+    {
+      "id": "3bad32",
+      "front": "resilience",
+      "back": "la résilience"
+    },
+    {
+      "id": "079502",
+      "front": "coping",
+      "back": "la capacité à faire face"
+    },
+    {
+      "id": "2aa2ab",
+      "front": "a defence mechanism",
+      "back": "un mécanisme de défense"
+    },
+    {
+      "id": "6bb859",
+      "front": "denial",
+      "back": "le déni"
+    },
+    {
+      "id": "50799f",
+      "front": "repression",
+      "back": "le refoulement"
+    },
+    {
+      "id": "08e53f",
+      "front": "projection",
+      "back": "la projection"
+    },
+    {
+      "id": "728738",
+      "front": "a complex",
+      "back": "un complexe"
+    },
+    {
+      "id": "01e7d1",
+      "front": "a trauma",
+      "back": "un traumatisme"
+    },
+    {
+      "id": "497eaa",
+      "front": "stress",
+      "back": "le stress"
+    },
+    {
+      "id": "92313a",
+      "front": "anxiety",
+      "back": "l'anxiété"
+    },
+    {
+      "id": "91e70a",
+      "front": "apprehension",
+      "back": "l'appréhension"
+    },
+    {
+      "id": "d9c1e3",
+      "front": "dread",
+      "back": "l'effroi"
+    },
+    {
+      "id": "37e6d8",
+      "front": "a phobia",
+      "back": "une phobie"
+    },
+    {
+      "id": "1bcf6e",
+      "front": "panic",
+      "back": "la panique"
+    },
+    {
+      "id": "5aeeef",
+      "front": "distress",
+      "back": "la détresse"
+    },
+    {
+      "id": "d33494",
+      "front": "anguish",
+      "back": "l'angoisse"
+    },
+    {
+      "id": "899def",
+      "front": "despair",
+      "back": "le désespoir"
+    },
+    {
+      "id": "86be28",
+      "front": "melancholy",
+      "back": "la mélancolie"
+    },
+    {
+      "id": "4783ea",
+      "front": "grief",
+      "back": "le chagrin, le deuil"
+    },
+    {
+      "id": "364946",
+      "front": "sorrow",
+      "back": "la peine, le chagrin"
+    },
+    {
+      "id": "ee373f",
+      "front": "mourning",
+      "back": "le deuil"
+    },
+    {
+      "id": "983761",
+      "front": "loneliness",
+      "back": "la solitude"
+    },
+    {
+      "id": "20dde1",
+      "front": "isolation",
+      "back": "l'isolement"
+    },
+    {
+      "id": "01afdf",
+      "front": "apathy",
+      "back": "l'apathie"
+    },
+    {
+      "id": "b3a6bc",
+      "front": "indifference",
+      "back": "l'indifférence"
+    },
+    {
+      "id": "19466e",
+      "front": "boredom",
+      "back": "l'ennui"
+    },
+    {
+      "id": "234d65",
+      "front": "frustration",
+      "back": "la frustration"
+    },
+    {
+      "id": "a39046",
+      "front": "resentment",
+      "back": "le ressentiment"
+    },
+    {
+      "id": "a2625f",
+      "front": "bitterness",
+      "back": "l'amertume"
+    },
+    {
+      "id": "464c56",
+      "front": "envy",
+      "back": "l'envie"
+    },
+    {
+      "id": "934c7c",
+      "front": "jealousy",
+      "back": "la jalousie"
+    },
+    {
+      "id": "d6ea8d",
+      "front": "guilt",
+      "back": "la culpabilité"
+    },
+    {
+      "id": "9b802c",
+      "front": "shame",
+      "back": "la honte"
+    },
+    {
+      "id": "f11ed0",
+      "front": "remorse",
+      "back": "le remords"
+    },
+    {
+      "id": "a3502f",
+      "front": "humiliation",
+      "back": "l'humiliation"
+    },
+    {
+      "id": "92d344",
+      "front": "contempt",
+      "back": "le mépris"
+    },
+    {
+      "id": "4b08de",
+      "front": "disgust",
+      "back": "le dégoût"
+    },
+    {
+      "id": "fecc13",
+      "front": "outrage",
+      "back": "l'indignation"
+    },
+    {
+      "id": "defa88",
+      "front": "rage",
+      "back": "la rage"
+    },
+    {
+      "id": "a7abc2",
+      "front": "elation",
+      "back": "l'exaltation"
+    },
+    {
+      "id": "f5df6a",
+      "front": "joy",
+      "back": "la joie"
+    },
+    {
+      "id": "f6ed19",
+      "front": "delight",
+      "back": "le ravissement"
+    },
+    {
+      "id": "3ccde1",
+      "front": "contentment",
+      "back": "le contentement"
+    },
+    {
+      "id": "091604",
+      "front": "serenity",
+      "back": "la sérénité"
+    },
+    {
+      "id": "c86daa",
+      "front": "relief",
+      "back": "le soulagement"
+    },
+    {
+      "id": "3d29b5",
+      "front": "gratitude",
+      "back": "la gratitude"
+    },
+    {
+      "id": "c614fb",
+      "front": "affection",
+      "back": "l'affection"
+    },
+    {
+      "id": "329d35",
+      "front": "compassion",
+      "back": "la compassion"
+    },
+    {
+      "id": "eadf02",
+      "front": "empathy",
+      "back": "l'empathie"
+    },
+    {
+      "id": "00e4b6",
+      "front": "sympathy",
+      "back": "la sympathie, la compassion"
+    },
+    {
+      "id": "495272",
+      "front": "longing",
+      "back": "le désir ardent, la nostalgie"
+    },
+    {
+      "id": "f67a25",
+      "front": "yearning",
+      "back": "l'aspiration ardente"
+    },
+    {
+      "id": "7d3b0d",
+      "front": "nostalgia",
+      "back": "la nostalgie"
+    },
+    {
+      "id": "aa68f7",
+      "front": "excitement",
+      "back": "l'excitation, l'enthousiasme"
+    },
+    {
+      "id": "9c050d",
+      "front": "arousal",
+      "back": "l'éveil, l'excitation"
+    },
+    {
+      "id": "742ea9",
+      "front": "a mood swing",
+      "back": "une saute d'humeur"
+    },
+    {
+      "id": "376b5a",
+      "front": "ambivalence",
+      "back": "l'ambivalence"
+    },
+    {
+      "id": "cf7e46",
+      "front": "a dilemma",
+      "back": "un dilemme"
+    },
+    {
+      "id": "5537ca",
+      "front": "denial of reality",
+      "back": "le refus de voir la réalité"
+    },
+    {
+      "id": "f037d3",
+      "front": "a mental disorder",
+      "back": "un trouble mental"
+    },
+    {
+      "id": "b9edb5",
+      "front": "a coping strategy",
+      "back": "une stratégie d'adaptation"
+    }
+  ]
+}
