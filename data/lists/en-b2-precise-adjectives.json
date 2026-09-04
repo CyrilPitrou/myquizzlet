@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-precise-adjectives",
+  "name": "Precise Adjectives",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "8ec1f9",
+      "front": "outstanding",
+      "back": "remarquable, exceptionnel"
+    },
+    {
+      "id": "98fe04",
+      "front": "exceptional",
+      "back": "exceptionnel"
+    },
+    {
+      "id": "9fabfe",
+      "front": "remarkable",
+      "back": "remarquable"
+    },
+    {
+      "id": "56b63b",
+      "front": "admirable",
+      "back": "admirable"
+    },
+    {
+      "id": "832053",
+      "front": "commendable",
+      "back": "louable"
+    },
+    {
+      "id": "d1f984",
+      "front": "praiseworthy",
+      "back": "digne d'éloges"
+    },
+    {
+      "id": "66e99c",
+      "front": "flawless",
+      "back": "impeccable, sans défaut"
+    },
+    {
+      "id": "e31fdc",
+      "front": "impeccable",
+      "back": "impeccable"
+    },
+    {
+      "id": "6504b1",
+      "front": "exquisite",
+      "back": "exquis"
+    },
+    {
+      "id": "f7bc65",
+      "front": "sublime",
+      "back": "sublime"
+    },
+    {
+      "id": "d8ba1f",
+      "front": "striking",
+      "back": "frappant, saisissant"
+    },
+    {
+      "id": "a25769",
+      "front": "stunning",
+      "back": "époustouflant"
+    },
+    {
+      "id": "640dea",
+      "front": "breathtaking",
+      "back": "à couper le souffle"
+    },
+    {
+      "id": "295ca2",
+      "front": "memorable",
+      "back": "mémorable"
+    },
+    {
+      "id": "35bd2f",
+      "front": "seminal",
+      "back": "fondateur, majeur"
+    },
+    {
+      "id": "3abf7c",
+      "front": "groundbreaking",
+      "back": "novateur, révolutionnaire"
+    },
+    {
+      "id": "c9463d",
+      "front": "unprecedented",
+      "back": "sans précédent"
+    },
+    {
+      "id": "fca011",
+      "front": "far-reaching",
+      "back": "de grande portée"
+    },
+    {
+      "id": "50edc3",
+      "front": "sweeping",
+      "back": "radical, de grande ampleur"
+    },
+    {
+      "id": "2b9d86",
+      "front": "substantial",
+      "back": "substantiel, considérable"
+    },
+    {
+      "id": "c97097",
+      "front": "considerable",
+      "back": "considérable"
+    },
+    {
+      "id": "cedada",
+      "front": "significant",
+      "back": "notable, important"
+    },
+    {
+      "id": "27dce0",
+      "front": "crucial",
+      "back": "crucial"
+    },
+    {
+      "id": "9454f4",
+      "front": "pivotal",
+      "back": "décisif, central"
+    },
+    {
+      "id": "637b85",
+      "front": "paramount",
+      "back": "primordial"
+    },
+    {
+      "id": "001739",
+      "front": "overriding",
+      "back": "prépondérant"
+    },
+    {
+      "id": "a694ab",
+      "front": "pressing",
+      "back": "pressant, urgent"
+    },
+    {
+      "id": "01b781",
+      "front": "compelling in importance",
+      "back": "impérieux"
+    },
+    {
+      "id": "8d9a51",
+      "front": "indispensable",
+      "back": "indispensable"
+    },
+    {
+      "id": "80eac4",
+      "front": "inevitable",
+      "back": "inévitable"
+    },
+    {
+      "id": "643a53",
+      "front": "inherent",
+      "back": "inhérent"
+    },
+    {
+      "id": "b84a41",
+      "front": "intrinsic",
+      "back": "intrinsèque"
+    },
+    {
+      "id": "b27c7f",
+      "front": "fundamental",
+      "back": "fondamental"
+    },
+    {
+      "id": "532df7",
+      "front": "underlying",
+      "back": "sous-jacent"
+    },
+    {
+      "id": "ecd64f",
+      "front": "prevailing",
+      "back": "dominant, en vigueur"
+    },
+    {
+      "id": "e02332",
+      "front": "widespread",
+      "back": "répandu"
+    },
+    {
+      "id": "9bd63f",
+      "front": "pervasive",
+      "back": "omniprésent"
+    },
+    {
+      "id": "2d3a87",
+      "front": "rife",
+      "back": "généralisé, endémique"
+    },
+    {
+      "id": "3ba1c3",
+      "front": "rampant",
+      "back": "effréné, galopant"
+    },
+    {
+      "id": "b2a842",
+      "front": "scarce",
+      "back": "rare, peu abondant"
+    },
+    {
+      "id": "2675cd",
+      "front": "sparse",
+      "back": "clairsemé, épars"
+    },
+    {
+      "id": "477874",
+      "front": "negligible",
+      "back": "négligeable"
+    },
+    {
+      "id": "a9e8b1",
+      "front": "marginal",
+      "back": "marginal"
+    },
+    {
+      "id": "d7ca39",
+      "front": "trivial",
+      "back": "insignifiant, banal"
+    },
+    {
+      "id": "281025",
+      "front": "petty",
+      "back": "mesquin, insignifiant"
+    },
+    {
+      "id": "6d08bf",
+      "front": "superficial",
+      "back": "superficiel"
+    },
+    {
+      "id": "2ce79c",
+      "front": "cursory",
+      "back": "sommaire, rapide"
+    },
+    {
+      "id": "9f0894",
+      "front": "perfunctory",
+      "back": "fait sans conviction, expéditif"
+    },
+    {
+      "id": "e0743e",
+      "front": "inadequate",
+      "back": "insuffisant, inadapté"
+    },
+    {
+      "id": "fb3c55",
+      "front": "deficient",
+      "back": "déficient, insuffisant"
+    },
+    {
+      "id": "478111",
+      "front": "flawed in design",
+      "back": "mal conçu"
+    },
+    {
+      "id": "46d3ef",
+      "front": "defective",
+      "back": "défectueux"
+    },
+    {
+      "id": "cb3105",
+      "front": "appalling",
+      "back": "épouvantable"
+    },
+    {
+      "id": "f437ba",
+      "front": "dreadful",
+      "back": "affreux"
+    },
+    {
+      "id": "d5d375",
+      "front": "dire",
+      "back": "catastrophique, extrême"
+    },
+    {
+      "id": "f3b2b9",
+      "front": "disastrous",
+      "back": "désastreux"
+    },
+    {
+      "id": "1dfddb",
+      "front": "detrimental",
+      "back": "préjudiciable"
+    },
+    {
+      "id": "34a63b",
+      "front": "harmful",
+      "back": "nuisible"
+    },
+    {
+      "id": "15c561",
+      "front": "adverse",
+      "back": "défavorable, néfaste"
+    },
+    {
+      "id": "356639",
+      "front": "counterproductive",
+      "back": "contre-productif"
+    },
+    {
+      "id": "77bc8c",
+      "front": "futile",
+      "back": "vain, futile"
+    },
+    {
+      "id": "eeb84e",
+      "front": "pointless",
+      "back": "inutile, dénué de sens"
+    },
+    {
+      "id": "1c9096",
+      "front": "redundant",
+      "back": "superflu, redondant"
+    },
+    {
+      "id": "9f2630",
+      "front": "obsolete",
+      "back": "obsolète"
+    },
+    {
+      "id": "15cc37",
+      "front": "outdated",
+      "back": "dépassé"
+    },
+    {
+      "id": "da4c0a",
+      "front": "antiquated",
+      "back": "désuet, suranné"
+    },
+    {
+      "id": "1077c3",
+      "front": "cumbersome",
+      "back": "encombrant, lourd"
+    },
+    {
+      "id": "3af7cd",
+      "front": "unwieldy",
+      "back": "peu maniable, lourd"
+    },
+    {
+      "id": "248c8c",
+      "front": "convoluted",
+      "back": "alambiqué, tortueux"
+    },
+    {
+      "id": "3895bd",
+      "front": "intricate",
+      "back": "complexe, minutieux"
+    },
+    {
+      "id": "89c06e",
+      "front": "elaborate",
+      "back": "élaboré, minutieux"
+    },
+    {
+      "id": "c2f5c9",
+      "front": "sophisticated",
+      "back": "sophistiqué, raffiné"
+    },
+    {
+      "id": "0f0cab",
+      "front": "subtle",
+      "back": "subtil"
+    },
+    {
+      "id": "397ca7",
+      "front": "nuanced",
+      "back": "nuancé"
+    },
+    {
+      "id": "8b73f8",
+      "front": "ambiguous",
+      "back": "ambigu"
+    },
+    {
+      "id": "7d3f45",
+      "front": "vague",
+      "back": "vague"
+    },
+    {
+      "id": "14a84a",
+      "front": "elusive",
+      "back": "insaisissable"
+    },
+    {
+      "id": "a721b9",
+      "front": "obscure",
+      "back": "obscur"
+    },
+    {
+      "id": "fb3e35",
+      "front": "opaque",
+      "back": "opaque, hermétique"
+    },
+    {
+      "id": "5ac922",
+      "front": "lucid",
+      "back": "lucide, limpide"
+    },
+    {
+      "id": "a29be5",
+      "front": "succinct",
+      "back": "succinct"
+    },
+    {
+      "id": "707c34",
+      "front": "concise",
+      "back": "concis"
+    },
+    {
+      "id": "cc1875",
+      "front": "verbose",
+      "back": "verbeux"
+    },
+    {
+      "id": "a81ba8",
+      "front": "long-winded",
+      "back": "prolixe, interminable"
+    },
+    {
+      "id": "b367cd",
+      "front": "blunt",
+      "back": "brusque, sans détour"
+    },
+    {
+      "id": "de49c3",
+      "front": "forthright",
+      "back": "direct, franc"
+    },
+    {
+      "id": "4550c4",
+      "front": "outspoken",
+      "back": "franc, qui ne mâche pas ses mots"
+    },
+    {
+      "id": "fc714a",
+      "front": "tentative",
+      "back": "provisoire, hésitant"
+    },
+    {
+      "id": "70e99f",
+      "front": "cautious in tone",
+      "back": "prudent, mesuré"
+    },
+    {
+      "id": "026a8d",
+      "front": "measured",
+      "back": "mesuré, pondéré"
+    },
+    {
+      "id": "b4329b",
+      "front": "sober",
+      "back": "sobre, mesuré"
+    },
+    {
+      "id": "f5c27b",
+      "front": "harsh",
+      "back": "dur, sévère"
+    },
+    {
+      "id": "4809da",
+      "front": "scathing",
+      "back": "cinglant"
+    },
+    {
+      "id": "a9059b",
+      "front": "damning",
+      "back": "accablant"
+    },
+    {
+      "id": "916c61",
+      "front": "lenient in judgement",
+      "back": "indulgent"
+    },
+    {
+      "id": "cfcd57",
+      "front": "biased in favour",
+      "back": "favorable, partial"
+    },
+    {
+      "id": "924074",
+      "front": "partisan",
+      "back": "partisan"
+    },
+    {
+      "id": "3a91ff",
+      "front": "contentious",
+      "back": "controversé, litigieux"
+    },
+    {
+      "id": "440312",
+      "front": "controversial",
+      "back": "controversé"
+    },
+    {
+      "id": "3303a4",
+      "front": "divisive",
+      "back": "qui divise, clivant"
+    }
+  ]
+}
