@@ -1,0 +1,312 @@
+{
+  "id": "es-b2-subjuntivo-disparadores",
+  "name": "El subjuntivo: disparadores",
+  "folder": "Spanish B2",
+  "frontLabel": "Français",
+  "backLabel": "Español",
+  "frontLang": "fr",
+  "backLang": "es",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "2samtg",
+      "front": "Je veux que tu viennes.",
+      "back": "Quiero que vengas."
+    },
+    {
+      "id": "ri9un0",
+      "front": "J'espère qu'il arrivera à temps.",
+      "back": "Espero que llegue a tiempo."
+    },
+    {
+      "id": "3fk123",
+      "front": "Je te demande de m'écouter.",
+      "back": "Te pido que me escuches."
+    },
+    {
+      "id": "1aviyf",
+      "front": "Il m'a dit de partir.",
+      "back": "Me dijo que me fuera."
+    },
+    {
+      "id": "tfcyj3",
+      "front": "Je préfère que nous restions ici.",
+      "back": "Prefiero que nos quedemos aquí."
+    },
+    {
+      "id": "qx13my",
+      "front": "Il faut que tu le saches.",
+      "back": "Hace falta que lo sepas."
+    },
+    {
+      "id": "0trz6m",
+      "front": "Il est nécessaire que nous parlions.",
+      "back": "Es necesario que hablemos."
+    },
+    {
+      "id": "bco4y9",
+      "front": "Il est important qu'ils comprennent.",
+      "back": "Es importante que entiendan."
+    },
+    {
+      "id": "doveik",
+      "front": "C'est dommage qu'il ne soit pas venu.",
+      "back": "Es una pena que no haya venido."
+    },
+    {
+      "id": "xjhl8q",
+      "front": "Il vaut mieux que tu te taises.",
+      "back": "Más vale que te calles."
+    },
+    {
+      "id": "b2c8de",
+      "front": "Je suis content que tu sois là.",
+      "back": "Me alegro de que estés aquí."
+    },
+    {
+      "id": "f9hd6f",
+      "front": "Cela m'étonne qu'il ne réponde pas.",
+      "back": "Me extraña que no conteste."
+    },
+    {
+      "id": "cnsgdl",
+      "front": "J'ai peur qu'il ne pleuve.",
+      "back": "Temo que llueva."
+    },
+    {
+      "id": "2jl08d",
+      "front": "Cela me fait de la peine qu'ils partent.",
+      "back": "Me da pena que se vayan."
+    },
+    {
+      "id": "mvf0ks",
+      "front": "Je regrette que tu ne puisses pas venir.",
+      "back": "Siento que no puedas venir."
+    },
+    {
+      "id": "69r4tp",
+      "front": "Je ne crois pas qu'il ait raison.",
+      "back": "No creo que tenga razón."
+    },
+    {
+      "id": "anl2op",
+      "front": "Je ne pense pas que ce soit vrai.",
+      "back": "No pienso que sea verdad."
+    },
+    {
+      "id": "xzybb5",
+      "front": "Je doute qu'il le fasse.",
+      "back": "Dudo que lo haga."
+    },
+    {
+      "id": "hlnmrd",
+      "front": "Il n'est pas sûr qu'ils acceptent.",
+      "back": "No es seguro que acepten."
+    },
+    {
+      "id": "gtiu6y",
+      "front": "Il n'est pas vrai qu'elle mente.",
+      "back": "No es verdad que mienta."
+    },
+    {
+      "id": "6c8uxm",
+      "front": "Je nie que cela se soit passé ainsi.",
+      "back": "Niego que ocurriera así."
+    },
+    {
+      "id": "72swrc",
+      "front": "Pourvu qu'il ne pleuve pas !",
+      "back": "¡Ojalá no llueva!"
+    },
+    {
+      "id": "mjsmwp",
+      "front": "Si seulement je le savais !",
+      "back": "¡Ojalá lo supiera!"
+    },
+    {
+      "id": "ojvd44",
+      "front": "Peut-être qu'il viendra.",
+      "back": "Quizá venga."
+    },
+    {
+      "id": "v4jhhi",
+      "front": "Il se peut qu'ils soient déjà partis.",
+      "back": "Puede que ya se hayan ido."
+    },
+    {
+      "id": "ibtcuc",
+      "front": "Il est possible qu'il ne le sache pas.",
+      "back": "Es posible que no lo sepa."
+    },
+    {
+      "id": "s3zou0",
+      "front": "Pour que tu comprennes mieux.",
+      "back": "Para que entiendas mejor."
+    },
+    {
+      "id": "no67sk",
+      "front": "Afin qu'ils puissent entrer.",
+      "back": "A fin de que puedan entrar."
+    },
+    {
+      "id": "8zhlwv",
+      "front": "Avant qu'il ne soit trop tard.",
+      "back": "Antes de que sea demasiado tarde."
+    },
+    {
+      "id": "r8tdi3",
+      "front": "Dès qu'il arrivera, nous mangerons.",
+      "back": "En cuanto llegue, comeremos."
+    },
+    {
+      "id": "pyd7hv",
+      "front": "Quand tu auras fini, appelle-moi.",
+      "back": "Cuando termines, llámame."
+    },
+    {
+      "id": "6mb8ng",
+      "front": "Aussitôt que tu le sauras, dis-le-moi.",
+      "back": "Tan pronto como lo sepas, dímelo."
+    },
+    {
+      "id": "x2bd0a",
+      "front": "Tant qu'il y aura de la vie.",
+      "back": "Mientras haya vida."
+    },
+    {
+      "id": "7l2gny",
+      "front": "Jusqu'à ce que tu reviennes.",
+      "back": "Hasta que vuelvas."
+    },
+    {
+      "id": "bmvsyq",
+      "front": "Après que nous serons sortis.",
+      "back": "Después de que salgamos."
+    },
+    {
+      "id": "sgh1hl",
+      "front": "Bien qu'il pleuve, nous sortirons.",
+      "back": "Aunque llueva, saldremos."
+    },
+    {
+      "id": "f2kr6h",
+      "front": "Même s'il le disait, je ne le croirais pas.",
+      "back": "Aunque lo dijera, no lo creería."
+    },
+    {
+      "id": "oi97rk",
+      "front": "À moins que tu ne m'aides.",
+      "back": "A menos que me ayudes."
+    },
+    {
+      "id": "546ciq",
+      "front": "Sauf s'ils changent d'avis.",
+      "back": "Salvo que cambien de opinión."
+    },
+    {
+      "id": "yzgt6y",
+      "front": "Sans que personne ne le sache.",
+      "back": "Sin que nadie lo sepa."
+    },
+    {
+      "id": "o07kld",
+      "front": "À condition que tu me le rendes.",
+      "back": "Con tal de que me lo devuelvas."
+    },
+    {
+      "id": "4gz8ly",
+      "front": "Pourvu que tu sois d'accord.",
+      "back": "Siempre que estés de acuerdo."
+    },
+    {
+      "id": "kcsrzt",
+      "front": "Au cas où il appellerait.",
+      "back": "En caso de que llame."
+    },
+    {
+      "id": "tijz4l",
+      "front": "Comme si de rien n'était.",
+      "back": "Como si nada."
+    },
+    {
+      "id": "9uhldg",
+      "front": "Comme s'il ne le savait pas.",
+      "back": "Como si no lo supiera."
+    },
+    {
+      "id": "nsmerk",
+      "front": "Je cherche quelqu'un qui parle russe.",
+      "back": "Busco a alguien que hable ruso."
+    },
+    {
+      "id": "ddq8cw",
+      "front": "Il n'y a personne qui le sache.",
+      "back": "No hay nadie que lo sepa."
+    },
+    {
+      "id": "v4dckf",
+      "front": "Je veux une maison qui ait un jardin.",
+      "back": "Quiero una casa que tenga jardín."
+    },
+    {
+      "id": "j9z84m",
+      "front": "Quoi qu'il arrive.",
+      "back": "Pase lo que pase."
+    },
+    {
+      "id": "w2r103",
+      "front": "Où que tu ailles.",
+      "back": "Vayas donde vayas."
+    },
+    {
+      "id": "wtc0yv",
+      "front": "Qui que ce soit.",
+      "back": "Sea quien sea."
+    },
+    {
+      "id": "yk11wi",
+      "front": "Quoi que tu dises.",
+      "back": "Digas lo que digas."
+    },
+    {
+      "id": "nzw02y",
+      "front": "Que cela te plaise ou non.",
+      "back": "Te guste o no te guste."
+    },
+    {
+      "id": "u121ox",
+      "front": "Si j'avais de l'argent, je voyagerais.",
+      "back": "Si tuviera dinero, viajaría."
+    },
+    {
+      "id": "1kczdw",
+      "front": "Si tu étais venu, tu l'aurais vu.",
+      "back": "Si hubieras venido, lo habrías visto."
+    },
+    {
+      "id": "k9ix2f",
+      "front": "Il m'a demandé de me taire.",
+      "back": "Me pidió que me callara."
+    },
+    {
+      "id": "j7tp6i",
+      "front": "Il fallait que nous partions.",
+      "back": "Era necesario que nos fuéramos."
+    },
+    {
+      "id": "sgflcl",
+      "front": "Je voulais qu'il me le dise.",
+      "back": "Quería que me lo dijera."
+    },
+    {
+      "id": "2au2gy",
+      "front": "Il n'y avait personne qui pût l'aider.",
+      "back": "No había nadie que pudiera ayudarle."
+    },
+    {
+      "id": "tz7jsu",
+      "front": "Il est interdit qu'on fume ici.",
+      "back": "Está prohibido que se fume aquí."
+    }
+  ]
+}
