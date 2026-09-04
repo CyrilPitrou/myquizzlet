@@ -1,0 +1,517 @@
+{
+  "id": "departements",
+  "name": "Départements",
+  "folder": "Geography",
+  "frontLabel": "Numéro",
+  "backLabel": "Département",
+  "frontLang": "fr",
+  "backLang": "fr",
+  "updatedAt": "2026-09-04T05:17:10Z",
+  "cards": [
+    {
+      "id": "q7m2xd",
+      "front": "01",
+      "back": "Ain"
+    },
+    {
+      "id": "hf9k3p",
+      "front": "02",
+      "back": "Aisne"
+    },
+    {
+      "id": "z4tb81",
+      "front": "03",
+      "back": "Allier"
+    },
+    {
+      "id": "n6wcqe",
+      "front": "04",
+      "back": "Alpes-de-Haute-Provence"
+    },
+    {
+      "id": "sv02jr",
+      "front": "05",
+      "back": "Hautes-Alpes"
+    },
+    {
+      "id": "d8ykla",
+      "front": "06",
+      "back": "Alpes-Maritimes"
+    },
+    {
+      "id": "3xpngu",
+      "front": "07",
+      "back": "Ardèche"
+    },
+    {
+      "id": "wq5zft",
+      "front": "08",
+      "back": "Ardennes"
+    },
+    {
+      "id": "b1hmoc",
+      "front": "09",
+      "back": "Ariège"
+    },
+    {
+      "id": "j7rdvs",
+      "front": "10",
+      "back": "Aube"
+    },
+    {
+      "id": "e5g0kn",
+      "front": "11",
+      "back": "Aude"
+    },
+    {
+      "id": "typ4wb",
+      "front": "12",
+      "back": "Aveyron"
+    },
+    {
+      "id": "m9scxh",
+      "front": "13",
+      "back": "Bouches-du-Rhône"
+    },
+    {
+      "id": "0aql6z",
+      "front": "14",
+      "back": "Calvados"
+    },
+    {
+      "id": "rk3ndf",
+      "front": "15",
+      "back": "Cantal"
+    },
+    {
+      "id": "u8vjpe",
+      "front": "16",
+      "back": "Charente"
+    },
+    {
+      "id": "cg2loy",
+      "front": "17",
+      "back": "Charente-Maritime"
+    },
+    {
+      "id": "xn7bqi",
+      "front": "18",
+      "back": "Cher"
+    },
+    {
+      "id": "p4fzum",
+      "front": "19",
+      "back": "Corrèze"
+    },
+    {
+      "id": "a6dtwk",
+      "front": "2A",
+      "back": "Corse-du-Sud"
+    },
+    {
+      "id": "l0jhre",
+      "front": "2B",
+      "back": "Haute-Corse"
+    },
+    {
+      "id": "v3ubnq",
+      "front": "21",
+      "back": "Côte-d'Or"
+    },
+    {
+      "id": "kz8pua",
+      "front": "22",
+      "back": "Côtes-d'Armor"
+    },
+    {
+      "id": "f2mowd",
+      "front": "23",
+      "back": "Creuse"
+    },
+    {
+      "id": "y5rbjt",
+      "front": "24",
+      "back": "Dordogne"
+    },
+    {
+      "id": "9qhxsn",
+      "front": "25",
+      "back": "Doubs"
+    },
+    {
+      "id": "gt1vlc",
+      "front": "26",
+      "back": "Drôme"
+    },
+    {
+      "id": "o7kefw",
+      "front": "27",
+      "back": "Eure"
+    },
+    {
+      "id": "s4nzpb",
+      "front": "28",
+      "back": "Eure-et-Loir"
+    },
+    {
+      "id": "i8cual",
+      "front": "29",
+      "back": "Finistère"
+    },
+    {
+      "id": "w0dmgy",
+      "front": "30",
+      "back": "Gard"
+    },
+    {
+      "id": "h6ptrx",
+      "front": "31",
+      "back": "Haute-Garonne"
+    },
+    {
+      "id": "n2ejqv",
+      "front": "32",
+      "back": "Gers"
+    },
+    {
+      "id": "b9zkfo",
+      "front": "33",
+      "back": "Gironde"
+    },
+    {
+      "id": "u5wtan",
+      "front": "34",
+      "back": "Hérault"
+    },
+    {
+      "id": "d3lyhs",
+      "front": "35",
+      "back": "Ille-et-Vilaine"
+    },
+    {
+      "id": "q1obmc",
+      "front": "36",
+      "back": "Indre"
+    },
+    {
+      "id": "k7xgpd",
+      "front": "37",
+      "back": "Indre-et-Loire"
+    },
+    {
+      "id": "z0svru",
+      "front": "38",
+      "back": "Isère"
+    },
+    {
+      "id": "e4njtb",
+      "front": "39",
+      "back": "Jura"
+    },
+    {
+      "id": "m8cwhq",
+      "front": "40",
+      "back": "Landes"
+    },
+    {
+      "id": "r2fdpk",
+      "front": "41",
+      "back": "Loir-et-Cher"
+    },
+    {
+      "id": "t6yang",
+      "front": "42",
+      "back": "Loire"
+    },
+    {
+      "id": "c9blui",
+      "front": "43",
+      "back": "Haute-Loire"
+    },
+    {
+      "id": "j5vzoe",
+      "front": "44",
+      "back": "Loire-Atlantique"
+    },
+    {
+      "id": "x3qkmt",
+      "front": "45",
+      "back": "Loiret"
+    },
+    {
+      "id": "p8hasw",
+      "front": "46",
+      "back": "Lot"
+    },
+    {
+      "id": "a1ngdf",
+      "front": "47",
+      "back": "Lot-et-Garonne"
+    },
+    {
+      "id": "f7turz",
+      "front": "48",
+      "back": "Lozère"
+    },
+    {
+      "id": "l4mepv",
+      "front": "49",
+      "back": "Maine-et-Loire"
+    },
+    {
+      "id": "y9jcbo",
+      "front": "50",
+      "back": "Manche"
+    },
+    {
+      "id": "s0wkxn",
+      "front": "51",
+      "back": "Marne"
+    },
+    {
+      "id": "g6zqtd",
+      "front": "52",
+      "back": "Haute-Marne"
+    },
+    {
+      "id": "v2rhlu",
+      "front": "53",
+      "back": "Mayenne"
+    },
+    {
+      "id": "o8fbse",
+      "front": "54",
+      "back": "Meurthe-et-Moselle"
+    },
+    {
+      "id": "i3dpyq",
+      "front": "55",
+      "back": "Meuse"
+    },
+    {
+      "id": "w7ktcm",
+      "front": "56",
+      "back": "Morbihan"
+    },
+    {
+      "id": "h1uajg",
+      "front": "57",
+      "back": "Moselle"
+    },
+    {
+      "id": "n5xowr",
+      "front": "58",
+      "back": "Nièvre"
+    },
+    {
+      "id": "b0legs",
+      "front": "59",
+      "back": "Nord"
+    },
+    {
+      "id": "u4qvzp",
+      "front": "60",
+      "back": "Oise"
+    },
+    {
+      "id": "d9mtch",
+      "front": "61",
+      "back": "Orne"
+    },
+    {
+      "id": "q6bfke",
+      "front": "62",
+      "back": "Pas-de-Calais"
+    },
+    {
+      "id": "k2syln",
+      "front": "63",
+      "back": "Puy-de-Dôme"
+    },
+    {
+      "id": "z8grdw",
+      "front": "64",
+      "back": "Pyrénées-Atlantiques"
+    },
+    {
+      "id": "e1pjov",
+      "front": "65",
+      "back": "Hautes-Pyrénées"
+    },
+    {
+      "id": "m5hnbc",
+      "front": "66",
+      "back": "Pyrénées-Orientales"
+    },
+    {
+      "id": "r9wxfu",
+      "front": "67",
+      "back": "Bas-Rhin"
+    },
+    {
+      "id": "t0kqai",
+      "front": "68",
+      "back": "Haut-Rhin"
+    },
+    {
+      "id": "c4ztgy",
+      "front": "69",
+      "back": "Rhône"
+    },
+    {
+      "id": "j8ldsp",
+      "front": "70",
+      "back": "Haute-Saône"
+    },
+    {
+      "id": "x2vmen",
+      "front": "71",
+      "back": "Saône-et-Loire"
+    },
+    {
+      "id": "p7cbwo",
+      "front": "72",
+      "back": "Sarthe"
+    },
+    {
+      "id": "a3jyqk",
+      "front": "73",
+      "back": "Savoie"
+    },
+    {
+      "id": "f0nrdh",
+      "front": "74",
+      "back": "Haute-Savoie"
+    },
+    {
+      "id": "l6tzsv",
+      "front": "75",
+      "back": "Paris"
+    },
+    {
+      "id": "y1gpcm",
+      "front": "76",
+      "back": "Seine-Maritime"
+    },
+    {
+      "id": "s7bkxe",
+      "front": "77",
+      "back": "Seine-et-Marne"
+    },
+    {
+      "id": "g3flou",
+      "front": "78",
+      "back": "Yvelines"
+    },
+    {
+      "id": "v9awdt",
+      "front": "79",
+      "back": "Deux-Sèvres"
+    },
+    {
+      "id": "o5qhjn",
+      "front": "80",
+      "back": "Somme"
+    },
+    {
+      "id": "i0zmpb",
+      "front": "81",
+      "back": "Tarn"
+    },
+    {
+      "id": "w6ycrg",
+      "front": "82",
+      "back": "Tarn-et-Garonne"
+    },
+    {
+      "id": "h2nsvk",
+      "front": "83",
+      "back": "Var"
+    },
+    {
+      "id": "n8bxfe",
+      "front": "84",
+      "back": "Vaucluse"
+    },
+    {
+      "id": "b4tgqu",
+      "front": "85",
+      "back": "Vendée"
+    },
+    {
+      "id": "u9djmi",
+      "front": "86",
+      "back": "Vienne"
+    },
+    {
+      "id": "d1krwo",
+      "front": "87",
+      "back": "Haute-Vienne"
+    },
+    {
+      "id": "q5vyhc",
+      "front": "88",
+      "back": "Vosges"
+    },
+    {
+      "id": "k0pzan",
+      "front": "89",
+      "back": "Yonne"
+    },
+    {
+      "id": "z6lcst",
+      "front": "90",
+      "back": "Territoire de Belfort"
+    },
+    {
+      "id": "e2wgbd",
+      "front": "91",
+      "back": "Essonne"
+    },
+    {
+      "id": "m7qufj",
+      "front": "92",
+      "back": "Hauts-de-Seine"
+    },
+    {
+      "id": "r3nxke",
+      "front": "93",
+      "back": "Seine-Saint-Denis"
+    },
+    {
+      "id": "t8ojvp",
+      "front": "94",
+      "back": "Val-de-Marne"
+    },
+    {
+      "id": "c5abhm",
+      "front": "95",
+      "back": "Val-d'Oise"
+    },
+    {
+      "id": "j1zwcr",
+      "front": "971",
+      "back": "Guadeloupe"
+    },
+    {
+      "id": "x9tflb",
+      "front": "972",
+      "back": "Martinique"
+    },
+    {
+      "id": "p2mkyd",
+      "front": "973",
+      "back": "Guyane"
+    },
+    {
+      "id": "a7svgn",
+      "front": "974",
+      "back": "La Réunion"
+    },
+    {
+      "id": "f4hqet",
+      "front": "976",
+      "back": "Mayotte"
+    }
+  ]
+}

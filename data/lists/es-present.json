@@ -1,0 +1,312 @@
+{
+  "id": "es-present",
+  "name": "Présent",
+  "folder": "Spanish",
+  "frontLabel": "Verbe",
+  "backLabel": "Présent",
+  "frontLang": "es",
+  "backLang": "es",
+  "updatedAt": "2026-09-04T05:17:10Z",
+  "cards": [
+    {
+      "id": "m4qk7z",
+      "front": "andar",
+      "back": "ando\nandas\nanda\nandamos\nandáis\nandan"
+    },
+    {
+      "id": "t9bv2r",
+      "front": "aprender",
+      "back": "aprendo\naprendes\naprende\naprendemos\naprendéis\naprenden"
+    },
+    {
+      "id": "x3lp8d",
+      "front": "bailar",
+      "back": "bailo\nbailas\nbaila\nbailamos\nbailáis\nbailan"
+    },
+    {
+      "id": "j7ws5n",
+      "front": "beber",
+      "back": "bebo\nbebes\nbebe\nbebemos\nbebéis\nbeben"
+    },
+    {
+      "id": "q2ry6h",
+      "front": "caber",
+      "back": "quepo\ncabes\ncabe\ncabemos\ncabéis\ncaben"
+    },
+    {
+      "id": "f8nc3v",
+      "front": "caer",
+      "back": "caigo\ncaes\ncae\ncaemos\ncaéis\ncaen"
+    },
+    {
+      "id": "b5tz9k",
+      "front": "cantar",
+      "back": "canto\ncantas\ncanta\ncantamos\ncantáis\ncantan"
+    },
+    {
+      "id": "h6dm4w",
+      "front": "cerrar",
+      "back": "cierro\ncierras\ncierra\ncerramos\ncerráis\ncierran"
+    },
+    {
+      "id": "z1gx7p",
+      "front": "comer",
+      "back": "como\ncomes\ncome\ncomemos\ncoméis\ncomen"
+    },
+    {
+      "id": "v4jf2s",
+      "front": "comprar",
+      "back": "compro\ncompras\ncompra\ncompramos\ncompráis\ncompran"
+    },
+    {
+      "id": "n9kb6t",
+      "front": "conducir",
+      "back": "conduzco\nconduces\nconduce\nconducimos\nconducís\nconducen"
+    },
+    {
+      "id": "r3ph8m",
+      "front": "conocer",
+      "back": "conozco\nconoces\nconoce\nconocemos\nconocéis\nconocen"
+    },
+    {
+      "id": "d7vq1c",
+      "front": "contar",
+      "back": "cuento\ncuentas\ncuenta\ncontamos\ncontáis\ncuentan"
+    },
+    {
+      "id": "y2sw5g",
+      "front": "correr",
+      "back": "corro\ncorres\ncorre\ncorremos\ncorréis\ncorren"
+    },
+    {
+      "id": "l8zt3f",
+      "front": "dar",
+      "back": "doy\ndas\nda\ndamos\ndais\ndan"
+    },
+    {
+      "id": "c6mn9j",
+      "front": "deber",
+      "back": "debo\ndebes\ndebe\ndebemos\ndebéis\ndeben"
+    },
+    {
+      "id": "w1fk4b",
+      "front": "decir",
+      "back": "digo\ndices\ndice\ndecimos\ndecís\ndicen"
+    },
+    {
+      "id": "s5cd7x",
+      "front": "dormir",
+      "back": "duermo\nduermes\nduerme\ndormimos\ndormís\nduermen"
+    },
+    {
+      "id": "k9rv2q",
+      "front": "empezar",
+      "back": "empiezo\nempiezas\nempieza\nempezamos\nempezáis\nempiezan"
+    },
+    {
+      "id": "p4hb8l",
+      "front": "escuchar",
+      "back": "escucho\nescuchas\nescucha\nescuchamos\nescucháis\nescuchan"
+    },
+    {
+      "id": "g7xm3d",
+      "front": "estar",
+      "back": "estoy\nestás\nestá\nestamos\nestáis\nestán"
+    },
+    {
+      "id": "t2np6w",
+      "front": "estudiar",
+      "back": "estudio\nestudias\nestudia\nestudiamos\nestudiáis\nestudian"
+    },
+    {
+      "id": "a8jz5r",
+      "front": "haber",
+      "back": "he\nhas\nha\nhemos\nhabéis\nhan"
+    },
+    {
+      "id": "e3qc9v",
+      "front": "hablar",
+      "back": "hablo\nhablas\nhabla\nhablamos\nhabláis\nhablan"
+    },
+    {
+      "id": "u6wd1k",
+      "front": "hacer",
+      "back": "hago\nhaces\nhace\nhacemos\nhacéis\nhacen"
+    },
+    {
+      "id": "i5bs7n",
+      "front": "huir",
+      "back": "huyo\nhuyes\nhuye\nhuimos\nhuis\nhuyen"
+    },
+    {
+      "id": "o9tf4m",
+      "front": "ir",
+      "back": "voy\nvas\nva\nvamos\nvais\nvan"
+    },
+    {
+      "id": "m1lg8c",
+      "front": "jugar",
+      "back": "juego\njuegas\njuega\njugamos\njugáis\njuegan"
+    },
+    {
+      "id": "z7kp3b",
+      "front": "leer",
+      "back": "leo\nlees\nlee\nleemos\nleéis\nleen"
+    },
+    {
+      "id": "v2rn6h",
+      "front": "llamar",
+      "back": "llamo\nllamas\nllama\nllamamos\nllamáis\nllaman"
+    },
+    {
+      "id": "x8cw5t",
+      "front": "mirar",
+      "back": "miro\nmiras\nmira\nmiramos\nmiráis\nmiran"
+    },
+    {
+      "id": "j3dm9f",
+      "front": "morir",
+      "back": "muero\nmueres\nmuere\nmorimos\nmorís\nmueren"
+    },
+    {
+      "id": "q6vs1z",
+      "front": "necesitar",
+      "back": "necesito\nnecesitas\nnecesita\nnecesitamos\nnecesitáis\nnecesitan"
+    },
+    {
+      "id": "b4hx7p",
+      "front": "oír",
+      "back": "oigo\noyes\noye\noímos\noís\noyen"
+    },
+    {
+      "id": "n8fq2d",
+      "front": "pedir",
+      "back": "pido\npides\npide\npedimos\npedís\npiden"
+    },
+    {
+      "id": "r5jt9w",
+      "front": "pensar",
+      "back": "pienso\npiensas\npiensa\npensamos\npensáis\npiensan"
+    },
+    {
+      "id": "d1zb6k",
+      "front": "poder",
+      "back": "puedo\npuedes\npuede\npodemos\npodéis\npueden"
+    },
+    {
+      "id": "y7ml4c",
+      "front": "poner",
+      "back": "pongo\npones\npone\nponemos\nponéis\nponen"
+    },
+    {
+      "id": "f2ks8v",
+      "front": "querer",
+      "back": "quiero\nquieres\nquiere\nqueremos\nqueréis\nquieren"
+    },
+    {
+      "id": "h9wp3n",
+      "front": "recibir",
+      "back": "recibo\nrecibes\nrecibe\nrecibimos\nrecibís\nreciben"
+    },
+    {
+      "id": "c4rd7m",
+      "front": "repetir",
+      "back": "repito\nrepites\nrepite\nrepetimos\nrepetís\nrepiten"
+    },
+    {
+      "id": "w6nb1g",
+      "front": "responder",
+      "back": "respondo\nrespondes\nresponde\nrespondemos\nrespondéis\nresponden"
+    },
+    {
+      "id": "s3xj5t",
+      "front": "saber",
+      "back": "sé\nsabes\nsabe\nsabemos\nsabéis\nsaben"
+    },
+    {
+      "id": "k8vc9q",
+      "front": "salir",
+      "back": "salgo\nsales\nsale\nsalimos\nsalís\nsalen"
+    },
+    {
+      "id": "p1gz4f",
+      "front": "seguir",
+      "back": "sigo\nsigues\nsigue\nseguimos\nseguís\nsiguen"
+    },
+    {
+      "id": "t5hm7b",
+      "front": "sentir",
+      "back": "siento\nsientes\nsiente\nsentimos\nsentís\nsienten"
+    },
+    {
+      "id": "a9pw2x",
+      "front": "ser",
+      "back": "soy\neres\nes\nsomos\nsois\nson"
+    },
+    {
+      "id": "e6ln8d",
+      "front": "servir",
+      "back": "sirvo\nsirves\nsirve\nservimos\nservís\nsirven"
+    },
+    {
+      "id": "u2bk5r",
+      "front": "subir",
+      "back": "subo\nsubes\nsube\nsubimos\nsubís\nsuben"
+    },
+    {
+      "id": "i7fs3v",
+      "front": "tener",
+      "back": "tengo\ntienes\ntiene\ntenemos\ntenéis\ntienen"
+    },
+    {
+      "id": "o4dq9n",
+      "front": "trabajar",
+      "back": "trabajo\ntrabajas\ntrabaja\ntrabajamos\ntrabajáis\ntrabajan"
+    },
+    {
+      "id": "m8cx1w",
+      "front": "traducir",
+      "back": "traduzco\ntraduces\ntraduce\ntraducimos\ntraducís\ntraducen"
+    },
+    {
+      "id": "z5jr6h",
+      "front": "traer",
+      "back": "traigo\ntraes\ntrae\ntraemos\ntraéis\ntraen"
+    },
+    {
+      "id": "v9tp4k",
+      "front": "valer",
+      "back": "valgo\nvales\nvale\nvalemos\nvaléis\nvalen"
+    },
+    {
+      "id": "x1mb8c",
+      "front": "vender",
+      "back": "vendo\nvendes\nvende\nvendemos\nvendéis\nvenden"
+    },
+    {
+      "id": "j6wf2s",
+      "front": "venir",
+      "back": "vengo\nvienes\nviene\nvenimos\nvenís\nvienen"
+    },
+    {
+      "id": "q3nk7d",
+      "front": "ver",
+      "back": "veo\nves\nve\nvemos\nveis\nven"
+    },
+    {
+      "id": "b7sv5m",
+      "front": "vestir",
+      "back": "visto\nvistes\nviste\nvestimos\nvestís\nvisten"
+    },
+    {
+      "id": "n2hc9t",
+      "front": "vivir",
+      "back": "vivo\nvives\nvive\nvivimos\nvivís\nviven"
+    },
+    {
+      "id": "r8zg3p",
+      "front": "volver",
+      "back": "vuelvo\nvuelves\nvuelve\nvolvemos\nvolvéis\nvuelven"
+    }
+  ]
+}

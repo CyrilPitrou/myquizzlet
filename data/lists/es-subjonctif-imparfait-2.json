@@ -1,0 +1,312 @@
+{
+  "id": "es-subjonctif-imparfait-2",
+  "name": "Subjonctif imparfait – forme 2",
+  "folder": "Spanish",
+  "frontLabel": "Verbe",
+  "backLabel": "Subjonctif imparfait (-se)",
+  "frontLang": "es",
+  "backLang": "es",
+  "updatedAt": "2026-09-04T05:17:10Z",
+  "cards": [
+    {
+      "id": "q7mv2e",
+      "front": "andar",
+      "back": "anduviese\nanduvieses\nanduviese\nanduviésemos\nanduvieseis\nanduviesen"
+    },
+    {
+      "id": "d4kz9r",
+      "front": "aprender",
+      "back": "aprendiese\naprendieses\naprendiese\naprendiésemos\naprendieseis\naprendiesen"
+    },
+    {
+      "id": "b8thn3",
+      "front": "bailar",
+      "back": "bailase\nbailases\nbailase\nbailásemos\nbailaseis\nbailasen"
+    },
+    {
+      "id": "w2qjf6",
+      "front": "beber",
+      "back": "bebiese\nbebieses\nbebiese\nbebiésemos\nbebieseis\nbebiesen"
+    },
+    {
+      "id": "x5rp0c",
+      "front": "caber",
+      "back": "cupiese\ncupieses\ncupiese\ncupiésemos\ncupieseis\ncupiesen"
+    },
+    {
+      "id": "m9gvd1",
+      "front": "caer",
+      "back": "cayese\ncayeses\ncayese\ncayésemos\ncayeseis\ncayesen"
+    },
+    {
+      "id": "t3lwq8",
+      "front": "cantar",
+      "back": "cantase\ncantases\ncantase\ncantásemos\ncantaseis\ncantasen"
+    },
+    {
+      "id": "h6ncy4",
+      "front": "cerrar",
+      "back": "cerrase\ncerrases\ncerrase\ncerrásemos\ncerraseis\ncerrasen"
+    },
+    {
+      "id": "z1fbk7",
+      "front": "comer",
+      "back": "comiese\ncomieses\ncomiese\ncomiésemos\ncomieseis\ncomiesen"
+    },
+    {
+      "id": "p0svj5",
+      "front": "comprar",
+      "back": "comprase\ncomprases\ncomprase\ncomprásemos\ncompraseis\ncomprasen"
+    },
+    {
+      "id": "j8dxr2",
+      "front": "conducir",
+      "back": "condujese\ncondujeses\ncondujese\ncondujésemos\ncondujeseis\ncondujesen"
+    },
+    {
+      "id": "r4qtm0",
+      "front": "conocer",
+      "back": "conociese\nconocieses\nconociese\nconociésemos\nconocieseis\nconociesen"
+    },
+    {
+      "id": "c7ypz9",
+      "front": "contar",
+      "back": "contase\ncontases\ncontase\ncontásemos\ncontaseis\ncontasen"
+    },
+    {
+      "id": "n2hwl6",
+      "front": "correr",
+      "back": "corriese\ncorrieses\ncorriese\ncorriésemos\ncorrieseis\ncorriesen"
+    },
+    {
+      "id": "v5kgb3",
+      "front": "dar",
+      "back": "diese\ndieses\ndiese\ndiésemos\ndieseis\ndiesen"
+    },
+    {
+      "id": "f9jcn1",
+      "front": "deber",
+      "back": "debiese\ndebieses\ndebiese\ndebiésemos\ndebieseis\ndebiesen"
+    },
+    {
+      "id": "s6bqx4",
+      "front": "decir",
+      "back": "dijese\ndijeses\ndijese\ndijésemos\ndijeseis\ndijesen"
+    },
+    {
+      "id": "k1mrt8",
+      "front": "dormir",
+      "back": "durmiese\ndurmieses\ndurmiese\ndurmiésemos\ndurmieseis\ndurmiesen"
+    },
+    {
+      "id": "g3zpv7",
+      "front": "empezar",
+      "back": "empezase\nempezases\nempezase\nempezásemos\nempezaseis\nempezasen"
+    },
+    {
+      "id": "y0wfd5",
+      "front": "escuchar",
+      "back": "escuchase\nescuchases\nescuchase\nescuchásemos\nescuchaseis\nescuchasen"
+    },
+    {
+      "id": "l7ntq2",
+      "front": "estar",
+      "back": "estuviese\nestuvieses\nestuviese\nestuviésemos\nestuvieseis\nestuviesen"
+    },
+    {
+      "id": "a4chk9",
+      "front": "estudiar",
+      "back": "estudiase\nestudiases\nestudiase\nestudiásemos\nestudiaseis\nestudiasen"
+    },
+    {
+      "id": "e8xjm6",
+      "front": "haber",
+      "back": "hubiese\nhubieses\nhubiese\nhubiésemos\nhubieseis\nhubiesen"
+    },
+    {
+      "id": "u2vgr0",
+      "front": "hablar",
+      "back": "hablase\nhablases\nhablase\nhablásemos\nhablaseis\nhablasen"
+    },
+    {
+      "id": "o5bdz3",
+      "front": "hacer",
+      "back": "hiciese\nhicieses\nhiciese\nhiciésemos\nhicieseis\nhiciesen"
+    },
+    {
+      "id": "i9pwt1",
+      "front": "huir",
+      "back": "huyese\nhuyeses\nhuyese\nhuyésemos\nhuyeseis\nhuyesen"
+    },
+    {
+      "id": "q3nfc8",
+      "front": "ir",
+      "back": "fuese\nfueses\nfuese\nfuésemos\nfueseis\nfuesen"
+    },
+    {
+      "id": "w6klv4",
+      "front": "jugar",
+      "back": "jugase\njugases\njugase\njugásemos\njugaseis\njugasen"
+    },
+    {
+      "id": "d0rmy7",
+      "front": "leer",
+      "back": "leyese\nleyeses\nleyese\nleyésemos\nleyeseis\nleyesen"
+    },
+    {
+      "id": "t8gqb5",
+      "front": "llamar",
+      "back": "llamase\nllamases\nllamase\nllamásemos\nllamaseis\nllamasen"
+    },
+    {
+      "id": "b2xhp9",
+      "front": "mirar",
+      "back": "mirase\nmirases\nmirase\nmirásemos\nmiraseis\nmirasen"
+    },
+    {
+      "id": "n7cjd1",
+      "front": "morir",
+      "back": "muriese\nmurieses\nmuriese\nmuriésemos\nmurieseis\nmuriesen"
+    },
+    {
+      "id": "z5twf3",
+      "front": "necesitar",
+      "back": "necesitase\nnecesitases\nnecesitase\nnecesitásemos\nnecesitaseis\nnecesitasen"
+    },
+    {
+      "id": "m1qkl6",
+      "front": "oír",
+      "back": "oyese\noyeses\noyese\noyésemos\noyeseis\noyesen"
+    },
+    {
+      "id": "h4vzn0",
+      "front": "pedir",
+      "back": "pidiese\npidieses\npidiese\npidiésemos\npidieseis\npidiesen"
+    },
+    {
+      "id": "c9frs2",
+      "front": "pensar",
+      "back": "pensase\npensases\npensase\npensásemos\npensaseis\npensasen"
+    },
+    {
+      "id": "x3bmw8",
+      "front": "poder",
+      "back": "pudiese\npudieses\npudiese\npudiésemos\npudieseis\npudiesen"
+    },
+    {
+      "id": "p6dgt4",
+      "front": "poner",
+      "back": "pusiese\npusieses\npusiese\npusiésemos\npusieseis\npusiesen"
+    },
+    {
+      "id": "j0ynh7",
+      "front": "querer",
+      "back": "quisiese\nquisieses\nquisiese\nquisiésemos\nquisieseis\nquisiesen"
+    },
+    {
+      "id": "v8lcq5",
+      "front": "recibir",
+      "back": "recibiese\nrecibieses\nrecibiese\nrecibiésemos\nrecibieseis\nrecibiesen"
+    },
+    {
+      "id": "s2wpk1",
+      "front": "repetir",
+      "back": "repitiese\nrepitieses\nrepitiese\nrepitiésemos\nrepitieseis\nrepitiesen"
+    },
+    {
+      "id": "f7hxb3",
+      "front": "responder",
+      "back": "respondiese\nrespondieses\nrespondiese\nrespondiésemos\nrespondieseis\nrespondiesen"
+    },
+    {
+      "id": "k5zdm9",
+      "front": "saber",
+      "back": "supiese\nsupieses\nsupiese\nsupiésemos\nsupieseis\nsupiesen"
+    },
+    {
+      "id": "r1jtv6",
+      "front": "salir",
+      "back": "saliese\nsalieses\nsaliese\nsaliésemos\nsalieseis\nsaliesen"
+    },
+    {
+      "id": "y4gnc0",
+      "front": "seguir",
+      "back": "siguiese\nsiguieses\nsiguiese\nsiguiésemos\nsiguieseis\nsiguiesen"
+    },
+    {
+      "id": "l9qsf8",
+      "front": "sentir",
+      "back": "sintiese\nsintieses\nsintiese\nsintiésemos\nsintieseis\nsintiesen"
+    },
+    {
+      "id": "a6mwd2",
+      "front": "ser",
+      "back": "fuese\nfueses\nfuese\nfuésemos\nfueseis\nfuesen"
+    },
+    {
+      "id": "e3kpr7",
+      "front": "servir",
+      "back": "sirviese\nsirvieses\nsirviese\nsirviésemos\nsirvieseis\nsirviesen"
+    },
+    {
+      "id": "u0bxj4",
+      "front": "subir",
+      "back": "subiese\nsubieses\nsubiese\nsubiésemos\nsubieseis\nsubiesen"
+    },
+    {
+      "id": "o7vhl1",
+      "front": "tener",
+      "back": "tuviese\ntuvieses\ntuviese\ntuviésemos\ntuvieseis\ntuviesen"
+    },
+    {
+      "id": "i2ncz5",
+      "front": "trabajar",
+      "back": "trabajase\ntrabajases\ntrabajase\ntrabajásemos\ntrabajaseis\ntrabajasen"
+    },
+    {
+      "id": "g8ftq3",
+      "front": "traducir",
+      "back": "tradujese\ntradujeses\ntradujese\ntradujésemos\ntradujeseis\ntradujesen"
+    },
+    {
+      "id": "w1dyk9",
+      "front": "traer",
+      "back": "trajese\ntrajeses\ntrajese\ntrajésemos\ntrajeseis\ntrajesen"
+    },
+    {
+      "id": "q5rbm6",
+      "front": "valer",
+      "back": "valiese\nvalieses\nvaliese\nvaliésemos\nvalieseis\nvaliesen"
+    },
+    {
+      "id": "d9zpn0",
+      "front": "vender",
+      "back": "vendiese\nvendieses\nvendiese\nvendiésemos\nvendieseis\nvendiesen"
+    },
+    {
+      "id": "t4hcw7",
+      "front": "venir",
+      "back": "viniese\nvinieses\nviniese\nviniésemos\nvinieseis\nviniesen"
+    },
+    {
+      "id": "b0jgs2",
+      "front": "ver",
+      "back": "viese\nvieses\nviese\nviésemos\nvieseis\nviesen"
+    },
+    {
+      "id": "n6xlt8",
+      "front": "vestir",
+      "back": "vistiese\nvistieses\nvistiese\nvistiésemos\nvistieseis\nvistiesen"
+    },
+    {
+      "id": "z7kqv4",
+      "front": "vivir",
+      "back": "viviese\nvivieses\nviviese\nviviésemos\nvivieseis\nviviesen"
+    },
+    {
+      "id": "c1mfd5",
+      "front": "volver",
+      "back": "volviese\nvolvieses\nvolviese\nvolviésemos\nvolvieseis\nvolviesen"
+    }
+  ]
+}
