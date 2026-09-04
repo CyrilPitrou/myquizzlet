@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-sociedad-inmigracion",
+  "name": "La sociedad y la inmigración",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "mmhl2v",
+      "front": "la sociedad",
+      "back": "la société"
+    },
+    {
+      "id": "k2kvq4",
+      "front": "la estructura social",
+      "back": "la structure sociale"
+    },
+    {
+      "id": "q6dqz0",
+      "front": "la clase social",
+      "back": "la classe sociale"
+    },
+    {
+      "id": "95hgof",
+      "front": "el estrato",
+      "back": "la strate"
+    },
+    {
+      "id": "zfzx18",
+      "front": "la movilidad social",
+      "back": "la mobilité sociale"
+    },
+    {
+      "id": "maa6mx",
+      "front": "el ascenso social",
+      "back": "l'ascension sociale"
+    },
+    {
+      "id": "4jvj84",
+      "front": "la desigualdad",
+      "back": "l'inégalité"
+    },
+    {
+      "id": "i5pekh",
+      "front": "la brecha salarial",
+      "back": "l'écart de salaires"
+    },
+    {
+      "id": "94dm3y",
+      "front": "la exclusión",
+      "back": "l'exclusion"
+    },
+    {
+      "id": "q0pqzy",
+      "front": "la marginación",
+      "back": "la marginalisation"
+    },
+    {
+      "id": "2ak9s3",
+      "front": "la vulnerabilidad",
+      "back": "la vulnérabilité"
+    },
+    {
+      "id": "hq8xo8",
+      "front": "el colectivo",
+      "back": "le groupe, la communauté"
+    },
+    {
+      "id": "hmb7pj",
+      "front": "la minoría",
+      "back": "la minorité"
+    },
+    {
+      "id": "jht77m",
+      "front": "la mayoría social",
+      "back": "la majorité sociale"
+    },
+    {
+      "id": "70eyiz",
+      "front": "la integración",
+      "back": "l'intégration"
+    },
+    {
+      "id": "1xwr3g",
+      "front": "la asimilación",
+      "back": "l'assimilation"
+    },
+    {
+      "id": "9lu0s9",
+      "front": "la convivencia intercultural",
+      "back": "la coexistence interculturelle"
+    },
+    {
+      "id": "mbnpb8",
+      "front": "la diversidad cultural",
+      "back": "la diversité culturelle"
+    },
+    {
+      "id": "xz6103",
+      "front": "el multiculturalismo",
+      "back": "le multiculturalisme"
+    },
+    {
+      "id": "5wjhg1",
+      "front": "la identidad",
+      "back": "l'identité"
+    },
+    {
+      "id": "v7ryrk",
+      "front": "el arraigo",
+      "back": "l'enracinement"
+    },
+    {
+      "id": "bloqoj",
+      "front": "el desarraigo",
+      "back": "le déracinement"
+    },
+    {
+      "id": "ixk544",
+      "front": "la migración",
+      "back": "la migration"
+    },
+    {
+      "id": "iwkcej",
+      "front": "el migrante",
+      "back": "le migrant"
+    },
+    {
+      "id": "sdys0q",
+      "front": "el inmigrante",
+      "back": "l'immigré"
+    },
+    {
+      "id": "yxlo4y",
+      "front": "el emigrante",
+      "back": "l'émigrant"
+    },
+    {
+      "id": "em5k5c",
+      "front": "el refugiado",
+      "back": "le réfugié"
+    },
+    {
+      "id": "u21bed",
+      "front": "el solicitante de asilo",
+      "back": "le demandeur d'asile"
+    },
+    {
+      "id": "tcsuc4",
+      "front": "el desplazado",
+      "back": "la personne déplacée"
+    },
+    {
+      "id": "ebis3e",
+      "front": "el apátrida",
+      "back": "l'apatride"
+    },
+    {
+      "id": "r7v9pw",
+      "front": "el permiso de residencia",
+      "back": "le titre de séjour"
+    },
+    {
+      "id": "5f6pqk",
+      "front": "la regularización",
+      "back": "la régularisation"
+    },
+    {
+      "id": "e7bnao",
+      "front": "el sin papeles",
+      "back": "le sans-papiers"
+    },
+    {
+      "id": "48gvqp",
+      "front": "la expulsión del país",
+      "back": "l'expulsion du pays"
+    },
+    {
+      "id": "a8ixz7",
+      "front": "la repatriación",
+      "back": "le rapatriement"
+    },
+    {
+      "id": "59v8bl",
+      "front": "la frontera exterior",
+      "back": "la frontière extérieure"
+    },
+    {
+      "id": "2fas2m",
+      "front": "el flujo migratorio",
+      "back": "le flux migratoire"
+    },
+    {
+      "id": "dybcy0",
+      "front": "la remesa",
+      "back": "les transferts d'argent des migrants"
+    },
+    {
+      "id": "g6rke8",
+      "front": "la diáspora",
+      "back": "la diaspora"
+    },
+    {
+      "id": "a0e22i",
+      "front": "la xenofobia",
+      "back": "la xénophobie"
+    },
+    {
+      "id": "tybdsr",
+      "front": "el racismo",
+      "back": "le racisme"
+    },
+    {
+      "id": "fmrtvh",
+      "front": "la discriminación",
+      "back": "la discrimination"
+    },
+    {
+      "id": "ih60xa",
+      "front": "el prejuicio",
+      "back": "le préjugé"
+    },
+    {
+      "id": "4d0azs",
+      "front": "el estereotipo",
+      "back": "le stéréotype"
+    },
+    {
+      "id": "ijnx5l",
+      "front": "la tolerancia",
+      "back": "la tolérance"
+    },
+    {
+      "id": "ogjett",
+      "front": "la demografía",
+      "back": "la démographie"
+    },
+    {
+      "id": "9fdk31",
+      "front": "la natalidad",
+      "back": "la natalité"
+    },
+    {
+      "id": "qh9bfn",
+      "front": "la tasa de fecundidad",
+      "back": "le taux de fécondité"
+    },
+    {
+      "id": "1zjrwq",
+      "front": "el envejecimiento de la población",
+      "back": "le vieillissement de la population"
+    },
+    {
+      "id": "lc0nsw",
+      "front": "el relevo generacional",
+      "back": "le renouvellement des générations"
+    },
+    {
+      "id": "yrkjpu",
+      "front": "la pirámide de población",
+      "back": "la pyramide des âges"
+    },
+    {
+      "id": "el9c95",
+      "front": "el éxodo rural",
+      "back": "l'exode rural"
+    },
+    {
+      "id": "ro824t",
+      "front": "la despoblación",
+      "back": "le dépeuplement"
+    },
+    {
+      "id": "sqtofu",
+      "front": "la España vaciada",
+      "back": "la France des campagnes désertées"
+    },
+    {
+      "id": "b6wcuj",
+      "front": "la urbanización",
+      "back": "l'urbanisation"
+    },
+    {
+      "id": "nph6yc",
+      "front": "el área metropolitana",
+      "back": "l'aire métropolitaine"
+    },
+    {
+      "id": "s7skgq",
+      "front": "la periferia",
+      "back": "la périphérie"
+    },
+    {
+      "id": "mw448c",
+      "front": "el barrio marginal",
+      "back": "le quartier défavorisé"
+    },
+    {
+      "id": "4d1b63",
+      "front": "la chabola",
+      "back": "le bidonville"
+    },
+    {
+      "id": "yslnm3",
+      "front": "la gentrificación",
+      "back": "la gentrification"
+    },
+    {
+      "id": "5sx9tg",
+      "front": "la especulación inmobiliaria",
+      "back": "la spéculation immobilière"
+    },
+    {
+      "id": "vf66io",
+      "front": "el acceso a la vivienda",
+      "back": "l'accès au logement"
+    },
+    {
+      "id": "3z0uwn",
+      "front": "el desahucio",
+      "back": "l'expulsion de logement"
+    },
+    {
+      "id": "wlncmj",
+      "front": "el sinhogarismo",
+      "back": "le sans-abrisme"
+    },
+    {
+      "id": "ni0r5d",
+      "front": "la pobreza infantil",
+      "back": "la pauvreté des enfants"
+    },
+    {
+      "id": "mmo4ue",
+      "front": "el umbral de la pobreza",
+      "back": "le seuil de pauvreté"
+    },
+    {
+      "id": "3t4i6i",
+      "front": "la renta mínima",
+      "back": "le revenu minimum"
+    },
+    {
+      "id": "2928c3",
+      "front": "el estado del bienestar",
+      "back": "l'État-providence"
+    },
+    {
+      "id": "4b4mdi",
+      "front": "la prestación social",
+      "back": "la prestation sociale"
+    },
+    {
+      "id": "xmr98o",
+      "front": "la asistencia social",
+      "back": "l'aide sociale"
+    },
+    {
+      "id": "i11y4t",
+      "front": "el trabajador social",
+      "back": "le travailleur social"
+    },
+    {
+      "id": "wasy3y",
+      "front": "la ONG",
+      "back": "l'ONG"
+    },
+    {
+      "id": "j01vlp",
+      "front": "el tercer sector",
+      "back": "le secteur associatif"
+    },
+    {
+      "id": "isvsex",
+      "front": "la solidaridad",
+      "back": "la solidarité"
+    },
+    {
+      "id": "enerrt",
+      "front": "la cohesión social",
+      "back": "la cohésion sociale"
+    },
+    {
+      "id": "d7wujg",
+      "front": "el tejido social",
+      "back": "le tissu social"
+    },
+    {
+      "id": "x6uzll",
+      "front": "el conflicto social",
+      "back": "le conflit social"
+    },
+    {
+      "id": "e6b2tq",
+      "front": "la crispación",
+      "back": "la tension, l'exaspération"
+    },
+    {
+      "id": "nf16q2",
+      "front": "la polarización",
+      "back": "la polarisation"
+    },
+    {
+      "id": "tet7z9",
+      "front": "el cambio social",
+      "back": "le changement social"
+    },
+    {
+      "id": "609fue",
+      "front": "la modernización",
+      "back": "la modernisation"
+    },
+    {
+      "id": "yce1cs",
+      "front": "la secularización",
+      "back": "la sécularisation"
+    },
+    {
+      "id": "d5w0b3",
+      "front": "el individualismo",
+      "back": "l'individualisme"
+    },
+    {
+      "id": "swryfv",
+      "front": "el consumismo",
+      "back": "le consumérisme"
+    },
+    {
+      "id": "1f0rdu",
+      "front": "la natalidad en descenso",
+      "back": "la baisse de la natalité"
+    },
+    {
+      "id": "515r5b",
+      "front": "la conciliación laboral",
+      "back": "l'équilibre vie-travail"
+    },
+    {
+      "id": "h8xf2p",
+      "front": "la igualdad de género",
+      "back": "l'égalité des sexes"
+    },
+    {
+      "id": "t71w5p",
+      "front": "el feminismo",
+      "back": "le féminisme"
+    },
+    {
+      "id": "11bk1t",
+      "front": "el machismo",
+      "back": "le machisme"
+    },
+    {
+      "id": "ue8p32",
+      "front": "la violencia de género",
+      "back": "les violences faites aux femmes"
+    },
+    {
+      "id": "cb6qns",
+      "front": "la brecha digital",
+      "back": "la fracture numérique"
+    },
+    {
+      "id": "brn4ni",
+      "front": "integrarse",
+      "back": "s'intégrer"
+    },
+    {
+      "id": "lxg5zi",
+      "front": "emigrar",
+      "back": "émigrer"
+    },
+    {
+      "id": "d6gwzt",
+      "front": "inmigrar",
+      "back": "immigrer"
+    },
+    {
+      "id": "yuudxj",
+      "front": "acoger",
+      "back": "accueillir"
+    },
+    {
+      "id": "12buuk",
+      "front": "marginar",
+      "back": "marginaliser"
+    },
+    {
+      "id": "72ebi6",
+      "front": "discriminar",
+      "back": "discriminer"
+    },
+    {
+      "id": "ghbwrd",
+      "front": "segregar",
+      "back": "séparer, ségréguer"
+    },
+    {
+      "id": "sglhzo",
+      "front": "reivindicar",
+      "back": "revendiquer"
+    },
+    {
+      "id": "ey3krs",
+      "front": "mejorar las condiciones",
+      "back": "améliorer les conditions"
+    }
+  ]
+}
