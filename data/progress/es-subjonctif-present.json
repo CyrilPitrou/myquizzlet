@@ -1,6 +1,6 @@
 {
   "listId": "es-subjonctif-present",
-  "updatedAt": "2026-09-04T05:56:34.573Z",
+  "updatedAt": "2026-09-04T05:56:51.631Z",
   "items": {
     "a0d5hz:f2b": {
       "box": 1,
@@ -56,6 +56,30 @@
       "seen": 1,
       "lapses": 1,
       "lastSeen": "2026-09-04T05:56:34.573Z",
+      "level": 0
+    },
+    "f3k8zw:f2b": {
+      "box": 1,
+      "due": "2026-09-05",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-04T05:56:35.171Z",
+      "level": 0
+    },
+    "v6l1bm:f2b": {
+      "box": 1,
+      "due": "2026-09-05",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-04T05:56:36.937Z",
+      "level": 0
+    },
+    "c3m8hd:f2b": {
+      "box": 1,
+      "due": "2026-09-05",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-04T05:56:37.640Z",
       "level": 0
     }
   }
