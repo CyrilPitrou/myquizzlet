@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-society-2",
+  "name": "Society, Class and Identity 2",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "a10xcx",
+      "front": "anomie",
+      "back": "l'anomie"
+    },
+    {
+      "id": "jiuba9",
+      "front": "a habitus",
+      "back": "un habitus"
+    },
+    {
+      "id": "5y8wiz",
+      "front": "acculturation",
+      "back": "l'acculturation"
+    },
+    {
+      "id": "gees58",
+      "front": "bourgeois",
+      "back": "bourgeois"
+    },
+    {
+      "id": "6g817c",
+      "front": "embourgeoisement",
+      "back": "l'embourgeoisement"
+    },
+    {
+      "id": "hphhpc",
+      "front": "proletarianisation",
+      "back": "la prolétarisation"
+    },
+    {
+      "id": "6c6j10",
+      "front": "alienation",
+      "back": "l'aliénation"
+    },
+    {
+      "id": "6p9r44",
+      "front": "reification",
+      "back": "la réification"
+    },
+    {
+      "id": "ahjyw9",
+      "front": "commodification",
+      "back": "la marchandisation"
+    },
+    {
+      "id": "vkh2pf",
+      "front": "false consciousness",
+      "back": "la fausse conscience"
+    },
+    {
+      "id": "g8dwuh",
+      "front": "hegemonic culture",
+      "back": "la culture hégémonique"
+    },
+    {
+      "id": "thcbk1",
+      "front": "symbolic violence",
+      "back": "la violence symbolique"
+    },
+    {
+      "id": "qcsf4o",
+      "front": "social reproduction",
+      "back": "la reproduction sociale"
+    },
+    {
+      "id": "7e2uh8",
+      "front": "distinction",
+      "back": "la distinction (sociale)"
+    },
+    {
+      "id": "remvoi",
+      "front": "a field",
+      "back": "un champ (social)"
+    },
+    {
+      "id": "ghn7ys",
+      "front": "doxa",
+      "back": "la doxa"
+    },
+    {
+      "id": "pt5nly",
+      "front": "a social imaginary",
+      "back": "un imaginaire social"
+    },
+    {
+      "id": "kk1and",
+      "front": "a collective consciousness",
+      "back": "une conscience collective"
+    },
+    {
+      "id": "bo6qqr",
+      "front": "mechanical solidarity",
+      "back": "la solidarité mécanique"
+    },
+    {
+      "id": "1mqgeo",
+      "front": "organic solidarity",
+      "back": "la solidarité organique"
+    },
+    {
+      "id": "992p2l",
+      "front": "a division of labour",
+      "back": "une division du travail"
+    },
+    {
+      "id": "3fp9aj",
+      "front": "gemeinschaft",
+      "back": "la communauté (gemeinschaft)"
+    },
+    {
+      "id": "wqkicj",
+      "front": "gesellschaft",
+      "back": "la société (gesellschaft)"
+    },
+    {
+      "id": "m6d0ev",
+      "front": "a rationalisation of life",
+      "back": "la rationalisation de la vie sociale"
+    },
+    {
+      "id": "ed61k0",
+      "front": "disenchantment",
+      "back": "le désenchantement du monde"
+    },
+    {
+      "id": "1y8mzo",
+      "front": "an ideal type",
+      "back": "un idéal-type"
+    },
+    {
+      "id": "w3tj7x",
+      "front": "verstehen",
+      "back": "la compréhension interprétative"
+    },
+    {
+      "id": "qiv7ft",
+      "front": "a social fact",
+      "back": "un fait social"
+    },
+    {
+      "id": "vrgcpz",
+      "front": "structure and agency",
+      "back": "la structure et l'action individuelle"
+    },
+    {
+      "id": "d4jb3x",
+      "front": "methodological individualism",
+      "back": "l'individualisme méthodologique"
+    },
+    {
+      "id": "98eh1g",
+      "front": "holism",
+      "back": "le holisme"
+    },
+    {
+      "id": "6uou6j",
+      "front": "functionalism",
+      "back": "le fonctionnalisme"
+    },
+    {
+      "id": "3mjhcn",
+      "front": "a dysfunction",
+      "back": "une dysfonction sociale"
+    },
+    {
+      "id": "wtx0sw",
+      "front": "a latent function",
+      "back": "une fonction latente"
+    },
+    {
+      "id": "dr64fe",
+      "front": "a manifest function",
+      "back": "une fonction manifeste"
+    },
+    {
+      "id": "cyp8f2",
+      "front": "a self-fulfilling prophecy",
+      "back": "une prophétie autoréalisatrice"
+    },
+    {
+      "id": "potpac",
+      "front": "labelling theory",
+      "back": "la théorie de l'étiquetage"
+    },
+    {
+      "id": "3ngzhs",
+      "front": "deviance",
+      "back": "la déviance"
+    },
+    {
+      "id": "ae7vfb",
+      "front": "a subculture",
+      "back": "une sous-culture"
+    },
+    {
+      "id": "shqjal",
+      "front": "a counterculture",
+      "back": "une contre-culture"
+    },
+    {
+      "id": "0k6rgl",
+      "front": "a norm",
+      "back": "une norme"
+    },
+    {
+      "id": "1kc2di",
+      "front": "a mores",
+      "back": "des mœurs"
+    },
+    {
+      "id": "btw243",
+      "front": "a taboo",
+      "back": "un tabou"
+    },
+    {
+      "id": "5dlwzk",
+      "front": "a sanction",
+      "back": "une sanction sociale"
+    },
+    {
+      "id": "7ys0yy",
+      "front": "social control",
+      "back": "le contrôle social"
+    },
+    {
+      "id": "wor80b",
+      "front": "conformity",
+      "back": "le conformisme"
+    },
+    {
+      "id": "lmumh4",
+      "front": "groupthink",
+      "back": "la pensée de groupe"
+    },
+    {
+      "id": "wjlp2s",
+      "front": "a moral entrepreneur",
+      "back": "un entrepreneur de morale"
+    },
+    {
+      "id": "nm32cv",
+      "front": "a folk devil",
+      "back": "un bouc émissaire médiatique"
+    },
+    {
+      "id": "zwqprw",
+      "front": "scapegoating",
+      "back": "la stigmatisation d'un bouc émissaire"
+    },
+    {
+      "id": "bkv0w2",
+      "front": "a stigma of courtesy",
+      "back": "un stigmate par association"
+    },
+    {
+      "id": "qs5wgu",
+      "front": "a total institution",
+      "back": "une institution totale"
+    },
+    {
+      "id": "3o506p",
+      "front": "institutionalisation",
+      "back": "l'institutionnalisation"
+    },
+    {
+      "id": "714x2k",
+      "front": "a rite of passage",
+      "back": "un rite de passage"
+    },
+    {
+      "id": "h3abep",
+      "front": "liminality",
+      "back": "la liminalité"
+    },
+    {
+      "id": "zqg5xi",
+      "front": "a life course",
+      "back": "un parcours de vie"
+    },
+    {
+      "id": "5da83r",
+      "front": "socialisation",
+      "back": "la socialisation"
+    },
+    {
+      "id": "ngbqyb",
+      "front": "primary socialisation",
+      "back": "la socialisation primaire"
+    },
+    {
+      "id": "zh3rmq",
+      "front": "an agent of socialisation",
+      "back": "une instance de socialisation"
+    },
+    {
+      "id": "uof7hs",
+      "front": "internalisation",
+      "back": "l'intériorisation"
+    },
+    {
+      "id": "lyhfb0",
+      "front": "role conflict",
+      "back": "un conflit de rôles"
+    },
+    {
+      "id": "610e8w",
+      "front": "role strain",
+      "back": "une tension de rôle"
+    },
+    {
+      "id": "vrt9tu",
+      "front": "a status set",
+      "back": "un ensemble de statuts"
+    },
+    {
+      "id": "mds14e",
+      "front": "an ascribed status",
+      "back": "un statut assigné"
+    },
+    {
+      "id": "x7dx9d",
+      "front": "an achieved status",
+      "back": "un statut acquis"
+    },
+    {
+      "id": "po8j52",
+      "front": "a reference group",
+      "back": "un groupe de référence"
+    },
+    {
+      "id": "ga63ks",
+      "front": "relative deprivation",
+      "back": "la privation relative"
+    },
+    {
+      "id": "7skgl5",
+      "front": "status anxiety",
+      "back": "l'angoisse statutaire"
+    },
+    {
+      "id": "yso7fw",
+      "front": "conspicuous consumption",
+      "back": "la consommation ostentatoire"
+    },
+    {
+      "id": "65k433",
+      "front": "the leisure class",
+      "back": "la classe de loisir"
+    },
+    {
+      "id": "z7kl7y",
+      "front": "positional goods",
+      "back": "les biens positionnels"
+    },
+    {
+      "id": "ytjyxv",
+      "front": "a status symbol",
+      "back": "un signe extérieur de statut"
+    },
+    {
+      "id": "a3yoeq",
+      "front": "a lifestyle",
+      "back": "un style de vie"
+    },
+    {
+      "id": "oqdsn4",
+      "front": "taste",
+      "back": "le goût (comme marqueur social)"
+    },
+    {
+      "id": "grd2bp",
+      "front": "cultural omnivorousness",
+      "back": "l'omnivorité culturelle"
+    },
+    {
+      "id": "3651zq",
+      "front": "a homology",
+      "back": "une homologie sociale"
+    },
+    {
+      "id": "kc6mww",
+      "front": "a social network analysis",
+      "back": "une analyse de réseaux sociaux"
+    },
+    {
+      "id": "d57mnu",
+      "front": "a weak tie",
+      "back": "un lien faible"
+    },
+    {
+      "id": "y5g2os",
+      "front": "homophily",
+      "back": "l'homophilie"
+    },
+    {
+      "id": "jpqq0n",
+      "front": "assortative mating",
+      "back": "l'homogamie"
+    },
+    {
+      "id": "5bxqmw",
+      "front": "endogamy",
+      "back": "l'endogamie"
+    },
+    {
+      "id": "win1r3",
+      "front": "exogamy",
+      "back": "l'exogamie"
+    },
+    {
+      "id": "ddtqn8",
+      "front": "kinship",
+      "back": "la parenté"
+    },
+    {
+      "id": "tuvr60",
+      "front": "a lineage system",
+      "back": "un système lignager"
+    },
+    {
+      "id": "6lc3uj",
+      "front": "patrilineal",
+      "back": "patrilinéaire"
+    },
+    {
+      "id": "6ood2e",
+      "front": "matrilineal",
+      "back": "matrilinéaire"
+    },
+    {
+      "id": "8atz7i",
+      "front": "a clan",
+      "back": "un clan"
+    },
+    {
+      "id": "wcik0o",
+      "front": "ethnicity",
+      "back": "l'ethnicité"
+    },
+    {
+      "id": "7340px",
+      "front": "a primordialist view",
+      "back": "une conception primordialiste"
+    },
+    {
+      "id": "szhn2c",
+      "front": "constructivism",
+      "back": "le constructivisme"
+    },
+    {
+      "id": "9tv9ml",
+      "front": "essentialism",
+      "back": "l'essentialisme"
+    },
+    {
+      "id": "vteb56",
+      "front": "intersectionality",
+      "back": "l'intersectionnalité"
+    },
+    {
+      "id": "g9vw9y",
+      "front": "subalternity",
+      "back": "la subalternité"
+    },
+    {
+      "id": "udb5wj",
+      "front": "postcolonial theory",
+      "back": "la théorie postcoloniale"
+    },
+    {
+      "id": "mlg50f",
+      "front": "orientalism",
+      "back": "l'orientalisme"
+    },
+    {
+      "id": "vbw1d2",
+      "front": "a hegemon",
+      "back": "une puissance hégémonique"
+    },
+    {
+      "id": "zvnfxj",
+      "front": "a world-system",
+      "back": "un système-monde"
+    },
+    {
+      "id": "ko4tn5",
+      "front": "a core-periphery model",
+      "back": "un modèle centre-périphérie"
+    },
+    {
+      "id": "9gp8ll",
+      "front": "a dependency theory",
+      "back": "la théorie de la dépendance"
+    },
+    {
+      "id": "yz798x",
+      "front": "a modernisation thesis",
+      "back": "la thèse de la modernisation"
+    }
+  ]
+}
