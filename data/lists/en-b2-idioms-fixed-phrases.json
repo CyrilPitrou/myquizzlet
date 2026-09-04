@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-idioms-fixed-phrases",
+  "name": "Idioms and Fixed Phrases",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "f8fa36",
+      "front": "to break the ice",
+      "back": "briser la glace"
+    },
+    {
+      "id": "970271",
+      "front": "to bite the bullet",
+      "back": "serrer les dents, prendre son courage à deux mains"
+    },
+    {
+      "id": "9251c3",
+      "front": "to bite off more than one can chew",
+      "back": "avoir les yeux plus gros que le ventre"
+    },
+    {
+      "id": "3ad171",
+      "front": "to beat about the bush",
+      "back": "tourner autour du pot"
+    },
+    {
+      "id": "00e41d",
+      "front": "to call a spade a spade",
+      "back": "appeler un chat un chat"
+    },
+    {
+      "id": "81dd5f",
+      "front": "to cut corners",
+      "back": "bâcler, faire au plus vite"
+    },
+    {
+      "id": "b74636",
+      "front": "to jump the gun",
+      "back": "agir prématurément"
+    },
+    {
+      "id": "bd3e57",
+      "front": "to pull strings",
+      "back": "faire jouer ses relations"
+    },
+    {
+      "id": "5e3d63",
+      "front": "to pull someone's leg",
+      "back": "faire marcher quelqu'un"
+    },
+    {
+      "id": "6c73c9",
+      "front": "to let the cat out of the bag",
+      "back": "vendre la mèche"
+    },
+    {
+      "id": "eea13a",
+      "front": "to spill the beans",
+      "back": "vendre la mèche, tout raconter"
+    },
+    {
+      "id": "da2806",
+      "front": "to keep something under wraps",
+      "back": "garder quelque chose secret"
+    },
+    {
+      "id": "34a0f6",
+      "front": "to blow the whistle on",
+      "back": "dénoncer"
+    },
+    {
+      "id": "c46967",
+      "front": "to turn a blind eye",
+      "back": "fermer les yeux"
+    },
+    {
+      "id": "1f94ba",
+      "front": "to take something with a pinch of salt",
+      "back": "prendre quelque chose avec des pincettes"
+    },
+    {
+      "id": "9e5e4b",
+      "front": "to read between the lines",
+      "back": "lire entre les lignes"
+    },
+    {
+      "id": "66baec",
+      "front": "to get the wrong end of the stick",
+      "back": "comprendre de travers"
+    },
+    {
+      "id": "af7f02",
+      "front": "to be barking up the wrong tree",
+      "back": "faire fausse route"
+    },
+    {
+      "id": "03e79b",
+      "front": "to miss the boat",
+      "back": "rater le coche"
+    },
+    {
+      "id": "793228",
+      "front": "to be out of the woods",
+      "back": "être tiré d'affaire"
+    },
+    {
+      "id": "e48353",
+      "front": "to be in the red",
+      "back": "être à découvert"
+    },
+    {
+      "id": "f82a50",
+      "front": "to make ends meet",
+      "back": "joindre les deux bouts"
+    },
+    {
+      "id": "eb060e",
+      "front": "to tighten one's belt",
+      "back": "se serrer la ceinture"
+    },
+    {
+      "id": "5c551f",
+      "front": "to cost an arm and a leg",
+      "back": "coûter les yeux de la tête"
+    },
+    {
+      "id": "4214e2",
+      "front": "to pay through the nose",
+      "back": "payer le prix fort"
+    },
+    {
+      "id": "62aae1",
+      "front": "to be worth its weight in gold",
+      "back": "valoir son pesant d'or"
+    },
+    {
+      "id": "db72f8",
+      "front": "to foot the bill",
+      "back": "payer l'addition"
+    },
+    {
+      "id": "62e558",
+      "front": "to break even financially",
+      "back": "rentrer dans ses frais"
+    },
+    {
+      "id": "21868e",
+      "front": "to be on the ball",
+      "back": "être vif, avoir l'esprit alerte"
+    },
+    {
+      "id": "47bdbb",
+      "front": "to be up to speed",
+      "back": "être au courant, à niveau"
+    },
+    {
+      "id": "4049b6",
+      "front": "to get to grips with",
+      "back": "se colleter avec, maîtriser"
+    },
+    {
+      "id": "1e2bd5",
+      "front": "to knuckle down",
+      "back": "s'y mettre sérieusement"
+    },
+    {
+      "id": "2425d4",
+      "front": "to go the extra mile",
+      "back": "se donner encore plus de mal"
+    },
+    {
+      "id": "03fbd3",
+      "front": "to pull one's weight",
+      "back": "faire sa part du travail"
+    },
+    {
+      "id": "64b024",
+      "front": "to burn the midnight oil",
+      "back": "travailler tard dans la nuit"
+    },
+    {
+      "id": "96b825",
+      "front": "to be snowed under",
+      "back": "être débordé"
+    },
+    {
+      "id": "87bc51",
+      "front": "to be run off one's feet",
+      "back": "être débordé de travail"
+    },
+    {
+      "id": "3c7a38",
+      "front": "to throw in the towel",
+      "back": "jeter l'éponge"
+    },
+    {
+      "id": "daf1fa",
+      "front": "to give up the ghost",
+      "back": "rendre l'âme"
+    },
+    {
+      "id": "c65883",
+      "front": "to be at the end of one's tether",
+      "back": "être à bout"
+    },
+    {
+      "id": "ba704e",
+      "front": "to be at a loose end",
+      "back": "ne pas savoir quoi faire"
+    },
+    {
+      "id": "60f1c5",
+      "front": "to kill time",
+      "back": "tuer le temps"
+    },
+    {
+      "id": "4d228c",
+      "front": "to be on the cards",
+      "back": "être probable"
+    },
+    {
+      "id": "b54c43",
+      "front": "to be a long shot",
+      "back": "être une chance sur mille"
+    },
+    {
+      "id": "48d01c",
+      "front": "to take a chance",
+      "back": "tenter sa chance"
+    },
+    {
+      "id": "5a9310",
+      "front": "to play it by ear",
+      "back": "improviser, aviser"
+    },
+    {
+      "id": "77f61b",
+      "front": "to keep one's options open",
+      "back": "garder ses options ouvertes"
+    },
+    {
+      "id": "fbb30a",
+      "front": "to sit on the fence",
+      "back": "ne pas prendre parti"
+    },
+    {
+      "id": "59918d",
+      "front": "to have second thoughts",
+      "back": "avoir des doutes, se raviser"
+    },
+    {
+      "id": "21e527",
+      "front": "to change one's tune",
+      "back": "changer de discours"
+    },
+    {
+      "id": "a3358e",
+      "front": "to eat one's words",
+      "back": "ravaler ses paroles"
+    },
+    {
+      "id": "1f8504",
+      "front": "to stick to one's guns",
+      "back": "ne pas démordre de sa position"
+    },
+    {
+      "id": "253971",
+      "front": "to draw the line at",
+      "back": "refuser d'aller jusqu'à"
+    },
+    {
+      "id": "046356",
+      "front": "to put one's foot down",
+      "back": "taper du poing sur la table"
+    },
+    {
+      "id": "10d93b",
+      "front": "to lay down the law",
+      "back": "faire la loi"
+    },
+    {
+      "id": "254ed2",
+      "front": "to call the shots",
+      "back": "commander, décider"
+    },
+    {
+      "id": "cebedd",
+      "front": "to have the upper hand",
+      "back": "avoir le dessus"
+    },
+    {
+      "id": "24065d",
+      "front": "to hold all the cards",
+      "back": "avoir tous les atouts"
+    },
+    {
+      "id": "1bf7fc",
+      "front": "to be in the driving seat",
+      "back": "tenir les rênes"
+    },
+    {
+      "id": "c4e755",
+      "front": "to be a stumbling block",
+      "back": "être une pierre d'achoppement"
+    },
+    {
+      "id": "e002ee",
+      "front": "to open a can of worms",
+      "back": "ouvrir la boîte de Pandore"
+    },
+    {
+      "id": "169780",
+      "front": "to add fuel to the fire",
+      "back": "jeter de l'huile sur le feu"
+    },
+    {
+      "id": "ac1e0b",
+      "front": "to make matters worse",
+      "back": "pour ne rien arranger"
+    },
+    {
+      "id": "98e9a4",
+      "front": "to be the last straw",
+      "back": "être la goutte d'eau qui fait déborder le vase"
+    },
+    {
+      "id": "7d3196",
+      "front": "a storm in a teacup",
+      "back": "une tempête dans un verre d'eau"
+    },
+    {
+      "id": "738dd0",
+      "front": "a blessing in disguise",
+      "back": "un mal pour un bien"
+    },
+    {
+      "id": "bab052",
+      "front": "a double-edged sword",
+      "back": "une arme à double tranchant"
+    },
+    {
+      "id": "738084",
+      "front": "a vicious circle",
+      "back": "un cercle vicieux"
+    },
+    {
+      "id": "e5e714",
+      "front": "a grey area",
+      "back": "une zone grise, un flou"
+    },
+    {
+      "id": "70ec56",
+      "front": "a red herring",
+      "back": "une fausse piste"
+    },
+    {
+      "id": "c780fb",
+      "front": "a can of worms",
+      "back": "un panier de crabes, une affaire épineuse"
+    },
+    {
+      "id": "0f74d8",
+      "front": "the tip of the iceberg",
+      "back": "la partie émergée de l'iceberg"
+    },
+    {
+      "id": "42c505",
+      "front": "a drop in the ocean",
+      "back": "une goutte d'eau dans la mer"
+    },
+    {
+      "id": "cd12d0",
+      "front": "a needle in a haystack",
+      "back": "une aiguille dans une botte de foin"
+    },
+    {
+      "id": "93553d",
+      "front": "the elephant in the room",
+      "back": "le sujet que tout le monde évite"
+    },
+    {
+      "id": "981d63",
+      "front": "a scapegoat",
+      "back": "un bouc émissaire"
+    },
+    {
+      "id": "d3cb9a",
+      "front": "a level playing field",
+      "back": "des conditions équitables"
+    },
+    {
+      "id": "6c429e",
+      "front": "a stopgap",
+      "back": "une solution provisoire"
+    },
+    {
+      "id": "e06d9c",
+      "front": "a rule of thumb",
+      "back": "une règle empirique"
+    },
+    {
+      "id": "771e68",
+      "front": "a foregone conclusion",
+      "back": "une conclusion courue d'avance"
+    },
+    {
+      "id": "3aaf90",
+      "front": "food for thought",
+      "back": "matière à réflexion"
+    },
+    {
+      "id": "56f078",
+      "front": "common ground",
+      "back": "un terrain d'entente"
+    },
+    {
+      "id": "1ccdb5",
+      "front": "a bone of contention",
+      "back": "une pomme de discorde"
+    },
+    {
+      "id": "4cd3cb",
+      "front": "the bottom line",
+      "back": "l'essentiel, le résultat net"
+    },
+    {
+      "id": "79325a",
+      "front": "to see eye to eye",
+      "back": "être du même avis"
+    },
+    {
+      "id": "e4c4ef",
+      "front": "to agree to differ",
+      "back": "convenir de ne pas être d'accord"
+    },
+    {
+      "id": "d43c95",
+      "front": "to bury the hatchet",
+      "back": "enterrer la hache de guerre"
+    },
+    {
+      "id": "2a79c5",
+      "front": "to build bridges",
+      "back": "rapprocher les points de vue"
+    },
+    {
+      "id": "4e688c",
+      "front": "to be on the same wavelength",
+      "back": "être sur la même longueur d'onde"
+    },
+    {
+      "id": "bc486f",
+      "front": "to get on like a house on fire",
+      "back": "s'entendre à merveille"
+    },
+    {
+      "id": "d5f8fe",
+      "front": "to fall out with someone",
+      "back": "se brouiller avec quelqu'un"
+    },
+    {
+      "id": "4f948c",
+      "front": "to give someone the cold shoulder",
+      "back": "battre froid à quelqu'un"
+    },
+    {
+      "id": "341270",
+      "front": "to stab someone in the back",
+      "back": "poignarder quelqu'un dans le dos"
+    },
+    {
+      "id": "266f7f",
+      "front": "to take someone for granted",
+      "back": "ne pas apprécier quelqu'un à sa juste valeur"
+    },
+    {
+      "id": "da2350",
+      "front": "to rub someone up the wrong way",
+      "back": "prendre quelqu'un à rebrousse-poil"
+    },
+    {
+      "id": "933bff",
+      "front": "to get on someone's nerves",
+      "back": "taper sur les nerfs de quelqu'un"
+    },
+    {
+      "id": "38ca43",
+      "front": "to blow one's top",
+      "back": "sortir de ses gonds"
+    },
+    {
+      "id": "0bf38e",
+      "front": "to lose one's temper",
+      "back": "se mettre en colère"
+    },
+    {
+      "id": "2e4173",
+      "front": "to keep one's cool",
+      "back": "garder son sang-froid"
+    },
+    {
+      "id": "fcfa0a",
+      "front": "to let off steam",
+      "back": "se défouler"
+    }
+  ]
+}
