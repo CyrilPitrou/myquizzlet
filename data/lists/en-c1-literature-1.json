@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-literature-1",
+  "name": "Literature and Criticism 1",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "bq82b8",
+      "front": "a genre",
+      "back": "un genre"
+    },
+    {
+      "id": "wb8w8o",
+      "front": "a novella",
+      "back": "une nouvelle longue, un court roman"
+    },
+    {
+      "id": "yisqg8",
+      "front": "a short story",
+      "back": "une nouvelle"
+    },
+    {
+      "id": "ylqlmd",
+      "front": "a memoir",
+      "back": "un mémoire, des souvenirs"
+    },
+    {
+      "id": "c7dynm",
+      "front": "an anthology",
+      "back": "une anthologie"
+    },
+    {
+      "id": "q0mto6",
+      "front": "a sequel",
+      "back": "une suite"
+    },
+    {
+      "id": "rpqier",
+      "front": "a prequel",
+      "back": "une préquelle"
+    },
+    {
+      "id": "ttjyzo",
+      "front": "a trilogy",
+      "back": "une trilogie"
+    },
+    {
+      "id": "2rg48l",
+      "front": "a plot",
+      "back": "une intrigue"
+    },
+    {
+      "id": "0cnbd9",
+      "front": "a subplot",
+      "back": "une intrigue secondaire"
+    },
+    {
+      "id": "47ujze",
+      "front": "a narrative arc",
+      "back": "un arc narratif"
+    },
+    {
+      "id": "w6leie",
+      "front": "exposition",
+      "back": "l'exposition"
+    },
+    {
+      "id": "pwz758",
+      "front": "a climax",
+      "back": "un point culminant"
+    },
+    {
+      "id": "fwlfmr",
+      "front": "a denouement",
+      "back": "un dénouement"
+    },
+    {
+      "id": "ts766d",
+      "front": "a twist",
+      "back": "un retournement"
+    },
+    {
+      "id": "cl2p67",
+      "front": "foreshadowing",
+      "back": "une préfiguration, une annonce"
+    },
+    {
+      "id": "ljjipb",
+      "front": "a flashback",
+      "back": "un retour en arrière"
+    },
+    {
+      "id": "qdpz1h",
+      "front": "a cliffhanger",
+      "back": "un suspense final"
+    },
+    {
+      "id": "qel24k",
+      "front": "pacing",
+      "back": "le rythme narratif"
+    },
+    {
+      "id": "tn4juq",
+      "front": "a narrator",
+      "back": "un narrateur"
+    },
+    {
+      "id": "998zpk",
+      "front": "first-person narration",
+      "back": "la narration à la première personne"
+    },
+    {
+      "id": "jmqhi5",
+      "front": "an unreliable narrator",
+      "back": "un narrateur non fiable"
+    },
+    {
+      "id": "oee4kz",
+      "front": "a point of view",
+      "back": "un point de vue"
+    },
+    {
+      "id": "dsl17v",
+      "front": "a protagonist",
+      "back": "un protagoniste"
+    },
+    {
+      "id": "dn40qz",
+      "front": "an antagonist",
+      "back": "un antagoniste"
+    },
+    {
+      "id": "jx2q28",
+      "front": "a foil",
+      "back": "un faire-valoir"
+    },
+    {
+      "id": "nu0xuu",
+      "front": "a character arc",
+      "back": "une évolution du personnage"
+    },
+    {
+      "id": "ua87qa",
+      "front": "characterisation",
+      "back": "la caractérisation"
+    },
+    {
+      "id": "ukeoc0",
+      "front": "a stock character",
+      "back": "un personnage type"
+    },
+    {
+      "id": "9er0fg",
+      "front": "an archetype",
+      "back": "un archétype"
+    },
+    {
+      "id": "pcyoth",
+      "front": "a motif",
+      "back": "un motif"
+    },
+    {
+      "id": "5tp34c",
+      "front": "a theme",
+      "back": "un thème"
+    },
+    {
+      "id": "oyui1k",
+      "front": "a leitmotif",
+      "back": "un leitmotiv"
+    },
+    {
+      "id": "ldjfzu",
+      "front": "imagery",
+      "back": "l'imagerie, les images"
+    },
+    {
+      "id": "sy7yul",
+      "front": "a metaphor",
+      "back": "une métaphore"
+    },
+    {
+      "id": "52crj9",
+      "front": "a simile",
+      "back": "une comparaison"
+    },
+    {
+      "id": "01sll6",
+      "front": "personification",
+      "back": "la personnification"
+    },
+    {
+      "id": "ymrcdg",
+      "front": "symbolism",
+      "back": "le symbolisme"
+    },
+    {
+      "id": "zkaln4",
+      "front": "an allegory",
+      "back": "une allégorie"
+    },
+    {
+      "id": "7060dp",
+      "front": "irony",
+      "back": "l'ironie"
+    },
+    {
+      "id": "2qjpym",
+      "front": "dramatic irony",
+      "back": "l'ironie dramatique"
+    },
+    {
+      "id": "k5lf2t",
+      "front": "satire",
+      "back": "la satire"
+    },
+    {
+      "id": "h704z2",
+      "front": "parody",
+      "back": "la parodie"
+    },
+    {
+      "id": "th3s88",
+      "front": "pastiche",
+      "back": "le pastiche"
+    },
+    {
+      "id": "lsn4nl",
+      "front": "a lampoon",
+      "back": "un pamphlet, une satire mordante"
+    },
+    {
+      "id": "4k6i2u",
+      "front": "prose",
+      "back": "la prose"
+    },
+    {
+      "id": "kgircv",
+      "front": "verse",
+      "back": "le vers, la poésie"
+    },
+    {
+      "id": "1r1sye",
+      "front": "a stanza",
+      "back": "une strophe"
+    },
+    {
+      "id": "m3s349",
+      "front": "a line",
+      "back": "un vers"
+    },
+    {
+      "id": "ejeqoi",
+      "front": "rhyme",
+      "back": "la rime"
+    },
+    {
+      "id": "dqbjfp",
+      "front": "a rhyme scheme",
+      "back": "un schéma de rimes"
+    },
+    {
+      "id": "142kgv",
+      "front": "metre",
+      "back": "la métrique"
+    },
+    {
+      "id": "o57ojf",
+      "front": "a sonnet",
+      "back": "un sonnet"
+    },
+    {
+      "id": "wnm8cf",
+      "front": "an elegy",
+      "back": "une élégie"
+    },
+    {
+      "id": "l129xf",
+      "front": "an ode",
+      "back": "une ode"
+    },
+    {
+      "id": "9cak10",
+      "front": "a ballad",
+      "back": "une ballade"
+    },
+    {
+      "id": "e9qm71",
+      "front": "an epic",
+      "back": "une épopée"
+    },
+    {
+      "id": "j8edbf",
+      "front": "a fable",
+      "back": "une fable"
+    },
+    {
+      "id": "3fdtqp",
+      "front": "a parable",
+      "back": "une parabole"
+    },
+    {
+      "id": "t7u4j9",
+      "front": "a myth",
+      "back": "un mythe"
+    },
+    {
+      "id": "ceuscz",
+      "front": "a legend",
+      "back": "une légende"
+    },
+    {
+      "id": "7jzpla",
+      "front": "a saga",
+      "back": "une saga"
+    },
+    {
+      "id": "zza22e",
+      "front": "diction",
+      "back": "le choix des mots, la diction"
+    },
+    {
+      "id": "0nv1bm",
+      "front": "register",
+      "back": "le registre"
+    },
+    {
+      "id": "eqnfu5",
+      "front": "tone",
+      "back": "le ton"
+    },
+    {
+      "id": "q5tfo3",
+      "front": "voice",
+      "back": "la voix (d'un auteur)"
+    },
+    {
+      "id": "5jy0ie",
+      "front": "style",
+      "back": "le style"
+    },
+    {
+      "id": "f9tn48",
+      "front": "an idiolect",
+      "back": "un idiolecte"
+    },
+    {
+      "id": "43mau9",
+      "front": "vernacular",
+      "back": "la langue vernaculaire"
+    },
+    {
+      "id": "i974bc",
+      "front": "dialogue",
+      "back": "le dialogue"
+    },
+    {
+      "id": "uix69g",
+      "front": "a monologue",
+      "back": "un monologue"
+    },
+    {
+      "id": "97adws",
+      "front": "a soliloquy",
+      "back": "un soliloque"
+    },
+    {
+      "id": "5g0pg3",
+      "front": "an aside",
+      "back": "un aparté"
+    },
+    {
+      "id": "oihsoy",
+      "front": "stream of consciousness",
+      "back": "le monologue intérieur"
+    },
+    {
+      "id": "mqpquj",
+      "front": "a set piece",
+      "back": "un morceau de bravoure"
+    },
+    {
+      "id": "ix8ol1",
+      "front": "a passage",
+      "back": "un passage"
+    },
+    {
+      "id": "7dos8y",
+      "front": "an excerpt",
+      "back": "un extrait"
+    },
+    {
+      "id": "qmzicj",
+      "front": "an epigraph",
+      "back": "une épigraphe"
+    },
+    {
+      "id": "pfi71f",
+      "front": "a preface",
+      "back": "une préface"
+    },
+    {
+      "id": "1ag4g5",
+      "front": "a foreword",
+      "back": "un avant-propos"
+    },
+    {
+      "id": "u6obd0",
+      "front": "an afterword",
+      "back": "une postface"
+    },
+    {
+      "id": "xlfb50",
+      "front": "an appendix",
+      "back": "une annexe"
+    },
+    {
+      "id": "x0t17l",
+      "front": "a footnote",
+      "back": "une note de bas de page"
+    },
+    {
+      "id": "zne567",
+      "front": "an edition",
+      "back": "une édition"
+    },
+    {
+      "id": "ul332h",
+      "front": "a manuscript draft",
+      "back": "un brouillon manuscrit"
+    },
+    {
+      "id": "qa4x43",
+      "front": "a proof",
+      "back": "une épreuve d'imprimerie"
+    },
+    {
+      "id": "bdl6p8",
+      "front": "a publisher",
+      "back": "un éditeur"
+    },
+    {
+      "id": "gsh7dt",
+      "front": "an editor",
+      "back": "un rédacteur, un éditeur"
+    },
+    {
+      "id": "ju1a5l",
+      "front": "a literary agent",
+      "back": "un agent littéraire"
+    },
+    {
+      "id": "pybu4i",
+      "front": "a review",
+      "back": "une critique"
+    },
+    {
+      "id": "53px81",
+      "front": "a critic",
+      "back": "un critique"
+    },
+    {
+      "id": "vevd21",
+      "front": "a blurb",
+      "back": "une quatrième de couverture élogieuse"
+    },
+    {
+      "id": "mx8g37",
+      "front": "acclaim",
+      "back": "les éloges, la reconnaissance"
+    },
+    {
+      "id": "zja7xn",
+      "front": "a panning",
+      "back": "un éreintement"
+    },
+    {
+      "id": "9me4f9",
+      "front": "a shortlist",
+      "back": "une liste de finalistes"
+    },
+    {
+      "id": "jepzmr",
+      "front": "a laureate",
+      "back": "un lauréat"
+    },
+    {
+      "id": "o9z7wi",
+      "front": "a canon",
+      "back": "un canon littéraire"
+    },
+    {
+      "id": "sn6lfz",
+      "front": "a movement",
+      "back": "un mouvement littéraire"
+    },
+    {
+      "id": "nfwz3z",
+      "front": "a contemporary",
+      "back": "un contemporain"
+    },
+    {
+      "id": "a2v406",
+      "front": "an influence",
+      "back": "une influence"
+    }
+  ]
+}
