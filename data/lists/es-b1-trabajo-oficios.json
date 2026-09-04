@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-trabajo-oficios",
+  "name": "El trabajo y los oficios",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "jimfp1",
+      "front": "el trabajo",
+      "back": "le travail"
+    },
+    {
+      "id": "sxq268",
+      "front": "el oficio",
+      "back": "le métier"
+    },
+    {
+      "id": "sg5oe7",
+      "front": "la profesión",
+      "back": "la profession"
+    },
+    {
+      "id": "o43neq",
+      "front": "el empleo",
+      "back": "l'emploi"
+    },
+    {
+      "id": "9bhr2h",
+      "front": "el puesto",
+      "back": "le poste"
+    },
+    {
+      "id": "woxf18",
+      "front": "la empresa",
+      "back": "l'entreprise"
+    },
+    {
+      "id": "7qli60",
+      "front": "la oficina",
+      "back": "le bureau (lieu)"
+    },
+    {
+      "id": "1pfqa2",
+      "front": "la fábrica",
+      "back": "l'usine"
+    },
+    {
+      "id": "0vbcmk",
+      "front": "el taller de reparación",
+      "back": "l'atelier de réparation"
+    },
+    {
+      "id": "qsxsiz",
+      "front": "la obra de construcción",
+      "back": "le chantier"
+    },
+    {
+      "id": "6rk3n6",
+      "front": "el jefe",
+      "back": "le chef, le patron"
+    },
+    {
+      "id": "rs93dp",
+      "front": "el director",
+      "back": "le directeur"
+    },
+    {
+      "id": "uthxxd",
+      "front": "el gerente",
+      "back": "le gérant"
+    },
+    {
+      "id": "236z40",
+      "front": "el empleado",
+      "back": "l'employé"
+    },
+    {
+      "id": "5tbrgk",
+      "front": "el obrero",
+      "back": "l'ouvrier"
+    },
+    {
+      "id": "6iwu22",
+      "front": "el funcionario",
+      "back": "le fonctionnaire"
+    },
+    {
+      "id": "wpc3vb",
+      "front": "el compañero de trabajo",
+      "back": "le collègue"
+    },
+    {
+      "id": "eagsee",
+      "front": "el equipo",
+      "back": "l'équipe"
+    },
+    {
+      "id": "4ke6cw",
+      "front": "el departamento",
+      "back": "le service"
+    },
+    {
+      "id": "exj1ao",
+      "front": "la reunión",
+      "back": "la réunion"
+    },
+    {
+      "id": "3xqgpd",
+      "front": "el horario laboral",
+      "back": "les horaires de travail"
+    },
+    {
+      "id": "dsy1nw",
+      "front": "la jornada",
+      "back": "la journée de travail"
+    },
+    {
+      "id": "n0nsvy",
+      "front": "el turno",
+      "back": "l'équipe, le poste (horaire)"
+    },
+    {
+      "id": "1rceum",
+      "front": "las horas extras",
+      "back": "les heures supplémentaires"
+    },
+    {
+      "id": "e57zgt",
+      "front": "el descanso",
+      "back": "la pause"
+    },
+    {
+      "id": "rx7syk",
+      "front": "las vacaciones",
+      "back": "les congés"
+    },
+    {
+      "id": "2sd96t",
+      "front": "la baja",
+      "back": "l'arrêt de travail"
+    },
+    {
+      "id": "xgokeb",
+      "front": "el contrato",
+      "back": "le contrat"
+    },
+    {
+      "id": "rq5d4b",
+      "front": "el sueldo mensual",
+      "back": "le salaire mensuel"
+    },
+    {
+      "id": "8rnu8u",
+      "front": "la nómina",
+      "back": "la fiche de paie"
+    },
+    {
+      "id": "w8tx7n",
+      "front": "el aumento",
+      "back": "l'augmentation"
+    },
+    {
+      "id": "14x8xt",
+      "front": "el ascenso",
+      "back": "la promotion"
+    },
+    {
+      "id": "u0bi53",
+      "front": "el despido",
+      "back": "le licenciement"
+    },
+    {
+      "id": "csntny",
+      "front": "la dimisión",
+      "back": "la démission"
+    },
+    {
+      "id": "33fk2d",
+      "front": "la jubilación",
+      "back": "la retraite"
+    },
+    {
+      "id": "15a7zy",
+      "front": "el paro",
+      "back": "le chômage"
+    },
+    {
+      "id": "ib1zbm",
+      "front": "el desempleado",
+      "back": "le chômeur"
+    },
+    {
+      "id": "9dwn8g",
+      "front": "la entrevista",
+      "back": "l'entretien"
+    },
+    {
+      "id": "wlkupu",
+      "front": "el currículum",
+      "back": "le CV"
+    },
+    {
+      "id": "fiw0ty",
+      "front": "la solicitud",
+      "back": "la candidature, la demande"
+    },
+    {
+      "id": "4vw1cg",
+      "front": "la experiencia",
+      "back": "l'expérience"
+    },
+    {
+      "id": "c7gkmc",
+      "front": "la formación",
+      "back": "la formation"
+    },
+    {
+      "id": "ryuywr",
+      "front": "la práctica",
+      "back": "le stage"
+    },
+    {
+      "id": "vntskh",
+      "front": "el sindicato",
+      "back": "le syndicat"
+    },
+    {
+      "id": "6ors0e",
+      "front": "la huelga",
+      "back": "la grève"
+    },
+    {
+      "id": "0fkuc1",
+      "front": "el médico de familia",
+      "back": "le médecin traitant"
+    },
+    {
+      "id": "4lqq3f",
+      "front": "el abogado",
+      "back": "l'avocat"
+    },
+    {
+      "id": "ks5yxf",
+      "front": "el ingeniero",
+      "back": "l'ingénieur"
+    },
+    {
+      "id": "142zpc",
+      "front": "el arquitecto",
+      "back": "l'architecte"
+    },
+    {
+      "id": "j7xk09",
+      "front": "el profesor",
+      "back": "le professeur"
+    },
+    {
+      "id": "6nnmvf",
+      "front": "el maestro",
+      "back": "l'instituteur"
+    },
+    {
+      "id": "58kawf",
+      "front": "el periodista",
+      "back": "le journaliste"
+    },
+    {
+      "id": "zwwbww",
+      "front": "el informático",
+      "back": "l'informaticien"
+    },
+    {
+      "id": "u539wv",
+      "front": "el contable",
+      "back": "le comptable"
+    },
+    {
+      "id": "0d8sdn",
+      "front": "el secretario",
+      "back": "le secrétaire"
+    },
+    {
+      "id": "kl6kwy",
+      "front": "el comerciante",
+      "back": "le commerçant"
+    },
+    {
+      "id": "29bb9o",
+      "front": "el agricultor",
+      "back": "l'agriculteur"
+    },
+    {
+      "id": "equxgy",
+      "front": "el ganadero",
+      "back": "l'éleveur"
+    },
+    {
+      "id": "q0t9xg",
+      "front": "el pescador",
+      "back": "le pêcheur"
+    },
+    {
+      "id": "tlmghw",
+      "front": "el cocinero",
+      "back": "le cuisinier"
+    },
+    {
+      "id": "d1q764",
+      "front": "el panadero",
+      "back": "le boulanger"
+    },
+    {
+      "id": "rkci9i",
+      "front": "el carnicero",
+      "back": "le boucher"
+    },
+    {
+      "id": "rswlot",
+      "front": "el peluquero",
+      "back": "le coiffeur"
+    },
+    {
+      "id": "y2tf55",
+      "front": "el camionero",
+      "back": "le camionneur"
+    },
+    {
+      "id": "zta6xj",
+      "front": "el mecánico",
+      "back": "le mécanicien"
+    },
+    {
+      "id": "neaiv6",
+      "front": "el carpintero",
+      "back": "le menuisier"
+    },
+    {
+      "id": "bobf8x",
+      "front": "el albañil",
+      "back": "le maçon"
+    },
+    {
+      "id": "2us12z",
+      "front": "el pintor",
+      "back": "le peintre"
+    },
+    {
+      "id": "ommpnp",
+      "front": "el jardinero",
+      "back": "le jardinier"
+    },
+    {
+      "id": "g9vwzh",
+      "front": "el bombero",
+      "back": "le pompier"
+    },
+    {
+      "id": "99cpfk",
+      "front": "el policía",
+      "back": "le policier"
+    },
+    {
+      "id": "5177w9",
+      "front": "el militar",
+      "back": "le militaire"
+    },
+    {
+      "id": "svnth0",
+      "front": "el juez",
+      "back": "le juge"
+    },
+    {
+      "id": "enk9yd",
+      "front": "el veterinario",
+      "back": "le vétérinaire"
+    },
+    {
+      "id": "8o57pu",
+      "front": "el farmacéutico",
+      "back": "le pharmacien"
+    },
+    {
+      "id": "ijhuvd",
+      "front": "el psicólogo",
+      "back": "le psychologue"
+    },
+    {
+      "id": "fgzlyh",
+      "front": "el traductor",
+      "back": "le traducteur"
+    },
+    {
+      "id": "oap2lb",
+      "front": "el actor",
+      "back": "l'acteur"
+    },
+    {
+      "id": "d9m9rs",
+      "front": "el músico",
+      "back": "le musicien"
+    },
+    {
+      "id": "al97m7",
+      "front": "el deportista",
+      "back": "le sportif"
+    },
+    {
+      "id": "fsv8ln",
+      "front": "el azafata",
+      "back": "l'hôtesse de l'air"
+    },
+    {
+      "id": "gks3ff",
+      "front": "el piloto",
+      "back": "le pilote"
+    },
+    {
+      "id": "hgbtjl",
+      "front": "el marinero",
+      "back": "le marin"
+    },
+    {
+      "id": "jnfsom",
+      "front": "el guía turístico",
+      "back": "le guide touristique"
+    },
+    {
+      "id": "2sqfdh",
+      "front": "el recepcionista",
+      "back": "le réceptionniste"
+    },
+    {
+      "id": "n3gdrw",
+      "front": "el limpiador",
+      "back": "l'agent d'entretien"
+    },
+    {
+      "id": "8rwsvg",
+      "front": "trabajar",
+      "back": "travailler"
+    },
+    {
+      "id": "jvobw9",
+      "front": "ganarse la vida",
+      "back": "gagner sa vie"
+    },
+    {
+      "id": "554w7i",
+      "front": "contratar",
+      "back": "embaucher"
+    },
+    {
+      "id": "c95uq6",
+      "front": "despedir",
+      "back": "licencier"
+    },
+    {
+      "id": "7ev7ys",
+      "front": "jubilarse",
+      "back": "prendre sa retraite"
+    },
+    {
+      "id": "21irki",
+      "front": "buscar trabajo",
+      "back": "chercher du travail"
+    },
+    {
+      "id": "p7j2ek",
+      "front": "solicitar un puesto",
+      "back": "postuler à un poste"
+    },
+    {
+      "id": "vjxerk",
+      "front": "ascender",
+      "back": "être promu"
+    },
+    {
+      "id": "g0pbn6",
+      "front": "dirigir",
+      "back": "diriger"
+    },
+    {
+      "id": "u47gev",
+      "front": "encargarse de",
+      "back": "se charger de"
+    },
+    {
+      "id": "3vqjbq",
+      "front": "cobrar el sueldo",
+      "back": "toucher son salaire"
+    },
+    {
+      "id": "7ji61g",
+      "front": "hacer huelga",
+      "back": "faire grève"
+    },
+    {
+      "id": "og53eo",
+      "front": "autónomo",
+      "back": "indépendant, à son compte"
+    },
+    {
+      "id": "bymoee",
+      "front": "a tiempo parcial",
+      "back": "à temps partiel"
+    }
+  ]
+}
