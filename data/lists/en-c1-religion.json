@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-religion",
+  "name": "Religion and the Sacred",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "ksaxcy",
+      "front": "a doctrine of faith",
+      "back": "un dogme de foi"
+    },
+    {
+      "id": "cquilt",
+      "front": "a dogma",
+      "back": "un dogme"
+    },
+    {
+      "id": "bbiwiu",
+      "front": "orthodoxy",
+      "back": "l'orthodoxie"
+    },
+    {
+      "id": "dfwaen",
+      "front": "a heresy",
+      "back": "une hérésie"
+    },
+    {
+      "id": "z55u4t",
+      "front": "apostasy",
+      "back": "l'apostasie"
+    },
+    {
+      "id": "c731xn",
+      "front": "blasphemy",
+      "back": "le blasphème"
+    },
+    {
+      "id": "hn90lh",
+      "front": "sacrilege",
+      "back": "le sacrilège"
+    },
+    {
+      "id": "2l6406",
+      "front": "profanity",
+      "back": "le blasphème, le juron"
+    },
+    {
+      "id": "jtdth8",
+      "front": "the sacred",
+      "back": "le sacré"
+    },
+    {
+      "id": "cr0svq",
+      "front": "the profane",
+      "back": "le profane"
+    },
+    {
+      "id": "i8etsc",
+      "front": "piety",
+      "back": "la piété"
+    },
+    {
+      "id": "y4ywb4",
+      "front": "devotion",
+      "back": "la dévotion"
+    },
+    {
+      "id": "bsnh9y",
+      "front": "reverence",
+      "back": "la révérence"
+    },
+    {
+      "id": "yqopoh",
+      "front": "worship",
+      "back": "le culte, l'adoration"
+    },
+    {
+      "id": "5rbgv9",
+      "front": "veneration",
+      "back": "la vénération"
+    },
+    {
+      "id": "a4q565",
+      "front": "idolatry",
+      "back": "l'idolâtrie"
+    },
+    {
+      "id": "dp2owj",
+      "front": "liturgy",
+      "back": "la liturgie"
+    },
+    {
+      "id": "z8j09z",
+      "front": "a rite",
+      "back": "un rite"
+    },
+    {
+      "id": "j4r6rx",
+      "front": "a sacrament",
+      "back": "un sacrement"
+    },
+    {
+      "id": "recnz2",
+      "front": "a communion",
+      "back": "une communion"
+    },
+    {
+      "id": "xo8rse",
+      "front": "a baptism",
+      "back": "un baptême"
+    },
+    {
+      "id": "14oi6z",
+      "front": "a confirmation",
+      "back": "une confirmation"
+    },
+    {
+      "id": "gzvjm8",
+      "front": "a confession",
+      "back": "une confession"
+    },
+    {
+      "id": "1vmqgp",
+      "front": "absolution",
+      "back": "l'absolution"
+    },
+    {
+      "id": "82m8yx",
+      "front": "penance",
+      "back": "la pénitence"
+    },
+    {
+      "id": "yiwtkq",
+      "front": "a vigil",
+      "back": "une veillée"
+    },
+    {
+      "id": "8eea5s",
+      "front": "a pilgrimage",
+      "back": "un pèlerinage"
+    },
+    {
+      "id": "wqktob",
+      "front": "a relic",
+      "back": "une relique"
+    },
+    {
+      "id": "z79ehq",
+      "front": "a shrine",
+      "back": "un sanctuaire"
+    },
+    {
+      "id": "6zu9u3",
+      "front": "a sanctuary",
+      "back": "un sanctuaire, un refuge"
+    },
+    {
+      "id": "8wv948",
+      "front": "a chapel",
+      "back": "une chapelle"
+    },
+    {
+      "id": "hpwj8p",
+      "front": "a cathedral",
+      "back": "une cathédrale"
+    },
+    {
+      "id": "23trr6",
+      "front": "a nave",
+      "back": "une nef"
+    },
+    {
+      "id": "m7w98t",
+      "front": "a transept",
+      "back": "un transept"
+    },
+    {
+      "id": "m8mxan",
+      "front": "an altar",
+      "back": "un autel"
+    },
+    {
+      "id": "048tog",
+      "front": "a pulpit",
+      "back": "une chaire"
+    },
+    {
+      "id": "p12dkw",
+      "front": "a cloister",
+      "back": "un cloître"
+    },
+    {
+      "id": "h2egl8",
+      "front": "a monastery",
+      "back": "un monastère"
+    },
+    {
+      "id": "ol7uov",
+      "front": "a convent",
+      "back": "un couvent"
+    },
+    {
+      "id": "vt7s0g",
+      "front": "an abbey",
+      "back": "une abbaye"
+    },
+    {
+      "id": "fn9y74",
+      "front": "an abbot",
+      "back": "un abbé"
+    },
+    {
+      "id": "68vbgy",
+      "front": "a friar",
+      "back": "un frère, un moine mendiant"
+    },
+    {
+      "id": "aqo672",
+      "front": "a monk",
+      "back": "un moine"
+    },
+    {
+      "id": "sw7lqx",
+      "front": "a nun",
+      "back": "une religieuse"
+    },
+    {
+      "id": "3hh7a4",
+      "front": "a novice",
+      "back": "un novice"
+    },
+    {
+      "id": "y2opcp",
+      "front": "a vow",
+      "back": "un vœu"
+    },
+    {
+      "id": "wzmo76",
+      "front": "celibacy",
+      "back": "le célibat"
+    },
+    {
+      "id": "v05uxw",
+      "front": "asceticism",
+      "back": "l'ascétisme"
+    },
+    {
+      "id": "9kr472",
+      "front": "mysticism",
+      "back": "le mysticisme"
+    },
+    {
+      "id": "01zulm",
+      "front": "contemplation",
+      "back": "la contemplation"
+    },
+    {
+      "id": "ro6pjc",
+      "front": "meditation",
+      "back": "la méditation"
+    },
+    {
+      "id": "ebty45",
+      "front": "a prayer",
+      "back": "une prière"
+    },
+    {
+      "id": "uk0w2a",
+      "front": "an intercession",
+      "back": "une intercession"
+    },
+    {
+      "id": "cieth7",
+      "front": "a supplication",
+      "back": "une supplication"
+    },
+    {
+      "id": "xc26kg",
+      "front": "a benediction",
+      "back": "une bénédiction"
+    },
+    {
+      "id": "m7edf0",
+      "front": "a psalm",
+      "back": "un psaume"
+    },
+    {
+      "id": "x1qf95",
+      "front": "a hymn",
+      "back": "un hymne"
+    },
+    {
+      "id": "svwavu",
+      "front": "a sermon",
+      "back": "un sermon"
+    },
+    {
+      "id": "dgbbm8",
+      "front": "a homily",
+      "back": "une homélie"
+    },
+    {
+      "id": "xx7lat",
+      "front": "a parable of faith",
+      "back": "une parabole"
+    },
+    {
+      "id": "l71j4q",
+      "front": "scripture",
+      "back": "l'Écriture sainte"
+    },
+    {
+      "id": "kgdo21",
+      "front": "a testament",
+      "back": "un testament (biblique)"
+    },
+    {
+      "id": "begt4j",
+      "front": "a gospel",
+      "back": "un évangile"
+    },
+    {
+      "id": "m45poe",
+      "front": "an epistle",
+      "back": "une épître"
+    },
+    {
+      "id": "giibnl",
+      "front": "an apocrypha",
+      "back": "un apocryphe"
+    },
+    {
+      "id": "disiv1",
+      "front": "a canon of scripture",
+      "back": "un canon scriptural"
+    },
+    {
+      "id": "2vw7rr",
+      "front": "a commandment",
+      "back": "un commandement"
+    },
+    {
+      "id": "d1ljth",
+      "front": "a covenant with God",
+      "back": "une alliance"
+    },
+    {
+      "id": "n1e7y5",
+      "front": "providence",
+      "back": "la providence"
+    },
+    {
+      "id": "rotofx",
+      "front": "grace",
+      "back": "la grâce"
+    },
+    {
+      "id": "0yvd8a",
+      "front": "salvation",
+      "back": "le salut"
+    },
+    {
+      "id": "4agzuu",
+      "front": "redemption",
+      "back": "la rédemption"
+    },
+    {
+      "id": "wnik84",
+      "front": "damnation",
+      "back": "la damnation"
+    },
+    {
+      "id": "bxnzur",
+      "front": "purgatory",
+      "back": "le purgatoire"
+    },
+    {
+      "id": "mpm394",
+      "front": "the afterlife",
+      "back": "l'au-delà"
+    },
+    {
+      "id": "rrejge",
+      "front": "resurrection",
+      "back": "la résurrection"
+    },
+    {
+      "id": "rgo5w3",
+      "front": "the incarnation",
+      "back": "l'incarnation"
+    },
+    {
+      "id": "l0xdur",
+      "front": "the trinity",
+      "back": "la trinité"
+    },
+    {
+      "id": "k70zfb",
+      "front": "a martyr",
+      "back": "un martyr"
+    },
+    {
+      "id": "mj7yna",
+      "front": "a saint",
+      "back": "un saint"
+    },
+    {
+      "id": "t75d12",
+      "front": "canonisation",
+      "back": "la canonisation"
+    },
+    {
+      "id": "1s8f02",
+      "front": "a prophet",
+      "back": "un prophète"
+    },
+    {
+      "id": "icivmu",
+      "front": "a prophecy",
+      "back": "une prophétie"
+    },
+    {
+      "id": "5tb9x6",
+      "front": "a revelation",
+      "back": "une révélation"
+    },
+    {
+      "id": "h8lr6f",
+      "front": "an epiphany",
+      "back": "une épiphanie"
+    },
+    {
+      "id": "j5o11x",
+      "front": "an apocalypse",
+      "back": "une apocalypse"
+    },
+    {
+      "id": "d5awqv",
+      "front": "eschatology",
+      "back": "l'eschatologie"
+    },
+    {
+      "id": "momyvs",
+      "front": "a messiah",
+      "back": "un messie"
+    },
+    {
+      "id": "3uepnv",
+      "front": "a schism in the church",
+      "back": "un schisme"
+    },
+    {
+      "id": "gghiq5",
+      "front": "a sect",
+      "back": "une secte"
+    },
+    {
+      "id": "ncv6dy",
+      "front": "a denomination",
+      "back": "une confession, une dénomination"
+    },
+    {
+      "id": "8elxeu",
+      "front": "a congregation",
+      "back": "une assemblée de fidèles"
+    },
+    {
+      "id": "qxdzey",
+      "front": "a laity",
+      "back": "le laïcat"
+    },
+    {
+      "id": "y1und5",
+      "front": "a parish",
+      "back": "une paroisse"
+    },
+    {
+      "id": "wfm6z8",
+      "front": "a diocese",
+      "back": "un diocèse"
+    },
+    {
+      "id": "putiop",
+      "front": "a see",
+      "back": "un siège épiscopal"
+    },
+    {
+      "id": "knd3ia",
+      "front": "a bishop",
+      "back": "un évêque"
+    },
+    {
+      "id": "zsry6y",
+      "front": "an ordination",
+      "back": "une ordination"
+    },
+    {
+      "id": "one6qx",
+      "front": "a creed of belief",
+      "back": "une profession de foi"
+    },
+    {
+      "id": "uoy3t8",
+      "front": "agnosticism",
+      "back": "l'agnosticisme"
+    }
+  ]
+}
