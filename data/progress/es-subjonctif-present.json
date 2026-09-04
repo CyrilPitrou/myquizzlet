@@ -1,14 +1,62 @@
 {
   "listId": "es-subjonctif-present",
-  "updatedAt": "2026-09-04T05:55:39.468Z",
+  "updatedAt": "2026-09-04T05:56:34.573Z",
   "items": {
     "a0d5hz:f2b": {
       "box": 1,
-      "due": "2026-09-04",
-      "seen": 0,
+      "due": "2026-09-05",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-04T05:56:03.973Z",
+      "level": 0
+    },
+    "w2t7ge:f2b": {
+      "box": 1,
+      "due": "2026-09-05",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-04T05:56:07.022Z",
+      "level": 0
+    },
+    "z1p6ft:f2b": {
+      "box": 1,
+      "due": "2026-09-05",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-04T05:56:09.035Z",
+      "level": 0
+    },
+    "h1v6zt:f2b": {
+      "box": 2,
+      "due": "2026-09-07",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
-      "level": 1
+      "lastSeen": "2026-09-04T05:56:10.270Z",
+      "level": 0
+    },
+    "h4k9bz:f2b": {
+      "box": 2,
+      "due": "2026-09-07",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-04T05:56:13.639Z",
+      "level": 0
+    },
+    "u1t6jn:f2b": {
+      "box": 2,
+      "due": "2026-09-07",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-04T05:56:33.989Z",
+      "level": 0
+    },
+    "j9p4qw:f2b": {
+      "box": 1,
+      "due": "2026-09-05",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-04T05:56:34.573Z",
+      "level": 0
     }
   }
 }
