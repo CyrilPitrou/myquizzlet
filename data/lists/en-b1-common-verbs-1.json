@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-common-verbs-1",
+  "name": "Common Verbs 1",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "m4opdl",
+      "front": "to be",
+      "back": "être"
+    },
+    {
+      "id": "9smhdf",
+      "front": "to have",
+      "back": "avoir"
+    },
+    {
+      "id": "vocqis",
+      "front": "to do",
+      "back": "faire"
+    },
+    {
+      "id": "ujfqx8",
+      "front": "to make",
+      "back": "fabriquer, faire"
+    },
+    {
+      "id": "mpauf8",
+      "front": "to go",
+      "back": "aller"
+    },
+    {
+      "id": "g027va",
+      "front": "to come",
+      "back": "venir"
+    },
+    {
+      "id": "6w3qe7",
+      "front": "to get",
+      "back": "obtenir, devenir"
+    },
+    {
+      "id": "myhuxu",
+      "front": "to take",
+      "back": "prendre"
+    },
+    {
+      "id": "p8fus3",
+      "front": "to give",
+      "back": "donner"
+    },
+    {
+      "id": "lpy96n",
+      "front": "to put",
+      "back": "mettre"
+    },
+    {
+      "id": "wyy869",
+      "front": "to say",
+      "back": "dire"
+    },
+    {
+      "id": "b62g22",
+      "front": "to tell",
+      "back": "raconter, dire à"
+    },
+    {
+      "id": "95jqum",
+      "front": "to speak",
+      "back": "parler"
+    },
+    {
+      "id": "2vuav6",
+      "front": "to talk",
+      "back": "discuter, parler"
+    },
+    {
+      "id": "qpac00",
+      "front": "to ask",
+      "back": "demander"
+    },
+    {
+      "id": "8fu3oy",
+      "front": "to answer",
+      "back": "répondre"
+    },
+    {
+      "id": "1vjluf",
+      "front": "to know",
+      "back": "savoir, connaître"
+    },
+    {
+      "id": "hkjapj",
+      "front": "to think",
+      "back": "penser"
+    },
+    {
+      "id": "70i6ij",
+      "front": "to believe",
+      "back": "croire"
+    },
+    {
+      "id": "1zq3c3",
+      "front": "to hope",
+      "back": "espérer"
+    },
+    {
+      "id": "dc26nb",
+      "front": "to want",
+      "back": "vouloir"
+    },
+    {
+      "id": "bonuoe",
+      "front": "to wish",
+      "back": "souhaiter"
+    },
+    {
+      "id": "f5rkv6",
+      "front": "to need",
+      "back": "avoir besoin de"
+    },
+    {
+      "id": "6eg5fg",
+      "front": "to like",
+      "back": "aimer bien"
+    },
+    {
+      "id": "f3euaq",
+      "front": "to love",
+      "back": "aimer"
+    },
+    {
+      "id": "3tb3g8",
+      "front": "to hate",
+      "back": "détester"
+    },
+    {
+      "id": "jb6iye",
+      "front": "to prefer",
+      "back": "préférer"
+    },
+    {
+      "id": "rhl5kx",
+      "front": "to see",
+      "back": "voir"
+    },
+    {
+      "id": "byfaks",
+      "front": "to look",
+      "back": "regarder"
+    },
+    {
+      "id": "hbbdby",
+      "front": "to watch",
+      "back": "regarder, surveiller"
+    },
+    {
+      "id": "bf8yfr",
+      "front": "to hear",
+      "back": "entendre"
+    },
+    {
+      "id": "k2r2m9",
+      "front": "to listen",
+      "back": "écouter"
+    },
+    {
+      "id": "h0adsn",
+      "front": "to touch",
+      "back": "toucher"
+    },
+    {
+      "id": "424l2n",
+      "front": "to smell",
+      "back": "sentir"
+    },
+    {
+      "id": "4r5w46",
+      "front": "to find",
+      "back": "trouver"
+    },
+    {
+      "id": "mi6u2j",
+      "front": "to lose something",
+      "back": "perdre quelque chose"
+    },
+    {
+      "id": "h25vi8",
+      "front": "to keep",
+      "back": "garder"
+    },
+    {
+      "id": "1lbmky",
+      "front": "to hold",
+      "back": "tenir"
+    },
+    {
+      "id": "j8y8qw",
+      "front": "to carry",
+      "back": "porter, transporter"
+    },
+    {
+      "id": "2qzjj0",
+      "front": "to bring",
+      "back": "apporter"
+    },
+    {
+      "id": "jd3nbv",
+      "front": "to send back",
+      "back": "renvoyer"
+    },
+    {
+      "id": "xyy86o",
+      "front": "to leave",
+      "back": "partir, laisser"
+    },
+    {
+      "id": "4491t1",
+      "front": "to stay",
+      "back": "rester"
+    },
+    {
+      "id": "ujpfdl",
+      "front": "to remain",
+      "back": "demeurer"
+    },
+    {
+      "id": "uuu824",
+      "front": "to live",
+      "back": "vivre, habiter"
+    },
+    {
+      "id": "i6m65m",
+      "front": "to work out",
+      "back": "fonctionner, s'entraîner"
+    },
+    {
+      "id": "ufnf2z",
+      "front": "to use",
+      "back": "utiliser"
+    },
+    {
+      "id": "oitgtq",
+      "front": "to try",
+      "back": "essayer"
+    },
+    {
+      "id": "8dc2xu",
+      "front": "to begin",
+      "back": "commencer"
+    },
+    {
+      "id": "kktqre",
+      "front": "to start",
+      "back": "démarrer, commencer"
+    },
+    {
+      "id": "i8ebgb",
+      "front": "to finish",
+      "back": "finir"
+    },
+    {
+      "id": "7cddx3",
+      "front": "to end",
+      "back": "terminer, se terminer"
+    },
+    {
+      "id": "9j8jab",
+      "front": "to continue",
+      "back": "continuer"
+    },
+    {
+      "id": "omhin5",
+      "front": "to stop",
+      "back": "arrêter"
+    },
+    {
+      "id": "9wprdp",
+      "front": "to wait",
+      "back": "attendre"
+    },
+    {
+      "id": "etdz7f",
+      "front": "to happen",
+      "back": "arriver, se produire"
+    },
+    {
+      "id": "v3e1g9",
+      "front": "to become",
+      "back": "devenir"
+    },
+    {
+      "id": "fg0x4m",
+      "front": "to seem",
+      "back": "sembler"
+    },
+    {
+      "id": "tzfw19",
+      "front": "to look forward to",
+      "back": "attendre avec impatience"
+    },
+    {
+      "id": "zwc5bs",
+      "front": "to remember",
+      "back": "se souvenir de"
+    },
+    {
+      "id": "1v3mz0",
+      "front": "to forget",
+      "back": "oublier"
+    },
+    {
+      "id": "3y926r",
+      "front": "to decide",
+      "back": "décider"
+    },
+    {
+      "id": "s04fpd",
+      "front": "to choose between",
+      "back": "choisir entre"
+    },
+    {
+      "id": "knfhzn",
+      "front": "to open",
+      "back": "ouvrir"
+    },
+    {
+      "id": "hv7omx",
+      "front": "to close",
+      "back": "fermer"
+    },
+    {
+      "id": "atiax5",
+      "front": "to break",
+      "back": "casser"
+    },
+    {
+      "id": "jqn4qf",
+      "front": "to build",
+      "back": "construire"
+    },
+    {
+      "id": "4fvkk9",
+      "front": "to cut",
+      "back": "couper"
+    },
+    {
+      "id": "trl1aq",
+      "front": "to fill",
+      "back": "remplir"
+    },
+    {
+      "id": "jkx72z",
+      "front": "to empty",
+      "back": "vider"
+    },
+    {
+      "id": "i5clpb",
+      "front": "to move",
+      "back": "bouger, déplacer"
+    },
+    {
+      "id": "w5jhey",
+      "front": "to walk",
+      "back": "marcher"
+    },
+    {
+      "id": "axi1my",
+      "front": "to run",
+      "back": "courir"
+    },
+    {
+      "id": "pft2hs",
+      "front": "to jump",
+      "back": "sauter"
+    },
+    {
+      "id": "4ftqu2",
+      "front": "to climb",
+      "back": "grimper"
+    },
+    {
+      "id": "dv14r9",
+      "front": "to fall",
+      "back": "tomber"
+    },
+    {
+      "id": "owuva3",
+      "front": "to sit",
+      "back": "s'asseoir"
+    },
+    {
+      "id": "wl9s2y",
+      "front": "to stand",
+      "back": "se tenir debout"
+    },
+    {
+      "id": "rhnyss",
+      "front": "to lie down",
+      "back": "s'allonger"
+    },
+    {
+      "id": "2x5wk8",
+      "front": "to sleep",
+      "back": "dormir"
+    },
+    {
+      "id": "sgx308",
+      "front": "to wake up",
+      "back": "se réveiller"
+    },
+    {
+      "id": "zqrk7k",
+      "front": "to get up",
+      "back": "se lever"
+    },
+    {
+      "id": "4an0zd",
+      "front": "to wash",
+      "back": "laver"
+    },
+    {
+      "id": "7ms8v5",
+      "front": "to read",
+      "back": "lire"
+    },
+    {
+      "id": "9980g6",
+      "front": "to write",
+      "back": "écrire"
+    },
+    {
+      "id": "rgodq2",
+      "front": "to draw",
+      "back": "dessiner"
+    },
+    {
+      "id": "e1ez9v",
+      "front": "to count",
+      "back": "compter"
+    },
+    {
+      "id": "jnybi4",
+      "front": "to add",
+      "back": "ajouter"
+    },
+    {
+      "id": "pxjl45",
+      "front": "to change something",
+      "back": "changer quelque chose"
+    },
+    {
+      "id": "cphusc",
+      "front": "to follow",
+      "back": "suivre"
+    },
+    {
+      "id": "6801zr",
+      "front": "to lead",
+      "back": "mener, diriger"
+    },
+    {
+      "id": "cphey8",
+      "front": "to meet again",
+      "back": "retrouver"
+    },
+    {
+      "id": "15r30q",
+      "front": "to show",
+      "back": "montrer"
+    },
+    {
+      "id": "bfqvib",
+      "front": "to hide",
+      "back": "cacher"
+    },
+    {
+      "id": "95oep3",
+      "front": "to look for",
+      "back": "chercher"
+    },
+    {
+      "id": "xki4dq",
+      "front": "to catch",
+      "back": "attraper"
+    },
+    {
+      "id": "d4kkxb",
+      "front": "to throw",
+      "back": "lancer, jeter"
+    },
+    {
+      "id": "s38sma",
+      "front": "to pull",
+      "back": "tirer"
+    },
+    {
+      "id": "z1rc96",
+      "front": "to push",
+      "back": "pousser"
+    },
+    {
+      "id": "x5sifg",
+      "front": "to allow",
+      "back": "permettre"
+    }
+  ]
+}
