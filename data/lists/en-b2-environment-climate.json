@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-environment-climate",
+  "name": "Environment and Climate",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "3fb390",
+      "front": "the environment",
+      "back": "l'environnement"
+    },
+    {
+      "id": "f646d1",
+      "front": "environmental",
+      "back": "environnemental"
+    },
+    {
+      "id": "b8c1a3",
+      "front": "climate change",
+      "back": "le changement climatique"
+    },
+    {
+      "id": "2fdd98",
+      "front": "global warming",
+      "back": "le réchauffement climatique"
+    },
+    {
+      "id": "09b45c",
+      "front": "the greenhouse effect",
+      "back": "l'effet de serre"
+    },
+    {
+      "id": "919e17",
+      "front": "a greenhouse gas",
+      "back": "un gaz à effet de serre"
+    },
+    {
+      "id": "07e847",
+      "front": "carbon dioxide",
+      "back": "le dioxyde de carbone"
+    },
+    {
+      "id": "1253f0",
+      "front": "a carbon footprint",
+      "back": "une empreinte carbone"
+    },
+    {
+      "id": "ecd5a9",
+      "front": "carbon neutral",
+      "back": "neutre en carbone"
+    },
+    {
+      "id": "01d2fb",
+      "front": "emissions",
+      "back": "les émissions"
+    },
+    {
+      "id": "d26b50",
+      "front": "to emit",
+      "back": "émettre"
+    },
+    {
+      "id": "20bd5d",
+      "front": "fossil fuels",
+      "back": "les combustibles fossiles"
+    },
+    {
+      "id": "4dd1b4",
+      "front": "coal",
+      "back": "le charbon"
+    },
+    {
+      "id": "7b5231",
+      "front": "crude oil",
+      "back": "le pétrole brut"
+    },
+    {
+      "id": "f7dda2",
+      "front": "natural gas",
+      "back": "le gaz naturel"
+    },
+    {
+      "id": "6fba37",
+      "front": "renewable energy",
+      "back": "les énergies renouvelables"
+    },
+    {
+      "id": "ebc8c4",
+      "front": "solar power",
+      "back": "l'énergie solaire"
+    },
+    {
+      "id": "29ffb4",
+      "front": "wind power",
+      "back": "l'énergie éolienne"
+    },
+    {
+      "id": "a9cb80",
+      "front": "a wind turbine",
+      "back": "une éolienne"
+    },
+    {
+      "id": "8b46d4",
+      "front": "a solar panel",
+      "back": "un panneau solaire"
+    },
+    {
+      "id": "9bbdbb",
+      "front": "hydroelectric",
+      "back": "hydroélectrique"
+    },
+    {
+      "id": "90d33c",
+      "front": "a dam",
+      "back": "un barrage"
+    },
+    {
+      "id": "e897a3",
+      "front": "nuclear power",
+      "back": "l'énergie nucléaire"
+    },
+    {
+      "id": "a2529f",
+      "front": "a power plant",
+      "back": "une centrale électrique"
+    },
+    {
+      "id": "1f930f",
+      "front": "the power grid",
+      "back": "le réseau électrique"
+    },
+    {
+      "id": "214908",
+      "front": "energy efficiency",
+      "back": "l'efficacité énergétique"
+    },
+    {
+      "id": "7e7c12",
+      "front": "insulation",
+      "back": "l'isolation"
+    },
+    {
+      "id": "3ab79a",
+      "front": "the energy transition",
+      "back": "la transition énergétique"
+    },
+    {
+      "id": "defaf9",
+      "front": "pollution",
+      "back": "la pollution"
+    },
+    {
+      "id": "63deea",
+      "front": "a pollutant",
+      "back": "un polluant"
+    },
+    {
+      "id": "0c15f1",
+      "front": "smog",
+      "back": "le smog"
+    },
+    {
+      "id": "dec9fb",
+      "front": "air quality",
+      "back": "la qualité de l'air"
+    },
+    {
+      "id": "1e3c64",
+      "front": "acid rain",
+      "back": "les pluies acides"
+    },
+    {
+      "id": "0d1268",
+      "front": "an oil spill",
+      "back": "une marée noire"
+    },
+    {
+      "id": "5875bf",
+      "front": "a pesticide",
+      "back": "un pesticide"
+    },
+    {
+      "id": "ff8dbf",
+      "front": "a fertiliser",
+      "back": "un engrais"
+    },
+    {
+      "id": "571c38",
+      "front": "run-off",
+      "back": "le ruissellement"
+    },
+    {
+      "id": "b19483",
+      "front": "contamination",
+      "back": "la contamination"
+    },
+    {
+      "id": "49da47",
+      "front": "toxic waste",
+      "back": "les déchets toxiques"
+    },
+    {
+      "id": "7574b1",
+      "front": "landfill",
+      "back": "la mise en décharge"
+    },
+    {
+      "id": "81ca70",
+      "front": "a landfill site",
+      "back": "une décharge"
+    },
+    {
+      "id": "f011bd",
+      "front": "incineration",
+      "back": "l'incinération"
+    },
+    {
+      "id": "843948",
+      "front": "recycling",
+      "back": "le recyclage"
+    },
+    {
+      "id": "4c90dd",
+      "front": "to recycle",
+      "back": "recycler"
+    },
+    {
+      "id": "5ca500",
+      "front": "recyclable",
+      "back": "recyclable"
+    },
+    {
+      "id": "b1a497",
+      "front": "biodegradable",
+      "back": "biodégradable"
+    },
+    {
+      "id": "bcec55",
+      "front": "compost",
+      "back": "le compost"
+    },
+    {
+      "id": "887282",
+      "front": "single-use plastic",
+      "back": "le plastique à usage unique"
+    },
+    {
+      "id": "1fedf7",
+      "front": "a microplastic",
+      "back": "un microplastique"
+    },
+    {
+      "id": "ba6b10",
+      "front": "litter",
+      "back": "les détritus"
+    },
+    {
+      "id": "5b6945",
+      "front": "sewage",
+      "back": "les eaux usées"
+    },
+    {
+      "id": "56a53d",
+      "front": "a water treatment plant",
+      "back": "une station d'épuration"
+    },
+    {
+      "id": "120c27",
+      "front": "drinking water",
+      "back": "l'eau potable"
+    },
+    {
+      "id": "af6db2",
+      "front": "drought",
+      "back": "la sécheresse"
+    },
+    {
+      "id": "c1a226",
+      "front": "a flood",
+      "back": "une inondation"
+    },
+    {
+      "id": "751868",
+      "front": "a heatwave",
+      "back": "une canicule"
+    },
+    {
+      "id": "3594a0",
+      "front": "a wildfire",
+      "back": "un feu de forêt"
+    },
+    {
+      "id": "a3c2d0",
+      "front": "a hurricane",
+      "back": "un ouragan"
+    },
+    {
+      "id": "ff3bd9",
+      "front": "a natural disaster",
+      "back": "une catastrophe naturelle"
+    },
+    {
+      "id": "5e8241",
+      "front": "sea level rise",
+      "back": "l'élévation du niveau de la mer"
+    },
+    {
+      "id": "6e36bd",
+      "front": "a glacier",
+      "back": "un glacier"
+    },
+    {
+      "id": "e7ba44",
+      "front": "the ice cap",
+      "back": "la calotte glaciaire"
+    },
+    {
+      "id": "ce15b9",
+      "front": "to melt",
+      "back": "fondre"
+    },
+    {
+      "id": "a40e65",
+      "front": "permafrost",
+      "back": "le pergélisol"
+    },
+    {
+      "id": "a79c78",
+      "front": "an ecosystem",
+      "back": "un écosystème"
+    },
+    {
+      "id": "01392a",
+      "front": "biodiversity",
+      "back": "la biodiversité"
+    },
+    {
+      "id": "5db11e",
+      "front": "a habitat",
+      "back": "un habitat"
+    },
+    {
+      "id": "9c5ef6",
+      "front": "a species",
+      "back": "une espèce"
+    },
+    {
+      "id": "0b5b14",
+      "front": "an endangered species",
+      "back": "une espèce menacée"
+    },
+    {
+      "id": "497874",
+      "front": "extinction",
+      "back": "l'extinction"
+    },
+    {
+      "id": "ec0728",
+      "front": "to become extinct",
+      "back": "disparaître"
+    },
+    {
+      "id": "01cc51",
+      "front": "a food chain",
+      "back": "une chaîne alimentaire"
+    },
+    {
+      "id": "ebed02",
+      "front": "a predator",
+      "back": "un prédateur"
+    },
+    {
+      "id": "bfb245",
+      "front": "a wetland",
+      "back": "une zone humide"
+    },
+    {
+      "id": "520c68",
+      "front": "a rainforest",
+      "back": "une forêt tropicale humide"
+    },
+    {
+      "id": "1042d0",
+      "front": "deforestation",
+      "back": "la déforestation"
+    },
+    {
+      "id": "da7d23",
+      "front": "to log",
+      "back": "exploiter le bois, abattre des arbres"
+    },
+    {
+      "id": "0be215",
+      "front": "reforestation",
+      "back": "le reboisement"
+    },
+    {
+      "id": "f6bcca",
+      "front": "desertification",
+      "back": "la désertification"
+    },
+    {
+      "id": "013089",
+      "front": "soil erosion",
+      "back": "l'érosion des sols"
+    },
+    {
+      "id": "cf4a08",
+      "front": "overfishing",
+      "back": "la surpêche"
+    },
+    {
+      "id": "049f50",
+      "front": "poaching",
+      "back": "le braconnage"
+    },
+    {
+      "id": "842827",
+      "front": "conservation",
+      "back": "la préservation, la conservation"
+    },
+    {
+      "id": "7005de",
+      "front": "a nature reserve",
+      "back": "une réserve naturelle"
+    },
+    {
+      "id": "c7fe1d",
+      "front": "a protected area",
+      "back": "une zone protégée"
+    },
+    {
+      "id": "989f64",
+      "front": "sustainable",
+      "back": "durable"
+    },
+    {
+      "id": "adecee",
+      "front": "sustainability",
+      "back": "la durabilité"
+    },
+    {
+      "id": "4c0231",
+      "front": "a resource",
+      "back": "une ressource"
+    },
+    {
+      "id": "82246f",
+      "front": "depletion",
+      "back": "l'épuisement"
+    },
+    {
+      "id": "3078ce",
+      "front": "to conserve",
+      "back": "préserver, économiser"
+    },
+    {
+      "id": "f0dbfa",
+      "front": "to offset",
+      "back": "compenser"
+    },
+    {
+      "id": "253550",
+      "front": "a carbon tax",
+      "back": "une taxe carbone"
+    },
+    {
+      "id": "e31ab5",
+      "front": "a target",
+      "back": "un objectif"
+    },
+    {
+      "id": "acc54d",
+      "front": "mitigation",
+      "back": "l'atténuation"
+    },
+    {
+      "id": "8c4267",
+      "front": "adaptation",
+      "back": "l'adaptation"
+    },
+    {
+      "id": "e83bd2",
+      "front": "an environmentalist",
+      "back": "un écologiste"
+    },
+    {
+      "id": "0ff415",
+      "front": "a green party",
+      "back": "un parti écologiste"
+    },
+    {
+      "id": "c31ff3",
+      "front": "an activist",
+      "back": "un militant"
+    },
+    {
+      "id": "550654",
+      "front": "a treaty",
+      "back": "un traité"
+    },
+    {
+      "id": "01864f",
+      "front": "a summit",
+      "back": "un sommet"
+    }
+  ]
+}
