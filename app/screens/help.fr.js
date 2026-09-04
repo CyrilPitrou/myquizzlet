@@ -9,8 +9,8 @@ export const helpFr = {
     noStoreDownload: 'Rien n’est téléchargé depuis un store — l’appli est déjà là.',
     noButtonBlurb: 'Pas de bouton ? Seul Chrome en propose un. Chaque navigateur installe depuis son propre menu :',
     steps: [
-      'Firefox : ⋮ → Installer, ou Ajouter à l’écran d’accueil.',
-      'Chrome : ⋮ → Installer l’appli. Si la barre affiche ✕ et aucun onglet, la page a été ouverte par un scan — ⋮ → Ouvrir dans Chrome d’abord, puis installer depuis là.',
+      'Firefox : le ⋮ du navigateur → Installer, ou Ajouter à l’écran d’accueil.',
+      'Chrome : le ⋮ du navigateur → Installer l’appli. Si la barre affiche ✕ et aucun onglet, la page a été ouverte par un scan — ⋮ → Ouvrir dans Chrome d’abord, puis installer depuis là.',
       'Samsung Internet : ≡ → Ajouter la page à → Écran d’accueil.',
       'iPhone : Partager → Sur l’écran d’accueil.',
     ],
@@ -58,7 +58,7 @@ export const helpFr = {
     {
       heading: 'Demander une liste',
       paragraphs: [
-        ['L’entrée ', { b: '🪄' }, ' du menu ⋯ ouvre une zone où vous écrivez ce que vous souhaitez : une nouvelle liste sur un thème, plus de mots dans une liste existante, ou une traduction qui vous semble fausse. Précisez combien de mots et à quel niveau.'],
+        ['L’entrée ', { b: '🪄' }, ' du menu ⋮ ouvre une zone où vous écrivez ce que vous souhaitez : une nouvelle liste sur un thème, plus de mots dans une liste existante, ou une traduction qui vous semble fausse. Précisez combien de mots et à quel niveau.'],
         ['Cette zone est partagée avec toutes les personnes qui utilisent l’application : vous verrez donc ce que les autres ont demandé. Ajoutez votre demande en dessous plutôt que de remplacer la leur.'],
         ['Rien ne se passe immédiatement. Cyril lit la zone, fait le travail avec une IA qui vérifie ses sources avant de modifier un mot déjà présent, et publie le résultat. Ce qui a été fait récemment est listé sous la zone.'],
       ],

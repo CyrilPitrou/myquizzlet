@@ -10,8 +10,8 @@ export const helpEn = {
     noStoreDownload: 'Nothing is downloaded from a store — the app is already here.',
     noButtonBlurb: 'No button? Only Chrome offers one. Every browser installs from its own menu:',
     steps: [
-      'Firefox: ⋮ → Install, or Add to Home screen.',
-      'Chrome: ⋮ → Install app. If the bar shows ✕ and no tabs, the page was opened by a scan — ⋮ → Open in Chrome first, then install there.',
+      'Firefox: the browser’s own ⋮ → Install, or Add to Home screen.',
+      'Chrome: the browser’s own ⋮ → Install app. If the bar shows ✕ and no tabs, the page was opened by a scan — ⋮ → Open in Chrome first, then install there.',
       'Samsung Internet: ≡ → Add page to → Home screen.',
       'iPhone: Share → Add to Home Screen.',
     ],
@@ -59,7 +59,7 @@ export const helpEn = {
     {
       heading: 'Asking for a list',
       paragraphs: [
-        ['The ', { b: '🪄' }, ' item in the ⋯ menu opens a box where you write what you would like: a new list on a topic, more words in a list you already have, or a translation you think is wrong. Say how many words and how hard they should be.'],
+        ['The ', { b: '🪄' }, ' item in the ⋮ menu opens a box where you write what you would like: a new list on a topic, more words in a list you already have, or a translation you think is wrong. Say how many words and how hard they should be.'],
         ['The box is shared with everyone using the app, so you will see what other people have asked for. Add yours underneath rather than replacing theirs.'],
         ['Nothing happens straight away. Cyril reads the box, does the work with an AI that checks its sources before changing a word you already have, and pushes the result. What has been done recently is listed under the box.'],
       ],
