@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-education-academy",
+  "name": "Education and the Academy",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "1txzyc",
+      "front": "a curriculum",
+      "back": "un programme d'études"
+    },
+    {
+      "id": "0dkoh7",
+      "front": "a syllabus",
+      "back": "un programme de matière"
+    },
+    {
+      "id": "5rsjrb",
+      "front": "a module",
+      "back": "un module"
+    },
+    {
+      "id": "csyz23",
+      "front": "a credit",
+      "back": "un crédit (ECTS)"
+    },
+    {
+      "id": "2p82ws",
+      "front": "a prerequisite",
+      "back": "un prérequis"
+    },
+    {
+      "id": "idhfgb",
+      "front": "an elective",
+      "back": "une matière optionnelle"
+    },
+    {
+      "id": "btmc30",
+      "front": "a core subject",
+      "back": "une matière fondamentale"
+    },
+    {
+      "id": "58e8i1",
+      "front": "a discipline of study",
+      "back": "une discipline"
+    },
+    {
+      "id": "rd97aq",
+      "front": "a faculty",
+      "back": "une faculté"
+    },
+    {
+      "id": "njmd7z",
+      "front": "a department",
+      "back": "un département"
+    },
+    {
+      "id": "wd3gs7",
+      "front": "a chair of a subject",
+      "back": "une chaire"
+    },
+    {
+      "id": "qc3g45",
+      "front": "a professorship",
+      "back": "un poste de professeur"
+    },
+    {
+      "id": "s75la4",
+      "front": "a lectureship",
+      "back": "un poste de maître de conférences"
+    },
+    {
+      "id": "0ef4lc",
+      "front": "a readership",
+      "back": "un poste de professeur associé"
+    },
+    {
+      "id": "puxn90",
+      "front": "a fellowship",
+      "back": "une bourse de recherche, un statut de fellow"
+    },
+    {
+      "id": "jewfdn",
+      "front": "a scholarship",
+      "back": "une bourse d'études"
+    },
+    {
+      "id": "ptb542",
+      "front": "a bursary",
+      "back": "une bourse sur critères sociaux"
+    },
+    {
+      "id": "vl9zj3",
+      "front": "an endowment",
+      "back": "une dotation"
+    },
+    {
+      "id": "o43bpr",
+      "front": "alumni",
+      "back": "les anciens élèves"
+    },
+    {
+      "id": "nfnj6g",
+      "front": "a cohort of students",
+      "back": "une promotion"
+    },
+    {
+      "id": "mnxxqy",
+      "front": "an undergraduate",
+      "back": "un étudiant de premier cycle"
+    },
+    {
+      "id": "xnmrfd",
+      "front": "a postgraduate",
+      "back": "un étudiant de deuxième ou troisième cycle"
+    },
+    {
+      "id": "o2utwl",
+      "front": "a doctoral candidate",
+      "back": "un doctorant"
+    },
+    {
+      "id": "lw5cru",
+      "front": "a supervisor",
+      "back": "un directeur de thèse"
+    },
+    {
+      "id": "bvolku",
+      "front": "a viva",
+      "back": "une soutenance orale"
+    },
+    {
+      "id": "61mnan",
+      "front": "a thesis defence",
+      "back": "une soutenance de thèse"
+    },
+    {
+      "id": "f5xrr3",
+      "front": "a dissertation",
+      "back": "un mémoire"
+    },
+    {
+      "id": "gc37ea",
+      "front": "a monograph",
+      "back": "une monographie"
+    },
+    {
+      "id": "w2xh60",
+      "front": "a festschrift",
+      "back": "des mélanges en l'honneur d'un savant"
+    },
+    {
+      "id": "mjyj6s",
+      "front": "a proceedings volume",
+      "back": "des actes de colloque"
+    },
+    {
+      "id": "3j9omy",
+      "front": "a symposium",
+      "back": "un colloque"
+    },
+    {
+      "id": "f8sguv",
+      "front": "a colloquium",
+      "back": "un séminaire de recherche"
+    },
+    {
+      "id": "v66lcq",
+      "front": "a seminar",
+      "back": "un séminaire"
+    },
+    {
+      "id": "m51567",
+      "front": "a tutorial",
+      "back": "un cours en petit groupe"
+    },
+    {
+      "id": "vbcpuj",
+      "front": "a lecture",
+      "back": "un cours magistral"
+    },
+    {
+      "id": "vsn7zs",
+      "front": "a lecture theatre",
+      "back": "un amphithéâtre"
+    },
+    {
+      "id": "l8n0pt",
+      "front": "a reading list",
+      "back": "une bibliographie de cours"
+    },
+    {
+      "id": "3ak09z",
+      "front": "a set text",
+      "back": "un texte au programme"
+    },
+    {
+      "id": "5j7njq",
+      "front": "a coursework assignment",
+      "back": "un travail continu noté"
+    },
+    {
+      "id": "fdog2m",
+      "front": "a term paper",
+      "back": "un devoir de fin de semestre"
+    },
+    {
+      "id": "1xx4ck",
+      "front": "a submission deadline",
+      "back": "une date limite de remise"
+    },
+    {
+      "id": "r9oj2y",
+      "front": "an extension of a deadline",
+      "back": "un délai supplémentaire"
+    },
+    {
+      "id": "8ty91k",
+      "front": "plagiarism",
+      "back": "le plagiat"
+    },
+    {
+      "id": "duizk5",
+      "front": "academic misconduct",
+      "back": "une fraude académique"
+    },
+    {
+      "id": "8v3uxr",
+      "front": "a citation practice",
+      "back": "une pratique de citation"
+    },
+    {
+      "id": "vy5e4n",
+      "front": "a bibliography",
+      "back": "une bibliographie"
+    },
+    {
+      "id": "t12l1h",
+      "front": "a footnote apparatus",
+      "back": "un appareil de notes"
+    },
+    {
+      "id": "bcd34x",
+      "front": "an abstract of a paper",
+      "back": "un résumé d'article"
+    },
+    {
+      "id": "aqk94e",
+      "front": "a literature review",
+      "back": "une revue de littérature"
+    },
+    {
+      "id": "udmnou",
+      "front": "a research question",
+      "back": "une question de recherche"
+    },
+    {
+      "id": "0dfucv",
+      "front": "a hypothesis to test",
+      "back": "une hypothèse à tester"
+    },
+    {
+      "id": "7tqy0v",
+      "front": "a methodology section",
+      "back": "une partie méthodologique"
+    },
+    {
+      "id": "ih9njq",
+      "front": "a limitation of a study",
+      "back": "une limite de l'étude"
+    },
+    {
+      "id": "d8ko5a",
+      "front": "a peer reviewer",
+      "back": "un évaluateur"
+    },
+    {
+      "id": "ls2awx",
+      "front": "an editorial board",
+      "back": "un comité de rédaction"
+    },
+    {
+      "id": "41qsma",
+      "front": "an impact factor",
+      "back": "un facteur d'impact"
+    },
+    {
+      "id": "5kuupr",
+      "front": "an h-index",
+      "back": "un indice h"
+    },
+    {
+      "id": "8k08t9",
+      "front": "open access",
+      "back": "le libre accès"
+    },
+    {
+      "id": "1tc5le",
+      "front": "a repository of papers",
+      "back": "une archive ouverte"
+    },
+    {
+      "id": "fr26x8",
+      "front": "a paywalled journal",
+      "back": "une revue payante"
+    },
+    {
+      "id": "94joat",
+      "front": "a grant application",
+      "back": "une demande de financement"
+    },
+    {
+      "id": "ij3ply",
+      "front": "a funding body",
+      "back": "un organisme financeur"
+    },
+    {
+      "id": "oz2ykr",
+      "front": "a research council",
+      "back": "un conseil de recherche"
+    },
+    {
+      "id": "e31xxl",
+      "front": "a principal investigator",
+      "back": "un chercheur principal"
+    },
+    {
+      "id": "cti29e",
+      "front": "a postdoctoral researcher",
+      "back": "un chercheur postdoctoral"
+    },
+    {
+      "id": "cs4kqg",
+      "front": "a research assistant",
+      "back": "un assistant de recherche"
+    },
+    {
+      "id": "m78uwo",
+      "front": "tenure",
+      "back": "la titularisation"
+    },
+    {
+      "id": "wdjlk1",
+      "front": "a tenure track",
+      "back": "une voie vers la titularisation"
+    },
+    {
+      "id": "rp2zaq",
+      "front": "academic freedom",
+      "back": "la liberté académique"
+    },
+    {
+      "id": "0pjy0y",
+      "front": "a sabbatical term",
+      "back": "un semestre sabbatique"
+    },
+    {
+      "id": "n280qm",
+      "front": "an emeritus professor",
+      "back": "un professeur émérite"
+    },
+    {
+      "id": "3ua6nf",
+      "front": "a vice-chancellor",
+      "back": "un président d'université"
+    },
+    {
+      "id": "j2s9yn",
+      "front": "a provost",
+      "back": "un vice-président aux études"
+    },
+    {
+      "id": "3ykp7d",
+      "front": "a registrar",
+      "back": "un secrétaire général, un service de scolarité"
+    },
+    {
+      "id": "q0i2hv",
+      "front": "matriculation",
+      "back": "l'inscription universitaire"
+    },
+    {
+      "id": "8p1lui",
+      "front": "a graduation ceremony",
+      "back": "une remise des diplômes"
+    },
+    {
+      "id": "z6ofnj",
+      "front": "a degree classification",
+      "back": "une mention de diplôme"
+    },
+    {
+      "id": "2kf4bs",
+      "front": "a first-class degree",
+      "back": "une mention très bien"
+    },
+    {
+      "id": "shm7ps",
+      "front": "a pass mark",
+      "back": "une note de passage"
+    },
+    {
+      "id": "x2702c",
+      "front": "a resit",
+      "back": "un rattrapage"
+    },
+    {
+      "id": "vrf10y",
+      "front": "an examination board",
+      "back": "un jury d'examen"
+    },
+    {
+      "id": "n5dyap",
+      "front": "a moderator",
+      "back": "un modérateur d'examen"
+    },
+    {
+      "id": "xsa79d",
+      "front": "an invigilator",
+      "back": "un surveillant d'examen"
+    },
+    {
+      "id": "m1j59q",
+      "front": "an open-book exam",
+      "back": "un examen à documents ouverts"
+    },
+    {
+      "id": "ldycoa",
+      "front": "a multiple-choice test",
+      "back": "un questionnaire à choix multiple"
+    },
+    {
+      "id": "19tny7",
+      "front": "continuous assessment",
+      "back": "le contrôle continu"
+    },
+    {
+      "id": "68ih9i",
+      "front": "a grade inflation",
+      "back": "une inflation des notes"
+    },
+    {
+      "id": "48lt8o",
+      "front": "a marking scheme",
+      "back": "un barème"
+    },
+    {
+      "id": "qzlo22",
+      "front": "a rubric",
+      "back": "une grille d'évaluation"
+    },
+    {
+      "id": "60c6zc",
+      "front": "a league table of universities",
+      "back": "un classement des universités"
+    },
+    {
+      "id": "dphb0a",
+      "front": "an accreditation",
+      "back": "une accréditation"
+    },
+    {
+      "id": "qv7mhe",
+      "front": "a quality assurance review",
+      "back": "une évaluation de la qualité"
+    },
+    {
+      "id": "pqwq66",
+      "front": "a widening participation scheme",
+      "back": "un dispositif d'ouverture sociale"
+    },
+    {
+      "id": "ycfihl",
+      "front": "a foundation year",
+      "back": "une année préparatoire"
+    },
+    {
+      "id": "en4zk9",
+      "front": "a gap year",
+      "back": "une année de césure"
+    },
+    {
+      "id": "2h016q",
+      "front": "a placement year",
+      "back": "une année en entreprise"
+    },
+    {
+      "id": "xoo3px",
+      "front": "an exchange programme",
+      "back": "un programme d'échange"
+    },
+    {
+      "id": "l2rkm0",
+      "front": "a lifelong learner",
+      "back": "un apprenant tout au long de la vie"
+    },
+    {
+      "id": "ki7cu2",
+      "front": "an autodidact",
+      "back": "un autodidacte"
+    },
+    {
+      "id": "pu50l8",
+      "front": "a polymath",
+      "back": "un érudit universel, un polymathe"
+    }
+  ]
+}
