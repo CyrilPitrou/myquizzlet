@@ -6,306 +6,306 @@
   "backLabel": "Subjonctif imparfait (-ra)",
   "frontLang": "es",
   "backLang": "es",
-  "updatedAt": "2026-09-04T05:17:10Z",
+  "updatedAt": "2026-09-04T05:27:37Z",
   "cards": [
     {
       "id": "q7m2xd",
-      "front": "andar",
+      "front": "andar (marcher)",
       "back": "anduviera\nanduvieras\nanduviera\nanduviéramos\nanduvierais\nanduvieran"
     },
     {
       "id": "b4knwe",
-      "front": "aprender",
+      "front": "aprender (apprendre)",
       "back": "aprendiera\naprendieras\naprendiera\naprendiéramos\naprendierais\naprendieran"
     },
     {
       "id": "z0tp5c",
-      "front": "bailar",
+      "front": "bailar (danser)",
       "back": "bailara\nbailaras\nbailara\nbailáramos\nbailarais\nbailaran"
     },
     {
       "id": "h9vjr3",
-      "front": "beber",
+      "front": "beber (boire)",
       "back": "bebiera\nbebieras\nbebiera\nbebiéramos\nbebierais\nbebieran"
     },
     {
       "id": "m6sxq1",
-      "front": "caber",
+      "front": "caber (tenir dans)",
       "back": "cupiera\ncupieras\ncupiera\ncupiéramos\ncupierais\ncupieran"
     },
     {
       "id": "f2wdlt",
-      "front": "caer",
+      "front": "caer (tomber)",
       "back": "cayera\ncayeras\ncayera\ncayéramos\ncayerais\ncayeran"
     },
     {
       "id": "j8ncgb",
-      "front": "cantar",
+      "front": "cantar (chanter)",
       "back": "cantara\ncantaras\ncantara\ncantáramos\ncantarais\ncantaran"
     },
     {
       "id": "r5yhqz",
-      "front": "cerrar",
+      "front": "cerrar (fermer)",
       "back": "cerrara\ncerraras\ncerrara\ncerráramos\ncerrarais\ncerraran"
     },
     {
       "id": "d1ukmp",
-      "front": "comer",
+      "front": "comer (manger)",
       "back": "comiera\ncomieras\ncomiera\ncomiéramos\ncomierais\ncomieran"
     },
     {
       "id": "w3azfv",
-      "front": "comprar",
+      "front": "comprar (acheter)",
       "back": "comprara\ncompraras\ncomprara\ncompráramos\ncomprarais\ncompraran"
     },
     {
       "id": "t7ejbo",
-      "front": "conducir",
+      "front": "conducir (conduire)",
       "back": "condujera\ncondujeras\ncondujera\ncondujéramos\ncondujerais\ncondujeran"
     },
     {
       "id": "n0qgsi",
-      "front": "conocer",
+      "front": "conocer (connaître)",
       "back": "conociera\nconocieras\nconociera\nconociéramos\nconocierais\nconocieran"
     },
     {
       "id": "y4lrhc",
-      "front": "contar",
+      "front": "contar (compter, raconter)",
       "back": "contara\ncontaras\ncontara\ncontáramos\ncontarais\ncontaran"
     },
     {
       "id": "k9pdwn",
-      "front": "correr",
+      "front": "correr (courir)",
       "back": "corriera\ncorrieras\ncorriera\ncorriéramos\ncorrierais\ncorrieran"
     },
     {
       "id": "v2xotm",
-      "front": "dar",
+      "front": "dar (donner)",
       "back": "diera\ndieras\ndiera\ndiéramos\ndierais\ndieran"
     },
     {
       "id": "g6bsuz",
-      "front": "deber",
+      "front": "deber (devoir)",
       "back": "debiera\ndebieras\ndebiera\ndebiéramos\ndebierais\ndebieran"
     },
     {
       "id": "c8ifky",
-      "front": "decir",
+      "front": "decir (dire)",
       "back": "dijera\ndijeras\ndijera\ndijéramos\ndijerais\ndijeran"
     },
     {
       "id": "p3herl",
-      "front": "dormir",
+      "front": "dormir (dormir)",
       "back": "durmiera\ndurmieras\ndurmiera\ndurmiéramos\ndurmierais\ndurmieran"
     },
     {
       "id": "s5wmcq",
-      "front": "empezar",
+      "front": "empezar (commencer)",
       "back": "empezara\nempezaras\nempezara\nempezáramos\nempezarais\nempezaran"
     },
     {
       "id": "a1zntf",
-      "front": "escuchar",
+      "front": "escuchar (écouter)",
       "back": "escuchara\nescucharas\nescuchara\nescucháramos\nescucharais\nescucharan"
     },
     {
       "id": "x7qjvb",
-      "front": "estar",
+      "front": "estar (être, se trouver)",
       "back": "estuviera\nestuvieras\nestuviera\nestuviéramos\nestuvierais\nestuvieran"
     },
     {
       "id": "e0dgrk",
-      "front": "estudiar",
+      "front": "estudiar (étudier)",
       "back": "estudiara\nestudiaras\nestudiara\nestudiáramos\nestudiarais\nestudiaran"
     },
     {
       "id": "u4mplo",
-      "front": "haber",
+      "front": "haber (avoir, auxiliaire)",
       "back": "hubiera\nhubieras\nhubiera\nhubiéramos\nhubierais\nhubieran"
     },
     {
       "id": "i9crtw",
-      "front": "hablar",
+      "front": "hablar (parler)",
       "back": "hablara\nhablaras\nhablara\nhabláramos\nhablarais\nhablaran"
     },
     {
       "id": "o2fzsd",
-      "front": "hacer",
+      "front": "hacer (faire)",
       "back": "hiciera\nhicieras\nhiciera\nhiciéramos\nhicierais\nhicieran"
     },
     {
       "id": "l6vkbn",
-      "front": "huir",
+      "front": "huir (fuir)",
       "back": "huyera\nhuyeras\nhuyera\nhuyéramos\nhuyerais\nhuyeran"
     },
     {
       "id": "q1xgtj",
-      "front": "ir",
+      "front": "ir (aller)",
       "back": "fuera\nfueras\nfuera\nfuéramos\nfuerais\nfueran"
     },
     {
       "id": "b8shwm",
-      "front": "jugar",
+      "front": "jugar (jouer)",
       "back": "jugara\njugaras\njugara\njugáramos\njugarais\njugaran"
     },
     {
       "id": "z5cnqp",
-      "front": "leer",
+      "front": "leer (lire)",
       "back": "leyera\nleyeras\nleyera\nleyéramos\nleyerais\nleyeran"
     },
     {
       "id": "h3ydfr",
-      "front": "llamar",
+      "front": "llamar (appeler)",
       "back": "llamara\nllamaras\nllamara\nllamáramos\nllamarais\nllamaran"
     },
     {
       "id": "m0wjkc",
-      "front": "mirar",
+      "front": "mirar (regarder)",
       "back": "mirara\nmiraras\nmirara\nmiráramos\nmirarais\nmiraran"
     },
     {
       "id": "f7pbzu",
-      "front": "morir",
+      "front": "morir (mourir)",
       "back": "muriera\nmurieras\nmuriera\nmuriéramos\nmurierais\nmurieran"
     },
     {
       "id": "j4tqno",
-      "front": "necesitar",
+      "front": "necesitar (avoir besoin de)",
       "back": "necesitara\nnecesitaras\nnecesitara\nnecesitáramos\nnecesitarais\nnecesitaran"
     },
     {
       "id": "r9dvsg",
-      "front": "oír",
+      "front": "oír (entendre)",
       "back": "oyera\noyeras\noyera\noyéramos\noyerais\noyeran"
     },
     {
       "id": "d6khil",
-      "front": "pedir",
+      "front": "pedir (demander)",
       "back": "pidiera\npidieras\npidiera\npidiéramos\npidierais\npidieran"
     },
     {
       "id": "w1nrxa",
-      "front": "pensar",
+      "front": "pensar (penser)",
       "back": "pensara\npensaras\npensara\npensáramos\npensarais\npensaran"
     },
     {
       "id": "t8zmec",
-      "front": "poder",
+      "front": "poder (pouvoir)",
       "back": "pudiera\npudieras\npudiera\npudiéramos\npudierais\npudieran"
     },
     {
       "id": "n5gvkq",
-      "front": "poner",
+      "front": "poner (mettre)",
       "back": "pusiera\npusieras\npusiera\npusiéramos\npusierais\npusieran"
     },
     {
       "id": "y2jbwt",
-      "front": "querer",
+      "front": "querer (vouloir)",
       "back": "quisiera\nquisieras\nquisiera\nquisiéramos\nquisierais\nquisieran"
     },
     {
       "id": "k7fslp",
-      "front": "recibir",
+      "front": "recibir (recevoir)",
       "back": "recibiera\nrecibieras\nrecibiera\nrecibiéramos\nrecibierais\nrecibieran"
     },
     {
       "id": "v0hqdn",
-      "front": "repetir",
+      "front": "repetir (répéter)",
       "back": "repitiera\nrepitieras\nrepitiera\nrepitiéramos\nrepitierais\nrepitieran"
     },
     {
       "id": "g9txmb",
-      "front": "responder",
+      "front": "responder (répondre)",
       "back": "respondiera\nrespondieras\nrespondiera\nrespondiéramos\nrespondierais\nrespondieran"
     },
     {
       "id": "c4prwz",
-      "front": "saber",
+      "front": "saber (savoir)",
       "back": "supiera\nsupieras\nsupiera\nsupiéramos\nsupierais\nsupieran"
     },
     {
       "id": "p6ekyj",
-      "front": "salir",
+      "front": "salir (sortir)",
       "back": "saliera\nsalieras\nsaliera\nsaliéramos\nsalierais\nsalieran"
     },
     {
       "id": "s1nvgo",
-      "front": "seguir",
+      "front": "seguir (suivre)",
       "back": "siguiera\nsiguieras\nsiguiera\nsiguiéramos\nsiguierais\nsiguieran"
     },
     {
       "id": "a8zqhc",
-      "front": "sentir",
+      "front": "sentir (sentir, regretter)",
       "back": "sintiera\nsintieras\nsintiera\nsintiéramos\nsintierais\nsintieran"
     },
     {
       "id": "x3lduf",
-      "front": "ser",
+      "front": "ser (être)",
       "back": "fuera\nfueras\nfuera\nfuéramos\nfuerais\nfueran"
     },
     {
       "id": "e5wtkm",
-      "front": "servir",
+      "front": "servir (servir)",
       "back": "sirviera\nsirvieras\nsirviera\nsirviéramos\nsirvierais\nsirvieran"
     },
     {
       "id": "u7bqrn",
-      "front": "subir",
+      "front": "subir (monter)",
       "back": "subiera\nsubieras\nsubiera\nsubiéramos\nsubierais\nsubieran"
     },
     {
       "id": "i2mgxp",
-      "front": "tener",
+      "front": "tener (avoir, posséder)",
       "back": "tuviera\ntuvieras\ntuviera\ntuviéramos\ntuvierais\ntuvieran"
     },
     {
       "id": "o0jscv",
-      "front": "trabajar",
+      "front": "trabajar (travailler)",
       "back": "trabajara\ntrabajaras\ntrabajara\ntrabajáramos\ntrabajarais\ntrabajaran"
     },
     {
       "id": "l9hnfk",
-      "front": "traducir",
+      "front": "traducir (traduire)",
       "back": "tradujera\ntradujeras\ntradujera\ntradujéramos\ntradujerais\ntradujeran"
     },
     {
       "id": "q4vzdb",
-      "front": "traer",
+      "front": "traer (apporter)",
       "back": "trajera\ntrajeras\ntrajera\ntrajéramos\ntrajerais\ntrajeran"
     },
     {
       "id": "b6ywtg",
-      "front": "valer",
+      "front": "valer (valoir)",
       "back": "valiera\nvalieras\nvaliera\nvaliéramos\nvalierais\nvalieran"
     },
     {
       "id": "z8kqml",
-      "front": "vender",
+      "front": "vender (vendre)",
       "back": "vendiera\nvendieras\nvendiera\nvendiéramos\nvendierais\nvendieran"
     },
     {
       "id": "h1rpsx",
-      "front": "venir",
+      "front": "venir (venir)",
       "back": "viniera\nvinieras\nviniera\nviniéramos\nvinierais\nvinieran"
     },
     {
       "id": "m5cjzt",
-      "front": "ver",
+      "front": "ver (voir)",
       "back": "viera\nvieras\nviera\nviéramos\nvierais\nvieran"
     },
     {
       "id": "f0nqwd",
-      "front": "vestir",
+      "front": "vestir (habiller)",
       "back": "vistiera\nvistieras\nvistiera\nvistiéramos\nvistierais\nvistieran"
     },
     {
       "id": "j3gbkr",
-      "front": "vivir",
+      "front": "vivir (vivre)",
       "back": "viviera\nvivieras\nviviera\nviviéramos\nvivierais\nvivieran"
     },
     {
       "id": "r2mxpc",
-      "front": "volver",
+      "front": "volver (revenir)",
       "back": "volviera\nvolvieras\nvolviera\nvolviéramos\nvolvierais\nvolvieran"
     }
   ]

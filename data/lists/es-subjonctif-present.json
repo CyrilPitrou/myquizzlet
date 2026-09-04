@@ -6,306 +6,306 @@
   "backLabel": "Subjonctif présent",
   "frontLang": "es",
   "backLang": "es",
-  "updatedAt": "2026-09-04T05:17:10Z",
+  "updatedAt": "2026-09-04T05:27:37Z",
   "cards": [
     {
       "id": "q7m2xk",
-      "front": "andar",
+      "front": "andar (marcher)",
       "back": "ande\nandes\nande\nandemos\nandéis\nanden"
     },
     {
       "id": "b4t9wz",
-      "front": "aprender",
+      "front": "aprender (apprendre)",
       "back": "aprenda\naprendas\naprenda\naprendamos\naprendáis\naprendan"
     },
     {
       "id": "h1r6nc",
-      "front": "bailar",
+      "front": "bailar (danser)",
       "back": "baile\nbailes\nbaile\nbailemos\nbailéis\nbailen"
     },
     {
       "id": "z8k3pv",
-      "front": "beber",
+      "front": "beber (boire)",
       "back": "beba\nbebas\nbeba\nbebamos\nbebáis\nbeban"
     },
     {
       "id": "f5j0dq",
-      "front": "caber",
+      "front": "caber (tenir dans)",
       "back": "quepa\nquepas\nquepa\nquepamos\nquepáis\nquepan"
     },
     {
       "id": "n2w7ls",
-      "front": "caer",
+      "front": "caer (tomber)",
       "back": "caiga\ncaigas\ncaiga\ncaigamos\ncaigáis\ncaigan"
     },
     {
       "id": "x9c4gb",
-      "front": "cantar",
+      "front": "cantar (chanter)",
       "back": "cante\ncantes\ncante\ncantemos\ncantéis\ncanten"
     },
     {
       "id": "t6y1mh",
-      "front": "cerrar",
+      "front": "cerrar (fermer)",
       "back": "cierre\ncierres\ncierre\ncerremos\ncerréis\ncierren"
     },
     {
       "id": "p3v8az",
-      "front": "comer",
+      "front": "comer (manger)",
       "back": "coma\ncomas\ncoma\ncomamos\ncomáis\ncoman"
     },
     {
       "id": "d0q5rf",
-      "front": "comprar",
+      "front": "comprar (acheter)",
       "back": "compre\ncompres\ncompre\ncompremos\ncompréis\ncompren"
     },
     {
       "id": "k7n2ju",
-      "front": "conducir",
+      "front": "conducir (conduire)",
       "back": "conduzca\nconduzcas\nconduzca\nconduzcamos\nconduzcáis\nconduzcan"
     },
     {
       "id": "w4b9ep",
-      "front": "conocer",
+      "front": "conocer (connaître)",
       "back": "conozca\nconozcas\nconozca\nconozcamos\nconozcáis\nconozcan"
     },
     {
       "id": "m1s6tx",
-      "front": "contar",
+      "front": "contar (compter, raconter)",
       "back": "cuente\ncuentes\ncuente\ncontemos\ncontéis\ncuenten"
     },
     {
       "id": "g8f3ky",
-      "front": "correr",
+      "front": "correr (courir)",
       "back": "corra\ncorras\ncorra\ncorramos\ncorráis\ncorran"
     },
     {
       "id": "r5z0nd",
-      "front": "dar",
+      "front": "dar (donner)",
       "back": "dé\ndes\ndé\ndemos\ndeis\nden"
     },
     {
       "id": "c2h7va",
-      "front": "deber",
+      "front": "deber (devoir)",
       "back": "deba\ndebas\ndeba\ndebamos\ndebáis\ndeban"
     },
     {
       "id": "j9p4qw",
-      "front": "decir",
+      "front": "decir (dire)",
       "back": "diga\ndigas\ndiga\ndigamos\ndigáis\ndigan"
     },
     {
       "id": "v6l1bm",
-      "front": "dormir",
+      "front": "dormir (dormir)",
       "back": "duerma\nduermas\nduerma\ndurmamos\ndurmáis\nduerman"
     },
     {
       "id": "y3x8fs",
-      "front": "empezar",
+      "front": "empezar (commencer)",
       "back": "empiece\nempieces\nempiece\nempecemos\nempecéis\nempiecen"
     },
     {
       "id": "a0d5hz",
-      "front": "escuchar",
+      "front": "escuchar (écouter)",
       "back": "escuche\nescuches\nescuche\nescuchemos\nescuchéis\nescuchen"
     },
     {
       "id": "s7k2gr",
-      "front": "estar",
+      "front": "estar (être, se trouver)",
       "back": "esté\nestés\nesté\nestemos\nestéis\nestén"
     },
     {
       "id": "e4w9pc",
-      "front": "estudiar",
+      "front": "estudiar (étudier)",
       "back": "estudie\nestudies\nestudie\nestudiemos\nestudiéis\nestudien"
     },
     {
       "id": "u1t6jn",
-      "front": "haber",
+      "front": "haber (avoir, auxiliaire)",
       "back": "haya\nhayas\nhaya\nhayamos\nhayáis\nhayan"
     },
     {
       "id": "k3f9aq",
-      "front": "hablar",
+      "front": "hablar (parler)",
       "back": "hable\nhables\nhable\nhablemos\nhabléis\nhablen"
     },
     {
       "id": "i8m3vd",
-      "front": "hacer",
+      "front": "hacer (faire)",
       "back": "haga\nhagas\nhaga\nhagamos\nhagáis\nhagan"
     },
     {
       "id": "o5b0zt",
-      "front": "huir",
+      "front": "huir (fuir)",
       "back": "huya\nhuyas\nhuya\nhuyamos\nhuyáis\nhuyan"
     },
     {
       "id": "l2j7xf",
-      "front": "ir",
+      "front": "ir (aller)",
       "back": "vaya\nvayas\nvaya\nvayamos\nvayáis\nvayan"
     },
     {
       "id": "n9r4ck",
-      "front": "jugar",
+      "front": "jugar (jouer)",
       "back": "juegue\njuegues\njuegue\njuguemos\njuguéis\njueguen"
     },
     {
       "id": "q6z1hw",
-      "front": "leer",
+      "front": "leer (lire)",
       "back": "lea\nleas\nlea\nleamos\nleáis\nlean"
     },
     {
       "id": "f3n8sp",
-      "front": "llamar",
+      "front": "llamar (appeler)",
       "back": "llame\nllames\nllame\nllamemos\nllaméis\nllamen"
     },
     {
       "id": "b0v5mj",
-      "front": "mirar",
+      "front": "mirar (regarder)",
       "back": "mire\nmires\nmire\nmiremos\nmiréis\nmiren"
     },
     {
       "id": "t7g2yd",
-      "front": "morir",
+      "front": "morir (mourir)",
       "back": "muera\nmueras\nmuera\nmuramos\nmuráis\nmueran"
     },
     {
       "id": "h4k9bz",
-      "front": "necesitar",
+      "front": "necesitar (avoir besoin de)",
       "back": "necesite\nnecesites\nnecesite\nnecesitemos\nnecesitéis\nnecesiten"
     },
     {
       "id": "z1p6ft",
-      "front": "oír",
+      "front": "oír (entendre)",
       "back": "oiga\noigas\noiga\noigamos\noigáis\noigan"
     },
     {
       "id": "d8x3nq",
-      "front": "pedir",
+      "front": "pedir (demander)",
       "back": "pida\npidas\npida\npidamos\npidáis\npidan"
     },
     {
       "id": "m5c0jv",
-      "front": "pensar",
+      "front": "pensar (penser)",
       "back": "piense\npienses\npiense\npensemos\npenséis\npiensen"
     },
     {
       "id": "w2t7ge",
-      "front": "poder",
+      "front": "poder (pouvoir)",
       "back": "pueda\npuedas\npueda\npodamos\npodáis\npuedan"
     },
     {
       "id": "j9y4rk",
-      "front": "poner",
+      "front": "poner (mettre)",
       "back": "ponga\npongas\nponga\npongamos\npongáis\npongan"
     },
     {
       "id": "p6b1zs",
-      "front": "querer",
+      "front": "querer (vouloir)",
       "back": "quiera\nquieras\nquiera\nqueramos\nqueráis\nquieran"
     },
     {
       "id": "c3m8hd",
-      "front": "recibir",
+      "front": "recibir (recevoir)",
       "back": "reciba\nrecibas\nreciba\nrecibamos\nrecibáis\nreciban"
     },
     {
       "id": "v0k5nw",
-      "front": "repetir",
+      "front": "repetir (répéter)",
       "back": "repita\nrepitas\nrepita\nrepitamos\nrepitáis\nrepitan"
     },
     {
       "id": "g7z2xp",
-      "front": "responder",
+      "front": "responder (répondre)",
       "back": "responda\nrespondas\nresponda\nrespondamos\nrespondáis\nrespondan"
     },
     {
       "id": "s4f9cb",
-      "front": "saber",
+      "front": "saber (savoir)",
       "back": "sepa\nsepas\nsepa\nsepamos\nsepáis\nsepan"
     },
     {
       "id": "y1n6tj",
-      "front": "salir",
+      "front": "salir (sortir)",
       "back": "salga\nsalgas\nsalga\nsalgamos\nsalgáis\nsalgan"
     },
     {
       "id": "e8j3vz",
-      "front": "seguir",
+      "front": "seguir (suivre)",
       "back": "siga\nsigas\nsiga\nsigamos\nsigáis\nsigan"
     },
     {
       "id": "r5w0qm",
-      "front": "sentir",
+      "front": "sentir (sentir, regretter)",
       "back": "sienta\nsientas\nsienta\nsintamos\nsintáis\nsientan"
     },
     {
       "id": "a2c7kf",
-      "front": "ser",
+      "front": "ser (être)",
       "back": "sea\nseas\nsea\nseamos\nseáis\nsean"
     },
     {
       "id": "u9p4bh",
-      "front": "servir",
+      "front": "servir (servir)",
       "back": "sirva\nsirvas\nsirva\nsirvamos\nsirváis\nsirvan"
     },
     {
       "id": "l6t1gn",
-      "front": "subir",
+      "front": "subir (monter)",
       "back": "suba\nsubas\nsuba\nsubamos\nsubáis\nsuban"
     },
     {
       "id": "x3m8ds",
-      "front": "tener",
+      "front": "tener (avoir, posséder)",
       "back": "tenga\ntengas\ntenga\ntengamos\ntengáis\ntengan"
     },
     {
       "id": "k0z5wy",
-      "front": "trabajar",
+      "front": "trabajar (travailler)",
       "back": "trabaje\ntrabajes\ntrabaje\ntrabajemos\ntrabajéis\ntrabajen"
     },
     {
       "id": "n7f2jc",
-      "front": "traducir",
+      "front": "traducir (traduire)",
       "back": "traduzca\ntraduzcas\ntraduzca\ntraduzcamos\ntraduzcáis\ntraduzcan"
     },
     {
       "id": "b4q9pv",
-      "front": "traer",
+      "front": "traer (apporter)",
       "back": "traiga\ntraigas\ntraiga\ntraigamos\ntraigáis\ntraigan"
     },
     {
       "id": "h1v6zt",
-      "front": "valer",
+      "front": "valer (valoir)",
       "back": "valga\nvalgas\nvalga\nvalgamos\nvalgáis\nvalgan"
     },
     {
       "id": "d8s3km",
-      "front": "vender",
+      "front": "vender (vendre)",
       "back": "venda\nvendas\nvenda\nvendamos\nvendáis\nvendan"
     },
     {
       "id": "w5g0nf",
-      "front": "venir",
+      "front": "venir (venir)",
       "back": "venga\nvengas\nvenga\nvengamos\nvengáis\nvengan"
     },
     {
       "id": "t2j7ch",
-      "front": "ver",
+      "front": "ver (voir)",
       "back": "vea\nveas\nvea\nveamos\nveáis\nvean"
     },
     {
       "id": "p9b4xr",
-      "front": "vestir",
+      "front": "vestir (habiller)",
       "back": "vista\nvistas\nvista\nvistamos\nvistáis\nvistan"
     },
     {
       "id": "m6y1qd",
-      "front": "vivir",
+      "front": "vivir (vivre)",
       "back": "viva\nvivas\nviva\nvivamos\nviváis\nvivan"
     },
     {
       "id": "f3k8zw",
-      "front": "volver",
+      "front": "volver (revenir)",
       "back": "vuelva\nvuelvas\nvuelva\nvolvamos\nvolváis\nvuelvan"
     }
   ]
