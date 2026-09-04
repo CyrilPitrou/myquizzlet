@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-rhetoric-1",
+  "name": "Rhetoric, Argument and Register 1",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "adzxtn",
+      "front": "admittedly",
+      "back": "certes, il est vrai que"
+    },
+    {
+      "id": "lcs1y2",
+      "front": "arguably",
+      "back": "on peut soutenir que"
+    },
+    {
+      "id": "zla6i7",
+      "front": "conceivably",
+      "back": "on peut imaginer que"
+    },
+    {
+      "id": "unghym",
+      "front": "presumably",
+      "back": "vraisemblablement"
+    },
+    {
+      "id": "p9kzxq",
+      "front": "ostensibly",
+      "back": "en apparence, officiellement"
+    },
+    {
+      "id": "dxgqxi",
+      "front": "notionally",
+      "back": "en théorie, nominalement"
+    },
+    {
+      "id": "sks4p8",
+      "front": "nominally",
+      "back": "nominalement"
+    },
+    {
+      "id": "cvfy25",
+      "front": "crucially",
+      "back": "point crucial, surtout"
+    },
+    {
+      "id": "5hiffq",
+      "front": "tellingly",
+      "back": "de façon révélatrice"
+    },
+    {
+      "id": "ykcrz7",
+      "front": "strikingly",
+      "back": "de façon frappante"
+    },
+    {
+      "id": "arb5q8",
+      "front": "notably",
+      "back": "notamment"
+    },
+    {
+      "id": "0ctnd2",
+      "front": "markedly",
+      "back": "sensiblement, nettement"
+    },
+    {
+      "id": "utnlbi",
+      "front": "appreciably",
+      "back": "sensiblement"
+    },
+    {
+      "id": "g0lpef",
+      "front": "demonstrably",
+      "back": "manifestement, de façon démontrable"
+    },
+    {
+      "id": "atyr8n",
+      "front": "undeniably",
+      "back": "indéniablement"
+    },
+    {
+      "id": "h66hi3",
+      "front": "incontrovertibly",
+      "back": "incontestablement"
+    },
+    {
+      "id": "nc7tar",
+      "front": "manifestly",
+      "back": "manifestement"
+    },
+    {
+      "id": "qk6xh4",
+      "front": "patently",
+      "back": "à l'évidence"
+    },
+    {
+      "id": "yg7e2s",
+      "front": "palpably",
+      "back": "de manière palpable"
+    },
+    {
+      "id": "89z7h4",
+      "front": "avowedly",
+      "back": "de l'aveu même, ouvertement"
+    },
+    {
+      "id": "g8v210",
+      "front": "professedly",
+      "back": "prétendument, de son propre aveu"
+    },
+    {
+      "id": "chvnet",
+      "front": "allegedly",
+      "back": "prétendument"
+    },
+    {
+      "id": "hd7yju",
+      "front": "purportedly",
+      "back": "censément"
+    },
+    {
+      "id": "1b26sl",
+      "front": "reportedly",
+      "back": "selon certaines sources"
+    },
+    {
+      "id": "d72xjy",
+      "front": "supposedly",
+      "back": "soi-disant"
+    },
+    {
+      "id": "dvp96u",
+      "front": "seemingly",
+      "back": "apparemment"
+    },
+    {
+      "id": "5bb9qg",
+      "front": "outwardly",
+      "back": "extérieurement, en apparence"
+    },
+    {
+      "id": "rnkyd3",
+      "front": "by all accounts",
+      "back": "au dire de tous"
+    },
+    {
+      "id": "vaci2y",
+      "front": "to all intents and purposes",
+      "back": "à toutes fins pratiques"
+    },
+    {
+      "id": "6y8sga",
+      "front": "in effect",
+      "back": "en réalité, de fait"
+    },
+    {
+      "id": "q8fu2s",
+      "front": "in practice",
+      "back": "dans les faits"
+    },
+    {
+      "id": "wi63i5",
+      "front": "in principle",
+      "back": "en principe"
+    },
+    {
+      "id": "lffesd",
+      "front": "in the main",
+      "back": "pour l'essentiel"
+    },
+    {
+      "id": "4rtc6v",
+      "front": "on balance",
+      "back": "tout bien pesé"
+    },
+    {
+      "id": "crue78",
+      "front": "all things considered",
+      "back": "tout compte fait"
+    },
+    {
+      "id": "tiut42",
+      "front": "by the same token",
+      "back": "de même, pour la même raison"
+    },
+    {
+      "id": "5kd2ux",
+      "front": "for that matter",
+      "back": "d'ailleurs, du reste"
+    },
+    {
+      "id": "xwy3vr",
+      "front": "insofar as",
+      "back": "dans la mesure où"
+    },
+    {
+      "id": "s8horj",
+      "front": "inasmuch as",
+      "back": "dans la mesure où, étant donné que"
+    },
+    {
+      "id": "kc6fd2",
+      "front": "to the extent that",
+      "back": "dans la mesure où"
+    },
+    {
+      "id": "kqd5ce",
+      "front": "provided that",
+      "back": "à condition que"
+    },
+    {
+      "id": "9qkvw4",
+      "front": "albeit",
+      "back": "quoique, bien que"
+    },
+    {
+      "id": "6c63nb",
+      "front": "notwithstanding",
+      "back": "nonobstant, malgré"
+    },
+    {
+      "id": "hei4iw",
+      "front": "regardless of",
+      "back": "indépendamment de"
+    },
+    {
+      "id": "r6269q",
+      "front": "irrespective of",
+      "back": "sans égard à"
+    },
+    {
+      "id": "6hw48i",
+      "front": "save for",
+      "back": "à l'exception de"
+    },
+    {
+      "id": "2z6l4m",
+      "front": "barring",
+      "back": "sauf, à l'exception de"
+    },
+    {
+      "id": "3l29fx",
+      "front": "short of",
+      "back": "à moins de"
+    },
+    {
+      "id": "bh75fl",
+      "front": "failing that",
+      "back": "à défaut"
+    },
+    {
+      "id": "on5iyg",
+      "front": "if anything",
+      "back": "si tant est, plutôt même"
+    },
+    {
+      "id": "37bf86",
+      "front": "let alone",
+      "back": "encore moins, sans parler de"
+    },
+    {
+      "id": "6vnhpz",
+      "front": "much less",
+      "back": "encore moins"
+    },
+    {
+      "id": "f5qfkl",
+      "front": "still less",
+      "back": "moins encore"
+    },
+    {
+      "id": "ps82tq",
+      "front": "not least",
+      "back": "notamment, en particulier"
+    },
+    {
+      "id": "6bjejd",
+      "front": "if only because",
+      "back": "ne serait-ce que parce que"
+    },
+    {
+      "id": "vky4pq",
+      "front": "all the more so",
+      "back": "d'autant plus"
+    },
+    {
+      "id": "uwovp1",
+      "front": "all the same",
+      "back": "malgré tout"
+    },
+    {
+      "id": "ks97wd",
+      "front": "even so",
+      "back": "quand bien même, malgré cela"
+    },
+    {
+      "id": "yirnrd",
+      "front": "that said",
+      "back": "cela dit"
+    },
+    {
+      "id": "xho6bh",
+      "front": "that being so",
+      "back": "cela étant"
+    },
+    {
+      "id": "z25vm7",
+      "front": "be that as it may",
+      "back": "quoi qu'il en soit"
+    },
+    {
+      "id": "q9cojo",
+      "front": "granted",
+      "back": "certes, d'accord"
+    },
+    {
+      "id": "9nyu4l",
+      "front": "to be sure",
+      "back": "certes"
+    },
+    {
+      "id": "uh72qa",
+      "front": "admittedly so",
+      "back": "il faut le concéder"
+    },
+    {
+      "id": "q4u781",
+      "front": "one might object that",
+      "back": "on pourrait objecter que"
+    },
+    {
+      "id": "v349n4",
+      "front": "it could be argued that",
+      "back": "on pourrait soutenir que"
+    },
+    {
+      "id": "58a24f",
+      "front": "it is worth noting that",
+      "back": "il convient de noter que"
+    },
+    {
+      "id": "55w2j6",
+      "front": "it bears repeating that",
+      "back": "il n'est pas inutile de répéter que"
+    },
+    {
+      "id": "odtah1",
+      "front": "it is no accident that",
+      "back": "ce n'est pas un hasard si"
+    },
+    {
+      "id": "vf03rk",
+      "front": "far from it",
+      "back": "bien au contraire"
+    },
+    {
+      "id": "avmsn7",
+      "front": "quite the reverse",
+      "back": "tout au contraire"
+    },
+    {
+      "id": "vbq2ow",
+      "front": "on the contrary",
+      "back": "au contraire"
+    },
+    {
+      "id": "jysi35",
+      "front": "conversely",
+      "back": "inversement"
+    },
+    {
+      "id": "5mgzpp",
+      "front": "by contrast",
+      "back": "en revanche"
+    },
+    {
+      "id": "voe27x",
+      "front": "whereas",
+      "back": "alors que, tandis que"
+    },
+    {
+      "id": "e0drgz",
+      "front": "while acknowledging that",
+      "back": "tout en reconnaissant que"
+    },
+    {
+      "id": "9ipiyc",
+      "front": "without prejudice to",
+      "back": "sans préjudice de"
+    },
+    {
+      "id": "e0bu2s",
+      "front": "leaving aside",
+      "back": "en laissant de côté"
+    },
+    {
+      "id": "3l2qs2",
+      "front": "setting aside",
+      "back": "mettant de côté"
+    },
+    {
+      "id": "kz4utj",
+      "front": "to put it another way",
+      "back": "autrement dit"
+    },
+    {
+      "id": "l2aaqj",
+      "front": "in other words",
+      "back": "en d'autres termes"
+    },
+    {
+      "id": "ishwb7",
+      "front": "that is to say",
+      "back": "c'est-à-dire"
+    },
+    {
+      "id": "xukvz5",
+      "front": "namely",
+      "back": "à savoir"
+    },
+    {
+      "id": "0yaqrb",
+      "front": "specifically",
+      "back": "plus précisément"
+    },
+    {
+      "id": "dko03l",
+      "front": "broadly speaking",
+      "back": "globalement"
+    },
+    {
+      "id": "vznfbc",
+      "front": "loosely speaking",
+      "back": "en gros"
+    },
+    {
+      "id": "jvx9wh",
+      "front": "strictly speaking",
+      "back": "à proprement parler"
+    },
+    {
+      "id": "pi3tp0",
+      "front": "properly speaking",
+      "back": "à proprement parler"
+    },
+    {
+      "id": "4h7sce",
+      "front": "technically",
+      "back": "techniquement, en toute rigueur"
+    },
+    {
+      "id": "lburzv",
+      "front": "ultimately",
+      "back": "en fin de compte"
+    },
+    {
+      "id": "ag09by",
+      "front": "in the final analysis",
+      "back": "en dernière analyse"
+    },
+    {
+      "id": "uskaew",
+      "front": "at bottom",
+      "back": "au fond"
+    },
+    {
+      "id": "olcqn8",
+      "front": "fundamentally",
+      "back": "fondamentalement"
+    },
+    {
+      "id": "kpdp0y",
+      "front": "essentially",
+      "back": "essentiellement"
+    },
+    {
+      "id": "0ekvwv",
+      "front": "to hedge a claim",
+      "back": "nuancer une affirmation, prendre des précautions oratoires"
+    },
+    {
+      "id": "40eti1",
+      "front": "to qualify a statement",
+      "back": "nuancer une affirmation"
+    },
+    {
+      "id": "99xsbp",
+      "front": "to overstate",
+      "back": "exagérer"
+    },
+    {
+      "id": "p9h6o7",
+      "front": "to understate",
+      "back": "minimiser"
+    },
+    {
+      "id": "dcyhib",
+      "front": "to belabour a point",
+      "back": "s'appesantir sur un point"
+    },
+    {
+      "id": "w2dyte",
+      "front": "to labour the obvious",
+      "back": "enfoncer des portes ouvertes"
+    }
+  ]
+}
