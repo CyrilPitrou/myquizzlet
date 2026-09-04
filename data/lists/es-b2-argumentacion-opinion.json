@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-argumentacion-opinion",
+  "name": "La argumentación y la opinión",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "gqolqj",
+      "front": "la argumentación",
+      "back": "l'argumentation"
+    },
+    {
+      "id": "etmmo6",
+      "front": "el argumento de peso",
+      "back": "l'argument de poids"
+    },
+    {
+      "id": "46kg01",
+      "front": "la tesis",
+      "back": "la thèse"
+    },
+    {
+      "id": "oy5rsd",
+      "front": "la antítesis",
+      "back": "l'antithèse"
+    },
+    {
+      "id": "fwgs23",
+      "front": "la premisa",
+      "back": "la prémisse"
+    },
+    {
+      "id": "tyytaq",
+      "front": "el planteamiento",
+      "back": "l'exposé du problème"
+    },
+    {
+      "id": "ba8b65",
+      "front": "el desarrollo",
+      "back": "le développement"
+    },
+    {
+      "id": "ivewxh",
+      "front": "la conclusión razonada",
+      "back": "la conclusion raisonnée"
+    },
+    {
+      "id": "rxkb53",
+      "front": "el razonamiento lógico",
+      "back": "le raisonnement logique"
+    },
+    {
+      "id": "f8e53s",
+      "front": "la deducción",
+      "back": "la déduction"
+    },
+    {
+      "id": "exbrfo",
+      "front": "la inducción",
+      "back": "l'induction"
+    },
+    {
+      "id": "kyk9i1",
+      "front": "la inferencia",
+      "back": "l'inférence"
+    },
+    {
+      "id": "y5dtqp",
+      "front": "la coherencia",
+      "back": "la cohérence"
+    },
+    {
+      "id": "2y4btu",
+      "front": "la contradicción",
+      "back": "la contradiction"
+    },
+    {
+      "id": "geqbv0",
+      "front": "la paradoja",
+      "back": "le paradoxe"
+    },
+    {
+      "id": "1sboqj",
+      "front": "la ambigüedad",
+      "back": "l'ambiguïté"
+    },
+    {
+      "id": "cmmhiv",
+      "front": "el matiz",
+      "back": "la nuance"
+    },
+    {
+      "id": "yw294t",
+      "front": "la salvedad",
+      "back": "la réserve, l'exception"
+    },
+    {
+      "id": "awz4w0",
+      "front": "la objeción",
+      "back": "l'objection"
+    },
+    {
+      "id": "gt8jrm",
+      "front": "la réplica",
+      "back": "la réplique"
+    },
+    {
+      "id": "5h8ya2",
+      "front": "la refutación de un argumento",
+      "back": "la réfutation d'un argument"
+    },
+    {
+      "id": "l3fsz8",
+      "front": "la concesión",
+      "back": "la concession"
+    },
+    {
+      "id": "7i2cjh",
+      "front": "el contraejemplo",
+      "back": "le contre-exemple"
+    },
+    {
+      "id": "nkm0f7",
+      "front": "la evidencia empírica",
+      "back": "la preuve empirique"
+    },
+    {
+      "id": "11nt0z",
+      "front": "el indicio razonable",
+      "back": "l'indice sérieux"
+    },
+    {
+      "id": "i0bc3p",
+      "front": "el fundamento",
+      "back": "le fondement"
+    },
+    {
+      "id": "qe7044",
+      "front": "la justificación",
+      "back": "la justification"
+    },
+    {
+      "id": "oct0to",
+      "front": "el respaldo",
+      "back": "l'appui, le soutien"
+    },
+    {
+      "id": "ctt8vr",
+      "front": "la validez",
+      "back": "la validité"
+    },
+    {
+      "id": "65rki0",
+      "front": "la pertinencia",
+      "back": "la pertinence"
+    },
+    {
+      "id": "hjl93z",
+      "front": "la relevancia",
+      "back": "l'importance, la pertinence"
+    },
+    {
+      "id": "awzlab",
+      "front": "la falacia",
+      "back": "le sophisme"
+    },
+    {
+      "id": "acedf8",
+      "front": "el sofisma",
+      "back": "le sophisme (raisonnement captieux)"
+    },
+    {
+      "id": "pbrclc",
+      "front": "la generalización",
+      "back": "la généralisation"
+    },
+    {
+      "id": "abtbs0",
+      "front": "la simplificación",
+      "back": "la simplification"
+    },
+    {
+      "id": "cfrrld",
+      "front": "el tópico manido",
+      "back": "le lieu commun rebattu"
+    },
+    {
+      "id": "rhf3zp",
+      "front": "el prejuicio de partida",
+      "back": "le préjugé de départ"
+    },
+    {
+      "id": "e4ep7g",
+      "front": "la subjetividad",
+      "back": "la subjectivité"
+    },
+    {
+      "id": "6aw0xz",
+      "front": "la imparcialidad del juicio",
+      "back": "l'impartialité du jugement"
+    },
+    {
+      "id": "j2kdqh",
+      "front": "la crítica constructiva",
+      "back": "la critique constructive"
+    },
+    {
+      "id": "isfaqy",
+      "front": "la postura",
+      "back": "la position"
+    },
+    {
+      "id": "kgvfy6",
+      "front": "el punto de vista propio",
+      "back": "le point de vue personnel"
+    },
+    {
+      "id": "qayc6y",
+      "front": "el planteamiento alternativo",
+      "back": "l'approche alternative"
+    },
+    {
+      "id": "vyexjj",
+      "front": "el enfoque crítico",
+      "back": "l'approche critique"
+    },
+    {
+      "id": "tye417",
+      "front": "la valoración",
+      "back": "l'appréciation"
+    },
+    {
+      "id": "a7u8qi",
+      "front": "el balance de la cuestión",
+      "back": "le bilan de la question"
+    },
+    {
+      "id": "cm350u",
+      "front": "la reflexión",
+      "back": "la réflexion"
+    },
+    {
+      "id": "79ojib",
+      "front": "la ponderación",
+      "back": "la pondération"
+    },
+    {
+      "id": "9dxr3k",
+      "front": "el consenso",
+      "back": "le consensus"
+    },
+    {
+      "id": "gj1rdt",
+      "front": "el disenso",
+      "back": "le désaccord"
+    },
+    {
+      "id": "u0ipcv",
+      "front": "la controversia",
+      "back": "la controverse"
+    },
+    {
+      "id": "l5biwc",
+      "front": "la polémica",
+      "back": "la polémique"
+    },
+    {
+      "id": "skgs9u",
+      "front": "el debate de fondo",
+      "back": "le débat de fond"
+    },
+    {
+      "id": "i0p94b",
+      "front": "la discrepancia",
+      "back": "la divergence"
+    },
+    {
+      "id": "s4jlri",
+      "front": "la disputa",
+      "back": "la querelle"
+    },
+    {
+      "id": "ooxfld",
+      "front": "el malentendido conceptual",
+      "back": "le malentendu conceptuel"
+    },
+    {
+      "id": "1520fo",
+      "front": "la aclaración",
+      "back": "la clarification"
+    },
+    {
+      "id": "y1pm3n",
+      "front": "la puntualización",
+      "back": "la précision"
+    },
+    {
+      "id": "nhnxa3",
+      "front": "la matización",
+      "back": "la nuance apportée"
+    },
+    {
+      "id": "rvcasa",
+      "front": "la síntesis",
+      "back": "la synthèse"
+    },
+    {
+      "id": "9kkhjj",
+      "front": "el resumen argumentativo",
+      "back": "le résumé argumentatif"
+    },
+    {
+      "id": "a63dvu",
+      "front": "la recapitulación",
+      "back": "la récapitulation"
+    },
+    {
+      "id": "hfhyo9",
+      "front": "afirmar",
+      "back": "affirmer"
+    },
+    {
+      "id": "dvkwok",
+      "front": "sostener",
+      "back": "soutenir"
+    },
+    {
+      "id": "6v1j29",
+      "front": "aseverar",
+      "back": "assurer, affirmer"
+    },
+    {
+      "id": "jzix5w",
+      "front": "plantear",
+      "back": "poser (une question)"
+    },
+    {
+      "id": "f0zoj4",
+      "front": "argumentar",
+      "back": "argumenter"
+    },
+    {
+      "id": "a2krr9",
+      "front": "razonar",
+      "back": "raisonner"
+    },
+    {
+      "id": "yjjqkp",
+      "front": "fundamentar",
+      "back": "fonder"
+    },
+    {
+      "id": "sl4t8b",
+      "front": "justificar",
+      "back": "justifier"
+    },
+    {
+      "id": "37r97m",
+      "front": "demostrar una tesis",
+      "back": "démontrer une thèse"
+    },
+    {
+      "id": "e3u5ys",
+      "front": "probar",
+      "back": "prouver"
+    },
+    {
+      "id": "aok16c",
+      "front": "constatar",
+      "back": "constater"
+    },
+    {
+      "id": "rm7j88",
+      "front": "alegar",
+      "back": "alléguer"
+    },
+    {
+      "id": "vbdyvc",
+      "front": "aducir",
+      "back": "avancer (un argument)"
+    },
+    {
+      "id": "vdv792",
+      "front": "esgrimir",
+      "back": "brandir (un argument)"
+    },
+    {
+      "id": "fw2alb",
+      "front": "apoyarse en datos",
+      "back": "s'appuyer sur des données"
+    },
+    {
+      "id": "uccibi",
+      "front": "conceder que",
+      "back": "concéder que"
+    },
+    {
+      "id": "2i17ov",
+      "front": "admitir un matiz",
+      "back": "admettre une nuance"
+    },
+    {
+      "id": "9y80xc",
+      "front": "reconocer la validez",
+      "back": "reconnaître la validité"
+    },
+    {
+      "id": "02xwwy",
+      "front": "objetar",
+      "back": "objecter"
+    },
+    {
+      "id": "c5w2j1",
+      "front": "rebatir",
+      "back": "réfuter"
+    },
+    {
+      "id": "xipvp4",
+      "front": "refutar",
+      "back": "réfuter point par point"
+    },
+    {
+      "id": "nljxwj",
+      "front": "contradecir",
+      "back": "contredire"
+    },
+    {
+      "id": "tc6hut",
+      "front": "cuestionar",
+      "back": "remettre en question"
+    },
+    {
+      "id": "43bqi3",
+      "front": "poner en tela de juicio",
+      "back": "mettre en doute"
+    },
+    {
+      "id": "lhey3p",
+      "front": "relativizar",
+      "back": "relativiser"
+    },
+    {
+      "id": "oezfk5",
+      "front": "matizar una afirmación",
+      "back": "nuancer une affirmation"
+    },
+    {
+      "id": "y9fjhd",
+      "front": "precisar",
+      "back": "préciser"
+    },
+    {
+      "id": "mns0ae",
+      "front": "puntualizar",
+      "back": "apporter une précision"
+    },
+    {
+      "id": "oipt16",
+      "front": "concluir",
+      "back": "conclure"
+    },
+    {
+      "id": "230uav",
+      "front": "deducir",
+      "back": "déduire"
+    },
+    {
+      "id": "sg2apy",
+      "front": "inferir",
+      "back": "inférer"
+    },
+    {
+      "id": "vgi2mf",
+      "front": "desprenderse de",
+      "back": "ressortir de"
+    },
+    {
+      "id": "4y4ajt",
+      "front": "cabe señalar",
+      "back": "il convient de signaler"
+    },
+    {
+      "id": "yr9bof",
+      "front": "conviene recordar",
+      "back": "il convient de rappeler"
+    },
+    {
+      "id": "nq0xqs",
+      "front": "por consiguiente",
+      "back": "par conséquent"
+    },
+    {
+      "id": "vq3dym",
+      "front": "en la medida en que",
+      "back": "dans la mesure où"
+    },
+    {
+      "id": "1l4j91",
+      "front": "si bien es cierto que",
+      "back": "s'il est vrai que"
+    },
+    {
+      "id": "btjiaw",
+      "front": "todo apunta a que",
+      "back": "tout indique que"
+    }
+  ]
+}
