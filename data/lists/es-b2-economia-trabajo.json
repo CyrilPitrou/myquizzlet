@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-economia-trabajo",
+  "name": "La economía y el trabajo",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "dz90m9",
+      "front": "la economía",
+      "back": "l'économie"
+    },
+    {
+      "id": "en32tx",
+      "front": "el crecimiento",
+      "back": "la croissance"
+    },
+    {
+      "id": "pcmb4b",
+      "front": "la recesión",
+      "back": "la récession"
+    },
+    {
+      "id": "smoi9m",
+      "front": "la crisis",
+      "back": "la crise"
+    },
+    {
+      "id": "sfhtz4",
+      "front": "la recuperación",
+      "back": "la reprise"
+    },
+    {
+      "id": "4y8uwa",
+      "front": "el ciclo económico",
+      "back": "le cycle économique"
+    },
+    {
+      "id": "0dg0eb",
+      "front": "el producto interior bruto",
+      "back": "le produit intérieur brut"
+    },
+    {
+      "id": "fje9gm",
+      "front": "la renta per cápita",
+      "back": "le revenu par habitant"
+    },
+    {
+      "id": "wjobjr",
+      "front": "la inflación",
+      "back": "l'inflation"
+    },
+    {
+      "id": "p4ebyb",
+      "front": "la deflación",
+      "back": "la déflation"
+    },
+    {
+      "id": "a65aa1",
+      "front": "el poder adquisitivo",
+      "back": "le pouvoir d'achat"
+    },
+    {
+      "id": "6o9gkf",
+      "front": "el coste de la vida",
+      "back": "le coût de la vie"
+    },
+    {
+      "id": "3pvya9",
+      "front": "la subida de precios",
+      "back": "la hausse des prix"
+    },
+    {
+      "id": "op6mcy",
+      "front": "la oferta y la demanda",
+      "back": "l'offre et la demande"
+    },
+    {
+      "id": "tiovk4",
+      "front": "el mercado",
+      "back": "le marché"
+    },
+    {
+      "id": "45zc55",
+      "front": "la competencia",
+      "back": "la concurrence"
+    },
+    {
+      "id": "lzkcsh",
+      "front": "el monopolio",
+      "back": "le monopole"
+    },
+    {
+      "id": "35juml",
+      "front": "la libre competencia",
+      "back": "la libre concurrence"
+    },
+    {
+      "id": "0y7og6",
+      "front": "la empresa privada",
+      "back": "l'entreprise privée"
+    },
+    {
+      "id": "2tmh5f",
+      "front": "la pyme",
+      "back": "la PME"
+    },
+    {
+      "id": "z80l67",
+      "front": "la multinacional",
+      "back": "la multinationale"
+    },
+    {
+      "id": "snlnhv",
+      "front": "el empresario",
+      "back": "le chef d'entreprise"
+    },
+    {
+      "id": "n727cl",
+      "front": "el accionista",
+      "back": "l'actionnaire"
+    },
+    {
+      "id": "xpshll",
+      "front": "la acción",
+      "back": "l'action (titre)"
+    },
+    {
+      "id": "pltd3j",
+      "front": "la bolsa",
+      "back": "la Bourse"
+    },
+    {
+      "id": "jtjun2",
+      "front": "el índice bursátil",
+      "back": "l'indice boursier"
+    },
+    {
+      "id": "dceqje",
+      "front": "la inversión",
+      "back": "l'investissement"
+    },
+    {
+      "id": "6id0cg",
+      "front": "el inversor",
+      "back": "l'investisseur"
+    },
+    {
+      "id": "sm8dl6",
+      "front": "la rentabilidad",
+      "back": "la rentabilité"
+    },
+    {
+      "id": "5tqqw8",
+      "front": "el beneficio",
+      "back": "le bénéfice"
+    },
+    {
+      "id": "8a3b1j",
+      "front": "las pérdidas",
+      "back": "les pertes"
+    },
+    {
+      "id": "j61jy8",
+      "front": "la facturación",
+      "back": "le chiffre d'affaires"
+    },
+    {
+      "id": "g4twmg",
+      "front": "el balance",
+      "back": "le bilan"
+    },
+    {
+      "id": "hdwokq",
+      "front": "la quiebra",
+      "back": "la faillite"
+    },
+    {
+      "id": "0ginyl",
+      "front": "la deuda pública",
+      "back": "la dette publique"
+    },
+    {
+      "id": "82669w",
+      "front": "el déficit",
+      "back": "le déficit"
+    },
+    {
+      "id": "2dd40e",
+      "front": "el superávit",
+      "back": "l'excédent"
+    },
+    {
+      "id": "kfs75m",
+      "front": "los presupuestos generales",
+      "back": "le budget de l'État"
+    },
+    {
+      "id": "xb415g",
+      "front": "la política fiscal",
+      "back": "la politique fiscale"
+    },
+    {
+      "id": "nc8mr5",
+      "front": "la subida de impuestos",
+      "back": "la hausse des impôts"
+    },
+    {
+      "id": "38uj1y",
+      "front": "el IVA",
+      "back": "la TVA"
+    },
+    {
+      "id": "qpewm4",
+      "front": "la evasión fiscal",
+      "back": "l'évasion fiscale"
+    },
+    {
+      "id": "46ik0z",
+      "front": "la subvención",
+      "back": "la subvention"
+    },
+    {
+      "id": "dedwrw",
+      "front": "el rescate",
+      "back": "le sauvetage financier"
+    },
+    {
+      "id": "wih7m8",
+      "front": "el banco central",
+      "back": "la banque centrale"
+    },
+    {
+      "id": "hqqaky",
+      "front": "el tipo de interés",
+      "back": "le taux d'intérêt"
+    },
+    {
+      "id": "vkqh2g",
+      "front": "la moneda única",
+      "back": "la monnaie unique"
+    },
+    {
+      "id": "cul7ms",
+      "front": "la devaluación",
+      "back": "la dévaluation"
+    },
+    {
+      "id": "h5dr8o",
+      "front": "el tipo de cambio",
+      "back": "le taux de change"
+    },
+    {
+      "id": "2i6ups",
+      "front": "la balanza comercial",
+      "back": "la balance commerciale"
+    },
+    {
+      "id": "o0222b",
+      "front": "la exportación",
+      "back": "l'exportation"
+    },
+    {
+      "id": "pjpm66",
+      "front": "la importación",
+      "back": "l'importation"
+    },
+    {
+      "id": "cjeu3b",
+      "front": "el arancel",
+      "back": "le droit de douane"
+    },
+    {
+      "id": "cflwlj",
+      "front": "el proteccionismo",
+      "back": "le protectionnisme"
+    },
+    {
+      "id": "x4idrd",
+      "front": "la globalización",
+      "back": "la mondialisation"
+    },
+    {
+      "id": "291gv5",
+      "front": "la deslocalización",
+      "back": "la délocalisation"
+    },
+    {
+      "id": "0pnugo",
+      "front": "el sector primario",
+      "back": "le secteur primaire"
+    },
+    {
+      "id": "688evi",
+      "front": "el sector servicios",
+      "back": "le secteur tertiaire"
+    },
+    {
+      "id": "pgs3r1",
+      "front": "la industria",
+      "back": "l'industrie"
+    },
+    {
+      "id": "er7kjw",
+      "front": "la agricultura",
+      "back": "l'agriculture"
+    },
+    {
+      "id": "9oga5h",
+      "front": "la productividad",
+      "back": "la productivité"
+    },
+    {
+      "id": "wrm3l0",
+      "front": "la mano de obra",
+      "back": "la main-d'œuvre"
+    },
+    {
+      "id": "ryatq6",
+      "front": "el mercado laboral",
+      "back": "le marché du travail"
+    },
+    {
+      "id": "g3gajb",
+      "front": "la tasa de paro",
+      "back": "le taux de chômage"
+    },
+    {
+      "id": "ut49uk",
+      "front": "el empleo precario",
+      "back": "l'emploi précaire"
+    },
+    {
+      "id": "phyr5t",
+      "front": "la contratación",
+      "back": "l'embauche"
+    },
+    {
+      "id": "mhorfs",
+      "front": "el convenio colectivo",
+      "back": "la convention collective"
+    },
+    {
+      "id": "q08p6s",
+      "front": "la patronal",
+      "back": "le patronat"
+    },
+    {
+      "id": "nau67y",
+      "front": "el salario mínimo",
+      "back": "le salaire minimum"
+    },
+    {
+      "id": "jqqwww",
+      "front": "la nómina mensual",
+      "back": "la fiche de paie mensuelle"
+    },
+    {
+      "id": "i6egf9",
+      "front": "la cotización",
+      "back": "la cotisation"
+    },
+    {
+      "id": "24uv8l",
+      "front": "la seguridad social",
+      "back": "la sécurité sociale"
+    },
+    {
+      "id": "yl8qkd",
+      "front": "la pensión",
+      "back": "la retraite (pension)"
+    },
+    {
+      "id": "rcrvi1",
+      "front": "el expediente de regulación de empleo",
+      "back": "le plan social"
+    },
+    {
+      "id": "umgpqt",
+      "front": "el despido improcedente",
+      "back": "le licenciement abusif"
+    },
+    {
+      "id": "l1vwbt",
+      "front": "la indemnización",
+      "back": "l'indemnité"
+    },
+    {
+      "id": "nqbrhu",
+      "front": "la negociación colectiva",
+      "back": "la négociation collective"
+    },
+    {
+      "id": "otogmm",
+      "front": "el paro de larga duración",
+      "back": "le chômage de longue durée"
+    },
+    {
+      "id": "y8tjkw",
+      "front": "la economía sumergida",
+      "back": "l'économie souterraine"
+    },
+    {
+      "id": "y9xs7x",
+      "front": "el autónomo",
+      "back": "le travailleur indépendant"
+    },
+    {
+      "id": "w6d5jl",
+      "front": "el emprendedor",
+      "back": "l'entrepreneur"
+    },
+    {
+      "id": "s6hnic",
+      "front": "la cooperativa",
+      "back": "la coopérative"
+    },
+    {
+      "id": "nfitd0",
+      "front": "el consumo",
+      "back": "la consommation"
+    },
+    {
+      "id": "ojjslk",
+      "front": "el consumidor",
+      "back": "le consommateur"
+    },
+    {
+      "id": "nqsjgt",
+      "front": "el ahorro familiar",
+      "back": "l'épargne des ménages"
+    },
+    {
+      "id": "zplhb1",
+      "front": "la hipoteca variable",
+      "back": "le prêt à taux variable"
+    },
+    {
+      "id": "ato5uw",
+      "front": "la morosidad",
+      "back": "les impayés"
+    },
+    {
+      "id": "0zg4af",
+      "front": "el endeudamiento",
+      "back": "l'endettement"
+    },
+    {
+      "id": "we937i",
+      "front": "la desigualdad económica",
+      "back": "l'inégalité économique"
+    },
+    {
+      "id": "u2e6qv",
+      "front": "la pobreza",
+      "back": "la pauvreté"
+    },
+    {
+      "id": "07hghf",
+      "front": "invertir",
+      "back": "investir"
+    },
+    {
+      "id": "8l41wr",
+      "front": "financiar",
+      "back": "financer"
+    },
+    {
+      "id": "nvdr8i",
+      "front": "endeudarse",
+      "back": "s'endetter"
+    },
+    {
+      "id": "78h7hx",
+      "front": "cotizar",
+      "back": "cotiser, être coté"
+    },
+    {
+      "id": "2gf7ni",
+      "front": "facturar",
+      "back": "facturer"
+    },
+    {
+      "id": "5t4vhb",
+      "front": "quebrar",
+      "back": "faire faillite"
+    },
+    {
+      "id": "x12om1",
+      "front": "abaratar",
+      "back": "rendre moins cher"
+    },
+    {
+      "id": "83tl74",
+      "front": "encarecer",
+      "back": "renchérir"
+    },
+    {
+      "id": "11tnte",
+      "front": "recortar",
+      "back": "réduire, opérer des coupes"
+    },
+    {
+      "id": "02mnrk",
+      "front": "privatizar",
+      "back": "privatiser"
+    }
+  ]
+}
