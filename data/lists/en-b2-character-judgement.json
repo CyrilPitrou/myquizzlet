@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-character-judgement",
+  "name": "Character and Judgement",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "9b4050",
+      "front": "a virtue",
+      "back": "une vertu"
+    },
+    {
+      "id": "f72331",
+      "front": "a vice",
+      "back": "un vice"
+    },
+    {
+      "id": "12fb67",
+      "front": "a flaw",
+      "back": "un défaut"
+    },
+    {
+      "id": "d8038b",
+      "front": "a shortcoming",
+      "back": "une lacune, une faiblesse"
+    },
+    {
+      "id": "69c2d0",
+      "front": "integrity",
+      "back": "l'intégrité"
+    },
+    {
+      "id": "c2f6ce",
+      "front": "honesty",
+      "back": "l'honnêteté"
+    },
+    {
+      "id": "7cabdf",
+      "front": "sincerity",
+      "back": "la sincérité"
+    },
+    {
+      "id": "64fc2c",
+      "front": "candour",
+      "back": "la franchise"
+    },
+    {
+      "id": "4ee3eb",
+      "front": "uprightness",
+      "back": "la droiture"
+    },
+    {
+      "id": "93d818",
+      "front": "decency",
+      "back": "la décence, la correction"
+    },
+    {
+      "id": "f0ec1d",
+      "front": "fairness",
+      "back": "l'équité"
+    },
+    {
+      "id": "477e29",
+      "front": "impartiality",
+      "back": "l'impartialité"
+    },
+    {
+      "id": "fcd751",
+      "front": "loyalty",
+      "back": "la loyauté"
+    },
+    {
+      "id": "db6183",
+      "front": "faithfulness",
+      "back": "la fidélité"
+    },
+    {
+      "id": "182c18",
+      "front": "trustworthy",
+      "back": "digne de confiance"
+    },
+    {
+      "id": "0eccee",
+      "front": "reliable in character",
+      "back": "sur qui l'on peut compter"
+    },
+    {
+      "id": "86abdc",
+      "front": "conscientious",
+      "back": "consciencieux"
+    },
+    {
+      "id": "8b964f",
+      "front": "diligent",
+      "back": "assidu, appliqué"
+    },
+    {
+      "id": "cf2881",
+      "front": "thorough",
+      "back": "minutieux"
+    },
+    {
+      "id": "2e4146",
+      "front": "meticulous",
+      "back": "méticuleux"
+    },
+    {
+      "id": "75902b",
+      "front": "painstaking",
+      "back": "appliqué, soigneux"
+    },
+    {
+      "id": "a4a4aa",
+      "front": "resourceful",
+      "back": "débrouillard, ingénieux"
+    },
+    {
+      "id": "cf05c5",
+      "front": "shrewd",
+      "back": "perspicace, avisé"
+    },
+    {
+      "id": "98142c",
+      "front": "astute",
+      "back": "astucieux, fin"
+    },
+    {
+      "id": "9c5fb8",
+      "front": "level-headed",
+      "back": "posé, pondéré"
+    },
+    {
+      "id": "198527",
+      "front": "sensible",
+      "back": "sensé, raisonnable"
+    },
+    {
+      "id": "c78fa6",
+      "front": "prudent",
+      "back": "prudent"
+    },
+    {
+      "id": "4e7af4",
+      "front": "cautious",
+      "back": "circonspect"
+    },
+    {
+      "id": "0b1779",
+      "front": "reckless",
+      "back": "imprudent, téméraire"
+    },
+    {
+      "id": "c7d8d1",
+      "front": "rash",
+      "back": "irréfléchi"
+    },
+    {
+      "id": "c35eb0",
+      "front": "impulsive",
+      "back": "impulsif"
+    },
+    {
+      "id": "e81b79",
+      "front": "stubborn",
+      "back": "têtu"
+    },
+    {
+      "id": "5cc2dd",
+      "front": "obstinate",
+      "back": "obstiné"
+    },
+    {
+      "id": "a80aa7",
+      "front": "headstrong",
+      "back": "entêté"
+    },
+    {
+      "id": "7eae72",
+      "front": "inflexible",
+      "back": "inflexible"
+    },
+    {
+      "id": "a7c391",
+      "front": "ruthless",
+      "back": "impitoyable"
+    },
+    {
+      "id": "42baf0",
+      "front": "callous",
+      "back": "insensible, dur"
+    },
+    {
+      "id": "591e3a",
+      "front": "heartless",
+      "back": "sans cœur"
+    },
+    {
+      "id": "1666b8",
+      "front": "cruel",
+      "back": "cruel"
+    },
+    {
+      "id": "9be7c4",
+      "front": "spiteful",
+      "back": "rancunier, malveillant"
+    },
+    {
+      "id": "e69cbe",
+      "front": "vindictive",
+      "back": "vindicatif"
+    },
+    {
+      "id": "f8d8ae",
+      "front": "malicious",
+      "back": "malveillant"
+    },
+    {
+      "id": "a347c9",
+      "front": "devious",
+      "back": "retors, tortueux"
+    },
+    {
+      "id": "b51f9a",
+      "front": "cunning",
+      "back": "rusé"
+    },
+    {
+      "id": "2eed8a",
+      "front": "sly",
+      "back": "sournois"
+    },
+    {
+      "id": "ca99d5",
+      "front": "deceitful",
+      "back": "trompeur, fourbe"
+    },
+    {
+      "id": "e77f14",
+      "front": "hypocritical",
+      "back": "hypocrite"
+    },
+    {
+      "id": "b76c28",
+      "front": "insincere",
+      "back": "peu sincère"
+    },
+    {
+      "id": "8eac19",
+      "front": "treacherous",
+      "back": "traître, perfide"
+    },
+    {
+      "id": "ff12a5",
+      "front": "greedy",
+      "back": "avide, cupide"
+    },
+    {
+      "id": "3b1281",
+      "front": "selfish",
+      "back": "égoïste"
+    },
+    {
+      "id": "74bc1a",
+      "front": "self-centred",
+      "back": "égocentrique"
+    },
+    {
+      "id": "fa9fb7",
+      "front": "mean",
+      "back": "mesquin, avare"
+    },
+    {
+      "id": "ae3b47",
+      "front": "stingy",
+      "back": "pingre"
+    },
+    {
+      "id": "d910b2",
+      "front": "arrogant",
+      "back": "arrogant"
+    },
+    {
+      "id": "323807",
+      "front": "conceited",
+      "back": "vaniteux"
+    },
+    {
+      "id": "66ff48",
+      "front": "smug",
+      "back": "suffisant"
+    },
+    {
+      "id": "26ca04",
+      "front": "pompous",
+      "back": "pompeux"
+    },
+    {
+      "id": "7f1fb8",
+      "front": "condescending",
+      "back": "condescendant"
+    },
+    {
+      "id": "6bde24",
+      "front": "patronising",
+      "back": "paternaliste"
+    },
+    {
+      "id": "6d6f50",
+      "front": "boastful",
+      "back": "vantard"
+    },
+    {
+      "id": "6b93d0",
+      "front": "humble",
+      "back": "humble"
+    },
+    {
+      "id": "8cc642",
+      "front": "modest",
+      "back": "modeste"
+    },
+    {
+      "id": "8a1b69",
+      "front": "unassuming",
+      "back": "sans prétention"
+    },
+    {
+      "id": "b43372",
+      "front": "self-effacing",
+      "back": "effacé"
+    },
+    {
+      "id": "64d73a",
+      "front": "generous",
+      "back": "généreux"
+    },
+    {
+      "id": "2f6142",
+      "front": "selfless",
+      "back": "désintéressé"
+    },
+    {
+      "id": "58acfc",
+      "front": "altruistic",
+      "back": "altruiste"
+    },
+    {
+      "id": "b00abc",
+      "front": "considerate",
+      "back": "prévenant, attentionné"
+    },
+    {
+      "id": "8b2959",
+      "front": "thoughtful",
+      "back": "attentionné, réfléchi"
+    },
+    {
+      "id": "55589e",
+      "front": "tactful",
+      "back": "plein de tact"
+    },
+    {
+      "id": "24528d",
+      "front": "courteous",
+      "back": "courtois"
+    },
+    {
+      "id": "1caea4",
+      "front": "gracious",
+      "back": "bienveillant, gracieux"
+    },
+    {
+      "id": "6d7b57",
+      "front": "forgiving",
+      "back": "indulgent"
+    },
+    {
+      "id": "c4a2d2",
+      "front": "lenient",
+      "back": "indulgent, clément"
+    },
+    {
+      "id": "8761af",
+      "front": "tolerant of others",
+      "back": "tolérant"
+    },
+    {
+      "id": "d560e7",
+      "front": "broad-minded",
+      "back": "ouvert d'esprit"
+    },
+    {
+      "id": "c173c8",
+      "front": "narrow-minded",
+      "back": "borné"
+    },
+    {
+      "id": "169725",
+      "front": "bigoted",
+      "back": "sectaire, intolérant"
+    },
+    {
+      "id": "4e72b8",
+      "front": "prejudiced",
+      "back": "plein de préjugés"
+    },
+    {
+      "id": "226bf1",
+      "front": "courageous",
+      "back": "courageux"
+    },
+    {
+      "id": "c950a4",
+      "front": "brave",
+      "back": "brave"
+    },
+    {
+      "id": "14c73d",
+      "front": "bold",
+      "back": "audacieux"
+    },
+    {
+      "id": "bf09e5",
+      "front": "daring",
+      "back": "téméraire, audacieux"
+    },
+    {
+      "id": "91b393",
+      "front": "cowardly",
+      "back": "lâche"
+    },
+    {
+      "id": "bee359",
+      "front": "timid",
+      "back": "timoré"
+    },
+    {
+      "id": "1d07b1",
+      "front": "faint-hearted",
+      "back": "pusillanime"
+    },
+    {
+      "id": "7d131d",
+      "front": "hesitant",
+      "back": "hésitant"
+    },
+    {
+      "id": "7077e4",
+      "front": "indecisive",
+      "back": "indécis"
+    },
+    {
+      "id": "fa21e4",
+      "front": "determined",
+      "back": "déterminé"
+    },
+    {
+      "id": "dfc409",
+      "front": "resolute",
+      "back": "résolu"
+    },
+    {
+      "id": "b4645a",
+      "front": "steadfast",
+      "back": "inébranlable"
+    },
+    {
+      "id": "f29464",
+      "front": "persevering",
+      "back": "persévérant"
+    },
+    {
+      "id": "8a2bd7",
+      "front": "industrious",
+      "back": "travailleur"
+    },
+    {
+      "id": "20bb5e",
+      "front": "idle",
+      "back": "oisif, paresseux"
+    },
+    {
+      "id": "65551e",
+      "front": "lazy",
+      "back": "paresseux"
+    },
+    {
+      "id": "68050f",
+      "front": "complacent",
+      "back": "suffisant, content de soi"
+    },
+    {
+      "id": "77fd2c",
+      "front": "to praise someone",
+      "back": "faire l'éloge de quelqu'un"
+    },
+    {
+      "id": "b79278",
+      "front": "to condemn",
+      "back": "condamner, réprouver"
+    },
+    {
+      "id": "b23f74",
+      "front": "to blame",
+      "back": "blâmer, reprocher"
+    }
+  ]
+}
