@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-medicine-2",
+  "name": "Medicine and the Body 2",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "bpfugq",
+      "front": "iatrogenic",
+      "back": "iatrogène"
+    },
+    {
+      "id": "2qpq62",
+      "front": "idiopathic",
+      "back": "idiopathique"
+    },
+    {
+      "id": "m4bvol",
+      "front": "palliative",
+      "back": "palliatif"
+    },
+    {
+      "id": "h7z5rp",
+      "front": "comorbidity",
+      "back": "la comorbidité"
+    },
+    {
+      "id": "knhye6",
+      "front": "aetiology",
+      "back": "l'étiologie"
+    },
+    {
+      "id": "dvcdzb",
+      "front": "pathogenesis",
+      "back": "la pathogenèse"
+    },
+    {
+      "id": "60ve9l",
+      "front": "nosology",
+      "back": "la nosologie"
+    },
+    {
+      "id": "h3rm1a",
+      "front": "sequelae",
+      "back": "les séquelles"
+    },
+    {
+      "id": "6e712f",
+      "front": "prodromal",
+      "back": "prodromique"
+    },
+    {
+      "id": "vmwm6i",
+      "front": "asymptomatic",
+      "back": "asymptomatique"
+    },
+    {
+      "id": "42ay33",
+      "front": "febrile",
+      "back": "fébrile"
+    },
+    {
+      "id": "icrdgb",
+      "front": "oedema",
+      "back": "un œdème"
+    },
+    {
+      "id": "n7h4ou",
+      "front": "an effusion",
+      "back": "un épanchement"
+    },
+    {
+      "id": "idj6wn",
+      "front": "an infarction",
+      "back": "un infarctus"
+    },
+    {
+      "id": "ha0w8t",
+      "front": "ischaemia",
+      "back": "l'ischémie"
+    },
+    {
+      "id": "zm8um0",
+      "front": "necrosis",
+      "back": "la nécrose"
+    },
+    {
+      "id": "ql6m0h",
+      "front": "atrophy",
+      "back": "l'atrophie"
+    },
+    {
+      "id": "ow6f12",
+      "front": "hypertrophy",
+      "back": "l'hypertrophie"
+    },
+    {
+      "id": "8mfl5x",
+      "front": "a lesion",
+      "back": "une lésion"
+    },
+    {
+      "id": "u085se",
+      "front": "a haematoma",
+      "back": "un hématome"
+    },
+    {
+      "id": "kebx8a",
+      "front": "haemorrhage",
+      "back": "une hémorragie"
+    },
+    {
+      "id": "s4kl8c",
+      "front": "an embolism",
+      "back": "une embolie"
+    },
+    {
+      "id": "b8jfqs",
+      "front": "a thrombosis",
+      "back": "une thrombose"
+    },
+    {
+      "id": "pohtzp",
+      "front": "an aneurysm",
+      "back": "un anévrisme"
+    },
+    {
+      "id": "bsbkgh",
+      "front": "stenosis",
+      "back": "une sténose"
+    },
+    {
+      "id": "p2ze4i",
+      "front": "a prolapse",
+      "back": "un prolapsus"
+    },
+    {
+      "id": "ab8cwz",
+      "front": "an abscess",
+      "back": "un abcès"
+    },
+    {
+      "id": "fb5lu0",
+      "front": "sepsis",
+      "back": "la septicémie"
+    },
+    {
+      "id": "vws8fa",
+      "front": "an inflammation",
+      "back": "une inflammation"
+    },
+    {
+      "id": "r857dr",
+      "front": "fibrosis",
+      "back": "la fibrose"
+    },
+    {
+      "id": "voeoc0",
+      "front": "sclerosis",
+      "back": "la sclérose"
+    },
+    {
+      "id": "1hgjhi",
+      "front": "a neoplasm",
+      "back": "une néoplasie, une tumeur"
+    },
+    {
+      "id": "961uz4",
+      "front": "a benign tumour",
+      "back": "une tumeur bénigne"
+    },
+    {
+      "id": "55d2et",
+      "front": "a malignant tumour",
+      "back": "une tumeur maligne"
+    },
+    {
+      "id": "gd3jlx",
+      "front": "metastasis",
+      "back": "une métastase"
+    },
+    {
+      "id": "jzwj66",
+      "front": "a carcinoma",
+      "back": "un carcinome"
+    },
+    {
+      "id": "52sa63",
+      "front": "a haematologist",
+      "back": "un hématologue"
+    },
+    {
+      "id": "11c27o",
+      "front": "a nephrologist",
+      "back": "un néphrologue"
+    },
+    {
+      "id": "p3ztnk",
+      "front": "a cardiologist",
+      "back": "un cardiologue"
+    },
+    {
+      "id": "vf9wzo",
+      "front": "an oncologist",
+      "back": "un oncologue"
+    },
+    {
+      "id": "m5vz8q",
+      "front": "the epidermis",
+      "back": "l'épiderme"
+    },
+    {
+      "id": "0vz01s",
+      "front": "the dermis",
+      "back": "le derme"
+    },
+    {
+      "id": "6x644n",
+      "front": "a ligament",
+      "back": "un ligament"
+    },
+    {
+      "id": "yi4atn",
+      "front": "a tendon",
+      "back": "un tendon"
+    },
+    {
+      "id": "mzagkc",
+      "front": "cartilage",
+      "back": "le cartilage"
+    },
+    {
+      "id": "9c7n4o",
+      "front": "the marrow",
+      "back": "la moelle osseuse"
+    },
+    {
+      "id": "caud38",
+      "front": "a vertebra",
+      "back": "une vertèbre"
+    },
+    {
+      "id": "ppk04a",
+      "front": "the sternum",
+      "back": "le sternum"
+    },
+    {
+      "id": "dlsdi9",
+      "front": "the pelvis",
+      "back": "le bassin"
+    },
+    {
+      "id": "neikqw",
+      "front": "a clavicle",
+      "back": "une clavicule"
+    },
+    {
+      "id": "kg5h0f",
+      "front": "the femur",
+      "back": "le fémur"
+    },
+    {
+      "id": "dx0z4b",
+      "front": "the cranium",
+      "back": "le crâne"
+    },
+    {
+      "id": "f0n5iu",
+      "front": "a lumbar vertebra",
+      "back": "une vertèbre lombaire"
+    },
+    {
+      "id": "20i53b",
+      "front": "the thorax",
+      "back": "le thorax"
+    },
+    {
+      "id": "954ryz",
+      "front": "the abdomen",
+      "back": "l'abdomen"
+    },
+    {
+      "id": "el8z37",
+      "front": "the diaphragm",
+      "back": "le diaphragme"
+    },
+    {
+      "id": "2pg9b4",
+      "front": "an artery",
+      "back": "une artère"
+    },
+    {
+      "id": "vsmps8",
+      "front": "a vein",
+      "back": "une veine"
+    },
+    {
+      "id": "nxlpph",
+      "front": "a capillary",
+      "back": "un capillaire"
+    },
+    {
+      "id": "ljyvnm",
+      "front": "the aorta",
+      "back": "l'aorte"
+    },
+    {
+      "id": "8xkpcc",
+      "front": "an atrium",
+      "back": "une oreillette"
+    },
+    {
+      "id": "0lmraz",
+      "front": "a ventricle",
+      "back": "un ventricule"
+    },
+    {
+      "id": "p9mhl0",
+      "front": "the myocardium",
+      "back": "le myocarde"
+    },
+    {
+      "id": "k9hrdo",
+      "front": "the pleura",
+      "back": "la plèvre"
+    },
+    {
+      "id": "xnrm28",
+      "front": "an alveolus",
+      "back": "une alvéole pulmonaire"
+    },
+    {
+      "id": "ywj37j",
+      "front": "the trachea",
+      "back": "la trachée"
+    },
+    {
+      "id": "as6md8",
+      "front": "the larynx",
+      "back": "le larynx"
+    },
+    {
+      "id": "q1hf25",
+      "front": "the oesophagus",
+      "back": "l'œsophage"
+    },
+    {
+      "id": "hngi5p",
+      "front": "the duodenum",
+      "back": "le duodénum"
+    },
+    {
+      "id": "jl0ged",
+      "front": "the pancreas",
+      "back": "le pancréas"
+    },
+    {
+      "id": "qhdyq8",
+      "front": "the spleen",
+      "back": "la rate"
+    },
+    {
+      "id": "c4bezk",
+      "front": "the gall bladder",
+      "back": "la vésicule biliaire"
+    },
+    {
+      "id": "o0pi40",
+      "front": "the liver",
+      "back": "le foie"
+    },
+    {
+      "id": "tsnud7",
+      "front": "a kidney",
+      "back": "un rein"
+    },
+    {
+      "id": "oo3u81",
+      "front": "the bladder",
+      "back": "la vessie"
+    },
+    {
+      "id": "21kdog",
+      "front": "the thyroid",
+      "back": "la thyroïde"
+    },
+    {
+      "id": "ipb3tn",
+      "front": "an adrenal gland",
+      "back": "une glande surrénale"
+    },
+    {
+      "id": "1e6f50",
+      "front": "the pituitary gland",
+      "back": "l'hypophyse"
+    },
+    {
+      "id": "10be8k",
+      "front": "a hormone",
+      "back": "une hormone"
+    },
+    {
+      "id": "dbl6oe",
+      "front": "a neuron",
+      "back": "un neurone"
+    },
+    {
+      "id": "j88bqz",
+      "front": "a synapse",
+      "back": "une synapse"
+    },
+    {
+      "id": "uxn2l6",
+      "front": "a neurotransmitter",
+      "back": "un neurotransmetteur"
+    },
+    {
+      "id": "xod24z",
+      "front": "the cortex",
+      "back": "le cortex"
+    },
+    {
+      "id": "pu9x3g",
+      "front": "the cerebellum",
+      "back": "le cervelet"
+    },
+    {
+      "id": "ucyinn",
+      "front": "the brainstem",
+      "back": "le tronc cérébral"
+    },
+    {
+      "id": "p8gy0z",
+      "front": "the hippocampus",
+      "back": "l'hippocampe"
+    },
+    {
+      "id": "g3n569",
+      "front": "the meninges",
+      "back": "les méninges"
+    },
+    {
+      "id": "ehdqqt",
+      "front": "cerebrospinal fluid",
+      "back": "le liquide céphalorachidien"
+    },
+    {
+      "id": "1axbtm",
+      "front": "a peripheral nerve",
+      "back": "un nerf périphérique"
+    },
+    {
+      "id": "e4f5mj",
+      "front": "neuropathy",
+      "back": "une neuropathie"
+    },
+    {
+      "id": "lyo4jm",
+      "front": "paresis",
+      "back": "une parésie"
+    },
+    {
+      "id": "1667q5",
+      "front": "paralysis",
+      "back": "la paralysie"
+    },
+    {
+      "id": "4tdr7l",
+      "front": "a tremor",
+      "back": "un tremblement"
+    },
+    {
+      "id": "ce5eia",
+      "front": "a seizure",
+      "back": "une crise convulsive"
+    },
+    {
+      "id": "ppzibx",
+      "front": "syncope",
+      "back": "une syncope"
+    },
+    {
+      "id": "xrc33m",
+      "front": "vertigo",
+      "back": "le vertige"
+    },
+    {
+      "id": "hxw4vj",
+      "front": "tinnitus",
+      "back": "les acouphènes"
+    },
+    {
+      "id": "016pzu",
+      "front": "jaundice",
+      "back": "la jaunisse, l'ictère"
+    },
+    {
+      "id": "6ty09s",
+      "front": "cachexia",
+      "back": "la cachexie"
+    },
+    {
+      "id": "ji3xpx",
+      "front": "a suture",
+      "back": "une suture"
+    }
+  ]
+}
