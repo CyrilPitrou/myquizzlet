@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-ciencia-tecnologia",
+  "name": "La ciencia y la tecnología",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "8fwd6n",
+      "front": "la ciencia",
+      "back": "la science"
+    },
+    {
+      "id": "1tl7sy",
+      "front": "la investigación científica",
+      "back": "la recherche scientifique"
+    },
+    {
+      "id": "e20i33",
+      "front": "el investigador",
+      "back": "le chercheur"
+    },
+    {
+      "id": "y3i2c9",
+      "front": "el científico",
+      "back": "le scientifique"
+    },
+    {
+      "id": "a4l2vj",
+      "front": "el laboratorio de investigación",
+      "back": "le laboratoire de recherche"
+    },
+    {
+      "id": "8tdqr4",
+      "front": "el experimento",
+      "back": "l'expérience"
+    },
+    {
+      "id": "7sw254",
+      "front": "el ensayo",
+      "back": "l'essai"
+    },
+    {
+      "id": "gqc0t3",
+      "front": "la hipótesis",
+      "back": "l'hypothèse"
+    },
+    {
+      "id": "f04f42",
+      "front": "la teoría",
+      "back": "la théorie"
+    },
+    {
+      "id": "y2jrkc",
+      "front": "la ley científica",
+      "back": "la loi scientifique"
+    },
+    {
+      "id": "k9ksao",
+      "front": "el método científico",
+      "back": "la méthode scientifique"
+    },
+    {
+      "id": "7rxghg",
+      "front": "la observación",
+      "back": "l'observation"
+    },
+    {
+      "id": "wr3a5b",
+      "front": "la medición",
+      "back": "la mesure"
+    },
+    {
+      "id": "ikoefb",
+      "front": "el dato",
+      "back": "la donnée"
+    },
+    {
+      "id": "wvh8dy",
+      "front": "la muestra",
+      "back": "l'échantillon"
+    },
+    {
+      "id": "peoclj",
+      "front": "el resultado",
+      "back": "le résultat"
+    },
+    {
+      "id": "cisyqe",
+      "front": "la conclusión",
+      "back": "la conclusion"
+    },
+    {
+      "id": "8o99yd",
+      "front": "la evidencia",
+      "back": "les données probantes"
+    },
+    {
+      "id": "gfcxo1",
+      "front": "la refutación",
+      "back": "la réfutation"
+    },
+    {
+      "id": "3ckdcb",
+      "front": "la revisión por pares",
+      "back": "l'évaluation par les pairs"
+    },
+    {
+      "id": "ecv2lj",
+      "front": "la publicación científica",
+      "back": "la publication scientifique"
+    },
+    {
+      "id": "th8tih",
+      "front": "la revista especializada",
+      "back": "la revue spécialisée"
+    },
+    {
+      "id": "6z56jj",
+      "front": "el artículo científico",
+      "back": "l'article scientifique"
+    },
+    {
+      "id": "lx7yd0",
+      "front": "la ponencia",
+      "back": "la communication (colloque)"
+    },
+    {
+      "id": "729vhd",
+      "front": "el congreso",
+      "back": "le congrès"
+    },
+    {
+      "id": "3m2srs",
+      "front": "la beca de investigación",
+      "back": "la bourse de recherche"
+    },
+    {
+      "id": "xqj9k0",
+      "front": "la financiación",
+      "back": "le financement"
+    },
+    {
+      "id": "jg5wvi",
+      "front": "la patente",
+      "back": "le brevet"
+    },
+    {
+      "id": "tkjrfm",
+      "front": "el descubrimiento",
+      "back": "la découverte"
+    },
+    {
+      "id": "8fb47z",
+      "front": "el hallazgo",
+      "back": "la trouvaille"
+    },
+    {
+      "id": "uxl2lh",
+      "front": "el avance",
+      "back": "l'avancée"
+    },
+    {
+      "id": "iyte4g",
+      "front": "la innovación",
+      "back": "l'innovation"
+    },
+    {
+      "id": "07uu19",
+      "front": "el progreso técnico",
+      "back": "le progrès technique"
+    },
+    {
+      "id": "1hfebw",
+      "front": "la física",
+      "back": "la physique appliquée"
+    },
+    {
+      "id": "o2kns9",
+      "front": "la materia",
+      "back": "la matière"
+    },
+    {
+      "id": "ooyano",
+      "front": "el átomo",
+      "back": "l'atome"
+    },
+    {
+      "id": "5vefl1",
+      "front": "la molécula",
+      "back": "la molécule"
+    },
+    {
+      "id": "sx1qnf",
+      "front": "la partícula",
+      "back": "la particule"
+    },
+    {
+      "id": "8ef4vf",
+      "front": "el electrón",
+      "back": "l'électron"
+    },
+    {
+      "id": "w6dgiz",
+      "front": "el núcleo",
+      "back": "le noyau"
+    },
+    {
+      "id": "8tkc4p",
+      "front": "la energía cinética",
+      "back": "l'énergie cinétique"
+    },
+    {
+      "id": "jk8psb",
+      "front": "la fuerza",
+      "back": "la force"
+    },
+    {
+      "id": "tviemw",
+      "front": "la gravedad",
+      "back": "la gravité"
+    },
+    {
+      "id": "di1m4t",
+      "front": "la masa",
+      "back": "la masse"
+    },
+    {
+      "id": "6cn808",
+      "front": "la densidad",
+      "back": "la densité"
+    },
+    {
+      "id": "byih68",
+      "front": "la presión",
+      "back": "la pression"
+    },
+    {
+      "id": "hjc6g7",
+      "front": "la temperatura",
+      "back": "la température"
+    },
+    {
+      "id": "qk69gx",
+      "front": "la radiación",
+      "back": "le rayonnement"
+    },
+    {
+      "id": "u0vld4",
+      "front": "la onda",
+      "back": "l'onde"
+    },
+    {
+      "id": "c9eptm",
+      "front": "la frecuencia",
+      "back": "la fréquence"
+    },
+    {
+      "id": "pjngym",
+      "front": "el elemento químico",
+      "back": "l'élément chimique"
+    },
+    {
+      "id": "e03379",
+      "front": "el compuesto",
+      "back": "le composé"
+    },
+    {
+      "id": "4a7gw6",
+      "front": "la reacción química",
+      "back": "la réaction chimique"
+    },
+    {
+      "id": "k6nc32",
+      "front": "el disolvente",
+      "back": "le solvant"
+    },
+    {
+      "id": "zybily",
+      "front": "el ácido",
+      "back": "l'acide"
+    },
+    {
+      "id": "ro0qav",
+      "front": "la célula",
+      "back": "la cellule"
+    },
+    {
+      "id": "l44hu3",
+      "front": "el tejido",
+      "back": "le tissu (biologie)"
+    },
+    {
+      "id": "4jznow",
+      "front": "el organismo",
+      "back": "l'organisme"
+    },
+    {
+      "id": "wch76o",
+      "front": "el gen",
+      "back": "le gène"
+    },
+    {
+      "id": "pe7b5z",
+      "front": "el ADN",
+      "back": "l'ADN"
+    },
+    {
+      "id": "azwcfd",
+      "front": "el cromosoma",
+      "back": "le chromosome"
+    },
+    {
+      "id": "qqld0o",
+      "front": "la mutación",
+      "back": "la mutation"
+    },
+    {
+      "id": "69ahb9",
+      "front": "la evolución",
+      "back": "l'évolution"
+    },
+    {
+      "id": "749imi",
+      "front": "la selección natural",
+      "back": "la sélection naturelle"
+    },
+    {
+      "id": "8sz2qd",
+      "front": "la bacteria",
+      "back": "la bactérie"
+    },
+    {
+      "id": "ln0uoq",
+      "front": "el virus",
+      "back": "le virus"
+    },
+    {
+      "id": "55l8dy",
+      "front": "la microbiología",
+      "back": "la microbiologie"
+    },
+    {
+      "id": "y09r3e",
+      "front": "la biotecnología",
+      "back": "la biotechnologie"
+    },
+    {
+      "id": "m0jdfm",
+      "front": "la clonación",
+      "back": "le clonage"
+    },
+    {
+      "id": "0h24ea",
+      "front": "la astronomía",
+      "back": "l'astronomie"
+    },
+    {
+      "id": "c5zlgr",
+      "front": "el universo",
+      "back": "l'univers"
+    },
+    {
+      "id": "sckwxy",
+      "front": "la galaxia",
+      "back": "la galaxie"
+    },
+    {
+      "id": "327kqf",
+      "front": "la órbita",
+      "back": "l'orbite"
+    },
+    {
+      "id": "2xu07c",
+      "front": "el satélite",
+      "back": "le satellite"
+    },
+    {
+      "id": "yz1hjh",
+      "front": "la sonda espacial",
+      "back": "la sonde spatiale"
+    },
+    {
+      "id": "mmyzbp",
+      "front": "el telescopio",
+      "back": "le télescope"
+    },
+    {
+      "id": "lik9ye",
+      "front": "la tecnología",
+      "back": "la technologie"
+    },
+    {
+      "id": "gf79he",
+      "front": "el ingeniero de sistemas",
+      "back": "l'ingénieur systèmes"
+    },
+    {
+      "id": "ky1idv",
+      "front": "el dispositivo",
+      "back": "l'appareil, le dispositif"
+    },
+    {
+      "id": "vg502n",
+      "front": "el sensor",
+      "back": "le capteur"
+    },
+    {
+      "id": "olf8gh",
+      "front": "el algoritmo",
+      "back": "l'algorithme"
+    },
+    {
+      "id": "5ymfaf",
+      "front": "el programa informático",
+      "back": "le logiciel"
+    },
+    {
+      "id": "pr29q7",
+      "front": "el código fuente",
+      "back": "le code source"
+    },
+    {
+      "id": "qt6cvl",
+      "front": "la base de datos",
+      "back": "la base de données"
+    },
+    {
+      "id": "y4nveb",
+      "front": "el servidor",
+      "back": "le serveur"
+    },
+    {
+      "id": "iidd7w",
+      "front": "la nube",
+      "back": "le cloud"
+    },
+    {
+      "id": "f84fi5",
+      "front": "la inteligencia artificial",
+      "back": "l'intelligence artificielle"
+    },
+    {
+      "id": "5fn8l5",
+      "front": "el aprendizaje automático",
+      "back": "l'apprentissage automatique"
+    },
+    {
+      "id": "q828r6",
+      "front": "la robótica",
+      "back": "la robotique"
+    },
+    {
+      "id": "ribvlc",
+      "front": "el robot",
+      "back": "le robot"
+    },
+    {
+      "id": "kv3wfj",
+      "front": "la automatización",
+      "back": "l'automatisation"
+    },
+    {
+      "id": "pt4wc0",
+      "front": "la ciberseguridad",
+      "back": "la cybersécurité"
+    },
+    {
+      "id": "x7pweu",
+      "front": "el pirata informático",
+      "back": "le pirate informatique"
+    },
+    {
+      "id": "n9h1au",
+      "front": "la privacidad",
+      "back": "la vie privée"
+    },
+    {
+      "id": "jf2jff",
+      "front": "investigar un fenómeno",
+      "back": "étudier un phénomène"
+    },
+    {
+      "id": "yflppw",
+      "front": "experimentar",
+      "back": "expérimenter"
+    },
+    {
+      "id": "7vom3d",
+      "front": "medir con precisión",
+      "back": "mesurer avec précision"
+    },
+    {
+      "id": "j90m3q",
+      "front": "analizar",
+      "back": "analyser"
+    },
+    {
+      "id": "kijfp0",
+      "front": "patentar",
+      "back": "breveter"
+    },
+    {
+      "id": "p7o0wu",
+      "front": "desarrollar",
+      "back": "développer"
+    }
+  ]
+}
