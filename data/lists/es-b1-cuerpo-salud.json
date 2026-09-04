@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-cuerpo-salud",
+  "name": "El cuerpo y la salud",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "dj0i1e",
+      "front": "1:el cuerpo",
+      "back": "le corps"
+    },
+    {
+      "id": "8j1wct",
+      "front": "2:la cabeza",
+      "back": "la tête"
+    },
+    {
+      "id": "t0z13m",
+      "front": "3:el pelo",
+      "back": "les cheveux"
+    },
+    {
+      "id": "u5hbph",
+      "front": "4:la cara",
+      "back": "le visage"
+    },
+    {
+      "id": "6j2630",
+      "front": "5:la frente",
+      "back": "le front"
+    },
+    {
+      "id": "efa0pv",
+      "front": "6:el ojo",
+      "back": "l'œil"
+    },
+    {
+      "id": "8miz8o",
+      "front": "7:la ceja",
+      "back": "le sourcil"
+    },
+    {
+      "id": "qryr63",
+      "front": "8:la pestaña",
+      "back": "le cil"
+    },
+    {
+      "id": "mi4nph",
+      "front": "9:la nariz",
+      "back": "le nez"
+    },
+    {
+      "id": "pguki6",
+      "front": "10:la boca",
+      "back": "la bouche"
+    },
+    {
+      "id": "7addgr",
+      "front": "11:el labio",
+      "back": "la lèvre"
+    },
+    {
+      "id": "1wpwga",
+      "front": "12:el diente",
+      "back": "la dent"
+    },
+    {
+      "id": "dfdw04",
+      "front": "13:la lengua",
+      "back": "la langue"
+    },
+    {
+      "id": "40bf18",
+      "front": "14:la oreja",
+      "back": "l'oreille"
+    },
+    {
+      "id": "lv2k5r",
+      "front": "15:la mejilla",
+      "back": "la joue"
+    },
+    {
+      "id": "a7n4u5",
+      "front": "16:la barbilla",
+      "back": "le menton"
+    },
+    {
+      "id": "9kvjsw",
+      "front": "17:el cuello",
+      "back": "le cou"
+    },
+    {
+      "id": "jxukji",
+      "front": "18:el hombro",
+      "back": "l'épaule"
+    },
+    {
+      "id": "gumn48",
+      "front": "19:el brazo",
+      "back": "le bras"
+    },
+    {
+      "id": "u5ci19",
+      "front": "20:el codo",
+      "back": "le coude"
+    },
+    {
+      "id": "uvzur8",
+      "front": "21:la muñeca",
+      "back": "le poignet"
+    },
+    {
+      "id": "so6j33",
+      "front": "22:la mano",
+      "back": "la main"
+    },
+    {
+      "id": "zd77a8",
+      "front": "23:el dedo",
+      "back": "le doigt"
+    },
+    {
+      "id": "wauijq",
+      "front": "24:la uña",
+      "back": "l'ongle"
+    },
+    {
+      "id": "a49ds9",
+      "front": "25:el pecho",
+      "back": "la poitrine"
+    },
+    {
+      "id": "lnuhv3",
+      "front": "26:la espalda",
+      "back": "le dos"
+    },
+    {
+      "id": "87x7d4",
+      "front": "27:la cintura",
+      "back": "la taille"
+    },
+    {
+      "id": "m43w6c",
+      "front": "28:el vientre",
+      "back": "le ventre"
+    },
+    {
+      "id": "c3hemg",
+      "front": "29:la cadera",
+      "back": "la hanche"
+    },
+    {
+      "id": "udhiqt",
+      "front": "30:la pierna",
+      "back": "la jambe"
+    },
+    {
+      "id": "b3wvws",
+      "front": "31:la rodilla",
+      "back": "le genou"
+    },
+    {
+      "id": "wkzqhe",
+      "front": "32:el tobillo",
+      "back": "la cheville"
+    },
+    {
+      "id": "mideav",
+      "front": "33:el pie",
+      "back": "le pied"
+    },
+    {
+      "id": "iualsk",
+      "front": "34:la piel",
+      "back": "la peau"
+    },
+    {
+      "id": "ncjm2k",
+      "front": "35:el hueso",
+      "back": "l'os"
+    },
+    {
+      "id": "wj5cuq",
+      "front": "36:el músculo",
+      "back": "le muscle"
+    },
+    {
+      "id": "v01ze6",
+      "front": "37:la sangre",
+      "back": "le sang"
+    },
+    {
+      "id": "kwh7m4",
+      "front": "38:el corazón",
+      "back": "le cœur"
+    },
+    {
+      "id": "hwi9df",
+      "front": "39:el pulmón",
+      "back": "le poumon"
+    },
+    {
+      "id": "oa65vt",
+      "front": "40:el estómago",
+      "back": "l'estomac"
+    },
+    {
+      "id": "1m3p75",
+      "front": "41:el hígado",
+      "back": "le foie"
+    },
+    {
+      "id": "9m8ngm",
+      "front": "42:el riñón",
+      "back": "le rein"
+    },
+    {
+      "id": "jcdbfa",
+      "front": "43:el cerebro",
+      "back": "le cerveau"
+    },
+    {
+      "id": "sbvt06",
+      "front": "44:el nervio",
+      "back": "le nerf"
+    },
+    {
+      "id": "7qd3q3",
+      "front": "45:la salud",
+      "back": "la santé"
+    },
+    {
+      "id": "2wuciq",
+      "front": "46:la enfermedad",
+      "back": "la maladie"
+    },
+    {
+      "id": "w4mp1o",
+      "front": "47:el dolor",
+      "back": "la douleur"
+    },
+    {
+      "id": "okgcwc",
+      "front": "48:la fiebre",
+      "back": "la fièvre"
+    },
+    {
+      "id": "tghkv2",
+      "front": "49:el resfriado",
+      "back": "le rhume"
+    },
+    {
+      "id": "cuo4hu",
+      "front": "50:la gripe",
+      "back": "la grippe"
+    },
+    {
+      "id": "r689ha",
+      "front": "51:la tos",
+      "back": "la toux"
+    },
+    {
+      "id": "ei24ou",
+      "front": "52:el estornudo",
+      "back": "l'éternuement"
+    },
+    {
+      "id": "wfk9ui",
+      "front": "53:la herida",
+      "back": "la blessure"
+    },
+    {
+      "id": "cjl8cq",
+      "front": "54:la quemadura",
+      "back": "la brûlure"
+    },
+    {
+      "id": "aocdde",
+      "front": "55:la fractura",
+      "back": "la fracture"
+    },
+    {
+      "id": "0v9rvc",
+      "front": "56:el moretón",
+      "back": "le bleu, l'ecchymose"
+    },
+    {
+      "id": "su7vb2",
+      "front": "57:la cicatriz",
+      "back": "la cicatrice"
+    },
+    {
+      "id": "cquqaz",
+      "front": "58:la alergia",
+      "back": "l'allergie"
+    },
+    {
+      "id": "loxi26",
+      "front": "60:la náusea",
+      "back": "la nausée"
+    },
+    {
+      "id": "pc77eb",
+      "front": "61:el cansancio",
+      "back": "la fatigue"
+    },
+    {
+      "id": "yp0mow",
+      "front": "62:el insomnio",
+      "back": "l'insomnie"
+    },
+    {
+      "id": "cbg4sk",
+      "front": "63:el médico",
+      "back": "le médecin"
+    },
+    {
+      "id": "pvmtyx",
+      "front": "64:la enfermera",
+      "back": "l'infirmière"
+    },
+    {
+      "id": "oxp6qi",
+      "front": "65:el dentista",
+      "back": "le dentiste"
+    },
+    {
+      "id": "2cfdb9",
+      "front": "66:el hospital",
+      "back": "l'hôpital"
+    },
+    {
+      "id": "rj0duf",
+      "front": "67:la clínica",
+      "back": "la clinique"
+    },
+    {
+      "id": "0xsgrs",
+      "front": "68:el consultorio",
+      "back": "le cabinet médical"
+    },
+    {
+      "id": "m0h7bv",
+      "front": "69:la cita médica",
+      "back": "le rendez-vous médical"
+    },
+    {
+      "id": "zg0chp",
+      "front": "70:la consulta",
+      "back": "la consultation"
+    },
+    {
+      "id": "3wwudt",
+      "front": "71:la urgencia",
+      "back": "l'urgence"
+    },
+    {
+      "id": "sr7fqz",
+      "front": "72:la ambulancia",
+      "back": "l'ambulance"
+    },
+    {
+      "id": "tda780",
+      "front": "73:la operación",
+      "back": "l'opération"
+    },
+    {
+      "id": "dz88ir",
+      "front": "74:la receta",
+      "back": "l'ordonnance"
+    },
+    {
+      "id": "7gsjnw",
+      "front": "75:la farmacia",
+      "back": "la pharmacie"
+    },
+    {
+      "id": "ev4ivb",
+      "front": "76:el medicamento",
+      "back": "le médicament"
+    },
+    {
+      "id": "9q57uc",
+      "front": "77:la pastilla",
+      "back": "le comprimé"
+    },
+    {
+      "id": "34o5xo",
+      "front": "78:el jarabe",
+      "back": "le sirop"
+    },
+    {
+      "id": "8hc6mm",
+      "front": "79:la inyección",
+      "back": "la piqûre"
+    },
+    {
+      "id": "wkdqvn",
+      "front": "80:la vacuna",
+      "back": "le vaccin"
+    },
+    {
+      "id": "biel5l",
+      "front": "81:la venda",
+      "back": "le bandage"
+    },
+    {
+      "id": "p9us15",
+      "front": "82:la tirita",
+      "back": "le pansement"
+    },
+    {
+      "id": "6w9924",
+      "front": "83:el tratamiento",
+      "back": "le traitement"
+    },
+    {
+      "id": "dp1rkm",
+      "front": "84:el análisis",
+      "back": "l'analyse"
+    },
+    {
+      "id": "p5wroq",
+      "front": "85:la radiografía",
+      "back": "la radiographie"
+    },
+    {
+      "id": "diph2m",
+      "front": "86:el diagnóstico",
+      "back": "le diagnostic"
+    },
+    {
+      "id": "jvsntl",
+      "front": "87:el seguro médico",
+      "back": "l'assurance maladie"
+    },
+    {
+      "id": "92luvv",
+      "front": "88:estar enfermo",
+      "back": "être malade"
+    },
+    {
+      "id": "loi3m3",
+      "front": "89:sentirse mal",
+      "back": "se sentir mal"
+    },
+    {
+      "id": "rrry0w",
+      "front": "90:doler",
+      "back": "faire mal"
+    },
+    {
+      "id": "4vo8i9",
+      "front": "91:curar",
+      "back": "guérir, soigner"
+    },
+    {
+      "id": "9h8nak",
+      "front": "92:recuperarse",
+      "back": "se rétablir"
+    },
+    {
+      "id": "2zozmy",
+      "front": "93:descansar",
+      "back": "se reposer"
+    },
+    {
+      "id": "4bjc8x",
+      "front": "94:respirar",
+      "back": "respirer"
+    },
+    {
+      "id": "w8i01v",
+      "front": "95:toser",
+      "back": "tousser"
+    },
+    {
+      "id": "og9rbo",
+      "front": "96:sangrar",
+      "back": "saigner"
+    },
+    {
+      "id": "v7k07b",
+      "front": "97:caerse",
+      "back": "tomber"
+    },
+    {
+      "id": "dwd47j",
+      "front": "98:romperse un hueso",
+      "back": "se casser un os"
+    },
+    {
+      "id": "64euy9",
+      "front": "99:hacer deporte",
+      "back": "faire du sport"
+    },
+    {
+      "id": "2bknza",
+      "front": "100:llevar una vida sana",
+      "back": "mener une vie saine"
+    },
+    {
+      "id": "j419pb",
+      "front": "101:sano",
+      "back": "sain, en bonne santé"
+    }
+  ]
+}
