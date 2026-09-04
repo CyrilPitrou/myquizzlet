@@ -360,14 +360,44 @@ back, with an example where needed. The same twenty axes, chosen for French.
 
 ## Generating
 
-One folder at a time, and within a folder one list at a time: a list is a
-single `data/lists/<id>.json` on the `data` branch, in the shape of the
-existing files, with a fresh six-character id per card. Nothing in
-`data/progress/` is written. The order below puts the most important folder
-first, but any folder can be done on its own.
+Ask for one folder. These rules are the whole procedure; a prompt need only
+name the folder.
 
-1. English C1 — the folder that matters most
-2. English B2, English B1
-3. English C2
-4. Spanish B1, Spanish B2
-5. French C2
+**Where.** The `.data/` worktree, already checked out on the `data` branch.
+One file per list at `.data/data/lists/<id>.json`. Never write under
+`data/progress/`.
+
+**Shape.** Copy `data/lists/economy-jobs.json`: `id`, `name`, `folder`,
+`frontLabel`, `backLabel`, `frontLang`, `backLang`, `createdAt` (today), then
+`cards`, each `{ "id", "front", "back" }`. Card ids are six random lowercase
+alphanumeric characters, unique within the file. Card ids are permanent, so
+get them right the first time.
+
+**Cards.** The front is the word as it would be looked up — nouns with their
+article (*a lamb*, *the management*), verbs with *to*, adjectives bare. The
+back is the gloss: where the front is ambiguous, two or three senses separated
+by commas (*marchandise, denrée, produit*), never a sentence. Use the card
+count this document gives for each list. Keep to the register of the level: a
+word that belongs in the next level up goes in the next level up.
+
+**No repeats within a folder.** Before starting a list, read the lists of that
+folder already written to `.data/data/lists/` and avoid the words they use.
+Repeating a word from a *different* folder is fine and expected — levels are
+self-sufficient.
+
+**One list, one commit, one push.** Write the file, check it parses and has
+the right card count with no repeated card id, commit it alone on the `data`
+branch with the message `lists: <name> (<folder>)`, push, report the list name
+and card count in one line, move to the next without asking. Never hold
+several lists back for one commit: a run may be cut short at any point, and
+each list must be usable in the app the moment it exists. If the run stops
+early, say which lists are done and which remain.
+
+Folders in the order they are worth doing, though any one can be done alone:
+
+1. English B1 — the simplest, and the one to start with
+2. English B2
+3. English C1 — the folder that matters most, 44 lists, several sessions
+4. English C2
+5. Spanish B1, Spanish B2
+6. French C2
