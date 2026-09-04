@@ -1,0 +1,362 @@
+{
+  "id": "en-b1-false-friends",
+  "name": "False Friends",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "kfw2rj",
+      "front": "actually in a sentence",
+      "back": "en réalité, en fait (et non actuellement)"
+    },
+    {
+      "id": "cmuelj",
+      "front": "eventually",
+      "back": "finalement, à terme (et non éventuellement)"
+    },
+    {
+      "id": "oeabcs",
+      "front": "a library full of books",
+      "back": "une bibliothèque (et non une librairie)"
+    },
+    {
+      "id": "6ykq5a",
+      "front": "sensible",
+      "back": "raisonnable, sensé (et non sensible)"
+    },
+    {
+      "id": "xw2tom",
+      "front": "sensitive to criticism",
+      "back": "sensible, susceptible"
+    },
+    {
+      "id": "h37lvy",
+      "front": "to attend a meeting",
+      "back": "assister à une réunion (et non attendre)"
+    },
+    {
+      "id": "zvxju6",
+      "front": "to assist",
+      "back": "aider (et non assister à)"
+    },
+    {
+      "id": "sq2den",
+      "front": "to pretend",
+      "back": "faire semblant (et non prétendre)"
+    },
+    {
+      "id": "wb4mem",
+      "front": "to claim",
+      "back": "prétendre, réclamer"
+    },
+    {
+      "id": "c48yor",
+      "front": "to support a cause",
+      "back": "soutenir une cause (et non supporter)"
+    },
+    {
+      "id": "diy3f4",
+      "front": "to stand something",
+      "back": "supporter, tolérer quelque chose"
+    },
+    {
+      "id": "lqu5um",
+      "front": "to resume",
+      "back": "reprendre (et non résumer)"
+    },
+    {
+      "id": "ko4c5o",
+      "front": "to sum up a text",
+      "back": "résumer un texte"
+    },
+    {
+      "id": "mt5031",
+      "front": "to achieve a goal",
+      "back": "atteindre un objectif (et non achever)"
+    },
+    {
+      "id": "uvsl7k",
+      "front": "to complete",
+      "back": "achever, terminer"
+    },
+    {
+      "id": "3l3a7u",
+      "front": "to demand",
+      "back": "exiger (et non demander)"
+    },
+    {
+      "id": "msto75",
+      "front": "to deceive",
+      "back": "tromper (et non décevoir)"
+    },
+    {
+      "id": "k6gla1",
+      "front": "to disappoint",
+      "back": "décevoir"
+    },
+    {
+      "id": "7f2fcq",
+      "front": "to ignore a warning",
+      "back": "ne pas tenir compte d'un avertissement"
+    },
+    {
+      "id": "ow8fna",
+      "front": "to be unaware of",
+      "back": "ignorer, ne pas savoir"
+    },
+    {
+      "id": "t5k56l",
+      "front": "to rest",
+      "back": "se reposer (et non rester)"
+    },
+    {
+      "id": "8luocf",
+      "front": "to remain somewhere",
+      "back": "rester quelque part"
+    },
+    {
+      "id": "u62v1k",
+      "front": "to injure",
+      "back": "blesser (et non injurier)"
+    },
+    {
+      "id": "2euhu6",
+      "front": "to insult somebody",
+      "back": "injurier quelqu'un"
+    },
+    {
+      "id": "wvs90i",
+      "front": "to abuse",
+      "back": "maltraiter, abuser de"
+    },
+    {
+      "id": "7fn8ht",
+      "front": "to figure",
+      "back": "imaginer, se figurer"
+    },
+    {
+      "id": "k6r220",
+      "front": "a figure in a text",
+      "back": "un chiffre, une silhouette"
+    },
+    {
+      "id": "owd7zm",
+      "front": "a character in a novel",
+      "back": "un personnage dans un roman"
+    },
+    {
+      "id": "92uk3m",
+      "front": "a physician",
+      "back": "un médecin (et non un physicien)"
+    },
+    {
+      "id": "me23dh",
+      "front": "a physicist",
+      "back": "un physicien"
+    },
+    {
+      "id": "lxsiqj",
+      "front": "a chemist who sells drugs",
+      "back": "un pharmacien"
+    },
+    {
+      "id": "zfsjvw",
+      "front": "a chemist who does research",
+      "back": "un chimiste"
+    },
+    {
+      "id": "o5whhk",
+      "front": "a location",
+      "back": "un lieu, un emplacement (et non une location)"
+    },
+    {
+      "id": "sew1sz",
+      "front": "a rental",
+      "back": "une location"
+    },
+    {
+      "id": "7xsn5b",
+      "front": "a lecture at university",
+      "back": "un cours magistral (et non une lecture)"
+    },
+    {
+      "id": "8w6kbs",
+      "front": "the reading of a book",
+      "back": "la lecture d'un livre"
+    },
+    {
+      "id": "mw37n4",
+      "front": "a journey by train",
+      "back": "un trajet en train (et non une journée)"
+    },
+    {
+      "id": "qxbu78",
+      "front": "a day of work",
+      "back": "une journée de travail"
+    },
+    {
+      "id": "0xpln9",
+      "front": "a coin in a pocket",
+      "back": "une pièce de monnaie (et non un coin)"
+    },
+    {
+      "id": "j3scrc",
+      "front": "a corner of a street",
+      "back": "un coin de rue"
+    },
+    {
+      "id": "xzvj6s",
+      "front": "a cave in a rock",
+      "back": "une grotte (et non une cave)"
+    },
+    {
+      "id": "xfhg0g",
+      "front": "a wine cellar",
+      "back": "une cave à vin"
+    },
+    {
+      "id": "lqnatu",
+      "front": "a photograph on the wall",
+      "back": "une photographie (et non un photographe)"
+    },
+    {
+      "id": "xfchwl",
+      "front": "a photographer at work",
+      "back": "un photographe"
+    },
+    {
+      "id": "5xoiws",
+      "front": "a comedian",
+      "back": "un comique (et non un comédien)"
+    },
+    {
+      "id": "64l6ev",
+      "front": "an actor",
+      "back": "un comédien, un acteur"
+    },
+    {
+      "id": "go8fl2",
+      "front": "a preservative",
+      "back": "un conservateur alimentaire (et non un préservatif)"
+    },
+    {
+      "id": "bx035q",
+      "front": "a condom",
+      "back": "un préservatif"
+    },
+    {
+      "id": "wrl2dd",
+      "front": "an issue",
+      "back": "un problème, une question (et non une issue)"
+    },
+    {
+      "id": "y7iwzs",
+      "front": "an exit",
+      "back": "une issue, une sortie"
+    },
+    {
+      "id": "gc9hvn",
+      "front": "a delay in a schedule",
+      "back": "un retard (et non un délai)"
+    },
+    {
+      "id": "q4r0oy",
+      "front": "a deadline to meet",
+      "back": "un délai, une échéance"
+    },
+    {
+      "id": "3w8nbs",
+      "front": "a college in Britain",
+      "back": "un établissement d'enseignement (et non un collège)"
+    },
+    {
+      "id": "mpa6l1",
+      "front": "a hall in a building",
+      "back": "un hall, une grande salle"
+    },
+    {
+      "id": "8xc4sl",
+      "front": "a lobby of a hotel",
+      "back": "un hall d'hôtel"
+    },
+    {
+      "id": "14sn5f",
+      "front": "a formation of troops",
+      "back": "une formation militaire (et non une formation professionnelle)"
+    },
+    {
+      "id": "6sa02s",
+      "front": "a training course",
+      "back": "une formation professionnelle"
+    },
+    {
+      "id": "tqa5eo",
+      "front": "an engine",
+      "back": "un moteur (et non un engin)"
+    },
+    {
+      "id": "q9yu37",
+      "front": "an engineer who designs",
+      "back": "un ingénieur"
+    },
+    {
+      "id": "tpfqn2",
+      "front": "an agenda for a meeting",
+      "back": "un ordre du jour (et non un agenda)"
+    },
+    {
+      "id": "xlun8a",
+      "front": "a diary for appointments",
+      "back": "un agenda"
+    },
+    {
+      "id": "oveszo",
+      "front": "a note in music",
+      "back": "une note de musique"
+    },
+    {
+      "id": "qw16mb",
+      "front": "a grade at school",
+      "back": "une note scolaire"
+    },
+    {
+      "id": "lgwt1r",
+      "front": "a receipt for a purchase",
+      "back": "un reçu (et non une recette)"
+    },
+    {
+      "id": "l59ycy",
+      "front": "a recipe for a dish",
+      "back": "une recette de cuisine"
+    },
+    {
+      "id": "o55wgn",
+      "front": "a store of goods",
+      "back": "un stock, un magasin"
+    },
+    {
+      "id": "8ij3z7",
+      "front": "a raisin",
+      "back": "un raisin sec (et non un raisin)"
+    },
+    {
+      "id": "4tk1ii",
+      "front": "a grape on the vine",
+      "back": "un raisin"
+    },
+    {
+      "id": "0xnzuk",
+      "front": "an editor of a newspaper",
+      "back": "un rédacteur en chef (et non un éditeur)"
+    },
+    {
+      "id": "3b02av",
+      "front": "a publisher",
+      "back": "un éditeur"
+    }
+  ]
+}
