@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-people-family",
+  "name": "People and Family",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "z1k5ow",
+      "front": "a person",
+      "back": "une personne"
+    },
+    {
+      "id": "h8i8su",
+      "front": "a human being",
+      "back": "un être humain"
+    },
+    {
+      "id": "joam98",
+      "front": "a man",
+      "back": "un homme"
+    },
+    {
+      "id": "hewhhg",
+      "front": "a woman",
+      "back": "une femme"
+    },
+    {
+      "id": "4xwcur",
+      "front": "a child",
+      "back": "un enfant"
+    },
+    {
+      "id": "hzldnx",
+      "front": "a baby",
+      "back": "un bébé"
+    },
+    {
+      "id": "bw1gxy",
+      "front": "a boy",
+      "back": "un garçon"
+    },
+    {
+      "id": "5kgxyn",
+      "front": "a girl",
+      "back": "une fille"
+    },
+    {
+      "id": "ju5uxf",
+      "front": "a teenager",
+      "back": "un adolescent"
+    },
+    {
+      "id": "h76o9g",
+      "front": "an adult",
+      "back": "un adulte"
+    },
+    {
+      "id": "iuofb4",
+      "front": "a family",
+      "back": "une famille"
+    },
+    {
+      "id": "n2e4hy",
+      "front": "the parents",
+      "back": "les parents"
+    },
+    {
+      "id": "g772eh",
+      "front": "a father",
+      "back": "un père"
+    },
+    {
+      "id": "eek1xq",
+      "front": "a mother",
+      "back": "une mère"
+    },
+    {
+      "id": "43i4z4",
+      "front": "a son",
+      "back": "un fils"
+    },
+    {
+      "id": "9rcfx4",
+      "front": "a daughter",
+      "back": "une fille"
+    },
+    {
+      "id": "bqd28n",
+      "front": "a brother",
+      "back": "un frère"
+    },
+    {
+      "id": "9ayeoy",
+      "front": "a sister",
+      "back": "une sœur"
+    },
+    {
+      "id": "7ainqe",
+      "front": "a grandfather",
+      "back": "un grand-père"
+    },
+    {
+      "id": "kal0lv",
+      "front": "a grandmother",
+      "back": "une grand-mère"
+    },
+    {
+      "id": "mysmhm",
+      "front": "the grandparents",
+      "back": "les grands-parents"
+    },
+    {
+      "id": "h6cl9c",
+      "front": "a grandson",
+      "back": "un petit-fils"
+    },
+    {
+      "id": "hplgan",
+      "front": "a granddaughter",
+      "back": "une petite-fille"
+    },
+    {
+      "id": "qov5y1",
+      "front": "an uncle",
+      "back": "un oncle"
+    },
+    {
+      "id": "ie2606",
+      "front": "an aunt",
+      "back": "une tante"
+    },
+    {
+      "id": "bxbuwf",
+      "front": "a cousin",
+      "back": "un cousin, une cousine"
+    },
+    {
+      "id": "tte25g",
+      "front": "a nephew",
+      "back": "un neveu"
+    },
+    {
+      "id": "3fa87h",
+      "front": "a niece",
+      "back": "une nièce"
+    },
+    {
+      "id": "dgeu3t",
+      "front": "a husband",
+      "back": "un mari"
+    },
+    {
+      "id": "eipd2p",
+      "front": "a wife",
+      "back": "une épouse, une femme"
+    },
+    {
+      "id": "0nsdp8",
+      "front": "a couple",
+      "back": "un couple"
+    },
+    {
+      "id": "a6lw7s",
+      "front": "a partner",
+      "back": "un compagnon, un conjoint"
+    },
+    {
+      "id": "miipmb",
+      "front": "a fiancé",
+      "back": "un fiancé"
+    },
+    {
+      "id": "nuik1s",
+      "front": "a widow",
+      "back": "une veuve"
+    },
+    {
+      "id": "n3yrod",
+      "front": "a widower",
+      "back": "un veuf"
+    },
+    {
+      "id": "w1b3xf",
+      "front": "an orphan",
+      "back": "un orphelin"
+    },
+    {
+      "id": "1duzsm",
+      "front": "a twin",
+      "back": "un jumeau"
+    },
+    {
+      "id": "c620kh",
+      "front": "the in-laws",
+      "back": "la belle-famille"
+    },
+    {
+      "id": "vdta36",
+      "front": "a father-in-law",
+      "back": "un beau-père"
+    },
+    {
+      "id": "dsqexi",
+      "front": "a mother-in-law",
+      "back": "une belle-mère"
+    },
+    {
+      "id": "43v2nq",
+      "front": "a stepfather",
+      "back": "un beau-père"
+    },
+    {
+      "id": "rp7xo2",
+      "front": "a stepmother",
+      "back": "une belle-mère"
+    },
+    {
+      "id": "grtwsi",
+      "front": "a half-brother",
+      "back": "un demi-frère"
+    },
+    {
+      "id": "1c6jqv",
+      "front": "a relative",
+      "back": "un parent, un proche"
+    },
+    {
+      "id": "miwy53",
+      "front": "a godfather",
+      "back": "un parrain"
+    },
+    {
+      "id": "vpd77c",
+      "front": "a godmother",
+      "back": "une marraine"
+    },
+    {
+      "id": "w5zeqs",
+      "front": "an ancestor",
+      "back": "un ancêtre"
+    },
+    {
+      "id": "9g5jkh",
+      "front": "a descendant",
+      "back": "un descendant"
+    },
+    {
+      "id": "89v3do",
+      "front": "a generation",
+      "back": "une génération"
+    },
+    {
+      "id": "2rrydx",
+      "front": "a surname",
+      "back": "un nom de famille"
+    },
+    {
+      "id": "3g33ez",
+      "front": "a first name",
+      "back": "un prénom"
+    },
+    {
+      "id": "m3a27c",
+      "front": "a nickname",
+      "back": "un surnom"
+    },
+    {
+      "id": "k8ov6q",
+      "front": "a date of birth",
+      "back": "une date de naissance"
+    },
+    {
+      "id": "upxcxc",
+      "front": "a birthplace",
+      "back": "un lieu de naissance"
+    },
+    {
+      "id": "vgaz02",
+      "front": "a nationality",
+      "back": "une nationalité"
+    },
+    {
+      "id": "cpembq",
+      "front": "an identity card",
+      "back": "une carte d'identité"
+    },
+    {
+      "id": "sqtot8",
+      "front": "a passport",
+      "back": "un passeport"
+    },
+    {
+      "id": "kyzcm8",
+      "front": "an address",
+      "back": "une adresse"
+    },
+    {
+      "id": "iqittz",
+      "front": "an age",
+      "back": "un âge"
+    },
+    {
+      "id": "llf7ti",
+      "front": "a birthday",
+      "back": "un anniversaire"
+    },
+    {
+      "id": "9knnqv",
+      "front": "childhood",
+      "back": "l'enfance"
+    },
+    {
+      "id": "xr6vli",
+      "front": "youth",
+      "back": "la jeunesse"
+    },
+    {
+      "id": "tpwfgm",
+      "front": "adulthood",
+      "back": "l'âge adulte"
+    },
+    {
+      "id": "l0oylj",
+      "front": "old age",
+      "back": "la vieillesse"
+    },
+    {
+      "id": "v6zqyt",
+      "front": "a life",
+      "back": "une vie"
+    },
+    {
+      "id": "e0mtzk",
+      "front": "a death",
+      "back": "une mort, un décès"
+    },
+    {
+      "id": "559faf",
+      "front": "a funeral",
+      "back": "un enterrement, des funérailles"
+    },
+    {
+      "id": "apny98",
+      "front": "a birth",
+      "back": "une naissance"
+    },
+    {
+      "id": "amhra7",
+      "front": "a wedding",
+      "back": "un mariage"
+    },
+    {
+      "id": "3rr6jf",
+      "front": "a marriage",
+      "back": "un mariage, une union"
+    },
+    {
+      "id": "9tv26z",
+      "front": "a divorce",
+      "back": "un divorce"
+    },
+    {
+      "id": "7yagjn",
+      "front": "a separation",
+      "back": "une séparation"
+    },
+    {
+      "id": "vbrfk2",
+      "front": "single",
+      "back": "célibataire"
+    },
+    {
+      "id": "36c3h9",
+      "front": "married",
+      "back": "marié"
+    },
+    {
+      "id": "bowyr9",
+      "front": "divorced",
+      "back": "divorcé"
+    },
+    {
+      "id": "ve47qg",
+      "front": "widowed",
+      "back": "veuf, veuve"
+    },
+    {
+      "id": "mzfc25",
+      "front": "engaged",
+      "back": "fiancé"
+    },
+    {
+      "id": "y1l5hz",
+      "front": "pregnant",
+      "back": "enceinte"
+    },
+    {
+      "id": "mc55ui",
+      "front": "elderly",
+      "back": "âgé"
+    },
+    {
+      "id": "zfubdj",
+      "front": "grown-up",
+      "back": "adulte, grand"
+    },
+    {
+      "id": "l5isve",
+      "front": "to be born",
+      "back": "naître"
+    },
+    {
+      "id": "441aa7",
+      "front": "to grow up",
+      "back": "grandir"
+    },
+    {
+      "id": "q06vey",
+      "front": "to grow old",
+      "back": "vieillir"
+    },
+    {
+      "id": "qod4k3",
+      "front": "to die",
+      "back": "mourir"
+    },
+    {
+      "id": "5itnae",
+      "front": "to marry",
+      "back": "épouser, se marier avec"
+    },
+    {
+      "id": "pi78av",
+      "front": "to get married",
+      "back": "se marier"
+    },
+    {
+      "id": "j2ptl4",
+      "front": "to get divorced",
+      "back": "divorcer"
+    },
+    {
+      "id": "g1890p",
+      "front": "to bring up",
+      "back": "élever"
+    },
+    {
+      "id": "g1ubaf",
+      "front": "to raise a child",
+      "back": "élever un enfant"
+    },
+    {
+      "id": "zdue3j",
+      "front": "to adopt",
+      "back": "adopter"
+    },
+    {
+      "id": "egt0us",
+      "front": "to look after",
+      "back": "s'occuper de"
+    },
+    {
+      "id": "8mtj1i",
+      "front": "to look like",
+      "back": "ressembler à"
+    },
+    {
+      "id": "fk7qjs",
+      "front": "to be called",
+      "back": "s'appeler"
+    },
+    {
+      "id": "ypub77",
+      "front": "to introduce",
+      "back": "présenter"
+    },
+    {
+      "id": "2vied5",
+      "front": "to belong to",
+      "back": "appartenir à"
+    },
+    {
+      "id": "2ozb8y",
+      "front": "a neighbour",
+      "back": "un voisin"
+    },
+    {
+      "id": "wvtufy",
+      "front": "a stranger",
+      "back": "un inconnu"
+    },
+    {
+      "id": "fxtgqt",
+      "front": "a household",
+      "back": "un ménage, un foyer"
+    },
+    {
+      "id": "373z9x",
+      "front": "an only child",
+      "back": "un enfant unique"
+    },
+    {
+      "id": "7poec5",
+      "front": "a family tree",
+      "back": "un arbre généalogique"
+    }
+  ]
+}
