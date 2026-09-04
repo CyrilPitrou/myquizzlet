@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-food-cooking",
+  "name": "Food and Cooking",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "ounolx",
+      "front": "food",
+      "back": "la nourriture"
+    },
+    {
+      "id": "adkh6k",
+      "front": "a meal",
+      "back": "un repas"
+    },
+    {
+      "id": "46quxj",
+      "front": "breakfast",
+      "back": "le petit-déjeuner"
+    },
+    {
+      "id": "khtlsz",
+      "front": "lunch",
+      "back": "le déjeuner"
+    },
+    {
+      "id": "kbbcd1",
+      "front": "dinner",
+      "back": "le dîner"
+    },
+    {
+      "id": "v5e0s4",
+      "front": "a snack",
+      "back": "un en-cas, un goûter"
+    },
+    {
+      "id": "p8qkmk",
+      "front": "a starter",
+      "back": "une entrée"
+    },
+    {
+      "id": "rx2vh0",
+      "front": "a main course",
+      "back": "un plat principal"
+    },
+    {
+      "id": "1bxpm5",
+      "front": "a dessert",
+      "back": "un dessert"
+    },
+    {
+      "id": "531ov8",
+      "front": "a dish",
+      "back": "un plat"
+    },
+    {
+      "id": "dbo5e2",
+      "front": "a recipe",
+      "back": "une recette"
+    },
+    {
+      "id": "cl186y",
+      "front": "an ingredient",
+      "back": "un ingrédient"
+    },
+    {
+      "id": "g930w0",
+      "front": "bread",
+      "back": "le pain"
+    },
+    {
+      "id": "opfa4v",
+      "front": "a loaf",
+      "back": "une miche, un pain"
+    },
+    {
+      "id": "2m1iot",
+      "front": "butter",
+      "back": "le beurre"
+    },
+    {
+      "id": "l9tmo4",
+      "front": "cheese",
+      "back": "le fromage"
+    },
+    {
+      "id": "0bayyn",
+      "front": "milk",
+      "back": "le lait"
+    },
+    {
+      "id": "y3lk9f",
+      "front": "cream",
+      "back": "la crème"
+    },
+    {
+      "id": "zu9gci",
+      "front": "an egg",
+      "back": "un œuf"
+    },
+    {
+      "id": "3l501q",
+      "front": "meat",
+      "back": "la viande"
+    },
+    {
+      "id": "jhf2pk",
+      "front": "beef",
+      "back": "le bœuf"
+    },
+    {
+      "id": "w32h7i",
+      "front": "pork",
+      "back": "le porc"
+    },
+    {
+      "id": "56ym54",
+      "front": "lamb",
+      "back": "l'agneau"
+    },
+    {
+      "id": "fhggn5",
+      "front": "chicken",
+      "back": "le poulet"
+    },
+    {
+      "id": "03qxvr",
+      "front": "a sausage",
+      "back": "une saucisse"
+    },
+    {
+      "id": "ykg5xv",
+      "front": "ham",
+      "back": "le jambon"
+    },
+    {
+      "id": "oufukw",
+      "front": "fish",
+      "back": "le poisson"
+    },
+    {
+      "id": "zvq7vd",
+      "front": "seafood",
+      "back": "les fruits de mer"
+    },
+    {
+      "id": "st17j9",
+      "front": "a prawn",
+      "back": "une crevette"
+    },
+    {
+      "id": "ovnoa9",
+      "front": "rice",
+      "back": "le riz"
+    },
+    {
+      "id": "e0l3o0",
+      "front": "pasta",
+      "back": "les pâtes"
+    },
+    {
+      "id": "yp7fhm",
+      "front": "flour",
+      "back": "la farine"
+    },
+    {
+      "id": "uq0zc6",
+      "front": "sugar",
+      "back": "le sucre"
+    },
+    {
+      "id": "9ydngu",
+      "front": "salt",
+      "back": "le sel"
+    },
+    {
+      "id": "127jbf",
+      "front": "pepper",
+      "back": "le poivre"
+    },
+    {
+      "id": "1rdupo",
+      "front": "a spice",
+      "back": "une épice"
+    },
+    {
+      "id": "49yc89",
+      "front": "a herb",
+      "back": "une herbe aromatique"
+    },
+    {
+      "id": "sc0h5f",
+      "front": "oil",
+      "back": "l'huile"
+    },
+    {
+      "id": "033ee2",
+      "front": "vinegar",
+      "back": "le vinaigre"
+    },
+    {
+      "id": "746bsg",
+      "front": "a sauce",
+      "back": "une sauce"
+    },
+    {
+      "id": "cm59vc",
+      "front": "a vegetable",
+      "back": "un légume"
+    },
+    {
+      "id": "a2keb7",
+      "front": "a potato",
+      "back": "une pomme de terre"
+    },
+    {
+      "id": "unyvzv",
+      "front": "a carrot",
+      "back": "une carotte"
+    },
+    {
+      "id": "loh5qc",
+      "front": "an onion",
+      "back": "un oignon"
+    },
+    {
+      "id": "8jye8j",
+      "front": "garlic",
+      "back": "l'ail"
+    },
+    {
+      "id": "nu872u",
+      "front": "a tomato",
+      "back": "une tomate"
+    },
+    {
+      "id": "xooub8",
+      "front": "a cabbage",
+      "back": "un chou"
+    },
+    {
+      "id": "habx7u",
+      "front": "a lettuce",
+      "back": "une laitue"
+    },
+    {
+      "id": "0icjla",
+      "front": "a mushroom",
+      "back": "un champignon"
+    },
+    {
+      "id": "j3mfp9",
+      "front": "a bean",
+      "back": "un haricot"
+    },
+    {
+      "id": "uwoxh5",
+      "front": "a pea",
+      "back": "un petit pois"
+    },
+    {
+      "id": "dtvjfu",
+      "front": "a fruit",
+      "back": "un fruit"
+    },
+    {
+      "id": "zcgipx",
+      "front": "an apple",
+      "back": "une pomme"
+    },
+    {
+      "id": "mddsrg",
+      "front": "a pear",
+      "back": "une poire"
+    },
+    {
+      "id": "vvfn51",
+      "front": "a peach",
+      "back": "une pêche"
+    },
+    {
+      "id": "2v3f0j",
+      "front": "a strawberry",
+      "back": "une fraise"
+    },
+    {
+      "id": "zjyta2",
+      "front": "a grape",
+      "back": "un raisin"
+    },
+    {
+      "id": "pzyn78",
+      "front": "a lemon",
+      "back": "un citron"
+    },
+    {
+      "id": "9bgisf",
+      "front": "a nut",
+      "back": "une noix"
+    },
+    {
+      "id": "trkdta",
+      "front": "a drink",
+      "back": "une boisson"
+    },
+    {
+      "id": "ffbocj",
+      "front": "water",
+      "back": "l'eau"
+    },
+    {
+      "id": "55slrk",
+      "front": "wine",
+      "back": "le vin"
+    },
+    {
+      "id": "ffia4l",
+      "front": "beer",
+      "back": "la bière"
+    },
+    {
+      "id": "f8opgt",
+      "front": "juice",
+      "back": "le jus"
+    },
+    {
+      "id": "ksp9vf",
+      "front": "coffee",
+      "back": "le café"
+    },
+    {
+      "id": "yl3b52",
+      "front": "tea",
+      "back": "le thé"
+    },
+    {
+      "id": "tz12d7",
+      "front": "a plate",
+      "back": "une assiette"
+    },
+    {
+      "id": "3qb36d",
+      "front": "a bowl",
+      "back": "un bol"
+    },
+    {
+      "id": "i0fxdj",
+      "front": "a glass",
+      "back": "un verre"
+    },
+    {
+      "id": "28n24f",
+      "front": "a cup",
+      "back": "une tasse"
+    },
+    {
+      "id": "slhnaj",
+      "front": "a fork",
+      "back": "une fourchette"
+    },
+    {
+      "id": "2btyq1",
+      "front": "a knife",
+      "back": "un couteau"
+    },
+    {
+      "id": "5k03ys",
+      "front": "a spoon",
+      "back": "une cuillère"
+    },
+    {
+      "id": "mdcnj7",
+      "front": "a saucepan",
+      "back": "une casserole"
+    },
+    {
+      "id": "8i8orj",
+      "front": "a frying pan",
+      "back": "une poêle"
+    },
+    {
+      "id": "iskf96",
+      "front": "a pot",
+      "back": "une marmite, un pot"
+    },
+    {
+      "id": "a2xeg4",
+      "front": "a lid",
+      "back": "un couvercle"
+    },
+    {
+      "id": "asepak",
+      "front": "a menu",
+      "back": "une carte, un menu"
+    },
+    {
+      "id": "mb632o",
+      "front": "a waiter",
+      "back": "un serveur"
+    },
+    {
+      "id": "g68pif",
+      "front": "a bill",
+      "back": "une addition"
+    },
+    {
+      "id": "lk4p3y",
+      "front": "a tip",
+      "back": "un pourboire"
+    },
+    {
+      "id": "8n3dhi",
+      "front": "to eat",
+      "back": "manger"
+    },
+    {
+      "id": "iv8z6p",
+      "front": "to drink",
+      "back": "boire"
+    },
+    {
+      "id": "2k4qj6",
+      "front": "to cook",
+      "back": "cuisiner, faire cuire"
+    },
+    {
+      "id": "oka2it",
+      "front": "to bake",
+      "back": "cuire au four"
+    },
+    {
+      "id": "ixrd61",
+      "front": "to fry",
+      "back": "faire frire"
+    },
+    {
+      "id": "owkfy1",
+      "front": "to boil",
+      "back": "faire bouillir"
+    },
+    {
+      "id": "i071la",
+      "front": "to roast",
+      "back": "rôtir"
+    },
+    {
+      "id": "qm2lge",
+      "front": "to grill",
+      "back": "griller"
+    },
+    {
+      "id": "cjw8jx",
+      "front": "to peel",
+      "back": "éplucher"
+    },
+    {
+      "id": "naa329",
+      "front": "to chop",
+      "back": "hacher, couper"
+    },
+    {
+      "id": "9166u1",
+      "front": "to stir",
+      "back": "remuer"
+    },
+    {
+      "id": "k4ttzr",
+      "front": "to pour",
+      "back": "verser"
+    },
+    {
+      "id": "hjfk7g",
+      "front": "to taste",
+      "back": "goûter"
+    },
+    {
+      "id": "v27gag",
+      "front": "to order",
+      "back": "commander"
+    },
+    {
+      "id": "gvnkha",
+      "front": "to serve",
+      "back": "servir"
+    },
+    {
+      "id": "sgq3w5",
+      "front": "sweet",
+      "back": "sucré"
+    },
+    {
+      "id": "239yhr",
+      "front": "salty",
+      "back": "salé"
+    },
+    {
+      "id": "453p8x",
+      "front": "sour",
+      "back": "acide, aigre"
+    },
+    {
+      "id": "jlxlmp",
+      "front": "tasty",
+      "back": "savoureux"
+    }
+  ]
+}
