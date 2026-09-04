@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-politica-instituciones",
+  "name": "La política y las instituciones",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "a5sary",
+      "front": "la política",
+      "back": "la politique"
+    },
+    {
+      "id": "mmc9kr",
+      "front": "el Estado",
+      "back": "l'État"
+    },
+    {
+      "id": "k84d7f",
+      "front": "el gobierno",
+      "back": "le gouvernement"
+    },
+    {
+      "id": "jgn21w",
+      "front": "el poder",
+      "back": "le pouvoir"
+    },
+    {
+      "id": "6shzza",
+      "front": "la administración",
+      "back": "l'administration"
+    },
+    {
+      "id": "ooyhpv",
+      "front": "la Constitución",
+      "back": "la Constitution"
+    },
+    {
+      "id": "pb6p1a",
+      "front": "la monarquía",
+      "back": "la monarchie"
+    },
+    {
+      "id": "slg25w",
+      "front": "la república",
+      "back": "la république"
+    },
+    {
+      "id": "575q72",
+      "front": "la democracia",
+      "back": "la démocratie"
+    },
+    {
+      "id": "452qu4",
+      "front": "la dictadura",
+      "back": "la dictature"
+    },
+    {
+      "id": "pzngxn",
+      "front": "la transición",
+      "back": "la transition"
+    },
+    {
+      "id": "trcn2q",
+      "front": "el régimen",
+      "back": "le régime"
+    },
+    {
+      "id": "7a33pb",
+      "front": "el presidente del Gobierno",
+      "back": "le chef du gouvernement"
+    },
+    {
+      "id": "h1xzrv",
+      "front": "el jefe del Estado",
+      "back": "le chef de l'État"
+    },
+    {
+      "id": "4qe2wa",
+      "front": "el rey",
+      "back": "le roi"
+    },
+    {
+      "id": "mzgbk2",
+      "front": "el ministro",
+      "back": "le ministre"
+    },
+    {
+      "id": "7lw3d1",
+      "front": "el Consejo de Ministros",
+      "back": "le Conseil des ministres"
+    },
+    {
+      "id": "r211f0",
+      "front": "la cartera ministerial",
+      "back": "le portefeuille ministériel"
+    },
+    {
+      "id": "yiv2h8",
+      "front": "el secretario de Estado",
+      "back": "le secrétaire d'État"
+    },
+    {
+      "id": "aceonr",
+      "front": "el Parlamento",
+      "back": "le Parlement"
+    },
+    {
+      "id": "iew7su",
+      "front": "las Cortes",
+      "back": "les Cortès"
+    },
+    {
+      "id": "3wp4eb",
+      "front": "el Congreso de los Diputados",
+      "back": "le Congrès des députés"
+    },
+    {
+      "id": "ev54ll",
+      "front": "el Senado",
+      "back": "le Sénat"
+    },
+    {
+      "id": "uhskm6",
+      "front": "el diputado",
+      "back": "le député"
+    },
+    {
+      "id": "cbf75b",
+      "front": "el senador",
+      "back": "le sénateur"
+    },
+    {
+      "id": "u7rs4f",
+      "front": "el escaño",
+      "back": "le siège (parlementaire)"
+    },
+    {
+      "id": "jcvjtp",
+      "front": "la legislatura",
+      "back": "la législature"
+    },
+    {
+      "id": "9wyhpp",
+      "front": "el pleno",
+      "back": "la séance plénière"
+    },
+    {
+      "id": "5jmwk8",
+      "front": "la comisión",
+      "back": "la commission"
+    },
+    {
+      "id": "bz3rp1",
+      "front": "el proyecto de ley",
+      "back": "le projet de loi"
+    },
+    {
+      "id": "fnbpz4",
+      "front": "la enmienda",
+      "back": "l'amendement"
+    },
+    {
+      "id": "3koy5j",
+      "front": "la votación",
+      "back": "le vote"
+    },
+    {
+      "id": "gnfe77",
+      "front": "la mayoría absoluta",
+      "back": "la majorité absolue"
+    },
+    {
+      "id": "zpuzro",
+      "front": "la moción de censura",
+      "back": "la motion de censure"
+    },
+    {
+      "id": "ijnz8u",
+      "front": "la cuestión de confianza",
+      "back": "la question de confiance"
+    },
+    {
+      "id": "71edx8",
+      "front": "la investidura",
+      "back": "l'investiture"
+    },
+    {
+      "id": "cc2tpq",
+      "front": "la disolución",
+      "back": "la dissolution"
+    },
+    {
+      "id": "h9t20g",
+      "front": "las elecciones",
+      "back": "les élections"
+    },
+    {
+      "id": "ef90bf",
+      "front": "los comicios",
+      "back": "le scrutin"
+    },
+    {
+      "id": "w2xjib",
+      "front": "el sufragio",
+      "back": "le suffrage"
+    },
+    {
+      "id": "8dppyd",
+      "front": "el censo electoral",
+      "back": "les listes électorales"
+    },
+    {
+      "id": "mqce7w",
+      "front": "la papeleta",
+      "back": "le bulletin de vote"
+    },
+    {
+      "id": "8bmhus",
+      "front": "la urna",
+      "back": "l'urne"
+    },
+    {
+      "id": "2j0vjw",
+      "front": "el colegio electoral",
+      "back": "le bureau de vote"
+    },
+    {
+      "id": "p6qd96",
+      "front": "la abstención",
+      "back": "l'abstention"
+    },
+    {
+      "id": "zapf8q",
+      "front": "el escrutinio",
+      "back": "le dépouillement"
+    },
+    {
+      "id": "zy7ehk",
+      "front": "la circunscripción",
+      "back": "la circonscription"
+    },
+    {
+      "id": "pwp063",
+      "front": "la campaña electoral",
+      "back": "la campagne électorale"
+    },
+    {
+      "id": "jia6f0",
+      "front": "el mitin",
+      "back": "le meeting"
+    },
+    {
+      "id": "p2uxke",
+      "front": "el programa electoral",
+      "back": "le programme électoral"
+    },
+    {
+      "id": "mh3q8l",
+      "front": "el candidato",
+      "back": "le candidat"
+    },
+    {
+      "id": "ivw3m0",
+      "front": "el partido político",
+      "back": "le parti politique"
+    },
+    {
+      "id": "naeg5q",
+      "front": "la coalición",
+      "back": "la coalition"
+    },
+    {
+      "id": "12377x",
+      "front": "el pacto",
+      "back": "le pacte, l'accord"
+    },
+    {
+      "id": "7vehs3",
+      "front": "la oposición",
+      "back": "l'opposition"
+    },
+    {
+      "id": "pppfnr",
+      "front": "el militante",
+      "back": "le militant"
+    },
+    {
+      "id": "dkxbfp",
+      "front": "el escándalo político",
+      "back": "le scandale politique"
+    },
+    {
+      "id": "37hxq3",
+      "front": "la corrupción",
+      "back": "la corruption"
+    },
+    {
+      "id": "zrucq6",
+      "front": "el soborno",
+      "back": "le pot-de-vin"
+    },
+    {
+      "id": "ht8d6e",
+      "front": "el nepotismo",
+      "back": "le népotisme"
+    },
+    {
+      "id": "g8rcuj",
+      "front": "la dimisión de un cargo",
+      "back": "la démission d'un poste"
+    },
+    {
+      "id": "jzdaj5",
+      "front": "el cese",
+      "back": "la révocation"
+    },
+    {
+      "id": "ga8ak6",
+      "front": "el mandato",
+      "back": "le mandat"
+    },
+    {
+      "id": "nc4opz",
+      "front": "la reforma",
+      "back": "la réforme"
+    },
+    {
+      "id": "0jtlpa",
+      "front": "el decreto",
+      "back": "le décret"
+    },
+    {
+      "id": "ht1n8z",
+      "front": "la normativa",
+      "back": "la réglementation"
+    },
+    {
+      "id": "agnpeg",
+      "front": "la comunidad autónoma",
+      "back": "la communauté autonome"
+    },
+    {
+      "id": "utbj8j",
+      "front": "la autonomía",
+      "back": "l'autonomie"
+    },
+    {
+      "id": "ja4vge",
+      "front": "la descentralización",
+      "back": "la décentralisation"
+    },
+    {
+      "id": "bqv9xr",
+      "front": "el nacionalismo",
+      "back": "le nationalisme"
+    },
+    {
+      "id": "7syrtj",
+      "front": "el independentismo",
+      "back": "l'indépendantisme"
+    },
+    {
+      "id": "0sfn4t",
+      "front": "el federalismo",
+      "back": "le fédéralisme"
+    },
+    {
+      "id": "qzw2np",
+      "front": "el ayuntamiento municipal",
+      "back": "la municipalité"
+    },
+    {
+      "id": "4pumpm",
+      "front": "el alcalde",
+      "back": "le maire"
+    },
+    {
+      "id": "z3swz8",
+      "front": "el concejal",
+      "back": "le conseiller municipal"
+    },
+    {
+      "id": "x8cld1",
+      "front": "la diputación",
+      "back": "le conseil provincial"
+    },
+    {
+      "id": "ut58fq",
+      "front": "el funcionariado",
+      "back": "la fonction publique"
+    },
+    {
+      "id": "cs9wer",
+      "front": "el trámite",
+      "back": "la démarche administrative"
+    },
+    {
+      "id": "a3eb0d",
+      "front": "la burocracia",
+      "back": "la bureaucratie"
+    },
+    {
+      "id": "upoyff",
+      "front": "el ciudadano de a pie",
+      "back": "le citoyen ordinaire"
+    },
+    {
+      "id": "giwxaz",
+      "front": "la sociedad civil",
+      "back": "la société civile"
+    },
+    {
+      "id": "zob3y0",
+      "front": "la manifestación",
+      "back": "la manifestation"
+    },
+    {
+      "id": "700cd8",
+      "front": "la protesta",
+      "back": "la protestation"
+    },
+    {
+      "id": "rdh27j",
+      "front": "la reivindicación",
+      "back": "la revendication"
+    },
+    {
+      "id": "b83dee",
+      "front": "el sindicalismo",
+      "back": "le syndicalisme"
+    },
+    {
+      "id": "29bc2k",
+      "front": "la izquierda",
+      "back": "la gauche"
+    },
+    {
+      "id": "3321ci",
+      "front": "la derecha",
+      "back": "la droite"
+    },
+    {
+      "id": "sd79v3",
+      "front": "el centro político",
+      "back": "le centre (politique)"
+    },
+    {
+      "id": "o7ldap",
+      "front": "el populismo",
+      "back": "le populisme"
+    },
+    {
+      "id": "c1faxr",
+      "front": "la ideología",
+      "back": "l'idéologie"
+    },
+    {
+      "id": "ijhnml",
+      "front": "el discurso político",
+      "back": "le discours politique"
+    },
+    {
+      "id": "ftvqrh",
+      "front": "gobernar",
+      "back": "gouverner"
+    },
+    {
+      "id": "cmp2tj",
+      "front": "legislar",
+      "back": "légiférer"
+    },
+    {
+      "id": "qxsyao",
+      "front": "promulgar",
+      "back": "promulguer"
+    },
+    {
+      "id": "kv4k93",
+      "front": "derogar",
+      "back": "abroger"
+    },
+    {
+      "id": "5k7nb9",
+      "front": "convocar elecciones",
+      "back": "convoquer des élections"
+    },
+    {
+      "id": "vybv7w",
+      "front": "votar",
+      "back": "voter"
+    },
+    {
+      "id": "h4ml5j",
+      "front": "elegir a un representante",
+      "back": "élire un représentant"
+    },
+    {
+      "id": "b7h7js",
+      "front": "dimitir",
+      "back": "démissionner"
+    },
+    {
+      "id": "z5flvv",
+      "front": "destituir",
+      "back": "destituer"
+    }
+  ]
+}
