@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-law-2",
+  "name": "Law and Justice 2",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "o582xg",
+      "front": "a tort",
+      "back": "un délit civil, un fait dommageable"
+    },
+    {
+      "id": "m3db51",
+      "front": "estoppel",
+      "back": "la forclusion, l'estoppel"
+    },
+    {
+      "id": "h05jo8",
+      "front": "prima facie",
+      "back": "à première vue, de prime abord"
+    },
+    {
+      "id": "0rdtoe",
+      "front": "jurisprudence",
+      "back": "la théorie du droit, la jurisprudence"
+    },
+    {
+      "id": "01twsq",
+      "front": "mens rea",
+      "back": "l'élément intentionnel, l'intention coupable"
+    },
+    {
+      "id": "0nx19g",
+      "front": "actus reus",
+      "back": "l'élément matériel de l'infraction"
+    },
+    {
+      "id": "p9n2k9",
+      "front": "habeas corpus",
+      "back": "l'habeas corpus"
+    },
+    {
+      "id": "bs5ds6",
+      "front": "ultra vires",
+      "back": "au-delà de ses pouvoirs"
+    },
+    {
+      "id": "8dn165",
+      "front": "intra vires",
+      "back": "dans les limites de ses pouvoirs"
+    },
+    {
+      "id": "h3zaff",
+      "front": "res judicata",
+      "back": "la chose jugée"
+    },
+    {
+      "id": "j2n653",
+      "front": "stare decisis",
+      "back": "la règle du précédent"
+    },
+    {
+      "id": "7emh71",
+      "front": "obiter dictum",
+      "back": "un obiter dictum, une remarque incidente"
+    },
+    {
+      "id": "e31v0x",
+      "front": "ratio decidendi",
+      "back": "le motif déterminant de la décision"
+    },
+    {
+      "id": "dg0k2q",
+      "front": "a writ",
+      "back": "un bref, une assignation"
+    },
+    {
+      "id": "x7fw5q",
+      "front": "a summons",
+      "back": "une citation à comparaître"
+    },
+    {
+      "id": "byizqg",
+      "front": "a plaint",
+      "back": "une plainte, une requête introductive"
+    },
+    {
+      "id": "i7okbx",
+      "front": "pleadings",
+      "back": "les conclusions, les écritures"
+    },
+    {
+      "id": "d9yt3k",
+      "front": "a demurrer",
+      "back": "une exception d'irrecevabilité"
+    },
+    {
+      "id": "sz8vm6",
+      "front": "a rejoinder",
+      "back": "une réplique, une duplique"
+    },
+    {
+      "id": "5zsivd",
+      "front": "laches",
+      "back": "la négligence fautive du demandeur"
+    },
+    {
+      "id": "lalkpl",
+      "front": "equitable relief",
+      "back": "une mesure d'équité, une réparation en equity"
+    },
+    {
+      "id": "yx465a",
+      "front": "specific performance",
+      "back": "l'exécution en nature"
+    },
+    {
+      "id": "ks16ie",
+      "front": "a lien",
+      "back": "un privilège, un droit de rétention"
+    },
+    {
+      "id": "ngk44l",
+      "front": "a mortgage",
+      "back": "une hypothèque"
+    },
+    {
+      "id": "acb36r",
+      "front": "a charge",
+      "back": "une sûreté, un nantissement"
+    },
+    {
+      "id": "h3jgei",
+      "front": "a restrictive covenant",
+      "back": "une clause restrictive de propriété"
+    },
+    {
+      "id": "mqcbji",
+      "front": "a chattel",
+      "back": "un bien meuble"
+    },
+    {
+      "id": "vixbzw",
+      "front": "real property",
+      "back": "les biens immobiliers"
+    },
+    {
+      "id": "clhvc4",
+      "front": "a freehold",
+      "back": "la pleine propriété"
+    },
+    {
+      "id": "e2s04y",
+      "front": "a leasehold",
+      "back": "un bail emphytéotique, la propriété à bail"
+    },
+    {
+      "id": "4ci8eq",
+      "front": "an easement",
+      "back": "une servitude"
+    },
+    {
+      "id": "2xksww",
+      "front": "a conveyance",
+      "back": "un acte de transfert de propriété"
+    },
+    {
+      "id": "jd3nnr",
+      "front": "a bequest",
+      "back": "un legs"
+    },
+    {
+      "id": "7pzbsp",
+      "front": "a devise",
+      "back": "un legs immobilier"
+    },
+    {
+      "id": "7udem2",
+      "front": "an executor",
+      "back": "un exécuteur testamentaire"
+    },
+    {
+      "id": "0nwpkq",
+      "front": "probate",
+      "back": "l'homologation d'un testament"
+    },
+    {
+      "id": "sbqd54",
+      "front": "intestacy",
+      "back": "la succession ab intestat"
+    },
+    {
+      "id": "y8pkyj",
+      "front": "a trust",
+      "back": "une fiducie, un trust"
+    },
+    {
+      "id": "l640uo",
+      "front": "a trustee",
+      "back": "un fiduciaire, un administrateur"
+    },
+    {
+      "id": "8mmjao",
+      "front": "a beneficiary",
+      "back": "un bénéficiaire"
+    },
+    {
+      "id": "jiikwv",
+      "front": "a settlor",
+      "back": "un constituant de fiducie"
+    },
+    {
+      "id": "nrgvg1",
+      "front": "a power of attorney",
+      "back": "une procuration"
+    },
+    {
+      "id": "8cmobt",
+      "front": "an indemnity",
+      "back": "une indemnité, une garantie"
+    },
+    {
+      "id": "vbtdlk",
+      "front": "a guarantor",
+      "back": "une caution, un garant"
+    },
+    {
+      "id": "xdzcii",
+      "front": "a surety",
+      "back": "une caution"
+    },
+    {
+      "id": "ti6ho0",
+      "front": "a bailment",
+      "back": "un dépôt, une remise de bien"
+    },
+    {
+      "id": "6bm9bk",
+      "front": "consideration",
+      "back": "la contrepartie contractuelle"
+    },
+    {
+      "id": "ghhn7g",
+      "front": "a breach of contract",
+      "back": "une rupture de contrat"
+    },
+    {
+      "id": "j4du25",
+      "front": "rescission",
+      "back": "la résiliation, la résolution"
+    },
+    {
+      "id": "1nwnv9",
+      "front": "repudiation",
+      "back": "la répudiation d'un contrat"
+    },
+    {
+      "id": "scntd9",
+      "front": "frustration of contract",
+      "back": "la caducité pour impossibilité d'exécution"
+    },
+    {
+      "id": "28mygg",
+      "front": "force majeure",
+      "back": "la force majeure"
+    },
+    {
+      "id": "g0cs6m",
+      "front": "duress",
+      "back": "la contrainte"
+    },
+    {
+      "id": "7cf3a1",
+      "front": "undue influence",
+      "back": "l'abus d'influence"
+    },
+    {
+      "id": "p32915",
+      "front": "misrepresentation",
+      "back": "une fausse déclaration, un dol"
+    },
+    {
+      "id": "cm1j9l",
+      "front": "fraud",
+      "back": "la fraude, le dol"
+    },
+    {
+      "id": "04g130",
+      "front": "negligence",
+      "back": "la négligence"
+    },
+    {
+      "id": "ozkzeo",
+      "front": "a duty of care",
+      "back": "une obligation de diligence"
+    },
+    {
+      "id": "tiqa8s",
+      "front": "foreseeability",
+      "back": "la prévisibilité du dommage"
+    },
+    {
+      "id": "ufij32",
+      "front": "causation",
+      "back": "le lien de causalité"
+    },
+    {
+      "id": "pwevd6",
+      "front": "proximate cause",
+      "back": "la cause immédiate"
+    },
+    {
+      "id": "ju74em",
+      "front": "contributory negligence",
+      "back": "la faute de la victime"
+    },
+    {
+      "id": "n5f8dr",
+      "front": "strict liability",
+      "back": "la responsabilité sans faute"
+    },
+    {
+      "id": "14zgzs",
+      "front": "vicarious liability",
+      "back": "la responsabilité du fait d'autrui"
+    },
+    {
+      "id": "70pztv",
+      "front": "joint and several liability",
+      "back": "la responsabilité solidaire"
+    },
+    {
+      "id": "7zkq4q",
+      "front": "a nuisance",
+      "back": "un trouble anormal de voisinage"
+    },
+    {
+      "id": "h5lstg",
+      "front": "trespass",
+      "back": "la violation de propriété"
+    },
+    {
+      "id": "c35d8i",
+      "front": "conversion",
+      "back": "l'appropriation illicite d'un bien"
+    },
+    {
+      "id": "j2dya2",
+      "front": "defamation",
+      "back": "la diffamation"
+    },
+    {
+      "id": "tpt7hy",
+      "front": "malice aforethought",
+      "back": "la préméditation criminelle"
+    },
+    {
+      "id": "dee415",
+      "front": "an accessory before the fact",
+      "back": "un complice par instigation"
+    },
+    {
+      "id": "9u5viw",
+      "front": "an abettor",
+      "back": "un instigateur, un complice"
+    },
+    {
+      "id": "8vr6j2",
+      "front": "to aid and abet",
+      "back": "se rendre complice de"
+    },
+    {
+      "id": "30m7eg",
+      "front": "entrapment",
+      "back": "la provocation policière"
+    },
+    {
+      "id": "hol51a",
+      "front": "double jeopardy",
+      "back": "la règle non bis in idem"
+    },
+    {
+      "id": "9j403z",
+      "front": "a nolle prosequi",
+      "back": "un abandon des poursuites"
+    },
+    {
+      "id": "aytwcg",
+      "front": "an amicus curiae",
+      "back": "un amicus curiae, un intervenant volontaire"
+    },
+    {
+      "id": "ef779f",
+      "front": "a moot point",
+      "back": "une question théorique, sans objet"
+    },
+    {
+      "id": "erla8u",
+      "front": "a chambers hearing",
+      "back": "une audience en cabinet"
+    },
+    {
+      "id": "0ad2jj",
+      "front": "in camera",
+      "back": "à huis clos"
+    },
+    {
+      "id": "pnzucq",
+      "front": "sub judice",
+      "back": "en cours d'instance"
+    },
+    {
+      "id": "twivfc",
+      "front": "a lis pendens",
+      "back": "une instance en cours"
+    },
+    {
+      "id": "tz72ps",
+      "front": "a caveat",
+      "back": "une mise en garde, une opposition"
+    },
+    {
+      "id": "tzzkw6",
+      "front": "a proviso",
+      "back": "une réserve, une clause conditionnelle"
+    },
+    {
+      "id": "879v4c",
+      "front": "a derogation",
+      "back": "une dérogation"
+    },
+    {
+      "id": "h99m6b",
+      "front": "a repeal clause",
+      "back": "une clause abrogatoire"
+    },
+    {
+      "id": "3wnoaf",
+      "front": "a saving clause",
+      "back": "une clause de sauvegarde"
+    },
+    {
+      "id": "78lgje",
+      "front": "a sunset clause",
+      "back": "une clause d'extinction"
+    },
+    {
+      "id": "8qqljn",
+      "front": "severability",
+      "back": "la divisibilité des clauses"
+    },
+    {
+      "id": "eghkea",
+      "front": "a codicil",
+      "back": "un codicille"
+    },
+    {
+      "id": "rdy7rg",
+      "front": "a deed",
+      "back": "un acte authentique, un acte scellé"
+    },
+    {
+      "id": "sgkbpw",
+      "front": "attestation",
+      "back": "l'attestation, la certification"
+    },
+    {
+      "id": "ateze3",
+      "front": "notarisation",
+      "back": "l'authentification notariale"
+    },
+    {
+      "id": "5dgge0",
+      "front": "a bailiff",
+      "back": "un huissier de justice"
+    },
+    {
+      "id": "gknxi7",
+      "front": "a receiver",
+      "back": "un administrateur judiciaire"
+    },
+    {
+      "id": "zpscsl",
+      "front": "liquidation",
+      "back": "la liquidation"
+    },
+    {
+      "id": "4nk48c",
+      "front": "a moratorium on claims",
+      "back": "un moratoire sur les créances"
+    },
+    {
+      "id": "rt5yrl",
+      "front": "a decree nisi",
+      "back": "un jugement de divorce provisoire"
+    },
+    {
+      "id": "43jo4s",
+      "front": "a decree absolute",
+      "back": "un jugement de divorce définitif"
+    },
+    {
+      "id": "px64l4",
+      "front": "recusal",
+      "back": "la récusation d'un juge"
+    }
+  ]
+}
