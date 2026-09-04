@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-business-1",
+  "name": "Business and Work 1",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "bffcf9",
+      "front": "a strategy",
+      "back": "une stratégie"
+    },
+    {
+      "id": "9c2qf1",
+      "front": "a road map",
+      "back": "une feuille de route"
+    },
+    {
+      "id": "ghyrae",
+      "front": "a remit",
+      "back": "une attribution, un mandat"
+    },
+    {
+      "id": "d3enkg",
+      "front": "a benchmark",
+      "back": "un point de référence, un étalon"
+    },
+    {
+      "id": "0nbilq",
+      "front": "a milestone",
+      "back": "un jalon, une étape clé"
+    },
+    {
+      "id": "tdq8h5",
+      "front": "a deliverable",
+      "back": "un livrable"
+    },
+    {
+      "id": "ugxzmy",
+      "front": "a rollout",
+      "back": "un déploiement"
+    },
+    {
+      "id": "4pwt14",
+      "front": "a pilot scheme",
+      "back": "un projet pilote"
+    },
+    {
+      "id": "ghxhir",
+      "front": "a proof of concept",
+      "back": "une validation de concept"
+    },
+    {
+      "id": "twesex",
+      "front": "scalability",
+      "back": "la capacité de montée en charge"
+    },
+    {
+      "id": "5eppw4",
+      "front": "a bottleneck in a process",
+      "back": "un goulet d'étranglement dans un processus"
+    },
+    {
+      "id": "9ldblx",
+      "front": "lean management",
+      "back": "la gestion allégée"
+    },
+    {
+      "id": "xpbxjf",
+      "front": "a workflow",
+      "back": "un flux de travail"
+    },
+    {
+      "id": "89bkfx",
+      "front": "a headcount",
+      "back": "un effectif"
+    },
+    {
+      "id": "hrvsoe",
+      "front": "a hiring freeze",
+      "back": "un gel des embauches"
+    },
+    {
+      "id": "lamgj4",
+      "front": "attrition of staff",
+      "back": "le départ naturel du personnel"
+    },
+    {
+      "id": "n6c6he",
+      "front": "redundancy",
+      "back": "un licenciement économique"
+    },
+    {
+      "id": "9xct37",
+      "front": "to lay off",
+      "back": "licencier (pour raisons économiques)"
+    },
+    {
+      "id": "2y9u4h",
+      "front": "a severance package",
+      "back": "des indemnités de départ"
+    },
+    {
+      "id": "54lx0o",
+      "front": "a golden handshake",
+      "back": "une prime de départ dorée"
+    },
+    {
+      "id": "q6p2pj",
+      "front": "a golden parachute",
+      "back": "un parachute doré"
+    },
+    {
+      "id": "hn94ds",
+      "front": "a non-compete clause",
+      "back": "une clause de non-concurrence"
+    },
+    {
+      "id": "hbl85l",
+      "front": "a notice period",
+      "back": "un préavis"
+    },
+    {
+      "id": "lcpr09",
+      "front": "onboarding",
+      "back": "l'intégration d'un nouvel employé"
+    },
+    {
+      "id": "squpro",
+      "front": "a probationary period",
+      "back": "une période d'essai"
+    },
+    {
+      "id": "yyapvw",
+      "front": "an appraisal",
+      "back": "un entretien d'évaluation"
+    },
+    {
+      "id": "mf4kt8",
+      "front": "a performance review",
+      "back": "un bilan de performance"
+    },
+    {
+      "id": "xgklc9",
+      "front": "key performance indicators",
+      "back": "des indicateurs clés de performance"
+    },
+    {
+      "id": "lhh5lz",
+      "front": "a target",
+      "back": "un objectif chiffré"
+    },
+    {
+      "id": "35aent",
+      "front": "an incentive",
+      "back": "une incitation, une prime"
+    },
+    {
+      "id": "iqmykx",
+      "front": "a bonus scheme",
+      "back": "un système de primes"
+    },
+    {
+      "id": "ot5e3m",
+      "front": "profit sharing",
+      "back": "l'intéressement aux bénéfices"
+    },
+    {
+      "id": "gzniu2",
+      "front": "a stock option",
+      "back": "une stock-option"
+    },
+    {
+      "id": "r7181f",
+      "front": "a perk",
+      "back": "un avantage en nature"
+    },
+    {
+      "id": "a56igt",
+      "front": "remuneration",
+      "back": "la rémunération"
+    },
+    {
+      "id": "t2f6ms",
+      "front": "a pay scale",
+      "back": "une grille salariale"
+    },
+    {
+      "id": "i3vycr",
+      "front": "a pay gap",
+      "back": "un écart de rémunération"
+    },
+    {
+      "id": "c1n80e",
+      "front": "a promotion",
+      "back": "une promotion"
+    },
+    {
+      "id": "xh5bb8",
+      "front": "a secondment",
+      "back": "un détachement"
+    },
+    {
+      "id": "g06r1b",
+      "front": "a career ladder",
+      "back": "une progression de carrière"
+    },
+    {
+      "id": "xu6uab",
+      "front": "a glass ceiling",
+      "back": "un plafond de verre"
+    },
+    {
+      "id": "94jxgp",
+      "front": "a line manager",
+      "back": "un supérieur hiérarchique direct"
+    },
+    {
+      "id": "ei4pd7",
+      "front": "middle management",
+      "back": "l'encadrement intermédiaire"
+    },
+    {
+      "id": "u38124",
+      "front": "a board of directors",
+      "back": "un conseil d'administration"
+    },
+    {
+      "id": "srb5pp",
+      "front": "a chief executive",
+      "back": "un directeur général"
+    },
+    {
+      "id": "fzuyzy",
+      "front": "a chair",
+      "back": "un président du conseil"
+    },
+    {
+      "id": "tifoka",
+      "front": "a stakeholder meeting",
+      "back": "une réunion des parties prenantes"
+    },
+    {
+      "id": "dl1z9o",
+      "front": "corporate governance",
+      "back": "la gouvernance d'entreprise"
+    },
+    {
+      "id": "aazv9b",
+      "front": "a shareholder meeting",
+      "back": "une assemblée générale"
+    },
+    {
+      "id": "o2u6zp",
+      "front": "an annual report",
+      "back": "un rapport annuel"
+    },
+    {
+      "id": "rhdjts",
+      "front": "a mission statement",
+      "back": "une déclaration de mission"
+    },
+    {
+      "id": "3zgbd8",
+      "front": "corporate culture",
+      "back": "la culture d'entreprise"
+    },
+    {
+      "id": "75ivva",
+      "front": "a corporate social responsibility policy",
+      "back": "une politique de responsabilité sociale"
+    },
+    {
+      "id": "85fvpx",
+      "front": "a code of conduct",
+      "back": "un code de conduite"
+    },
+    {
+      "id": "ia2unt",
+      "front": "compliance",
+      "back": "la conformité réglementaire"
+    },
+    {
+      "id": "g3nex0",
+      "front": "a whistleblowing policy",
+      "back": "un dispositif d'alerte interne"
+    },
+    {
+      "id": "uhac7f",
+      "front": "a rebrand",
+      "back": "un changement d'image de marque"
+    },
+    {
+      "id": "awyvsx",
+      "front": "brand equity",
+      "back": "la valeur de la marque"
+    },
+    {
+      "id": "qxppx2",
+      "front": "market share",
+      "back": "la part de marché"
+    },
+    {
+      "id": "fj4l11",
+      "front": "a niche market",
+      "back": "un marché de niche"
+    },
+    {
+      "id": "nglwck",
+      "front": "a target audience",
+      "back": "un public cible"
+    },
+    {
+      "id": "pa590d",
+      "front": "a value proposition",
+      "back": "une proposition de valeur"
+    },
+    {
+      "id": "rdw3rs",
+      "front": "a competitive advantage",
+      "back": "un avantage concurrentiel"
+    },
+    {
+      "id": "77qzol",
+      "front": "a barrier to entry",
+      "back": "une barrière à l'entrée"
+    },
+    {
+      "id": "5j1ozs",
+      "front": "a first-mover advantage",
+      "back": "un avantage au premier entrant"
+    },
+    {
+      "id": "vlbr5v",
+      "front": "disruption",
+      "back": "la disruption, le bouleversement du marché"
+    },
+    {
+      "id": "114lj1",
+      "front": "a legacy system",
+      "back": "un système hérité, obsolète"
+    },
+    {
+      "id": "r7yjvd",
+      "front": "a turnaround",
+      "back": "un redressement d'entreprise"
+    },
+    {
+      "id": "l1z9yy",
+      "front": "a restructuring plan",
+      "back": "un plan de restructuration"
+    },
+    {
+      "id": "6vc2d9",
+      "front": "downsizing",
+      "back": "la réduction d'effectifs"
+    },
+    {
+      "id": "28wv91",
+      "front": "a spin-off",
+      "back": "une filiale essaimée"
+    },
+    {
+      "id": "b6f3q6",
+      "front": "a subsidiary",
+      "back": "une filiale"
+    },
+    {
+      "id": "eiknz8",
+      "front": "a joint venture",
+      "back": "une coentreprise"
+    },
+    {
+      "id": "kkhfxf",
+      "front": "a franchise agreement",
+      "back": "un contrat de franchise"
+    },
+    {
+      "id": "15a9d8",
+      "front": "a licensing deal",
+      "back": "un accord de licence"
+    },
+    {
+      "id": "tfdryg",
+      "front": "a distribution channel",
+      "back": "un canal de distribution"
+    },
+    {
+      "id": "n43ux0",
+      "front": "a supplier",
+      "back": "un fournisseur"
+    },
+    {
+      "id": "ml5ytl",
+      "front": "procurement",
+      "back": "les achats, l'approvisionnement"
+    },
+    {
+      "id": "wqk4m2",
+      "front": "a tender",
+      "back": "un appel d'offres"
+    },
+    {
+      "id": "350iuw",
+      "front": "a bid",
+      "back": "une offre, une soumission"
+    },
+    {
+      "id": "in2l8h",
+      "front": "an invoice",
+      "back": "une facture"
+    },
+    {
+      "id": "t0jtiw",
+      "front": "a purchase order",
+      "back": "un bon de commande"
+    },
+    {
+      "id": "xsxlnr",
+      "front": "a service level agreement",
+      "back": "un accord de niveau de service"
+    },
+    {
+      "id": "8sini4",
+      "front": "a retainer",
+      "back": "des honoraires forfaitaires"
+    },
+    {
+      "id": "x8nz0b",
+      "front": "a mark-up",
+      "back": "une marge commerciale"
+    },
+    {
+      "id": "wvus88",
+      "front": "a profit margin",
+      "back": "une marge bénéficiaire"
+    },
+    {
+      "id": "nby18d",
+      "front": "a break-even point",
+      "back": "un seuil de rentabilité"
+    },
+    {
+      "id": "0phdfv",
+      "front": "a cash flow",
+      "back": "un flux de trésorerie"
+    },
+    {
+      "id": "oepw3x",
+      "front": "working capital",
+      "back": "le fonds de roulement"
+    },
+    {
+      "id": "512vhc",
+      "front": "a forecast",
+      "back": "une prévision"
+    },
+    {
+      "id": "8t71lb",
+      "front": "a budget overrun",
+      "back": "un dépassement budgétaire"
+    },
+    {
+      "id": "otphwu",
+      "front": "a contingency",
+      "back": "une provision pour imprévus"
+    },
+    {
+      "id": "0cu4zp",
+      "front": "to negotiate in good faith",
+      "back": "négocier de bonne foi"
+    },
+    {
+      "id": "iu6bu3",
+      "front": "a sticking point",
+      "back": "un point de blocage"
+    },
+    {
+      "id": "2tdcwd",
+      "front": "a concession",
+      "back": "une concession"
+    },
+    {
+      "id": "av70pl",
+      "front": "a deadlock",
+      "back": "une impasse"
+    },
+    {
+      "id": "4vdulo",
+      "front": "to broker a deal",
+      "back": "négocier un accord"
+    },
+    {
+      "id": "j51kus",
+      "front": "a memorandum of understanding",
+      "back": "un protocole d'accord"
+    },
+    {
+      "id": "cz2vl4",
+      "front": "to sign off on",
+      "back": "approuver, valider"
+    },
+    {
+      "id": "d729gc",
+      "front": "a handover",
+      "back": "une passation, un transfert de dossier"
+    }
+  ]
+}
