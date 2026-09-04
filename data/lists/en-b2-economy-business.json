@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-economy-business",
+  "name": "Economy and Business",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "80a40f",
+      "front": "the economy",
+      "back": "l'économie"
+    },
+    {
+      "id": "239bc7",
+      "front": "economics",
+      "back": "les sciences économiques"
+    },
+    {
+      "id": "23e69f",
+      "front": "an economist",
+      "back": "un économiste"
+    },
+    {
+      "id": "452b10",
+      "front": "growth",
+      "back": "la croissance"
+    },
+    {
+      "id": "7d0efd",
+      "front": "a recession",
+      "back": "une récession"
+    },
+    {
+      "id": "352bd7",
+      "front": "a slump",
+      "back": "un effondrement, un marasme"
+    },
+    {
+      "id": "ecd6e4",
+      "front": "a downturn",
+      "back": "un ralentissement"
+    },
+    {
+      "id": "b60e88",
+      "front": "a recovery",
+      "back": "une reprise"
+    },
+    {
+      "id": "499220",
+      "front": "a boom",
+      "back": "un essor, un boom"
+    },
+    {
+      "id": "70364e",
+      "front": "the business cycle",
+      "back": "le cycle économique"
+    },
+    {
+      "id": "66f3d6",
+      "front": "gross domestic product",
+      "back": "le produit intérieur brut"
+    },
+    {
+      "id": "ddc7d0",
+      "front": "output",
+      "back": "la production"
+    },
+    {
+      "id": "a91999",
+      "front": "productivity",
+      "back": "la productivité"
+    },
+    {
+      "id": "996001",
+      "front": "supply",
+      "back": "l'offre"
+    },
+    {
+      "id": "7f14ea",
+      "front": "demand",
+      "back": "la demande"
+    },
+    {
+      "id": "ae744a",
+      "front": "a shortage",
+      "back": "une pénurie"
+    },
+    {
+      "id": "9050b4",
+      "front": "a surplus",
+      "back": "un excédent"
+    },
+    {
+      "id": "7a2b8d",
+      "front": "a deficit",
+      "back": "un déficit"
+    },
+    {
+      "id": "05316c",
+      "front": "the trade balance",
+      "back": "la balance commerciale"
+    },
+    {
+      "id": "e922a8",
+      "front": "exports",
+      "back": "les exportations"
+    },
+    {
+      "id": "f8559e",
+      "front": "imports",
+      "back": "les importations"
+    },
+    {
+      "id": "e36817",
+      "front": "a tariff",
+      "back": "un droit de douane"
+    },
+    {
+      "id": "730f85",
+      "front": "a quota",
+      "back": "un quota"
+    },
+    {
+      "id": "eca084",
+      "front": "free trade",
+      "back": "le libre-échange"
+    },
+    {
+      "id": "a041ff",
+      "front": "protectionism",
+      "back": "le protectionnisme"
+    },
+    {
+      "id": "099dac",
+      "front": "an embargo",
+      "back": "un embargo"
+    },
+    {
+      "id": "d87d26",
+      "front": "inflation",
+      "back": "l'inflation"
+    },
+    {
+      "id": "2cfce6",
+      "front": "deflation",
+      "back": "la déflation"
+    },
+    {
+      "id": "aaf8b1",
+      "front": "the cost of living",
+      "back": "le coût de la vie"
+    },
+    {
+      "id": "beb97a",
+      "front": "purchasing power",
+      "back": "le pouvoir d'achat"
+    },
+    {
+      "id": "ffbb90",
+      "front": "a market",
+      "back": "un marché"
+    },
+    {
+      "id": "897e6a",
+      "front": "market share",
+      "back": "la part de marché"
+    },
+    {
+      "id": "568ea2",
+      "front": "a competitor",
+      "back": "un concurrent"
+    },
+    {
+      "id": "c36c8c",
+      "front": "competition",
+      "back": "la concurrence"
+    },
+    {
+      "id": "ab761b",
+      "front": "a monopoly",
+      "back": "un monopole"
+    },
+    {
+      "id": "f6d042",
+      "front": "a merger",
+      "back": "une fusion"
+    },
+    {
+      "id": "5d7116",
+      "front": "a takeover",
+      "back": "un rachat, une OPA"
+    },
+    {
+      "id": "1baff5",
+      "front": "a subsidiary",
+      "back": "une filiale"
+    },
+    {
+      "id": "aa385c",
+      "front": "a shareholder",
+      "back": "un actionnaire"
+    },
+    {
+      "id": "9d8d01",
+      "front": "a stake",
+      "back": "une participation"
+    },
+    {
+      "id": "515d24",
+      "front": "a share",
+      "back": "une action"
+    },
+    {
+      "id": "2c2c46",
+      "front": "a bond",
+      "back": "une obligation"
+    },
+    {
+      "id": "ab4de0",
+      "front": "the stock exchange",
+      "back": "la bourse"
+    },
+    {
+      "id": "be634d",
+      "front": "a dividend",
+      "back": "un dividende"
+    },
+    {
+      "id": "fe6ad6",
+      "front": "a portfolio",
+      "back": "un portefeuille"
+    },
+    {
+      "id": "92741d",
+      "front": "an investor",
+      "back": "un investisseur"
+    },
+    {
+      "id": "479c4b",
+      "front": "to invest",
+      "back": "investir"
+    },
+    {
+      "id": "58bf2a",
+      "front": "investment",
+      "back": "l'investissement"
+    },
+    {
+      "id": "dd9166",
+      "front": "capital",
+      "back": "le capital"
+    },
+    {
+      "id": "fdebe0",
+      "front": "turnover",
+      "back": "le chiffre d'affaires"
+    },
+    {
+      "id": "cf1341",
+      "front": "revenue",
+      "back": "les recettes, le revenu"
+    },
+    {
+      "id": "aa5653",
+      "front": "profit",
+      "back": "le bénéfice"
+    },
+    {
+      "id": "3c4b17",
+      "front": "a loss",
+      "back": "une perte"
+    },
+    {
+      "id": "6d5f9c",
+      "front": "a margin",
+      "back": "une marge"
+    },
+    {
+      "id": "a8bc4d",
+      "front": "overheads",
+      "back": "les frais généraux"
+    },
+    {
+      "id": "6e2692",
+      "front": "a budget",
+      "back": "un budget"
+    },
+    {
+      "id": "8d9888",
+      "front": "to break even",
+      "back": "atteindre le seuil de rentabilité"
+    },
+    {
+      "id": "1e0f58",
+      "front": "bankruptcy",
+      "back": "la faillite"
+    },
+    {
+      "id": "0a6647",
+      "front": "to go bankrupt",
+      "back": "faire faillite"
+    },
+    {
+      "id": "56f12f",
+      "front": "insolvency",
+      "back": "l'insolvabilité"
+    },
+    {
+      "id": "2270e0",
+      "front": "a bailout",
+      "back": "un renflouement"
+    },
+    {
+      "id": "620a0d",
+      "front": "a subsidy",
+      "back": "une subvention"
+    },
+    {
+      "id": "bf4101",
+      "front": "a loan",
+      "back": "un prêt"
+    },
+    {
+      "id": "eeb5bf",
+      "front": "a mortgage",
+      "back": "un crédit immobilier"
+    },
+    {
+      "id": "551388",
+      "front": "interest",
+      "back": "les intérêts"
+    },
+    {
+      "id": "7f7212",
+      "front": "an interest rate",
+      "back": "un taux d'intérêt"
+    },
+    {
+      "id": "440bda",
+      "front": "debt",
+      "back": "la dette"
+    },
+    {
+      "id": "8866bb",
+      "front": "the national debt",
+      "back": "la dette publique"
+    },
+    {
+      "id": "9f8e8f",
+      "front": "credit",
+      "back": "le crédit"
+    },
+    {
+      "id": "eb665d",
+      "front": "a creditor",
+      "back": "un créancier"
+    },
+    {
+      "id": "6a9dea",
+      "front": "a debtor",
+      "back": "un débiteur"
+    },
+    {
+      "id": "ee6bf2",
+      "front": "a central bank",
+      "back": "une banque centrale"
+    },
+    {
+      "id": "0f08d0",
+      "front": "monetary policy",
+      "back": "la politique monétaire"
+    },
+    {
+      "id": "218087",
+      "front": "fiscal policy",
+      "back": "la politique budgétaire"
+    },
+    {
+      "id": "1330cb",
+      "front": "taxation",
+      "back": "la fiscalité"
+    },
+    {
+      "id": "461893",
+      "front": "a taxpayer",
+      "back": "un contribuable"
+    },
+    {
+      "id": "f2a2f2",
+      "front": "income tax",
+      "back": "l'impôt sur le revenu"
+    },
+    {
+      "id": "134151",
+      "front": "value added tax",
+      "back": "la taxe sur la valeur ajoutée"
+    },
+    {
+      "id": "035681",
+      "front": "a tax haven",
+      "back": "un paradis fiscal"
+    },
+    {
+      "id": "d99e11",
+      "front": "tax evasion",
+      "back": "la fraude fiscale"
+    },
+    {
+      "id": "0d2dc8",
+      "front": "public spending",
+      "back": "les dépenses publiques"
+    },
+    {
+      "id": "e85692",
+      "front": "austerity",
+      "back": "l'austérité"
+    },
+    {
+      "id": "ddae01",
+      "front": "a currency",
+      "back": "une monnaie, une devise"
+    },
+    {
+      "id": "483df0",
+      "front": "an exchange rate",
+      "back": "un taux de change"
+    },
+    {
+      "id": "03cadc",
+      "front": "to devalue",
+      "back": "dévaluer"
+    },
+    {
+      "id": "a84962",
+      "front": "speculation",
+      "back": "la spéculation"
+    },
+    {
+      "id": "38d55d",
+      "front": "a bubble",
+      "back": "une bulle"
+    },
+    {
+      "id": "4fe3b6",
+      "front": "a crash",
+      "back": "un krach"
+    },
+    {
+      "id": "06b492",
+      "front": "a firm",
+      "back": "une entreprise, une société"
+    },
+    {
+      "id": "aa12a8",
+      "front": "a corporation",
+      "back": "une grande entreprise"
+    },
+    {
+      "id": "76bc2a",
+      "front": "a start-up",
+      "back": "une jeune pousse"
+    },
+    {
+      "id": "4c036f",
+      "front": "an entrepreneur",
+      "back": "un entrepreneur"
+    },
+    {
+      "id": "008df6",
+      "front": "a stakeholder",
+      "back": "une partie prenante"
+    },
+    {
+      "id": "b63bdc",
+      "front": "a supplier",
+      "back": "un fournisseur"
+    },
+    {
+      "id": "274243",
+      "front": "a supply chain",
+      "back": "une chaîne d'approvisionnement"
+    },
+    {
+      "id": "21867e",
+      "front": "a consumer",
+      "back": "un consommateur"
+    },
+    {
+      "id": "e1f044",
+      "front": "a retailer",
+      "back": "un détaillant"
+    },
+    {
+      "id": "133da2",
+      "front": "outsourcing",
+      "back": "l'externalisation"
+    },
+    {
+      "id": "76e4a4",
+      "front": "to deregulate",
+      "back": "déréglementer"
+    },
+    {
+      "id": "233a21",
+      "front": "privatisation",
+      "back": "la privatisation"
+    }
+  ]
+}
