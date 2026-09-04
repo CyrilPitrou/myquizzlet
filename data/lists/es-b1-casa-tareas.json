@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-casa-tareas",
+  "name": "La casa y las tareas",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "g1nnsq",
+      "front": "la casa",
+      "back": "la maison"
+    },
+    {
+      "id": "gjl1zq",
+      "front": "el piso",
+      "back": "l'appartement"
+    },
+    {
+      "id": "uboglf",
+      "front": "el apartamento",
+      "back": "l'appartement"
+    },
+    {
+      "id": "1fqc3k",
+      "front": "el edificio",
+      "back": "l'immeuble"
+    },
+    {
+      "id": "bpfs2r",
+      "front": "la vivienda",
+      "back": "le logement"
+    },
+    {
+      "id": "27bkxe",
+      "front": "el chalet",
+      "back": "le pavillon, la villa"
+    },
+    {
+      "id": "7dnv71",
+      "front": "la planta",
+      "back": "l'étage"
+    },
+    {
+      "id": "hhesas",
+      "front": "la planta baja",
+      "back": "le rez-de-chaussée"
+    },
+    {
+      "id": "yr8vu3",
+      "front": "el sótano",
+      "back": "le sous-sol"
+    },
+    {
+      "id": "49pjsf",
+      "front": "el ático",
+      "back": "les combles, le dernier étage"
+    },
+    {
+      "id": "klwak9",
+      "front": "el tejado",
+      "back": "le toit"
+    },
+    {
+      "id": "pl987q",
+      "front": "la fachada",
+      "back": "la façade"
+    },
+    {
+      "id": "63k8n2",
+      "front": "la pared",
+      "back": "le mur"
+    },
+    {
+      "id": "9guxhe",
+      "front": "el suelo",
+      "back": "le sol"
+    },
+    {
+      "id": "3s8ikj",
+      "front": "el techo",
+      "back": "le plafond"
+    },
+    {
+      "id": "99xdum",
+      "front": "la puerta",
+      "back": "la porte"
+    },
+    {
+      "id": "b7f6hb",
+      "front": "la ventana",
+      "back": "la fenêtre"
+    },
+    {
+      "id": "rc9p6l",
+      "front": "la persiana",
+      "back": "le volet roulant"
+    },
+    {
+      "id": "bokjye",
+      "front": "la cortina",
+      "back": "le rideau"
+    },
+    {
+      "id": "7wylkx",
+      "front": "la escalera",
+      "back": "l'escalier"
+    },
+    {
+      "id": "nhhj30",
+      "front": "el ascensor",
+      "back": "l'ascenseur"
+    },
+    {
+      "id": "hosrsk",
+      "front": "el pasillo",
+      "back": "le couloir"
+    },
+    {
+      "id": "eyh66e",
+      "front": "la entrada",
+      "back": "l'entrée"
+    },
+    {
+      "id": "n840e5",
+      "front": "el salón",
+      "back": "le salon"
+    },
+    {
+      "id": "rdskf6",
+      "front": "el comedor",
+      "back": "la salle à manger"
+    },
+    {
+      "id": "02v9pj",
+      "front": "el dormitorio",
+      "back": "la chambre"
+    },
+    {
+      "id": "554rh5",
+      "front": "la cocina",
+      "back": "la cuisine"
+    },
+    {
+      "id": "u4hk2i",
+      "front": "el cuarto de baño",
+      "back": "la salle de bains"
+    },
+    {
+      "id": "odig7e",
+      "front": "el aseo",
+      "back": "les toilettes"
+    },
+    {
+      "id": "wj7x3k",
+      "front": "el despacho",
+      "back": "le bureau (pièce)"
+    },
+    {
+      "id": "v86vfz",
+      "front": "el trastero",
+      "back": "le débarras"
+    },
+    {
+      "id": "kv5svb",
+      "front": "el garaje",
+      "back": "le garage"
+    },
+    {
+      "id": "j19sly",
+      "front": "el jardín",
+      "back": "le jardin"
+    },
+    {
+      "id": "j4dvye",
+      "front": "la terraza",
+      "back": "la terrasse"
+    },
+    {
+      "id": "zqrm92",
+      "front": "el balcón",
+      "back": "le balcon"
+    },
+    {
+      "id": "zh41kt",
+      "front": "el patio",
+      "back": "la cour"
+    },
+    {
+      "id": "gwcfe2",
+      "front": "el mueble",
+      "back": "le meuble"
+    },
+    {
+      "id": "vvwavf",
+      "front": "la mesa",
+      "back": "la table"
+    },
+    {
+      "id": "b0jupn",
+      "front": "la silla",
+      "back": "la chaise"
+    },
+    {
+      "id": "hw67u4",
+      "front": "el sillón",
+      "back": "le fauteuil"
+    },
+    {
+      "id": "x9we03",
+      "front": "el sofá",
+      "back": "le canapé"
+    },
+    {
+      "id": "han1uk",
+      "front": "la cama",
+      "back": "le lit"
+    },
+    {
+      "id": "28sk56",
+      "front": "el colchón",
+      "back": "le matelas"
+    },
+    {
+      "id": "2cg17z",
+      "front": "la almohada",
+      "back": "l'oreiller"
+    },
+    {
+      "id": "kk5872",
+      "front": "la sábana",
+      "back": "le drap"
+    },
+    {
+      "id": "pn17wa",
+      "front": "la manta",
+      "back": "la couverture"
+    },
+    {
+      "id": "13tb8r",
+      "front": "el armario",
+      "back": "l'armoire"
+    },
+    {
+      "id": "5g8hf8",
+      "front": "el cajón",
+      "back": "le tiroir"
+    },
+    {
+      "id": "sj8jan",
+      "front": "la estantería",
+      "back": "l'étagère"
+    },
+    {
+      "id": "zsew20",
+      "front": "la lámpara",
+      "back": "la lampe"
+    },
+    {
+      "id": "re10di",
+      "front": "la bombilla",
+      "back": "l'ampoule"
+    },
+    {
+      "id": "m9occj",
+      "front": "el espejo",
+      "back": "le miroir"
+    },
+    {
+      "id": "ea38m7",
+      "front": "la alfombra",
+      "back": "le tapis"
+    },
+    {
+      "id": "4oeaeu",
+      "front": "el cuadro",
+      "back": "le tableau"
+    },
+    {
+      "id": "0bdk5r",
+      "front": "la nevera",
+      "back": "le réfrigérateur"
+    },
+    {
+      "id": "4uc9h4",
+      "front": "el congelador",
+      "back": "le congélateur"
+    },
+    {
+      "id": "gd5wd3",
+      "front": "el horno",
+      "back": "le four"
+    },
+    {
+      "id": "qa5wgx",
+      "front": "la lavadora",
+      "back": "le lave-linge"
+    },
+    {
+      "id": "ndldhs",
+      "front": "el lavavajillas",
+      "back": "le lave-vaisselle"
+    },
+    {
+      "id": "ce0d78",
+      "front": "la aspiradora",
+      "back": "l'aspirateur"
+    },
+    {
+      "id": "q4b5lv",
+      "front": "la plancha",
+      "back": "le fer à repasser"
+    },
+    {
+      "id": "ymg9c2",
+      "front": "el fregadero",
+      "back": "l'évier"
+    },
+    {
+      "id": "r7ha70",
+      "front": "el grifo",
+      "back": "le robinet"
+    },
+    {
+      "id": "heg6uo",
+      "front": "la ducha",
+      "back": "la douche"
+    },
+    {
+      "id": "lkgwjo",
+      "front": "la bañera",
+      "back": "la baignoire"
+    },
+    {
+      "id": "2nu2sj",
+      "front": "la toalla",
+      "back": "la serviette"
+    },
+    {
+      "id": "rj9586",
+      "front": "el jabón",
+      "back": "le savon"
+    },
+    {
+      "id": "oqrt6q",
+      "front": "la basura",
+      "back": "les ordures"
+    },
+    {
+      "id": "edamvp",
+      "front": "el cubo",
+      "back": "le seau"
+    },
+    {
+      "id": "vqn8jm",
+      "front": "la escoba",
+      "back": "le balai"
+    },
+    {
+      "id": "pptnh2",
+      "front": "el trapo",
+      "back": "le chiffon"
+    },
+    {
+      "id": "zy59pj",
+      "front": "la llave",
+      "back": "la clé"
+    },
+    {
+      "id": "2hw696",
+      "front": "la cerradura",
+      "back": "la serrure"
+    },
+    {
+      "id": "taugup",
+      "front": "el timbre",
+      "back": "la sonnette"
+    },
+    {
+      "id": "aoyzq7",
+      "front": "el enchufe",
+      "back": "la prise"
+    },
+    {
+      "id": "qnfo1c",
+      "front": "la calefacción",
+      "back": "le chauffage"
+    },
+    {
+      "id": "k78dgz",
+      "front": "el alquiler",
+      "back": "le loyer"
+    },
+    {
+      "id": "qgxze3",
+      "front": "el propietario",
+      "back": "le propriétaire"
+    },
+    {
+      "id": "mzg5jl",
+      "front": "el inquilino",
+      "back": "le locataire"
+    },
+    {
+      "id": "pe736j",
+      "front": "la mudanza",
+      "back": "le déménagement"
+    },
+    {
+      "id": "akqbfp",
+      "front": "la hipoteca",
+      "back": "le prêt immobilier"
+    },
+    {
+      "id": "4w1ivz",
+      "front": "la obra",
+      "back": "les travaux"
+    },
+    {
+      "id": "m4u1vl",
+      "front": "la avería",
+      "back": "la panne"
+    },
+    {
+      "id": "ri9dt1",
+      "front": "la fuga de agua",
+      "back": "la fuite d'eau"
+    },
+    {
+      "id": "8qr02u",
+      "front": "el fontanero",
+      "back": "le plombier"
+    },
+    {
+      "id": "eyzg6c",
+      "front": "el electricista",
+      "back": "l'électricien"
+    },
+    {
+      "id": "dhkjk6",
+      "front": "la tarea doméstica",
+      "back": "la tâche ménagère"
+    },
+    {
+      "id": "c50k1h",
+      "front": "limpiar",
+      "back": "nettoyer"
+    },
+    {
+      "id": "4yh2u6",
+      "front": "barrer",
+      "back": "balayer"
+    },
+    {
+      "id": "9gxbtn",
+      "front": "fregar",
+      "back": "laver (le sol, la vaisselle)"
+    },
+    {
+      "id": "vf0zvr",
+      "front": "ordenar",
+      "back": "ranger"
+    },
+    {
+      "id": "ui543p",
+      "front": "lavar",
+      "back": "laver"
+    },
+    {
+      "id": "a28n0p",
+      "front": "tender la ropa",
+      "back": "étendre le linge"
+    },
+    {
+      "id": "2ajzwp",
+      "front": "planchar",
+      "back": "repasser"
+    },
+    {
+      "id": "skpm96",
+      "front": "cocinar",
+      "back": "cuisiner"
+    },
+    {
+      "id": "rh9tpk",
+      "front": "mudarse",
+      "back": "déménager"
+    },
+    {
+      "id": "anid8d",
+      "front": "alquilar",
+      "back": "louer"
+    },
+    {
+      "id": "vyattl",
+      "front": "arreglar",
+      "back": "réparer, arranger"
+    },
+    {
+      "id": "gmgxsf",
+      "front": "colgar",
+      "back": "accrocher, suspendre"
+    },
+    {
+      "id": "ea0lt2",
+      "front": "amueblado",
+      "back": "meublé"
+    }
+  ]
+}
