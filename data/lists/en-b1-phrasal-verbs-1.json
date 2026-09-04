@@ -1,0 +1,412 @@
+{
+  "id": "en-b1-phrasal-verbs-1",
+  "name": "Phrasal Verbs 1",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "tmfgqq",
+      "front": "to get up early",
+      "back": "se lever tôt"
+    },
+    {
+      "id": "ndk2dw",
+      "front": "to wake somebody up",
+      "back": "réveiller quelqu'un"
+    },
+    {
+      "id": "dk6eke",
+      "front": "to get on a bus",
+      "back": "monter dans un bus"
+    },
+    {
+      "id": "m3eyhe",
+      "front": "to get off a train",
+      "back": "descendre d'un train"
+    },
+    {
+      "id": "i0wfow",
+      "front": "to get in a car",
+      "back": "monter dans une voiture"
+    },
+    {
+      "id": "19tfxk",
+      "front": "to get out of a car",
+      "back": "sortir d'une voiture"
+    },
+    {
+      "id": "i49mez",
+      "front": "to get back",
+      "back": "rentrer, revenir"
+    },
+    {
+      "id": "ul76fc",
+      "front": "to get along",
+      "back": "s'entendre"
+    },
+    {
+      "id": "p4zb5e",
+      "front": "to get over an illness",
+      "back": "se remettre d'une maladie"
+    },
+    {
+      "id": "j3s9js",
+      "front": "to give back a book",
+      "back": "rendre un livre"
+    },
+    {
+      "id": "fz8ctr",
+      "front": "to give in",
+      "back": "céder"
+    },
+    {
+      "id": "gp096j",
+      "front": "to give away",
+      "back": "donner, révéler"
+    },
+    {
+      "id": "sfkizd",
+      "front": "to give up smoking",
+      "back": "arrêter de fumer"
+    },
+    {
+      "id": "ftxsak",
+      "front": "to go away",
+      "back": "s'en aller"
+    },
+    {
+      "id": "kislmh",
+      "front": "to go back",
+      "back": "retourner"
+    },
+    {
+      "id": "k1lu2i",
+      "front": "to go on",
+      "back": "continuer"
+    },
+    {
+      "id": "p2fgba",
+      "front": "to go off",
+      "back": "partir, sonner, tourner"
+    },
+    {
+      "id": "f4lvfh",
+      "front": "to go through",
+      "back": "traverser, subir"
+    },
+    {
+      "id": "ibnzlh",
+      "front": "to take off a coat",
+      "back": "enlever un manteau"
+    },
+    {
+      "id": "2z5x74",
+      "front": "to take up a hobby",
+      "back": "se mettre à un loisir"
+    },
+    {
+      "id": "hs038v",
+      "front": "to take over",
+      "back": "reprendre, prendre le contrôle"
+    },
+    {
+      "id": "1bhcvo",
+      "front": "to take after",
+      "back": "tenir de, ressembler à"
+    },
+    {
+      "id": "jxvdg3",
+      "front": "to put on a jumper",
+      "back": "mettre un pull"
+    },
+    {
+      "id": "9osasa",
+      "front": "to put off",
+      "back": "reporter, dissuader"
+    },
+    {
+      "id": "l6bmni",
+      "front": "to put out a fire",
+      "back": "éteindre un feu"
+    },
+    {
+      "id": "1mgl7o",
+      "front": "to put up with",
+      "back": "supporter"
+    },
+    {
+      "id": "e9unwh",
+      "front": "to put away",
+      "back": "ranger"
+    },
+    {
+      "id": "bx85ua",
+      "front": "to look after a child",
+      "back": "s'occuper d'un enfant"
+    },
+    {
+      "id": "dxc2xa",
+      "front": "to look for a job",
+      "back": "chercher un emploi"
+    },
+    {
+      "id": "t1qawo",
+      "front": "to look forward to a trip",
+      "back": "attendre un voyage avec impatience"
+    },
+    {
+      "id": "ctymjl",
+      "front": "to look up a word",
+      "back": "chercher un mot"
+    },
+    {
+      "id": "4m7o78",
+      "front": "to look out",
+      "back": "faire attention"
+    },
+    {
+      "id": "5mwz6m",
+      "front": "to look up to",
+      "back": "admirer"
+    },
+    {
+      "id": "eyami6",
+      "front": "to come back",
+      "back": "revenir"
+    },
+    {
+      "id": "427ejb",
+      "front": "to come in",
+      "back": "entrer"
+    },
+    {
+      "id": "v2aljf",
+      "front": "to come across",
+      "back": "tomber sur"
+    },
+    {
+      "id": "9p6f86",
+      "front": "to come up with",
+      "back": "trouver, proposer"
+    },
+    {
+      "id": "xgvogq",
+      "front": "to turn on the light",
+      "back": "allumer la lumière"
+    },
+    {
+      "id": "wdtaga",
+      "front": "to turn off the tap",
+      "back": "fermer le robinet"
+    },
+    {
+      "id": "ca95xb",
+      "front": "to turn up",
+      "back": "arriver, monter le son"
+    },
+    {
+      "id": "s4isbw",
+      "front": "to turn down an offer",
+      "back": "refuser une offre"
+    },
+    {
+      "id": "tcbu3v",
+      "front": "to turn into",
+      "back": "se transformer en"
+    },
+    {
+      "id": "ulekm0",
+      "front": "to run away",
+      "back": "s'enfuir"
+    },
+    {
+      "id": "sphpdz",
+      "front": "to run into somebody",
+      "back": "tomber sur quelqu'un"
+    },
+    {
+      "id": "sszdg1",
+      "front": "to run out",
+      "back": "s'épuiser"
+    },
+    {
+      "id": "ja7ojw",
+      "front": "to break down",
+      "back": "tomber en panne"
+    },
+    {
+      "id": "03md3h",
+      "front": "to break in",
+      "back": "entrer par effraction"
+    },
+    {
+      "id": "em70wi",
+      "front": "to break out",
+      "back": "éclater, se déclarer"
+    },
+    {
+      "id": "oy4wli",
+      "front": "to bring up a subject",
+      "back": "aborder un sujet"
+    },
+    {
+      "id": "q9xd0y",
+      "front": "to bring back",
+      "back": "rapporter"
+    },
+    {
+      "id": "nqcwh3",
+      "front": "to call off",
+      "back": "annuler"
+    },
+    {
+      "id": "53o0kl",
+      "front": "to carry on",
+      "back": "poursuivre"
+    },
+    {
+      "id": "lua98u",
+      "front": "to carry out",
+      "back": "effectuer, mener à bien"
+    },
+    {
+      "id": "sun1fr",
+      "front": "to cut down on",
+      "back": "réduire"
+    },
+    {
+      "id": "gkzsfu",
+      "front": "to cut off",
+      "back": "couper, isoler"
+    },
+    {
+      "id": "phqk5f",
+      "front": "to fill in a form",
+      "back": "remplir un formulaire"
+    },
+    {
+      "id": "qq10ut",
+      "front": "to find out the truth",
+      "back": "découvrir la vérité"
+    },
+    {
+      "id": "0h29pu",
+      "front": "to hold on the line",
+      "back": "patienter au téléphone"
+    },
+    {
+      "id": "ume5si",
+      "front": "to keep up with",
+      "back": "suivre le rythme de"
+    },
+    {
+      "id": "g7x1yh",
+      "front": "to let down",
+      "back": "décevoir"
+    },
+    {
+      "id": "s7flz3",
+      "front": "to make out",
+      "back": "distinguer, comprendre"
+    },
+    {
+      "id": "op3jzp",
+      "front": "to make up a story",
+      "back": "inventer une histoire"
+    },
+    {
+      "id": "sckljw",
+      "front": "to pick up",
+      "back": "ramasser, aller chercher"
+    },
+    {
+      "id": "83ghkd",
+      "front": "to point out a mistake",
+      "back": "signaler une erreur"
+    },
+    {
+      "id": "sib9l1",
+      "front": "to set off on a trip",
+      "back": "partir en voyage"
+    },
+    {
+      "id": "n9uchd",
+      "front": "to set up a company",
+      "back": "créer une entreprise"
+    },
+    {
+      "id": "q5zbyj",
+      "front": "to show off",
+      "back": "frimer"
+    },
+    {
+      "id": "bdtj9o",
+      "front": "to sit down",
+      "back": "s'asseoir"
+    },
+    {
+      "id": "7s2jrr",
+      "front": "to stand up",
+      "back": "se lever"
+    },
+    {
+      "id": "sd2hpr",
+      "front": "to switch on",
+      "back": "mettre en marche"
+    },
+    {
+      "id": "yvar4a",
+      "front": "to switch off",
+      "back": "éteindre"
+    },
+    {
+      "id": "xisg3o",
+      "front": "to throw away",
+      "back": "jeter"
+    },
+    {
+      "id": "n189fr",
+      "front": "to try on a jacket",
+      "back": "essayer une veste"
+    },
+    {
+      "id": "q5sw1g",
+      "front": "to work out a problem",
+      "back": "résoudre un problème"
+    },
+    {
+      "id": "cn24go",
+      "front": "to write down",
+      "back": "noter"
+    },
+    {
+      "id": "z0zz98",
+      "front": "to check out of a hotel",
+      "back": "quitter un hôtel"
+    },
+    {
+      "id": "cs2sp1",
+      "front": "to eat out",
+      "back": "manger au restaurant"
+    },
+    {
+      "id": "f42hkr",
+      "front": "to grow up in a town",
+      "back": "grandir dans une ville"
+    },
+    {
+      "id": "fk5lb9",
+      "front": "to hang on",
+      "back": "patienter"
+    },
+    {
+      "id": "eg7mfx",
+      "front": "to hurry up",
+      "back": "se dépêcher"
+    }
+  ]
+}
