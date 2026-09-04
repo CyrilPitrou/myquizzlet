@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-psychology",
+  "name": "Psychology and Mental Life",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "wjq8w1",
+      "front": "cognition",
+      "back": "la cognition"
+    },
+    {
+      "id": "pv0lml",
+      "front": "perception",
+      "back": "la perception"
+    },
+    {
+      "id": "6u6vhc",
+      "front": "attention",
+      "back": "l'attention"
+    },
+    {
+      "id": "jzlfqp",
+      "front": "working memory",
+      "back": "la mémoire de travail"
+    },
+    {
+      "id": "t0l2o0",
+      "front": "long-term memory",
+      "back": "la mémoire à long terme"
+    },
+    {
+      "id": "8aupeu",
+      "front": "episodic memory",
+      "back": "la mémoire épisodique"
+    },
+    {
+      "id": "itlcqw",
+      "front": "semantic memory",
+      "back": "la mémoire sémantique"
+    },
+    {
+      "id": "5e9dgc",
+      "front": "procedural memory",
+      "back": "la mémoire procédurale"
+    },
+    {
+      "id": "5v98ot",
+      "front": "recall",
+      "back": "le rappel, la remémoration"
+    },
+    {
+      "id": "iqruvz",
+      "front": "recognition of a stimulus",
+      "back": "la reconnaissance d'un stimulus"
+    },
+    {
+      "id": "qu8ef7",
+      "front": "encoding",
+      "back": "l'encodage"
+    },
+    {
+      "id": "s769st",
+      "front": "consolidation",
+      "back": "la consolidation"
+    },
+    {
+      "id": "g38xgu",
+      "front": "retrieval",
+      "back": "la récupération"
+    },
+    {
+      "id": "wk88qh",
+      "front": "priming",
+      "back": "l'amorçage"
+    },
+    {
+      "id": "50m4q4",
+      "front": "habituation",
+      "back": "l'habituation"
+    },
+    {
+      "id": "bb6oix",
+      "front": "classical conditioning",
+      "back": "le conditionnement classique"
+    },
+    {
+      "id": "aqmdy7",
+      "front": "reinforcement",
+      "back": "le renforcement"
+    },
+    {
+      "id": "vv2j0l",
+      "front": "extinction of a response",
+      "back": "l'extinction d'une réponse"
+    },
+    {
+      "id": "45k74d",
+      "front": "a stimulus",
+      "back": "un stimulus"
+    },
+    {
+      "id": "mbvlrr",
+      "front": "a response",
+      "back": "une réponse"
+    },
+    {
+      "id": "az6s40",
+      "front": "a drive",
+      "back": "une pulsion, un besoin"
+    },
+    {
+      "id": "yn8x5g",
+      "front": "an urge",
+      "back": "une envie irrépressible"
+    },
+    {
+      "id": "bo4pnu",
+      "front": "a compulsion",
+      "back": "une compulsion"
+    },
+    {
+      "id": "tb3a9b",
+      "front": "an obsession",
+      "back": "une obsession"
+    },
+    {
+      "id": "utt1fe",
+      "front": "an impulse",
+      "back": "une impulsion"
+    },
+    {
+      "id": "oq7w6h",
+      "front": "impulsivity",
+      "back": "l'impulsivité"
+    },
+    {
+      "id": "ongdme",
+      "front": "inhibition",
+      "back": "l'inhibition"
+    },
+    {
+      "id": "hkjecw",
+      "front": "self-regulation",
+      "back": "l'autorégulation"
+    },
+    {
+      "id": "tj0bui",
+      "front": "executive function",
+      "back": "les fonctions exécutives"
+    },
+    {
+      "id": "t6z7lc",
+      "front": "delayed gratification",
+      "back": "la gratification différée"
+    },
+    {
+      "id": "bgj1rg",
+      "front": "motivation",
+      "back": "la motivation"
+    },
+    {
+      "id": "s1xf3d",
+      "front": "intrinsic motivation",
+      "back": "la motivation intrinsèque"
+    },
+    {
+      "id": "wlg06p",
+      "front": "extrinsic motivation",
+      "back": "la motivation extrinsèque"
+    },
+    {
+      "id": "h596fm",
+      "front": "self-efficacy",
+      "back": "le sentiment d'efficacité personnelle"
+    },
+    {
+      "id": "51zesq",
+      "front": "locus of control",
+      "back": "le lieu de contrôle"
+    },
+    {
+      "id": "knfzx5",
+      "front": "learned helplessness",
+      "back": "la résignation apprise"
+    },
+    {
+      "id": "wcl6ea",
+      "front": "attribution",
+      "back": "l'attribution causale"
+    },
+    {
+      "id": "qv20e0",
+      "front": "a cognitive bias",
+      "back": "un biais cognitif"
+    },
+    {
+      "id": "8ilk1p",
+      "front": "confirmation bias",
+      "back": "le biais de confirmation"
+    },
+    {
+      "id": "m41bc0",
+      "front": "hindsight bias",
+      "back": "le biais rétrospectif"
+    },
+    {
+      "id": "see2s0",
+      "front": "anchoring",
+      "back": "l'ancrage"
+    },
+    {
+      "id": "2g97zk",
+      "front": "a framing effect",
+      "back": "un effet de cadrage"
+    },
+    {
+      "id": "bwjkpo",
+      "front": "availability heuristic",
+      "back": "l'heuristique de disponibilité"
+    },
+    {
+      "id": "zsdnk7",
+      "front": "cognitive dissonance",
+      "back": "la dissonance cognitive"
+    },
+    {
+      "id": "ampjbp",
+      "front": "rationalisation",
+      "back": "la rationalisation"
+    },
+    {
+      "id": "5xt9mu",
+      "front": "denial",
+      "back": "le déni"
+    },
+    {
+      "id": "yzgthg",
+      "front": "projection",
+      "back": "la projection"
+    },
+    {
+      "id": "4cloue",
+      "front": "displacement",
+      "back": "le déplacement"
+    },
+    {
+      "id": "1l2o17",
+      "front": "sublimation of a drive",
+      "back": "la sublimation d'une pulsion"
+    },
+    {
+      "id": "j6d54n",
+      "front": "repression",
+      "back": "le refoulement"
+    },
+    {
+      "id": "4ashk6",
+      "front": "regression to earlier behaviour",
+      "back": "la régression"
+    },
+    {
+      "id": "x0d774",
+      "front": "a defence mechanism",
+      "back": "un mécanisme de défense"
+    },
+    {
+      "id": "ksrmja",
+      "front": "the unconscious",
+      "back": "l'inconscient"
+    },
+    {
+      "id": "9gs8qy",
+      "front": "the subconscious",
+      "back": "le subconscient"
+    },
+    {
+      "id": "572ci9",
+      "front": "introspection",
+      "back": "l'introspection"
+    },
+    {
+      "id": "dkb4wj",
+      "front": "self-awareness",
+      "back": "la conscience de soi"
+    },
+    {
+      "id": "ylvnno",
+      "front": "a self-concept",
+      "back": "une image de soi"
+    },
+    {
+      "id": "3m5cp5",
+      "front": "self-esteem",
+      "back": "l'estime de soi"
+    },
+    {
+      "id": "iqelia",
+      "front": "identity formation",
+      "back": "la construction identitaire"
+    },
+    {
+      "id": "tlggvu",
+      "front": "an attachment style",
+      "back": "un style d'attachement"
+    },
+    {
+      "id": "ypphcu",
+      "front": "a secure attachment",
+      "back": "un attachement sécure"
+    },
+    {
+      "id": "ve9263",
+      "front": "separation anxiety",
+      "back": "l'angoisse de séparation"
+    },
+    {
+      "id": "76zfrv",
+      "front": "a developmental stage",
+      "back": "un stade de développement"
+    },
+    {
+      "id": "j3jsjv",
+      "front": "a critical period",
+      "back": "une période critique"
+    },
+    {
+      "id": "gq9jb7",
+      "front": "temperament",
+      "back": "le tempérament"
+    },
+    {
+      "id": "7gsb93",
+      "front": "a personality trait",
+      "back": "un trait de personnalité"
+    },
+    {
+      "id": "wrdrq0",
+      "front": "neuroticism",
+      "back": "le névrosisme"
+    },
+    {
+      "id": "x9w5aa",
+      "front": "extraversion",
+      "back": "l'extraversion"
+    },
+    {
+      "id": "wt7fo2",
+      "front": "introversion",
+      "back": "l'introversion"
+    },
+    {
+      "id": "d7dwis",
+      "front": "openness to experience",
+      "back": "l'ouverture à l'expérience"
+    },
+    {
+      "id": "4lp1nj",
+      "front": "agreeableness",
+      "back": "l'agréabilité"
+    },
+    {
+      "id": "0gijrj",
+      "front": "resilience of mind",
+      "back": "la résilience psychique"
+    },
+    {
+      "id": "xx6w86",
+      "front": "coping strategies",
+      "back": "les stratégies d'adaptation"
+    },
+    {
+      "id": "z35jtg",
+      "front": "stress",
+      "back": "le stress"
+    },
+    {
+      "id": "h3xr2c",
+      "front": "burnout of the mind",
+      "back": "l'épuisement psychique"
+    },
+    {
+      "id": "akkv39",
+      "front": "anxiety",
+      "back": "l'anxiété"
+    },
+    {
+      "id": "nro85n",
+      "front": "a panic attack",
+      "back": "une attaque de panique"
+    },
+    {
+      "id": "pp44w8",
+      "front": "a phobia",
+      "back": "une phobie"
+    },
+    {
+      "id": "gu8k5o",
+      "front": "depression",
+      "back": "la dépression"
+    },
+    {
+      "id": "v3qklb",
+      "front": "dysthymia",
+      "back": "la dysthymie"
+    },
+    {
+      "id": "mp1g0x",
+      "front": "anhedonia",
+      "back": "l'anhédonie"
+    },
+    {
+      "id": "r71737",
+      "front": "apathy",
+      "back": "l'apathie"
+    },
+    {
+      "id": "r0qcky",
+      "front": "mania",
+      "back": "la manie"
+    },
+    {
+      "id": "zeswy1",
+      "front": "a mood disorder",
+      "back": "un trouble de l'humeur"
+    },
+    {
+      "id": "m10ul0",
+      "front": "bipolar disorder",
+      "back": "le trouble bipolaire"
+    },
+    {
+      "id": "31jakw",
+      "front": "schizophrenia",
+      "back": "la schizophrénie"
+    },
+    {
+      "id": "x0v93o",
+      "front": "a delusion",
+      "back": "un délire, une idée délirante"
+    },
+    {
+      "id": "g3abl8",
+      "front": "a hallucination",
+      "back": "une hallucination"
+    },
+    {
+      "id": "7i68mb",
+      "front": "paranoia",
+      "back": "la paranoïa"
+    },
+    {
+      "id": "7lx3cx",
+      "front": "dissociation",
+      "back": "la dissociation"
+    },
+    {
+      "id": "q22iv4",
+      "front": "a trauma",
+      "back": "un traumatisme"
+    },
+    {
+      "id": "1cxso8",
+      "front": "post-traumatic stress",
+      "back": "le stress post-traumatique"
+    },
+    {
+      "id": "gmp1bx",
+      "front": "a trigger",
+      "back": "un élément déclencheur"
+    },
+    {
+      "id": "9fs8zr",
+      "front": "therapy",
+      "back": "la thérapie"
+    },
+    {
+      "id": "9s2pbx",
+      "front": "cognitive behavioural therapy",
+      "back": "la thérapie cognitivo-comportementale"
+    },
+    {
+      "id": "6wom3i",
+      "front": "psychoanalysis",
+      "back": "la psychanalyse"
+    },
+    {
+      "id": "of2695",
+      "front": "transference",
+      "back": "le transfert"
+    },
+    {
+      "id": "3k7zi5",
+      "front": "a counsellor",
+      "back": "un conseiller psychologique"
+    },
+    {
+      "id": "v4ozjx",
+      "front": "a clinical psychologist",
+      "back": "un psychologue clinicien"
+    },
+    {
+      "id": "09emsp",
+      "front": "a psychiatrist",
+      "back": "un psychiatre"
+    }
+  ]
+}
