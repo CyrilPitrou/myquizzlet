@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-time-calendar",
+  "name": "Time and the Calendar",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "iq7nx0",
+      "front": "time",
+      "back": "le temps"
+    },
+    {
+      "id": "i2gw7z",
+      "front": "a moment",
+      "back": "un moment"
+    },
+    {
+      "id": "gygtqk",
+      "front": "a second",
+      "back": "une seconde"
+    },
+    {
+      "id": "5fyou2",
+      "front": "a minute",
+      "back": "une minute"
+    },
+    {
+      "id": "ihyxxv",
+      "front": "an hour",
+      "back": "une heure"
+    },
+    {
+      "id": "isi7vt",
+      "front": "a quarter of an hour",
+      "back": "un quart d'heure"
+    },
+    {
+      "id": "g5g0gw",
+      "front": "half an hour",
+      "back": "une demi-heure"
+    },
+    {
+      "id": "e8elif",
+      "front": "a day",
+      "back": "un jour, une journée"
+    },
+    {
+      "id": "5tj32g",
+      "front": "a night",
+      "back": "une nuit"
+    },
+    {
+      "id": "gng9wp",
+      "front": "the morning",
+      "back": "le matin"
+    },
+    {
+      "id": "46013n",
+      "front": "the afternoon",
+      "back": "l'après-midi"
+    },
+    {
+      "id": "6qerrk",
+      "front": "the evening",
+      "back": "le soir"
+    },
+    {
+      "id": "3fvw0y",
+      "front": "midday",
+      "back": "midi"
+    },
+    {
+      "id": "q6nc1o",
+      "front": "midnight",
+      "back": "minuit"
+    },
+    {
+      "id": "bs6ek2",
+      "front": "dawn",
+      "back": "l'aube"
+    },
+    {
+      "id": "fkcui6",
+      "front": "sunrise",
+      "back": "le lever du soleil"
+    },
+    {
+      "id": "82bjzf",
+      "front": "sunset",
+      "back": "le coucher du soleil"
+    },
+    {
+      "id": "b7c8zu",
+      "front": "dusk",
+      "back": "le crépuscule"
+    },
+    {
+      "id": "4sdgj5",
+      "front": "a week",
+      "back": "une semaine"
+    },
+    {
+      "id": "o2g39n",
+      "front": "a fortnight",
+      "back": "une quinzaine de jours"
+    },
+    {
+      "id": "gzjtc6",
+      "front": "a weekend",
+      "back": "un week-end"
+    },
+    {
+      "id": "sbkien",
+      "front": "a month",
+      "back": "un mois"
+    },
+    {
+      "id": "xi2gia",
+      "front": "a year",
+      "back": "une année"
+    },
+    {
+      "id": "bmih60",
+      "front": "a decade",
+      "back": "une décennie"
+    },
+    {
+      "id": "2x51ow",
+      "front": "a century",
+      "back": "un siècle"
+    },
+    {
+      "id": "0unqvv",
+      "front": "a millennium",
+      "back": "un millénaire"
+    },
+    {
+      "id": "1qimyi",
+      "front": "an era",
+      "back": "une ère, une époque"
+    },
+    {
+      "id": "exb8em",
+      "front": "a period",
+      "back": "une période"
+    },
+    {
+      "id": "w5e4w7",
+      "front": "a stage",
+      "back": "une étape"
+    },
+    {
+      "id": "i84gbq",
+      "front": "a date",
+      "back": "une date"
+    },
+    {
+      "id": "4x683w",
+      "front": "a deadline for a task",
+      "back": "une date limite"
+    },
+    {
+      "id": "0qcbxo",
+      "front": "a delay of time",
+      "back": "un retard"
+    },
+    {
+      "id": "hkoqci",
+      "front": "a schedule",
+      "back": "un programme, un horaire"
+    },
+    {
+      "id": "pr2n4y",
+      "front": "a diary",
+      "back": "un agenda"
+    },
+    {
+      "id": "2ddhy0",
+      "front": "a calendar",
+      "back": "un calendrier"
+    },
+    {
+      "id": "kvucql",
+      "front": "a clock",
+      "back": "une horloge"
+    },
+    {
+      "id": "8vci5e",
+      "front": "a watch",
+      "back": "une montre"
+    },
+    {
+      "id": "waoofq",
+      "front": "an alarm clock",
+      "back": "un réveil"
+    },
+    {
+      "id": "vz1u3j",
+      "front": "a hand of a clock",
+      "back": "une aiguille"
+    },
+    {
+      "id": "q18uqh",
+      "front": "Monday",
+      "back": "lundi"
+    },
+    {
+      "id": "2ysuxe",
+      "front": "Tuesday",
+      "back": "mardi"
+    },
+    {
+      "id": "0e2d4g",
+      "front": "Wednesday",
+      "back": "mercredi"
+    },
+    {
+      "id": "6bq05f",
+      "front": "Thursday",
+      "back": "jeudi"
+    },
+    {
+      "id": "9vcaoj",
+      "front": "Friday",
+      "back": "vendredi"
+    },
+    {
+      "id": "z7i31c",
+      "front": "Saturday",
+      "back": "samedi"
+    },
+    {
+      "id": "v5a723",
+      "front": "Sunday",
+      "back": "dimanche"
+    },
+    {
+      "id": "ggibdm",
+      "front": "January",
+      "back": "janvier"
+    },
+    {
+      "id": "4vupg0",
+      "front": "February",
+      "back": "février"
+    },
+    {
+      "id": "fvj4lk",
+      "front": "March",
+      "back": "mars"
+    },
+    {
+      "id": "hu50lq",
+      "front": "April",
+      "back": "avril"
+    },
+    {
+      "id": "b4hmt1",
+      "front": "May",
+      "back": "mai"
+    },
+    {
+      "id": "2tqan1",
+      "front": "June",
+      "back": "juin"
+    },
+    {
+      "id": "5m6dc6",
+      "front": "July",
+      "back": "juillet"
+    },
+    {
+      "id": "rn6s7k",
+      "front": "August",
+      "back": "août"
+    },
+    {
+      "id": "5wfx1b",
+      "front": "September",
+      "back": "septembre"
+    },
+    {
+      "id": "jsw8q9",
+      "front": "October",
+      "back": "octobre"
+    },
+    {
+      "id": "nuy957",
+      "front": "November",
+      "back": "novembre"
+    },
+    {
+      "id": "bnn2wa",
+      "front": "December",
+      "back": "décembre"
+    },
+    {
+      "id": "086fmf",
+      "front": "a season",
+      "back": "une saison"
+    },
+    {
+      "id": "55j25a",
+      "front": "spring",
+      "back": "le printemps"
+    },
+    {
+      "id": "y3meql",
+      "front": "summer",
+      "back": "l'été"
+    },
+    {
+      "id": "k9xc51",
+      "front": "autumn",
+      "back": "l'automne"
+    },
+    {
+      "id": "gosq4i",
+      "front": "winter",
+      "back": "l'hiver"
+    },
+    {
+      "id": "mzktb1",
+      "front": "a festival",
+      "back": "une fête, un festival"
+    },
+    {
+      "id": "j3s4n9",
+      "front": "Christmas",
+      "back": "Noël"
+    },
+    {
+      "id": "l4tjid",
+      "front": "Easter",
+      "back": "Pâques"
+    },
+    {
+      "id": "0odfoc",
+      "front": "New Year",
+      "back": "le Nouvel An"
+    },
+    {
+      "id": "1m7okf",
+      "front": "a bank holiday",
+      "back": "un jour férié"
+    },
+    {
+      "id": "m3ev02",
+      "front": "an anniversary",
+      "back": "un anniversaire"
+    },
+    {
+      "id": "nl4v0a",
+      "front": "a celebration",
+      "back": "une célébration"
+    },
+    {
+      "id": "fmsbzt",
+      "front": "the past",
+      "back": "le passé"
+    },
+    {
+      "id": "0giohj",
+      "front": "the present",
+      "back": "le présent"
+    },
+    {
+      "id": "o6d5ti",
+      "front": "the future",
+      "back": "l'avenir, le futur"
+    },
+    {
+      "id": "uvttvl",
+      "front": "a habit",
+      "back": "une habitude"
+    },
+    {
+      "id": "v3ps8n",
+      "front": "a routine",
+      "back": "une routine"
+    },
+    {
+      "id": "578p0j",
+      "front": "a frequency",
+      "back": "une fréquence"
+    },
+    {
+      "id": "szll1c",
+      "front": "always",
+      "back": "toujours"
+    },
+    {
+      "id": "d7nqal",
+      "front": "often",
+      "back": "souvent"
+    },
+    {
+      "id": "s2cjyf",
+      "front": "sometimes",
+      "back": "parfois"
+    },
+    {
+      "id": "v4sosy",
+      "front": "rarely",
+      "back": "rarement"
+    },
+    {
+      "id": "2y00sz",
+      "front": "never",
+      "back": "jamais"
+    },
+    {
+      "id": "jxj155",
+      "front": "usually",
+      "back": "d'habitude"
+    },
+    {
+      "id": "rry0y0",
+      "front": "once",
+      "back": "une fois"
+    },
+    {
+      "id": "laczwm",
+      "front": "twice",
+      "back": "deux fois"
+    },
+    {
+      "id": "ukbgsw",
+      "front": "daily",
+      "back": "quotidien"
+    },
+    {
+      "id": "6b6kak",
+      "front": "weekly",
+      "back": "hebdomadaire"
+    },
+    {
+      "id": "0od4pw",
+      "front": "monthly",
+      "back": "mensuel"
+    },
+    {
+      "id": "3qee7o",
+      "front": "yearly",
+      "back": "annuel"
+    },
+    {
+      "id": "0482hc",
+      "front": "early",
+      "back": "tôt, en avance"
+    },
+    {
+      "id": "i364qj",
+      "front": "late",
+      "back": "tard, en retard"
+    },
+    {
+      "id": "l0kc0h",
+      "front": "soon",
+      "back": "bientôt"
+    },
+    {
+      "id": "ya7usp",
+      "front": "recently",
+      "back": "récemment"
+    },
+    {
+      "id": "ncl51u",
+      "front": "already",
+      "back": "déjà"
+    },
+    {
+      "id": "xaco6x",
+      "front": "still",
+      "back": "encore, toujours"
+    },
+    {
+      "id": "nbt89p",
+      "front": "yet",
+      "back": "encore, déjà"
+    },
+    {
+      "id": "noa3go",
+      "front": "meanwhile",
+      "back": "pendant ce temps"
+    },
+    {
+      "id": "c9wprc",
+      "front": "to last",
+      "back": "durer"
+    },
+    {
+      "id": "jstm30",
+      "front": "to spend time",
+      "back": "passer du temps"
+    },
+    {
+      "id": "57s3qq",
+      "front": "to waste time",
+      "back": "perdre son temps"
+    },
+    {
+      "id": "77xp7s",
+      "front": "to be on time",
+      "back": "être à l'heure"
+    }
+  ]
+}
