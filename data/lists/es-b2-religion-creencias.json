@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-religion-creencias",
+  "name": "La religión y las creencias",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "j41btp",
+      "front": "la religión",
+      "back": "la religion"
+    },
+    {
+      "id": "dkfoip",
+      "front": "la creencia",
+      "back": "la croyance"
+    },
+    {
+      "id": "tpb9nx",
+      "front": "la fe",
+      "back": "la foi"
+    },
+    {
+      "id": "e2z2y4",
+      "front": "la espiritualidad",
+      "back": "la spiritualité"
+    },
+    {
+      "id": "kovx45",
+      "front": "lo sagrado",
+      "back": "le sacré"
+    },
+    {
+      "id": "l5rij3",
+      "front": "lo profano",
+      "back": "le profane"
+    },
+    {
+      "id": "0nf59l",
+      "front": "la divinidad",
+      "back": "la divinité"
+    },
+    {
+      "id": "0kpls0",
+      "front": "el dios",
+      "back": "le dieu"
+    },
+    {
+      "id": "k8dp5e",
+      "front": "el culto",
+      "back": "le culte"
+    },
+    {
+      "id": "9i99hh",
+      "front": "el rito",
+      "back": "le rite"
+    },
+    {
+      "id": "ztiupw",
+      "front": "el ritual",
+      "back": "le rituel"
+    },
+    {
+      "id": "xbmvjg",
+      "front": "la ceremonia",
+      "back": "la cérémonie"
+    },
+    {
+      "id": "kp4wsq",
+      "front": "la liturgia",
+      "back": "la liturgie"
+    },
+    {
+      "id": "cfb3ys",
+      "front": "la misa",
+      "back": "la messe"
+    },
+    {
+      "id": "r1993c",
+      "front": "la oración",
+      "back": "la prière"
+    },
+    {
+      "id": "2kvh4h",
+      "front": "la plegaria",
+      "back": "la supplique"
+    },
+    {
+      "id": "uwy91o",
+      "front": "la bendición",
+      "back": "la bénédiction"
+    },
+    {
+      "id": "d22la1",
+      "front": "el sacramento",
+      "back": "le sacrement"
+    },
+    {
+      "id": "hxq6mm",
+      "front": "el bautismo",
+      "back": "le baptême"
+    },
+    {
+      "id": "ceo0nv",
+      "front": "la comunión",
+      "back": "la communion"
+    },
+    {
+      "id": "xopj5j",
+      "front": "la confirmación",
+      "back": "la confirmation"
+    },
+    {
+      "id": "7ced50",
+      "front": "la confesión",
+      "back": "la confession"
+    },
+    {
+      "id": "br9h52",
+      "front": "la penitencia",
+      "back": "la pénitence"
+    },
+    {
+      "id": "szwzyj",
+      "front": "la absolución de los pecados",
+      "back": "l'absolution des péchés"
+    },
+    {
+      "id": "30x1ep",
+      "front": "el pecado",
+      "back": "le péché"
+    },
+    {
+      "id": "ivst8l",
+      "front": "la redención",
+      "back": "la rédemption"
+    },
+    {
+      "id": "vf5nd5",
+      "front": "la salvación",
+      "back": "le salut"
+    },
+    {
+      "id": "y4ffth",
+      "front": "la gracia",
+      "back": "la grâce (divine)"
+    },
+    {
+      "id": "oxw3sd",
+      "front": "el milagro",
+      "back": "le miracle"
+    },
+    {
+      "id": "d71pgl",
+      "front": "la revelación",
+      "back": "la révélation"
+    },
+    {
+      "id": "wycb4a",
+      "front": "la profecía",
+      "back": "la prophétie"
+    },
+    {
+      "id": "uzbo6f",
+      "front": "el profeta",
+      "back": "le prophète"
+    },
+    {
+      "id": "09zd3x",
+      "front": "el santo patrón",
+      "back": "le saint patron"
+    },
+    {
+      "id": "mtwngr",
+      "front": "el mártir",
+      "back": "le martyr"
+    },
+    {
+      "id": "4ceqwq",
+      "front": "la reliquia",
+      "back": "la relique"
+    },
+    {
+      "id": "rhgw3i",
+      "front": "la peregrinación",
+      "back": "le pèlerinage"
+    },
+    {
+      "id": "sebt3h",
+      "front": "el peregrino",
+      "back": "le pèlerin"
+    },
+    {
+      "id": "kyundo",
+      "front": "el santuario",
+      "back": "le sanctuaire"
+    },
+    {
+      "id": "8bg7j0",
+      "front": "la ermita",
+      "back": "l'ermitage"
+    },
+    {
+      "id": "j0ucvp",
+      "front": "el templo",
+      "back": "le temple"
+    },
+    {
+      "id": "0d1i0y",
+      "front": "la mezquita",
+      "back": "la mosquée"
+    },
+    {
+      "id": "vpswj0",
+      "front": "la sinagoga",
+      "back": "la synagogue"
+    },
+    {
+      "id": "vbrjcj",
+      "front": "el monasterio",
+      "back": "le monastère"
+    },
+    {
+      "id": "5nwg4a",
+      "front": "el convento",
+      "back": "le couvent"
+    },
+    {
+      "id": "j41ekp",
+      "front": "la parroquia",
+      "back": "la paroisse"
+    },
+    {
+      "id": "38fr4e",
+      "front": "la diócesis",
+      "back": "le diocèse"
+    },
+    {
+      "id": "ejyf99",
+      "front": "el obispo",
+      "back": "l'évêque"
+    },
+    {
+      "id": "2gsb7s",
+      "front": "el cardenal",
+      "back": "le cardinal"
+    },
+    {
+      "id": "lrr2ro",
+      "front": "el Papa",
+      "back": "le pape"
+    },
+    {
+      "id": "zuarq7",
+      "front": "el sacerdote",
+      "back": "le prêtre"
+    },
+    {
+      "id": "k6rlid",
+      "front": "el cura párroco",
+      "back": "le curé"
+    },
+    {
+      "id": "2xf89e",
+      "front": "el monje",
+      "back": "le moine"
+    },
+    {
+      "id": "hzpcth",
+      "front": "la monja",
+      "back": "la religieuse"
+    },
+    {
+      "id": "5bgs7h",
+      "front": "el pastor",
+      "back": "le pasteur"
+    },
+    {
+      "id": "i734m9",
+      "front": "el rabino",
+      "back": "le rabbin"
+    },
+    {
+      "id": "j7qnc6",
+      "front": "el imán",
+      "back": "l'imam"
+    },
+    {
+      "id": "vthlxp",
+      "front": "el fiel",
+      "back": "le fidèle"
+    },
+    {
+      "id": "igkrje",
+      "front": "la congregación",
+      "back": "la congrégation"
+    },
+    {
+      "id": "vn8g0z",
+      "front": "la orden religiosa",
+      "back": "l'ordre religieux"
+    },
+    {
+      "id": "a9p81r",
+      "front": "el catolicismo",
+      "back": "le catholicisme"
+    },
+    {
+      "id": "oakfom",
+      "front": "el protestantismo",
+      "back": "le protestantisme"
+    },
+    {
+      "id": "y0nii4",
+      "front": "el judaísmo",
+      "back": "le judaïsme"
+    },
+    {
+      "id": "3xnqbs",
+      "front": "el islam",
+      "back": "l'islam"
+    },
+    {
+      "id": "5l6tyz",
+      "front": "el budismo",
+      "back": "le bouddhisme"
+    },
+    {
+      "id": "kywhvp",
+      "front": "el hinduismo",
+      "back": "l'hindouisme"
+    },
+    {
+      "id": "i9zykg",
+      "front": "el cisma",
+      "back": "le schisme"
+    },
+    {
+      "id": "9xlqqr",
+      "front": "la herejía",
+      "back": "l'hérésie"
+    },
+    {
+      "id": "vql4tb",
+      "front": "la ortodoxia",
+      "back": "l'orthodoxie"
+    },
+    {
+      "id": "tqgaxq",
+      "front": "el dogma",
+      "back": "le dogme"
+    },
+    {
+      "id": "vjq93n",
+      "front": "la doctrina",
+      "back": "la doctrine"
+    },
+    {
+      "id": "5nk8lg",
+      "front": "la teología",
+      "back": "la théologie"
+    },
+    {
+      "id": "2jg475",
+      "front": "la escritura sagrada",
+      "back": "l'Écriture sainte"
+    },
+    {
+      "id": "dh4ix7",
+      "front": "la Biblia",
+      "back": "la Bible"
+    },
+    {
+      "id": "y7sobg",
+      "front": "el Evangelio",
+      "back": "l'Évangile"
+    },
+    {
+      "id": "4trxf8",
+      "front": "el versículo",
+      "back": "le verset"
+    },
+    {
+      "id": "fy8tbn",
+      "front": "la parábola",
+      "back": "la parabole"
+    },
+    {
+      "id": "4qrqjx",
+      "front": "el mandamiento",
+      "back": "le commandement"
+    },
+    {
+      "id": "i1ffu8",
+      "front": "el ayuno",
+      "back": "le jeûne"
+    },
+    {
+      "id": "stbpb3",
+      "front": "la abstinencia",
+      "back": "l'abstinence"
+    },
+    {
+      "id": "lb4qiq",
+      "front": "la cuaresma",
+      "back": "le carême"
+    },
+    {
+      "id": "2g45s2",
+      "front": "la resurrección",
+      "back": "la résurrection"
+    },
+    {
+      "id": "5eca24",
+      "front": "el más allá",
+      "back": "l'au-delà"
+    },
+    {
+      "id": "pu0r3g",
+      "front": "el paraíso",
+      "back": "le paradis"
+    },
+    {
+      "id": "69bbgm",
+      "front": "el infierno",
+      "back": "l'enfer"
+    },
+    {
+      "id": "zn012b",
+      "front": "el alma",
+      "back": "l'âme"
+    },
+    {
+      "id": "nd3v88",
+      "front": "el mito",
+      "back": "le mythe"
+    },
+    {
+      "id": "gctren",
+      "front": "la superstición",
+      "back": "la superstition"
+    },
+    {
+      "id": "l8agi3",
+      "front": "el ateísmo",
+      "back": "l'athéisme"
+    },
+    {
+      "id": "d57g83",
+      "front": "el agnosticismo",
+      "back": "l'agnosticisme"
+    },
+    {
+      "id": "rrvrox",
+      "front": "el laicismo",
+      "back": "la laïcité"
+    },
+    {
+      "id": "xyvyd9",
+      "front": "el fanatismo",
+      "back": "le fanatisme"
+    },
+    {
+      "id": "zn2qz3",
+      "front": "el fundamentalismo",
+      "back": "l'intégrisme"
+    },
+    {
+      "id": "hzfwhb",
+      "front": "la secta",
+      "back": "la secte"
+    },
+    {
+      "id": "xzs8rh",
+      "front": "la tolerancia religiosa",
+      "back": "la tolérance religieuse"
+    },
+    {
+      "id": "l02x7z",
+      "front": "rezar",
+      "back": "prier"
+    },
+    {
+      "id": "tbmdcj",
+      "front": "adorar",
+      "back": "adorer"
+    },
+    {
+      "id": "xabriv",
+      "front": "predicar",
+      "back": "prêcher"
+    },
+    {
+      "id": "dcgvdv",
+      "front": "convertirse a una fe",
+      "back": "se convertir à une foi"
+    },
+    {
+      "id": "u9qvpf",
+      "front": "consagrar",
+      "back": "consacrer"
+    },
+    {
+      "id": "w208ym",
+      "front": "venerar",
+      "back": "vénérer"
+    }
+  ]
+}
