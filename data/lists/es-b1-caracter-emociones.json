@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-caracter-emociones",
+  "name": "El carácter y las emociones",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "5y9jmd",
+      "front": "el carácter",
+      "back": "le caractère"
+    },
+    {
+      "id": "nqz3mv",
+      "front": "la personalidad",
+      "back": "la personnalité"
+    },
+    {
+      "id": "60ysb8",
+      "front": "el humor",
+      "back": "l'humeur"
+    },
+    {
+      "id": "m2hhxy",
+      "front": "el estado de ánimo",
+      "back": "l'état d'esprit"
+    },
+    {
+      "id": "8geln5",
+      "front": "el sentimiento",
+      "back": "le sentiment"
+    },
+    {
+      "id": "gt5ax5",
+      "front": "la emoción",
+      "back": "l'émotion"
+    },
+    {
+      "id": "krx1od",
+      "front": "la alegría",
+      "back": "la joie"
+    },
+    {
+      "id": "6oncc3",
+      "front": "la felicidad",
+      "back": "le bonheur"
+    },
+    {
+      "id": "54cgy7",
+      "front": "la tristeza",
+      "back": "la tristesse"
+    },
+    {
+      "id": "rxozi2",
+      "front": "la pena",
+      "back": "la peine, le chagrin"
+    },
+    {
+      "id": "7ep4xr",
+      "front": "el miedo",
+      "back": "la peur"
+    },
+    {
+      "id": "2kgq0u",
+      "front": "el susto",
+      "back": "la frayeur"
+    },
+    {
+      "id": "z3zr74",
+      "front": "la angustia",
+      "back": "l'angoisse"
+    },
+    {
+      "id": "qptm4y",
+      "front": "la preocupación",
+      "back": "le souci"
+    },
+    {
+      "id": "umxvwa",
+      "front": "el estrés",
+      "back": "le stress"
+    },
+    {
+      "id": "5sepxl",
+      "front": "la rabia",
+      "back": "la rage"
+    },
+    {
+      "id": "3x9rqi",
+      "front": "el enfado",
+      "back": "la colère"
+    },
+    {
+      "id": "etf4up",
+      "front": "los celos",
+      "back": "la jalousie"
+    },
+    {
+      "id": "te1hdr",
+      "front": "la envidia",
+      "back": "l'envie"
+    },
+    {
+      "id": "tb0bxz",
+      "front": "la vergüenza",
+      "back": "la honte"
+    },
+    {
+      "id": "x9t9l4",
+      "front": "el orgullo",
+      "back": "la fierté, l'orgueil"
+    },
+    {
+      "id": "4qs9vu",
+      "front": "la culpa",
+      "back": "la culpabilité, la faute"
+    },
+    {
+      "id": "5vw2lh",
+      "front": "la sorpresa",
+      "back": "la surprise"
+    },
+    {
+      "id": "ma6m1k",
+      "front": "la ilusión",
+      "back": "l'enthousiasme, l'espoir joyeux"
+    },
+    {
+      "id": "raaa0x",
+      "front": "la esperanza",
+      "back": "l'espoir"
+    },
+    {
+      "id": "yfs3rm",
+      "front": "la decepción",
+      "back": "la déception"
+    },
+    {
+      "id": "7fai0p",
+      "front": "el alivio",
+      "back": "le soulagement"
+    },
+    {
+      "id": "gzfgv1",
+      "front": "la soledad",
+      "back": "la solitude"
+    },
+    {
+      "id": "7f2jwn",
+      "front": "el aburrimiento",
+      "back": "l'ennui"
+    },
+    {
+      "id": "cde81y",
+      "front": "la nostalgia",
+      "back": "la nostalgie"
+    },
+    {
+      "id": "pd3hpy",
+      "front": "el cariño",
+      "back": "l'affection"
+    },
+    {
+      "id": "mgrqte",
+      "front": "la ternura",
+      "back": "la tendresse"
+    },
+    {
+      "id": "wml7sz",
+      "front": "el odio",
+      "back": "la haine"
+    },
+    {
+      "id": "86wehu",
+      "front": "la confianza",
+      "back": "la confiance"
+    },
+    {
+      "id": "dvoea6",
+      "front": "la desconfianza",
+      "back": "la méfiance"
+    },
+    {
+      "id": "utoltx",
+      "front": "la paciencia",
+      "back": "la patience"
+    },
+    {
+      "id": "953djb",
+      "front": "la generosidad",
+      "back": "la générosité"
+    },
+    {
+      "id": "trykxp",
+      "front": "la sinceridad",
+      "back": "la sincérité"
+    },
+    {
+      "id": "eqgsoe",
+      "front": "la timidez",
+      "back": "la timidité"
+    },
+    {
+      "id": "6qpnr4",
+      "front": "la pereza",
+      "back": "la paresse"
+    },
+    {
+      "id": "zok9es",
+      "front": "el egoísmo",
+      "back": "l'égoïsme"
+    },
+    {
+      "id": "g3kty4",
+      "front": "la amabilidad",
+      "back": "la gentillesse"
+    },
+    {
+      "id": "wd1qka",
+      "front": "la valentía",
+      "back": "le courage"
+    },
+    {
+      "id": "f2jtoj",
+      "front": "amable",
+      "back": "aimable"
+    },
+    {
+      "id": "dt4vcm",
+      "front": "simpático",
+      "back": "sympathique"
+    },
+    {
+      "id": "3yf93h",
+      "front": "antipático",
+      "back": "antipathique"
+    },
+    {
+      "id": "nb0yxk",
+      "front": "agradable",
+      "back": "agréable"
+    },
+    {
+      "id": "j6b8tm",
+      "front": "alegre",
+      "back": "gai"
+    },
+    {
+      "id": "1o0ir5",
+      "front": "triste",
+      "back": "triste"
+    },
+    {
+      "id": "demrov",
+      "front": "tranquilo",
+      "back": "calme"
+    },
+    {
+      "id": "8e3hll",
+      "front": "nervioso",
+      "back": "nerveux"
+    },
+    {
+      "id": "7py9i0",
+      "front": "inquieto",
+      "back": "agité, inquiet"
+    },
+    {
+      "id": "6g1kh3",
+      "front": "serio",
+      "back": "sérieux"
+    },
+    {
+      "id": "3qmtk2",
+      "front": "gracioso",
+      "back": "drôle"
+    },
+    {
+      "id": "mzkeqa",
+      "front": "tímido",
+      "back": "timide"
+    },
+    {
+      "id": "k5n5d1",
+      "front": "abierto",
+      "back": "ouvert"
+    },
+    {
+      "id": "7y1puq",
+      "front": "cerrado",
+      "back": "renfermé"
+    },
+    {
+      "id": "kuwuta",
+      "front": "sociable",
+      "back": "sociable"
+    },
+    {
+      "id": "7zzla5",
+      "front": "generoso",
+      "back": "généreux"
+    },
+    {
+      "id": "2shszo",
+      "front": "tacaño",
+      "back": "radin"
+    },
+    {
+      "id": "8npapu",
+      "front": "egoísta",
+      "back": "égoïste"
+    },
+    {
+      "id": "hxw2fe",
+      "front": "orgulloso",
+      "back": "fier, orgueilleux"
+    },
+    {
+      "id": "plhpq2",
+      "front": "humilde",
+      "back": "humble"
+    },
+    {
+      "id": "c15gzp",
+      "front": "honesto",
+      "back": "honnête"
+    },
+    {
+      "id": "qbe4jr",
+      "front": "mentiroso",
+      "back": "menteur"
+    },
+    {
+      "id": "f7fcy6",
+      "front": "trabajador",
+      "back": "travailleur"
+    },
+    {
+      "id": "mqwukr",
+      "front": "perezoso",
+      "back": "paresseux"
+    },
+    {
+      "id": "gz0nbv",
+      "front": "responsable",
+      "back": "responsable"
+    },
+    {
+      "id": "lfn38h",
+      "front": "despistado",
+      "back": "étourdi"
+    },
+    {
+      "id": "x935ao",
+      "front": "listo",
+      "back": "malin, intelligent"
+    },
+    {
+      "id": "bnaeny",
+      "front": "tonto",
+      "back": "sot, bête"
+    },
+    {
+      "id": "sc4jra",
+      "front": "sensible",
+      "back": "sensible"
+    },
+    {
+      "id": "b1c7r9",
+      "front": "cariñoso",
+      "back": "affectueux"
+    },
+    {
+      "id": "xqyadh",
+      "front": "celoso",
+      "back": "jaloux"
+    },
+    {
+      "id": "emjinp",
+      "front": "valiente",
+      "back": "courageux"
+    },
+    {
+      "id": "ql323u",
+      "front": "cobarde",
+      "back": "lâche"
+    },
+    {
+      "id": "wng7wy",
+      "front": "paciente",
+      "back": "patient"
+    },
+    {
+      "id": "p9wtus",
+      "front": "impaciente",
+      "back": "impatient"
+    },
+    {
+      "id": "0jkaw2",
+      "front": "testarudo",
+      "back": "têtu"
+    },
+    {
+      "id": "ubxne7",
+      "front": "exigente",
+      "back": "exigeant"
+    },
+    {
+      "id": "laax60",
+      "front": "maleducado",
+      "back": "mal élevé"
+    },
+    {
+      "id": "5x7jf1",
+      "front": "sentir",
+      "back": "sentir, ressentir"
+    },
+    {
+      "id": "wowjez",
+      "front": "alegrarse",
+      "back": "se réjouir"
+    },
+    {
+      "id": "mv25np",
+      "front": "entristecerse",
+      "back": "s'attrister"
+    },
+    {
+      "id": "g4660v",
+      "front": "enfadarse",
+      "back": "se fâcher"
+    },
+    {
+      "id": "25nq5t",
+      "front": "asustarse",
+      "back": "prendre peur"
+    },
+    {
+      "id": "0a5pm0",
+      "front": "preocuparse",
+      "back": "s'inquiéter"
+    },
+    {
+      "id": "mey6ck",
+      "front": "sorprenderse",
+      "back": "être surpris"
+    },
+    {
+      "id": "rhq7ke",
+      "front": "avergonzarse",
+      "back": "avoir honte"
+    },
+    {
+      "id": "mla99w",
+      "front": "emocionarse",
+      "back": "être ému"
+    },
+    {
+      "id": "giswvc",
+      "front": "echar de menos",
+      "back": "regretter, manquer à"
+    },
+    {
+      "id": "we9ma8",
+      "front": "soportar",
+      "back": "supporter"
+    },
+    {
+      "id": "r0feox",
+      "front": "odiar",
+      "back": "haïr"
+    },
+    {
+      "id": "bf83ts",
+      "front": "confiar en",
+      "back": "faire confiance à"
+    },
+    {
+      "id": "t534w1",
+      "front": "atreverse",
+      "back": "oser"
+    },
+    {
+      "id": "bmo38f",
+      "front": "llorar",
+      "back": "pleurer"
+    },
+    {
+      "id": "5no1qa",
+      "front": "reír",
+      "back": "rire"
+    },
+    {
+      "id": "y9faso",
+      "front": "sonreír",
+      "back": "sourire"
+    },
+    {
+      "id": "znvpxo",
+      "front": "estar de buen humor",
+      "back": "être de bonne humeur"
+    },
+    {
+      "id": "iwag8e",
+      "front": "volverse loco",
+      "back": "devenir fou"
+    }
+  ]
+}
