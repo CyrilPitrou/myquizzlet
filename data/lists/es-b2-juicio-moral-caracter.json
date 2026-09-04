@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-juicio-moral-caracter",
+  "name": "El juicio moral y el carácter",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "iew2y4",
+      "front": "la ética",
+      "back": "l'éthique"
+    },
+    {
+      "id": "jgic6k",
+      "front": "la moral",
+      "back": "la morale"
+    },
+    {
+      "id": "jswsyz",
+      "front": "la virtud",
+      "back": "la vertu"
+    },
+    {
+      "id": "tma5tj",
+      "front": "el vicio",
+      "back": "le vice"
+    },
+    {
+      "id": "pp2thq",
+      "front": "el valor moral",
+      "back": "la valeur morale"
+    },
+    {
+      "id": "8nzvg4",
+      "front": "el principio",
+      "back": "le principe"
+    },
+    {
+      "id": "l0shpe",
+      "front": "la integridad",
+      "back": "l'intégrité"
+    },
+    {
+      "id": "f7v1q8",
+      "front": "la rectitud",
+      "back": "la droiture"
+    },
+    {
+      "id": "ar271l",
+      "front": "la honradez",
+      "back": "l'honnêteté"
+    },
+    {
+      "id": "9bt2i3",
+      "front": "la probidad",
+      "back": "la probité"
+    },
+    {
+      "id": "ygxz3e",
+      "front": "la dignidad",
+      "back": "la dignité"
+    },
+    {
+      "id": "tdjwm5",
+      "front": "el honor",
+      "back": "l'honneur"
+    },
+    {
+      "id": "sluyoh",
+      "front": "la nobleza de carácter",
+      "back": "la noblesse de caractère"
+    },
+    {
+      "id": "6tjvaf",
+      "front": "la generosidad desinteresada",
+      "back": "la générosité désintéressée"
+    },
+    {
+      "id": "90jp9q",
+      "front": "el altruismo",
+      "back": "l'altruisme"
+    },
+    {
+      "id": "e8uzvm",
+      "front": "la abnegación",
+      "back": "l'abnégation"
+    },
+    {
+      "id": "lpnksa",
+      "front": "el sacrificio",
+      "back": "le sacrifice"
+    },
+    {
+      "id": "8sl324",
+      "front": "la lealtad probada",
+      "back": "la loyauté éprouvée"
+    },
+    {
+      "id": "4gyynz",
+      "front": "la fidelidad",
+      "back": "la fidélité"
+    },
+    {
+      "id": "eiao7z",
+      "front": "la constancia",
+      "back": "la persévérance"
+    },
+    {
+      "id": "9w1kyf",
+      "front": "la perseverancia",
+      "back": "la ténacité"
+    },
+    {
+      "id": "xm8yoq",
+      "front": "la templanza",
+      "back": "la tempérance"
+    },
+    {
+      "id": "hr7wf9",
+      "front": "la moderación",
+      "back": "la modération"
+    },
+    {
+      "id": "hpe332",
+      "front": "la prudencia",
+      "back": "la prudence"
+    },
+    {
+      "id": "s23t4o",
+      "front": "la sensatez",
+      "back": "le bon sens"
+    },
+    {
+      "id": "8tsz9k",
+      "front": "la cordura",
+      "back": "la raison, la lucidité"
+    },
+    {
+      "id": "29qtin",
+      "front": "la humildad sincera",
+      "back": "l'humilité sincère"
+    },
+    {
+      "id": "1mas03",
+      "front": "la modestia",
+      "back": "la modestie"
+    },
+    {
+      "id": "pkj53q",
+      "front": "la discreción",
+      "back": "la discrétion"
+    },
+    {
+      "id": "4ftp3r",
+      "front": "la franqueza",
+      "back": "la franchise"
+    },
+    {
+      "id": "hxvnnj",
+      "front": "la sinceridad absoluta",
+      "back": "la sincérité absolue"
+    },
+    {
+      "id": "yi1t91",
+      "front": "la magnanimidad",
+      "back": "la magnanimité"
+    },
+    {
+      "id": "h6etp8",
+      "front": "la clemencia",
+      "back": "la clémence"
+    },
+    {
+      "id": "piumoy",
+      "front": "la indulgencia",
+      "back": "l'indulgence"
+    },
+    {
+      "id": "ezn60l",
+      "front": "la benevolencia",
+      "back": "la bienveillance"
+    },
+    {
+      "id": "mi9rkw",
+      "front": "la soberbia",
+      "back": "l'orgueil démesuré"
+    },
+    {
+      "id": "kq9wql",
+      "front": "la arrogancia",
+      "back": "l'arrogance"
+    },
+    {
+      "id": "gve0l9",
+      "front": "la altanería",
+      "back": "la hauteur, la morgue"
+    },
+    {
+      "id": "ypputw",
+      "front": "la prepotencia",
+      "back": "la superbe, l'abus de pouvoir"
+    },
+    {
+      "id": "j9tjyq",
+      "front": "la vanidad",
+      "back": "la vanité"
+    },
+    {
+      "id": "3q9da1",
+      "front": "la presunción",
+      "back": "la présomption"
+    },
+    {
+      "id": "9hfxd0",
+      "front": "la avaricia",
+      "back": "l'avarice"
+    },
+    {
+      "id": "sx76qr",
+      "front": "la codicia",
+      "back": "la cupidité"
+    },
+    {
+      "id": "056t13",
+      "front": "la mezquindad",
+      "back": "la mesquinerie"
+    },
+    {
+      "id": "qv1mik",
+      "front": "la tacañería",
+      "back": "la pingrerie"
+    },
+    {
+      "id": "f4dyda",
+      "front": "la envidia insana",
+      "back": "la jalousie malsaine"
+    },
+    {
+      "id": "spvzmd",
+      "front": "la hipocresía",
+      "back": "l'hypocrisie"
+    },
+    {
+      "id": "vv94t2",
+      "front": "la doblez",
+      "back": "la duplicité"
+    },
+    {
+      "id": "gympyl",
+      "front": "la falsedad",
+      "back": "la fausseté"
+    },
+    {
+      "id": "vwvnto",
+      "front": "el engaño",
+      "back": "la tromperie"
+    },
+    {
+      "id": "l969kz",
+      "front": "la traición",
+      "back": "la trahison"
+    },
+    {
+      "id": "3j6qic",
+      "front": "la deslealtad",
+      "back": "la déloyauté"
+    },
+    {
+      "id": "srd3m1",
+      "front": "la cobardía",
+      "back": "la lâcheté"
+    },
+    {
+      "id": "qf3qrd",
+      "front": "la pusilanimidad",
+      "back": "la pusillanimité"
+    },
+    {
+      "id": "z4wmg7",
+      "front": "la indolencia",
+      "back": "l'indolence"
+    },
+    {
+      "id": "6r7a08",
+      "front": "la desidia",
+      "back": "la négligence, l'incurie"
+    },
+    {
+      "id": "gflq7z",
+      "front": "la irresponsabilidad",
+      "back": "l'irresponsabilité"
+    },
+    {
+      "id": "yw1765",
+      "front": "la insolencia",
+      "back": "l'insolence"
+    },
+    {
+      "id": "gkx3nb",
+      "front": "la grosería",
+      "back": "la grossièreté"
+    },
+    {
+      "id": "btvy0j",
+      "front": "la crueldad",
+      "back": "la cruauté"
+    },
+    {
+      "id": "08e4zg",
+      "front": "la saña",
+      "back": "l'acharnement, la hargne"
+    },
+    {
+      "id": "nvn7kb",
+      "front": "la maldad",
+      "back": "la méchanceté"
+    },
+    {
+      "id": "5q14v7",
+      "front": "la perversidad",
+      "back": "la perversité"
+    },
+    {
+      "id": "a7se60",
+      "front": "la ruindad",
+      "back": "la bassesse"
+    },
+    {
+      "id": "dld7eq",
+      "front": "la vileza",
+      "back": "la vilenie"
+    },
+    {
+      "id": "63jdx3",
+      "front": "el egoísmo desmedido",
+      "back": "l'égoïsme démesuré"
+    },
+    {
+      "id": "9tq7id",
+      "front": "la ingratitud",
+      "back": "l'ingratitude"
+    },
+    {
+      "id": "r0cq3d",
+      "front": "la intolerancia",
+      "back": "l'intolérance"
+    },
+    {
+      "id": "eavf40",
+      "front": "la obstinación",
+      "back": "l'obstination"
+    },
+    {
+      "id": "ym4c2k",
+      "front": "la terquedad",
+      "back": "l'entêtement"
+    },
+    {
+      "id": "fppnbg",
+      "front": "la intransigencia",
+      "back": "l'intransigeance"
+    },
+    {
+      "id": "5l866c",
+      "front": "la severidad",
+      "back": "la sévérité"
+    },
+    {
+      "id": "hx66a3",
+      "front": "la dureza",
+      "back": "la dureté"
+    },
+    {
+      "id": "ybvw4x",
+      "front": "la frialdad",
+      "back": "la froideur"
+    },
+    {
+      "id": "owogdz",
+      "front": "íntegro",
+      "back": "intègre"
+    },
+    {
+      "id": "g0e4k0",
+      "front": "honrado",
+      "back": "honnête, probe"
+    },
+    {
+      "id": "oox5mg",
+      "front": "recto",
+      "back": "droit"
+    },
+    {
+      "id": "whb2ug",
+      "front": "cabal",
+      "back": "entier, irréprochable"
+    },
+    {
+      "id": "ugteco",
+      "front": "noble",
+      "back": "noble"
+    },
+    {
+      "id": "ma0b6n",
+      "front": "generoso hasta el exceso",
+      "back": "généreux jusqu'à l'excès"
+    },
+    {
+      "id": "l85xt1",
+      "front": "desprendido",
+      "back": "désintéressé"
+    },
+    {
+      "id": "x4zht2",
+      "front": "altruista",
+      "back": "altruiste"
+    },
+    {
+      "id": "4j6yra",
+      "front": "comedido",
+      "back": "mesuré, réservé"
+    },
+    {
+      "id": "faal0g",
+      "front": "sensato en sus juicios",
+      "back": "sensé dans ses jugements"
+    },
+    {
+      "id": "mmeipg",
+      "front": "soberbio",
+      "back": "orgueilleux"
+    },
+    {
+      "id": "o2ysv7",
+      "front": "altivo",
+      "back": "hautain"
+    },
+    {
+      "id": "m5afzq",
+      "front": "vanidoso",
+      "back": "vaniteux"
+    },
+    {
+      "id": "immv49",
+      "front": "avaro",
+      "back": "avare"
+    },
+    {
+      "id": "1q6gmz",
+      "front": "mezquino",
+      "back": "mesquin"
+    },
+    {
+      "id": "ey1t48",
+      "front": "hipócrita",
+      "back": "hypocrite"
+    },
+    {
+      "id": "qo5io1",
+      "front": "falso",
+      "back": "faux"
+    },
+    {
+      "id": "otgqr6",
+      "front": "desleal",
+      "back": "déloyal"
+    },
+    {
+      "id": "ejc6eu",
+      "front": "ruin",
+      "back": "vil, ignoble"
+    },
+    {
+      "id": "6uvz0w",
+      "front": "despiadado",
+      "back": "impitoyable"
+    },
+    {
+      "id": "n1267w",
+      "front": "malvado",
+      "back": "malfaisant"
+    },
+    {
+      "id": "9kngmb",
+      "front": "insolente",
+      "back": "insolent"
+    },
+    {
+      "id": "3g5uvm",
+      "front": "ingrato",
+      "back": "ingrat"
+    },
+    {
+      "id": "9cxnla",
+      "front": "intransigente",
+      "back": "intransigeant"
+    },
+    {
+      "id": "svotv9",
+      "front": "juzgar con severidad",
+      "back": "juger avec sévérité"
+    },
+    {
+      "id": "7seq47",
+      "front": "obrar con rectitud",
+      "back": "agir avec droiture"
+    }
+  ]
+}
