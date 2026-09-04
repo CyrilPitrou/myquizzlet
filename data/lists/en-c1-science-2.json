@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-science-2",
+  "name": "Science and Research 2",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "rj59sm",
+      "front": "stochastic",
+      "back": "stochastique, aléatoire"
+    },
+    {
+      "id": "tt6y0j",
+      "front": "deterministic",
+      "back": "déterministe"
+    },
+    {
+      "id": "5855lc",
+      "front": "emergent",
+      "back": "émergent"
+    },
+    {
+      "id": "3yd7zj",
+      "front": "an isotope",
+      "back": "un isotope"
+    },
+    {
+      "id": "o0irqw",
+      "front": "entropy",
+      "back": "l'entropie"
+    },
+    {
+      "id": "8sg4r8",
+      "front": "enthalpy",
+      "back": "l'enthalpie"
+    },
+    {
+      "id": "304n2s",
+      "front": "a catalyst",
+      "back": "un catalyseur"
+    },
+    {
+      "id": "n1rnw7",
+      "front": "a substrate",
+      "back": "un substrat"
+    },
+    {
+      "id": "3guo5w",
+      "front": "an enzyme",
+      "back": "une enzyme"
+    },
+    {
+      "id": "jo72ou",
+      "front": "a protein fold",
+      "back": "un repliement protéique"
+    },
+    {
+      "id": "xl4ioe",
+      "front": "a genome",
+      "back": "un génome"
+    },
+    {
+      "id": "b02kr0",
+      "front": "a phenotype",
+      "back": "un phénotype"
+    },
+    {
+      "id": "a8bn32",
+      "front": "a genotype",
+      "back": "un génotype"
+    },
+    {
+      "id": "72ibcd",
+      "front": "an allele",
+      "back": "un allèle"
+    },
+    {
+      "id": "4hd6op",
+      "front": "a mutation",
+      "back": "une mutation"
+    },
+    {
+      "id": "3ae6wa",
+      "front": "heritability",
+      "back": "l'héritabilité"
+    },
+    {
+      "id": "b2z6sf",
+      "front": "epigenetics",
+      "back": "l'épigénétique"
+    },
+    {
+      "id": "dewy2h",
+      "front": "a lineage",
+      "back": "une lignée"
+    },
+    {
+      "id": "oggmi2",
+      "front": "phylogeny",
+      "back": "la phylogénie"
+    },
+    {
+      "id": "34mu78",
+      "front": "a taxon",
+      "back": "un taxon"
+    },
+    {
+      "id": "phy42s",
+      "front": "convergent evolution",
+      "back": "l'évolution convergente"
+    },
+    {
+      "id": "v0qc73",
+      "front": "natural selection",
+      "back": "la sélection naturelle"
+    },
+    {
+      "id": "0wgepk",
+      "front": "genetic drift",
+      "back": "la dérive génétique"
+    },
+    {
+      "id": "cwqjcp",
+      "front": "a founder effect",
+      "back": "un effet fondateur"
+    },
+    {
+      "id": "384v5x",
+      "front": "speciation",
+      "back": "la spéciation"
+    },
+    {
+      "id": "i40w7v",
+      "front": "symbiosis",
+      "back": "la symbiose"
+    },
+    {
+      "id": "fq3jjf",
+      "front": "a parasite",
+      "back": "un parasite"
+    },
+    {
+      "id": "vpvd19",
+      "front": "a vector",
+      "back": "un vecteur (de maladie)"
+    },
+    {
+      "id": "kmij90",
+      "front": "a pathogen",
+      "back": "un agent pathogène"
+    },
+    {
+      "id": "zjvls9",
+      "front": "virulence",
+      "back": "la virulence"
+    },
+    {
+      "id": "ut2xqf",
+      "front": "a quantum",
+      "back": "un quantum"
+    },
+    {
+      "id": "6r91za",
+      "front": "superposition",
+      "back": "la superposition quantique"
+    },
+    {
+      "id": "yyx8hl",
+      "front": "entanglement",
+      "back": "l'intrication quantique"
+    },
+    {
+      "id": "yrf8rz",
+      "front": "a wave function",
+      "back": "une fonction d'onde"
+    },
+    {
+      "id": "paioi8",
+      "front": "decoherence",
+      "back": "la décohérence"
+    },
+    {
+      "id": "3nvk2r",
+      "front": "a photon",
+      "back": "un photon"
+    },
+    {
+      "id": "diduta",
+      "front": "a neutrino",
+      "back": "un neutrino"
+    },
+    {
+      "id": "xere0l",
+      "front": "a lepton",
+      "back": "un lepton"
+    },
+    {
+      "id": "kyels8",
+      "front": "a quark",
+      "back": "un quark"
+    },
+    {
+      "id": "pvpoj9",
+      "front": "a boson",
+      "back": "un boson"
+    },
+    {
+      "id": "601wr1",
+      "front": "half-life",
+      "back": "la demi-vie"
+    },
+    {
+      "id": "5xz0rg",
+      "front": "radioactive decay",
+      "back": "la désintégration radioactive"
+    },
+    {
+      "id": "18r1jw",
+      "front": "fission",
+      "back": "la fission"
+    },
+    {
+      "id": "uhtj1i",
+      "front": "fusion",
+      "back": "la fusion nucléaire"
+    },
+    {
+      "id": "yg3wmq",
+      "front": "a plasma",
+      "back": "un plasma"
+    },
+    {
+      "id": "ne0s8b",
+      "front": "a superconductor",
+      "back": "un supraconducteur"
+    },
+    {
+      "id": "utqbxt",
+      "front": "a semiconductor",
+      "back": "un semi-conducteur"
+    },
+    {
+      "id": "kegykt",
+      "front": "a lattice",
+      "back": "un réseau cristallin"
+    },
+    {
+      "id": "yibydk",
+      "front": "a crystal structure",
+      "back": "une structure cristalline"
+    },
+    {
+      "id": "xt7w7i",
+      "front": "viscosity",
+      "back": "la viscosité"
+    },
+    {
+      "id": "pk7y99",
+      "front": "turbulence",
+      "back": "la turbulence"
+    },
+    {
+      "id": "wynt8n",
+      "front": "a laminar flow",
+      "back": "un écoulement laminaire"
+    },
+    {
+      "id": "7vwjkr",
+      "front": "a gradient",
+      "back": "un gradient"
+    },
+    {
+      "id": "l334q1",
+      "front": "a flux",
+      "back": "un flux"
+    },
+    {
+      "id": "pzqcrs",
+      "front": "equilibrium",
+      "back": "l'équilibre"
+    },
+    {
+      "id": "2e4wbj",
+      "front": "a steady state",
+      "back": "un régime permanent"
+    },
+    {
+      "id": "5tia40",
+      "front": "a feedback loop",
+      "back": "une boucle de rétroaction"
+    },
+    {
+      "id": "zvqm8j",
+      "front": "a threshold effect",
+      "back": "un effet de seuil"
+    },
+    {
+      "id": "1lhwpe",
+      "front": "a tipping point",
+      "back": "un point de bascule"
+    },
+    {
+      "id": "c5d2io",
+      "front": "nonlinearity",
+      "back": "la non-linéarité"
+    },
+    {
+      "id": "gwcbev",
+      "front": "chaos theory",
+      "back": "la théorie du chaos"
+    },
+    {
+      "id": "uatlhq",
+      "front": "a strange attractor",
+      "back": "un attracteur étrange"
+    },
+    {
+      "id": "fo2q51",
+      "front": "a fractal",
+      "back": "une fractale"
+    },
+    {
+      "id": "mdgj1x",
+      "front": "a topology",
+      "back": "une topologie"
+    },
+    {
+      "id": "n4vunk",
+      "front": "a manifold",
+      "back": "une variété (mathématique)"
+    },
+    {
+      "id": "n02y8c",
+      "front": "an eigenvalue",
+      "back": "une valeur propre"
+    },
+    {
+      "id": "dzw4fm",
+      "front": "a tensor",
+      "back": "un tenseur"
+    },
+    {
+      "id": "1dmt4b",
+      "front": "a scalar",
+      "back": "un scalaire"
+    },
+    {
+      "id": "vcrakx",
+      "front": "a differential equation",
+      "back": "une équation différentielle"
+    },
+    {
+      "id": "xwhnam",
+      "front": "an asymptote",
+      "back": "une asymptote"
+    },
+    {
+      "id": "6qzyur",
+      "front": "a singularity",
+      "back": "une singularité"
+    },
+    {
+      "id": "up9fiv",
+      "front": "an event horizon",
+      "back": "un horizon des événements"
+    },
+    {
+      "id": "tm4w90",
+      "front": "redshift",
+      "back": "le décalage vers le rouge"
+    },
+    {
+      "id": "45cqs5",
+      "front": "a light-year",
+      "back": "une année-lumière"
+    },
+    {
+      "id": "s4kkcm",
+      "front": "a parsec",
+      "back": "un parsec"
+    },
+    {
+      "id": "c6wdqu",
+      "front": "dark matter",
+      "back": "la matière noire"
+    },
+    {
+      "id": "r8wede",
+      "front": "dark energy",
+      "back": "l'énergie sombre"
+    },
+    {
+      "id": "44y7qk",
+      "front": "cosmic background radiation",
+      "back": "le rayonnement de fond cosmologique"
+    },
+    {
+      "id": "l1665i",
+      "front": "a nebula",
+      "back": "une nébuleuse"
+    },
+    {
+      "id": "4c12qp",
+      "front": "a supernova",
+      "back": "une supernova"
+    },
+    {
+      "id": "68a0oh",
+      "front": "a pulsar",
+      "back": "un pulsar"
+    },
+    {
+      "id": "iaywza",
+      "front": "an exoplanet",
+      "back": "une exoplanète"
+    },
+    {
+      "id": "q234fs",
+      "front": "a spectrometer",
+      "back": "un spectromètre"
+    },
+    {
+      "id": "30uabf",
+      "front": "spectroscopy",
+      "back": "la spectroscopie"
+    },
+    {
+      "id": "9mf654",
+      "front": "a centrifuge",
+      "back": "une centrifugeuse"
+    },
+    {
+      "id": "f804r8",
+      "front": "titration",
+      "back": "le titrage, le dosage"
+    },
+    {
+      "id": "5tmyk5",
+      "front": "a reagent",
+      "back": "un réactif"
+    },
+    {
+      "id": "yyai6o",
+      "front": "a solvent",
+      "back": "un solvant"
+    },
+    {
+      "id": "ssp5qz",
+      "front": "a compound",
+      "back": "un composé"
+    },
+    {
+      "id": "bn2pw6",
+      "front": "a polymer",
+      "back": "un polymère"
+    },
+    {
+      "id": "a9apzc",
+      "front": "a colloid",
+      "back": "un colloïde"
+    },
+    {
+      "id": "5o75g0",
+      "front": "a valence",
+      "back": "une valence"
+    },
+    {
+      "id": "djh5wp",
+      "front": "an ion",
+      "back": "un ion"
+    },
+    {
+      "id": "48vo5k",
+      "front": "an electrolyte",
+      "back": "un électrolyte"
+    },
+    {
+      "id": "3qkhd5",
+      "front": "an oxidant",
+      "back": "un oxydant"
+    },
+    {
+      "id": "2jeo6q",
+      "front": "a molar mass",
+      "back": "une masse molaire"
+    },
+    {
+      "id": "g9fw39",
+      "front": "sublimation",
+      "back": "la sublimation"
+    },
+    {
+      "id": "8qwjb7",
+      "front": "a phase transition",
+      "back": "une transition de phase"
+    },
+    {
+      "id": "s571e9",
+      "front": "a heuristic",
+      "back": "une heuristique"
+    },
+    {
+      "id": "b9rime",
+      "front": "a chirality",
+      "back": "une chiralité"
+    }
+  ]
+}
