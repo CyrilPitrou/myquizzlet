@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-viajes-alojamiento",
+  "name": "Los viajes y el alojamiento",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "pfp9uc",
+      "front": "el viaje",
+      "back": "le voyage"
+    },
+    {
+      "id": "4lcpfn",
+      "front": "el turismo",
+      "back": "le tourisme"
+    },
+    {
+      "id": "k9y5k8",
+      "front": "el turista",
+      "back": "le touriste"
+    },
+    {
+      "id": "byi6yi",
+      "front": "el viajero",
+      "back": "le voyageur"
+    },
+    {
+      "id": "8b6ud7",
+      "front": "la agencia de viajes",
+      "back": "l'agence de voyages"
+    },
+    {
+      "id": "55r4kx",
+      "front": "el folleto",
+      "back": "la brochure"
+    },
+    {
+      "id": "gmqmdk",
+      "front": "el destino",
+      "back": "la destination"
+    },
+    {
+      "id": "q70sab",
+      "front": "el itinerario",
+      "back": "l'itinéraire"
+    },
+    {
+      "id": "9996pl",
+      "front": "la ruta",
+      "back": "la route, le parcours"
+    },
+    {
+      "id": "3jzs7y",
+      "front": "el mapa",
+      "back": "la carte"
+    },
+    {
+      "id": "vicb9j",
+      "front": "la guía de viaje",
+      "back": "le guide de voyage"
+    },
+    {
+      "id": "qyp9hs",
+      "front": "la maleta",
+      "back": "la valise"
+    },
+    {
+      "id": "0pfenp",
+      "front": "el equipaje",
+      "back": "les bagages"
+    },
+    {
+      "id": "t1m3gu",
+      "front": "la mochila de viaje",
+      "back": "le sac de voyage"
+    },
+    {
+      "id": "tfn57m",
+      "front": "el neceser",
+      "back": "la trousse de toilette"
+    },
+    {
+      "id": "wku50a",
+      "front": "el visado",
+      "back": "le visa"
+    },
+    {
+      "id": "gw8h83",
+      "front": "la frontera",
+      "back": "la frontière"
+    },
+    {
+      "id": "075d87",
+      "front": "la aduana",
+      "back": "la douane"
+    },
+    {
+      "id": "jvd06o",
+      "front": "el aeropuerto",
+      "back": "l'aéroport"
+    },
+    {
+      "id": "5qludj",
+      "front": "el avión",
+      "back": "l'avion"
+    },
+    {
+      "id": "9k12ee",
+      "front": "el vuelo",
+      "back": "le vol"
+    },
+    {
+      "id": "s2jjq2",
+      "front": "la escala",
+      "back": "l'escale"
+    },
+    {
+      "id": "dy5mxm",
+      "front": "la facturación",
+      "back": "l'enregistrement"
+    },
+    {
+      "id": "pt17su",
+      "front": "la tarjeta de embarque",
+      "back": "la carte d'embarquement"
+    },
+    {
+      "id": "4pewmb",
+      "front": "la puerta de embarque",
+      "back": "la porte d'embarquement"
+    },
+    {
+      "id": "dr0710",
+      "front": "el despegue",
+      "back": "le décollage"
+    },
+    {
+      "id": "03243i",
+      "front": "el aterrizaje",
+      "back": "l'atterrissage"
+    },
+    {
+      "id": "8tluws",
+      "front": "la azafata de vuelo",
+      "back": "l'hôtesse de l'air"
+    },
+    {
+      "id": "hpzhwt",
+      "front": "el puerto",
+      "back": "le port"
+    },
+    {
+      "id": "kiwrui",
+      "front": "el barco",
+      "back": "le bateau"
+    },
+    {
+      "id": "ksmec9",
+      "front": "el crucero",
+      "back": "la croisière"
+    },
+    {
+      "id": "k0kzsq",
+      "front": "el ferry",
+      "back": "le ferry"
+    },
+    {
+      "id": "uqh0kl",
+      "front": "la estación de autobuses",
+      "back": "la gare routière"
+    },
+    {
+      "id": "0tx51w",
+      "front": "el coche de alquiler",
+      "back": "la voiture de location"
+    },
+    {
+      "id": "k6mis1",
+      "front": "el hotel",
+      "back": "l'hôtel"
+    },
+    {
+      "id": "515ycy",
+      "front": "el hostal",
+      "back": "la pension"
+    },
+    {
+      "id": "j9h3ln",
+      "front": "el albergue",
+      "back": "l'auberge"
+    },
+    {
+      "id": "k6x71q",
+      "front": "la casa rural",
+      "back": "le gîte rural"
+    },
+    {
+      "id": "klijz7",
+      "front": "la habitación",
+      "back": "la chambre"
+    },
+    {
+      "id": "x0dg9f",
+      "front": "la habitación doble",
+      "back": "la chambre double"
+    },
+    {
+      "id": "ply4s9",
+      "front": "la habitación individual",
+      "back": "la chambre simple"
+    },
+    {
+      "id": "p8mpeh",
+      "front": "la media pensión",
+      "back": "la demi-pension"
+    },
+    {
+      "id": "y47gxc",
+      "front": "la pensión completa",
+      "back": "la pension complète"
+    },
+    {
+      "id": "6wmnjt",
+      "front": "el desayuno incluido",
+      "back": "le petit-déjeuner compris"
+    },
+    {
+      "id": "kg7m9m",
+      "front": "la recepción",
+      "back": "la réception"
+    },
+    {
+      "id": "nb182f",
+      "front": "la llave de la habitación",
+      "back": "la clé de la chambre"
+    },
+    {
+      "id": "7rhmp6",
+      "front": "la reserva",
+      "back": "la réservation"
+    },
+    {
+      "id": "mtbjo1",
+      "front": "la temporada alta",
+      "back": "la haute saison"
+    },
+    {
+      "id": "1f961e",
+      "front": "la temporada baja",
+      "back": "la basse saison"
+    },
+    {
+      "id": "m7eply",
+      "front": "la estancia",
+      "back": "le séjour"
+    },
+    {
+      "id": "wk9c7f",
+      "front": "la noche",
+      "back": "la nuit"
+    },
+    {
+      "id": "l6rfan",
+      "front": "la tarifa",
+      "back": "le tarif"
+    },
+    {
+      "id": "sl7or9",
+      "front": "el suplemento",
+      "back": "le supplément"
+    },
+    {
+      "id": "ern8wz",
+      "front": "el impuesto turístico",
+      "back": "la taxe de séjour"
+    },
+    {
+      "id": "v46m8v",
+      "front": "la fianza",
+      "back": "la caution"
+    },
+    {
+      "id": "ixciw1",
+      "front": "la piscina del hotel",
+      "back": "la piscine de l'hôtel"
+    },
+    {
+      "id": "8rc2bn",
+      "front": "el aire acondicionado",
+      "back": "la climatisation"
+    },
+    {
+      "id": "43c21k",
+      "front": "la caja fuerte",
+      "back": "le coffre-fort"
+    },
+    {
+      "id": "eaewz7",
+      "front": "la vista al mar",
+      "back": "la vue sur la mer"
+    },
+    {
+      "id": "qdlkxm",
+      "front": "la playa",
+      "back": "la plage"
+    },
+    {
+      "id": "91n887",
+      "front": "la costa",
+      "back": "la côte"
+    },
+    {
+      "id": "04i8o8",
+      "front": "la montaña",
+      "back": "la montagne"
+    },
+    {
+      "id": "tk696e",
+      "front": "el campo",
+      "back": "la campagne"
+    },
+    {
+      "id": "6gd8ab",
+      "front": "el monumento",
+      "back": "le monument"
+    },
+    {
+      "id": "0p2wt6",
+      "front": "el castillo",
+      "back": "le château"
+    },
+    {
+      "id": "l2nz8p",
+      "front": "la catedral",
+      "back": "la cathédrale"
+    },
+    {
+      "id": "p71q2z",
+      "front": "el casco antiguo",
+      "back": "la vieille ville"
+    },
+    {
+      "id": "4y0cjq",
+      "front": "la visita guiada",
+      "back": "la visite guidée"
+    },
+    {
+      "id": "8dfty9",
+      "front": "el recuerdo",
+      "back": "le souvenir"
+    },
+    {
+      "id": "jzhl7w",
+      "front": "la postal",
+      "back": "la carte postale"
+    },
+    {
+      "id": "liwc7w",
+      "front": "la propina del guía",
+      "back": "le pourboire du guide"
+    },
+    {
+      "id": "pmih5w",
+      "front": "el seguro de viaje",
+      "back": "l'assurance voyage"
+    },
+    {
+      "id": "koq509",
+      "front": "la vacuna obligatoria",
+      "back": "le vaccin obligatoire"
+    },
+    {
+      "id": "dy53wo",
+      "front": "el retraso del vuelo",
+      "back": "le retard du vol"
+    },
+    {
+      "id": "daf25r",
+      "front": "la cancelación",
+      "back": "l'annulation"
+    },
+    {
+      "id": "m7cc8n",
+      "front": "la pérdida de equipaje",
+      "back": "la perte des bagages"
+    },
+    {
+      "id": "ur1mvh",
+      "front": "la hoja de reclamaciones",
+      "back": "le formulaire de réclamation"
+    },
+    {
+      "id": "b3t4zd",
+      "front": "viajar",
+      "back": "voyager"
+    },
+    {
+      "id": "7mxv2a",
+      "front": "hacer las maletas",
+      "back": "faire ses valises"
+    },
+    {
+      "id": "0fpesr",
+      "front": "reservar",
+      "back": "réserver"
+    },
+    {
+      "id": "7l3qxu",
+      "front": "alojarse",
+      "back": "loger, séjourner"
+    },
+    {
+      "id": "zw24jh",
+      "front": "registrarse",
+      "back": "s'enregistrer"
+    },
+    {
+      "id": "a0fy8e",
+      "front": "dejar la habitación",
+      "back": "libérer la chambre"
+    },
+    {
+      "id": "ke2r32",
+      "front": "volar",
+      "back": "voler, prendre l'avion"
+    },
+    {
+      "id": "3bw2oj",
+      "front": "embarcar",
+      "back": "embarquer"
+    },
+    {
+      "id": "vlkhux",
+      "front": "despegar",
+      "back": "décoller"
+    },
+    {
+      "id": "ms4z3r",
+      "front": "aterrizar",
+      "back": "atterrir"
+    },
+    {
+      "id": "9n1sj8",
+      "front": "facturar el equipaje",
+      "back": "enregistrer les bagages"
+    },
+    {
+      "id": "6cew9e",
+      "front": "visitar",
+      "back": "visiter"
+    },
+    {
+      "id": "x22u9e",
+      "front": "recorrer la ciudad",
+      "back": "parcourir la ville"
+    },
+    {
+      "id": "jgr98r",
+      "front": "tomar el sol",
+      "back": "prendre le soleil"
+    },
+    {
+      "id": "04o8p5",
+      "front": "bañarse",
+      "back": "se baigner"
+    },
+    {
+      "id": "wm76fo",
+      "front": "hacer turismo",
+      "back": "faire du tourisme"
+    },
+    {
+      "id": "k7plhl",
+      "front": "quejarse",
+      "back": "se plaindre"
+    },
+    {
+      "id": "yqx66m",
+      "front": "reclamar",
+      "back": "réclamer"
+    },
+    {
+      "id": "9q7zhe",
+      "front": "anular",
+      "back": "annuler"
+    },
+    {
+      "id": "npy6e1",
+      "front": "regresar",
+      "back": "rentrer, revenir"
+    },
+    {
+      "id": "e03q7g",
+      "front": "incluido",
+      "back": "compris"
+    },
+    {
+      "id": "ns768n",
+      "front": "el mostrador de información",
+      "back": "le bureau d'information"
+    },
+    {
+      "id": "jgee89",
+      "front": "la salida",
+      "back": "le départ"
+    }
+  ]
+}
