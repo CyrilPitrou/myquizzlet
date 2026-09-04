@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-appearance-clothes",
+  "name": "Appearance and Clothes",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "9y1nk3",
+      "front": "an appearance",
+      "back": "une apparence"
+    },
+    {
+      "id": "b464un",
+      "front": "a build",
+      "back": "une carrure, une corpulence"
+    },
+    {
+      "id": "i4dj2v",
+      "front": "a height",
+      "back": "une taille"
+    },
+    {
+      "id": "yira9l",
+      "front": "a weight",
+      "back": "un poids"
+    },
+    {
+      "id": "6to3el",
+      "front": "a figure",
+      "back": "une silhouette"
+    },
+    {
+      "id": "0ywbhi",
+      "front": "tall",
+      "back": "grand"
+    },
+    {
+      "id": "xp7p8q",
+      "front": "short in height",
+      "back": "petit"
+    },
+    {
+      "id": "hj72a2",
+      "front": "thin",
+      "back": "mince, maigre"
+    },
+    {
+      "id": "gh0cn5",
+      "front": "slim",
+      "back": "svelte"
+    },
+    {
+      "id": "y0ksrz",
+      "front": "fat",
+      "back": "gros"
+    },
+    {
+      "id": "67gepu",
+      "front": "plump",
+      "back": "rondelet"
+    },
+    {
+      "id": "rlip1u",
+      "front": "strong",
+      "back": "fort"
+    },
+    {
+      "id": "kc81rj",
+      "front": "weak",
+      "back": "faible"
+    },
+    {
+      "id": "r1646x",
+      "front": "fit",
+      "back": "en forme"
+    },
+    {
+      "id": "hbkhh9",
+      "front": "overweight",
+      "back": "en surpoids"
+    },
+    {
+      "id": "jj7f81",
+      "front": "good-looking",
+      "back": "beau, séduisant"
+    },
+    {
+      "id": "bobff4",
+      "front": "handsome",
+      "back": "beau"
+    },
+    {
+      "id": "kftnsk",
+      "front": "pretty",
+      "back": "joli"
+    },
+    {
+      "id": "6blver",
+      "front": "ugly",
+      "back": "laid"
+    },
+    {
+      "id": "dcuz7x",
+      "front": "attractive",
+      "back": "séduisant"
+    },
+    {
+      "id": "nytm2q",
+      "front": "plain in looks",
+      "back": "quelconque, sans charme"
+    },
+    {
+      "id": "enrdl9",
+      "front": "elegant",
+      "back": "élégant"
+    },
+    {
+      "id": "ghjhnz",
+      "front": "scruffy",
+      "back": "débraillé"
+    },
+    {
+      "id": "5spu57",
+      "front": "smart in appearance",
+      "back": "élégant, soigné"
+    },
+    {
+      "id": "kpfuzt",
+      "front": "blond hair",
+      "back": "des cheveux blonds"
+    },
+    {
+      "id": "zt94od",
+      "front": "brown hair",
+      "back": "des cheveux bruns"
+    },
+    {
+      "id": "aed6lh",
+      "front": "red hair",
+      "back": "des cheveux roux"
+    },
+    {
+      "id": "xr6r2p",
+      "front": "grey hair",
+      "back": "des cheveux gris"
+    },
+    {
+      "id": "nwpvnn",
+      "front": "straight hair",
+      "back": "des cheveux raides"
+    },
+    {
+      "id": "6ndoup",
+      "front": "curly hair",
+      "back": "des cheveux bouclés"
+    },
+    {
+      "id": "iy5ob2",
+      "front": "wavy hair",
+      "back": "des cheveux ondulés"
+    },
+    {
+      "id": "y4prym",
+      "front": "bald",
+      "back": "chauve"
+    },
+    {
+      "id": "ola6x6",
+      "front": "a fringe",
+      "back": "une frange"
+    },
+    {
+      "id": "ejdqeg",
+      "front": "a plait",
+      "back": "une tresse"
+    },
+    {
+      "id": "azs4qa",
+      "front": "a ponytail",
+      "back": "une queue de cheval"
+    },
+    {
+      "id": "2zvvuu",
+      "front": "a beard",
+      "back": "une barbe"
+    },
+    {
+      "id": "epfivx",
+      "front": "a moustache",
+      "back": "une moustache"
+    },
+    {
+      "id": "uxthn3",
+      "front": "a wrinkle",
+      "back": "une ride"
+    },
+    {
+      "id": "izt24q",
+      "front": "a freckle",
+      "back": "une tache de rousseur"
+    },
+    {
+      "id": "qdxz49",
+      "front": "a scar",
+      "back": "une cicatrice"
+    },
+    {
+      "id": "q9qt32",
+      "front": "a dimple",
+      "back": "une fossette"
+    },
+    {
+      "id": "ax1unt",
+      "front": "a complexion",
+      "back": "un teint"
+    },
+    {
+      "id": "1jczhu",
+      "front": "pale",
+      "back": "pâle"
+    },
+    {
+      "id": "zi49h4",
+      "front": "tanned",
+      "back": "bronzé"
+    },
+    {
+      "id": "1ww13d",
+      "front": "clothes",
+      "back": "les vêtements"
+    },
+    {
+      "id": "v1op8w",
+      "front": "an outfit",
+      "back": "une tenue"
+    },
+    {
+      "id": "tw75dr",
+      "front": "a garment",
+      "back": "un vêtement"
+    },
+    {
+      "id": "6q9gws",
+      "front": "a shirt",
+      "back": "une chemise"
+    },
+    {
+      "id": "2dp2lf",
+      "front": "a blouse",
+      "back": "un chemisier"
+    },
+    {
+      "id": "4j4y25",
+      "front": "a T-shirt",
+      "back": "un tee-shirt"
+    },
+    {
+      "id": "6rssoj",
+      "front": "a jumper",
+      "back": "un pull"
+    },
+    {
+      "id": "iczq3t",
+      "front": "a cardigan",
+      "back": "un gilet"
+    },
+    {
+      "id": "xlfkhi",
+      "front": "a jacket",
+      "back": "une veste"
+    },
+    {
+      "id": "4w0c6e",
+      "front": "a coat",
+      "back": "un manteau"
+    },
+    {
+      "id": "c4ybry",
+      "front": "a raincoat",
+      "back": "un imperméable"
+    },
+    {
+      "id": "1mazra",
+      "front": "a suit",
+      "back": "un costume, un tailleur"
+    },
+    {
+      "id": "z6ck22",
+      "front": "a tie",
+      "back": "une cravate"
+    },
+    {
+      "id": "6cee2v",
+      "front": "a dress",
+      "back": "une robe"
+    },
+    {
+      "id": "cwj8tx",
+      "front": "a skirt",
+      "back": "une jupe"
+    },
+    {
+      "id": "p28bqj",
+      "front": "trousers",
+      "back": "un pantalon"
+    },
+    {
+      "id": "r561wh",
+      "front": "jeans",
+      "back": "un jean"
+    },
+    {
+      "id": "m1pzqw",
+      "front": "shorts",
+      "back": "un short"
+    },
+    {
+      "id": "qxt885",
+      "front": "a pair of tights",
+      "back": "un collant"
+    },
+    {
+      "id": "kxd80b",
+      "front": "a sock",
+      "back": "une chaussette"
+    },
+    {
+      "id": "zywv15",
+      "front": "underwear",
+      "back": "les sous-vêtements"
+    },
+    {
+      "id": "an3534",
+      "front": "a shoe",
+      "back": "une chaussure"
+    },
+    {
+      "id": "l5a40t",
+      "front": "a boot",
+      "back": "une botte"
+    },
+    {
+      "id": "h0t1b6",
+      "front": "a trainer",
+      "back": "une basket"
+    },
+    {
+      "id": "i56jkk",
+      "front": "a sandal",
+      "back": "une sandale"
+    },
+    {
+      "id": "0z1f1q",
+      "front": "a slipper",
+      "back": "un chausson"
+    },
+    {
+      "id": "7tlhoa",
+      "front": "a hat",
+      "back": "un chapeau"
+    },
+    {
+      "id": "3qzr2c",
+      "front": "a cap",
+      "back": "une casquette"
+    },
+    {
+      "id": "xwx3s6",
+      "front": "a scarf",
+      "back": "une écharpe"
+    },
+    {
+      "id": "wzq81n",
+      "front": "a glove",
+      "back": "un gant"
+    },
+    {
+      "id": "uz85oy",
+      "front": "a belt",
+      "back": "une ceinture"
+    },
+    {
+      "id": "kir6ky",
+      "front": "a button",
+      "back": "un bouton"
+    },
+    {
+      "id": "mkr4s7",
+      "front": "a zip",
+      "back": "une fermeture éclair"
+    },
+    {
+      "id": "4kydz4",
+      "front": "a pocket",
+      "back": "une poche"
+    },
+    {
+      "id": "8n680v",
+      "front": "a sleeve",
+      "back": "une manche"
+    },
+    {
+      "id": "8f1xs2",
+      "front": "a collar",
+      "back": "un col"
+    },
+    {
+      "id": "pb3xto",
+      "front": "a hem",
+      "back": "un ourlet"
+    },
+    {
+      "id": "iek55s",
+      "front": "a pattern",
+      "back": "un motif"
+    },
+    {
+      "id": "bfhhbh",
+      "front": "a stripe",
+      "back": "une rayure"
+    },
+    {
+      "id": "19tprg",
+      "front": "a fabric",
+      "back": "un tissu"
+    },
+    {
+      "id": "07zod9",
+      "front": "cotton",
+      "back": "le coton"
+    },
+    {
+      "id": "5cf2dn",
+      "front": "wool",
+      "back": "la laine"
+    },
+    {
+      "id": "kd78av",
+      "front": "silk",
+      "back": "la soie"
+    },
+    {
+      "id": "5zf7qt",
+      "front": "leather",
+      "back": "le cuir"
+    },
+    {
+      "id": "hid1gt",
+      "front": "a jewel",
+      "back": "un bijou"
+    },
+    {
+      "id": "nfz223",
+      "front": "a ring",
+      "back": "une bague"
+    },
+    {
+      "id": "gakwf3",
+      "front": "a necklace",
+      "back": "un collier"
+    },
+    {
+      "id": "6hoklg",
+      "front": "an earring",
+      "back": "une boucle d'oreille"
+    },
+    {
+      "id": "wqxsi6",
+      "front": "a bracelet",
+      "back": "un bracelet"
+    },
+    {
+      "id": "63gat9",
+      "front": "a watch strap",
+      "back": "un bracelet de montre"
+    },
+    {
+      "id": "bxhf8w",
+      "front": "make-up",
+      "back": "le maquillage"
+    },
+    {
+      "id": "37dqju",
+      "front": "to wear",
+      "back": "porter"
+    },
+    {
+      "id": "u05alu",
+      "front": "to get dressed",
+      "back": "s'habiller"
+    },
+    {
+      "id": "fz56xs",
+      "front": "to get undressed",
+      "back": "se déshabiller"
+    },
+    {
+      "id": "ts3wpf",
+      "front": "to suit somebody",
+      "back": "aller bien à quelqu'un"
+    },
+    {
+      "id": "vq2ike",
+      "front": "to fit",
+      "back": "être à la bonne taille"
+    }
+  ]
+}
