@@ -52,7 +52,7 @@
     {
       "id": "25p7as",
       "front": "a hurricane",
-      "back": "un cyclone"
+      "back": "un ouragan"
     },
     {
       "id": "eu6j5l",
@@ -61,7 +61,7 @@
     },
     {
       "id": "vdw93q",
-      "front": "a quicksand",
+      "front": "quicksand",
       "back": "sables mouvants"
     },
     {
@@ -146,7 +146,7 @@
     },
     {
       "id": "2jf04j",
-      "front": "an oil spill/a black tide",
+      "front": "an oil spill/an oil slick",
       "back": "une marée noire"
     },
     {
@@ -181,8 +181,8 @@
     },
     {
       "id": "neob0s",
-      "front": "a dried fruit",
-      "back": "un fruit séché"
+      "front": "dried fruit",
+      "back": "des fruits secs"
     },
     {
       "id": "eeje4t",
@@ -226,8 +226,8 @@
     },
     {
       "id": "y6g5lz",
-      "front": "a ear of corn",
-      "back": "un épis de maïs"
+      "front": "an ear of corn",
+      "back": "un épi de maïs"
     },
     {
       "id": "stlzg5",
@@ -237,7 +237,7 @@
     {
       "id": "q8st7c",
       "front": "seedless",
-      "back": "sans pépin"
+      "back": "sans pépins"
     },
     {
       "id": "idlued",
@@ -267,7 +267,7 @@
     {
       "id": "1q9t9m",
       "front": "squid",
-      "back": "calamar"
+      "back": "calmar"
     },
     {
       "id": "w6y36l",
@@ -300,7 +300,7 @@
       "back": "une cosse"
     }
   ],
-  "updatedAt": "2026-09-02T16:19:12.611Z",
+  "updatedAt": "2026-09-04T00:00:00.000Z",
   "folder": "English",
   "frontLabel": "English",
   "backLabel": "French"

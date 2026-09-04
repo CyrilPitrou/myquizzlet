@@ -22,7 +22,7 @@
     {
       "id": "qmunly",
       "front": "to take on / to hire",
-      "back": "embaucher quelqu'un"
+      "back": "embaucher"
     },
     {
       "id": "fu15hn",
@@ -72,7 +72,7 @@
     {
       "id": "bhr4v6",
       "front": "a recruitment agency",
-      "back": "agence de recrutement"
+      "back": "une agence de recrutement"
     },
     {
       "id": "p10xpn",
@@ -107,7 +107,7 @@
     {
       "id": "nheq6r",
       "front": "check-in",
-      "back": "l'enregistrement"
+      "back": "enregistrement"
     },
     {
       "id": "zc4u1m",
@@ -117,7 +117,7 @@
     {
       "id": "bmfwyv",
       "front": "lobby",
-      "back": "le hall"
+      "back": "hall"
     },
     {
       "id": "g60t8l",
@@ -132,46 +132,46 @@
     {
       "id": "giv7nf",
       "front": "appetizer",
-      "back": "un hors-d'oeuvre"
+      "back": "un hors-d'œuvre"
     },
     {
       "id": "fsyjqy",
-      "front": "acquit",
+      "front": "to acquit",
       "back": "acquitter/décharger"
     },
     {
       "id": "inms85",
-      "front": "commit",
+      "front": "to commit",
       "back": "commettre"
     },
     {
       "id": "rg28ry",
-      "front": "imprison",
+      "front": "to imprison",
       "back": "emprisonner"
     },
     {
       "id": "1iuvz1",
-      "front": "infringe",
+      "front": "to infringe",
       "back": "enfreindre"
     },
     {
       "id": "fi50qx",
-      "front": "indict",
-      "back": "accuser"
+      "front": "to indict",
+      "back": "inculper, mettre en accusation"
     },
     {
       "id": "n6rxle",
-      "front": "litigate",
+      "front": "to litigate",
       "back": "plaider"
     },
     {
       "id": "ucfay0",
-      "front": "overrule",
-      "back": "annuler,casser une décision"
+      "front": "to overrule",
+      "back": "annuler, casser une décision"
     },
     {
       "id": "qw1nt1",
-      "front": "smuggle",
+      "front": "to smuggle",
       "back": "faire de la contrebande"
     },
     {
@@ -182,7 +182,7 @@
     {
       "id": "s55cdc",
       "front": "barrister",
-      "back": "un avocat"
+      "back": "un avocat (UK, qui plaide au tribunal)"
     },
     {
       "id": "sb4oee",
@@ -207,7 +207,7 @@
     {
       "id": "bvhvkl",
       "front": "bribery",
-      "back": "la corruption"
+      "back": "corruption"
     },
     {
       "id": "sj9b85",
@@ -217,7 +217,7 @@
     {
       "id": "tz0z93",
       "front": "harassment",
-      "back": "le harcèlement"
+      "back": "harcèlement"
     },
     {
       "id": "zg979s",

@@ -1,8 +1,8 @@
 {
   "id": "religion-cinema-camping",
   "name": "Religion/ cinéma/ camping",
-  "frontLang": null,
-  "backLang": null,
+  "frontLang": "en",
+  "backLang": "fr",
   "cards": [
     {
       "id": "nr785x",
@@ -32,7 +32,7 @@
     {
       "id": "2plqto",
       "front": "holy",
-      "back": "saint,sacré"
+      "back": "saint, sacré"
     },
     {
       "id": "ipgjgk",
@@ -57,7 +57,7 @@
     {
       "id": "p6n6gx",
       "front": "sin",
-      "back": "péché"
+      "back": "le péché"
     },
     {
       "id": "9tcznv",
@@ -87,7 +87,7 @@
     {
       "id": "bma6hr",
       "front": "stunt",
-      "back": "un cascadeur"
+      "back": "une cascade"
     },
     {
       "id": "5lg7uv",
@@ -97,7 +97,7 @@
     {
       "id": "kc7w8n",
       "front": "disaster film",
-      "back": "film catastrophe"
+      "back": "un film catastrophe"
     },
     {
       "id": "us71c8",
@@ -106,13 +106,13 @@
     },
     {
       "id": "tunfet",
-      "front": "short-film",
-      "back": "un court métrage"
+      "front": "short film",
+      "back": "un court-métrage"
     },
     {
       "id": "ttj7qd",
       "front": "crane",
-      "back": "grue"
+      "back": "une grue"
     },
     {
       "id": "45qq8w",
@@ -137,7 +137,7 @@
     {
       "id": "l0666z",
       "front": "it's a wrap!",
-      "back": "c'est dans la boite!"
+      "back": "c'est dans la boîte !"
     },
     {
       "id": "woie8y",
@@ -162,17 +162,17 @@
     {
       "id": "cq5zc9",
       "front": "stargazing",
-      "back": "observation des étoiles"
+      "back": "l'observation des étoiles"
     },
     {
       "id": "m3cx2z",
       "front": "wildlife spotting",
-      "back": "observation de la faune"
+      "back": "l'observation de la faune"
     },
     {
       "id": "2jc5m0",
       "front": "flora",
-      "back": "flore"
+      "back": "la flore"
     },
     {
       "id": "fpz86h",
@@ -196,15 +196,22 @@
     },
     {
       "id": "gm496v",
-      "front": "can't see the forest for the trees",
+      "front": "can't see the wood for the trees",
+      "back": "les arbres qui cachent la forêt"
+    },
+    {
+      "id": "a032gx",
+      "front": "can't see beyond the end of one's nose",
       "back": "ne pas voir plus loin que le bout de son nez"
     },
     {
       "id": "hvnee6",
-      "front": "hit the trail",
+      "front": "to hit the trail",
       "back": "se mettre en route"
     }
   ],
   "updatedAt": "2026-09-04T00:00:00.000Z",
-  "folder": "English"
+  "folder": "English",
+  "frontLabel": "English",
+  "backLabel": "French"
 }

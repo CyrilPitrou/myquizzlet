@@ -24,7 +24,7 @@
     },
     {
       "id": "si2cx4",
-      "front": "amar,gustar",
+      "front": "amar, gustar",
       "back": "aimer"
     },
     {
@@ -44,7 +44,7 @@
     },
     {
       "id": "h59upv",
-      "front": "aportar",
+      "front": "traer",
       "back": "apporter"
     },
     {
@@ -55,12 +55,12 @@
     {
       "id": "yl5h64",
       "front": "detener",
-      "back": "arrêter,stopper"
+      "back": "arrêter, stopper"
     },
     {
       "id": "wvp9hw",
       "front": "llegar",
-      "back": "arriver,venir"
+      "back": "arriver, venir"
     },
     {
       "id": "q90f3j",
@@ -68,9 +68,24 @@
       "back": "attendre"
     },
     {
+      "id": "kjaa2g",
+      "front": "tener",
+      "back": "avoir"
+    },
+    {
       "id": "4ofrdc",
       "front": "necesitar",
       "back": "avoir besoin de"
+    },
+    {
+      "id": "tsr5p8",
+      "front": "tener éxito/lograr",
+      "back": "avoir du succès"
+    },
+    {
+      "id": "89h615",
+      "front": "beber",
+      "back": "boire"
     },
     {
       "id": "6qxkjo",
@@ -80,7 +95,7 @@
     {
       "id": "0yc4yi",
       "front": "cambiar",
-      "back": "changer,modifier"
+      "back": "changer, modifier"
     },
     {
       "id": "zl9kt3",
@@ -98,6 +113,11 @@
       "back": "commencer"
     },
     {
+      "id": "5w5wf5",
+      "front": "comprender, entender",
+      "back": "comprendre"
+    },
+    {
       "id": "jlyjj2",
       "front": "contar",
       "back": "compter"
@@ -105,7 +125,12 @@
     {
       "id": "ppw1ee",
       "front": "conducir",
-      "back": "conduire,mener"
+      "back": "conduire, mener"
+    },
+    {
+      "id": "9b0x23",
+      "front": "conocer",
+      "back": "connaître"
     },
     {
       "id": "8505z5",
@@ -113,19 +138,24 @@
       "back": "couper"
     },
     {
+      "id": "hdqo9f",
+      "front": "correr",
+      "back": "courir"
+    },
+    {
       "id": "znt75e",
       "front": "creer",
-      "back": "croire,penser"
+      "back": "croire, penser"
     },
     {
       "id": "w4jqie",
       "front": "preguntar",
-      "back": "demander,poser une question"
+      "back": "demander, poser une question"
     },
     {
       "id": "6zk0pj",
       "front": "bajar",
-      "back": "descendre,baisser"
+      "back": "descendre, baisser"
     },
     {
       "id": "4nru6p",
@@ -138,14 +168,39 @@
       "back": "devoir"
     },
     {
+      "id": "bw6kfm",
+      "front": "decir",
+      "back": "dire"
+    },
+    {
       "id": "c24068",
       "front": "dar",
       "back": "donner"
     },
     {
+      "id": "s1mvov",
+      "front": "dormir",
+      "back": "dormir"
+    },
+    {
+      "id": "8riu0z",
+      "front": "escuchar",
+      "back": "écouter"
+    },
+    {
+      "id": "ubau3b",
+      "front": "escribir",
+      "back": "écrire"
+    },
+    {
       "id": "e7f4tr",
-      "front": "prevenir, impedir,evitar",
+      "front": "prevenir, impedir, evitar",
       "back": "empêcher"
+    },
+    {
+      "id": "mfrdzm",
+      "front": "oír",
+      "back": "entendre"
     },
     {
       "id": "anwh68",
@@ -155,11 +210,11 @@
     {
       "id": "qsle0d",
       "front": "enviar",
-      "back": "envoyer,expédier"
+      "back": "envoyer, expédier"
     },
     {
       "id": "8w0w8g",
-      "front": "intentar,tratar,probar",
+      "front": "intentar, tratar",
       "back": "essayer"
     },
     {
@@ -168,9 +223,29 @@
       "back": "éteindre"
     },
     {
+      "id": "n358e3",
+      "front": "ser, estar",
+      "back": "être"
+    },
+    {
       "id": "5y14px",
       "front": "existir",
-      "back": "exister,vivre"
+      "back": "exister"
+    },
+    {
+      "id": "bmkhdm",
+      "front": "hacer",
+      "back": "faire"
+    },
+    {
+      "id": "827jw4",
+      "front": "cerrar",
+      "back": "fermer"
+    },
+    {
+      "id": "315tzq",
+      "front": "terminar, acabar",
+      "back": "finir, terminer"
     },
     {
       "id": "oz7o7b",
@@ -180,12 +255,12 @@
     {
       "id": "ww5r5u",
       "front": "mantener",
-      "back": "garder,maintenir"
+      "back": "garder, maintenir"
     },
     {
       "id": "i9ongg",
       "front": "probar",
-      "back": "goûter"
+      "back": "goûter, essayer (tester)"
     },
     {
       "id": "aqk23r",
@@ -194,7 +269,7 @@
     },
     {
       "id": "q70vmx",
-      "front": "desempeñarse",
+      "front": "jugar",
       "back": "jouer"
     },
     {
@@ -205,17 +280,42 @@
     {
       "id": "t82l7x",
       "front": "lavar, limpiar",
-      "back": "laver,nettoyer"
+      "back": "laver, nettoyer"
+    },
+    {
+      "id": "qc107d",
+      "front": "leer",
+      "back": "lire"
+    },
+    {
+      "id": "nitd4e",
+      "front": "comer",
+      "back": "manger"
+    },
+    {
+      "id": "r9cg8j",
+      "front": "caminar, andar",
+      "back": "marcher"
     },
     {
       "id": "tdilxh",
       "front": "poner",
-      "back": "mettre,poser"
+      "back": "mettre, poser (un objet)"
+    },
+    {
+      "id": "7ij85i",
+      "front": "subir",
+      "back": "monter"
     },
     {
       "id": "3q16it",
       "front": "mostrar",
       "back": "montrer"
+    },
+    {
+      "id": "tfwnul",
+      "front": "morir",
+      "back": "mourir"
     },
     {
       "id": "g5vgk4",
@@ -224,8 +324,13 @@
     },
     {
       "id": "1p5t4a",
-      "front": "iniciar",
+      "front": "abrir",
       "back": "ouvrir"
+    },
+    {
+      "id": "hp08a0",
+      "front": "hablar",
+      "back": "parler"
     },
     {
       "id": "q53nq6",
@@ -235,7 +340,12 @@
     {
       "id": "wl1xnx",
       "front": "pensar",
-      "back": "penser,réfléchir"
+      "back": "penser, réfléchir"
+    },
+    {
+      "id": "zsk5he",
+      "front": "perder",
+      "back": "perdre"
     },
     {
       "id": "wgbno3",
@@ -250,12 +360,17 @@
     {
       "id": "3q2j6t",
       "front": "llevar",
-      "back": "porter,emporter,emmener"
+      "back": "porter, emporter, emmener"
     },
     {
       "id": "9o8rqs",
       "front": "plantear",
-      "back": "poser"
+      "back": "poser (une question, un problème)"
+    },
+    {
+      "id": "x87qwp",
+      "front": "poder",
+      "back": "pouvoir"
     },
     {
       "id": "2tjokv",
@@ -263,14 +378,9 @@
       "back": "prendre"
     },
     {
-      "id": "ewdb6t",
-      "front": "recordar",
-      "back": "se souvenir"
-    },
-    {
       "id": "a35pku",
       "front": "recibir",
-      "back": "recevoir,accueillir"
+      "back": "recevoir, accueillir"
     },
     {
       "id": "wh6fpb",
@@ -279,7 +389,7 @@
     },
     {
       "id": "razngt",
-      "front": "rendir",
+      "front": "devolver",
       "back": "rendre"
     },
     {
@@ -305,12 +415,7 @@
     {
       "id": "iydgwl",
       "front": "permanecer",
-      "back": "rester,demeurer"
-    },
-    {
-      "id": "4djgjz",
-      "front": "encontrar",
-      "back": "trouver,rencontrer"
+      "back": "rester, demeurer"
     },
     {
       "id": "bnps1u",
@@ -318,19 +423,19 @@
       "back": "retourner"
     },
     {
-      "id": "tsr5p8",
-      "front": "tener éxito/lograr",
-      "back": "avoir du succès"
-    },
-    {
       "id": "lnt6s6",
-      "front": "reir",
+      "front": "reír",
       "back": "rire"
     },
     {
       "id": "v02ylf",
       "front": "sentarse",
       "back": "s'asseoir"
+    },
+    {
+      "id": "vef0by",
+      "front": "saber",
+      "back": "savoir"
     },
     {
       "id": "043ljp",
@@ -344,23 +449,33 @@
     },
     {
       "id": "9gk27e",
-      "front": "despertar",
+      "front": "despertarse",
       "back": "se réveiller"
+    },
+    {
+      "id": "ewdb6t",
+      "front": "recordar",
+      "back": "se souvenir"
     },
     {
       "id": "40q6lq",
       "front": "salir",
-      "back": "sortir,partir"
+      "back": "sortir, partir"
+    },
+    {
+      "id": "a3stxn",
+      "front": "seguir",
+      "back": "suivre"
     },
     {
       "id": "0ess1g",
       "front": "sacar",
-      "back": "tirer,retirer"
+      "back": "tirer, retirer"
     },
     {
       "id": "5vqxfl",
       "front": "caer",
-      "back": "tomber,chuter"
+      "back": "tomber, chuter"
     },
     {
       "id": "r0upmf",
@@ -368,10 +483,45 @@
       "back": "tourner"
     },
     {
+      "id": "vomvpu",
+      "front": "trabajar",
+      "back": "travailler"
+    },
+    {
+      "id": "4djgjz",
+      "front": "encontrar",
+      "back": "trouver, rencontrer"
+    },
+    {
+      "id": "l6kfty",
+      "front": "vender",
+      "back": "vendre"
+    },
+    {
+      "id": "tpi0b5",
+      "front": "venir",
+      "back": "venir"
+    },
+    {
+      "id": "ee4o79",
+      "front": "vivir",
+      "back": "vivre"
+    },
+    {
+      "id": "igbtxl",
+      "front": "ver",
+      "back": "voir"
+    },
+    {
       "id": "3kra6x",
       "front": "robar",
-      "back": "voler,dérober"
+      "back": "voler, dérober"
+    },
+    {
+      "id": "3mtopq",
+      "front": "querer",
+      "back": "vouloir"
     }
   ],
-  "updatedAt": "2026-09-03T18:14:20.197Z"
+  "updatedAt": "2026-09-04T00:00:00.000Z"
 }
