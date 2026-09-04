@@ -113,7 +113,16 @@ export function showList(id) {
   const created = formatDate(list.createdAt);
 
   const view = screen();
-  view.append(el('a', { href: '#/', class: 'back', text: t('common.back.lists') }));
+  // Home is already one tap away in the header, so the back link is worth
+  // more pointing up to the folder this list sits in. A list with no folder
+  // has nowhere to go, and then there is no link at all.
+  if (list.folder) {
+    view.append(el('a', {
+      href: `#/folder/${encodeURIComponent(list.folder)}`,
+      class: 'back',
+      text: `← ${list.folder}`,
+    }));
+  }
   view.append(el('div', { class: 'listhead' }, [
     el('h2', {}, [
       list.name,
