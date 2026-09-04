@@ -1,4 +1,5 @@
 import { el } from '../ui.js';
+import { pageHead, newListLink } from '../pagehead.js';
 import { store, screen, todayStr } from '../app.js';
 import { listStats } from '../stats.js';
 import { t } from '../i18n.js';
@@ -47,7 +48,9 @@ export function showFolders() {
 export function showFolder(name) {
   const view = screen();
   view.append(el('a', { href: '#/folders', class: 'back', text: t('folders.back') }));
-  view.append(el('h2', { text: name === UNFILED ? t('common.unfiled') : name }));
+  // The + here files the new list in the folder you are standing in.
+  view.append(pageHead(name === UNFILED ? t('common.unfiled') : name,
+                       [newListLink(name === UNFILED ? null : name)]));
   const lists = (grouped().find(([folder]) => folder === name) || [name, []])[1];
   if (lists.length === 0) {
     view.append(el('p', { class: 'empty', text: t('folders.empty') }));

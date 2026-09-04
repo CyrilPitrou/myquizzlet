@@ -8,6 +8,7 @@ export const fr = {
   'nav.settings': 'Réglages',
   'nav.help': 'Aide',
   'nav.lang': 'Switch to English',
+  'nav.more': 'Plus',
   'status.synced': 'Tout est sur GitHub',
   'status.syncing': 'Synchronisation…',
   'status.pending': 'Modifications en attente',

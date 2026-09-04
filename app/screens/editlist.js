@@ -55,11 +55,15 @@ export function showNewList() {
   view.append(el('a', { href: '#/', class: 'back', text: t('common.back.lists') }));
   view.append(el('h2', { text: t('editlist.new.title') }));
 
+  // Arriving from the + inside a folder: that folder is where the list goes.
+  const filedIn = new URLSearchParams(location.hash.split('?')[1] || '').get('folder');
+
   const draftCards = [];
   const status = el('p', { class: 'muted' });
   const paste = draftPasteBlock(draftCards, status);
 
   view.append(listForm({
+    folder: filedIn,
     onSave: (fields) => {
       // Stage whatever is still sitting in the paste box, even if the user
       // never clicked "Stage pasted text" — this screen navigates away on

@@ -59,7 +59,7 @@
 }
 
 :root { --chip-paper: #faf7f2; --chip-study: #f1f3f9; --chip-focus: #0f1720; }
-:root { --backdrop: rgba(0, 0, 0, .45); }
+:root { --backdrop: rgba(0, 0, 0, .45); --lift: rgba(0, 0, 0, .18); }
 
 *, *::before, *::after { box-sizing: border-box; }
 body { margin: 0; font: 16px/1.5 system-ui, sans-serif; background: var(--ground); color: var(--ink); }
@@ -71,15 +71,42 @@ h3 { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase;
      color: var(--muted); margin: 1.4rem 0 .4rem; }
 
 #topbar { display: flex; align-items: center; gap: .25rem; padding: .5rem .75rem;
-          background: var(--surface); border-bottom: 1px solid var(--rule); }
+          background: var(--surface); border-bottom: 1px solid var(--rule);
+          position: relative; }
 #topbar a, #topbar button, #sync-dot { display: flex; align-items: center; justify-content: center;
                        min-width: 44px; height: 44px; padding: 0 .5rem; box-sizing: border-box; }
 #topbar a { text-decoration: none; color: var(--ink); font-size: 1rem; }
 #topbar button { background: none; border: none; cursor: pointer; }
 #topbar a.icon, #topbar button.icon, #sync-dot { padding: 0; font-size: 1.5rem; }
 #topbar { justify-content: flex-end; }
-#topbar .nav:first-child { margin-right: auto; }
+#topbar > .nav:first-child { margin-right: auto; }
 #topbar.session .nav { display: none; }
+
+/* The overflow menu. #more is a plain flex item carrying the ⋯ button; the
+   panel hangs off it, so the bar's own layout is unaffected by the panel. */
+#more { display: flex; align-items: center; }
+#more-menu { position: absolute; top: 100%; right: .5rem; z-index: 20;
+             min-width: 12rem; padding: .25rem 0;
+             background: var(--surface); border: 1px solid var(--rule);
+             border-radius: 8px; box-shadow: 0 6px 20px var(--lift);
+             display: flex; flex-direction: column; }
+/* An id selector outranks the user agent's [hidden] rule, so the panel has to
+   be told to disappear in as specific a voice as it was told to be a column. */
+#more-menu[hidden] { display: none; }
+#topbar #more-menu a { justify-content: flex-start; gap: .6rem; padding: 0 .9rem; }
+#topbar #more-menu a:hover, #topbar #more-menu a:focus { background: var(--ground); }
+/* One column for every icon, so the labels line up whatever the glyph. */
+#more-menu .mi { width: 1.4rem; text-align: center; font-size: 1.2rem; }
+
+/* A screen's title and the actions that belong to it. The title side may be
+   empty — Lists has no heading of its own — and the row still holds the
+   action against the right edge. */
+.pagehead { display: flex; align-items: center; justify-content: space-between;
+            gap: .5rem; min-height: 44px; }
+.pagehead h2 { margin: 0; }
+.pagehead .btn.icon { min-width: 44px; height: 44px; padding: 0;
+                      font-size: 1.5rem; line-height: 1;
+                      display: flex; align-items: center; justify-content: center; }
 
 .liststats { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap;
   color: var(--muted); font-size: .9rem; }

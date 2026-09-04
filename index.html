@@ -19,14 +19,20 @@
 </head>
 <body>
   <header id="topbar">
-    <a href="#/new" class="nav icon" title="Create a list" aria-label="Create a list">＋</a>
+    <a href="#/" class="nav icon" title="Lists" aria-label="Lists">🏠</a>
     <a href="#/folders" class="nav" title="Folders">Folders</a>
-    <a href="#/" class="nav" title="Lists">Lists</a>
-    <a href="#/wishes" class="nav icon" title="Suggestions" aria-label="Suggestions">🪄</a>
-    <a href="#/settings" class="nav icon" title="Settings" aria-label="Settings">⚙</a>
-    <a href="#/help" class="nav icon" title="Help" aria-label="Help">?</a>
     <button id="lang" class="nav icon" type="button"></button>
     <button id="sync-dot" type="button" title="No token — read-only" disabled>⊘</button>
+    <div id="more" class="nav">
+      <button id="more-btn" class="icon" type="button" title="More" aria-label="More"
+              aria-haspopup="menu" aria-expanded="false" aria-controls="more-menu">⋯</button>
+      <div id="more-menu" role="menu" hidden>
+        <a href="#/settings" role="menuitem"><span class="mi">⚙</span><span class="lbl">Settings</span></a>
+        <a href="#/wishes" role="menuitem"><span class="mi">🪄</span><span class="lbl">Suggestions</span></a>
+        <a href="#/help" role="menuitem"><span class="mi">?</span><span class="lbl">Help</span></a>
+        <a href="#/new" role="menuitem"><span class="mi">＋</span><span class="lbl">Create a list</span></a>
+      </div>
+    </div>
   </header>
   <main id="screen"></main>
   <script type="module" src="app/main.js"></script>

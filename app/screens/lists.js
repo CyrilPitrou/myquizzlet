@@ -1,4 +1,5 @@
 import { el } from '../ui.js';
+import { pageHead, newListLink } from '../pagehead.js';
 import { store, screen, todayStr, settings } from '../app.js';
 import { recency } from '../store.js';
 import { listStats } from '../stats.js';
@@ -35,8 +36,9 @@ export function showLists() {
     return bt.localeCompare(at);   // newest first
   });
 
+  view.append(pageHead(ids.length === 0 ? t('lists.title') : null, [newListLink()]));
+
   if (ids.length === 0) {
-    view.append(el('h2', { text: t('lists.title') }));
     view.append(el('p', { class: 'empty' }, [
       `${t('common.noLists')} `, el('a', { href: '#/new', text: t('common.createOne') }), '.',
     ]));

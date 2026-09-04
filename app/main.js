@@ -46,6 +46,10 @@ function paintLang() {
   button.title = t('nav.lang');
   button.setAttribute('aria-label', t('nav.lang'));
 
+  const more = $('#more-btn');
+  more.title = t('nav.more');
+  more.setAttribute('aria-label', t('nav.more'));
+
   const nav = { '#/new': 'nav.new', '#/folders': 'nav.folders',
                 '#/': 'nav.lists', '#/wishes': 'nav.wishes',
                 '#/settings': 'nav.settings', '#/help': 'nav.help' };
@@ -54,12 +58,32 @@ function paintLang() {
     if (!link) continue;
     link.title = t(key);
     link.setAttribute('aria-label', t(key));
-    if (!link.classList.contains('icon')) link.textContent = t(key);
+    // A menu item writes into its label span, beside an icon that stays put.
+    // A bare icon link has nothing to write into: its name is its title.
+    const label = link.querySelector('.lbl');
+    if (label) label.textContent = t(key);
+    else if (!link.classList.contains('icon')) link.textContent = t(key);
   }
   repaintStatus();
 }
 
+// The overflow menu. Open state lives in the DOM — nothing else needs to know
+// about it — and every way out of the menu goes through closeMore().
+function closeMore() {
+  $('#more-menu').hidden = true;
+  $('#more-btn').setAttribute('aria-expanded', 'false');
+}
+
+function toggleMore() {
+  const menu = $('#more-menu');
+  menu.hidden = !menu.hidden;
+  $('#more-btn').setAttribute('aria-expanded', String(!menu.hidden));
+}
+
 function render() {
+  // Following a menu item changes the hash, and the menu it was in must not
+  // survive onto the screen it opened.
+  closeMore();
   paintLang();
   const [path] = location.hash.split('?');
   $('#topbar').classList.toggle('session', /\/(train|test)\/[^/]+\/go$/.test(path));
@@ -106,6 +130,18 @@ document.addEventListener('visibilitychange', () => {
 window.addEventListener('online', resync);
 $('#sync-dot').addEventListener('click', resync);
 $('#lang').addEventListener('click', () => setLang(lang() === 'fr' ? 'en' : 'fr'));
+$('#more-btn').addEventListener('click', (event) => { event.stopPropagation(); toggleMore(); });
+// render() closes the menu on every navigation, but choosing the item for the
+// screen you are already on changes no hash and so renders nothing.
+$('#more-menu').addEventListener('click', closeMore);
+document.addEventListener('click', (event) => {
+  if (!$('#more-menu').hidden && !$('#more').contains(event.target)) closeMore();
+});
+document.addEventListener('keydown', (event) => {
+  if (event.key !== 'Escape' || $('#more-menu').hidden) return;
+  closeMore();
+  $('#more-btn').focus();
+});
 // The browser's install offer can arrive while Help is already on screen,
 // and installing removes the reason to show the section at all.
 onInstallChange(() => { if (location.hash.startsWith('#/help')) render(); });

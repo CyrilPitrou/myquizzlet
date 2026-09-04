@@ -29,15 +29,17 @@ function labelField(text, value, placeholder) {
 // an action that belongs to this form's subject but not to its fields. It is
 // a slot rather than something the caller appends afterwards, because "above
 // the submit button" is a position only this function can promise.
-export function listForm({ list = null, onSave, sidesOnly = false, beforeSave = null }) {
+export function listForm({ list = null, onSave, sidesOnly = false, beforeSave = null, folder: filedIn = null }) {
   const name = sidesOnly ? null : el('input', {
     value: list ? list.name : '', placeholder: t('form.title.placeholder'), required: 'required',
   });
 
   const folders = sidesOnly ? null : el('datalist', { id: 'folder-names' },
     store.folders().map((folder) => el('option', { value: folder })));
+  // filedIn is where a new list starts out — the folder the + was tapped in.
+  // An existing list's own folder always wins; the field stays editable.
   const folder = sidesOnly ? null : el('input', {
-    value: (list && list.folder) || '', placeholder: t('form.folder.placeholder'), list: 'folder-names',
+    value: (list && list.folder) || filedIn || '', placeholder: t('form.folder.placeholder'), list: 'folder-names',
   });
 
   const front = labelField(t('form.firstSide'), list && list.frontLabel, t('form.front.placeholder'));
