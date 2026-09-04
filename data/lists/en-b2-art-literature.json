@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-art-literature",
+  "name": "Art and Literature",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "e2f5eb",
+      "front": "the arts",
+      "back": "les arts"
+    },
+    {
+      "id": "9dfe34",
+      "front": "a work of art",
+      "back": "une œuvre d'art"
+    },
+    {
+      "id": "8dbd73",
+      "front": "an artist",
+      "back": "un artiste"
+    },
+    {
+      "id": "d7b99f",
+      "front": "a craftsman",
+      "back": "un artisan"
+    },
+    {
+      "id": "a4e117",
+      "front": "craftsmanship",
+      "back": "le savoir-faire, l'art du métier"
+    },
+    {
+      "id": "8e2404",
+      "front": "a masterpiece",
+      "back": "un chef-d'œuvre"
+    },
+    {
+      "id": "ec4dee",
+      "front": "a movement",
+      "back": "un mouvement, un courant"
+    },
+    {
+      "id": "ce4951",
+      "front": "a school of thought",
+      "back": "une école, un courant"
+    },
+    {
+      "id": "3ae946",
+      "front": "the avant-garde",
+      "back": "l'avant-garde"
+    },
+    {
+      "id": "6d1e01",
+      "front": "classicism",
+      "back": "le classicisme"
+    },
+    {
+      "id": "975341",
+      "front": "romanticism",
+      "back": "le romantisme"
+    },
+    {
+      "id": "ac5f76",
+      "front": "realism",
+      "back": "le réalisme"
+    },
+    {
+      "id": "47a696",
+      "front": "impressionism",
+      "back": "l'impressionnisme"
+    },
+    {
+      "id": "3d07ea",
+      "front": "surrealism",
+      "back": "le surréalisme"
+    },
+    {
+      "id": "08cf4f",
+      "front": "modernism",
+      "back": "le modernisme"
+    },
+    {
+      "id": "eebf50",
+      "front": "abstraction",
+      "back": "l'abstraction"
+    },
+    {
+      "id": "27cfe0",
+      "front": "figurative",
+      "back": "figuratif"
+    },
+    {
+      "id": "8f4ce7",
+      "front": "a painting",
+      "back": "un tableau, une peinture"
+    },
+    {
+      "id": "38ed3c",
+      "front": "a canvas",
+      "back": "une toile"
+    },
+    {
+      "id": "0bd1bd",
+      "front": "an oil painting",
+      "back": "une peinture à l'huile"
+    },
+    {
+      "id": "d8905b",
+      "front": "a watercolour",
+      "back": "une aquarelle"
+    },
+    {
+      "id": "0457dc",
+      "front": "a sketch",
+      "back": "une esquisse, un croquis"
+    },
+    {
+      "id": "8dbad4",
+      "front": "a portrait",
+      "back": "un portrait"
+    },
+    {
+      "id": "0a37e3",
+      "front": "a self-portrait",
+      "back": "un autoportrait"
+    },
+    {
+      "id": "6f9553",
+      "front": "a still life",
+      "back": "une nature morte"
+    },
+    {
+      "id": "1c5a79",
+      "front": "a landscape painting",
+      "back": "un paysage"
+    },
+    {
+      "id": "773f86",
+      "front": "a fresco",
+      "back": "une fresque"
+    },
+    {
+      "id": "82cb86",
+      "front": "a brushstroke",
+      "back": "un coup de pinceau"
+    },
+    {
+      "id": "3cfeac",
+      "front": "a palette",
+      "back": "une palette"
+    },
+    {
+      "id": "4bddae",
+      "front": "a hue",
+      "back": "une teinte"
+    },
+    {
+      "id": "62c899",
+      "front": "a shade",
+      "back": "une nuance"
+    },
+    {
+      "id": "48b05a",
+      "front": "perspective",
+      "back": "la perspective"
+    },
+    {
+      "id": "2c60a4",
+      "front": "composition",
+      "back": "la composition"
+    },
+    {
+      "id": "da2646",
+      "front": "sculpture",
+      "back": "la sculpture"
+    },
+    {
+      "id": "2f52b8",
+      "front": "a statue",
+      "back": "une statue"
+    },
+    {
+      "id": "c9dd93",
+      "front": "a bust",
+      "back": "un buste"
+    },
+    {
+      "id": "5730ad",
+      "front": "to carve",
+      "back": "sculpter, tailler"
+    },
+    {
+      "id": "b37d02",
+      "front": "to cast",
+      "back": "couler, mouler"
+    },
+    {
+      "id": "cfa4e8",
+      "front": "an engraving",
+      "back": "une gravure"
+    },
+    {
+      "id": "9dc508",
+      "front": "an etching",
+      "back": "une eau-forte"
+    },
+    {
+      "id": "931fcb",
+      "front": "a print",
+      "back": "une estampe, une gravure"
+    },
+    {
+      "id": "ab6aa0",
+      "front": "a gallery",
+      "back": "une galerie"
+    },
+    {
+      "id": "73e97a",
+      "front": "an exhibition",
+      "back": "une exposition"
+    },
+    {
+      "id": "5337fe",
+      "front": "a curator",
+      "back": "un conservateur, un commissaire d'exposition"
+    },
+    {
+      "id": "a9c4d2",
+      "front": "a collection",
+      "back": "une collection"
+    },
+    {
+      "id": "3dce3c",
+      "front": "a patron",
+      "back": "un mécène"
+    },
+    {
+      "id": "1f7249",
+      "front": "an art dealer",
+      "back": "un marchand d'art"
+    },
+    {
+      "id": "480660",
+      "front": "an auction",
+      "back": "une vente aux enchères"
+    },
+    {
+      "id": "cc1651",
+      "front": "a forgery of a painting",
+      "back": "un faux tableau"
+    },
+    {
+      "id": "61c861",
+      "front": "literature",
+      "back": "la littérature"
+    },
+    {
+      "id": "260a46",
+      "front": "a writer",
+      "back": "un écrivain"
+    },
+    {
+      "id": "987382",
+      "front": "an author",
+      "back": "un auteur"
+    },
+    {
+      "id": "3a4213",
+      "front": "a novelist",
+      "back": "un romancier"
+    },
+    {
+      "id": "b42fcc",
+      "front": "a poet",
+      "back": "un poète"
+    },
+    {
+      "id": "5aad3c",
+      "front": "a playwright",
+      "back": "un dramaturge"
+    },
+    {
+      "id": "f605b5",
+      "front": "an essayist",
+      "back": "un essayiste"
+    },
+    {
+      "id": "015356",
+      "front": "a genre",
+      "back": "un genre"
+    },
+    {
+      "id": "1ee36b",
+      "front": "a novel",
+      "back": "un roman"
+    },
+    {
+      "id": "85e2fe",
+      "front": "a short story",
+      "back": "une nouvelle"
+    },
+    {
+      "id": "5201e4",
+      "front": "a novella",
+      "back": "un roman court"
+    },
+    {
+      "id": "dee6e7",
+      "front": "a fable",
+      "back": "une fable"
+    },
+    {
+      "id": "ec83f3",
+      "front": "an epic",
+      "back": "une épopée"
+    },
+    {
+      "id": "010306",
+      "front": "a tragedy",
+      "back": "une tragédie"
+    },
+    {
+      "id": "e52c70",
+      "front": "a comedy",
+      "back": "une comédie"
+    },
+    {
+      "id": "3608a4",
+      "front": "a satire",
+      "back": "une satire"
+    },
+    {
+      "id": "e8b1bd",
+      "front": "a memoir",
+      "back": "un mémoire, des souvenirs"
+    },
+    {
+      "id": "a84ef4",
+      "front": "a biography",
+      "back": "une biographie"
+    },
+    {
+      "id": "a6fc9d",
+      "front": "an autobiography",
+      "back": "une autobiographie"
+    },
+    {
+      "id": "3492c1",
+      "front": "poetry",
+      "back": "la poésie"
+    },
+    {
+      "id": "8d18e0",
+      "front": "a poem",
+      "back": "un poème"
+    },
+    {
+      "id": "e0b480",
+      "front": "a verse",
+      "back": "un vers, une strophe"
+    },
+    {
+      "id": "1456df",
+      "front": "a stanza",
+      "back": "une strophe"
+    },
+    {
+      "id": "316839",
+      "front": "rhyme",
+      "back": "la rime"
+    },
+    {
+      "id": "ce7162",
+      "front": "a metaphor",
+      "back": "une métaphore"
+    },
+    {
+      "id": "6a698f",
+      "front": "a simile",
+      "back": "une comparaison"
+    },
+    {
+      "id": "4973f6",
+      "front": "imagery",
+      "back": "les images, l'imagerie"
+    },
+    {
+      "id": "856642",
+      "front": "symbolism",
+      "back": "le symbolisme"
+    },
+    {
+      "id": "22ffd0",
+      "front": "irony",
+      "back": "l'ironie"
+    },
+    {
+      "id": "e6c4c7",
+      "front": "a plot",
+      "back": "une intrigue"
+    },
+    {
+      "id": "59ed9e",
+      "front": "a subplot",
+      "back": "une intrigue secondaire"
+    },
+    {
+      "id": "17f6cb",
+      "front": "a narrator",
+      "back": "un narrateur"
+    },
+    {
+      "id": "92a790",
+      "front": "narration",
+      "back": "la narration"
+    },
+    {
+      "id": "ee5421",
+      "front": "a character",
+      "back": "un personnage"
+    },
+    {
+      "id": "ff3c08",
+      "front": "a protagonist",
+      "back": "un protagoniste"
+    },
+    {
+      "id": "2bdb3e",
+      "front": "characterisation",
+      "back": "la caractérisation des personnages"
+    },
+    {
+      "id": "bd5a65",
+      "front": "a setting",
+      "back": "un cadre, un décor"
+    },
+    {
+      "id": "9df65f",
+      "front": "a theme",
+      "back": "un thème"
+    },
+    {
+      "id": "4987fc",
+      "front": "a climax",
+      "back": "un point culminant"
+    },
+    {
+      "id": "57b9c7",
+      "front": "an ending",
+      "back": "un dénouement"
+    },
+    {
+      "id": "b8f470",
+      "front": "a chapter",
+      "back": "un chapitre"
+    },
+    {
+      "id": "aa9d23",
+      "front": "a preface",
+      "back": "une préface"
+    },
+    {
+      "id": "4b1945",
+      "front": "a foreword",
+      "back": "un avant-propos"
+    },
+    {
+      "id": "77057f",
+      "front": "an excerpt",
+      "back": "un extrait"
+    },
+    {
+      "id": "4e607c",
+      "front": "a manuscript",
+      "back": "un manuscrit"
+    },
+    {
+      "id": "82166e",
+      "front": "a publisher",
+      "back": "un éditeur"
+    },
+    {
+      "id": "c1d53e",
+      "front": "an edition",
+      "back": "une édition"
+    },
+    {
+      "id": "8a79e2",
+      "front": "a critic",
+      "back": "un critique"
+    },
+    {
+      "id": "aa08f5",
+      "front": "a review",
+      "back": "une critique, un compte rendu"
+    },
+    {
+      "id": "ce07dd",
+      "front": "to praise",
+      "back": "louer, faire l'éloge de"
+    },
+    {
+      "id": "d27eb8",
+      "front": "to pan",
+      "back": "éreinter, démolir"
+    }
+  ]
+}
