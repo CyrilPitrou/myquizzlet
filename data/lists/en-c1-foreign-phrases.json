@@ -1,0 +1,412 @@
+{
+  "id": "en-c1-foreign-phrases",
+  "name": "Foreign Phrases in English",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "ezd1z6",
+      "front": "a sine qua non",
+      "back": "une condition sine qua non"
+    },
+    {
+      "id": "s1htdj",
+      "front": "a tour de force",
+      "back": "un tour de force"
+    },
+    {
+      "id": "xlyfow",
+      "front": "schadenfreude",
+      "back": "la joie mauvaise devant le malheur d'autrui"
+    },
+    {
+      "id": "bzm6qp",
+      "front": "ad hoc",
+      "back": "ad hoc, ponctuel"
+    },
+    {
+      "id": "25zqjz",
+      "front": "a bête noire",
+      "back": "une bête noire"
+    },
+    {
+      "id": "z53lk7",
+      "front": "a fait accompli in English",
+      "back": "un fait accompli"
+    },
+    {
+      "id": "2m7qch",
+      "front": "a coup de grâce",
+      "back": "un coup de grâce"
+    },
+    {
+      "id": "bay4km",
+      "front": "a volte-face",
+      "back": "une volte-face"
+    },
+    {
+      "id": "8yom29",
+      "front": "a faux pas",
+      "back": "un faux pas"
+    },
+    {
+      "id": "366xoh",
+      "front": "a raison d'être",
+      "back": "une raison d'être"
+    },
+    {
+      "id": "czgrlt",
+      "front": "a joie de vivre",
+      "back": "une joie de vivre"
+    },
+    {
+      "id": "qcdv8z",
+      "front": "savoir-faire",
+      "back": "le savoir-faire"
+    },
+    {
+      "id": "3gnrx7",
+      "front": "sangfroid",
+      "back": "le sang-froid"
+    },
+    {
+      "id": "g83gva",
+      "front": "esprit de corps",
+      "back": "l'esprit de corps"
+    },
+    {
+      "id": "lqhtj0",
+      "front": "noblesse oblige",
+      "back": "noblesse oblige"
+    },
+    {
+      "id": "g4deg8",
+      "front": "laissez-faire",
+      "back": "le laisser-faire"
+    },
+    {
+      "id": "vqy7jl",
+      "front": "carte blanche",
+      "back": "carte blanche"
+    },
+    {
+      "id": "d84hat",
+      "front": "a cause célèbre",
+      "back": "une cause célèbre"
+    },
+    {
+      "id": "v37kaj",
+      "front": "a nom de guerre",
+      "back": "un nom de guerre"
+    },
+    {
+      "id": "geaf7y",
+      "front": "a doppelgänger",
+      "back": "un sosie, un double"
+    },
+    {
+      "id": "07ewl4",
+      "front": "zeitgeist",
+      "back": "l'esprit du temps"
+    },
+    {
+      "id": "w47qd1",
+      "front": "weltanschauung",
+      "back": "une vision du monde"
+    },
+    {
+      "id": "nfcfjn",
+      "front": "wanderlust",
+      "back": "l'envie de voyager"
+    },
+    {
+      "id": "e4d0n6",
+      "front": "angst",
+      "back": "l'angoisse existentielle"
+    },
+    {
+      "id": "yzglfg",
+      "front": "kitsch",
+      "back": "le kitsch"
+    },
+    {
+      "id": "4tyqj7",
+      "front": "ersatz",
+      "back": "un ersatz, un succédané"
+    },
+    {
+      "id": "613vz6",
+      "front": "gestalt",
+      "back": "une gestalt, une forme globale"
+    },
+    {
+      "id": "nemfnf",
+      "front": "leitmotiv",
+      "back": "un leitmotiv"
+    },
+    {
+      "id": "w2wdg1",
+      "front": "blitz",
+      "back": "une offensive éclair"
+    },
+    {
+      "id": "ezy5sd",
+      "front": "poltergeist",
+      "back": "un esprit frappeur"
+    },
+    {
+      "id": "wo1z5q",
+      "front": "a dilettante",
+      "back": "un dilettante"
+    },
+    {
+      "id": "zeue8n",
+      "front": "a virtuoso performance",
+      "back": "une performance de virtuose"
+    },
+    {
+      "id": "z69hxu",
+      "front": "a prima donna",
+      "back": "une prima donna, une diva capricieuse"
+    },
+    {
+      "id": "v0lju7",
+      "front": "sotto voce",
+      "back": "à voix basse"
+    },
+    {
+      "id": "m4j421",
+      "front": "a fiasco of an evening",
+      "back": "un fiasco complet"
+    },
+    {
+      "id": "fliyl6",
+      "front": "imbroglio",
+      "back": "un imbroglio"
+    },
+    {
+      "id": "ogxcxe",
+      "front": "sprezzatura",
+      "back": "une nonchalance étudiée"
+    },
+    {
+      "id": "zdi21m",
+      "front": "a paparazzo",
+      "back": "un paparazzo"
+    },
+    {
+      "id": "b9dqo1",
+      "front": "al fresco",
+      "back": "en plein air"
+    },
+    {
+      "id": "v7b687",
+      "front": "in situ",
+      "back": "in situ, sur place"
+    },
+    {
+      "id": "j2k5gx",
+      "front": "in absentia",
+      "back": "par contumace, en son absence"
+    },
+    {
+      "id": "xagbg4",
+      "front": "in extremis",
+      "back": "in extremis"
+    },
+    {
+      "id": "df0zcl",
+      "front": "in toto",
+      "back": "en totalité"
+    },
+    {
+      "id": "n38w2c",
+      "front": "inter alia",
+      "back": "entre autres"
+    },
+    {
+      "id": "6frkpl",
+      "front": "per se",
+      "back": "en soi"
+    },
+    {
+      "id": "sy2wjr",
+      "front": "de facto",
+      "back": "de fait"
+    },
+    {
+      "id": "bzu80r",
+      "front": "de jure",
+      "back": "de droit"
+    },
+    {
+      "id": "m9i4ns",
+      "front": "ipso facto",
+      "back": "ipso facto, par le fait même"
+    },
+    {
+      "id": "t7rqr1",
+      "front": "ceteris paribus",
+      "back": "toutes choses égales par ailleurs"
+    },
+    {
+      "id": "gpbszu",
+      "front": "mutatis mutandis",
+      "back": "mutatis mutandis"
+    },
+    {
+      "id": "iaxp5u",
+      "front": "sui generis",
+      "back": "sui generis, unique en son genre"
+    },
+    {
+      "id": "jhtg7t",
+      "front": "ad nauseam",
+      "back": "jusqu'à la nausée"
+    },
+    {
+      "id": "mxw9ud",
+      "front": "ad infinitum",
+      "back": "à l'infini"
+    },
+    {
+      "id": "w5gob1",
+      "front": "ad interim",
+      "back": "par intérim"
+    },
+    {
+      "id": "5zuy9c",
+      "front": "ad libitum",
+      "back": "à volonté"
+    },
+    {
+      "id": "tsoeau",
+      "front": "bona fide",
+      "back": "de bonne foi, authentique"
+    },
+    {
+      "id": "8iue5z",
+      "front": "mala fide",
+      "back": "de mauvaise foi"
+    },
+    {
+      "id": "k7oz4m",
+      "front": "pro rata",
+      "back": "au prorata"
+    },
+    {
+      "id": "foswse",
+      "front": "pro bono",
+      "back": "à titre gracieux"
+    },
+    {
+      "id": "bf75e4",
+      "front": "quid pro quo",
+      "back": "une contrepartie, un donnant-donnant"
+    },
+    {
+      "id": "yzg6ab",
+      "front": "non compos mentis",
+      "back": "qui n'a pas toute sa raison"
+    },
+    {
+      "id": "avi1zy",
+      "front": "mea culpa",
+      "back": "un mea culpa"
+    },
+    {
+      "id": "h50iy1",
+      "front": "tabula rasa",
+      "back": "une table rase"
+    },
+    {
+      "id": "zdhe3k",
+      "front": "terra incognita",
+      "back": "une terre inconnue"
+    },
+    {
+      "id": "hoig4i",
+      "front": "modus operandi",
+      "back": "un mode opératoire"
+    },
+    {
+      "id": "djf74g",
+      "front": "status quo ante",
+      "back": "le statu quo antérieur"
+    },
+    {
+      "id": "knngsh",
+      "front": "persona grata",
+      "back": "une personne bienvenue"
+    },
+    {
+      "id": "pl1uk7",
+      "front": "alter ego",
+      "back": "un alter ego"
+    },
+    {
+      "id": "d6ylm0",
+      "front": "magnum opus",
+      "back": "un chef-d'œuvre"
+    },
+    {
+      "id": "i1sgmr",
+      "front": "a caveat emptor",
+      "back": "le principe « que l'acheteur prenne garde »"
+    },
+    {
+      "id": "ftuu7z",
+      "front": "carpe diem",
+      "back": "cueille le jour"
+    },
+    {
+      "id": "d5kvd5",
+      "front": "et tu, Brute",
+      "back": "toi aussi, Brutus"
+    },
+    {
+      "id": "piinus",
+      "front": "deus vult",
+      "back": "Dieu le veut"
+    },
+    {
+      "id": "upp8h6",
+      "front": "hoi polloi",
+      "back": "la plèbe, le commun des mortels"
+    },
+    {
+      "id": "864gru",
+      "front": "a nemesis",
+      "back": "une némésis, un ennemi juré"
+    },
+    {
+      "id": "p6z9ge",
+      "front": "an anathema",
+      "back": "un anathème"
+    },
+    {
+      "id": "l6rdsr",
+      "front": "a catharsis of grief",
+      "back": "une catharsis du chagrin"
+    },
+    {
+      "id": "yfyqv5",
+      "front": "a nadir",
+      "back": "un nadir, un point le plus bas"
+    },
+    {
+      "id": "xiq6r8",
+      "front": "a zenith",
+      "back": "un zénith, un apogée"
+    },
+    {
+      "id": "thokxn",
+      "front": "an aegis",
+      "back": "une égide"
+    }
+  ]
+}
