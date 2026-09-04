@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-medicine-health",
+  "name": "Medicine and Health",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "68e556",
+      "front": "medicine",
+      "back": "la médecine"
+    },
+    {
+      "id": "9244dc",
+      "front": "a physician",
+      "back": "un médecin"
+    },
+    {
+      "id": "63180a",
+      "front": "a general practitioner",
+      "back": "un médecin généraliste"
+    },
+    {
+      "id": "42b9c3",
+      "front": "a specialist",
+      "back": "un spécialiste"
+    },
+    {
+      "id": "55a1b4",
+      "front": "a surgeon",
+      "back": "un chirurgien"
+    },
+    {
+      "id": "710ae5",
+      "front": "a consultant",
+      "back": "un médecin spécialiste hospitalier"
+    },
+    {
+      "id": "442dad",
+      "front": "a paramedic",
+      "back": "un secouriste, un ambulancier"
+    },
+    {
+      "id": "a2c2ad",
+      "front": "a nurse",
+      "back": "un infirmier"
+    },
+    {
+      "id": "8868e4",
+      "front": "a midwife",
+      "back": "une sage-femme"
+    },
+    {
+      "id": "06144c",
+      "front": "a pharmacist",
+      "back": "un pharmacien"
+    },
+    {
+      "id": "90b51d",
+      "front": "a hospital ward",
+      "back": "un service hospitalier"
+    },
+    {
+      "id": "b06c21",
+      "front": "intensive care",
+      "back": "les soins intensifs"
+    },
+    {
+      "id": "68a20c",
+      "front": "a casualty department",
+      "back": "un service des urgences"
+    },
+    {
+      "id": "1451cc",
+      "front": "an operating theatre",
+      "back": "un bloc opératoire"
+    },
+    {
+      "id": "f8ac94",
+      "front": "a surgery",
+      "back": "un cabinet médical"
+    },
+    {
+      "id": "132af2",
+      "front": "a clinic",
+      "back": "une clinique"
+    },
+    {
+      "id": "94a8b8",
+      "front": "a care home",
+      "back": "une maison de retraite"
+    },
+    {
+      "id": "25aa67",
+      "front": "a patient",
+      "back": "un patient"
+    },
+    {
+      "id": "79b0b7",
+      "front": "an inpatient",
+      "back": "un patient hospitalisé"
+    },
+    {
+      "id": "2b9c00",
+      "front": "an outpatient",
+      "back": "un patient externe"
+    },
+    {
+      "id": "121c23",
+      "front": "to admit",
+      "back": "admettre, hospitaliser"
+    },
+    {
+      "id": "155966",
+      "front": "to discharge",
+      "back": "faire sortir, donner l'autorisation de sortie"
+    },
+    {
+      "id": "c00876",
+      "front": "a check-up",
+      "back": "un bilan de santé"
+    },
+    {
+      "id": "df86f7",
+      "front": "a diagnosis",
+      "back": "un diagnostic"
+    },
+    {
+      "id": "014b13",
+      "front": "to diagnose",
+      "back": "diagnostiquer"
+    },
+    {
+      "id": "fe24b6",
+      "front": "a prognosis",
+      "back": "un pronostic"
+    },
+    {
+      "id": "559af4",
+      "front": "a symptom",
+      "back": "un symptôme"
+    },
+    {
+      "id": "85287a",
+      "front": "a syndrome",
+      "back": "un syndrome"
+    },
+    {
+      "id": "0ea32f",
+      "front": "a disorder",
+      "back": "un trouble"
+    },
+    {
+      "id": "020643",
+      "front": "a disease",
+      "back": "une maladie"
+    },
+    {
+      "id": "ae7ddf",
+      "front": "an illness",
+      "back": "une maladie"
+    },
+    {
+      "id": "95b984",
+      "front": "an ailment",
+      "back": "un mal, une affection"
+    },
+    {
+      "id": "578bf9",
+      "front": "chronic",
+      "back": "chronique"
+    },
+    {
+      "id": "2118a2",
+      "front": "acute",
+      "back": "aigu"
+    },
+    {
+      "id": "72695f",
+      "front": "benign",
+      "back": "bénin"
+    },
+    {
+      "id": "4a6d99",
+      "front": "malignant",
+      "back": "malin"
+    },
+    {
+      "id": "c3f6e1",
+      "front": "a tumour",
+      "back": "une tumeur"
+    },
+    {
+      "id": "dc48de",
+      "front": "cancer",
+      "back": "le cancer"
+    },
+    {
+      "id": "9753e0",
+      "front": "a stroke",
+      "back": "un accident vasculaire cérébral"
+    },
+    {
+      "id": "bbb5d4",
+      "front": "a heart attack",
+      "back": "une crise cardiaque"
+    },
+    {
+      "id": "2d053b",
+      "front": "diabetes",
+      "back": "le diabète"
+    },
+    {
+      "id": "427d8d",
+      "front": "asthma",
+      "back": "l'asthme"
+    },
+    {
+      "id": "c09216",
+      "front": "an allergy",
+      "back": "une allergie"
+    },
+    {
+      "id": "1c931a",
+      "front": "inflammation",
+      "back": "l'inflammation"
+    },
+    {
+      "id": "16f042",
+      "front": "an infection",
+      "back": "une infection"
+    },
+    {
+      "id": "be4147",
+      "front": "contagious",
+      "back": "contagieux"
+    },
+    {
+      "id": "610b20",
+      "front": "infectious",
+      "back": "infectieux"
+    },
+    {
+      "id": "d4c179",
+      "front": "an outbreak",
+      "back": "une flambée, un foyer épidémique"
+    },
+    {
+      "id": "659db2",
+      "front": "an epidemic",
+      "back": "une épidémie"
+    },
+    {
+      "id": "187ec1",
+      "front": "a pandemic",
+      "back": "une pandémie"
+    },
+    {
+      "id": "00971f",
+      "front": "a quarantine",
+      "back": "une quarantaine"
+    },
+    {
+      "id": "448647",
+      "front": "an incubation period",
+      "back": "une période d'incubation"
+    },
+    {
+      "id": "7e2d25",
+      "front": "immunity",
+      "back": "l'immunité"
+    },
+    {
+      "id": "e10050",
+      "front": "to immunise",
+      "back": "immuniser"
+    },
+    {
+      "id": "173801",
+      "front": "vaccination",
+      "back": "la vaccination"
+    },
+    {
+      "id": "838667",
+      "front": "a jab",
+      "back": "une piqûre, un vaccin"
+    },
+    {
+      "id": "6f0bb4",
+      "front": "a dose",
+      "back": "une dose"
+    },
+    {
+      "id": "fd5d39",
+      "front": "a prescription",
+      "back": "une ordonnance"
+    },
+    {
+      "id": "78fe99",
+      "front": "to prescribe",
+      "back": "prescrire"
+    },
+    {
+      "id": "a93aa4",
+      "front": "a drug",
+      "back": "un médicament"
+    },
+    {
+      "id": "7b0a3c",
+      "front": "a painkiller",
+      "back": "un analgésique"
+    },
+    {
+      "id": "c1525b",
+      "front": "an antibiotic",
+      "back": "un antibiotique"
+    },
+    {
+      "id": "210a37",
+      "front": "a side effect",
+      "back": "un effet secondaire"
+    },
+    {
+      "id": "61102c",
+      "front": "an overdose",
+      "back": "une overdose, un surdosage"
+    },
+    {
+      "id": "d4718a",
+      "front": "a placebo",
+      "back": "un placebo"
+    },
+    {
+      "id": "9c1b90",
+      "front": "a treatment",
+      "back": "un traitement"
+    },
+    {
+      "id": "6bad2f",
+      "front": "therapy",
+      "back": "la thérapie"
+    },
+    {
+      "id": "09ce7a",
+      "front": "chemotherapy",
+      "back": "la chimiothérapie"
+    },
+    {
+      "id": "15399a",
+      "front": "an operation",
+      "back": "une opération"
+    },
+    {
+      "id": "e0abae",
+      "front": "surgery",
+      "back": "la chirurgie"
+    },
+    {
+      "id": "9478df",
+      "front": "an anaesthetic",
+      "back": "un anesthésique"
+    },
+    {
+      "id": "437a31",
+      "front": "a transplant",
+      "back": "une greffe"
+    },
+    {
+      "id": "d1233e",
+      "front": "a donor",
+      "back": "un donneur"
+    },
+    {
+      "id": "b410f6",
+      "front": "a transfusion",
+      "back": "une transfusion"
+    },
+    {
+      "id": "a02a5d",
+      "front": "a scan",
+      "back": "un scanner, une imagerie"
+    },
+    {
+      "id": "58797a",
+      "front": "an X-ray",
+      "back": "une radiographie"
+    },
+    {
+      "id": "fe867c",
+      "front": "a biopsy",
+      "back": "une biopsie"
+    },
+    {
+      "id": "fd40c5",
+      "front": "a screening",
+      "back": "un dépistage"
+    },
+    {
+      "id": "51ffa9",
+      "front": "a test result",
+      "back": "un résultat d'analyse"
+    },
+    {
+      "id": "727381",
+      "front": "to recover",
+      "back": "se rétablir"
+    },
+    {
+      "id": "ca7fda",
+      "front": "recovery",
+      "back": "le rétablissement"
+    },
+    {
+      "id": "4909eb",
+      "front": "a relapse",
+      "back": "une rechute"
+    },
+    {
+      "id": "c61611",
+      "front": "a complication",
+      "back": "une complication"
+    },
+    {
+      "id": "2774c0",
+      "front": "terminal",
+      "back": "en phase terminale"
+    },
+    {
+      "id": "f1a6e1",
+      "front": "palliative care",
+      "back": "les soins palliatifs"
+    },
+    {
+      "id": "419d60",
+      "front": "a disability",
+      "back": "un handicap"
+    },
+    {
+      "id": "a90260",
+      "front": "rehabilitation",
+      "back": "la rééducation"
+    },
+    {
+      "id": "b60c47",
+      "front": "mental health",
+      "back": "la santé mentale"
+    },
+    {
+      "id": "6361d4",
+      "front": "depression",
+      "back": "la dépression"
+    },
+    {
+      "id": "99dddd",
+      "front": "addiction",
+      "back": "la dépendance, l'addiction"
+    },
+    {
+      "id": "cb4819",
+      "front": "obesity",
+      "back": "l'obésité"
+    },
+    {
+      "id": "3396c1",
+      "front": "malnutrition",
+      "back": "la malnutrition"
+    },
+    {
+      "id": "c372f2",
+      "front": "life expectancy",
+      "back": "l'espérance de vie"
+    },
+    {
+      "id": "6ee202",
+      "front": "mortality",
+      "back": "la mortalité"
+    },
+    {
+      "id": "b81b2d",
+      "front": "the health service",
+      "back": "le système de santé"
+    },
+    {
+      "id": "93db12",
+      "front": "health insurance",
+      "back": "l'assurance maladie"
+    },
+    {
+      "id": "5bc07f",
+      "front": "health care",
+      "back": "les soins de santé"
+    },
+    {
+      "id": "dff256",
+      "front": "a waiting list",
+      "back": "une liste d'attente"
+    },
+    {
+      "id": "e74cf1",
+      "front": "medical research",
+      "back": "la recherche médicale"
+    },
+    {
+      "id": "d37b15",
+      "front": "a hospice",
+      "back": "un centre de soins palliatifs"
+    }
+  ]
+}
