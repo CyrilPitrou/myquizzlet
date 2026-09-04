@@ -1,0 +1,312 @@
+{
+  "id": "es-b2-regimen-preposicional",
+  "name": "Régimen preposicional",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "172m4h",
+      "front": "acordarse de algo",
+      "back": "se souvenir de quelque chose"
+    },
+    {
+      "id": "4dravv",
+      "front": "olvidarse de algo",
+      "back": "oublier quelque chose"
+    },
+    {
+      "id": "0bk0x7",
+      "front": "darse cuenta de un error",
+      "back": "se rendre compte d'une erreur"
+    },
+    {
+      "id": "cxlgxo",
+      "front": "enterarse de una noticia",
+      "back": "apprendre une nouvelle"
+    },
+    {
+      "id": "bhdatc",
+      "front": "alegrarse de un éxito",
+      "back": "se réjouir d'un succès"
+    },
+    {
+      "id": "qjnfik",
+      "front": "quejarse de un trato",
+      "back": "se plaindre d'un traitement"
+    },
+    {
+      "id": "2m4qg5",
+      "front": "burlarse de alguien",
+      "back": "se moquer de quelqu'un"
+    },
+    {
+      "id": "vltz0h",
+      "front": "fiarse de un amigo",
+      "back": "se fier à un ami"
+    },
+    {
+      "id": "ob6rlu",
+      "front": "depender del clima",
+      "back": "dépendre du climat"
+    },
+    {
+      "id": "gfbrxh",
+      "front": "carecer de recursos",
+      "back": "manquer de ressources"
+    },
+    {
+      "id": "1fqgnv",
+      "front": "gozar de buena salud",
+      "back": "jouir d'une bonne santé"
+    },
+    {
+      "id": "rq039q",
+      "front": "disfrutar de la vida",
+      "back": "profiter de la vie"
+    },
+    {
+      "id": "8mj5t5",
+      "front": "prescindir de lo superfluo",
+      "back": "se passer du superflu"
+    },
+    {
+      "id": "sryowf",
+      "front": "arrepentirse de una decisión",
+      "back": "regretter une décision"
+    },
+    {
+      "id": "keh1vf",
+      "front": "avergonzarse de su conducta",
+      "back": "avoir honte de sa conduite"
+    },
+    {
+      "id": "33h85b",
+      "front": "tratarse de un malentendido",
+      "back": "s'agir d'un malentendu"
+    },
+    {
+      "id": "2hhtjj",
+      "front": "encargarse de un asunto",
+      "back": "se charger d'une affaire"
+    },
+    {
+      "id": "nkcv08",
+      "front": "abusar de la confianza",
+      "back": "abuser de la confiance"
+    },
+    {
+      "id": "1dwj7g",
+      "front": "insistir en un punto",
+      "back": "insister sur un point"
+    },
+    {
+      "id": "9t35ef",
+      "front": "consistir en tres etapas",
+      "back": "consister en trois étapes"
+    },
+    {
+      "id": "nd735a",
+      "front": "empeñarse en algo",
+      "back": "s'obstiner à quelque chose"
+    },
+    {
+      "id": "5g0fo3",
+      "front": "confiar en alguien",
+      "back": "avoir confiance en quelqu'un"
+    },
+    {
+      "id": "9bc8ic",
+      "front": "pensar en el futuro",
+      "back": "penser à l'avenir"
+    },
+    {
+      "id": "cgw9jf",
+      "front": "convertirse en un problema",
+      "back": "devenir un problème"
+    },
+    {
+      "id": "qimexs",
+      "front": "tardar en responder",
+      "back": "tarder à répondre"
+    },
+    {
+      "id": "pbpbom",
+      "front": "influir en una decisión",
+      "back": "influer sur une décision"
+    },
+    {
+      "id": "fk5anw",
+      "front": "fijarse en un detalle",
+      "back": "remarquer un détail"
+    },
+    {
+      "id": "g60y4o",
+      "front": "soñar con el pasado",
+      "back": "rêver du passé"
+    },
+    {
+      "id": "xwyz79",
+      "front": "contar con el apoyo",
+      "back": "compter sur le soutien"
+    },
+    {
+      "id": "wqxgzy",
+      "front": "cumplir con su deber",
+      "back": "remplir son devoir"
+    },
+    {
+      "id": "4kawxp",
+      "front": "enfrentarse con la realidad",
+      "back": "affronter la réalité"
+    },
+    {
+      "id": "2k58y9",
+      "front": "casarse con alguien",
+      "back": "se marier avec quelqu'un"
+    },
+    {
+      "id": "93u633",
+      "front": "tropezar con un obstáculo",
+      "back": "se heurter à un obstacle"
+    },
+    {
+      "id": "smoy0p",
+      "front": "dar con la solución",
+      "back": "trouver la solution"
+    },
+    {
+      "id": "kjdml9",
+      "front": "conformarse con poco",
+      "back": "se contenter de peu"
+    },
+    {
+      "id": "ff2fgn",
+      "front": "acostumbrarse a un cambio",
+      "back": "s'habituer à un changement"
+    },
+    {
+      "id": "sv2z5p",
+      "front": "atreverse a decirlo",
+      "back": "oser le dire"
+    },
+    {
+      "id": "q2b4ia",
+      "front": "negarse a colaborar",
+      "back": "refuser de collaborer"
+    },
+    {
+      "id": "5gxp2x",
+      "front": "renunciar a un cargo",
+      "back": "renoncer à un poste"
+    },
+    {
+      "id": "0ztk03",
+      "front": "aspirar a un puesto",
+      "back": "aspirer à un poste"
+    },
+    {
+      "id": "awkym8",
+      "front": "oponerse a una reforma",
+      "back": "s'opposer à une réforme"
+    },
+    {
+      "id": "1dwr5j",
+      "front": "dedicarse a la enseñanza",
+      "back": "se consacrer à l'enseignement"
+    },
+    {
+      "id": "zchju8",
+      "front": "parecerse a su padre",
+      "back": "ressembler à son père"
+    },
+    {
+      "id": "8mn6nw",
+      "front": "velar por la seguridad",
+      "back": "veiller à la sécurité"
+    },
+    {
+      "id": "4pxge9",
+      "front": "optar por una vía",
+      "back": "opter pour une voie"
+    },
+    {
+      "id": "0gjvzy",
+      "front": "preocuparse por el futuro",
+      "back": "se soucier de l'avenir"
+    },
+    {
+      "id": "cg7ppl",
+      "front": "interesarse por un tema",
+      "back": "s'intéresser à un sujet"
+    },
+    {
+      "id": "8e0v5h",
+      "front": "luchar por la igualdad",
+      "back": "lutter pour l'égalité"
+    },
+    {
+      "id": "swwr3a",
+      "front": "apostar por el cambio",
+      "back": "miser sur le changement"
+    },
+    {
+      "id": "lhr52w",
+      "front": "capaz de todo",
+      "back": "capable de tout"
+    },
+    {
+      "id": "3ggkzj",
+      "front": "consciente del riesgo",
+      "back": "conscient du risque"
+    },
+    {
+      "id": "u51ovn",
+      "front": "harto de esperar",
+      "back": "las d'attendre"
+    },
+    {
+      "id": "9n9gsb",
+      "front": "partidario de la reforma",
+      "back": "partisan de la réforme"
+    },
+    {
+      "id": "276civ",
+      "front": "responsable de un error",
+      "back": "responsable d'une erreur"
+    },
+    {
+      "id": "pqx0qy",
+      "front": "propenso a enfadarse",
+      "back": "enclin à se fâcher"
+    },
+    {
+      "id": "mma7cs",
+      "front": "dispuesto a ayudar",
+      "back": "disposé à aider"
+    },
+    {
+      "id": "wf8rvi",
+      "front": "ajeno al conflicto",
+      "back": "étranger au conflit"
+    },
+    {
+      "id": "dqrcgv",
+      "front": "relacionado con el caso",
+      "back": "lié à l'affaire"
+    },
+    {
+      "id": "1fl5vi",
+      "front": "interesado en el proyecto",
+      "back": "intéressé par le projet"
+    },
+    {
+      "id": "ll1zlt",
+      "front": "experto en la materia",
+      "back": "expert en la matière"
+    }
+  ]
+}
