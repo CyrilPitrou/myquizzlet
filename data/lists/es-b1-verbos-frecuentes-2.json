@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-verbos-frecuentes-2",
+  "name": "Los verbos más frecuentes 2",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "yqm4g1",
+      "front": "añadir",
+      "back": "ajouter"
+    },
+    {
+      "id": "0vkwka",
+      "front": "quitar",
+      "back": "enlever, retirer"
+    },
+    {
+      "id": "bhxk8v",
+      "front": "juntar",
+      "back": "réunir, joindre"
+    },
+    {
+      "id": "rmmpii",
+      "front": "separar",
+      "back": "séparer"
+    },
+    {
+      "id": "2qtfo7",
+      "front": "repartir",
+      "back": "répartir, distribuer"
+    },
+    {
+      "id": "pfoeez",
+      "front": "compartir",
+      "back": "partager"
+    },
+    {
+      "id": "qxf7kj",
+      "front": "ofrecer",
+      "back": "offrir"
+    },
+    {
+      "id": "992pk0",
+      "front": "regalar",
+      "back": "offrir en cadeau"
+    },
+    {
+      "id": "a4iyga",
+      "front": "recibir una respuesta",
+      "back": "recevoir une réponse"
+    },
+    {
+      "id": "etpabq",
+      "front": "entregar",
+      "back": "remettre, livrer"
+    },
+    {
+      "id": "eyrwdk",
+      "front": "recoger",
+      "back": "ramasser, aller chercher"
+    },
+    {
+      "id": "ukm3ex",
+      "front": "traer",
+      "back": "apporter"
+    },
+    {
+      "id": "1qhnb9",
+      "front": "mandar",
+      "back": "envoyer, ordonner"
+    },
+    {
+      "id": "ggkrg7",
+      "front": "avisar",
+      "back": "prévenir"
+    },
+    {
+      "id": "s44a2e",
+      "front": "informar",
+      "back": "informer"
+    },
+    {
+      "id": "ycpdhy",
+      "front": "anunciar",
+      "back": "annoncer"
+    },
+    {
+      "id": "lfqhgx",
+      "front": "declarar",
+      "back": "déclarer"
+    },
+    {
+      "id": "23rcuk",
+      "front": "preguntar",
+      "back": "demander (une question)"
+    },
+    {
+      "id": "2e82a7",
+      "front": "responder",
+      "back": "répondre"
+    },
+    {
+      "id": "15c94b",
+      "front": "pedir algo",
+      "back": "demander quelque chose"
+    },
+    {
+      "id": "sx60w2",
+      "front": "exigir",
+      "back": "exiger"
+    },
+    {
+      "id": "ncwm1q",
+      "front": "permitir",
+      "back": "permettre"
+    },
+    {
+      "id": "lbaeqa",
+      "front": "prohibir",
+      "back": "interdire"
+    },
+    {
+      "id": "wk1wmz",
+      "front": "obligar",
+      "back": "obliger"
+    },
+    {
+      "id": "k3ky85",
+      "front": "impedir",
+      "back": "empêcher"
+    },
+    {
+      "id": "o4eipr",
+      "front": "evitar",
+      "back": "éviter"
+    },
+    {
+      "id": "d7qj8z",
+      "front": "proteger",
+      "back": "protéger"
+    },
+    {
+      "id": "j1rl98",
+      "front": "salvar",
+      "back": "sauver"
+    },
+    {
+      "id": "p95p57",
+      "front": "atacar",
+      "back": "attaquer"
+    },
+    {
+      "id": "1cva8c",
+      "front": "defender",
+      "back": "défendre"
+    },
+    {
+      "id": "gjrsow",
+      "front": "luchar",
+      "back": "lutter"
+    },
+    {
+      "id": "s4jxwq",
+      "front": "vencer",
+      "back": "vaincre"
+    },
+    {
+      "id": "a1oceq",
+      "front": "rendirse",
+      "back": "se rendre"
+    },
+    {
+      "id": "ug2bd9",
+      "front": "matar",
+      "back": "tuer"
+    },
+    {
+      "id": "yawikv",
+      "front": "herir",
+      "back": "blesser"
+    },
+    {
+      "id": "bqpvy3",
+      "front": "sufrir",
+      "back": "souffrir"
+    },
+    {
+      "id": "97j5gn",
+      "front": "aguantar",
+      "back": "endurer, supporter"
+    },
+    {
+      "id": "lsjjqp",
+      "front": "resistir",
+      "back": "résister"
+    },
+    {
+      "id": "e3ryvt",
+      "front": "descubrir",
+      "back": "découvrir"
+    },
+    {
+      "id": "xjxgfg",
+      "front": "inventar",
+      "back": "inventer"
+    },
+    {
+      "id": "8a9zzt",
+      "front": "investigar",
+      "back": "enquêter, faire des recherches"
+    },
+    {
+      "id": "0zwfpd",
+      "front": "comprobar",
+      "back": "vérifier"
+    },
+    {
+      "id": "32d4o1",
+      "front": "demostrar",
+      "back": "démontrer"
+    },
+    {
+      "id": "r8bji6",
+      "front": "explicar una razón",
+      "back": "exposer une raison"
+    },
+    {
+      "id": "f7wr2v",
+      "front": "aclarar",
+      "back": "éclaircir"
+    },
+    {
+      "id": "bsriqd",
+      "front": "definir",
+      "back": "définir"
+    },
+    {
+      "id": "ejdh6u",
+      "front": "describir",
+      "back": "décrire"
+    },
+    {
+      "id": "7pfehq",
+      "front": "comparar",
+      "back": "comparer"
+    },
+    {
+      "id": "78x22p",
+      "front": "medir",
+      "back": "mesurer"
+    },
+    {
+      "id": "fkyjbe",
+      "front": "contar objetos",
+      "back": "compter des objets"
+    },
+    {
+      "id": "jr782c",
+      "front": "calcular",
+      "back": "calculer"
+    },
+    {
+      "id": "a6bifg",
+      "front": "apuntar en un cuaderno",
+      "back": "noter dans un cahier"
+    },
+    {
+      "id": "ecyfxi",
+      "front": "dibujar un plano",
+      "back": "dessiner un plan"
+    },
+    {
+      "id": "mmc9xo",
+      "front": "señalar",
+      "back": "signaler, montrer du doigt"
+    },
+    {
+      "id": "d7lwjm",
+      "front": "indicar",
+      "back": "indiquer"
+    },
+    {
+      "id": "9nop9o",
+      "front": "mostrar",
+      "back": "montrer"
+    },
+    {
+      "id": "dlg595",
+      "front": "esconder",
+      "back": "cacher"
+    },
+    {
+      "id": "j6o4p7",
+      "front": "descubrir un secreto",
+      "back": "dévoiler un secret"
+    },
+    {
+      "id": "hukstk",
+      "front": "mentir",
+      "back": "mentir"
+    },
+    {
+      "id": "acx2dp",
+      "front": "engañar",
+      "back": "tromper"
+    },
+    {
+      "id": "d90jx7",
+      "front": "sospechar",
+      "back": "soupçonner"
+    },
+    {
+      "id": "i3yrm5",
+      "front": "acusar",
+      "back": "accuser"
+    },
+    {
+      "id": "kwajgf",
+      "front": "negar",
+      "back": "nier"
+    },
+    {
+      "id": "jq6gtw",
+      "front": "admitir",
+      "back": "admettre"
+    },
+    {
+      "id": "6ujvak",
+      "front": "reconocer",
+      "back": "reconnaître"
+    },
+    {
+      "id": "84sguc",
+      "front": "aceptar una propuesta",
+      "back": "accepter une proposition"
+    },
+    {
+      "id": "qodt2c",
+      "front": "rechazar una oferta",
+      "back": "rejeter une offre"
+    },
+    {
+      "id": "xuwb8a",
+      "front": "insistir",
+      "back": "insister"
+    },
+    {
+      "id": "mn3hos",
+      "front": "convencer",
+      "back": "convaincre"
+    },
+    {
+      "id": "6ecfgj",
+      "front": "aconsejar",
+      "back": "conseiller"
+    },
+    {
+      "id": "w85nlg",
+      "front": "sugerir",
+      "back": "suggérer"
+    },
+    {
+      "id": "lewzyo",
+      "front": "proponer",
+      "back": "proposer"
+    },
+    {
+      "id": "7rnf8b",
+      "front": "planear",
+      "back": "planifier"
+    },
+    {
+      "id": "523dgi",
+      "front": "organizar",
+      "back": "organiser"
+    },
+    {
+      "id": "ybukun",
+      "front": "preparar",
+      "back": "préparer"
+    },
+    {
+      "id": "6wzn86",
+      "front": "arreglar un asunto",
+      "back": "régler une affaire"
+    },
+    {
+      "id": "c204r7",
+      "front": "resolver",
+      "back": "résoudre"
+    },
+    {
+      "id": "psbp59",
+      "front": "solucionar",
+      "back": "solutionner"
+    },
+    {
+      "id": "mzsg2e",
+      "front": "funcionar",
+      "back": "fonctionner"
+    },
+    {
+      "id": "xxd8i3",
+      "front": "fallar",
+      "back": "échouer, tomber en panne"
+    },
+    {
+      "id": "goykdx",
+      "front": "apoyarse en",
+      "back": "s'appuyer sur"
+    },
+    {
+      "id": "hsmdx9",
+      "front": "depender de",
+      "back": "dépendre de"
+    },
+    {
+      "id": "i6yvfp",
+      "front": "pertenecer",
+      "back": "appartenir"
+    },
+    {
+      "id": "kd6v6o",
+      "front": "contener",
+      "back": "contenir"
+    },
+    {
+      "id": "6dlbgt",
+      "front": "incluir",
+      "back": "inclure"
+    },
+    {
+      "id": "jl353v",
+      "front": "consistir en",
+      "back": "consister en"
+    },
+    {
+      "id": "fxe4kx",
+      "front": "significar",
+      "back": "signifier"
+    },
+    {
+      "id": "2bszyv",
+      "front": "representar",
+      "back": "représenter"
+    },
+    {
+      "id": "rqauis",
+      "front": "tratar de",
+      "back": "essayer de, traiter de"
+    },
+    {
+      "id": "iaqohg",
+      "front": "referirse a",
+      "back": "faire référence à"
+    },
+    {
+      "id": "3fyojc",
+      "front": "mencionar",
+      "back": "mentionner"
+    },
+    {
+      "id": "buug1k",
+      "front": "señalar un error",
+      "back": "relever une erreur"
+    },
+    {
+      "id": "97f3cz",
+      "front": "corregir un fallo",
+      "back": "corriger un défaut"
+    },
+    {
+      "id": "3qh2sm",
+      "front": "juzgar",
+      "back": "juger"
+    },
+    {
+      "id": "i4b9nw",
+      "front": "valorar",
+      "back": "évaluer, apprécier"
+    },
+    {
+      "id": "ksu9mh",
+      "front": "elogiar",
+      "back": "louer, faire l'éloge de"
+    },
+    {
+      "id": "o6m6d2",
+      "front": "criticar",
+      "back": "critiquer"
+    },
+    {
+      "id": "tm98us",
+      "front": "quejarse de algo",
+      "back": "se plaindre de quelque chose"
+    },
+    {
+      "id": "h2fe24",
+      "front": "agradecer un favor",
+      "back": "remercier d'un service"
+    },
+    {
+      "id": "kriu52",
+      "front": "disculparse",
+      "back": "s'excuser"
+    }
+  ]
+}
