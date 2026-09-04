@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-historia-geografia",
+  "name": "La historia y la geografía",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "k4g399",
+      "front": "la historia antigua",
+      "back": "l'histoire ancienne"
+    },
+    {
+      "id": "ppmxi9",
+      "front": "la prehistoria",
+      "back": "la préhistoire"
+    },
+    {
+      "id": "565gl6",
+      "front": "la Edad Media",
+      "back": "le Moyen Âge"
+    },
+    {
+      "id": "njtseo",
+      "front": "el Renacimiento",
+      "back": "la Renaissance"
+    },
+    {
+      "id": "om9sze",
+      "front": "la Ilustración",
+      "back": "les Lumières"
+    },
+    {
+      "id": "amr8ss",
+      "front": "la Edad Moderna",
+      "back": "l'époque moderne"
+    },
+    {
+      "id": "u5qhxv",
+      "front": "el siglo de Oro",
+      "back": "le Siècle d'or"
+    },
+    {
+      "id": "w3gnk3",
+      "front": "la época colonial",
+      "back": "l'époque coloniale"
+    },
+    {
+      "id": "82ubcc",
+      "front": "el imperio",
+      "back": "l'empire"
+    },
+    {
+      "id": "wnhm0b",
+      "front": "la conquista",
+      "back": "la conquête"
+    },
+    {
+      "id": "mtn6a4",
+      "front": "la colonización",
+      "back": "la colonisation"
+    },
+    {
+      "id": "99mqgy",
+      "front": "la descolonización",
+      "back": "la décolonisation"
+    },
+    {
+      "id": "t1pdid",
+      "front": "el virreinato",
+      "back": "la vice-royauté"
+    },
+    {
+      "id": "hy4rnv",
+      "front": "el conquistador",
+      "back": "le conquistador"
+    },
+    {
+      "id": "vq34ql",
+      "front": "el indígena",
+      "back": "l'indigène, l'autochtone"
+    },
+    {
+      "id": "23jw8e",
+      "front": "el mestizaje",
+      "back": "le métissage"
+    },
+    {
+      "id": "qajoc4",
+      "front": "la independencia",
+      "back": "l'indépendance"
+    },
+    {
+      "id": "1ofgnp",
+      "front": "el libertador",
+      "back": "le libérateur"
+    },
+    {
+      "id": "9m4jih",
+      "front": "la revolución",
+      "back": "la révolution"
+    },
+    {
+      "id": "3y88k2",
+      "front": "la sublevación",
+      "back": "le soulèvement"
+    },
+    {
+      "id": "x1ka6i",
+      "front": "el alzamiento",
+      "back": "l'insurrection"
+    },
+    {
+      "id": "nn9pua",
+      "front": "el golpe de Estado",
+      "back": "le coup d'État"
+    },
+    {
+      "id": "7gj27i",
+      "front": "la guerra civil",
+      "back": "la guerre civile"
+    },
+    {
+      "id": "mv2uvu",
+      "front": "la posguerra",
+      "back": "l'après-guerre"
+    },
+    {
+      "id": "ri4hrl",
+      "front": "el exilio",
+      "back": "l'exil"
+    },
+    {
+      "id": "misspp",
+      "front": "la represión",
+      "back": "la répression"
+    },
+    {
+      "id": "7uw2bn",
+      "front": "el franquismo",
+      "back": "le franquisme"
+    },
+    {
+      "id": "j0hvdx",
+      "front": "la dictadura militar",
+      "back": "la dictature militaire"
+    },
+    {
+      "id": "x1pfbw",
+      "front": "la memoria histórica",
+      "back": "la mémoire historique"
+    },
+    {
+      "id": "4h4wb5",
+      "front": "el tratado",
+      "back": "le traité"
+    },
+    {
+      "id": "wvrwx7",
+      "front": "la alianza",
+      "back": "l'alliance"
+    },
+    {
+      "id": "fhsn3z",
+      "front": "la tregua",
+      "back": "la trêve"
+    },
+    {
+      "id": "lv77mw",
+      "front": "el armisticio",
+      "back": "l'armistice"
+    },
+    {
+      "id": "p4v7m8",
+      "front": "la rendición",
+      "back": "la reddition"
+    },
+    {
+      "id": "396oqx",
+      "front": "la batalla",
+      "back": "la bataille"
+    },
+    {
+      "id": "a7jajr",
+      "front": "el asedio",
+      "back": "le siège"
+    },
+    {
+      "id": "270iex",
+      "front": "la campaña militar",
+      "back": "la campagne militaire"
+    },
+    {
+      "id": "cprs4s",
+      "front": "el ejército",
+      "back": "l'armée"
+    },
+    {
+      "id": "3r2jko",
+      "front": "la flota",
+      "back": "la flotte"
+    },
+    {
+      "id": "4j44cu",
+      "front": "la tropa",
+      "back": "la troupe"
+    },
+    {
+      "id": "2lh4m6",
+      "front": "el soldado",
+      "back": "le soldat"
+    },
+    {
+      "id": "fztl1g",
+      "front": "el mercenario",
+      "back": "le mercenaire"
+    },
+    {
+      "id": "0g46i2",
+      "front": "la fortaleza",
+      "back": "la forteresse"
+    },
+    {
+      "id": "crv292",
+      "front": "la muralla",
+      "back": "le rempart"
+    },
+    {
+      "id": "3ulxs0",
+      "front": "el armamento",
+      "back": "l'armement"
+    },
+    {
+      "id": "naykgh",
+      "front": "la derrota militar",
+      "back": "la défaite militaire"
+    },
+    {
+      "id": "13uc63",
+      "front": "el vencedor",
+      "back": "le vainqueur"
+    },
+    {
+      "id": "07ja44",
+      "front": "el vasallo",
+      "back": "le vassal"
+    },
+    {
+      "id": "e0rwvf",
+      "front": "el señor feudal",
+      "back": "le seigneur féodal"
+    },
+    {
+      "id": "qdo7ac",
+      "front": "el siervo",
+      "back": "le serf"
+    },
+    {
+      "id": "bxnnhf",
+      "front": "la nobleza",
+      "back": "la noblesse"
+    },
+    {
+      "id": "l35v1s",
+      "front": "el clero",
+      "back": "le clergé"
+    },
+    {
+      "id": "78dqck",
+      "front": "el campesinado",
+      "back": "la paysannerie"
+    },
+    {
+      "id": "8lj9ht",
+      "front": "la burguesía",
+      "back": "la bourgeoisie"
+    },
+    {
+      "id": "vqls0b",
+      "front": "el gremio",
+      "back": "la corporation"
+    },
+    {
+      "id": "686z2q",
+      "front": "la corte",
+      "back": "la cour"
+    },
+    {
+      "id": "nvva15",
+      "front": "la dinastía",
+      "back": "la dynastie"
+    },
+    {
+      "id": "0c88wo",
+      "front": "el reinado",
+      "back": "le règne"
+    },
+    {
+      "id": "22bd2h",
+      "front": "la sucesión",
+      "back": "la succession"
+    },
+    {
+      "id": "agoe9o",
+      "front": "la abdicación",
+      "back": "l'abdication"
+    },
+    {
+      "id": "fg3oic",
+      "front": "la geografía física",
+      "back": "la géographie physique"
+    },
+    {
+      "id": "1dtlkp",
+      "front": "la península",
+      "back": "la péninsule"
+    },
+    {
+      "id": "g7ra26",
+      "front": "el archipiélago",
+      "back": "l'archipel"
+    },
+    {
+      "id": "vzvmlq",
+      "front": "el continente",
+      "back": "le continent"
+    },
+    {
+      "id": "czhhie",
+      "front": "la meseta",
+      "back": "le plateau"
+    },
+    {
+      "id": "fgku5v",
+      "front": "la cordillera",
+      "back": "la chaîne de montagnes"
+    },
+    {
+      "id": "xtmt1w",
+      "front": "la sierra",
+      "back": "la sierra, le massif"
+    },
+    {
+      "id": "vhh9uh",
+      "front": "el macizo",
+      "back": "le massif"
+    },
+    {
+      "id": "4khpo4",
+      "front": "la llanura",
+      "back": "la plaine"
+    },
+    {
+      "id": "xjq50b",
+      "front": "la vega",
+      "back": "la plaine fertile"
+    },
+    {
+      "id": "2rsk3g",
+      "front": "el cauce",
+      "back": "le lit d'un fleuve"
+    },
+    {
+      "id": "57kto6",
+      "front": "el afluente",
+      "back": "l'affluent"
+    },
+    {
+      "id": "psxpna",
+      "front": "la desembocadura",
+      "back": "l'embouchure"
+    },
+    {
+      "id": "7y9zxr",
+      "front": "el estrecho",
+      "back": "le détroit"
+    },
+    {
+      "id": "nquony",
+      "front": "el golfo",
+      "back": "le golfe"
+    },
+    {
+      "id": "f94qvh",
+      "front": "la bahía",
+      "back": "la baie"
+    },
+    {
+      "id": "jihf0v",
+      "front": "el cabo",
+      "back": "le cap"
+    },
+    {
+      "id": "ifoon3",
+      "front": "el litoral",
+      "back": "le littoral"
+    },
+    {
+      "id": "lcl7ed",
+      "front": "el altiplano",
+      "back": "l'altiplano"
+    },
+    {
+      "id": "o7thr4",
+      "front": "la selva tropical",
+      "back": "la forêt tropicale"
+    },
+    {
+      "id": "yq2zlh",
+      "front": "la pampa",
+      "back": "la pampa"
+    },
+    {
+      "id": "liwhcc",
+      "front": "el clima mediterráneo",
+      "back": "le climat méditerranéen"
+    },
+    {
+      "id": "qssake",
+      "front": "la región",
+      "back": "la région"
+    },
+    {
+      "id": "6u3hye",
+      "front": "la comarca",
+      "back": "la contrée, le pays (local)"
+    },
+    {
+      "id": "q0koe9",
+      "front": "la provincia",
+      "back": "la province"
+    },
+    {
+      "id": "jtmx9b",
+      "front": "la frontera natural",
+      "back": "la frontière naturelle"
+    },
+    {
+      "id": "klbxjz",
+      "front": "el territorio",
+      "back": "le territoire"
+    },
+    {
+      "id": "c1nf8n",
+      "front": "la población de un país",
+      "back": "la population d'un pays"
+    },
+    {
+      "id": "gcmu97",
+      "front": "el poblamiento",
+      "back": "le peuplement"
+    },
+    {
+      "id": "hitcbo",
+      "front": "el asentamiento",
+      "back": "l'implantation, la colonie"
+    },
+    {
+      "id": "iapges",
+      "front": "el yacimiento",
+      "back": "le gisement, le site archéologique"
+    },
+    {
+      "id": "px9iys",
+      "front": "la ruina",
+      "back": "la ruine"
+    },
+    {
+      "id": "esacq5",
+      "front": "el vestigio",
+      "back": "le vestige"
+    },
+    {
+      "id": "w3974v",
+      "front": "el patrimonio",
+      "back": "le patrimoine"
+    },
+    {
+      "id": "0u2uqn",
+      "front": "conquistar",
+      "back": "conquérir"
+    },
+    {
+      "id": "9veuhg",
+      "front": "colonizar",
+      "back": "coloniser"
+    },
+    {
+      "id": "flei0f",
+      "front": "sublevarse",
+      "back": "se soulever"
+    },
+    {
+      "id": "fe9sz9",
+      "front": "derrocar",
+      "back": "renverser"
+    },
+    {
+      "id": "nwzsvi",
+      "front": "firmar un tratado",
+      "back": "signer un traité"
+    },
+    {
+      "id": "uovj7e",
+      "front": "remontarse a",
+      "back": "remonter à"
+    }
+  ]
+}
