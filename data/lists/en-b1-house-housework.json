@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-house-housework",
+  "name": "The House and Housework",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "s2qxij",
+      "front": "a house",
+      "back": "une maison"
+    },
+    {
+      "id": "zvz0m7",
+      "front": "a flat",
+      "back": "un appartement"
+    },
+    {
+      "id": "721oxj",
+      "front": "a building",
+      "back": "un immeuble"
+    },
+    {
+      "id": "jruahy",
+      "front": "a block of flats",
+      "back": "un immeuble d'habitation"
+    },
+    {
+      "id": "1yntzp",
+      "front": "a cottage",
+      "back": "une petite maison de campagne"
+    },
+    {
+      "id": "ra2uxv",
+      "front": "a landlord",
+      "back": "un propriétaire"
+    },
+    {
+      "id": "ujuyjw",
+      "front": "a tenant",
+      "back": "un locataire"
+    },
+    {
+      "id": "d6qeb3",
+      "front": "the rent",
+      "back": "le loyer"
+    },
+    {
+      "id": "cj2q7r",
+      "front": "a lease",
+      "back": "un bail"
+    },
+    {
+      "id": "etzv02",
+      "front": "a mortgage",
+      "back": "un prêt immobilier"
+    },
+    {
+      "id": "md76pc",
+      "front": "a room",
+      "back": "une pièce"
+    },
+    {
+      "id": "azdanw",
+      "front": "the living room",
+      "back": "le salon"
+    },
+    {
+      "id": "nyq0yj",
+      "front": "the dining room",
+      "back": "la salle à manger"
+    },
+    {
+      "id": "tzcvh5",
+      "front": "the kitchen",
+      "back": "la cuisine"
+    },
+    {
+      "id": "igjan1",
+      "front": "a bedroom",
+      "back": "une chambre"
+    },
+    {
+      "id": "qm8f9i",
+      "front": "a bathroom",
+      "back": "une salle de bains"
+    },
+    {
+      "id": "9ldpwx",
+      "front": "the toilet",
+      "back": "les toilettes"
+    },
+    {
+      "id": "adh0mt",
+      "front": "the hall",
+      "back": "l'entrée, le couloir"
+    },
+    {
+      "id": "dif0no",
+      "front": "the landing",
+      "back": "le palier"
+    },
+    {
+      "id": "g8fqd9",
+      "front": "the attic",
+      "back": "le grenier"
+    },
+    {
+      "id": "fa7bqj",
+      "front": "the cellar",
+      "back": "la cave"
+    },
+    {
+      "id": "ob8e8y",
+      "front": "the basement",
+      "back": "le sous-sol"
+    },
+    {
+      "id": "cyh4nk",
+      "front": "a garage",
+      "back": "un garage"
+    },
+    {
+      "id": "chp9hw",
+      "front": "a garden",
+      "back": "un jardin"
+    },
+    {
+      "id": "fxwnl0",
+      "front": "a balcony",
+      "back": "un balcon"
+    },
+    {
+      "id": "jz43wf",
+      "front": "a terrace",
+      "back": "une terrasse"
+    },
+    {
+      "id": "myitc6",
+      "front": "a floor",
+      "back": "un étage"
+    },
+    {
+      "id": "9nlwai",
+      "front": "the ground floor",
+      "back": "le rez-de-chaussée"
+    },
+    {
+      "id": "mmah4l",
+      "front": "the ceiling",
+      "back": "le plafond"
+    },
+    {
+      "id": "n8zmwc",
+      "front": "a wall",
+      "back": "un mur"
+    },
+    {
+      "id": "ozajph",
+      "front": "a door",
+      "back": "une porte"
+    },
+    {
+      "id": "4c1ujs",
+      "front": "a window",
+      "back": "une fenêtre"
+    },
+    {
+      "id": "j1eecl",
+      "front": "a shutter",
+      "back": "un volet"
+    },
+    {
+      "id": "fiir4b",
+      "front": "a curtain",
+      "back": "un rideau"
+    },
+    {
+      "id": "333a2m",
+      "front": "a blind",
+      "back": "un store"
+    },
+    {
+      "id": "xswtmr",
+      "front": "the stairs",
+      "back": "l'escalier"
+    },
+    {
+      "id": "jece8s",
+      "front": "a lift",
+      "back": "un ascenseur"
+    },
+    {
+      "id": "3hytys",
+      "front": "the roof",
+      "back": "le toit"
+    },
+    {
+      "id": "q3u14k",
+      "front": "a chimney",
+      "back": "une cheminée"
+    },
+    {
+      "id": "oafc41",
+      "front": "a fireplace",
+      "back": "un foyer, une cheminée"
+    },
+    {
+      "id": "db2lt7",
+      "front": "a lock",
+      "back": "une serrure"
+    },
+    {
+      "id": "tq3dmd",
+      "front": "a key",
+      "back": "une clé"
+    },
+    {
+      "id": "dkyp05",
+      "front": "a doorbell",
+      "back": "une sonnette"
+    },
+    {
+      "id": "hsoavb",
+      "front": "furniture",
+      "back": "les meubles"
+    },
+    {
+      "id": "ysi0yo",
+      "front": "a table",
+      "back": "une table"
+    },
+    {
+      "id": "gb2788",
+      "front": "a chair",
+      "back": "une chaise"
+    },
+    {
+      "id": "oedjkc",
+      "front": "an armchair",
+      "back": "un fauteuil"
+    },
+    {
+      "id": "c20ce0",
+      "front": "a sofa",
+      "back": "un canapé"
+    },
+    {
+      "id": "azzwvu",
+      "front": "a bed",
+      "back": "un lit"
+    },
+    {
+      "id": "gb799v",
+      "front": "a mattress",
+      "back": "un matelas"
+    },
+    {
+      "id": "ww4fnj",
+      "front": "a pillow",
+      "back": "un oreiller"
+    },
+    {
+      "id": "q5awfy",
+      "front": "a blanket",
+      "back": "une couverture"
+    },
+    {
+      "id": "79rzdu",
+      "front": "a sheet",
+      "back": "un drap"
+    },
+    {
+      "id": "thaqlu",
+      "front": "a duvet",
+      "back": "une couette"
+    },
+    {
+      "id": "nuko7u",
+      "front": "a wardrobe",
+      "back": "une armoire"
+    },
+    {
+      "id": "zux2yf",
+      "front": "a chest of drawers",
+      "back": "une commode"
+    },
+    {
+      "id": "44azdi",
+      "front": "a drawer",
+      "back": "un tiroir"
+    },
+    {
+      "id": "yowz9s",
+      "front": "a shelf",
+      "back": "une étagère"
+    },
+    {
+      "id": "ifdk45",
+      "front": "a bookcase",
+      "back": "une bibliothèque"
+    },
+    {
+      "id": "e5mx29",
+      "front": "a cupboard",
+      "back": "un placard"
+    },
+    {
+      "id": "ui8nh6",
+      "front": "a mirror",
+      "back": "un miroir"
+    },
+    {
+      "id": "ev7alb",
+      "front": "a carpet",
+      "back": "une moquette, un tapis"
+    },
+    {
+      "id": "r1wwgh",
+      "front": "a rug",
+      "back": "un tapis"
+    },
+    {
+      "id": "t0xf51",
+      "front": "a lamp",
+      "back": "une lampe"
+    },
+    {
+      "id": "selsct",
+      "front": "a bulb",
+      "back": "une ampoule"
+    },
+    {
+      "id": "ua8kme",
+      "front": "a switch",
+      "back": "un interrupteur"
+    },
+    {
+      "id": "pnd72f",
+      "front": "a socket",
+      "back": "une prise"
+    },
+    {
+      "id": "4vedog",
+      "front": "a radiator",
+      "back": "un radiateur"
+    },
+    {
+      "id": "kiix21",
+      "front": "heating",
+      "back": "le chauffage"
+    },
+    {
+      "id": "elb83e",
+      "front": "a boiler",
+      "back": "une chaudière"
+    },
+    {
+      "id": "i1zzkp",
+      "front": "a sink",
+      "back": "un évier"
+    },
+    {
+      "id": "akd9pi",
+      "front": "a tap",
+      "back": "un robinet"
+    },
+    {
+      "id": "0ldc4t",
+      "front": "a shower",
+      "back": "une douche"
+    },
+    {
+      "id": "ajwoee",
+      "front": "a bath",
+      "back": "une baignoire"
+    },
+    {
+      "id": "5zmgx1",
+      "front": "a washing machine",
+      "back": "un lave-linge"
+    },
+    {
+      "id": "qsnvp1",
+      "front": "a dishwasher",
+      "back": "un lave-vaisselle"
+    },
+    {
+      "id": "yio2fb",
+      "front": "a fridge",
+      "back": "un réfrigérateur"
+    },
+    {
+      "id": "qxcm91",
+      "front": "a freezer",
+      "back": "un congélateur"
+    },
+    {
+      "id": "fjwe31",
+      "front": "an oven",
+      "back": "un four"
+    },
+    {
+      "id": "hfd0wy",
+      "front": "a vacuum cleaner",
+      "back": "un aspirateur"
+    },
+    {
+      "id": "2b34vw",
+      "front": "a broom",
+      "back": "un balai"
+    },
+    {
+      "id": "9ummd2",
+      "front": "a bucket",
+      "back": "un seau"
+    },
+    {
+      "id": "yyvzdt",
+      "front": "a bin",
+      "back": "une poubelle"
+    },
+    {
+      "id": "jof5j4",
+      "front": "the housework",
+      "back": "les tâches ménagères"
+    },
+    {
+      "id": "rb1zcu",
+      "front": "the washing-up",
+      "back": "la vaisselle"
+    },
+    {
+      "id": "ej73wp",
+      "front": "the laundry",
+      "back": "le linge, la lessive"
+    },
+    {
+      "id": "8y1lr5",
+      "front": "a chore",
+      "back": "une corvée"
+    },
+    {
+      "id": "z767o3",
+      "front": "a repair",
+      "back": "une réparation"
+    },
+    {
+      "id": "56bm5k",
+      "front": "a tool",
+      "back": "un outil"
+    },
+    {
+      "id": "as07bj",
+      "front": "a hammer",
+      "back": "un marteau"
+    },
+    {
+      "id": "1dnz13",
+      "front": "a screwdriver",
+      "back": "un tournevis"
+    },
+    {
+      "id": "9g1408",
+      "front": "a screw",
+      "back": "une vis"
+    },
+    {
+      "id": "osik9c",
+      "front": "to move house",
+      "back": "déménager"
+    },
+    {
+      "id": "clj3c4",
+      "front": "to tidy up",
+      "back": "ranger"
+    },
+    {
+      "id": "1nur2s",
+      "front": "to clean",
+      "back": "nettoyer"
+    },
+    {
+      "id": "w32tnf",
+      "front": "to sweep",
+      "back": "balayer"
+    },
+    {
+      "id": "bs9e83",
+      "front": "to dust",
+      "back": "épousseter"
+    },
+    {
+      "id": "96dpkk",
+      "front": "to do the washing-up",
+      "back": "faire la vaisselle"
+    },
+    {
+      "id": "hvpw70",
+      "front": "to hang up",
+      "back": "accrocher, suspendre"
+    },
+    {
+      "id": "wzlva4",
+      "front": "to fix",
+      "back": "réparer"
+    }
+  ]
+}
