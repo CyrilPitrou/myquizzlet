@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-idioms-1",
+  "name": "Idioms and Figurative Language 1",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "ircx0r",
+      "front": "to bite the bullet",
+      "back": "prendre son courage à deux mains"
+    },
+    {
+      "id": "ufv1uy",
+      "front": "to bury the hatchet",
+      "back": "enterrer la hache de guerre"
+    },
+    {
+      "id": "tb5ti4",
+      "front": "to call it a day",
+      "back": "en rester là, s'arrêter pour aujourd'hui"
+    },
+    {
+      "id": "wlmsjz",
+      "front": "to cut corners",
+      "back": "bâcler, faire au plus vite"
+    },
+    {
+      "id": "05ofqo",
+      "front": "to draw a blank",
+      "back": "faire chou blanc"
+    },
+    {
+      "id": "8zbufa",
+      "front": "to face the music",
+      "back": "affronter les conséquences"
+    },
+    {
+      "id": "s0nrbx",
+      "front": "to get the ball rolling",
+      "back": "lancer les choses"
+    },
+    {
+      "id": "bs2nxe",
+      "front": "to go the extra mile",
+      "back": "se donner du mal, faire un effort supplémentaire"
+    },
+    {
+      "id": "sr7grj",
+      "front": "to hedge one's bets",
+      "back": "ménager la chèvre et le chou"
+    },
+    {
+      "id": "iyt648",
+      "front": "to jump the gun",
+      "back": "agir prématurément"
+    },
+    {
+      "id": "e5h5e8",
+      "front": "to keep one's cards close to one's chest",
+      "back": "garder ses intentions secrètes"
+    },
+    {
+      "id": "kt7sv2",
+      "front": "to let the cat out of the bag",
+      "back": "vendre la mèche"
+    },
+    {
+      "id": "h4zx7t",
+      "front": "to move the goalposts",
+      "back": "changer les règles en cours de route"
+    },
+    {
+      "id": "cjylvg",
+      "front": "to pull one's weight",
+      "back": "faire sa part du travail"
+    },
+    {
+      "id": "bswrvv",
+      "front": "to put something on the back burner",
+      "back": "mettre quelque chose en veilleuse"
+    },
+    {
+      "id": "9bsuu7",
+      "front": "to rock the boat",
+      "back": "faire des vagues"
+    },
+    {
+      "id": "4c2r12",
+      "front": "to sit on the fence",
+      "back": "ne pas prendre parti"
+    },
+    {
+      "id": "c5ykos",
+      "front": "to take something with a pinch of salt",
+      "back": "prendre quelque chose avec des pincettes"
+    },
+    {
+      "id": "lmruqq",
+      "front": "to throw in the towel",
+      "back": "jeter l'éponge"
+    },
+    {
+      "id": "3fjg0n",
+      "front": "to turn a blind eye",
+      "back": "fermer les yeux"
+    },
+    {
+      "id": "q7evvm",
+      "front": "to bend over backwards",
+      "back": "se mettre en quatre"
+    },
+    {
+      "id": "72k0fa",
+      "front": "to blow something out of proportion",
+      "back": "exagérer démesurément"
+    },
+    {
+      "id": "4vd29e",
+      "front": "to break the mould",
+      "back": "rompre avec la tradition"
+    },
+    {
+      "id": "rhiv6b",
+      "front": "to clutch at straws",
+      "back": "se raccrocher aux branches"
+    },
+    {
+      "id": "bclbsl",
+      "front": "to cross that bridge when we come to it",
+      "back": "on verra le moment venu"
+    },
+    {
+      "id": "bf9zna",
+      "front": "to cut to the chase",
+      "back": "en venir au fait"
+    },
+    {
+      "id": "o8ab7c",
+      "front": "to drive a hard bargain",
+      "back": "être dur en affaires"
+    },
+    {
+      "id": "u5m20c",
+      "front": "to fall on deaf ears",
+      "back": "rester lettre morte"
+    },
+    {
+      "id": "4qefk1",
+      "front": "to fly in the face of",
+      "back": "aller à l'encontre de"
+    },
+    {
+      "id": "l1f38u",
+      "front": "to get wind of",
+      "back": "avoir vent de"
+    },
+    {
+      "id": "sit5hg",
+      "front": "to give someone the benefit of the doubt",
+      "back": "accorder le bénéfice du doute"
+    },
+    {
+      "id": "w7gex0",
+      "front": "to go down a rabbit hole",
+      "back": "se perdre dans les méandres d'un sujet"
+    },
+    {
+      "id": "poe3ps",
+      "front": "to have a chip on one's shoulder",
+      "back": "être aigri, avoir une dent contre le monde"
+    },
+    {
+      "id": "2acpz1",
+      "front": "to have one's work cut out",
+      "back": "avoir du pain sur la planche"
+    },
+    {
+      "id": "4t1dv5",
+      "front": "to hit the nail on the head",
+      "back": "mettre le doigt dessus, voir juste"
+    },
+    {
+      "id": "h5vsxw",
+      "front": "to keep someone at arm's length",
+      "back": "tenir quelqu'un à distance"
+    },
+    {
+      "id": "kejy1n",
+      "front": "to know something inside out",
+      "back": "connaître quelque chose sur le bout des doigts"
+    },
+    {
+      "id": "ium5fv",
+      "front": "to lay the groundwork",
+      "back": "préparer le terrain"
+    },
+    {
+      "id": "4oxztf",
+      "front": "to make no bones about it",
+      "back": "ne pas y aller par quatre chemins"
+    },
+    {
+      "id": "bja8m6",
+      "front": "to miss the boat",
+      "back": "rater le coche"
+    },
+    {
+      "id": "zbf0mr",
+      "front": "to nip something in the bud",
+      "back": "étouffer dans l'œuf"
+    },
+    {
+      "id": "tyljxr",
+      "front": "to pay lip service to",
+      "back": "n'adhérer qu'en paroles à"
+    },
+    {
+      "id": "7uohuo",
+      "front": "to play devil's advocate",
+      "back": "se faire l'avocat du diable"
+    },
+    {
+      "id": "xk8xih",
+      "front": "to pull the plug on",
+      "back": "mettre fin à, débrancher"
+    },
+    {
+      "id": "7oszq6",
+      "front": "to put one's foot in it",
+      "back": "mettre les pieds dans le plat"
+    },
+    {
+      "id": "4chcml",
+      "front": "to read between the lines",
+      "back": "lire entre les lignes"
+    },
+    {
+      "id": "o3fn6g",
+      "front": "to ring a bell",
+      "back": "dire quelque chose, rappeler quelque chose"
+    },
+    {
+      "id": "otke71",
+      "front": "to run its course",
+      "back": "suivre son cours jusqu'au bout"
+    },
+    {
+      "id": "y4gyt1",
+      "front": "to see eye to eye",
+      "back": "être du même avis"
+    },
+    {
+      "id": "dsal7q",
+      "front": "to set the record straight",
+      "back": "rétablir la vérité"
+    },
+    {
+      "id": "0fc7yj",
+      "front": "to sail close to the wind",
+      "back": "jouer avec le feu, friser la limite"
+    },
+    {
+      "id": "u2x7yw",
+      "front": "to shed light on",
+      "back": "éclairer, faire la lumière sur"
+    },
+    {
+      "id": "1z89sb",
+      "front": "to steal someone's thunder",
+      "back": "voler la vedette à quelqu'un"
+    },
+    {
+      "id": "59p1p9",
+      "front": "to stick to one's guns",
+      "back": "ne pas céder d'un pouce"
+    },
+    {
+      "id": "z2g71y",
+      "front": "to take stock",
+      "back": "faire le point"
+    },
+    {
+      "id": "lw0out",
+      "front": "to talk shop",
+      "back": "parler boutique"
+    },
+    {
+      "id": "3bqpkx",
+      "front": "to tread carefully",
+      "back": "avancer avec précaution"
+    },
+    {
+      "id": "kt9egm",
+      "front": "to twist someone's arm",
+      "back": "forcer la main à quelqu'un"
+    },
+    {
+      "id": "f620r2",
+      "front": "to weather the storm",
+      "back": "essuyer la tempête"
+    },
+    {
+      "id": "u3sbe0",
+      "front": "to wing it",
+      "back": "improviser"
+    },
+    {
+      "id": "skvb2e",
+      "front": "a blessing in disguise",
+      "back": "un mal pour un bien"
+    },
+    {
+      "id": "jvyz4k",
+      "front": "a double-edged sword",
+      "back": "une arme à double tranchant"
+    },
+    {
+      "id": "tvagy2",
+      "front": "a foregone conclusion",
+      "back": "une affaire entendue d'avance"
+    },
+    {
+      "id": "i6u6ue",
+      "front": "a grey area",
+      "back": "une zone grise"
+    },
+    {
+      "id": "eaepg1",
+      "front": "a level playing field",
+      "back": "des conditions équitables"
+    },
+    {
+      "id": "peuv1q",
+      "front": "a red herring",
+      "back": "une fausse piste"
+    },
+    {
+      "id": "m32wbp",
+      "front": "a rule of thumb",
+      "back": "une règle empirique"
+    },
+    {
+      "id": "o2d5xf",
+      "front": "a sea change",
+      "back": "un changement radical"
+    },
+    {
+      "id": "2f136h",
+      "front": "a slippery slope",
+      "back": "une pente savonneuse"
+    },
+    {
+      "id": "kflm9h",
+      "front": "a stumbling block",
+      "back": "une pierre d'achoppement"
+    },
+    {
+      "id": "3plytn",
+      "front": "a tall order",
+      "back": "une demande difficile à satisfaire"
+    },
+    {
+      "id": "kmmiwe",
+      "front": "a vicious circle",
+      "back": "un cercle vicieux"
+    },
+    {
+      "id": "p3n94h",
+      "front": "a game changer",
+      "back": "un élément qui change la donne"
+    },
+    {
+      "id": "mpzu6z",
+      "front": "the elephant in the room",
+      "back": "le sujet que tout le monde évite"
+    },
+    {
+      "id": "lkyhct",
+      "front": "the last straw",
+      "back": "la goutte d'eau qui fait déborder le vase"
+    },
+    {
+      "id": "dpqknu",
+      "front": "the lion's share",
+      "back": "la part du lion"
+    },
+    {
+      "id": "rwmjwe",
+      "front": "the tip of the iceberg",
+      "back": "la partie émergée de l'iceberg"
+    },
+    {
+      "id": "fxu4g2",
+      "front": "the writing on the wall",
+      "back": "les signes avant-coureurs"
+    },
+    {
+      "id": "am1cog",
+      "front": "at loggerheads",
+      "back": "en désaccord total"
+    },
+    {
+      "id": "6w28h3",
+      "front": "behind closed doors",
+      "back": "à huis clos"
+    },
+    {
+      "id": "oiy174",
+      "front": "by and large",
+      "back": "dans l'ensemble"
+    },
+    {
+      "id": "lwxoi3",
+      "front": "in a nutshell",
+      "back": "en résumé, en un mot"
+    },
+    {
+      "id": "ksxkii",
+      "front": "off the cuff",
+      "back": "au pied levé, sans préparation"
+    },
+    {
+      "id": "9hhz7v",
+      "front": "on the back foot",
+      "back": "sur la défensive"
+    },
+    {
+      "id": "4lf5nf",
+      "front": "out of the blue",
+      "back": "sans crier gare"
+    },
+    {
+      "id": "mgkod8",
+      "front": "par for the course",
+      "back": "dans l'ordre des choses"
+    },
+    {
+      "id": "ks2405",
+      "front": "few and far between",
+      "back": "rares et espacés"
+    },
+    {
+      "id": "jx75q3",
+      "front": "give or take",
+      "back": "à peu près, à quelques unités près"
+    },
+    {
+      "id": "j9w6xx",
+      "front": "hand in glove",
+      "back": "de mèche, en étroite collaboration"
+    },
+    {
+      "id": "8l8aeo",
+      "front": "in the pipeline",
+      "back": "en préparation"
+    },
+    {
+      "id": "8o6cqv",
+      "front": "neck and neck",
+      "back": "au coude à coude"
+    },
+    {
+      "id": "uw0xyp",
+      "front": "on the same page",
+      "back": "sur la même longueur d'onde"
+    },
+    {
+      "id": "334ttu",
+      "front": "across the board",
+      "back": "à tous les niveaux, généralisé"
+    },
+    {
+      "id": "gk0o7f",
+      "front": "under the radar",
+      "back": "en toute discrétion"
+    },
+    {
+      "id": "4d09kl",
+      "front": "up in the air",
+      "back": "en suspens, incertain"
+    },
+    {
+      "id": "kcpvie",
+      "front": "worth its weight in gold",
+      "back": "qui vaut son pesant d'or"
+    },
+    {
+      "id": "w6zkhi",
+      "front": "a knock-on effect",
+      "back": "un effet en cascade"
+    },
+    {
+      "id": "vcgdm7",
+      "front": "a wake-up call",
+      "back": "un signal d'alarme"
+    },
+    {
+      "id": "l17hx0",
+      "front": "to come to a head",
+      "back": "arriver à un point critique"
+    },
+    {
+      "id": "z9pos3",
+      "front": "to bear the brunt of",
+      "back": "subir le plus gros de"
+    }
+  ]
+}
