@@ -1,11 +1,13 @@
 import { ConflictError } from './github.js';
-import { mergeProgress, compareLists } from './merge.js';
+import { mergeProgress, compareLists, listUnchanged } from './merge.js';
 
 const listPath = (id) => `data/lists/${id}.json`;
 const progressPath = (id) => `data/progress/${id}.json`;
 
 export function createSync({ store, github, onStatus, onConflict, canPush }) {
   let timer = null;
+  let running = null;
+  let again = false;
 
   async function pullList(id) {
     const key = `list:${id}`;
@@ -54,12 +56,27 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
 
   async function pullAll() {
     const entries = await github.listDir('data/lists');
+    // The progress directory is listed too, rather than guessed at: most
+    // lists have no progress file yet, and asking for each one by name spent
+    // a request per list to be told 404. One listing answers for all of them,
+    // and carries the shas that say which of the rest are worth reading.
+    const progressShas = new Map((await github.listDir('data/progress'))
+      .map((entry) => [entry.name.replace(/\.json$/, ''), entry.sha]));
     const deleted = store.deletedIds();
     for (const entry of entries) {
       const id = entry.name.replace(/\.json$/, '');
       if (deleted.includes(id)) continue;
-      await pullList(id);
-      await pullProgress(id);
+      const listKey = `list:${id}`;
+      if (listUnchanged({ local: store.getList(id), remoteSha: entry.sha, base: store.getBase(listKey) })) {
+        store.markClean(listKey);
+      } else {
+        await pullList(id);
+      }
+      // A progress file the remote does not have has nothing to merge, and
+      // one whose sha has not moved holds exactly what was merged last time.
+      const progressSha = progressShas.get(id);
+      const progressBase = store.getBase(`progress:${id}`);
+      if (progressSha && !(progressBase && progressBase.sha === progressSha)) await pullProgress(id);
     }
     // A list the remote does not have is one of two very different things.
     // If we have never had a sha for it, it is ours and was never uploaded,
@@ -130,7 +147,7 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
     }
   }
 
-  async function syncNow() {
+  async function sweep() {
     if (!navigator.onLine) return onStatus('offline');
     try {
       onStatus('syncing');
@@ -140,6 +157,25 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
     } catch (error) {
       onStatus('error', error.message);
     }
+  }
+
+  // A phone asks for a sync every time it comes back to the app, and a sweep
+  // over a few hundred lists easily outlives several of those. Left alone,
+  // each request started another sweep beside the one already running: they
+  // took each other's bandwidth, the dot never stopped spinning, and nothing
+  // was ever repainted. So only one sweep runs. A request that arrives during
+  // one does not start a second and does not vanish either — it is served by
+  // one more sweep afterwards, which is what an edit made mid-sweep needs to
+  // be pushed at all.
+  function syncNow() {
+    if (running) { again = true; return running; }
+    running = (async () => {
+      do {
+        again = false;
+        await sweep();
+      } while (again);
+    })().finally(() => { running = null; });
+    return running;
   }
 
   return {

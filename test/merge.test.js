@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { mergeProgress, compareLists } from '../app/merge.js';
+import { mergeProgress, compareLists, listUnchanged } from '../app/merge.js';
 import { swapSides } from '../app/sides.js';
 
 const item = (box, lastSeen) => ({ box, due: '2026-09-02', seen: box, lapses: 0, lastSeen });
@@ -118,5 +118,27 @@ describe('compareLists', () => {
   it('reports a conflict when both exist but this file was never synced', () => {
     expect(compareLists({ local: edited, remote: synced, remoteSha: 'sha1', base: null }))
       .toBe('conflict');
+  });
+});
+
+describe('listUnchanged', () => {
+  const base = { sha: 'L1', updatedAt: '2026-09-01T00:00:00Z' };
+  const local = { id: 'x', updatedAt: '2026-09-01T00:00:00Z' };
+
+  it('is true when the listing sha and the local stamp both match the base', () => {
+    expect(listUnchanged({ local, remoteSha: 'L1', base })).toBe(true);
+  });
+
+  it('is false when the remote moved', () => {
+    expect(listUnchanged({ local, remoteSha: 'L2', base })).toBe(false);
+  });
+
+  it('is false when the local copy was edited', () => {
+    expect(listUnchanged({ local: { ...local, updatedAt: '2026-09-04T00:00:00Z' }, remoteSha: 'L1', base })).toBe(false);
+  });
+
+  it('is false for a list this device has never had, or never synced', () => {
+    expect(listUnchanged({ local: null, remoteSha: 'L1', base })).toBe(false);
+    expect(listUnchanged({ local, remoteSha: 'L1', base: null })).toBe(false);
   });
 });

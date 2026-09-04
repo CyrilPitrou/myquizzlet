@@ -24,3 +24,13 @@ export function compareLists({ local, remote, remoteSha, base }) {
   if (!remoteMoved && localChanged) return 'keep-local';
   return 'conflict';
 }
+
+// A directory listing already carries every file's sha, which is all the
+// comparison above needs when nothing has moved: a list whose remote sha
+// still matches the base, and whose local copy has not been touched since,
+// can only be 'same'. Saying so from the listing saves downloading the file
+// to learn nothing — the difference between one request a sync and one per
+// list, which is what a few hundred lists on a phone turns into.
+export function listUnchanged({ local, remoteSha, base }) {
+  return Boolean(local && base && remoteSha === base.sha && local.updatedAt === base.updatedAt);
+}
