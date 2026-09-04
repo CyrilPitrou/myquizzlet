@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-actualidad-prensa",
+  "name": "La actualidad y la prensa",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "w2jrcc",
+      "front": "la actualidad",
+      "back": "l'actualité"
+    },
+    {
+      "id": "kz1s9o",
+      "front": "la prensa",
+      "back": "la presse"
+    },
+    {
+      "id": "f5chkk",
+      "front": "el periodismo",
+      "back": "le journalisme"
+    },
+    {
+      "id": "o7eyiy",
+      "front": "el medio de comunicación",
+      "back": "le média"
+    },
+    {
+      "id": "zt5lt0",
+      "front": "el diario",
+      "back": "le quotidien"
+    },
+    {
+      "id": "i3yvn8",
+      "front": "el semanario",
+      "back": "l'hebdomadaire"
+    },
+    {
+      "id": "szld4e",
+      "front": "la tirada",
+      "back": "le tirage"
+    },
+    {
+      "id": "3lyg3g",
+      "front": "la portada",
+      "back": "la une"
+    },
+    {
+      "id": "rlg27t",
+      "front": "el titular",
+      "back": "le gros titre"
+    },
+    {
+      "id": "5tm1tj",
+      "front": "el subtítulo",
+      "back": "le sous-titre"
+    },
+    {
+      "id": "fbr3qj",
+      "front": "la columna",
+      "back": "la chronique"
+    },
+    {
+      "id": "d2oh52",
+      "front": "el editorial",
+      "back": "l'éditorial"
+    },
+    {
+      "id": "mchdqb",
+      "front": "la crónica",
+      "back": "le reportage suivi"
+    },
+    {
+      "id": "ucb9ab",
+      "front": "el sumario",
+      "back": "le sommaire"
+    },
+    {
+      "id": "ypm48m",
+      "front": "la sección",
+      "back": "la rubrique"
+    },
+    {
+      "id": "mauqr0",
+      "front": "el corresponsal",
+      "back": "le correspondant"
+    },
+    {
+      "id": "w7sqi4",
+      "front": "el enviado especial",
+      "back": "l'envoyé spécial"
+    },
+    {
+      "id": "mzcrga",
+      "front": "el reportero",
+      "back": "le reporter"
+    },
+    {
+      "id": "g6q4s5",
+      "front": "el redactor jefe",
+      "back": "le rédacteur en chef"
+    },
+    {
+      "id": "hncial",
+      "front": "la redacción",
+      "back": "la rédaction"
+    },
+    {
+      "id": "2dsh92",
+      "front": "la agencia de noticias",
+      "back": "l'agence de presse"
+    },
+    {
+      "id": "bxqb2r",
+      "front": "la fuente",
+      "back": "la source"
+    },
+    {
+      "id": "u0nyrs",
+      "front": "el testigo",
+      "back": "le témoin"
+    },
+    {
+      "id": "o8bqn4",
+      "front": "la primicia",
+      "back": "le scoop"
+    },
+    {
+      "id": "6yw4m7",
+      "front": "la exclusiva",
+      "back": "l'exclusivité"
+    },
+    {
+      "id": "9i41md",
+      "front": "la filtración",
+      "back": "la fuite"
+    },
+    {
+      "id": "43ahfv",
+      "front": "el rumor",
+      "back": "la rumeur"
+    },
+    {
+      "id": "e6bgtw",
+      "front": "el bulo",
+      "back": "le canular, l'intox"
+    },
+    {
+      "id": "eeiegc",
+      "front": "la desinformación",
+      "back": "la désinformation"
+    },
+    {
+      "id": "a6lu02",
+      "front": "la censura",
+      "back": "la censure"
+    },
+    {
+      "id": "yghuex",
+      "front": "la libertad de prensa",
+      "back": "la liberté de la presse"
+    },
+    {
+      "id": "vstb5n",
+      "front": "la línea editorial",
+      "back": "la ligne éditoriale"
+    },
+    {
+      "id": "y5kt4a",
+      "front": "el sesgo",
+      "back": "le biais"
+    },
+    {
+      "id": "6k9iev",
+      "front": "la objetividad",
+      "back": "l'objectivité"
+    },
+    {
+      "id": "tdpk5v",
+      "front": "la imparcialidad",
+      "back": "l'impartialité"
+    },
+    {
+      "id": "ozcl7z",
+      "front": "la difamación",
+      "back": "la diffamation"
+    },
+    {
+      "id": "oa4709",
+      "front": "la rectificación",
+      "back": "le rectificatif"
+    },
+    {
+      "id": "jgsjh6",
+      "front": "el derecho de réplica",
+      "back": "le droit de réponse"
+    },
+    {
+      "id": "yhho9e",
+      "front": "la rueda de prensa",
+      "back": "la conférence de presse"
+    },
+    {
+      "id": "ygggx5",
+      "front": "el comunicado",
+      "back": "le communiqué"
+    },
+    {
+      "id": "czwiav",
+      "front": "la declaración",
+      "back": "la déclaration"
+    },
+    {
+      "id": "q1d92b",
+      "front": "la portavoz",
+      "back": "la porte-parole"
+    },
+    {
+      "id": "frpu4k",
+      "front": "el debate televisado",
+      "back": "le débat télévisé"
+    },
+    {
+      "id": "s2n8f5",
+      "front": "la tertulia",
+      "back": "le débat de plateau"
+    },
+    {
+      "id": "p4m7fb",
+      "front": "la audiencia",
+      "back": "l'audience"
+    },
+    {
+      "id": "vlcn7j",
+      "front": "el índice de audiencia",
+      "back": "le taux d'audience"
+    },
+    {
+      "id": "ueecu0",
+      "front": "la cadena",
+      "back": "la chaîne (de télévision)"
+    },
+    {
+      "id": "lsjptv",
+      "front": "la emisora",
+      "back": "la station (de radio)"
+    },
+    {
+      "id": "bd35hd",
+      "front": "la emisión",
+      "back": "l'émission, la diffusion"
+    },
+    {
+      "id": "6h5ye2",
+      "front": "el informativo",
+      "back": "le journal d'information"
+    },
+    {
+      "id": "h48vxu",
+      "front": "la retransmisión",
+      "back": "la retransmission"
+    },
+    {
+      "id": "cidctv",
+      "front": "el directo",
+      "back": "le direct"
+    },
+    {
+      "id": "61czcr",
+      "front": "la grabación",
+      "back": "l'enregistrement"
+    },
+    {
+      "id": "xoc0jd",
+      "front": "el archivo audiovisual",
+      "back": "les archives audiovisuelles"
+    },
+    {
+      "id": "uqt6ts",
+      "front": "la hemeroteca",
+      "back": "les archives de presse"
+    },
+    {
+      "id": "mu5c7a",
+      "front": "el suplemento",
+      "back": "le supplément"
+    },
+    {
+      "id": "jfcpz0",
+      "front": "la suscripción",
+      "back": "l'abonnement"
+    },
+    {
+      "id": "t9uhwr",
+      "front": "el quiosco de prensa",
+      "back": "le kiosque à journaux"
+    },
+    {
+      "id": "9iwljn",
+      "front": "el lector asiduo",
+      "back": "le lecteur assidu"
+    },
+    {
+      "id": "iqk2xa",
+      "front": "la opinión pública",
+      "back": "l'opinion publique"
+    },
+    {
+      "id": "itnapq",
+      "front": "la encuesta",
+      "back": "le sondage"
+    },
+    {
+      "id": "nr1c1s",
+      "front": "el sondeo",
+      "back": "l'enquête d'opinion"
+    },
+    {
+      "id": "jbz51t",
+      "front": "la campaña mediática",
+      "back": "la campagne médiatique"
+    },
+    {
+      "id": "whnn8q",
+      "front": "el enfoque",
+      "back": "l'angle, l'approche"
+    },
+    {
+      "id": "8bu82v",
+      "front": "el titular sensacionalista",
+      "back": "le titre racoleur"
+    },
+    {
+      "id": "lhzuq8",
+      "front": "la prensa amarilla",
+      "back": "la presse à scandale"
+    },
+    {
+      "id": "vrjdqy",
+      "front": "el periodismo de investigación",
+      "back": "le journalisme d'investigation"
+    },
+    {
+      "id": "81f9xi",
+      "front": "la caricatura",
+      "back": "la caricature"
+    },
+    {
+      "id": "fjfj8a",
+      "front": "la viñeta",
+      "back": "la vignette, le dessin de presse"
+    },
+    {
+      "id": "7gqgzs",
+      "front": "el pie de foto",
+      "back": "la légende"
+    },
+    {
+      "id": "7zry23",
+      "front": "la fotografía de portada",
+      "back": "la photo de une"
+    },
+    {
+      "id": "9g8xej",
+      "front": "el maquetado",
+      "back": "la mise en page"
+    },
+    {
+      "id": "t97g64",
+      "front": "la publicidad encubierta",
+      "back": "la publicité déguisée"
+    },
+    {
+      "id": "l8wduh",
+      "front": "el patrocinio",
+      "back": "le parrainage"
+    },
+    {
+      "id": "lf84hz",
+      "front": "la audiencia digital",
+      "back": "l'audience numérique"
+    },
+    {
+      "id": "5mlgox",
+      "front": "el titular de última hora",
+      "back": "l'alerte info"
+    },
+    {
+      "id": "n89oal",
+      "front": "informar de un hecho",
+      "back": "rendre compte d'un fait"
+    },
+    {
+      "id": "fv5fe3",
+      "front": "difundir",
+      "back": "diffuser"
+    },
+    {
+      "id": "84zkj1",
+      "front": "publicar",
+      "back": "publier"
+    },
+    {
+      "id": "475ksg",
+      "front": "divulgar",
+      "back": "divulguer"
+    },
+    {
+      "id": "a7r01u",
+      "front": "denunciar",
+      "back": "dénoncer"
+    },
+    {
+      "id": "ctvtt0",
+      "front": "desmentir",
+      "back": "démentir"
+    },
+    {
+      "id": "1cc5mn",
+      "front": "matizar",
+      "back": "nuancer"
+    },
+    {
+      "id": "31o4gb",
+      "front": "tergiversar",
+      "back": "déformer, travestir"
+    },
+    {
+      "id": "wd1mxw",
+      "front": "manipular",
+      "back": "manipuler"
+    },
+    {
+      "id": "k2x685",
+      "front": "sesgar",
+      "back": "biaiser"
+    },
+    {
+      "id": "vxv66u",
+      "front": "encabezar",
+      "back": "être en tête de, coiffer"
+    },
+    {
+      "id": "8chfjo",
+      "front": "recoger unas declaraciones",
+      "back": "rapporter des propos"
+    },
+    {
+      "id": "wsq5fp",
+      "front": "citar una fuente",
+      "back": "citer une source"
+    },
+    {
+      "id": "ipmhgq",
+      "front": "atribuir",
+      "back": "attribuer"
+    },
+    {
+      "id": "23h2m0",
+      "front": "contrastar",
+      "back": "recouper"
+    },
+    {
+      "id": "uho4v4",
+      "front": "verificar",
+      "back": "vérifier"
+    },
+    {
+      "id": "luyxs8",
+      "front": "suscribirse",
+      "back": "s'abonner"
+    },
+    {
+      "id": "wfncsm",
+      "front": "retransmitir",
+      "back": "retransmettre"
+    },
+    {
+      "id": "wbyxr3",
+      "front": "emitir en directo",
+      "back": "diffuser en direct"
+    },
+    {
+      "id": "j150cx",
+      "front": "salir a la luz",
+      "back": "être révélé au grand jour"
+    },
+    {
+      "id": "x41mlx",
+      "front": "hacerse eco de",
+      "back": "se faire l'écho de"
+    },
+    {
+      "id": "2vbrsf",
+      "front": "dar la noticia",
+      "back": "annoncer la nouvelle"
+    },
+    {
+      "id": "ho69kk",
+      "front": "copar los titulares",
+      "back": "faire les gros titres"
+    },
+    {
+      "id": "4aax15",
+      "front": "polémico",
+      "back": "polémique"
+    }
+  ]
+}
