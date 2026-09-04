@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-town-transport",
+  "name": "Town and Transport",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "j52xc3",
+      "front": "a town",
+      "back": "une ville"
+    },
+    {
+      "id": "fe5bgx",
+      "front": "a city",
+      "back": "une grande ville"
+    },
+    {
+      "id": "9fzsnw",
+      "front": "a village",
+      "back": "un village"
+    },
+    {
+      "id": "o35uuv",
+      "front": "a suburb",
+      "back": "une banlieue"
+    },
+    {
+      "id": "nxo1i5",
+      "front": "the city centre",
+      "back": "le centre-ville"
+    },
+    {
+      "id": "5x18kd",
+      "front": "a district",
+      "back": "un quartier"
+    },
+    {
+      "id": "mnwslm",
+      "front": "a street",
+      "back": "une rue"
+    },
+    {
+      "id": "meor7b",
+      "front": "a road",
+      "back": "une route"
+    },
+    {
+      "id": "zo1wyr",
+      "front": "an avenue",
+      "back": "une avenue"
+    },
+    {
+      "id": "o9gk94",
+      "front": "a lane",
+      "back": "une ruelle, une voie"
+    },
+    {
+      "id": "ke74j8",
+      "front": "a square",
+      "back": "une place"
+    },
+    {
+      "id": "7g8xis",
+      "front": "a pavement",
+      "back": "un trottoir"
+    },
+    {
+      "id": "g4tujc",
+      "front": "a crossroads",
+      "back": "un carrefour"
+    },
+    {
+      "id": "7gjh64",
+      "front": "a roundabout",
+      "back": "un rond-point"
+    },
+    {
+      "id": "abefzp",
+      "front": "a pedestrian crossing",
+      "back": "un passage piéton"
+    },
+    {
+      "id": "l358gk",
+      "front": "a traffic light",
+      "back": "un feu de circulation"
+    },
+    {
+      "id": "9cs0mg",
+      "front": "a bridge",
+      "back": "un pont"
+    },
+    {
+      "id": "t9j1k6",
+      "front": "a tunnel",
+      "back": "un tunnel"
+    },
+    {
+      "id": "4u40zi",
+      "front": "a park",
+      "back": "un parc"
+    },
+    {
+      "id": "cq8bry",
+      "front": "a playground",
+      "back": "une aire de jeux"
+    },
+    {
+      "id": "pfb618",
+      "front": "a car park",
+      "back": "un parking"
+    },
+    {
+      "id": "yby6z9",
+      "front": "a town hall",
+      "back": "une mairie"
+    },
+    {
+      "id": "vjddux",
+      "front": "a church",
+      "back": "une église"
+    },
+    {
+      "id": "jo01xn",
+      "front": "a cathedral",
+      "back": "une cathédrale"
+    },
+    {
+      "id": "a6kunp",
+      "front": "a museum",
+      "back": "un musée"
+    },
+    {
+      "id": "58z6of",
+      "front": "a library",
+      "back": "une bibliothèque"
+    },
+    {
+      "id": "dus3ez",
+      "front": "a theatre",
+      "back": "un théâtre"
+    },
+    {
+      "id": "fwtbto",
+      "front": "a cinema",
+      "back": "un cinéma"
+    },
+    {
+      "id": "6bdwgf",
+      "front": "a stadium",
+      "back": "un stade"
+    },
+    {
+      "id": "3aggus",
+      "front": "a swimming pool",
+      "back": "une piscine"
+    },
+    {
+      "id": "78f4b9",
+      "front": "a police station",
+      "back": "un commissariat"
+    },
+    {
+      "id": "3fo7id",
+      "front": "a fire station",
+      "back": "une caserne de pompiers"
+    },
+    {
+      "id": "obduc0",
+      "front": "a post office",
+      "back": "un bureau de poste"
+    },
+    {
+      "id": "ixlkrs",
+      "front": "a market",
+      "back": "un marché"
+    },
+    {
+      "id": "h7x7b2",
+      "front": "a bus stop",
+      "back": "un arrêt de bus"
+    },
+    {
+      "id": "wkrlrl",
+      "front": "a railway station",
+      "back": "une gare"
+    },
+    {
+      "id": "4a9a87",
+      "front": "a platform",
+      "back": "un quai"
+    },
+    {
+      "id": "78ugdk",
+      "front": "an underground station",
+      "back": "une station de métro"
+    },
+    {
+      "id": "kkxgp3",
+      "front": "an airport",
+      "back": "un aéroport"
+    },
+    {
+      "id": "ozqwcl",
+      "front": "a port",
+      "back": "un port"
+    },
+    {
+      "id": "lsq11b",
+      "front": "transport",
+      "back": "les transports"
+    },
+    {
+      "id": "avteul",
+      "front": "a bus",
+      "back": "un bus"
+    },
+    {
+      "id": "r0l5lh",
+      "front": "a coach",
+      "back": "un autocar"
+    },
+    {
+      "id": "1ccmxh",
+      "front": "a tram",
+      "back": "un tramway"
+    },
+    {
+      "id": "rlpj5v",
+      "front": "a train",
+      "back": "un train"
+    },
+    {
+      "id": "bbzyjm",
+      "front": "the underground",
+      "back": "le métro"
+    },
+    {
+      "id": "hdu305",
+      "front": "a taxi",
+      "back": "un taxi"
+    },
+    {
+      "id": "rbduyl",
+      "front": "a bicycle",
+      "back": "un vélo"
+    },
+    {
+      "id": "g3th33",
+      "front": "a motorbike",
+      "back": "une moto"
+    },
+    {
+      "id": "tp95eo",
+      "front": "a car",
+      "back": "une voiture"
+    },
+    {
+      "id": "5wlcbh",
+      "front": "a lorry",
+      "back": "un camion"
+    },
+    {
+      "id": "x07n99",
+      "front": "a van",
+      "back": "une camionnette"
+    },
+    {
+      "id": "abja3g",
+      "front": "a plane",
+      "back": "un avion"
+    },
+    {
+      "id": "k2icgt",
+      "front": "a boat",
+      "back": "un bateau"
+    },
+    {
+      "id": "w1tcml",
+      "front": "a ferry",
+      "back": "un ferry"
+    },
+    {
+      "id": "877bc1",
+      "front": "a driver",
+      "back": "un conducteur"
+    },
+    {
+      "id": "oivytg",
+      "front": "a passenger",
+      "back": "un passager"
+    },
+    {
+      "id": "8c0xdo",
+      "front": "a pedestrian",
+      "back": "un piéton"
+    },
+    {
+      "id": "k95aji",
+      "front": "a cyclist",
+      "back": "un cycliste"
+    },
+    {
+      "id": "5un9tr",
+      "front": "a ticket",
+      "back": "un billet, un ticket"
+    },
+    {
+      "id": "oxtzya",
+      "front": "a season ticket",
+      "back": "un abonnement"
+    },
+    {
+      "id": "qhljgw",
+      "front": "a fare",
+      "back": "un tarif, un prix du trajet"
+    },
+    {
+      "id": "jyymm6",
+      "front": "a timetable",
+      "back": "un horaire"
+    },
+    {
+      "id": "0tiebp",
+      "front": "a route",
+      "back": "un itinéraire"
+    },
+    {
+      "id": "h39lh3",
+      "front": "a journey",
+      "back": "un trajet, un voyage"
+    },
+    {
+      "id": "jehovw",
+      "front": "a delay",
+      "back": "un retard"
+    },
+    {
+      "id": "bddf6g",
+      "front": "a traffic jam",
+      "back": "un embouteillage"
+    },
+    {
+      "id": "l3ytvy",
+      "front": "traffic",
+      "back": "la circulation"
+    },
+    {
+      "id": "9qvea7",
+      "front": "a rush hour",
+      "back": "une heure de pointe"
+    },
+    {
+      "id": "s1w225",
+      "front": "a speed limit",
+      "back": "une limitation de vitesse"
+    },
+    {
+      "id": "fe8jma",
+      "front": "a fine",
+      "back": "une amende"
+    },
+    {
+      "id": "y5rjap",
+      "front": "a driving licence",
+      "back": "un permis de conduire"
+    },
+    {
+      "id": "s7cb8y",
+      "front": "a petrol station",
+      "back": "une station-service"
+    },
+    {
+      "id": "zoif5u",
+      "front": "petrol",
+      "back": "l'essence"
+    },
+    {
+      "id": "z0vv7u",
+      "front": "a steering wheel",
+      "back": "un volant"
+    },
+    {
+      "id": "046fhs",
+      "front": "a brake",
+      "back": "un frein"
+    },
+    {
+      "id": "5el3wt",
+      "front": "a tyre",
+      "back": "un pneu"
+    },
+    {
+      "id": "xy1t4q",
+      "front": "a seat belt",
+      "back": "une ceinture de sécurité"
+    },
+    {
+      "id": "2jbpp9",
+      "front": "an accident",
+      "back": "un accident"
+    },
+    {
+      "id": "lw7qbq",
+      "front": "a breakdown",
+      "back": "une panne"
+    },
+    {
+      "id": "pebsw0",
+      "front": "a map",
+      "back": "une carte"
+    },
+    {
+      "id": "a6h55c",
+      "front": "a signpost",
+      "back": "un panneau indicateur"
+    },
+    {
+      "id": "ojzd0g",
+      "front": "a direction",
+      "back": "une direction"
+    },
+    {
+      "id": "g23d3b",
+      "front": "to drive",
+      "back": "conduire"
+    },
+    {
+      "id": "7iv9nz",
+      "front": "to ride",
+      "back": "rouler, monter"
+    },
+    {
+      "id": "2bwq0s",
+      "front": "to park",
+      "back": "se garer"
+    },
+    {
+      "id": "zzxp5n",
+      "front": "to cross",
+      "back": "traverser"
+    },
+    {
+      "id": "hzdnc3",
+      "front": "to turn",
+      "back": "tourner"
+    },
+    {
+      "id": "9ufcix",
+      "front": "to go straight on",
+      "back": "aller tout droit"
+    },
+    {
+      "id": "wksljz",
+      "front": "to get on",
+      "back": "monter dans"
+    },
+    {
+      "id": "th33rg",
+      "front": "to get off",
+      "back": "descendre de"
+    },
+    {
+      "id": "1htmh8",
+      "front": "to catch a train",
+      "back": "prendre un train"
+    },
+    {
+      "id": "qtojev",
+      "front": "to miss",
+      "back": "rater, manquer"
+    },
+    {
+      "id": "9e5xbf",
+      "front": "to change",
+      "back": "changer"
+    },
+    {
+      "id": "ka6emt",
+      "front": "to overtake",
+      "back": "dépasser"
+    },
+    {
+      "id": "i6grd6",
+      "front": "to slow down",
+      "back": "ralentir"
+    },
+    {
+      "id": "3ms5tg",
+      "front": "to speed up",
+      "back": "accélérer"
+    },
+    {
+      "id": "xb9oag",
+      "front": "to be lost",
+      "back": "être perdu"
+    },
+    {
+      "id": "wl8ewi",
+      "front": "crowded",
+      "back": "bondé"
+    },
+    {
+      "id": "mqqwlw",
+      "front": "nearby",
+      "back": "tout près, voisin"
+    }
+  ]
+}
