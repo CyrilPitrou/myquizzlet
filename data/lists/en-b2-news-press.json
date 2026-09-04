@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-news-press",
+  "name": "News and the Press",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "fd4be3",
+      "front": "the news",
+      "back": "les informations, les nouvelles"
+    },
+    {
+      "id": "253f45",
+      "front": "a piece of news",
+      "back": "une nouvelle"
+    },
+    {
+      "id": "bc73cf",
+      "front": "the press",
+      "back": "la presse"
+    },
+    {
+      "id": "9cdcbb",
+      "front": "a newspaper",
+      "back": "un journal"
+    },
+    {
+      "id": "d05dc0",
+      "front": "a daily",
+      "back": "un quotidien"
+    },
+    {
+      "id": "ea5459",
+      "front": "a weekly",
+      "back": "un hebdomadaire"
+    },
+    {
+      "id": "6eb4e9",
+      "front": "a monthly",
+      "back": "un mensuel"
+    },
+    {
+      "id": "b678a1",
+      "front": "a magazine",
+      "back": "un magazine, une revue"
+    },
+    {
+      "id": "c0ea97",
+      "front": "a tabloid",
+      "back": "un journal à sensation"
+    },
+    {
+      "id": "ae2e4e",
+      "front": "a broadsheet",
+      "back": "un journal de qualité"
+    },
+    {
+      "id": "d9f006",
+      "front": "the front page",
+      "back": "la une"
+    },
+    {
+      "id": "5c6410",
+      "front": "a headline",
+      "back": "un titre, un gros titre"
+    },
+    {
+      "id": "90b608",
+      "front": "a byline",
+      "back": "la signature de l'auteur"
+    },
+    {
+      "id": "eb4236",
+      "front": "a caption",
+      "back": "une légende"
+    },
+    {
+      "id": "001275",
+      "front": "a column",
+      "back": "une chronique, une rubrique"
+    },
+    {
+      "id": "0d296a",
+      "front": "a columnist",
+      "back": "un chroniqueur"
+    },
+    {
+      "id": "7c1d21",
+      "front": "an editorial",
+      "back": "un éditorial"
+    },
+    {
+      "id": "daf1d2",
+      "front": "the editor",
+      "back": "le rédacteur en chef"
+    },
+    {
+      "id": "1e3edb",
+      "front": "the editorial board",
+      "back": "le comité de rédaction"
+    },
+    {
+      "id": "054fde",
+      "front": "a newsroom",
+      "back": "une salle de rédaction"
+    },
+    {
+      "id": "da4527",
+      "front": "a journalist",
+      "back": "un journaliste"
+    },
+    {
+      "id": "2f2862",
+      "front": "a reporter",
+      "back": "un reporter"
+    },
+    {
+      "id": "d94e17",
+      "front": "a correspondent",
+      "back": "un correspondant"
+    },
+    {
+      "id": "68e035",
+      "front": "a war correspondent",
+      "back": "un correspondant de guerre"
+    },
+    {
+      "id": "a3492e",
+      "front": "a freelance journalist",
+      "back": "un journaliste indépendant"
+    },
+    {
+      "id": "461760",
+      "front": "a stringer",
+      "back": "un correspondant occasionnel"
+    },
+    {
+      "id": "984906",
+      "front": "a photojournalist",
+      "back": "un photojournaliste"
+    },
+    {
+      "id": "b60190",
+      "front": "a press agency",
+      "back": "une agence de presse"
+    },
+    {
+      "id": "b77b84",
+      "front": "a news outlet",
+      "back": "un organe de presse"
+    },
+    {
+      "id": "215a4a",
+      "front": "the media",
+      "back": "les médias"
+    },
+    {
+      "id": "865a04",
+      "front": "the mass media",
+      "back": "les médias de masse"
+    },
+    {
+      "id": "4af844",
+      "front": "a broadcaster",
+      "back": "un diffuseur, une chaîne"
+    },
+    {
+      "id": "2a8235",
+      "front": "a channel",
+      "back": "une chaîne"
+    },
+    {
+      "id": "ef54c5",
+      "front": "a news bulletin",
+      "back": "un bulletin d'information"
+    },
+    {
+      "id": "e1b4b4",
+      "front": "a newscast",
+      "back": "un journal télévisé"
+    },
+    {
+      "id": "e54ab2",
+      "front": "an anchor",
+      "back": "un présentateur vedette"
+    },
+    {
+      "id": "b4b62f",
+      "front": "a presenter",
+      "back": "un présentateur"
+    },
+    {
+      "id": "77f7a6",
+      "front": "a live broadcast",
+      "back": "une émission en direct"
+    },
+    {
+      "id": "b92900",
+      "front": "a talk show",
+      "back": "un débat télévisé"
+    },
+    {
+      "id": "577b3a",
+      "front": "a podcast",
+      "back": "un podcast"
+    },
+    {
+      "id": "b1de54",
+      "front": "a press conference",
+      "back": "une conférence de presse"
+    },
+    {
+      "id": "ae01b0",
+      "front": "a press release",
+      "back": "un communiqué de presse"
+    },
+    {
+      "id": "2c918f",
+      "front": "a briefing",
+      "back": "un point de presse"
+    },
+    {
+      "id": "e28a47",
+      "front": "a spokesperson",
+      "back": "un porte-parole"
+    },
+    {
+      "id": "e1d7a0",
+      "front": "a scoop",
+      "back": "un scoop"
+    },
+    {
+      "id": "a9408a",
+      "front": "an exclusive",
+      "back": "une exclusivité"
+    },
+    {
+      "id": "89a2bd",
+      "front": "a breaking story",
+      "back": "une information de dernière minute"
+    },
+    {
+      "id": "5fbf5b",
+      "front": "a lead story",
+      "back": "le sujet principal"
+    },
+    {
+      "id": "e78d44",
+      "front": "a feature",
+      "back": "un reportage de fond"
+    },
+    {
+      "id": "4fffac",
+      "front": "an investigation",
+      "back": "une enquête"
+    },
+    {
+      "id": "94cca3",
+      "front": "investigative journalism",
+      "back": "le journalisme d'investigation"
+    },
+    {
+      "id": "2e14c8",
+      "front": "a whistleblower",
+      "back": "un lanceur d'alerte"
+    },
+    {
+      "id": "3c863f",
+      "front": "a source",
+      "back": "une source"
+    },
+    {
+      "id": "52dcfd",
+      "front": "an anonymous source",
+      "back": "une source anonyme"
+    },
+    {
+      "id": "c91a7a",
+      "front": "off the record",
+      "back": "officieusement"
+    },
+    {
+      "id": "431005",
+      "front": "a leak",
+      "back": "une fuite"
+    },
+    {
+      "id": "0c8b74",
+      "front": "to leak",
+      "back": "divulguer, faire fuiter"
+    },
+    {
+      "id": "6688ae",
+      "front": "to report",
+      "back": "rapporter, couvrir"
+    },
+    {
+      "id": "dc02ef",
+      "front": "to cover",
+      "back": "couvrir"
+    },
+    {
+      "id": "aa402b",
+      "front": "coverage",
+      "back": "la couverture médiatique"
+    },
+    {
+      "id": "8e1a3c",
+      "front": "to broadcast",
+      "back": "diffuser"
+    },
+    {
+      "id": "1ee51c",
+      "front": "to air",
+      "back": "diffuser, passer à l'antenne"
+    },
+    {
+      "id": "788eb3",
+      "front": "to publish",
+      "back": "publier"
+    },
+    {
+      "id": "b66bac",
+      "front": "to release",
+      "back": "rendre public, publier"
+    },
+    {
+      "id": "d2c961",
+      "front": "to disclose",
+      "back": "révéler, divulguer"
+    },
+    {
+      "id": "07840e",
+      "front": "to reveal",
+      "back": "révéler"
+    },
+    {
+      "id": "f3f5e6",
+      "front": "to allege",
+      "back": "alléguer, prétendre"
+    },
+    {
+      "id": "2a763e",
+      "front": "an allegation",
+      "back": "une allégation"
+    },
+    {
+      "id": "dc3900",
+      "front": "to claim",
+      "back": "affirmer, prétendre"
+    },
+    {
+      "id": "0a792a",
+      "front": "to deny",
+      "back": "démentir, nier"
+    },
+    {
+      "id": "9eab5b",
+      "front": "a denial",
+      "back": "un démenti"
+    },
+    {
+      "id": "27dd04",
+      "front": "a retraction",
+      "back": "un rectificatif, un démenti"
+    },
+    {
+      "id": "d4b955",
+      "front": "to retract",
+      "back": "se rétracter"
+    },
+    {
+      "id": "1c84cf",
+      "front": "to quote",
+      "back": "citer"
+    },
+    {
+      "id": "c1e66f",
+      "front": "a quotation",
+      "back": "une citation"
+    },
+    {
+      "id": "c0c12f",
+      "front": "to misquote",
+      "back": "citer de travers"
+    },
+    {
+      "id": "b2d32f",
+      "front": "to interview",
+      "back": "interviewer"
+    },
+    {
+      "id": "c4346e",
+      "front": "an interviewee",
+      "back": "la personne interviewée"
+    },
+    {
+      "id": "7cc44d",
+      "front": "a soundbite",
+      "back": "une petite phrase"
+    },
+    {
+      "id": "f60ed3",
+      "front": "a slogan",
+      "back": "un slogan"
+    },
+    {
+      "id": "02040f",
+      "front": "a hoax",
+      "back": "un canular"
+    },
+    {
+      "id": "7b3a45",
+      "front": "fake news",
+      "back": "les fausses informations"
+    },
+    {
+      "id": "d8035a",
+      "front": "misinformation",
+      "back": "la mésinformation"
+    },
+    {
+      "id": "e02fd5",
+      "front": "disinformation",
+      "back": "la désinformation"
+    },
+    {
+      "id": "3076d5",
+      "front": "propaganda",
+      "back": "la propagande"
+    },
+    {
+      "id": "4ea0e8",
+      "front": "bias",
+      "back": "le parti pris, le biais"
+    },
+    {
+      "id": "161b51",
+      "front": "biased",
+      "back": "partial, tendancieux"
+    },
+    {
+      "id": "d03bf6",
+      "front": "impartial",
+      "back": "impartial"
+    },
+    {
+      "id": "56117f",
+      "front": "objectivity",
+      "back": "l'objectivité"
+    },
+    {
+      "id": "8bbb5e",
+      "front": "sensationalism",
+      "back": "le sensationnalisme"
+    },
+    {
+      "id": "01f05c",
+      "front": "a smear campaign",
+      "back": "une campagne de dénigrement"
+    },
+    {
+      "id": "f871e1",
+      "front": "libel",
+      "back": "la diffamation écrite"
+    },
+    {
+      "id": "f4ace1",
+      "front": "slander",
+      "back": "la diffamation orale"
+    },
+    {
+      "id": "f33486",
+      "front": "censorship",
+      "back": "la censure"
+    },
+    {
+      "id": "b0fa2a",
+      "front": "to censor",
+      "back": "censurer"
+    },
+    {
+      "id": "591bfe",
+      "front": "freedom of the press",
+      "back": "la liberté de la presse"
+    },
+    {
+      "id": "3fdb8a",
+      "front": "a readership",
+      "back": "le lectorat"
+    },
+    {
+      "id": "99506b",
+      "front": "circulation",
+      "back": "le tirage, la diffusion"
+    },
+    {
+      "id": "7c169f",
+      "front": "a subscription",
+      "back": "un abonnement"
+    },
+    {
+      "id": "a54db8",
+      "front": "a paywall",
+      "back": "un péage numérique"
+    }
+  ]
+}
