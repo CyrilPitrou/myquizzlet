@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-work-employment",
+  "name": "Work and Employment",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "75a5cd",
+      "front": "employment",
+      "back": "l'emploi"
+    },
+    {
+      "id": "7af393",
+      "front": "an employer",
+      "back": "un employeur"
+    },
+    {
+      "id": "aaf2b6",
+      "front": "an employee",
+      "back": "un salarié, un employé"
+    },
+    {
+      "id": "0827b8",
+      "front": "the workforce",
+      "back": "la main-d'œuvre, le personnel"
+    },
+    {
+      "id": "8b1789",
+      "front": "staff",
+      "back": "le personnel"
+    },
+    {
+      "id": "602544",
+      "front": "a colleague",
+      "back": "un collègue"
+    },
+    {
+      "id": "81f6cf",
+      "front": "a line manager",
+      "back": "un supérieur hiérarchique"
+    },
+    {
+      "id": "8a76d7",
+      "front": "a subordinate",
+      "back": "un subordonné"
+    },
+    {
+      "id": "589728",
+      "front": "a supervisor",
+      "back": "un responsable, un chef d'équipe"
+    },
+    {
+      "id": "0e3162",
+      "front": "management",
+      "back": "la direction"
+    },
+    {
+      "id": "884fd6",
+      "front": "a board of directors",
+      "back": "un conseil d'administration"
+    },
+    {
+      "id": "55f7eb",
+      "front": "a chief executive",
+      "back": "un directeur général"
+    },
+    {
+      "id": "cd1830",
+      "front": "a recruiter",
+      "back": "un recruteur"
+    },
+    {
+      "id": "60ce29",
+      "front": "recruitment",
+      "back": "le recrutement"
+    },
+    {
+      "id": "96dd65",
+      "front": "a vacancy",
+      "back": "un poste vacant"
+    },
+    {
+      "id": "7720c4",
+      "front": "a job opening",
+      "back": "une offre d'emploi"
+    },
+    {
+      "id": "da1944",
+      "front": "an applicant",
+      "back": "un candidat"
+    },
+    {
+      "id": "8ff5f6",
+      "front": "an application",
+      "back": "une candidature"
+    },
+    {
+      "id": "b52141",
+      "front": "a curriculum vitae",
+      "back": "un curriculum vitae"
+    },
+    {
+      "id": "8f11c0",
+      "front": "a covering letter",
+      "back": "une lettre de motivation"
+    },
+    {
+      "id": "840931",
+      "front": "a shortlist",
+      "back": "une liste restreinte de candidats"
+    },
+    {
+      "id": "ebb2fe",
+      "front": "to hire",
+      "back": "embaucher"
+    },
+    {
+      "id": "454837",
+      "front": "to appoint",
+      "back": "nommer"
+    },
+    {
+      "id": "be93a7",
+      "front": "a probationary period",
+      "back": "une période d'essai"
+    },
+    {
+      "id": "114ef9",
+      "front": "a contract of employment",
+      "back": "un contrat de travail"
+    },
+    {
+      "id": "f8cfb9",
+      "front": "a permanent contract",
+      "back": "un contrat à durée indéterminée"
+    },
+    {
+      "id": "403f0d",
+      "front": "a fixed-term contract",
+      "back": "un contrat à durée déterminée"
+    },
+    {
+      "id": "4202ad",
+      "front": "a temporary worker",
+      "back": "un intérimaire"
+    },
+    {
+      "id": "edcdf9",
+      "front": "a freelancer",
+      "back": "un travailleur indépendant"
+    },
+    {
+      "id": "486030",
+      "front": "self-employment",
+      "back": "le travail indépendant"
+    },
+    {
+      "id": "a64cc8",
+      "front": "a shift",
+      "back": "une équipe, un poste"
+    },
+    {
+      "id": "f2b9d5",
+      "front": "shift work",
+      "back": "le travail posté"
+    },
+    {
+      "id": "7bc7f7",
+      "front": "overtime",
+      "back": "les heures supplémentaires"
+    },
+    {
+      "id": "9d33df",
+      "front": "flexitime",
+      "back": "l'horaire variable"
+    },
+    {
+      "id": "ab2eaf",
+      "front": "part-time work",
+      "back": "le travail à temps partiel"
+    },
+    {
+      "id": "0cd097",
+      "front": "a workload",
+      "back": "une charge de travail"
+    },
+    {
+      "id": "87f9c1",
+      "front": "a job description",
+      "back": "une fiche de poste"
+    },
+    {
+      "id": "0a9ed0",
+      "front": "a career",
+      "back": "une carrière"
+    },
+    {
+      "id": "179579",
+      "front": "a career path",
+      "back": "un parcours professionnel"
+    },
+    {
+      "id": "d1e675",
+      "front": "promotion",
+      "back": "une promotion"
+    },
+    {
+      "id": "c4bad5",
+      "front": "a pay rise",
+      "back": "une augmentation de salaire"
+    },
+    {
+      "id": "16785e",
+      "front": "a salary",
+      "back": "un salaire"
+    },
+    {
+      "id": "d61057",
+      "front": "wages",
+      "back": "un salaire horaire, une paye"
+    },
+    {
+      "id": "3e8d57",
+      "front": "the minimum wage",
+      "back": "le salaire minimum"
+    },
+    {
+      "id": "f0da52",
+      "front": "a bonus",
+      "back": "une prime"
+    },
+    {
+      "id": "6459e7",
+      "front": "a perk",
+      "back": "un avantage en nature"
+    },
+    {
+      "id": "a55bb9",
+      "front": "a payslip",
+      "back": "un bulletin de paie"
+    },
+    {
+      "id": "73df56",
+      "front": "a pension",
+      "back": "une retraite, une pension"
+    },
+    {
+      "id": "f54bbc",
+      "front": "a pension scheme",
+      "back": "un régime de retraite"
+    },
+    {
+      "id": "b9d515",
+      "front": "to retire",
+      "back": "partir à la retraite"
+    },
+    {
+      "id": "ce9c61",
+      "front": "paid leave",
+      "back": "un congé payé"
+    },
+    {
+      "id": "d0a3d1",
+      "front": "sick leave",
+      "back": "un congé maladie"
+    },
+    {
+      "id": "2bf3b2",
+      "front": "maternity leave",
+      "back": "un congé maternité"
+    },
+    {
+      "id": "e90458",
+      "front": "a sabbatical",
+      "back": "un congé sabbatique"
+    },
+    {
+      "id": "4028a0",
+      "front": "absenteeism",
+      "back": "l'absentéisme"
+    },
+    {
+      "id": "dbdb04",
+      "front": "appraisal",
+      "back": "l'évaluation du personnel"
+    },
+    {
+      "id": "ee7509",
+      "front": "training",
+      "back": "la formation"
+    },
+    {
+      "id": "ef8bd6",
+      "front": "an apprenticeship",
+      "back": "un apprentissage"
+    },
+    {
+      "id": "18e898",
+      "front": "a work placement",
+      "back": "un stage"
+    },
+    {
+      "id": "61ffb3",
+      "front": "professional development",
+      "back": "la formation continue"
+    },
+    {
+      "id": "482ae6",
+      "front": "a skill",
+      "back": "une compétence"
+    },
+    {
+      "id": "3c33b0",
+      "front": "qualifications",
+      "back": "les diplômes, les qualifications"
+    },
+    {
+      "id": "3db23d",
+      "front": "expertise",
+      "back": "l'expertise, le savoir-faire"
+    },
+    {
+      "id": "2df3b9",
+      "front": "a resignation",
+      "back": "une démission"
+    },
+    {
+      "id": "24eeff",
+      "front": "notice",
+      "back": "le préavis"
+    },
+    {
+      "id": "973965",
+      "front": "to dismiss",
+      "back": "licencier"
+    },
+    {
+      "id": "89bb64",
+      "front": "dismissal",
+      "back": "le licenciement"
+    },
+    {
+      "id": "4e72aa",
+      "front": "unfair dismissal",
+      "back": "un licenciement abusif"
+    },
+    {
+      "id": "b48ae8",
+      "front": "redundancy",
+      "back": "un licenciement économique"
+    },
+    {
+      "id": "34e568",
+      "front": "to lay off",
+      "back": "licencier pour raison économique"
+    },
+    {
+      "id": "4cc73c",
+      "front": "severance pay",
+      "back": "une indemnité de licenciement"
+    },
+    {
+      "id": "6cb1ef",
+      "front": "a restructuring",
+      "back": "une restructuration"
+    },
+    {
+      "id": "ce07d8",
+      "front": "downsizing",
+      "back": "la réduction des effectifs"
+    },
+    {
+      "id": "3aa2f9",
+      "front": "unemployment",
+      "back": "le chômage"
+    },
+    {
+      "id": "26eb61",
+      "front": "the unemployed",
+      "back": "les chômeurs"
+    },
+    {
+      "id": "a7e1c3",
+      "front": "a jobseeker",
+      "back": "un demandeur d'emploi"
+    },
+    {
+      "id": "4b1ad1",
+      "front": "unemployment benefit",
+      "back": "l'allocation chômage"
+    },
+    {
+      "id": "a0f5c6",
+      "front": "job security",
+      "back": "la sécurité de l'emploi"
+    },
+    {
+      "id": "4ac7cb",
+      "front": "precarious work",
+      "back": "le travail précaire"
+    },
+    {
+      "id": "a96726",
+      "front": "a trade union",
+      "back": "un syndicat"
+    },
+    {
+      "id": "a6b105",
+      "front": "a union member",
+      "back": "un syndiqué"
+    },
+    {
+      "id": "051848",
+      "front": "a shop steward",
+      "back": "un délégué syndical"
+    },
+    {
+      "id": "29f782",
+      "front": "collective bargaining",
+      "back": "la négociation collective"
+    },
+    {
+      "id": "8e753b",
+      "front": "an agreement",
+      "back": "un accord"
+    },
+    {
+      "id": "3527cd",
+      "front": "a strike",
+      "back": "une grève"
+    },
+    {
+      "id": "441459",
+      "front": "to go on strike",
+      "back": "se mettre en grève"
+    },
+    {
+      "id": "446697",
+      "front": "a walkout",
+      "back": "un débrayage"
+    },
+    {
+      "id": "fad1e0",
+      "front": "a picket line",
+      "back": "un piquet de grève"
+    },
+    {
+      "id": "08eb40",
+      "front": "a lockout",
+      "back": "un lock-out"
+    },
+    {
+      "id": "a29754",
+      "front": "a work-to-rule",
+      "back": "une grève du zèle"
+    },
+    {
+      "id": "9c13b7",
+      "front": "a dispute",
+      "back": "un conflit, un différend"
+    },
+    {
+      "id": "fe6ba0",
+      "front": "a grievance",
+      "back": "un grief, une réclamation"
+    },
+    {
+      "id": "af8d7f",
+      "front": "mediation",
+      "back": "la médiation"
+    },
+    {
+      "id": "2b4ee8",
+      "front": "arbitration",
+      "back": "l'arbitrage"
+    },
+    {
+      "id": "2c319d",
+      "front": "a tribunal",
+      "back": "un tribunal, un conseil de prud'hommes"
+    },
+    {
+      "id": "93ef28",
+      "front": "harassment",
+      "back": "le harcèlement"
+    },
+    {
+      "id": "06af98",
+      "front": "discrimination",
+      "back": "la discrimination"
+    },
+    {
+      "id": "5f8008",
+      "front": "burnout",
+      "back": "l'épuisement professionnel"
+    },
+    {
+      "id": "0e7fda",
+      "front": "work-life balance",
+      "back": "l'équilibre entre vie professionnelle et vie privée"
+    },
+    {
+      "id": "e82247",
+      "front": "a headhunter",
+      "back": "un chasseur de têtes"
+    }
+  ]
+}
