@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-character-2",
+  "name": "Character and Human Judgement 2",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "8u8qww",
+      "front": "pusillanimous",
+      "back": "pusillanime"
+    },
+    {
+      "id": "0vfksm",
+      "front": "obsequious",
+      "back": "obséquieux"
+    },
+    {
+      "id": "7wk0ka",
+      "front": "saturnine",
+      "back": "taciturne et sombre"
+    },
+    {
+      "id": "pwvcv4",
+      "front": "mendacious",
+      "back": "mensonger, menteur"
+    },
+    {
+      "id": "b4h4ua",
+      "front": "venal",
+      "back": "vénal"
+    },
+    {
+      "id": "dffbqf",
+      "front": "rapacious",
+      "back": "rapace"
+    },
+    {
+      "id": "p5u9k0",
+      "front": "avaricious",
+      "back": "avare, cupide"
+    },
+    {
+      "id": "py7zqf",
+      "front": "covetous",
+      "back": "envieux, avide"
+    },
+    {
+      "id": "tc6c15",
+      "front": "grasping",
+      "back": "âpre au gain"
+    },
+    {
+      "id": "az8ur9",
+      "front": "parsimonious",
+      "back": "parcimonieux"
+    },
+    {
+      "id": "qacb4o",
+      "front": "niggardly",
+      "back": "pingre, chiche"
+    },
+    {
+      "id": "d0qo2z",
+      "front": "profligate",
+      "back": "dissipateur, débauché"
+    },
+    {
+      "id": "bkp8b0",
+      "front": "prodigal",
+      "back": "prodigue"
+    },
+    {
+      "id": "urn144",
+      "front": "dissolute",
+      "back": "dissolu"
+    },
+    {
+      "id": "crto11",
+      "front": "licentious",
+      "back": "licencieux"
+    },
+    {
+      "id": "59ncfy",
+      "front": "libertine",
+      "back": "libertin"
+    },
+    {
+      "id": "lgkr0m",
+      "front": "lascivious",
+      "back": "lascif"
+    },
+    {
+      "id": "8zqx03",
+      "front": "salacious",
+      "back": "grivois, salace"
+    },
+    {
+      "id": "zvyiqi",
+      "front": "prurient",
+      "back": "lubrique, malsain"
+    },
+    {
+      "id": "xmk3eo",
+      "front": "bibulous",
+      "back": "porté sur la boisson"
+    },
+    {
+      "id": "e4dtqa",
+      "front": "gluttonous",
+      "back": "glouton"
+    },
+    {
+      "id": "tc1gt0",
+      "front": "slothful",
+      "back": "paresseux, indolent"
+    },
+    {
+      "id": "craa88",
+      "front": "indolent",
+      "back": "indolent"
+    },
+    {
+      "id": "cfv8if",
+      "front": "languid",
+      "back": "langoureux, alangui"
+    },
+    {
+      "id": "f6aq3w",
+      "front": "lethargic",
+      "back": "léthargique"
+    },
+    {
+      "id": "kl9uxw",
+      "front": "supine",
+      "back": "veule, passif"
+    },
+    {
+      "id": "4obca8",
+      "front": "craven",
+      "back": "lâche, veule"
+    },
+    {
+      "id": "74jqqp",
+      "front": "timorous",
+      "back": "timoré"
+    },
+    {
+      "id": "s8lvom",
+      "front": "tremulous",
+      "back": "tremblant, hésitant"
+    },
+    {
+      "id": "5okmmi",
+      "front": "querulous",
+      "back": "geignard, grincheux"
+    },
+    {
+      "id": "4c10lj",
+      "front": "petulant",
+      "back": "irritable, capricieux"
+    },
+    {
+      "id": "993k92",
+      "front": "peevish",
+      "back": "grincheux, hargneux"
+    },
+    {
+      "id": "lvi7rb",
+      "front": "irascible",
+      "back": "irascible"
+    },
+    {
+      "id": "3sm2qs",
+      "front": "choleric",
+      "back": "colérique"
+    },
+    {
+      "id": "1xt33p",
+      "front": "splenetic",
+      "back": "bilieux, hargneux"
+    },
+    {
+      "id": "d1sgsm",
+      "front": "truculent",
+      "back": "agressif, batailleur"
+    },
+    {
+      "id": "1u0e34",
+      "front": "belligerent",
+      "back": "belliqueux"
+    },
+    {
+      "id": "n6oedc",
+      "front": "pugnacious",
+      "back": "pugnace, batailleur"
+    },
+    {
+      "id": "6awe17",
+      "front": "bellicose",
+      "back": "belliciste"
+    },
+    {
+      "id": "6ta4bi",
+      "front": "vindictive",
+      "back": "vindicatif"
+    },
+    {
+      "id": "ywol4f",
+      "front": "rancorous",
+      "back": "rancunier"
+    },
+    {
+      "id": "pbtujv",
+      "front": "implacable",
+      "back": "implacable"
+    },
+    {
+      "id": "cqfmy4",
+      "front": "inexorable",
+      "back": "inexorable"
+    },
+    {
+      "id": "uttz54",
+      "front": "remorseless",
+      "back": "sans remords, implacable"
+    },
+    {
+      "id": "kyl07b",
+      "front": "callous",
+      "back": "insensible, dur"
+    },
+    {
+      "id": "4z46g3",
+      "front": "unfeeling",
+      "back": "insensible"
+    },
+    {
+      "id": "vnlyqn",
+      "front": "heartless",
+      "back": "sans cœur"
+    },
+    {
+      "id": "28ak6n",
+      "front": "pitiless",
+      "back": "impitoyable"
+    },
+    {
+      "id": "kxji9r",
+      "front": "merciless",
+      "back": "sans merci"
+    },
+    {
+      "id": "fhcpsg",
+      "front": "cruel",
+      "back": "cruel"
+    },
+    {
+      "id": "i0f02r",
+      "front": "sadistic",
+      "back": "sadique"
+    },
+    {
+      "id": "zr3fei",
+      "front": "malevolent",
+      "back": "malveillant"
+    },
+    {
+      "id": "3day3x",
+      "front": "malicious",
+      "back": "malveillant, méchant"
+    },
+    {
+      "id": "hmm8ma",
+      "front": "spiteful",
+      "back": "rancunier, méchant"
+    },
+    {
+      "id": "xivlev",
+      "front": "vicious",
+      "back": "haineux, féroce"
+    },
+    {
+      "id": "vjaqg3",
+      "front": "perfidious",
+      "back": "perfide"
+    },
+    {
+      "id": "ot6wxy",
+      "front": "treacherous",
+      "back": "traître"
+    },
+    {
+      "id": "gzyipr",
+      "front": "duplicitous",
+      "back": "fourbe, à double jeu"
+    },
+    {
+      "id": "6pwtkx",
+      "front": "guileful",
+      "back": "rusé, retors"
+    },
+    {
+      "id": "46atmp",
+      "front": "wily",
+      "back": "rusé"
+    },
+    {
+      "id": "q8d3k6",
+      "front": "crafty",
+      "back": "rusé, astucieux"
+    },
+    {
+      "id": "8tannc",
+      "front": "devious",
+      "back": "retors, tortueux"
+    },
+    {
+      "id": "g9r8jg",
+      "front": "insidious",
+      "back": "insidieux"
+    },
+    {
+      "id": "l8swr5",
+      "front": "scheming",
+      "back": "intrigant"
+    },
+    {
+      "id": "zybwtj",
+      "front": "machiavellian",
+      "back": "machiavélique"
+    },
+    {
+      "id": "v3dgqu",
+      "front": "unscrupulous",
+      "back": "sans scrupules"
+    },
+    {
+      "id": "1vrex0",
+      "front": "amoral",
+      "back": "amoral"
+    },
+    {
+      "id": "9wqwg5",
+      "front": "depraved",
+      "back": "dépravé"
+    },
+    {
+      "id": "z4wupk",
+      "front": "degenerate",
+      "back": "dégénéré"
+    },
+    {
+      "id": "hdk4cr",
+      "front": "reprobate",
+      "back": "réprouvé, dévoyé"
+    },
+    {
+      "id": "ss1x1w",
+      "front": "incorrigible",
+      "back": "incorrigible"
+    },
+    {
+      "id": "g41wcp",
+      "front": "irredeemable",
+      "back": "irrécupérable"
+    },
+    {
+      "id": "i8bk9l",
+      "front": "contemptible",
+      "back": "méprisable"
+    },
+    {
+      "id": "yypvgo",
+      "front": "despicable",
+      "back": "ignoble, méprisable"
+    },
+    {
+      "id": "8x8vcx",
+      "front": "odious",
+      "back": "odieux"
+    },
+    {
+      "id": "rvsomp",
+      "front": "loathsome",
+      "back": "répugnant"
+    },
+    {
+      "id": "iy1oig",
+      "front": "abominable",
+      "back": "abominable"
+    },
+    {
+      "id": "gtkimp",
+      "front": "execrable",
+      "back": "exécrable"
+    },
+    {
+      "id": "4cpjxe",
+      "front": "ignominious",
+      "back": "ignominieux"
+    },
+    {
+      "id": "kwt3ib",
+      "front": "infamous",
+      "back": "infâme"
+    },
+    {
+      "id": "1g6yoi",
+      "front": "notorious",
+      "back": "tristement célèbre"
+    },
+    {
+      "id": "ex4z58",
+      "front": "disreputable",
+      "back": "peu recommandable"
+    },
+    {
+      "id": "eijctj",
+      "front": "opprobrious",
+      "back": "infamant, injurieux"
+    },
+    {
+      "id": "s3iph8",
+      "front": "sanctimonious",
+      "back": "moralisateur, tartuffe"
+    },
+    {
+      "id": "2yk6f7",
+      "front": "self-righteous",
+      "back": "pharisaïque, imbu de sa vertu"
+    },
+    {
+      "id": "5zgdeu",
+      "front": "pharisaical",
+      "back": "pharisaïque"
+    },
+    {
+      "id": "05zdps",
+      "front": "hypocritical",
+      "back": "hypocrite"
+    },
+    {
+      "id": "7my7ht",
+      "front": "smug",
+      "back": "suffisant"
+    },
+    {
+      "id": "xe1tne",
+      "front": "complacent",
+      "back": "content de soi, suffisant"
+    },
+    {
+      "id": "lms9t7",
+      "front": "vainglorious",
+      "back": "vaniteux"
+    },
+    {
+      "id": "npzxn8",
+      "front": "pompous",
+      "back": "pompeux"
+    },
+    {
+      "id": "yujowq",
+      "front": "pretentious",
+      "back": "prétentieux"
+    },
+    {
+      "id": "icvc8b",
+      "front": "affected",
+      "back": "affecté, maniéré"
+    },
+    {
+      "id": "tc063q",
+      "front": "mannered",
+      "back": "maniéré"
+    },
+    {
+      "id": "1gw24y",
+      "front": "fastidious",
+      "back": "pointilleux, difficile"
+    },
+    {
+      "id": "ymy55d",
+      "front": "punctilious",
+      "back": "pointilleux"
+    },
+    {
+      "id": "kgqjv7",
+      "front": "priggish",
+      "back": "bégueule, coincé"
+    },
+    {
+      "id": "8t5cet",
+      "front": "puritanical",
+      "back": "puritain"
+    },
+    {
+      "id": "a94slf",
+      "front": "magnanimity",
+      "back": "la magnanimité"
+    },
+    {
+      "id": "92b0lv",
+      "front": "perspicacity",
+      "back": "la perspicacité"
+    }
+  ]
+}
