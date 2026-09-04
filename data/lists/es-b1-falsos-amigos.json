@@ -1,0 +1,312 @@
+{
+  "id": "es-b1-falsos-amigos",
+  "name": "Falsos amigos",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "9dhoku",
+      "front": "embarazada",
+      "back": "enceinte (et non : embarrassée)"
+    },
+    {
+      "id": "tb2dvx",
+      "front": "largo",
+      "back": "long (et non : large)"
+    },
+    {
+      "id": "rf1tyx",
+      "front": "ancho de espaldas",
+      "back": "large d'épaules"
+    },
+    {
+      "id": "teqix9",
+      "front": "constipado",
+      "back": "enrhumé (et non : constipé)"
+    },
+    {
+      "id": "raynpx",
+      "front": "el estreñimiento",
+      "back": "la constipation"
+    },
+    {
+      "id": "21brx6",
+      "front": "salir",
+      "back": "sortir (et non : salir)"
+    },
+    {
+      "id": "zmmpkq",
+      "front": "ensuciar",
+      "back": "salir"
+    },
+    {
+      "id": "rt79r7",
+      "front": "el suceso",
+      "back": "l'événement, le fait divers"
+    },
+    {
+      "id": "5ql74o",
+      "front": "el éxito",
+      "back": "le succès"
+    },
+    {
+      "id": "b0cg45",
+      "front": "la carpeta de anillas",
+      "back": "le classeur à anneaux (et non : le tapis)"
+    },
+    {
+      "id": "ooeuqh",
+      "front": "la alfombra persa",
+      "back": "le tapis persan"
+    },
+    {
+      "id": "1opazo",
+      "front": "bizarro",
+      "back": "vaillant, courageux (et non : bizarre)"
+    },
+    {
+      "id": "ukqf8w",
+      "front": "raro",
+      "back": "étrange, bizarre"
+    },
+    {
+      "id": "qlzllw",
+      "front": "la ropa vieja",
+      "back": "les vieux vêtements"
+    },
+    {
+      "id": "scga3i",
+      "front": "el traje de gala",
+      "back": "l'habit de cérémonie"
+    },
+    {
+      "id": "ksfg8n",
+      "front": "el compromiso serio",
+      "back": "l'engagement sérieux"
+    },
+    {
+      "id": "qy609s",
+      "front": "la avenencia",
+      "back": "le compromis (accord)"
+    },
+    {
+      "id": "fv8vs0",
+      "front": "la desgracia",
+      "back": "le malheur (et non : la disgrâce)"
+    },
+    {
+      "id": "ho3hyg",
+      "front": "la vergüenza ajena",
+      "back": "la gêne pour autrui"
+    },
+    {
+      "id": "n78a9p",
+      "front": "el disgusto",
+      "back": "la contrariété, le déplaisir"
+    },
+    {
+      "id": "ri87xp",
+      "front": "la discusión acalorada",
+      "back": "la dispute animée"
+    },
+    {
+      "id": "634qxl",
+      "front": "el debate",
+      "back": "le débat"
+    },
+    {
+      "id": "vgptpw",
+      "front": "la entrada al cine",
+      "back": "le billet de cinéma"
+    },
+    {
+      "id": "p3xqdf",
+      "front": "el aparcamiento gratuito",
+      "back": "le stationnement gratuit"
+    },
+    {
+      "id": "tmyt03",
+      "front": "el apartamento amueblado",
+      "back": "l'appartement meublé"
+    },
+    {
+      "id": "hwj0x6",
+      "front": "la nota del examen",
+      "back": "la note de l'examen"
+    },
+    {
+      "id": "6ixg6c",
+      "front": "la factura del gas",
+      "back": "la facture de gaz"
+    },
+    {
+      "id": "5iiwa5",
+      "front": "el sujeto",
+      "back": "l'individu, le sujet (grammaire)"
+    },
+    {
+      "id": "970ny6",
+      "front": "el tema",
+      "back": "le sujet, le thème"
+    },
+    {
+      "id": "lth6rb",
+      "front": "la actualidad",
+      "back": "l'actualité"
+    },
+    {
+      "id": "yvd0j9",
+      "front": "actualmente",
+      "back": "actuellement, à présent"
+    },
+    {
+      "id": "ngo3pr",
+      "front": "eventualmente",
+      "back": "éventuellement, le cas échéant"
+    },
+    {
+      "id": "bn7kg0",
+      "front": "finalmente ocurrió",
+      "back": "cela s'est finalement produit"
+    },
+    {
+      "id": "ku1bnk",
+      "front": "la librería del barrio",
+      "back": "la librairie du quartier"
+    },
+    {
+      "id": "j5ehuw",
+      "front": "la biblioteca municipal",
+      "back": "la bibliothèque municipale"
+    },
+    {
+      "id": "9lrlvf",
+      "front": "el sensible aumento",
+      "back": "l'augmentation sensible"
+    },
+    {
+      "id": "vlky8q",
+      "front": "sensato",
+      "back": "sensé, raisonnable"
+    },
+    {
+      "id": "gkp7zz",
+      "front": "la asistencia médica",
+      "back": "l'assistance médicale"
+    },
+    {
+      "id": "uki7c5",
+      "front": "asistir a una clase",
+      "back": "assister à un cours"
+    },
+    {
+      "id": "02qht5",
+      "front": "atender a un cliente",
+      "back": "s'occuper d'un client"
+    },
+    {
+      "id": "mgv79m",
+      "front": "pretender",
+      "back": "prétendre, avoir l'intention de"
+    },
+    {
+      "id": "nkgsfe",
+      "front": "fingir",
+      "back": "feindre, faire semblant"
+    },
+    {
+      "id": "6lcvg5",
+      "front": "demandar ante el juez",
+      "back": "poursuivre en justice"
+    },
+    {
+      "id": "6xrz6a",
+      "front": "la demanda del mercado",
+      "back": "la demande du marché"
+    },
+    {
+      "id": "5gczdq",
+      "front": "quitar la mesa",
+      "back": "débarrasser la table"
+    },
+    {
+      "id": "bvafnp",
+      "front": "dejar de fumar",
+      "back": "arrêter de fumer"
+    },
+    {
+      "id": "y9ywg8",
+      "front": "el gato del vecino",
+      "back": "le chat du voisin"
+    },
+    {
+      "id": "e8hlfr",
+      "front": "el gato del coche",
+      "back": "le cric de la voiture"
+    },
+    {
+      "id": "w17dhc",
+      "front": "la cara dura",
+      "back": "le culot"
+    },
+    {
+      "id": "iodzcf",
+      "front": "caro para mi bolsillo",
+      "back": "cher pour ma bourse"
+    },
+    {
+      "id": "vfiw7k",
+      "front": "el vaso de agua",
+      "back": "le verre d'eau"
+    },
+    {
+      "id": "bgppqp",
+      "front": "el jarrón de flores",
+      "back": "le vase à fleurs"
+    },
+    {
+      "id": "6yaqxg",
+      "front": "la copa de vino",
+      "back": "le verre à pied"
+    },
+    {
+      "id": "12vqvk",
+      "front": "el pan integral",
+      "back": "le pain complet"
+    },
+    {
+      "id": "c92kgm",
+      "front": "la carne picada",
+      "back": "la viande hachée"
+    },
+    {
+      "id": "4c8rea",
+      "front": "la pieza de teatro",
+      "back": "la pièce de théâtre"
+    },
+    {
+      "id": "5h096c",
+      "front": "la habitación de invitados",
+      "back": "la chambre d'amis"
+    },
+    {
+      "id": "iii8lr",
+      "front": "el nudo de la corbata",
+      "back": "le nœud de la cravate"
+    },
+    {
+      "id": "eylln4",
+      "front": "la ronda de bebidas",
+      "back": "la tournée"
+    },
+    {
+      "id": "8r21z9",
+      "front": "la sombra",
+      "back": "l'ombre (et non : le sombrero)"
+    }
+  ]
+}
