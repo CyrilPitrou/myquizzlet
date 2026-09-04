@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-politics-institutions",
+  "name": "Politics and Institutions",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "1eda09",
+      "front": "the government",
+      "back": "le gouvernement"
+    },
+    {
+      "id": "9bf12f",
+      "front": "the state",
+      "back": "l'État"
+    },
+    {
+      "id": "1c3cbe",
+      "front": "a head of state",
+      "back": "un chef d'État"
+    },
+    {
+      "id": "d35df8",
+      "front": "the head of government",
+      "back": "le chef du gouvernement"
+    },
+    {
+      "id": "38ae75",
+      "front": "a prime minister",
+      "back": "un Premier ministre"
+    },
+    {
+      "id": "a7daaa",
+      "front": "the cabinet",
+      "back": "le conseil des ministres"
+    },
+    {
+      "id": "2bdb08",
+      "front": "a minister",
+      "back": "un ministre"
+    },
+    {
+      "id": "e19eb6",
+      "front": "a civil servant",
+      "back": "un fonctionnaire"
+    },
+    {
+      "id": "a67beb",
+      "front": "the civil service",
+      "back": "la fonction publique"
+    },
+    {
+      "id": "43f339",
+      "front": "a department",
+      "back": "un ministère, un service"
+    },
+    {
+      "id": "470959",
+      "front": "parliament",
+      "back": "le parlement"
+    },
+    {
+      "id": "32f80f",
+      "front": "the House of Commons",
+      "back": "la Chambre des communes"
+    },
+    {
+      "id": "2e27a0",
+      "front": "the House of Lords",
+      "back": "la Chambre des lords"
+    },
+    {
+      "id": "41f70a",
+      "front": "the Senate",
+      "back": "le Sénat"
+    },
+    {
+      "id": "cb9cc6",
+      "front": "the House of Representatives",
+      "back": "la Chambre des représentants"
+    },
+    {
+      "id": "0e9664",
+      "front": "Congress",
+      "back": "le Congrès"
+    },
+    {
+      "id": "dd56d6",
+      "front": "a chamber",
+      "back": "une chambre"
+    },
+    {
+      "id": "6bb2af",
+      "front": "a member of parliament",
+      "back": "un député"
+    },
+    {
+      "id": "6d2e00",
+      "front": "a constituency",
+      "back": "une circonscription"
+    },
+    {
+      "id": "1ba972",
+      "front": "a constituent",
+      "back": "un administré, un électeur"
+    },
+    {
+      "id": "56afff",
+      "front": "a seat",
+      "back": "un siège"
+    },
+    {
+      "id": "daddd1",
+      "front": "the speaker",
+      "back": "le président de séance"
+    },
+    {
+      "id": "ef6e4d",
+      "front": "a session",
+      "back": "une session"
+    },
+    {
+      "id": "ee9366",
+      "front": "a bill",
+      "back": "un projet de loi"
+    },
+    {
+      "id": "09f672",
+      "front": "an act",
+      "back": "une loi"
+    },
+    {
+      "id": "f4edd9",
+      "front": "legislation",
+      "back": "la législation"
+    },
+    {
+      "id": "6e395d",
+      "front": "to legislate",
+      "back": "légiférer"
+    },
+    {
+      "id": "43b036",
+      "front": "to pass a law",
+      "back": "adopter une loi"
+    },
+    {
+      "id": "b03975",
+      "front": "to repeal",
+      "back": "abroger"
+    },
+    {
+      "id": "497503",
+      "front": "an amendment",
+      "back": "un amendement"
+    },
+    {
+      "id": "159a4a",
+      "front": "to amend",
+      "back": "amender"
+    },
+    {
+      "id": "b388c1",
+      "front": "a debate",
+      "back": "un débat"
+    },
+    {
+      "id": "98eeec",
+      "front": "a motion",
+      "back": "une motion"
+    },
+    {
+      "id": "0df006",
+      "front": "a vote of no confidence",
+      "back": "une motion de censure"
+    },
+    {
+      "id": "d5b167",
+      "front": "to table a motion",
+      "back": "déposer une motion"
+    },
+    {
+      "id": "a171e3",
+      "front": "a filibuster",
+      "back": "une obstruction parlementaire"
+    },
+    {
+      "id": "71e778",
+      "front": "a quorum",
+      "back": "un quorum"
+    },
+    {
+      "id": "c68c4d",
+      "front": "a committee",
+      "back": "une commission"
+    },
+    {
+      "id": "df254b",
+      "front": "a hearing",
+      "back": "une audition"
+    },
+    {
+      "id": "6b5be8",
+      "front": "a constitution",
+      "back": "une constitution"
+    },
+    {
+      "id": "d274de",
+      "front": "constitutional",
+      "back": "constitutionnel"
+    },
+    {
+      "id": "7acd77",
+      "front": "the rule of law",
+      "back": "l'État de droit"
+    },
+    {
+      "id": "b1f749",
+      "front": "the separation of powers",
+      "back": "la séparation des pouvoirs"
+    },
+    {
+      "id": "a713dc",
+      "front": "the executive",
+      "back": "l'exécutif"
+    },
+    {
+      "id": "2dd4dc",
+      "front": "the legislature",
+      "back": "le législatif"
+    },
+    {
+      "id": "0de567",
+      "front": "the judiciary",
+      "back": "le pouvoir judiciaire"
+    },
+    {
+      "id": "dd74f2",
+      "front": "a mandate",
+      "back": "un mandat"
+    },
+    {
+      "id": "fe9346",
+      "front": "a term of office",
+      "back": "un mandat, une législature"
+    },
+    {
+      "id": "c3ebb2",
+      "front": "an election",
+      "back": "une élection"
+    },
+    {
+      "id": "621669",
+      "front": "a general election",
+      "back": "des élections législatives"
+    },
+    {
+      "id": "8cccf0",
+      "front": "a by-election",
+      "back": "une élection partielle"
+    },
+    {
+      "id": "9a3483",
+      "front": "a referendum",
+      "back": "un référendum"
+    },
+    {
+      "id": "a59904",
+      "front": "a ballot",
+      "back": "un scrutin, un bulletin"
+    },
+    {
+      "id": "88551f",
+      "front": "a ballot box",
+      "back": "une urne"
+    },
+    {
+      "id": "2d6cca",
+      "front": "a polling station",
+      "back": "un bureau de vote"
+    },
+    {
+      "id": "2c600b",
+      "front": "a poll",
+      "back": "un sondage, un scrutin"
+    },
+    {
+      "id": "223b51",
+      "front": "an opinion poll",
+      "back": "un sondage d'opinion"
+    },
+    {
+      "id": "742af5",
+      "front": "turnout",
+      "back": "le taux de participation"
+    },
+    {
+      "id": "f9f2d4",
+      "front": "the electorate",
+      "back": "l'électorat"
+    },
+    {
+      "id": "5fc736",
+      "front": "a voter",
+      "back": "un électeur"
+    },
+    {
+      "id": "36d32f",
+      "front": "to cast a vote",
+      "back": "voter, déposer son bulletin"
+    },
+    {
+      "id": "ac42a8",
+      "front": "a swing voter",
+      "back": "un électeur indécis"
+    },
+    {
+      "id": "334255",
+      "front": "a landslide",
+      "back": "un raz-de-marée électoral"
+    },
+    {
+      "id": "b87f50",
+      "front": "a runoff",
+      "back": "un second tour"
+    },
+    {
+      "id": "97a236",
+      "front": "a candidate",
+      "back": "un candidat"
+    },
+    {
+      "id": "f9e97c",
+      "front": "to run for office",
+      "back": "se présenter, être candidat"
+    },
+    {
+      "id": "830943",
+      "front": "a campaign",
+      "back": "une campagne"
+    },
+    {
+      "id": "752f81",
+      "front": "a manifesto",
+      "back": "un programme électoral"
+    },
+    {
+      "id": "131148",
+      "front": "a pledge",
+      "back": "une promesse, un engagement"
+    },
+    {
+      "id": "0b2895",
+      "front": "an incumbent",
+      "back": "le sortant, le titulaire"
+    },
+    {
+      "id": "82a826",
+      "front": "a challenger",
+      "back": "un candidat rival"
+    },
+    {
+      "id": "59d183",
+      "front": "a party",
+      "back": "un parti"
+    },
+    {
+      "id": "45a21f",
+      "front": "the ruling party",
+      "back": "le parti au pouvoir"
+    },
+    {
+      "id": "47e909",
+      "front": "the opposition",
+      "back": "l'opposition"
+    },
+    {
+      "id": "eb05d3",
+      "front": "a coalition",
+      "back": "une coalition"
+    },
+    {
+      "id": "176cee",
+      "front": "a backbencher",
+      "back": "un député de base"
+    },
+    {
+      "id": "91852c",
+      "front": "a whip",
+      "back": "un chef de file parlementaire"
+    },
+    {
+      "id": "29cd8d",
+      "front": "a caucus",
+      "back": "un groupe parlementaire"
+    },
+    {
+      "id": "47dcb0",
+      "front": "a faction",
+      "back": "une faction"
+    },
+    {
+      "id": "d5b26d",
+      "front": "a think tank",
+      "back": "un cercle de réflexion"
+    },
+    {
+      "id": "90593e",
+      "front": "a lobby",
+      "back": "un groupe de pression"
+    },
+    {
+      "id": "e3bae7",
+      "front": "to lobby",
+      "back": "faire pression sur"
+    },
+    {
+      "id": "33c011",
+      "front": "a pressure group",
+      "back": "un groupe de pression"
+    },
+    {
+      "id": "86164c",
+      "front": "a policy",
+      "back": "une politique, une mesure"
+    },
+    {
+      "id": "397184",
+      "front": "a reform",
+      "back": "une réforme"
+    },
+    {
+      "id": "70cc04",
+      "front": "a decree",
+      "back": "un décret"
+    },
+    {
+      "id": "e49e29",
+      "front": "a veto",
+      "back": "un droit de veto"
+    },
+    {
+      "id": "eabe57",
+      "front": "sovereignty",
+      "back": "la souveraineté"
+    },
+    {
+      "id": "de1651",
+      "front": "devolution",
+      "back": "la décentralisation, l'autonomie régionale"
+    },
+    {
+      "id": "816c74",
+      "front": "federalism",
+      "back": "le fédéralisme"
+    },
+    {
+      "id": "202962",
+      "front": "a republic",
+      "back": "une république"
+    },
+    {
+      "id": "a3b20a",
+      "front": "a monarchy",
+      "back": "une monarchie"
+    },
+    {
+      "id": "06b1d5",
+      "front": "democracy",
+      "back": "la démocratie"
+    },
+    {
+      "id": "56f1c0",
+      "front": "an authoritarian regime",
+      "back": "un régime autoritaire"
+    },
+    {
+      "id": "3db4a1",
+      "front": "a dictatorship",
+      "back": "une dictature"
+    },
+    {
+      "id": "1c8922",
+      "front": "a coup",
+      "back": "un coup d'État"
+    },
+    {
+      "id": "fdf7b5",
+      "front": "corruption",
+      "back": "la corruption"
+    },
+    {
+      "id": "d99f73",
+      "front": "a scandal",
+      "back": "un scandale"
+    },
+    {
+      "id": "f6e091",
+      "front": "to resign",
+      "back": "démissionner"
+    },
+    {
+      "id": "0975f1",
+      "front": "to impeach",
+      "back": "destituer, mettre en accusation"
+    }
+  ]
+}
