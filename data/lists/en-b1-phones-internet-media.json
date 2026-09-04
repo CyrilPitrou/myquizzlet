@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-phones-internet-media",
+  "name": "Phones, Internet and Media",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "9v8por",
+      "front": "a phone",
+      "back": "un téléphone"
+    },
+    {
+      "id": "89uggp",
+      "front": "a mobile phone",
+      "back": "un téléphone portable"
+    },
+    {
+      "id": "1lsh8w",
+      "front": "a landline",
+      "back": "une ligne fixe"
+    },
+    {
+      "id": "npi91w",
+      "front": "a phone call",
+      "back": "un appel téléphonique"
+    },
+    {
+      "id": "qzwjyu",
+      "front": "a phone number",
+      "back": "un numéro de téléphone"
+    },
+    {
+      "id": "f2rcsz",
+      "front": "a ringtone",
+      "back": "une sonnerie"
+    },
+    {
+      "id": "e0wtss",
+      "front": "a voicemail",
+      "back": "une messagerie vocale"
+    },
+    {
+      "id": "s7vix8",
+      "front": "a text message",
+      "back": "un message texte"
+    },
+    {
+      "id": "uzlo52",
+      "front": "a charger",
+      "back": "un chargeur"
+    },
+    {
+      "id": "zst1ct",
+      "front": "a battery",
+      "back": "une batterie, une pile"
+    },
+    {
+      "id": "d8sqer",
+      "front": "a screen",
+      "back": "un écran"
+    },
+    {
+      "id": "7ic7rn",
+      "front": "a keyboard",
+      "back": "un clavier"
+    },
+    {
+      "id": "tqu23z",
+      "front": "a mouse for a computer",
+      "back": "une souris"
+    },
+    {
+      "id": "gxd0mp",
+      "front": "a computer",
+      "back": "un ordinateur"
+    },
+    {
+      "id": "a19ic6",
+      "front": "a laptop",
+      "back": "un ordinateur portable"
+    },
+    {
+      "id": "37xwdp",
+      "front": "a tablet",
+      "back": "une tablette"
+    },
+    {
+      "id": "7333ks",
+      "front": "a printer",
+      "back": "une imprimante"
+    },
+    {
+      "id": "93ei6f",
+      "front": "a scanner",
+      "back": "un scanner"
+    },
+    {
+      "id": "fr2598",
+      "front": "a hard disk",
+      "back": "un disque dur"
+    },
+    {
+      "id": "ouekzu",
+      "front": "a file",
+      "back": "un fichier"
+    },
+    {
+      "id": "lu66gn",
+      "front": "a folder",
+      "back": "un dossier"
+    },
+    {
+      "id": "i7rz8l",
+      "front": "a program",
+      "back": "un programme"
+    },
+    {
+      "id": "apndun",
+      "front": "an app",
+      "back": "une application"
+    },
+    {
+      "id": "a9jbrx",
+      "front": "an update",
+      "back": "une mise à jour"
+    },
+    {
+      "id": "rm331f",
+      "front": "a password",
+      "back": "un mot de passe"
+    },
+    {
+      "id": "yjfhr4",
+      "front": "a username",
+      "back": "un nom d'utilisateur"
+    },
+    {
+      "id": "4l38bm",
+      "front": "an account online",
+      "back": "un compte en ligne"
+    },
+    {
+      "id": "ad6w44",
+      "front": "the internet",
+      "back": "internet"
+    },
+    {
+      "id": "w9ank7",
+      "front": "a website",
+      "back": "un site web"
+    },
+    {
+      "id": "ypf3np",
+      "front": "a web page",
+      "back": "une page web"
+    },
+    {
+      "id": "fh0476",
+      "front": "a link",
+      "back": "un lien"
+    },
+    {
+      "id": "wdwx90",
+      "front": "a browser",
+      "back": "un navigateur"
+    },
+    {
+      "id": "yd4skm",
+      "front": "a search engine",
+      "back": "un moteur de recherche"
+    },
+    {
+      "id": "4yczbm",
+      "front": "a download",
+      "back": "un téléchargement"
+    },
+    {
+      "id": "tab7xb",
+      "front": "an upload",
+      "back": "un téléversement"
+    },
+    {
+      "id": "zst212",
+      "front": "a connection to the network",
+      "back": "une connexion"
+    },
+    {
+      "id": "ldp8ml",
+      "front": "a network",
+      "back": "un réseau"
+    },
+    {
+      "id": "p80t4m",
+      "front": "a server",
+      "back": "un serveur"
+    },
+    {
+      "id": "ubrioc",
+      "front": "a virus",
+      "back": "un virus"
+    },
+    {
+      "id": "l8527p",
+      "front": "a hacker",
+      "back": "un pirate informatique"
+    },
+    {
+      "id": "jvdbq2",
+      "front": "an email",
+      "back": "un courriel"
+    },
+    {
+      "id": "wkesvw",
+      "front": "an inbox",
+      "back": "une boîte de réception"
+    },
+    {
+      "id": "pn4ljz",
+      "front": "an attachment",
+      "back": "une pièce jointe"
+    },
+    {
+      "id": "753a5d",
+      "front": "a spam message",
+      "back": "un courrier indésirable"
+    },
+    {
+      "id": "83gq4t",
+      "front": "a social network",
+      "back": "un réseau social"
+    },
+    {
+      "id": "w7cht7",
+      "front": "a profile",
+      "back": "un profil"
+    },
+    {
+      "id": "wmhjky",
+      "front": "a post online",
+      "back": "une publication"
+    },
+    {
+      "id": "n8gogy",
+      "front": "a comment",
+      "back": "un commentaire"
+    },
+    {
+      "id": "dd6304",
+      "front": "a follower",
+      "back": "un abonné"
+    },
+    {
+      "id": "d6pj0f",
+      "front": "a blog",
+      "back": "un blogue"
+    },
+    {
+      "id": "w2d2by",
+      "front": "a podcast",
+      "back": "un balado"
+    },
+    {
+      "id": "bhoqnl",
+      "front": "a video",
+      "back": "une vidéo"
+    },
+    {
+      "id": "nrxebb",
+      "front": "a photo",
+      "back": "une photo"
+    },
+    {
+      "id": "594w0f",
+      "front": "a letter posted",
+      "back": "une lettre"
+    },
+    {
+      "id": "3anlry",
+      "front": "an envelope",
+      "back": "une enveloppe"
+    },
+    {
+      "id": "vpjtbf",
+      "front": "a stamp",
+      "back": "un timbre"
+    },
+    {
+      "id": "6q0osj",
+      "front": "a postbox",
+      "back": "une boîte aux lettres"
+    },
+    {
+      "id": "y6buca",
+      "front": "a postman",
+      "back": "un facteur"
+    },
+    {
+      "id": "87io0h",
+      "front": "a postcode",
+      "back": "un code postal"
+    },
+    {
+      "id": "shkruc",
+      "front": "a signature",
+      "back": "une signature"
+    },
+    {
+      "id": "b4n4fj",
+      "front": "a form to fill in",
+      "back": "un formulaire"
+    },
+    {
+      "id": "uex4j4",
+      "front": "the media",
+      "back": "les médias"
+    },
+    {
+      "id": "hck1ck",
+      "front": "the press",
+      "back": "la presse"
+    },
+    {
+      "id": "qowyjg",
+      "front": "a newspaper",
+      "back": "un journal"
+    },
+    {
+      "id": "zggkqz",
+      "front": "a magazine",
+      "back": "un magazine"
+    },
+    {
+      "id": "welyum",
+      "front": "an article",
+      "back": "un article"
+    },
+    {
+      "id": "pc1s6v",
+      "front": "a headline",
+      "back": "un titre, une manchette"
+    },
+    {
+      "id": "ta1nkj",
+      "front": "a reporter",
+      "back": "un reporter"
+    },
+    {
+      "id": "m7pjjk",
+      "front": "an editor",
+      "back": "un rédacteur en chef"
+    },
+    {
+      "id": "gwfob7",
+      "front": "a broadcast",
+      "back": "une émission"
+    },
+    {
+      "id": "clfbrn",
+      "front": "a channel",
+      "back": "une chaîne"
+    },
+    {
+      "id": "9d31j5",
+      "front": "a radio station",
+      "back": "une station de radio"
+    },
+    {
+      "id": "tc0skz",
+      "front": "a television",
+      "back": "une télévision"
+    },
+    {
+      "id": "4f0l20",
+      "front": "a remote control",
+      "back": "une télécommande"
+    },
+    {
+      "id": "whivj0",
+      "front": "a programme on television",
+      "back": "une émission"
+    },
+    {
+      "id": "4t0zac",
+      "front": "a documentary",
+      "back": "un documentaire"
+    },
+    {
+      "id": "os55r7",
+      "front": "a series",
+      "back": "une série"
+    },
+    {
+      "id": "68x7e7",
+      "front": "an advertisement",
+      "back": "une publicité"
+    },
+    {
+      "id": "ror1x0",
+      "front": "an interview on air",
+      "back": "une interview"
+    },
+    {
+      "id": "y5pqfu",
+      "front": "an audience",
+      "back": "un public, une audience"
+    },
+    {
+      "id": "f840d1",
+      "front": "a subscription",
+      "back": "un abonnement"
+    },
+    {
+      "id": "11wxyw",
+      "front": "to phone",
+      "back": "téléphoner"
+    },
+    {
+      "id": "d4u7xo",
+      "front": "to call back",
+      "back": "rappeler"
+    },
+    {
+      "id": "i12dys",
+      "front": "to hang up the phone",
+      "back": "raccrocher"
+    },
+    {
+      "id": "zagx5b",
+      "front": "to text",
+      "back": "envoyer un message"
+    },
+    {
+      "id": "2lbcn2",
+      "front": "to type",
+      "back": "taper"
+    },
+    {
+      "id": "7nbb93",
+      "front": "to click",
+      "back": "cliquer"
+    },
+    {
+      "id": "1r8bpx",
+      "front": "to log in",
+      "back": "se connecter"
+    },
+    {
+      "id": "lg5t9q",
+      "front": "to log out",
+      "back": "se déconnecter"
+    },
+    {
+      "id": "sg4n25",
+      "front": "to download",
+      "back": "télécharger"
+    },
+    {
+      "id": "wx2swq",
+      "front": "to upload",
+      "back": "téléverser"
+    },
+    {
+      "id": "8db1a7",
+      "front": "to browse",
+      "back": "naviguer"
+    },
+    {
+      "id": "02uoqm",
+      "front": "to search for",
+      "back": "rechercher"
+    },
+    {
+      "id": "d25rh9",
+      "front": "to save a file",
+      "back": "enregistrer un fichier"
+    },
+    {
+      "id": "nh080o",
+      "front": "to delete",
+      "back": "supprimer"
+    },
+    {
+      "id": "4ppstl",
+      "front": "to send",
+      "back": "envoyer"
+    },
+    {
+      "id": "o75zud",
+      "front": "to reply",
+      "back": "répondre"
+    },
+    {
+      "id": "apmpew",
+      "front": "to forward",
+      "back": "transférer"
+    },
+    {
+      "id": "s2p92d",
+      "front": "to broadcast",
+      "back": "diffuser"
+    },
+    {
+      "id": "q2590b",
+      "front": "online",
+      "back": "en ligne"
+    }
+  ]
+}
