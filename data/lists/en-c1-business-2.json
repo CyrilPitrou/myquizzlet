@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-business-2",
+  "name": "Business and Work 2",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "kx82np",
+      "front": "fiduciary",
+      "back": "fiduciaire"
+    },
+    {
+      "id": "yclmic",
+      "front": "an indemnity clause",
+      "back": "une clause d'indemnisation"
+    },
+    {
+      "id": "kowd1v",
+      "front": "synergy",
+      "back": "la synergie"
+    },
+    {
+      "id": "o7wnyc",
+      "front": "to leverage a capability",
+      "back": "exploiter une compétence"
+    },
+    {
+      "id": "8cq2po",
+      "front": "a core competency",
+      "back": "une compétence fondamentale"
+    },
+    {
+      "id": "vahhba",
+      "front": "best practice",
+      "back": "les meilleures pratiques"
+    },
+    {
+      "id": "7s2ywf",
+      "front": "a paradigm",
+      "back": "un paradigme"
+    },
+    {
+      "id": "lt6kn4",
+      "front": "a value chain",
+      "back": "une chaîne de valeur"
+    },
+    {
+      "id": "u3fp0e",
+      "front": "vertical integration",
+      "back": "l'intégration verticale"
+    },
+    {
+      "id": "fm6leu",
+      "front": "horizontal integration",
+      "back": "l'intégration horizontale"
+    },
+    {
+      "id": "2trn7u",
+      "front": "diversification",
+      "back": "la diversification"
+    },
+    {
+      "id": "hzt5tx",
+      "front": "a conglomerate",
+      "back": "un conglomérat"
+    },
+    {
+      "id": "gg7y3x",
+      "front": "a holding company",
+      "back": "une société holding"
+    },
+    {
+      "id": "1w6m1d",
+      "front": "a parent company",
+      "back": "une société mère"
+    },
+    {
+      "id": "9b83nj",
+      "front": "a minority stake",
+      "back": "une participation minoritaire"
+    },
+    {
+      "id": "k0tsbl",
+      "front": "a controlling interest",
+      "back": "une participation majoritaire"
+    },
+    {
+      "id": "v0c75t",
+      "front": "a poison pill",
+      "back": "une pilule empoisonnée (défense anti-OPA)"
+    },
+    {
+      "id": "6x1m39",
+      "front": "a white knight",
+      "back": "un chevalier blanc"
+    },
+    {
+      "id": "q9v4nn",
+      "front": "a greenmail",
+      "back": "un chantage à l'OPA"
+    },
+    {
+      "id": "64rqll",
+      "front": "a proxy fight",
+      "back": "une bataille de procurations"
+    },
+    {
+      "id": "d1zg0j",
+      "front": "an activist investor",
+      "back": "un investisseur activiste"
+    },
+    {
+      "id": "tcba9w",
+      "front": "a corporate raider",
+      "back": "un raider"
+    },
+    {
+      "id": "j9pbcw",
+      "front": "asset stripping",
+      "back": "le démantèlement d'actifs"
+    },
+    {
+      "id": "xtb45a",
+      "front": "goodwill",
+      "back": "le fonds de commerce, l'écart d'acquisition"
+    },
+    {
+      "id": "azt5l8",
+      "front": "intangible assets",
+      "back": "les actifs incorporels"
+    },
+    {
+      "id": "3jho7d",
+      "front": "intellectual property",
+      "back": "la propriété intellectuelle"
+    },
+    {
+      "id": "ne6grd",
+      "front": "a patent portfolio",
+      "back": "un portefeuille de brevets"
+    },
+    {
+      "id": "otqgrm",
+      "front": "a trademark",
+      "back": "une marque déposée"
+    },
+    {
+      "id": "l98ytp",
+      "front": "a trade secret",
+      "back": "un secret commercial"
+    },
+    {
+      "id": "11rzy2",
+      "front": "a licence in perpetuity",
+      "back": "une licence perpétuelle"
+    },
+    {
+      "id": "i5rqo7",
+      "front": "an escrow account",
+      "back": "un compte séquestre"
+    },
+    {
+      "id": "u9yvkz",
+      "front": "a letter of credit",
+      "back": "une lettre de crédit"
+    },
+    {
+      "id": "s97347",
+      "front": "a bill of lading",
+      "back": "un connaissement"
+    },
+    {
+      "id": "s335zo",
+      "front": "an incoterm",
+      "back": "un incoterm"
+    },
+    {
+      "id": "ekr79a",
+      "front": "demurrage",
+      "back": "les surestaries"
+    },
+    {
+      "id": "k0efrx",
+      "front": "a warranty",
+      "back": "une garantie contractuelle"
+    },
+    {
+      "id": "u1gyy6",
+      "front": "a disclaimer",
+      "back": "une clause de non-responsabilité"
+    },
+    {
+      "id": "4qu36t",
+      "front": "a liability cap",
+      "back": "un plafond de responsabilité"
+    },
+    {
+      "id": "r94oqg",
+      "front": "a penalty clause",
+      "back": "une clause pénale"
+    },
+    {
+      "id": "40qiu8",
+      "front": "liquidated damages",
+      "back": "des dommages-intérêts forfaitaires"
+    },
+    {
+      "id": "34jf79",
+      "front": "an arbitration clause",
+      "back": "une clause compromissoire"
+    },
+    {
+      "id": "ivp9sb",
+      "front": "a jurisdiction clause",
+      "back": "une clause attributive de juridiction"
+    },
+    {
+      "id": "t7x6z0",
+      "front": "a novation",
+      "back": "une novation"
+    },
+    {
+      "id": "il9ev1",
+      "front": "an assignment of rights",
+      "back": "une cession de droits"
+    },
+    {
+      "id": "evljib",
+      "front": "a subcontractor",
+      "back": "un sous-traitant"
+    },
+    {
+      "id": "1oxms4",
+      "front": "a consortium",
+      "back": "un consortium"
+    },
+    {
+      "id": "ezfpyo",
+      "front": "a cartel arrangement",
+      "back": "une entente illicite"
+    },
+    {
+      "id": "gapltn",
+      "front": "antitrust",
+      "back": "le droit de la concurrence"
+    },
+    {
+      "id": "5fjgbo",
+      "front": "a merger clearance",
+      "back": "une autorisation de concentration"
+    },
+    {
+      "id": "j61u8d",
+      "front": "a dawn raid",
+      "back": "une perquisition surprise"
+    },
+    {
+      "id": "9zy0au",
+      "front": "a remediation plan",
+      "back": "un plan de mise en conformité"
+    },
+    {
+      "id": "h36g4k",
+      "front": "a materiality threshold",
+      "back": "un seuil de signification"
+    },
+    {
+      "id": "x6ix6b",
+      "front": "an audit trail",
+      "back": "une piste d'audit"
+    },
+    {
+      "id": "fmcjyf",
+      "front": "a going concern",
+      "back": "une entreprise en continuité d'exploitation"
+    },
+    {
+      "id": "yj6aj4",
+      "front": "an impairment",
+      "back": "une dépréciation d'actif"
+    },
+    {
+      "id": "760tsw",
+      "front": "accrual accounting",
+      "back": "la comptabilité d'engagement"
+    },
+    {
+      "id": "c9i0u9",
+      "front": "a provision",
+      "back": "une provision comptable"
+    },
+    {
+      "id": "t5fawu",
+      "front": "a contingent liability",
+      "back": "un passif éventuel"
+    },
+    {
+      "id": "32qur9",
+      "front": "a covenant breach",
+      "back": "une violation de clause financière"
+    },
+    {
+      "id": "37njkx",
+      "front": "a debenture",
+      "back": "une obligation non garantie"
+    },
+    {
+      "id": "5yavov",
+      "front": "a rights of first refusal",
+      "back": "un droit de préemption"
+    },
+    {
+      "id": "i2b0qg",
+      "front": "a drag-along right",
+      "back": "un droit d'entraînement"
+    },
+    {
+      "id": "4mmrxv",
+      "front": "a tag-along right",
+      "back": "un droit de sortie conjointe"
+    },
+    {
+      "id": "ww78je",
+      "front": "a vesting schedule",
+      "back": "un calendrier d'acquisition des droits"
+    },
+    {
+      "id": "ryk4fp",
+      "front": "a cliff",
+      "back": "une période de carence (avant acquisition)"
+    },
+    {
+      "id": "ac4eoc",
+      "front": "a dilution",
+      "back": "une dilution du capital"
+    },
+    {
+      "id": "yoahp9",
+      "front": "a cap table",
+      "back": "un tableau de capitalisation"
+    },
+    {
+      "id": "pw3ytj",
+      "front": "a burn rate",
+      "back": "un taux de consommation de trésorerie"
+    },
+    {
+      "id": "xm88wc",
+      "front": "a runway",
+      "back": "une autonomie financière"
+    },
+    {
+      "id": "p7gj3r",
+      "front": "a valuation multiple",
+      "back": "un multiple de valorisation"
+    },
+    {
+      "id": "46kafk",
+      "front": "an exit strategy",
+      "back": "une stratégie de sortie"
+    },
+    {
+      "id": "6fgnok",
+      "front": "a term sheet",
+      "back": "une lettre d'intention"
+    },
+    {
+      "id": "3wglpg",
+      "front": "a bridging loan",
+      "back": "un prêt relais"
+    },
+    {
+      "id": "swih5x",
+      "front": "a syndicated loan",
+      "back": "un prêt syndiqué"
+    },
+    {
+      "id": "yy5ifb",
+      "front": "a mezzanine finance",
+      "back": "un financement mezzanine"
+    },
+    {
+      "id": "w06sov",
+      "front": "a factoring arrangement",
+      "back": "un contrat d'affacturage"
+    },
+    {
+      "id": "osigd6",
+      "front": "a sale and leaseback",
+      "back": "une cession-bail"
+    },
+    {
+      "id": "387vxa",
+      "front": "a rent roll",
+      "back": "un état locatif"
+    },
+    {
+      "id": "cjdnhe",
+      "front": "a headhunter",
+      "back": "un chasseur de têtes"
+    },
+    {
+      "id": "o2f4bg",
+      "front": "a golden hello",
+      "back": "une prime d'arrivée"
+    },
+    {
+      "id": "4wht7d",
+      "front": "a sabbatical",
+      "back": "un congé sabbatique"
+    },
+    {
+      "id": "1fhq2a",
+      "front": "presenteeism",
+      "back": "le présentéisme"
+    },
+    {
+      "id": "3g5gmf",
+      "front": "burnout",
+      "back": "l'épuisement professionnel"
+    },
+    {
+      "id": "d6b1e7",
+      "front": "a workaround",
+      "back": "une solution de contournement"
+    },
+    {
+      "id": "nbxqkw",
+      "front": "a deliverance from bureaucracy",
+      "back": "un allègement bureaucratique"
+    },
+    {
+      "id": "qkbs79",
+      "front": "a matrix organisation",
+      "back": "une organisation matricielle"
+    },
+    {
+      "id": "stiskz",
+      "front": "a silo",
+      "back": "un silo organisationnel"
+    },
+    {
+      "id": "871z6m",
+      "front": "to blue-sky think",
+      "back": "réfléchir sans contrainte"
+    },
+    {
+      "id": "1o8f5q",
+      "front": "low-hanging fruit",
+      "back": "les gains faciles"
+    },
+    {
+      "id": "yumtln",
+      "front": "to circle back",
+      "back": "y revenir plus tard"
+    },
+    {
+      "id": "awwc2z",
+      "front": "to touch base",
+      "back": "reprendre contact"
+    },
+    {
+      "id": "coi87y",
+      "front": "to align on something",
+      "back": "se mettre d'accord sur quelque chose"
+    },
+    {
+      "id": "8h40ht",
+      "front": "bandwidth",
+      "back": "la disponibilité, la capacité de travail"
+    },
+    {
+      "id": "f7dm98",
+      "front": "a deep dive",
+      "back": "une analyse approfondie"
+    },
+    {
+      "id": "hm6mbm",
+      "front": "a granular analysis",
+      "back": "une analyse fine"
+    },
+    {
+      "id": "815x1g",
+      "front": "an actionable insight",
+      "back": "un enseignement exploitable"
+    },
+    {
+      "id": "0b4hpz",
+      "front": "a stretch goal",
+      "back": "un objectif ambitieux"
+    },
+    {
+      "id": "9fmmho",
+      "front": "a stakeholder buy-in",
+      "back": "l'adhésion des parties prenantes"
+    },
+    {
+      "id": "l4g7h1",
+      "front": "a change agent",
+      "back": "un agent du changement"
+    },
+    {
+      "id": "z02qoa",
+      "front": "a thought leader",
+      "back": "un leader d'opinion"
+    }
+  ]
+}
