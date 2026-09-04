@@ -1,6 +1,6 @@
 {
   "listId": "animaux-et-nature",
-  "updatedAt": "2026-09-02T08:41:59.602Z",
+  "updatedAt": "2026-09-04T18:24:43.617Z",
   "items": {
     "scd784:b2f": {
       "box": 2,
@@ -60,10 +60,11 @@
     },
     "x5e39k:b2f": {
       "box": 1,
-      "due": "2026-09-03",
-      "seen": 1,
-      "lapses": 1,
-      "lastSeen": "2026-09-02T07:27:41.202Z"
+      "due": "2026-09-05",
+      "seen": 2,
+      "lapses": 2,
+      "lastSeen": "2026-09-04T18:24:43.616Z",
+      "level": 0
     },
     "r9zeip:f2b": {
       "box": 2,
