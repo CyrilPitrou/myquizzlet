@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-linking-words",
+  "name": "Linking Words and Adverbs",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "dne6xi",
+      "front": "and",
+      "back": "et"
+    },
+    {
+      "id": "i1ord6",
+      "front": "but",
+      "back": "mais"
+    },
+    {
+      "id": "2eshbw",
+      "front": "or",
+      "back": "ou"
+    },
+    {
+      "id": "wt7kt8",
+      "front": "so",
+      "back": "donc, alors"
+    },
+    {
+      "id": "beqt94",
+      "front": "because",
+      "back": "parce que"
+    },
+    {
+      "id": "fhgsvj",
+      "front": "since as a reason",
+      "back": "puisque"
+    },
+    {
+      "id": "r8esbb",
+      "front": "as a reason",
+      "back": "comme, car"
+    },
+    {
+      "id": "13lopx",
+      "front": "therefore",
+      "back": "par conséquent"
+    },
+    {
+      "id": "wk7m3z",
+      "front": "that is why",
+      "back": "c'est pourquoi"
+    },
+    {
+      "id": "1t7vrw",
+      "front": "thus",
+      "back": "ainsi"
+    },
+    {
+      "id": "pslzqp",
+      "front": "consequently",
+      "back": "par conséquent"
+    },
+    {
+      "id": "65mxok",
+      "front": "as a result",
+      "back": "en conséquence"
+    },
+    {
+      "id": "doig22",
+      "front": "however",
+      "back": "cependant"
+    },
+    {
+      "id": "fkhjq5",
+      "front": "nevertheless",
+      "back": "néanmoins"
+    },
+    {
+      "id": "s4xwxe",
+      "front": "although",
+      "back": "bien que"
+    },
+    {
+      "id": "j492pf",
+      "front": "though",
+      "back": "quoique, pourtant"
+    },
+    {
+      "id": "nzxerw",
+      "front": "even though",
+      "back": "même si"
+    },
+    {
+      "id": "s97wqq",
+      "front": "whereas",
+      "back": "tandis que"
+    },
+    {
+      "id": "j1jrp9",
+      "front": "while",
+      "back": "alors que, pendant que"
+    },
+    {
+      "id": "stpvo5",
+      "front": "on the one hand",
+      "back": "d'une part"
+    },
+    {
+      "id": "jpn7jq",
+      "front": "on the other hand",
+      "back": "d'autre part"
+    },
+    {
+      "id": "bnq0u2",
+      "front": "in spite of",
+      "back": "malgré"
+    },
+    {
+      "id": "23wmy9",
+      "front": "despite",
+      "back": "malgré"
+    },
+    {
+      "id": "oe531y",
+      "front": "instead of",
+      "back": "au lieu de"
+    },
+    {
+      "id": "0g19c6",
+      "front": "besides",
+      "back": "en outre, d'ailleurs"
+    },
+    {
+      "id": "c5lxac",
+      "front": "moreover",
+      "back": "de plus"
+    },
+    {
+      "id": "6nsrpn",
+      "front": "furthermore",
+      "back": "en outre"
+    },
+    {
+      "id": "5rmxhf",
+      "front": "in addition",
+      "back": "de plus"
+    },
+    {
+      "id": "ofjbre",
+      "front": "also",
+      "back": "aussi"
+    },
+    {
+      "id": "4ayhi5",
+      "front": "as well",
+      "back": "également"
+    },
+    {
+      "id": "r9pv1u",
+      "front": "too",
+      "back": "aussi, trop"
+    },
+    {
+      "id": "b6u6s6",
+      "front": "either",
+      "back": "non plus, l'un ou l'autre"
+    },
+    {
+      "id": "okkj8z",
+      "front": "neither",
+      "back": "ni l'un ni l'autre"
+    },
+    {
+      "id": "xennw0",
+      "front": "both",
+      "back": "les deux"
+    },
+    {
+      "id": "33az0k",
+      "front": "in fact",
+      "back": "en fait"
+    },
+    {
+      "id": "8aiisv",
+      "front": "indeed",
+      "back": "en effet"
+    },
+    {
+      "id": "k9c9zi",
+      "front": "actually",
+      "back": "en réalité"
+    },
+    {
+      "id": "f6899f",
+      "front": "of course indeed",
+      "back": "évidemment"
+    },
+    {
+      "id": "gxchk2",
+      "front": "obviously",
+      "back": "manifestement"
+    },
+    {
+      "id": "7ia906",
+      "front": "clearly",
+      "back": "clairement"
+    },
+    {
+      "id": "reg22v",
+      "front": "apparently",
+      "back": "apparemment"
+    },
+    {
+      "id": "xuqvft",
+      "front": "probably",
+      "back": "probablement"
+    },
+    {
+      "id": "asfr4j",
+      "front": "perhaps",
+      "back": "peut-être"
+    },
+    {
+      "id": "a7pcdl",
+      "front": "maybe",
+      "back": "peut-être"
+    },
+    {
+      "id": "xab2uy",
+      "front": "certainly",
+      "back": "certainement"
+    },
+    {
+      "id": "wk7o6u",
+      "front": "definitely",
+      "back": "assurément"
+    },
+    {
+      "id": "y22vmr",
+      "front": "surely",
+      "back": "sûrement"
+    },
+    {
+      "id": "gkckil",
+      "front": "hardly",
+      "back": "à peine"
+    },
+    {
+      "id": "vmg3ur",
+      "front": "almost",
+      "back": "presque"
+    },
+    {
+      "id": "t45k9t",
+      "front": "nearly",
+      "back": "presque"
+    },
+    {
+      "id": "er573l",
+      "front": "quite",
+      "back": "assez, tout à fait"
+    },
+    {
+      "id": "b0595z",
+      "front": "rather",
+      "back": "plutôt"
+    },
+    {
+      "id": "1si4h2",
+      "front": "fairly",
+      "back": "assez"
+    },
+    {
+      "id": "hv9262",
+      "front": "pretty as an adverb",
+      "back": "assez"
+    },
+    {
+      "id": "3j1aoy",
+      "front": "very",
+      "back": "très"
+    },
+    {
+      "id": "8ucfz5",
+      "front": "extremely",
+      "back": "extrêmement"
+    },
+    {
+      "id": "xsnc27",
+      "front": "really",
+      "back": "vraiment"
+    },
+    {
+      "id": "woyvol",
+      "front": "absolutely",
+      "back": "absolument"
+    },
+    {
+      "id": "7f2jy5",
+      "front": "completely",
+      "back": "complètement"
+    },
+    {
+      "id": "qs2eiq",
+      "front": "entirely",
+      "back": "entièrement"
+    },
+    {
+      "id": "nt4q6t",
+      "front": "totally",
+      "back": "totalement"
+    },
+    {
+      "id": "78guoy",
+      "front": "partly",
+      "back": "en partie"
+    },
+    {
+      "id": "wrgyff",
+      "front": "mostly",
+      "back": "surtout, principalement"
+    },
+    {
+      "id": "dif9p9",
+      "front": "mainly",
+      "back": "principalement"
+    },
+    {
+      "id": "pj5y7i",
+      "front": "especially",
+      "back": "surtout"
+    },
+    {
+      "id": "fsjek3",
+      "front": "particularly",
+      "back": "particulièrement"
+    },
+    {
+      "id": "l47fxr",
+      "front": "generally",
+      "back": "généralement"
+    },
+    {
+      "id": "bnnehp",
+      "front": "in general",
+      "back": "en général"
+    },
+    {
+      "id": "tmi8u5",
+      "front": "on the whole",
+      "back": "dans l'ensemble"
+    },
+    {
+      "id": "hs93w6",
+      "front": "above all",
+      "back": "avant tout"
+    },
+    {
+      "id": "0tosrw",
+      "front": "at least",
+      "back": "au moins"
+    },
+    {
+      "id": "uvyx6y",
+      "front": "at most",
+      "back": "tout au plus"
+    },
+    {
+      "id": "rk59gh",
+      "front": "about approximately",
+      "back": "environ"
+    },
+    {
+      "id": "eeeu74",
+      "front": "roughly",
+      "back": "à peu près"
+    },
+    {
+      "id": "ne6686",
+      "front": "exactly",
+      "back": "exactement"
+    },
+    {
+      "id": "se9luz",
+      "front": "enough",
+      "back": "assez, suffisamment"
+    },
+    {
+      "id": "2x8bx5",
+      "front": "too much",
+      "back": "trop"
+    },
+    {
+      "id": "ziy1eb",
+      "front": "too many",
+      "back": "trop de"
+    },
+    {
+      "id": "sf94ty",
+      "front": "a lot of",
+      "back": "beaucoup de"
+    },
+    {
+      "id": "h3r3uz",
+      "front": "plenty of",
+      "back": "beaucoup de"
+    },
+    {
+      "id": "u1fyvi",
+      "front": "a few",
+      "back": "quelques"
+    },
+    {
+      "id": "n8nmbe",
+      "front": "a little",
+      "back": "un peu"
+    },
+    {
+      "id": "06tg5o",
+      "front": "several",
+      "back": "plusieurs"
+    },
+    {
+      "id": "qb268k",
+      "front": "many",
+      "back": "beaucoup, de nombreux"
+    },
+    {
+      "id": "q2idfp",
+      "front": "much",
+      "back": "beaucoup"
+    },
+    {
+      "id": "1kfyau",
+      "front": "most",
+      "back": "la plupart"
+    },
+    {
+      "id": "y0sda7",
+      "front": "some",
+      "back": "quelques, certains"
+    },
+    {
+      "id": "5pfo93",
+      "front": "any",
+      "back": "n'importe quel"
+    },
+    {
+      "id": "cm6fp9",
+      "front": "none",
+      "back": "aucun"
+    },
+    {
+      "id": "3878vl",
+      "front": "each",
+      "back": "chaque"
+    },
+    {
+      "id": "jfo8no",
+      "front": "every",
+      "back": "chaque, tout"
+    },
+    {
+      "id": "cwib2m",
+      "front": "all",
+      "back": "tout, tous"
+    },
+    {
+      "id": "bj0pwo",
+      "front": "first of all",
+      "back": "tout d'abord"
+    },
+    {
+      "id": "hpr2db",
+      "front": "then",
+      "back": "ensuite, alors"
+    },
+    {
+      "id": "3yaui4",
+      "front": "next",
+      "back": "ensuite"
+    },
+    {
+      "id": "sz7i8g",
+      "front": "afterwards",
+      "back": "après, ensuite"
+    },
+    {
+      "id": "bezvn5",
+      "front": "finally",
+      "back": "enfin"
+    },
+    {
+      "id": "85wc7m",
+      "front": "at last",
+      "back": "enfin"
+    },
+    {
+      "id": "nn5s8z",
+      "front": "in short",
+      "back": "en bref"
+    },
+    {
+      "id": "rxxu49",
+      "front": "to sum up",
+      "back": "en résumé"
+    }
+  ]
+}
