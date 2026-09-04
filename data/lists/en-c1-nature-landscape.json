@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-nature-landscape",
+  "name": "Nature, Landscape and Weather",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "ot595k",
+      "front": "a moor",
+      "back": "une lande"
+    },
+    {
+      "id": "l39bg8",
+      "front": "a heath",
+      "back": "une bruyère, une lande"
+    },
+    {
+      "id": "8p3rzv",
+      "front": "a fen",
+      "back": "un marais tourbeux"
+    },
+    {
+      "id": "ida877",
+      "front": "a marsh",
+      "back": "un marécage"
+    },
+    {
+      "id": "i3p1jj",
+      "front": "a bog",
+      "back": "une tourbière"
+    },
+    {
+      "id": "1yz1av",
+      "front": "a mire",
+      "back": "un bourbier"
+    },
+    {
+      "id": "jodbt9",
+      "front": "a meadow",
+      "back": "une prairie"
+    },
+    {
+      "id": "otu16c",
+      "front": "a pasture",
+      "back": "un pâturage"
+    },
+    {
+      "id": "9up347",
+      "front": "a glade",
+      "back": "une clairière"
+    },
+    {
+      "id": "k0gcqe",
+      "front": "a copse",
+      "back": "un bosquet"
+    },
+    {
+      "id": "6o0rg4",
+      "front": "a thicket",
+      "back": "un fourré"
+    },
+    {
+      "id": "zn302w",
+      "front": "a coppice",
+      "back": "un taillis"
+    },
+    {
+      "id": "ve19e5",
+      "front": "a grove",
+      "back": "un bocage, un bosquet"
+    },
+    {
+      "id": "73gblr",
+      "front": "a hedgerow",
+      "back": "une haie vive"
+    },
+    {
+      "id": "znaqb6",
+      "front": "a spinney",
+      "back": "un petit bois"
+    },
+    {
+      "id": "xt2hmm",
+      "front": "a dell",
+      "back": "un vallon boisé"
+    },
+    {
+      "id": "ecbu75",
+      "front": "a dale",
+      "back": "une vallée"
+    },
+    {
+      "id": "sv4h9p",
+      "front": "a glen",
+      "back": "un vallon"
+    },
+    {
+      "id": "boklde",
+      "front": "a ravine",
+      "back": "un ravin"
+    },
+    {
+      "id": "1weog9",
+      "front": "a gorge",
+      "back": "une gorge"
+    },
+    {
+      "id": "mgn8d6",
+      "front": "a gully",
+      "back": "une ravine"
+    },
+    {
+      "id": "8xpi86",
+      "front": "a defile",
+      "back": "un défilé"
+    },
+    {
+      "id": "76hksj",
+      "front": "a col",
+      "back": "un col"
+    },
+    {
+      "id": "k979gl",
+      "front": "a scree slope",
+      "back": "un éboulis"
+    },
+    {
+      "id": "yti3r0",
+      "front": "an escarpment",
+      "back": "un escarpement"
+    },
+    {
+      "id": "ipqjes",
+      "front": "a crag",
+      "back": "un rocher escarpé"
+    },
+    {
+      "id": "n3okpa",
+      "front": "a bluff",
+      "back": "une falaise abrupte"
+    },
+    {
+      "id": "fuv7lg",
+      "front": "a promontory",
+      "back": "un promontoire"
+    },
+    {
+      "id": "gre3dm",
+      "front": "a headland",
+      "back": "un cap"
+    },
+    {
+      "id": "7yodai",
+      "front": "a spit of land",
+      "back": "une flèche de sable"
+    },
+    {
+      "id": "eqdvug",
+      "front": "a shingle beach",
+      "back": "une plage de galets"
+    },
+    {
+      "id": "c3b6qw",
+      "front": "a dune",
+      "back": "une dune"
+    },
+    {
+      "id": "wsm1mv",
+      "front": "a tidal flat",
+      "back": "une vasière"
+    },
+    {
+      "id": "f5cn9m",
+      "front": "a creek",
+      "back": "une crique, un ruisseau"
+    },
+    {
+      "id": "2r7hr4",
+      "front": "a brook",
+      "back": "un ruisseau"
+    },
+    {
+      "id": "l0tmp7",
+      "front": "a rill",
+      "back": "un ruisselet"
+    },
+    {
+      "id": "kj90d9",
+      "front": "a tributary",
+      "back": "un affluent"
+    },
+    {
+      "id": "30lfrj",
+      "front": "a confluence",
+      "back": "un confluent"
+    },
+    {
+      "id": "a8spyo",
+      "front": "a meander",
+      "back": "un méandre"
+    },
+    {
+      "id": "gylltp",
+      "front": "an oxbow lake",
+      "back": "un bras mort"
+    },
+    {
+      "id": "614j4w",
+      "front": "a weir",
+      "back": "un déversoir, une chaussée"
+    },
+    {
+      "id": "942m1p",
+      "front": "a cataract",
+      "back": "une cataracte"
+    },
+    {
+      "id": "hjuyll",
+      "front": "a torrent",
+      "back": "un torrent"
+    },
+    {
+      "id": "qlmffn",
+      "front": "a tarn",
+      "back": "un petit lac de montagne"
+    },
+    {
+      "id": "a50i01",
+      "front": "a mere",
+      "back": "un étang, un lac peu profond"
+    },
+    {
+      "id": "d9fnyb",
+      "front": "an inlet",
+      "back": "une anse, un bras de mer"
+    },
+    {
+      "id": "wm05nz",
+      "front": "a fjord",
+      "back": "un fjord"
+    },
+    {
+      "id": "5v6mx0",
+      "front": "an isthmus",
+      "back": "un isthme"
+    },
+    {
+      "id": "9i7fs3",
+      "front": "an archipelago",
+      "back": "un archipel"
+    },
+    {
+      "id": "ixq7dt",
+      "front": "an atoll",
+      "back": "un atoll"
+    },
+    {
+      "id": "z0t8e2",
+      "front": "a savannah",
+      "back": "une savane"
+    },
+    {
+      "id": "874gg6",
+      "front": "a steppe",
+      "back": "une steppe"
+    },
+    {
+      "id": "2w6f5b",
+      "front": "a tundra",
+      "back": "une toundra"
+    },
+    {
+      "id": "35ew5c",
+      "front": "a taiga",
+      "back": "la taïga"
+    },
+    {
+      "id": "8c3s2l",
+      "front": "a prairie",
+      "back": "une prairie (grande plaine)"
+    },
+    {
+      "id": "muowcq",
+      "front": "an oasis",
+      "back": "une oasis"
+    },
+    {
+      "id": "nt8o2w",
+      "front": "a foothill",
+      "back": "un contrefort"
+    },
+    {
+      "id": "kbhmhn",
+      "front": "a massif",
+      "back": "un massif"
+    },
+    {
+      "id": "olvkaw",
+      "front": "a plateau",
+      "back": "un plateau"
+    },
+    {
+      "id": "wgbjhi",
+      "front": "a basin",
+      "back": "un bassin"
+    },
+    {
+      "id": "zwpwze",
+      "front": "a drizzle",
+      "back": "une bruine"
+    },
+    {
+      "id": "ek2xu7",
+      "front": "a downpour",
+      "back": "une averse torrentielle"
+    },
+    {
+      "id": "2attz3",
+      "front": "a deluge",
+      "back": "un déluge"
+    },
+    {
+      "id": "tbucb8",
+      "front": "a squall",
+      "back": "une bourrasque"
+    },
+    {
+      "id": "xqnx20",
+      "front": "a gale",
+      "back": "un coup de vent"
+    },
+    {
+      "id": "xekgow",
+      "front": "a gust",
+      "back": "une rafale"
+    },
+    {
+      "id": "g28pew",
+      "front": "a breeze",
+      "back": "une brise"
+    },
+    {
+      "id": "0iyx0j",
+      "front": "a zephyr",
+      "back": "un zéphyr"
+    },
+    {
+      "id": "9jrh2x",
+      "front": "a hoarfrost",
+      "back": "le givre"
+    },
+    {
+      "id": "g84gsf",
+      "front": "a rime",
+      "back": "le givre blanc"
+    },
+    {
+      "id": "n1q8ff",
+      "front": "sleet",
+      "back": "le grésil, la neige fondue"
+    },
+    {
+      "id": "h2qtiy",
+      "front": "hail",
+      "back": "la grêle"
+    },
+    {
+      "id": "dyvm3p",
+      "front": "a blizzard",
+      "back": "un blizzard"
+    },
+    {
+      "id": "0t9cgz",
+      "front": "a whiteout",
+      "back": "un voile blanc"
+    },
+    {
+      "id": "7iyr2h",
+      "front": "a thaw",
+      "back": "un dégel"
+    },
+    {
+      "id": "35dwk4",
+      "front": "a mist",
+      "back": "une brume"
+    },
+    {
+      "id": "bsfusv",
+      "front": "a haze",
+      "back": "une brume de chaleur"
+    },
+    {
+      "id": "2uxnzp",
+      "front": "a pall of cloud",
+      "back": "un manteau de nuages"
+    },
+    {
+      "id": "lfki3o",
+      "front": "an overcast sky",
+      "back": "un ciel couvert"
+    },
+    {
+      "id": "8ovabw",
+      "front": "a lull",
+      "back": "une accalmie"
+    },
+    {
+      "id": "7cphrg",
+      "front": "a sultry day",
+      "back": "une journée moite et lourde"
+    },
+    {
+      "id": "n3ipwd",
+      "front": "a balmy evening",
+      "back": "une soirée douce"
+    },
+    {
+      "id": "duizia",
+      "front": "a bracing wind",
+      "back": "un vent vivifiant"
+    },
+    {
+      "id": "0wvsdb",
+      "front": "a biting cold",
+      "back": "un froid mordant"
+    },
+    {
+      "id": "ey3z87",
+      "front": "a raw wind",
+      "back": "un vent glacial et humide"
+    },
+    {
+      "id": "jno4z2",
+      "front": "verdant",
+      "back": "verdoyant"
+    },
+    {
+      "id": "mn1w6j",
+      "front": "lush",
+      "back": "luxuriant"
+    },
+    {
+      "id": "anxcv1",
+      "front": "barren",
+      "back": "stérile, aride"
+    },
+    {
+      "id": "cyqj74",
+      "front": "arid",
+      "back": "aride"
+    },
+    {
+      "id": "4gntno",
+      "front": "craggy",
+      "back": "rocailleux, escarpé"
+    },
+    {
+      "id": "g7ksy3",
+      "front": "rugged",
+      "back": "accidenté, rude"
+    },
+    {
+      "id": "vpc7w2",
+      "front": "undulating",
+      "back": "vallonné, ondulant"
+    },
+    {
+      "id": "4n722m",
+      "front": "windswept",
+      "back": "balayé par le vent"
+    },
+    {
+      "id": "kiqfmr",
+      "front": "desolate",
+      "back": "désolé"
+    },
+    {
+      "id": "7mgog4",
+      "front": "pristine",
+      "back": "intact, immaculé"
+    },
+    {
+      "id": "sdr1bf",
+      "front": "a canopy of leaves",
+      "back": "une voûte de feuillage"
+    },
+    {
+      "id": "e7dni9",
+      "front": "foliage",
+      "back": "le feuillage"
+    },
+    {
+      "id": "3irxcf",
+      "front": "undergrowth",
+      "back": "les broussailles, le sous-bois"
+    },
+    {
+      "id": "yr9zp4",
+      "front": "a burrow",
+      "back": "un terrier"
+    },
+    {
+      "id": "29p7kk",
+      "front": "a lair",
+      "back": "une tanière"
+    }
+  ]
+}
