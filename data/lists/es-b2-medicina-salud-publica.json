@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-medicina-salud-publica",
+  "name": "La medicina y la salud pública",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "1a4eh5",
+      "front": "la medicina moderna",
+      "back": "la médecine moderne"
+    },
+    {
+      "id": "9fkjfe",
+      "front": "la salud pública",
+      "back": "la santé publique"
+    },
+    {
+      "id": "9gxsip",
+      "front": "el sistema sanitario",
+      "back": "le système de santé"
+    },
+    {
+      "id": "s1qchh",
+      "front": "la sanidad",
+      "back": "la santé (secteur)"
+    },
+    {
+      "id": "quxqs1",
+      "front": "el centro de salud",
+      "back": "le centre de santé"
+    },
+    {
+      "id": "xoy7b6",
+      "front": "el ambulatorio",
+      "back": "le dispensaire"
+    },
+    {
+      "id": "w9tasi",
+      "front": "la atención primaria",
+      "back": "les soins de premier recours"
+    },
+    {
+      "id": "krrvmf",
+      "front": "la especialidad médica",
+      "back": "la spécialité médicale"
+    },
+    {
+      "id": "27phcm",
+      "front": "el cirujano",
+      "back": "le chirurgien"
+    },
+    {
+      "id": "qcjta6",
+      "front": "el anestesista",
+      "back": "l'anesthésiste"
+    },
+    {
+      "id": "lv1urn",
+      "front": "el pediatra",
+      "back": "le pédiatre"
+    },
+    {
+      "id": "4btrwt",
+      "front": "el cardiólogo",
+      "back": "le cardiologue"
+    },
+    {
+      "id": "tu8yv1",
+      "front": "el oncólogo",
+      "back": "l'oncologue"
+    },
+    {
+      "id": "42bw0z",
+      "front": "el psiquiatra",
+      "back": "le psychiatre"
+    },
+    {
+      "id": "ead11f",
+      "front": "el radiólogo",
+      "back": "le radiologue"
+    },
+    {
+      "id": "92hwnn",
+      "front": "el personal sanitario",
+      "back": "le personnel soignant"
+    },
+    {
+      "id": "35el0x",
+      "front": "el celador",
+      "back": "le brancardier"
+    },
+    {
+      "id": "ax63ey",
+      "front": "la camilla",
+      "back": "le brancard"
+    },
+    {
+      "id": "wf1cvs",
+      "front": "el quirófano",
+      "back": "le bloc opératoire"
+    },
+    {
+      "id": "me7ie0",
+      "front": "la unidad de cuidados intensivos",
+      "back": "le service de réanimation"
+    },
+    {
+      "id": "t4ucd9",
+      "front": "la planta hospitalaria",
+      "back": "le service hospitalier"
+    },
+    {
+      "id": "g5uadf",
+      "front": "el ingreso",
+      "back": "l'admission"
+    },
+    {
+      "id": "t7stjz",
+      "front": "el alta médica",
+      "back": "la sortie médicale"
+    },
+    {
+      "id": "dt8j8b",
+      "front": "la lista de espera",
+      "back": "la liste d'attente"
+    },
+    {
+      "id": "ihx3yw",
+      "front": "la derivación",
+      "back": "l'orientation vers un spécialiste"
+    },
+    {
+      "id": "ympvqn",
+      "front": "el historial clínico",
+      "back": "le dossier médical"
+    },
+    {
+      "id": "jpz2ea",
+      "front": "el diagnóstico precoz",
+      "back": "le diagnostic précoce"
+    },
+    {
+      "id": "61gltj",
+      "front": "el pronóstico",
+      "back": "le pronostic"
+    },
+    {
+      "id": "m111ok",
+      "front": "la sintomatología",
+      "back": "la symptomatologie"
+    },
+    {
+      "id": "2r3obl",
+      "front": "la exploración",
+      "back": "l'examen clinique"
+    },
+    {
+      "id": "gns3wa",
+      "front": "la analítica",
+      "back": "le bilan sanguin"
+    },
+    {
+      "id": "c7jui9",
+      "front": "la ecografía",
+      "back": "l'échographie"
+    },
+    {
+      "id": "u4aqf6",
+      "front": "la resonancia magnética",
+      "back": "l'IRM"
+    },
+    {
+      "id": "iow289",
+      "front": "la biopsia",
+      "back": "la biopsie"
+    },
+    {
+      "id": "kgmbrr",
+      "front": "el cribado",
+      "back": "le dépistage"
+    },
+    {
+      "id": "0as17b",
+      "front": "la vacunación",
+      "back": "la vaccination"
+    },
+    {
+      "id": "3oi6ux",
+      "front": "la inmunidad",
+      "back": "l'immunité"
+    },
+    {
+      "id": "usg6k0",
+      "front": "el sistema inmunitario",
+      "back": "le système immunitaire"
+    },
+    {
+      "id": "jn04qj",
+      "front": "el anticuerpo",
+      "back": "l'anticorps"
+    },
+    {
+      "id": "cyvzdy",
+      "front": "el contagio",
+      "back": "la contagion"
+    },
+    {
+      "id": "brkjah",
+      "front": "la epidemia",
+      "back": "l'épidémie"
+    },
+    {
+      "id": "j4vxe4",
+      "front": "la pandemia",
+      "back": "la pandémie"
+    },
+    {
+      "id": "1s2agn",
+      "front": "el brote",
+      "back": "le foyer épidémique"
+    },
+    {
+      "id": "928peq",
+      "front": "la cuarentena",
+      "back": "la quarantaine"
+    },
+    {
+      "id": "jg1diu",
+      "front": "el confinamiento",
+      "back": "le confinement"
+    },
+    {
+      "id": "x6f0fk",
+      "front": "la incidencia",
+      "back": "l'incidence"
+    },
+    {
+      "id": "qw7tmy",
+      "front": "la tasa de mortalidad",
+      "back": "le taux de mortalité"
+    },
+    {
+      "id": "kjv8ql",
+      "front": "la esperanza de vida",
+      "back": "l'espérance de vie"
+    },
+    {
+      "id": "7sdtm3",
+      "front": "la morbilidad",
+      "back": "la morbidité"
+    },
+    {
+      "id": "qe29g0",
+      "front": "la enfermedad crónica",
+      "back": "la maladie chronique"
+    },
+    {
+      "id": "2h5f8y",
+      "front": "la enfermedad infecciosa",
+      "back": "la maladie infectieuse"
+    },
+    {
+      "id": "ql3aj7",
+      "front": "la dolencia",
+      "back": "l'affection"
+    },
+    {
+      "id": "2jf57c",
+      "front": "el tumor",
+      "back": "la tumeur"
+    },
+    {
+      "id": "rayqa8",
+      "front": "el cáncer",
+      "back": "le cancer"
+    },
+    {
+      "id": "3yicto",
+      "front": "la diabetes",
+      "back": "le diabète"
+    },
+    {
+      "id": "j7398o",
+      "front": "la hipertensión",
+      "back": "l'hypertension"
+    },
+    {
+      "id": "nyhmz4",
+      "front": "el infarto",
+      "back": "l'infarctus"
+    },
+    {
+      "id": "nza72w",
+      "front": "el ictus",
+      "back": "l'AVC"
+    },
+    {
+      "id": "ju8hjw",
+      "front": "la insuficiencia renal",
+      "back": "l'insuffisance rénale"
+    },
+    {
+      "id": "lj19ex",
+      "front": "la demencia",
+      "back": "la démence"
+    },
+    {
+      "id": "3mtufn",
+      "front": "el trastorno",
+      "back": "le trouble"
+    },
+    {
+      "id": "w9zliu",
+      "front": "la discapacidad",
+      "back": "le handicap"
+    },
+    {
+      "id": "jou39q",
+      "front": "la secuela",
+      "back": "la séquelle"
+    },
+    {
+      "id": "95xjyk",
+      "front": "la recaída",
+      "back": "la rechute"
+    },
+    {
+      "id": "59ui1t",
+      "front": "la remisión",
+      "back": "la rémission"
+    },
+    {
+      "id": "k30ks9",
+      "front": "el efecto secundario",
+      "back": "l'effet secondaire"
+    },
+    {
+      "id": "wace87",
+      "front": "la dosis",
+      "back": "la dose"
+    },
+    {
+      "id": "cbe43x",
+      "front": "la posología",
+      "back": "la posologie"
+    },
+    {
+      "id": "7n30q7",
+      "front": "el fármaco",
+      "back": "le médicament (terme technique)"
+    },
+    {
+      "id": "dxeaja",
+      "front": "el genérico",
+      "back": "le générique"
+    },
+    {
+      "id": "80af70",
+      "front": "el placebo",
+      "back": "le placebo"
+    },
+    {
+      "id": "ic91qh",
+      "front": "el ensayo clínico",
+      "back": "l'essai clinique"
+    },
+    {
+      "id": "sh4ad7",
+      "front": "la quimioterapia",
+      "back": "la chimiothérapie"
+    },
+    {
+      "id": "9ym1hp",
+      "front": "la radioterapia",
+      "back": "la radiothérapie"
+    },
+    {
+      "id": "ntbuh4",
+      "front": "el trasplante",
+      "back": "la greffe"
+    },
+    {
+      "id": "8t6m8w",
+      "front": "la donación de órganos",
+      "back": "le don d'organes"
+    },
+    {
+      "id": "2nhawb",
+      "front": "la transfusión",
+      "back": "la transfusion"
+    },
+    {
+      "id": "2gz7n1",
+      "front": "la rehabilitación",
+      "back": "la rééducation"
+    },
+    {
+      "id": "nny7jj",
+      "front": "la fisioterapia",
+      "back": "la kinésithérapie"
+    },
+    {
+      "id": "wz02vp",
+      "front": "los cuidados paliativos",
+      "back": "les soins palliatifs"
+    },
+    {
+      "id": "odmc19",
+      "front": "la eutanasia",
+      "back": "l'euthanasie"
+    },
+    {
+      "id": "7b9ocd",
+      "front": "el consentimiento informado",
+      "back": "le consentement éclairé"
+    },
+    {
+      "id": "1uj7hd",
+      "front": "el secreto médico",
+      "back": "le secret médical"
+    },
+    {
+      "id": "prtz6c",
+      "front": "la negligencia médica",
+      "back": "la faute médicale"
+    },
+    {
+      "id": "42texf",
+      "front": "la sanidad privada",
+      "back": "la santé privée"
+    },
+    {
+      "id": "r5lyyz",
+      "front": "el copago",
+      "back": "le ticket modérateur"
+    },
+    {
+      "id": "1wkx3g",
+      "front": "la mutua",
+      "back": "la mutuelle"
+    },
+    {
+      "id": "h1j9ic",
+      "front": "la receta electrónica",
+      "back": "l'ordonnance électronique"
+    },
+    {
+      "id": "q8hbbo",
+      "front": "la prevención",
+      "back": "la prévention"
+    },
+    {
+      "id": "4y1wnq",
+      "front": "el hábito saludable",
+      "back": "l'habitude saine"
+    },
+    {
+      "id": "08mue7",
+      "front": "el sedentarismo",
+      "back": "la sédentarité"
+    },
+    {
+      "id": "05akdl",
+      "front": "la obesidad",
+      "back": "l'obésité"
+    },
+    {
+      "id": "yyf0pn",
+      "front": "la adicción",
+      "back": "l'addiction"
+    },
+    {
+      "id": "3cqfmb",
+      "front": "el tabaquismo",
+      "back": "le tabagisme"
+    },
+    {
+      "id": "0m51uq",
+      "front": "diagnosticar",
+      "back": "diagnostiquer"
+    },
+    {
+      "id": "rrtpuf",
+      "front": "tratar a un paciente",
+      "back": "traiter un patient"
+    },
+    {
+      "id": "7bu8cv",
+      "front": "prescribir",
+      "back": "prescrire"
+    },
+    {
+      "id": "bhlue2",
+      "front": "intervenir quirúrgicamente",
+      "back": "opérer"
+    },
+    {
+      "id": "fopj8o",
+      "front": "contagiarse",
+      "back": "être contaminé"
+    },
+    {
+      "id": "jsqomp",
+      "front": "recuperarse de una operación",
+      "back": "se remettre d'une opération"
+    }
+  ]
+}
