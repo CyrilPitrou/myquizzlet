@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-sentimientos-psicologia",
+  "name": "Los sentimientos y la psicología",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "6ck493",
+      "front": "la psicología",
+      "back": "la psychologie"
+    },
+    {
+      "id": "bdlmsv",
+      "front": "la mente",
+      "back": "l'esprit"
+    },
+    {
+      "id": "vpit7i",
+      "front": "la conciencia",
+      "back": "la conscience"
+    },
+    {
+      "id": "dlvxtl",
+      "front": "el inconsciente",
+      "back": "l'inconscient"
+    },
+    {
+      "id": "gl2hg4",
+      "front": "la percepción",
+      "back": "la perception"
+    },
+    {
+      "id": "wv29qq",
+      "front": "la sensación",
+      "back": "la sensation"
+    },
+    {
+      "id": "zfptlx",
+      "front": "la atención",
+      "back": "l'attention"
+    },
+    {
+      "id": "hab1en",
+      "front": "la concentración",
+      "back": "la concentration"
+    },
+    {
+      "id": "0ely7e",
+      "front": "la memoria a corto plazo",
+      "back": "la mémoire à court terme"
+    },
+    {
+      "id": "hvjrot",
+      "front": "el recuerdo",
+      "back": "le souvenir"
+    },
+    {
+      "id": "woopob",
+      "front": "el olvido",
+      "back": "l'oubli"
+    },
+    {
+      "id": "wh12su",
+      "front": "el razonamiento",
+      "back": "le raisonnement"
+    },
+    {
+      "id": "yzaisv",
+      "front": "la intuición",
+      "back": "l'intuition"
+    },
+    {
+      "id": "n6qqs3",
+      "front": "el discernimiento",
+      "back": "le discernement"
+    },
+    {
+      "id": "klvrwt",
+      "front": "la cognición",
+      "back": "la cognition"
+    },
+    {
+      "id": "bf0z4n",
+      "front": "el aprendizaje",
+      "back": "l'apprentissage"
+    },
+    {
+      "id": "uazyfd",
+      "front": "el condicionamiento",
+      "back": "le conditionnement"
+    },
+    {
+      "id": "mzyki8",
+      "front": "el hábito",
+      "back": "l'habitude"
+    },
+    {
+      "id": "iff15v",
+      "front": "el impulso",
+      "back": "l'impulsion"
+    },
+    {
+      "id": "hx7vrd",
+      "front": "la motivación",
+      "back": "la motivation"
+    },
+    {
+      "id": "chvpz0",
+      "front": "el deseo",
+      "back": "le désir"
+    },
+    {
+      "id": "u6g9je",
+      "front": "la voluntad",
+      "back": "la volonté"
+    },
+    {
+      "id": "k6g7ww",
+      "front": "la determinación",
+      "back": "la détermination"
+    },
+    {
+      "id": "iwxtyl",
+      "front": "la autoestima",
+      "back": "l'estime de soi"
+    },
+    {
+      "id": "7b38tf",
+      "front": "la autoconfianza",
+      "back": "la confiance en soi"
+    },
+    {
+      "id": "8iz1g1",
+      "front": "la identidad personal",
+      "back": "l'identité personnelle"
+    },
+    {
+      "id": "86tm1v",
+      "front": "el carácter adquirido",
+      "back": "le caractère acquis"
+    },
+    {
+      "id": "jpsl63",
+      "front": "el temperamento",
+      "back": "le tempérament"
+    },
+    {
+      "id": "rvf972",
+      "front": "la conducta",
+      "back": "le comportement"
+    },
+    {
+      "id": "h473sm",
+      "front": "el comportamiento social",
+      "back": "le comportement social"
+    },
+    {
+      "id": "rellh9",
+      "front": "la actitud",
+      "back": "l'attitude"
+    },
+    {
+      "id": "2xnz3g",
+      "front": "la empatía",
+      "back": "l'empathie"
+    },
+    {
+      "id": "rrz10z",
+      "front": "la compasión",
+      "back": "la compassion"
+    },
+    {
+      "id": "2rspcl",
+      "front": "la indiferencia",
+      "back": "l'indifférence"
+    },
+    {
+      "id": "afflea",
+      "front": "el resentimiento",
+      "back": "le ressentiment"
+    },
+    {
+      "id": "9d3mf6",
+      "front": "el rencor",
+      "back": "la rancune"
+    },
+    {
+      "id": "tkkh2v",
+      "front": "la amargura",
+      "back": "l'amertume"
+    },
+    {
+      "id": "8lc6kr",
+      "front": "el desprecio",
+      "back": "le mépris"
+    },
+    {
+      "id": "2pn2vm",
+      "front": "la admiración",
+      "back": "l'admiration"
+    },
+    {
+      "id": "445i72",
+      "front": "el asombro",
+      "back": "l'étonnement"
+    },
+    {
+      "id": "zbtx90",
+      "front": "el desconcierto",
+      "back": "le désarroi"
+    },
+    {
+      "id": "8apms9",
+      "front": "la perplejidad",
+      "back": "la perplexité"
+    },
+    {
+      "id": "5xmx78",
+      "front": "la incertidumbre",
+      "back": "l'incertitude"
+    },
+    {
+      "id": "kuuef1",
+      "front": "la inquietud",
+      "back": "l'inquiétude"
+    },
+    {
+      "id": "pqs8vf",
+      "front": "la ansiedad",
+      "back": "l'anxiété"
+    },
+    {
+      "id": "5n7q6u",
+      "front": "la angustia existencial",
+      "back": "l'angoisse existentielle"
+    },
+    {
+      "id": "qywdfx",
+      "front": "el desasosiego",
+      "back": "le trouble, l'agitation intérieure"
+    },
+    {
+      "id": "t2tpzt",
+      "front": "la melancolía",
+      "back": "la mélancolie"
+    },
+    {
+      "id": "65f3ko",
+      "front": "el desánimo",
+      "back": "le découragement"
+    },
+    {
+      "id": "rddmfb",
+      "front": "la desesperación",
+      "back": "le désespoir"
+    },
+    {
+      "id": "92mj0l",
+      "front": "la resignación",
+      "back": "la résignation"
+    },
+    {
+      "id": "ceodor",
+      "front": "la frustración",
+      "back": "la frustration"
+    },
+    {
+      "id": "18xyub",
+      "front": "la impotencia",
+      "back": "l'impuissance"
+    },
+    {
+      "id": "e9uxu7",
+      "front": "el alivio profundo",
+      "back": "le profond soulagement"
+    },
+    {
+      "id": "sfgxhq",
+      "front": "la serenidad",
+      "back": "la sérénité"
+    },
+    {
+      "id": "47fzhx",
+      "front": "el sosiego",
+      "back": "le calme, la quiétude"
+    },
+    {
+      "id": "vu6n8r",
+      "front": "la euforia",
+      "back": "l'euphorie"
+    },
+    {
+      "id": "e37wdm",
+      "front": "el entusiasmo",
+      "back": "l'enthousiasme"
+    },
+    {
+      "id": "paf10e",
+      "front": "el arrebato",
+      "back": "l'emportement"
+    },
+    {
+      "id": "yrqu84",
+      "front": "la obsesión",
+      "back": "l'obsession"
+    },
+    {
+      "id": "uacwwa",
+      "front": "la manía",
+      "back": "la manie"
+    },
+    {
+      "id": "gqc1xf",
+      "front": "el capricho",
+      "back": "le caprice"
+    },
+    {
+      "id": "nv9p0n",
+      "front": "el prejuicio inconsciente",
+      "back": "le préjugé inconscient"
+    },
+    {
+      "id": "k9g5up",
+      "front": "la negación",
+      "back": "le déni"
+    },
+    {
+      "id": "baph09",
+      "front": "la proyección",
+      "back": "la projection"
+    },
+    {
+      "id": "4n1rnw",
+      "front": "la represión psíquica",
+      "back": "le refoulement"
+    },
+    {
+      "id": "yt6dzy",
+      "front": "el complejo",
+      "back": "le complexe"
+    },
+    {
+      "id": "7nzgur",
+      "front": "el trauma",
+      "back": "le traumatisme"
+    },
+    {
+      "id": "oqrvsy",
+      "front": "la fobia",
+      "back": "la phobie"
+    },
+    {
+      "id": "d6ld8c",
+      "front": "la depresión",
+      "back": "la dépression"
+    },
+    {
+      "id": "cjnv82",
+      "front": "el trastorno bipolar",
+      "back": "le trouble bipolaire"
+    },
+    {
+      "id": "rcs8gp",
+      "front": "la esquizofrenia",
+      "back": "la schizophrénie"
+    },
+    {
+      "id": "mi5rr3",
+      "front": "la neurosis",
+      "back": "la névrose"
+    },
+    {
+      "id": "kzlu6n",
+      "front": "la psicosis",
+      "back": "la psychose"
+    },
+    {
+      "id": "7xyfga",
+      "front": "la terapia",
+      "back": "la thérapie"
+    },
+    {
+      "id": "9kvyea",
+      "front": "el psicoanálisis",
+      "back": "la psychanalyse"
+    },
+    {
+      "id": "3haka3",
+      "front": "la sesión",
+      "back": "la séance"
+    },
+    {
+      "id": "lb0w0x",
+      "front": "el diván",
+      "back": "le divan"
+    },
+    {
+      "id": "6dqb6p",
+      "front": "el psicoterapeuta",
+      "back": "le psychothérapeute"
+    },
+    {
+      "id": "3zrboy",
+      "front": "el paciente",
+      "back": "le patient"
+    },
+    {
+      "id": "hkb41k",
+      "front": "el duelo",
+      "back": "le deuil"
+    },
+    {
+      "id": "6puozm",
+      "front": "la resiliencia",
+      "back": "la résilience"
+    },
+    {
+      "id": "m7gxr7",
+      "front": "la superación",
+      "back": "le dépassement de soi"
+    },
+    {
+      "id": "we1hga",
+      "front": "el autocontrol",
+      "back": "la maîtrise de soi"
+    },
+    {
+      "id": "sth6sh",
+      "front": "la introspección",
+      "back": "l'introspection"
+    },
+    {
+      "id": "l5noy1",
+      "front": "la madurez emocional",
+      "back": "la maturité affective"
+    },
+    {
+      "id": "7jbmt5",
+      "front": "el vínculo afectivo",
+      "back": "le lien affectif"
+    },
+    {
+      "id": "kzcruu",
+      "front": "el apego",
+      "back": "l'attachement"
+    },
+    {
+      "id": "3srhox",
+      "front": "la dependencia emocional",
+      "back": "la dépendance affective"
+    },
+    {
+      "id": "limskb",
+      "front": "el rechazo",
+      "back": "le rejet"
+    },
+    {
+      "id": "geidpm",
+      "front": "la autoexigencia",
+      "back": "l'exigence envers soi-même"
+    },
+    {
+      "id": "4fqf32",
+      "front": "percibir",
+      "back": "percevoir"
+    },
+    {
+      "id": "gxow5s",
+      "front": "reprimir",
+      "back": "refouler"
+    },
+    {
+      "id": "tcdd9b",
+      "front": "asumir",
+      "back": "assumer"
+    },
+    {
+      "id": "ls2lhv",
+      "front": "superar",
+      "back": "surmonter"
+    },
+    {
+      "id": "s02lh2",
+      "front": "sobrellevar",
+      "back": "supporter, endurer"
+    },
+    {
+      "id": "swp06u",
+      "front": "angustiarse",
+      "back": "s'angoisser"
+    },
+    {
+      "id": "cukn2j",
+      "front": "obsesionarse",
+      "back": "devenir obsédé"
+    },
+    {
+      "id": "3iqnvi",
+      "front": "desahogarse",
+      "back": "se soulager, se confier"
+    },
+    {
+      "id": "7arecw",
+      "front": "autoengañarse",
+      "back": "se mentir à soi-même"
+    }
+  ]
+}
