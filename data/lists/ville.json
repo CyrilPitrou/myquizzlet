@@ -17,12 +17,12 @@
     {
       "id": "eq66tu",
       "front": "congested",
-      "back": "embouteillé"
+      "back": "encombré, engorgé"
     },
     {
       "id": "ixt60u",
       "front": "rush hour",
-      "back": "heure de pointe"
+      "back": "l'heure de pointe"
     },
     {
       "id": "qpnlua",
@@ -36,13 +36,13 @@
     },
     {
       "id": "keflm4",
-      "front": "dustmen/ collectors",
+      "front": "dustmen (UK) / garbage collectors (US)",
       "back": "les éboueurs"
     },
     {
       "id": "ra6idz",
       "front": "the ramparts",
-      "back": "les ramparts"
+      "back": "les remparts"
     },
     {
       "id": "qghgz2",
@@ -51,8 +51,8 @@
     },
     {
       "id": "5h3zve",
-      "front": "a shanty town/ slum",
-      "back": "bidonville"
+      "front": "a shanty town / slum",
+      "back": "un bidonville"
     },
     {
       "id": "thh78d",
@@ -76,7 +76,7 @@
     },
     {
       "id": "rq1rih",
-      "front": "a lamppost/ streetlight",
+      "front": "a lamppost / streetlight",
       "back": "un réverbère"
     },
     {
@@ -91,7 +91,7 @@
     },
     {
       "id": "kmdshw",
-      "front": "a lane/ alley",
+      "front": "a lane / alley",
       "back": "une ruelle"
     },
     {
@@ -127,7 +127,7 @@
     {
       "id": "xpav6z",
       "front": "the eaves",
-      "back": "l'avant toit"
+      "back": "l'avant-toit"
     },
     {
       "id": "hn7qk8",
@@ -151,7 +151,12 @@
     },
     {
       "id": "qrflk9",
-      "front": "to shack up",
+      "front": "to shack up (with sb)",
+      "back": "se mettre en ménage, vivre avec qqn"
+    },
+    {
+      "id": "uynhrb",
+      "front": "to crash somewhere / to doss down",
       "back": "crécher"
     },
     {
@@ -162,7 +167,7 @@
     {
       "id": "17cfpo",
       "front": "jammed",
-      "back": "embouteillé"
+      "back": "bloqué, embouteillé"
     },
     {
       "id": "xihv1b",
@@ -171,7 +176,7 @@
     },
     {
       "id": "44tvu1",
-      "front": "a scaffholding",
+      "front": "scaffolding",
       "back": "un échafaudage"
     },
     {
@@ -192,11 +197,11 @@
     {
       "id": "psi1x2",
       "front": "cityscape",
-      "back": "paysage urbain"
+      "back": "un paysage urbain"
     },
     {
       "id": "9x0ja7",
-      "front": "a bedsit/efficiency appartment",
+      "front": "a bedsit / an efficiency apartment",
       "back": "un studio"
     },
     {
@@ -217,37 +222,37 @@
     {
       "id": "rwe8mz",
       "front": "passers-by",
-      "back": "passants"
+      "back": "les passants"
     },
     {
       "id": "yg84mm",
       "front": "pedestrian",
-      "back": "piéton"
+      "back": "un piéton"
     },
     {
       "id": "lwcfrk",
       "front": "mortar",
-      "back": "mortier"
+      "back": "du mortier"
     },
     {
       "id": "f77tmz",
-      "front": "a board/ plank",
+      "front": "a board / plank",
       "back": "une planche"
     },
     {
       "id": "83cas3",
       "front": "cement",
-      "back": "ciment"
+      "back": "du ciment"
     },
     {
       "id": "hqrtsq",
       "front": "concrete",
-      "back": "béton"
+      "back": "du béton"
     },
     {
       "id": "ymx0fq",
       "front": "plaster",
-      "back": "plâtre"
+      "back": "du plâtre"
     },
     {
       "id": "dsrk97",
@@ -256,26 +261,26 @@
     },
     {
       "id": "3gs2jh",
-      "front": "lay the foundations",
+      "front": "to lay the foundations",
       "back": "poser les fondations"
     },
     {
       "id": "6tqvmp",
-      "front": "the causeway",
+      "front": "the roadway / the carriageway",
       "back": "la chaussée"
     },
     {
       "id": "mjm6q3",
-      "front": "the sidewalk/ pavement",
+      "front": "the sidewalk / pavement",
       "back": "le trottoir"
     },
     {
       "id": "5odw74",
-      "front": "zebra crossing/ pedestrian crossing",
+      "front": "zebra crossing / pedestrian crossing",
       "back": "passage piéton"
     }
   ],
-  "updatedAt": "2026-09-03T16:31:26.334Z",
+  "updatedAt": "2026-09-04T00:00:00.000Z",
   "frontLabel": "English",
   "backLabel": "French",
   "folder": "English"
