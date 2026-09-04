@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-science-1",
+  "name": "Science and Research 1",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "hbxqf4",
+      "front": "a hypothesis",
+      "back": "une hypothèse"
+    },
+    {
+      "id": "ngx02k",
+      "front": "a conjecture",
+      "back": "une conjecture"
+    },
+    {
+      "id": "r3xnd1",
+      "front": "a postulate",
+      "back": "un postulat"
+    },
+    {
+      "id": "z2bcjv",
+      "front": "an axiom",
+      "back": "un axiome"
+    },
+    {
+      "id": "tszoqd",
+      "front": "a premise",
+      "back": "une prémisse"
+    },
+    {
+      "id": "wit533",
+      "front": "an inference",
+      "back": "une inférence, une déduction"
+    },
+    {
+      "id": "h883vn",
+      "front": "to corroborate",
+      "back": "corroborer"
+    },
+    {
+      "id": "fjd4e7",
+      "front": "to falsify",
+      "back": "réfuter, infirmer"
+    },
+    {
+      "id": "q916pu",
+      "front": "falsifiability",
+      "back": "la réfutabilité"
+    },
+    {
+      "id": "61wmr9",
+      "front": "to replicate",
+      "back": "reproduire (une expérience)"
+    },
+    {
+      "id": "o4vjuq",
+      "front": "the replication crisis",
+      "back": "la crise de la reproductibilité"
+    },
+    {
+      "id": "w5mgad",
+      "front": "peer review",
+      "back": "l'évaluation par les pairs"
+    },
+    {
+      "id": "8nqtdi",
+      "front": "a referee",
+      "back": "un rapporteur, un évaluateur"
+    },
+    {
+      "id": "cbxcbl",
+      "front": "a preprint",
+      "back": "une prépublication"
+    },
+    {
+      "id": "jw6buh",
+      "front": "a retraction",
+      "back": "une rétractation"
+    },
+    {
+      "id": "pnt7xy",
+      "front": "a citation",
+      "back": "une citation, une référence"
+    },
+    {
+      "id": "zt91rd",
+      "front": "a journal",
+      "back": "une revue scientifique"
+    },
+    {
+      "id": "3yb5ya",
+      "front": "an abstract",
+      "back": "un résumé"
+    },
+    {
+      "id": "3ec4jc",
+      "front": "a methodology",
+      "back": "une méthodologie"
+    },
+    {
+      "id": "t2g7ch",
+      "front": "a protocol",
+      "back": "un protocole"
+    },
+    {
+      "id": "jgm1mq",
+      "front": "a control group",
+      "back": "un groupe témoin"
+    },
+    {
+      "id": "sijwts",
+      "front": "a placebo",
+      "back": "un placebo"
+    },
+    {
+      "id": "ovblms",
+      "front": "a double-blind trial",
+      "back": "un essai en double aveugle"
+    },
+    {
+      "id": "jakz3y",
+      "front": "a randomised trial",
+      "back": "un essai randomisé"
+    },
+    {
+      "id": "8z2y8t",
+      "front": "a cohort study",
+      "back": "une étude de cohorte"
+    },
+    {
+      "id": "60p1fr",
+      "front": "a longitudinal study",
+      "back": "une étude longitudinale"
+    },
+    {
+      "id": "dhiqqv",
+      "front": "a cross-sectional study",
+      "back": "une étude transversale"
+    },
+    {
+      "id": "vh3tna",
+      "front": "a meta-analysis",
+      "back": "une méta-analyse"
+    },
+    {
+      "id": "gxjto9",
+      "front": "a systematic review",
+      "back": "une revue systématique"
+    },
+    {
+      "id": "3luku4",
+      "front": "a sample",
+      "back": "un échantillon"
+    },
+    {
+      "id": "j1es4x",
+      "front": "sample size",
+      "back": "la taille de l'échantillon"
+    },
+    {
+      "id": "ky9f19",
+      "front": "a confound",
+      "back": "un facteur de confusion"
+    },
+    {
+      "id": "a6foyo",
+      "front": "a bias",
+      "back": "un biais"
+    },
+    {
+      "id": "f5w9ep",
+      "front": "selection bias",
+      "back": "un biais de sélection"
+    },
+    {
+      "id": "5rcyjw",
+      "front": "publication bias",
+      "back": "un biais de publication"
+    },
+    {
+      "id": "246r09",
+      "front": "a variable",
+      "back": "une variable"
+    },
+    {
+      "id": "373psr",
+      "front": "a correlation",
+      "back": "une corrélation"
+    },
+    {
+      "id": "jh9ca4",
+      "front": "a causal link",
+      "back": "un lien de causalité"
+    },
+    {
+      "id": "wufq97",
+      "front": "statistical significance",
+      "back": "la signification statistique"
+    },
+    {
+      "id": "lta15e",
+      "front": "a p-value",
+      "back": "une valeur p"
+    },
+    {
+      "id": "b9lto6",
+      "front": "a confidence interval",
+      "back": "un intervalle de confiance"
+    },
+    {
+      "id": "81ew0y",
+      "front": "a margin of error",
+      "back": "une marge d'erreur"
+    },
+    {
+      "id": "nwa5q7",
+      "front": "standard deviation",
+      "back": "l'écart type"
+    },
+    {
+      "id": "mcclrk",
+      "front": "a mean",
+      "back": "une moyenne"
+    },
+    {
+      "id": "rvevtl",
+      "front": "a median",
+      "back": "une médiane"
+    },
+    {
+      "id": "g7zxpj",
+      "front": "an outlier",
+      "back": "une valeur aberrante"
+    },
+    {
+      "id": "3yozu5",
+      "front": "a data set",
+      "back": "un jeu de données"
+    },
+    {
+      "id": "5n6tyg",
+      "front": "a model",
+      "back": "un modèle"
+    },
+    {
+      "id": "eb8ulc",
+      "front": "to simulate",
+      "back": "simuler"
+    },
+    {
+      "id": "mbedkm",
+      "front": "a proxy",
+      "back": "un indicateur indirect, une variable de substitution"
+    },
+    {
+      "id": "0n7mh5",
+      "front": "an approximation",
+      "back": "une approximation"
+    },
+    {
+      "id": "ahjho3",
+      "front": "an order of magnitude",
+      "back": "un ordre de grandeur"
+    },
+    {
+      "id": "krbile",
+      "front": "empirical",
+      "back": "empirique"
+    },
+    {
+      "id": "m6n1wx",
+      "front": "anecdotal",
+      "back": "anecdotique"
+    },
+    {
+      "id": "umdzmq",
+      "front": "quantitative",
+      "back": "quantitatif"
+    },
+    {
+      "id": "22xtjw",
+      "front": "qualitative",
+      "back": "qualitatif"
+    },
+    {
+      "id": "int1s0",
+      "front": "rigorous",
+      "back": "rigoureux"
+    },
+    {
+      "id": "6weiai",
+      "front": "robust",
+      "back": "robuste, solide"
+    },
+    {
+      "id": "vdcom0",
+      "front": "tentative",
+      "back": "provisoire, préliminaire"
+    },
+    {
+      "id": "c5erjv",
+      "front": "inconclusive",
+      "back": "peu concluant"
+    },
+    {
+      "id": "ls4yjs",
+      "front": "a breakthrough",
+      "back": "une percée"
+    },
+    {
+      "id": "p2ss07",
+      "front": "a finding",
+      "back": "une conclusion, un résultat"
+    },
+    {
+      "id": "5jlsdz",
+      "front": "a landmark study",
+      "back": "une étude majeure"
+    },
+    {
+      "id": "bk9kxd",
+      "front": "a paradigm shift",
+      "back": "un changement de paradigme"
+    },
+    {
+      "id": "apvqn7",
+      "front": "a discipline",
+      "back": "une discipline"
+    },
+    {
+      "id": "1br1tw",
+      "front": "interdisciplinary",
+      "back": "interdisciplinaire"
+    },
+    {
+      "id": "3sulml",
+      "front": "a field of enquiry",
+      "back": "un domaine de recherche"
+    },
+    {
+      "id": "8eggfb",
+      "front": "a research grant",
+      "back": "une bourse de recherche"
+    },
+    {
+      "id": "kxugpt",
+      "front": "funding",
+      "back": "le financement"
+    },
+    {
+      "id": "i78ges",
+      "front": "a laboratory",
+      "back": "un laboratoire"
+    },
+    {
+      "id": "68mwyi",
+      "front": "an apparatus",
+      "back": "un appareillage, un dispositif"
+    },
+    {
+      "id": "ipcerk",
+      "front": "an instrument",
+      "back": "un instrument"
+    },
+    {
+      "id": "5jvzk2",
+      "front": "a specimen",
+      "back": "un spécimen"
+    },
+    {
+      "id": "3orgiv",
+      "front": "a probe",
+      "back": "une sonde"
+    },
+    {
+      "id": "w9tsex",
+      "front": "a telescope array",
+      "back": "un réseau de télescopes"
+    },
+    {
+      "id": "gjjq76",
+      "front": "a particle accelerator",
+      "back": "un accélérateur de particules"
+    },
+    {
+      "id": "m15p6o",
+      "front": "an observation",
+      "back": "une observation"
+    },
+    {
+      "id": "ijzraj",
+      "front": "a measurement",
+      "back": "une mesure"
+    },
+    {
+      "id": "tjcgov",
+      "front": "calibration",
+      "back": "l'étalonnage"
+    },
+    {
+      "id": "2ojwf5",
+      "front": "precision",
+      "back": "la précision"
+    },
+    {
+      "id": "hfb08r",
+      "front": "accuracy",
+      "back": "l'exactitude"
+    },
+    {
+      "id": "z1lft5",
+      "front": "a margin",
+      "back": "une marge"
+    },
+    {
+      "id": "6z5c9f",
+      "front": "to extrapolate",
+      "back": "extrapoler"
+    },
+    {
+      "id": "pdz2jh",
+      "front": "to interpolate",
+      "back": "interpoler"
+    },
+    {
+      "id": "8fdqo4",
+      "front": "to infer",
+      "back": "déduire, inférer"
+    },
+    {
+      "id": "0yo1ho",
+      "front": "to posit",
+      "back": "poser, avancer (une thèse)"
+    },
+    {
+      "id": "zk82cl",
+      "front": "to hypothesise",
+      "back": "émettre l'hypothèse que"
+    },
+    {
+      "id": "f1we52",
+      "front": "to demonstrate",
+      "back": "démontrer"
+    },
+    {
+      "id": "x3apjk",
+      "front": "to refute",
+      "back": "réfuter"
+    },
+    {
+      "id": "dul6de",
+      "front": "to validate",
+      "back": "valider"
+    },
+    {
+      "id": "ub91ht",
+      "front": "to substantiate",
+      "back": "étayer, justifier"
+    },
+    {
+      "id": "z7plwg",
+      "front": "scientific consensus",
+      "back": "le consensus scientifique"
+    },
+    {
+      "id": "nzrytj",
+      "front": "a dissenting view",
+      "back": "une voix discordante"
+    },
+    {
+      "id": "om8z7e",
+      "front": "pseudoscience",
+      "back": "la pseudoscience"
+    },
+    {
+      "id": "p9nvow",
+      "front": "scepticism",
+      "back": "le scepticisme"
+    },
+    {
+      "id": "1v627r",
+      "front": "Occam's razor",
+      "back": "le rasoir d'Occam"
+    },
+    {
+      "id": "s8s0ce",
+      "front": "a thought experiment",
+      "back": "une expérience de pensée"
+    },
+    {
+      "id": "5vlxah",
+      "front": "a first principle",
+      "back": "un principe premier"
+    },
+    {
+      "id": "71ecql",
+      "front": "serendipity",
+      "back": "la sérendipité, la découverte fortuite"
+    },
+    {
+      "id": "qf40oo",
+      "front": "a null result",
+      "back": "un résultat négatif"
+    }
+  ]
+}
