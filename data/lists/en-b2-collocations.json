@@ -1,0 +1,412 @@
+{
+  "id": "en-b2-collocations",
+  "name": "Make, Do, Take, Get: Collocations",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "3e9de0",
+      "front": "to make a decision",
+      "back": "prendre une décision"
+    },
+    {
+      "id": "dc25ee",
+      "front": "to make an effort",
+      "back": "faire un effort"
+    },
+    {
+      "id": "9a1795",
+      "front": "to make a mistake",
+      "back": "faire une erreur"
+    },
+    {
+      "id": "d53d40",
+      "front": "to make progress",
+      "back": "faire des progrès"
+    },
+    {
+      "id": "993603",
+      "front": "to make an appointment",
+      "back": "prendre rendez-vous"
+    },
+    {
+      "id": "7f915a",
+      "front": "to make a profit",
+      "back": "réaliser un bénéfice"
+    },
+    {
+      "id": "b47bc8",
+      "front": "to make a fortune",
+      "back": "faire fortune"
+    },
+    {
+      "id": "aa5e11",
+      "front": "to make a living",
+      "back": "gagner sa vie"
+    },
+    {
+      "id": "3f9a1a",
+      "front": "to make a difference",
+      "back": "changer les choses"
+    },
+    {
+      "id": "e48f5b",
+      "front": "to make an impression",
+      "back": "faire impression"
+    },
+    {
+      "id": "3a285d",
+      "front": "to make an exception",
+      "back": "faire une exception"
+    },
+    {
+      "id": "a40b8d",
+      "front": "to make an excuse",
+      "back": "trouver une excuse"
+    },
+    {
+      "id": "edc876",
+      "front": "to make a fuss",
+      "back": "faire des histoires"
+    },
+    {
+      "id": "fb7f3a",
+      "front": "to make a point",
+      "back": "faire valoir un argument"
+    },
+    {
+      "id": "27fd0a",
+      "front": "to make sense",
+      "back": "avoir du sens"
+    },
+    {
+      "id": "314564",
+      "front": "to make room",
+      "back": "faire de la place"
+    },
+    {
+      "id": "c63074",
+      "front": "to make time for",
+      "back": "dégager du temps pour"
+    },
+    {
+      "id": "60a70c",
+      "front": "to make amends",
+      "back": "réparer ses torts"
+    },
+    {
+      "id": "01043f",
+      "front": "to make headway",
+      "back": "avancer, progresser"
+    },
+    {
+      "id": "a34bc1",
+      "front": "to make a case for",
+      "back": "plaider en faveur de"
+    },
+    {
+      "id": "4662aa",
+      "front": "to make allowances for",
+      "back": "tenir compte de"
+    },
+    {
+      "id": "744536",
+      "front": "to make do with",
+      "back": "se contenter de"
+    },
+    {
+      "id": "d5e123",
+      "front": "to make up for",
+      "back": "compenser"
+    },
+    {
+      "id": "4d3367",
+      "front": "to do business",
+      "back": "faire des affaires"
+    },
+    {
+      "id": "67b500",
+      "front": "to do research",
+      "back": "faire des recherches"
+    },
+    {
+      "id": "5a75c2",
+      "front": "to do harm",
+      "back": "faire du tort"
+    },
+    {
+      "id": "4c986d",
+      "front": "to do damage",
+      "back": "causer des dégâts"
+    },
+    {
+      "id": "0fb6cb",
+      "front": "to do one's best",
+      "back": "faire de son mieux"
+    },
+    {
+      "id": "44028b",
+      "front": "to do one's duty",
+      "back": "faire son devoir"
+    },
+    {
+      "id": "e12f88",
+      "front": "to do a favour",
+      "back": "rendre un service"
+    },
+    {
+      "id": "764c47",
+      "front": "to do the washing-up",
+      "back": "faire la vaisselle"
+    },
+    {
+      "id": "5c0762",
+      "front": "to do the shopping",
+      "back": "faire les courses"
+    },
+    {
+      "id": "48017e",
+      "front": "to do homework",
+      "back": "faire ses devoirs"
+    },
+    {
+      "id": "427354",
+      "front": "to do a course",
+      "back": "suivre un cours"
+    },
+    {
+      "id": "74714b",
+      "front": "to do an experiment",
+      "back": "réaliser une expérience"
+    },
+    {
+      "id": "67b6f3",
+      "front": "to do justice to",
+      "back": "rendre justice à"
+    },
+    {
+      "id": "2a2575",
+      "front": "to do without",
+      "back": "se passer de"
+    },
+    {
+      "id": "988160",
+      "front": "to do away with",
+      "back": "supprimer, abolir"
+    },
+    {
+      "id": "cdb733",
+      "front": "to do up",
+      "back": "rénover, boutonner"
+    },
+    {
+      "id": "4a48d0",
+      "front": "to take action",
+      "back": "agir, passer à l'acte"
+    },
+    {
+      "id": "2ab5ff",
+      "front": "to take steps",
+      "back": "prendre des mesures"
+    },
+    {
+      "id": "d5c1d0",
+      "front": "to take measures",
+      "back": "prendre des mesures"
+    },
+    {
+      "id": "88e640",
+      "front": "to take responsibility",
+      "back": "assumer la responsabilité"
+    },
+    {
+      "id": "6ae386",
+      "front": "to take the blame",
+      "back": "endosser la faute"
+    },
+    {
+      "id": "3ec640",
+      "front": "to take advantage of",
+      "back": "profiter de, exploiter"
+    },
+    {
+      "id": "86ff03",
+      "front": "to take account of",
+      "back": "tenir compte de"
+    },
+    {
+      "id": "3633bd",
+      "front": "to take part in",
+      "back": "prendre part à"
+    },
+    {
+      "id": "145168",
+      "front": "to take place",
+      "back": "avoir lieu"
+    },
+    {
+      "id": "a47afa",
+      "front": "to take office",
+      "back": "entrer en fonction"
+    },
+    {
+      "id": "2188e3",
+      "front": "to take effect",
+      "back": "entrer en vigueur"
+    },
+    {
+      "id": "5e4004",
+      "front": "to take shape",
+      "back": "prendre forme"
+    },
+    {
+      "id": "722a09",
+      "front": "to take root",
+      "back": "prendre racine, s'implanter"
+    },
+    {
+      "id": "2b4471",
+      "front": "to take priority",
+      "back": "avoir la priorité"
+    },
+    {
+      "id": "51ae9e",
+      "front": "to take precedence over",
+      "back": "primer sur"
+    },
+    {
+      "id": "26d170",
+      "front": "to take a risk",
+      "back": "prendre un risque"
+    },
+    {
+      "id": "b3f29c",
+      "front": "to take a stand",
+      "back": "prendre position"
+    },
+    {
+      "id": "47163d",
+      "front": "to take issue with",
+      "back": "contester, s'inscrire en faux contre"
+    },
+    {
+      "id": "2a53bc",
+      "front": "to take offence",
+      "back": "se vexer, s'offusquer"
+    },
+    {
+      "id": "68556e",
+      "front": "to take pity on",
+      "back": "prendre en pitié"
+    },
+    {
+      "id": "c200f2",
+      "front": "to take pride in",
+      "back": "tirer fierté de"
+    },
+    {
+      "id": "c8593a",
+      "front": "to take notice of",
+      "back": "prêter attention à"
+    },
+    {
+      "id": "35285d",
+      "front": "to take stock of",
+      "back": "faire le point sur"
+    },
+    {
+      "id": "36bfd0",
+      "front": "to take a toll on",
+      "back": "peser lourdement sur"
+    },
+    {
+      "id": "ea7bb3",
+      "front": "to take its course",
+      "back": "suivre son cours"
+    },
+    {
+      "id": "8b3858",
+      "front": "to get a degree",
+      "back": "obtenir un diplôme"
+    },
+    {
+      "id": "30a983",
+      "front": "to get permission",
+      "back": "obtenir une autorisation"
+    },
+    {
+      "id": "c65341",
+      "front": "to get the impression",
+      "back": "avoir l'impression"
+    },
+    {
+      "id": "59e400",
+      "front": "to get the point",
+      "back": "saisir l'essentiel"
+    },
+    {
+      "id": "ebcd0b",
+      "front": "to get results",
+      "back": "obtenir des résultats"
+    },
+    {
+      "id": "0a283a",
+      "front": "to get into trouble",
+      "back": "s'attirer des ennuis"
+    },
+    {
+      "id": "859038",
+      "front": "to get out of hand",
+      "back": "devenir incontrôlable"
+    },
+    {
+      "id": "84fbd4",
+      "front": "to get down to business",
+      "back": "passer aux choses sérieuses"
+    },
+    {
+      "id": "ca0536",
+      "front": "to get one's own way",
+      "back": "obtenir ce que l'on veut"
+    },
+    {
+      "id": "7b6703",
+      "front": "to get rid of",
+      "back": "se débarrasser de"
+    },
+    {
+      "id": "d929cf",
+      "front": "to get in touch with",
+      "back": "prendre contact avec"
+    },
+    {
+      "id": "315364",
+      "front": "to get the hang of",
+      "back": "prendre le coup de main"
+    },
+    {
+      "id": "b6e21c",
+      "front": "to get carried away",
+      "back": "se laisser emporter"
+    },
+    {
+      "id": "3a4d75",
+      "front": "to get the better of",
+      "back": "prendre le dessus sur"
+    },
+    {
+      "id": "f3909a",
+      "front": "to get wind of",
+      "back": "avoir vent de"
+    },
+    {
+      "id": "906b33",
+      "front": "to get a job",
+      "back": "obtenir un emploi"
+    }
+  ]
+}
