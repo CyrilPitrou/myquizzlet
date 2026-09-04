@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-comida-cocina",
+  "name": "La comida y la cocina",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "iqs8t5",
+      "front": "la comida",
+      "back": "la nourriture, le repas"
+    },
+    {
+      "id": "hxkkkm",
+      "front": "el desayuno",
+      "back": "le petit-déjeuner"
+    },
+    {
+      "id": "c37lui",
+      "front": "el almuerzo",
+      "back": "le déjeuner"
+    },
+    {
+      "id": "t3w7fz",
+      "front": "la merienda",
+      "back": "le goûter"
+    },
+    {
+      "id": "3dqn7d",
+      "front": "la cena",
+      "back": "le dîner"
+    },
+    {
+      "id": "gwg1mn",
+      "front": "el plato",
+      "back": "le plat, l'assiette"
+    },
+    {
+      "id": "gk0z73",
+      "front": "el primer plato",
+      "back": "l'entrée"
+    },
+    {
+      "id": "b3r3dj",
+      "front": "el postre",
+      "back": "le dessert"
+    },
+    {
+      "id": "ohrcx0",
+      "front": "la bebida",
+      "back": "la boisson"
+    },
+    {
+      "id": "7fg4r7",
+      "front": "el agua",
+      "back": "l'eau"
+    },
+    {
+      "id": "ptuxaf",
+      "front": "el vino",
+      "back": "le vin"
+    },
+    {
+      "id": "6wqd30",
+      "front": "la cerveza",
+      "back": "la bière"
+    },
+    {
+      "id": "zo3wwm",
+      "front": "el zumo",
+      "back": "le jus de fruits"
+    },
+    {
+      "id": "5zqbr9",
+      "front": "el café",
+      "back": "le café"
+    },
+    {
+      "id": "c9fgjq",
+      "front": "el té",
+      "back": "le thé"
+    },
+    {
+      "id": "7czek2",
+      "front": "la leche",
+      "back": "le lait"
+    },
+    {
+      "id": "rdnz4d",
+      "front": "el pan",
+      "back": "le pain"
+    },
+    {
+      "id": "7m14jk",
+      "front": "la harina",
+      "back": "la farine"
+    },
+    {
+      "id": "1usuor",
+      "front": "el arroz",
+      "back": "le riz"
+    },
+    {
+      "id": "eqvugm",
+      "front": "la pasta",
+      "back": "les pâtes"
+    },
+    {
+      "id": "yv75i4",
+      "front": "la carne",
+      "back": "la viande"
+    },
+    {
+      "id": "5kwlp8",
+      "front": "la ternera",
+      "back": "le veau, le bœuf"
+    },
+    {
+      "id": "n17exk",
+      "front": "el cerdo",
+      "back": "le porc"
+    },
+    {
+      "id": "be6gk9",
+      "front": "el pollo",
+      "back": "le poulet"
+    },
+    {
+      "id": "eefk9w",
+      "front": "el cordero",
+      "back": "l'agneau"
+    },
+    {
+      "id": "0yx03t",
+      "front": "el jamón",
+      "back": "le jambon"
+    },
+    {
+      "id": "kv8ltj",
+      "front": "la salchicha",
+      "back": "la saucisse"
+    },
+    {
+      "id": "0axc0o",
+      "front": "el pescado",
+      "back": "le poisson"
+    },
+    {
+      "id": "6gf4tz",
+      "front": "el marisco",
+      "back": "les fruits de mer"
+    },
+    {
+      "id": "zji9l6",
+      "front": "la gamba",
+      "back": "la crevette"
+    },
+    {
+      "id": "ctsaxs",
+      "front": "el huevo",
+      "back": "l'œuf"
+    },
+    {
+      "id": "8t5qtx",
+      "front": "el queso",
+      "back": "le fromage"
+    },
+    {
+      "id": "872j1l",
+      "front": "la mantequilla",
+      "back": "le beurre"
+    },
+    {
+      "id": "cpxc46",
+      "front": "el aceite",
+      "back": "l'huile"
+    },
+    {
+      "id": "w9kco0",
+      "front": "el vinagre",
+      "back": "le vinaigre"
+    },
+    {
+      "id": "jv6vt2",
+      "front": "la sal",
+      "back": "le sel"
+    },
+    {
+      "id": "fms4qm",
+      "front": "la pimienta",
+      "back": "le poivre"
+    },
+    {
+      "id": "vgtk60",
+      "front": "el azúcar",
+      "back": "le sucre"
+    },
+    {
+      "id": "7tbtwl",
+      "front": "la verdura",
+      "back": "les légumes"
+    },
+    {
+      "id": "ps4ep6",
+      "front": "la patata",
+      "back": "la pomme de terre"
+    },
+    {
+      "id": "aepu6z",
+      "front": "el tomate",
+      "back": "la tomate"
+    },
+    {
+      "id": "ig31x5",
+      "front": "la cebolla",
+      "back": "l'oignon"
+    },
+    {
+      "id": "t9fmkz",
+      "front": "el ajo",
+      "back": "l'ail"
+    },
+    {
+      "id": "l2n7m1",
+      "front": "la zanahoria",
+      "back": "la carotte"
+    },
+    {
+      "id": "rz3egt",
+      "front": "la lechuga",
+      "back": "la laitue"
+    },
+    {
+      "id": "nltd4i",
+      "front": "el pimiento",
+      "back": "le poivron"
+    },
+    {
+      "id": "8lgvxa",
+      "front": "el pepino",
+      "back": "le concombre"
+    },
+    {
+      "id": "a8v2o6",
+      "front": "la judía verde",
+      "back": "le haricot vert"
+    },
+    {
+      "id": "rdocdd",
+      "front": "el guisante",
+      "back": "le petit pois"
+    },
+    {
+      "id": "ui80c2",
+      "front": "la seta",
+      "back": "le champignon"
+    },
+    {
+      "id": "ixpp56",
+      "front": "la fruta",
+      "back": "le fruit"
+    },
+    {
+      "id": "s0md4z",
+      "front": "la manzana",
+      "back": "la pomme"
+    },
+    {
+      "id": "f7j39f",
+      "front": "la pera",
+      "back": "la poire"
+    },
+    {
+      "id": "ido8vr",
+      "front": "el plátano",
+      "back": "la banane"
+    },
+    {
+      "id": "ukyhhk",
+      "front": "la naranja",
+      "back": "l'orange"
+    },
+    {
+      "id": "2ftgmp",
+      "front": "el limón",
+      "back": "le citron"
+    },
+    {
+      "id": "qkobvj",
+      "front": "la fresa",
+      "back": "la fraise"
+    },
+    {
+      "id": "si1p8z",
+      "front": "la uva",
+      "back": "le raisin"
+    },
+    {
+      "id": "yo9hc8",
+      "front": "el melocotón",
+      "back": "la pêche"
+    },
+    {
+      "id": "or4qe5",
+      "front": "la sandía",
+      "back": "la pastèque"
+    },
+    {
+      "id": "ztzp2p",
+      "front": "el melón",
+      "back": "le melon"
+    },
+    {
+      "id": "zvgkx0",
+      "front": "la nuez",
+      "back": "la noix"
+    },
+    {
+      "id": "4gtrjg",
+      "front": "la sartén",
+      "back": "la poêle"
+    },
+    {
+      "id": "6xfse6",
+      "front": "la olla",
+      "back": "la marmite"
+    },
+    {
+      "id": "30i01l",
+      "front": "la cazuela",
+      "back": "la casserole"
+    },
+    {
+      "id": "vhu4yl",
+      "front": "el cuchillo",
+      "back": "le couteau"
+    },
+    {
+      "id": "uv93kw",
+      "front": "el tenedor",
+      "back": "la fourchette"
+    },
+    {
+      "id": "2j1ccw",
+      "front": "la cuchara",
+      "back": "la cuillère"
+    },
+    {
+      "id": "9taria",
+      "front": "el vaso",
+      "back": "le verre"
+    },
+    {
+      "id": "kkpijv",
+      "front": "la taza",
+      "back": "la tasse"
+    },
+    {
+      "id": "617ko7",
+      "front": "la servilleta",
+      "back": "la serviette de table"
+    },
+    {
+      "id": "lmi340",
+      "front": "el mantel",
+      "back": "la nappe"
+    },
+    {
+      "id": "e5dt8o",
+      "front": "la receta",
+      "back": "la recette (de cuisine)"
+    },
+    {
+      "id": "wzb7jd",
+      "front": "el ingrediente",
+      "back": "l'ingrédient"
+    },
+    {
+      "id": "ufj8op",
+      "front": "la ración",
+      "back": "la portion"
+    },
+    {
+      "id": "2jx0m7",
+      "front": "el sabor",
+      "back": "le goût, la saveur"
+    },
+    {
+      "id": "ntg89k",
+      "front": "dulce",
+      "back": "sucré"
+    },
+    {
+      "id": "tk4g6m",
+      "front": "salado",
+      "back": "salé"
+    },
+    {
+      "id": "vun12g",
+      "front": "amargo",
+      "back": "amer"
+    },
+    {
+      "id": "kph24a",
+      "front": "picante",
+      "back": "épicé, piquant"
+    },
+    {
+      "id": "wy7hva",
+      "front": "soso",
+      "back": "fade"
+    },
+    {
+      "id": "yj8eif",
+      "front": "crudo",
+      "back": "cru"
+    },
+    {
+      "id": "tgqiuq",
+      "front": "cocido",
+      "back": "cuit"
+    },
+    {
+      "id": "hpq47g",
+      "front": "cocinar a fuego lento",
+      "back": "cuire à feu doux"
+    },
+    {
+      "id": "tyhd6e",
+      "front": "hervir",
+      "back": "bouillir"
+    },
+    {
+      "id": "26y0i7",
+      "front": "freír",
+      "back": "frire"
+    },
+    {
+      "id": "jbg3n3",
+      "front": "asar",
+      "back": "rôtir"
+    },
+    {
+      "id": "jngm3l",
+      "front": "cortar",
+      "back": "couper"
+    },
+    {
+      "id": "6p7eha",
+      "front": "pelar",
+      "back": "éplucher"
+    },
+    {
+      "id": "l4j2vx",
+      "front": "mezclar",
+      "back": "mélanger"
+    },
+    {
+      "id": "ayf0vv",
+      "front": "probar",
+      "back": "goûter"
+    },
+    {
+      "id": "9z4kle",
+      "front": "tener hambre",
+      "back": "avoir faim"
+    },
+    {
+      "id": "qrykoo",
+      "front": "tener sed",
+      "back": "avoir soif"
+    },
+    {
+      "id": "3uhfp2",
+      "front": "el restaurante",
+      "back": "le restaurant"
+    },
+    {
+      "id": "35vf77",
+      "front": "el camarero",
+      "back": "le serveur"
+    },
+    {
+      "id": "0yc7zk",
+      "front": "la carta",
+      "back": "le menu (la carte)"
+    },
+    {
+      "id": "xq1nfw",
+      "front": "el menú del día",
+      "back": "le menu du jour"
+    },
+    {
+      "id": "e4wswh",
+      "front": "la cuenta",
+      "back": "l'addition"
+    },
+    {
+      "id": "nvf596",
+      "front": "la propina",
+      "back": "le pourboire"
+    },
+    {
+      "id": "sw403a",
+      "front": "pedir",
+      "back": "commander"
+    }
+  ]
+}
