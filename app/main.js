@@ -29,7 +29,11 @@ function initSync() {
     onConflict: showConflict,
     canPush: Boolean(token),
   });
-  ctx.sync.syncNow();
+  // The first sync of a device pulls every list there is, which takes long
+  // enough that the screen painted before it is stale by the time it lands.
+  // Repaint when it does, or a phone that has just been given the repo shows
+  // an empty Lists screen while the lists sit in storage behind it.
+  ctx.sync.syncNow().then(repaintAfterSync);
 }
 
 // Temporary until a real conflict screen exists.
@@ -119,11 +123,10 @@ window.addEventListener('hashchange', render);
 // push debounce. Coming back to the app, or back online, is the real moment.
 // Redraw afterwards so pulled changes are visible — but never mid-session,
 // where a redraw would restart the round the user is in the middle of.
-const resync = () => {
-  ctx.sync?.syncNow().then(() => {
-    if (!/\/(train|test)\/[^/]+\/go$/.test(location.hash.split('?')[0])) render();
-  });
+const repaintAfterSync = () => {
+  if (!/\/(train|test)\/[^/]+\/go$/.test(location.hash.split('?')[0])) render();
 };
+const resync = () => { ctx.sync?.syncNow().then(repaintAfterSync); };
 document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'visible') resync();
 });
