@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-arte-literatura",
+  "name": "El arte y la literatura",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "86etyo",
+      "front": "el arte",
+      "back": "l'art"
+    },
+    {
+      "id": "jmp83q",
+      "front": "la obra de arte",
+      "back": "l'œuvre d'art"
+    },
+    {
+      "id": "0p1n6i",
+      "front": "la literatura española",
+      "back": "la littérature espagnole"
+    },
+    {
+      "id": "svjmat",
+      "front": "el género literario",
+      "back": "le genre littéraire"
+    },
+    {
+      "id": "j92490",
+      "front": "la novela histórica",
+      "back": "le roman historique"
+    },
+    {
+      "id": "q6sx6q",
+      "front": "el relato",
+      "back": "le récit"
+    },
+    {
+      "id": "ji45hn",
+      "front": "el cuento",
+      "back": "le conte, la nouvelle"
+    },
+    {
+      "id": "ycvpot",
+      "front": "la novela corta",
+      "back": "la nouvelle longue"
+    },
+    {
+      "id": "uuigfa",
+      "front": "el ensayo literario",
+      "back": "l'essai littéraire"
+    },
+    {
+      "id": "zvvhah",
+      "front": "la poesía",
+      "back": "la poésie"
+    },
+    {
+      "id": "u18y0a",
+      "front": "el poema",
+      "back": "le poème"
+    },
+    {
+      "id": "6w0u2a",
+      "front": "el verso",
+      "back": "le vers"
+    },
+    {
+      "id": "8totnk",
+      "front": "la estrofa",
+      "back": "la strophe"
+    },
+    {
+      "id": "bakie1",
+      "front": "la rima",
+      "back": "la rime"
+    },
+    {
+      "id": "jkh9t8",
+      "front": "la métrica",
+      "back": "la métrique"
+    },
+    {
+      "id": "ue6lgm",
+      "front": "el soneto",
+      "back": "le sonnet"
+    },
+    {
+      "id": "0t8wtl",
+      "front": "el romance",
+      "back": "le romance (poème)"
+    },
+    {
+      "id": "nx54i7",
+      "front": "la prosa",
+      "back": "la prose"
+    },
+    {
+      "id": "eyyjdj",
+      "front": "el teatro clásico",
+      "back": "le théâtre classique"
+    },
+    {
+      "id": "gfve3p",
+      "front": "la tragedia",
+      "back": "la tragédie"
+    },
+    {
+      "id": "zig24u",
+      "front": "la comedia",
+      "back": "la comédie"
+    },
+    {
+      "id": "p6g228",
+      "front": "el drama",
+      "back": "le drame"
+    },
+    {
+      "id": "wdy8pa",
+      "front": "el acto",
+      "back": "l'acte"
+    },
+    {
+      "id": "gdz8kt",
+      "front": "la escena",
+      "back": "la scène"
+    },
+    {
+      "id": "gd6czv",
+      "front": "el monólogo",
+      "back": "le monologue"
+    },
+    {
+      "id": "haz2jv",
+      "front": "el diálogo",
+      "back": "le dialogue"
+    },
+    {
+      "id": "tyedkp",
+      "front": "la acotación",
+      "back": "la didascalie"
+    },
+    {
+      "id": "ss7ryj",
+      "front": "la trama",
+      "back": "l'intrigue"
+    },
+    {
+      "id": "u2g4w6",
+      "front": "el argumento",
+      "back": "le sujet, l'intrigue"
+    },
+    {
+      "id": "eulfzg",
+      "front": "el desenlace",
+      "back": "le dénouement"
+    },
+    {
+      "id": "dlrzk8",
+      "front": "el clímax",
+      "back": "le point culminant"
+    },
+    {
+      "id": "64algy",
+      "front": "el personaje",
+      "back": "le personnage"
+    },
+    {
+      "id": "ex12b7",
+      "front": "el protagonista",
+      "back": "le protagoniste"
+    },
+    {
+      "id": "pwn7gt",
+      "front": "el antagonista",
+      "back": "l'antagoniste"
+    },
+    {
+      "id": "lz1mnk",
+      "front": "el narrador",
+      "back": "le narrateur"
+    },
+    {
+      "id": "1fgzvf",
+      "front": "el punto de vista",
+      "back": "le point de vue"
+    },
+    {
+      "id": "31g46s",
+      "front": "la voz narrativa",
+      "back": "la voix narrative"
+    },
+    {
+      "id": "qmyuou",
+      "front": "el estilo",
+      "back": "le style"
+    },
+    {
+      "id": "yv4lyg",
+      "front": "el tono",
+      "back": "le ton"
+    },
+    {
+      "id": "qz3ean",
+      "front": "el registro lingüístico",
+      "back": "le registre de langue"
+    },
+    {
+      "id": "hehb0l",
+      "front": "la metáfora",
+      "back": "la métaphore"
+    },
+    {
+      "id": "lnc7ty",
+      "front": "el símil",
+      "back": "la comparaison"
+    },
+    {
+      "id": "4i8tio",
+      "front": "la ironía",
+      "back": "l'ironie"
+    },
+    {
+      "id": "yvj9g6",
+      "front": "la alegoría",
+      "back": "l'allégorie"
+    },
+    {
+      "id": "tic2z4",
+      "front": "el símbolo",
+      "back": "le symbole"
+    },
+    {
+      "id": "6qrnmn",
+      "front": "la imagen poética",
+      "back": "l'image poétique"
+    },
+    {
+      "id": "ez2a94",
+      "front": "el tópico literario",
+      "back": "le lieu commun littéraire"
+    },
+    {
+      "id": "e7nkj7",
+      "front": "el motivo",
+      "back": "le motif"
+    },
+    {
+      "id": "rswai7",
+      "front": "la ambientación",
+      "back": "le cadre, l'atmosphère"
+    },
+    {
+      "id": "ztlctr",
+      "front": "la caracterización",
+      "back": "la caractérisation"
+    },
+    {
+      "id": "zsc5g1",
+      "front": "el manuscrito",
+      "back": "le manuscrit"
+    },
+    {
+      "id": "xljd0g",
+      "front": "el borrador",
+      "back": "le brouillon"
+    },
+    {
+      "id": "7aeqqk",
+      "front": "la edición",
+      "back": "l'édition"
+    },
+    {
+      "id": "vdmmwf",
+      "front": "el editor",
+      "back": "l'éditeur"
+    },
+    {
+      "id": "poyto6",
+      "front": "el prólogo",
+      "back": "la préface"
+    },
+    {
+      "id": "73s1zn",
+      "front": "el epílogo",
+      "back": "l'épilogue"
+    },
+    {
+      "id": "xerco2",
+      "front": "la antología",
+      "back": "l'anthologie"
+    },
+    {
+      "id": "m5dzhs",
+      "front": "la reseña",
+      "back": "la critique, le compte rendu"
+    },
+    {
+      "id": "rotc0q",
+      "front": "el crítico literario",
+      "back": "le critique littéraire"
+    },
+    {
+      "id": "57wket",
+      "front": "la crítica",
+      "back": "la critique (discipline)"
+    },
+    {
+      "id": "ia38lh",
+      "front": "el canon",
+      "back": "le canon"
+    },
+    {
+      "id": "qvo9gp",
+      "front": "el movimiento artístico",
+      "back": "le mouvement artistique"
+    },
+    {
+      "id": "36n79w",
+      "front": "el romanticismo",
+      "back": "le romantisme"
+    },
+    {
+      "id": "6wb103",
+      "front": "el realismo",
+      "back": "le réalisme"
+    },
+    {
+      "id": "r8rpy6",
+      "front": "el naturalismo",
+      "back": "le naturalisme"
+    },
+    {
+      "id": "in5rri",
+      "front": "el modernismo",
+      "back": "le modernisme"
+    },
+    {
+      "id": "kczuza",
+      "front": "la vanguardia",
+      "back": "l'avant-garde"
+    },
+    {
+      "id": "k66nju",
+      "front": "el surrealismo",
+      "back": "le surréalisme"
+    },
+    {
+      "id": "ez7xgy",
+      "front": "el barroco",
+      "back": "le baroque"
+    },
+    {
+      "id": "pprz36",
+      "front": "el clasicismo",
+      "back": "le classicisme"
+    },
+    {
+      "id": "6o0sph",
+      "front": "la pintura al óleo",
+      "back": "la peinture à l'huile"
+    },
+    {
+      "id": "fvo2gz",
+      "front": "el lienzo",
+      "back": "la toile"
+    },
+    {
+      "id": "d0xha1",
+      "front": "el pincel",
+      "back": "le pinceau"
+    },
+    {
+      "id": "tywqhi",
+      "front": "el boceto",
+      "back": "l'esquisse"
+    },
+    {
+      "id": "jfn7s0",
+      "front": "el retrato",
+      "back": "le portrait"
+    },
+    {
+      "id": "4i90ie",
+      "front": "el autorretrato",
+      "back": "l'autoportrait"
+    },
+    {
+      "id": "mog05n",
+      "front": "el paisaje pintado",
+      "back": "le paysage peint"
+    },
+    {
+      "id": "npeb6q",
+      "front": "la naturaleza muerta",
+      "back": "la nature morte"
+    },
+    {
+      "id": "zztlye",
+      "front": "el mural",
+      "back": "la fresque murale"
+    },
+    {
+      "id": "5v8itb",
+      "front": "el fresco",
+      "back": "la fresque"
+    },
+    {
+      "id": "edc330",
+      "front": "la escultura",
+      "back": "la sculpture"
+    },
+    {
+      "id": "4a5ud5",
+      "front": "el escultor",
+      "back": "le sculpteur"
+    },
+    {
+      "id": "1idhwk",
+      "front": "el mármol",
+      "back": "le marbre"
+    },
+    {
+      "id": "kmkuhk",
+      "front": "el bronce",
+      "back": "le bronze"
+    },
+    {
+      "id": "v7xcql",
+      "front": "el relieve",
+      "back": "le relief"
+    },
+    {
+      "id": "55udxe",
+      "front": "la galería",
+      "back": "la galerie"
+    },
+    {
+      "id": "088z15",
+      "front": "la exposición",
+      "back": "l'exposition"
+    },
+    {
+      "id": "pr5hb6",
+      "front": "el museo de arte",
+      "back": "le musée d'art"
+    },
+    {
+      "id": "7gpra7",
+      "front": "la colección",
+      "back": "la collection"
+    },
+    {
+      "id": "ia8yhj",
+      "front": "el mecenas",
+      "back": "le mécène"
+    },
+    {
+      "id": "897vid",
+      "front": "la subasta",
+      "back": "la vente aux enchères"
+    },
+    {
+      "id": "bpcnom",
+      "front": "la falsificación",
+      "back": "la contrefaçon"
+    },
+    {
+      "id": "6d5ur8",
+      "front": "la restauración",
+      "back": "la restauration"
+    },
+    {
+      "id": "qwssig",
+      "front": "la perspectiva",
+      "back": "la perspective"
+    },
+    {
+      "id": "bdlifx",
+      "front": "el claroscuro",
+      "back": "le clair-obscur"
+    },
+    {
+      "id": "g5jazf",
+      "front": "narrar",
+      "back": "raconter"
+    },
+    {
+      "id": "lg5puf",
+      "front": "describir un ambiente",
+      "back": "décrire une atmosphère"
+    },
+    {
+      "id": "a0p7xe",
+      "front": "publicar una novela",
+      "back": "publier un roman"
+    },
+    {
+      "id": "4ktvsy",
+      "front": "esbozar",
+      "back": "esquisser"
+    },
+    {
+      "id": "rmxjw5",
+      "front": "plasmar",
+      "back": "exprimer, rendre"
+    }
+  ]
+}
