@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-sport",
+  "name": "Sport and Competition",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "3w56fe",
+      "front": "a fixture",
+      "back": "une rencontre au calendrier"
+    },
+    {
+      "id": "581eb4",
+      "front": "a tie",
+      "back": "un match, une confrontation"
+    },
+    {
+      "id": "6fw2ka",
+      "front": "a leg",
+      "back": "une manche (aller ou retour)"
+    },
+    {
+      "id": "7n6c3x",
+      "front": "a replay",
+      "back": "un match rejoué"
+    },
+    {
+      "id": "8squkc",
+      "front": "a knockout stage",
+      "back": "une phase à élimination directe"
+    },
+    {
+      "id": "8pvih8",
+      "front": "a group stage",
+      "back": "une phase de poules"
+    },
+    {
+      "id": "z852kn",
+      "front": "a seeding",
+      "back": "un placement en tête de série"
+    },
+    {
+      "id": "jz4yyb",
+      "front": "a bye",
+      "back": "une exemption de tour"
+    },
+    {
+      "id": "03hg91",
+      "front": "a walkover",
+      "back": "une victoire par forfait"
+    },
+    {
+      "id": "n6a2pz",
+      "front": "a forfeit",
+      "back": "un forfait"
+    },
+    {
+      "id": "ykf76s",
+      "front": "an upset",
+      "back": "une surprise, une contre-performance"
+    },
+    {
+      "id": "kq8ne2",
+      "front": "an underdog",
+      "back": "un outsider"
+    },
+    {
+      "id": "w7yzdy",
+      "front": "a favourite",
+      "back": "un favori"
+    },
+    {
+      "id": "ovagvb",
+      "front": "a title contender",
+      "back": "un prétendant au titre"
+    },
+    {
+      "id": "ogkcpj",
+      "front": "a clean sweep",
+      "back": "un carton plein"
+    },
+    {
+      "id": "syvrq1",
+      "front": "a whitewash",
+      "back": "une victoire sans appel"
+    },
+    {
+      "id": "shpwww",
+      "front": "a drubbing",
+      "back": "une raclée"
+    },
+    {
+      "id": "hi81q6",
+      "front": "a thrashing",
+      "back": "une déroute"
+    },
+    {
+      "id": "y6ouxg",
+      "front": "a narrow win",
+      "back": "une victoire à l'arraché"
+    },
+    {
+      "id": "jp56le",
+      "front": "a comeback",
+      "back": "une remontée"
+    },
+    {
+      "id": "drmlbq",
+      "front": "a decider",
+      "back": "une belle, une manche décisive"
+    },
+    {
+      "id": "1j7uo1",
+      "front": "extra time",
+      "back": "les prolongations"
+    },
+    {
+      "id": "p4ai65",
+      "front": "a penalty shoot-out",
+      "back": "une séance de tirs au but"
+    },
+    {
+      "id": "5ib4dd",
+      "front": "stoppage time",
+      "back": "le temps additionnel"
+    },
+    {
+      "id": "pfy916",
+      "front": "a substitution",
+      "back": "un remplacement"
+    },
+    {
+      "id": "7joreb",
+      "front": "a squad",
+      "back": "un effectif"
+    },
+    {
+      "id": "ujcgu7",
+      "front": "a line-up",
+      "back": "une composition d'équipe"
+    },
+    {
+      "id": "psb7nc",
+      "front": "a formation",
+      "back": "un dispositif tactique"
+    },
+    {
+      "id": "kiut2r",
+      "front": "a captain",
+      "back": "un capitaine"
+    },
+    {
+      "id": "b7fyfh",
+      "front": "a coach",
+      "back": "un entraîneur"
+    },
+    {
+      "id": "udhiae",
+      "front": "a manager",
+      "back": "un entraîneur, un manager"
+    },
+    {
+      "id": "n80ktt",
+      "front": "a scout",
+      "back": "un recruteur"
+    },
+    {
+      "id": "vpl5ig",
+      "front": "a transfer window",
+      "back": "un mercato"
+    },
+    {
+      "id": "4yodlj",
+      "front": "a transfer fee",
+      "back": "une indemnité de transfert"
+    },
+    {
+      "id": "c8ljwe",
+      "front": "a loan spell",
+      "back": "un prêt"
+    },
+    {
+      "id": "uiq6de",
+      "front": "a contract extension",
+      "back": "une prolongation de contrat"
+    },
+    {
+      "id": "tcxunt",
+      "front": "a testimonial",
+      "back": "un match jubilé"
+    },
+    {
+      "id": "1ic9n3",
+      "front": "a training camp",
+      "back": "un stage de préparation"
+    },
+    {
+      "id": "wcve2t",
+      "front": "pre-season",
+      "back": "la présaison"
+    },
+    {
+      "id": "hg4ltk",
+      "front": "a fitness regime",
+      "back": "un programme de préparation physique"
+    },
+    {
+      "id": "3f5lik",
+      "front": "stamina",
+      "back": "l'endurance"
+    },
+    {
+      "id": "8bsyas",
+      "front": "conditioning",
+      "back": "la préparation physique"
+    },
+    {
+      "id": "lhdhgd",
+      "front": "a personal best",
+      "back": "un record personnel"
+    },
+    {
+      "id": "25n0ac",
+      "front": "a world record",
+      "back": "un record du monde"
+    },
+    {
+      "id": "256iq0",
+      "front": "a qualifying time",
+      "back": "un temps qualificatif"
+    },
+    {
+      "id": "d464sn",
+      "front": "a heat",
+      "back": "une série éliminatoire"
+    },
+    {
+      "id": "kp7fsl",
+      "front": "a final",
+      "back": "une finale"
+    },
+    {
+      "id": "7k1dyu",
+      "front": "a podium finish",
+      "back": "un podium"
+    },
+    {
+      "id": "leuwct",
+      "front": "a runner-up",
+      "back": "un finaliste malheureux, un deuxième"
+    },
+    {
+      "id": "kk9q3c",
+      "front": "a title defence",
+      "back": "une défense de titre"
+    },
+    {
+      "id": "hgvypl",
+      "front": "a champion",
+      "back": "un champion"
+    },
+    {
+      "id": "2kc4z6",
+      "front": "a champion elect",
+      "back": "un champion en devenir"
+    },
+    {
+      "id": "1538ou",
+      "front": "a dynasty in sport",
+      "back": "une hégémonie sportive"
+    },
+    {
+      "id": "0y56y6",
+      "front": "a rivalry",
+      "back": "une rivalité"
+    },
+    {
+      "id": "hvf9e7",
+      "front": "a derby",
+      "back": "un derby"
+    },
+    {
+      "id": "pt9w0g",
+      "front": "a home advantage",
+      "back": "l'avantage du terrain"
+    },
+    {
+      "id": "dgb34z",
+      "front": "an away leg",
+      "back": "un match à l'extérieur"
+    },
+    {
+      "id": "9tsl2f",
+      "front": "a fixture congestion",
+      "back": "un calendrier surchargé"
+    },
+    {
+      "id": "x5k02i",
+      "front": "a relegation battle",
+      "back": "une lutte pour le maintien"
+    },
+    {
+      "id": "riitsb",
+      "front": "promotion to the top flight",
+      "back": "la montée en première division"
+    },
+    {
+      "id": "wfnsul",
+      "front": "a play-off",
+      "back": "un barrage"
+    },
+    {
+      "id": "bsthdk",
+      "front": "a league table",
+      "back": "un classement"
+    },
+    {
+      "id": "xwbw37",
+      "front": "goal difference",
+      "back": "la différence de buts"
+    },
+    {
+      "id": "q18xbx",
+      "front": "a points deduction",
+      "back": "un retrait de points"
+    },
+    {
+      "id": "b7hth9",
+      "front": "a foul",
+      "back": "une faute"
+    },
+    {
+      "id": "1i7ft0",
+      "front": "a booking",
+      "back": "un carton, un avertissement"
+    },
+    {
+      "id": "k0eump",
+      "front": "a sending-off",
+      "back": "une expulsion"
+    },
+    {
+      "id": "3i48h9",
+      "front": "a suspension",
+      "back": "une suspension"
+    },
+    {
+      "id": "gc5o8a",
+      "front": "a doping test",
+      "back": "un contrôle antidopage"
+    },
+    {
+      "id": "m34e7x",
+      "front": "a banned substance",
+      "back": "une substance interdite"
+    },
+    {
+      "id": "kf4iqc",
+      "front": "a doping ban",
+      "back": "une suspension pour dopage"
+    },
+    {
+      "id": "pvmvg6",
+      "front": "match-fixing",
+      "back": "un match truqué"
+    },
+    {
+      "id": "9hw9a7",
+      "front": "a betting scandal",
+      "back": "un scandale de paris"
+    },
+    {
+      "id": "xdpn7g",
+      "front": "a governing body",
+      "back": "une fédération"
+    },
+    {
+      "id": "67ofr1",
+      "front": "a sanction from a federation",
+      "back": "une sanction fédérale"
+    },
+    {
+      "id": "tco1am",
+      "front": "an appeal to arbitration",
+      "back": "un appel devant l'arbitrage sportif"
+    },
+    {
+      "id": "0hqdqr",
+      "front": "a match referee",
+      "back": "un arbitre de match"
+    },
+    {
+      "id": "e2b1kv",
+      "front": "an umpire",
+      "back": "un arbitre (tennis, cricket)"
+    },
+    {
+      "id": "46ant9",
+      "front": "a linesman",
+      "back": "un juge de ligne"
+    },
+    {
+      "id": "sqxtam",
+      "front": "a video review",
+      "back": "un recours à la vidéo"
+    },
+    {
+      "id": "2f76ad",
+      "front": "a marginal call",
+      "back": "une décision litigieuse"
+    },
+    {
+      "id": "qn56n0",
+      "front": "a stewards' inquiry",
+      "back": "une enquête des commissaires"
+    },
+    {
+      "id": "k33imp",
+      "front": "sportsmanship",
+      "back": "l'esprit sportif"
+    },
+    {
+      "id": "bn5nhu",
+      "front": "gamesmanship",
+      "back": "les manœuvres à la limite du règlement"
+    },
+    {
+      "id": "rqwp5z",
+      "front": "a level playing field in sport",
+      "back": "des conditions de jeu équitables"
+    },
+    {
+      "id": "797ri9",
+      "front": "to raise one's game",
+      "back": "hausser son niveau de jeu"
+    },
+    {
+      "id": "66ypje",
+      "front": "to run rings around someone",
+      "back": "dominer complètement quelqu'un"
+    },
+    {
+      "id": "jlz0go",
+      "front": "to be on the ropes",
+      "back": "être aux abois"
+    },
+    {
+      "id": "7fqtag",
+      "front": "to throw in the sponge",
+      "back": "abandonner, jeter l'éponge"
+    },
+    {
+      "id": "iotdig",
+      "front": "to move the goalposts in a debate",
+      "back": "changer les règles en cours de débat"
+    },
+    {
+      "id": "gh29eo",
+      "front": "a level pegging",
+      "back": "une égalité parfaite"
+    },
+    {
+      "id": "v1syeb",
+      "front": "to be pipped at the post",
+      "back": "être coiffé sur le fil"
+    },
+    {
+      "id": "rt0kfh",
+      "front": "a home straight",
+      "back": "la dernière ligne droite"
+    },
+    {
+      "id": "t4c4e9",
+      "front": "an also-ran",
+      "back": "un perdant sans relief"
+    },
+    {
+      "id": "f47e5u",
+      "front": "a front runner",
+      "back": "un favori en tête"
+    },
+    {
+      "id": "kcgzli",
+      "front": "a dark horse",
+      "back": "un outsider surprise"
+    },
+    {
+      "id": "4f7gq1",
+      "front": "a curtain raiser",
+      "back": "un lever de rideau, un match d'ouverture"
+    },
+    {
+      "id": "nnmye4",
+      "front": "a swan song",
+      "back": "un chant du cygne"
+    },
+    {
+      "id": "cfxlgj",
+      "front": "a comeback trail",
+      "back": "le chemin du retour à la compétition"
+    },
+    {
+      "id": "fldki1",
+      "front": "a hat-trick",
+      "back": "un triplé"
+    }
+  ]
+}
