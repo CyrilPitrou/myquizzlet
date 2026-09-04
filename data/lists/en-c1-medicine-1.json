@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-medicine-1",
+  "name": "Medicine and the Body 1",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "wf93vt",
+      "front": "a diagnosis",
+      "back": "un diagnostic"
+    },
+    {
+      "id": "o3hg85",
+      "front": "a prognosis",
+      "back": "un pronostic"
+    },
+    {
+      "id": "dxrwnf",
+      "front": "a symptom",
+      "back": "un symptôme"
+    },
+    {
+      "id": "m9rlva",
+      "front": "a sign",
+      "back": "un signe clinique"
+    },
+    {
+      "id": "z87ag3",
+      "front": "an ailment",
+      "back": "une affection, un mal"
+    },
+    {
+      "id": "tc6fnn",
+      "front": "a condition",
+      "back": "une pathologie, un état"
+    },
+    {
+      "id": "6km7lk",
+      "front": "a chronic illness",
+      "back": "une maladie chronique"
+    },
+    {
+      "id": "r8pgqx",
+      "front": "an acute condition",
+      "back": "une affection aiguë"
+    },
+    {
+      "id": "y5il23",
+      "front": "a relapse",
+      "back": "une rechute"
+    },
+    {
+      "id": "xoz0dy",
+      "front": "remission",
+      "back": "la rémission"
+    },
+    {
+      "id": "e9uzx2",
+      "front": "a flare-up",
+      "back": "une poussée, une crise"
+    },
+    {
+      "id": "e8h3io",
+      "front": "an outbreak",
+      "back": "une flambée épidémique"
+    },
+    {
+      "id": "b3jvc1",
+      "front": "an epidemic",
+      "back": "une épidémie"
+    },
+    {
+      "id": "ig61jz",
+      "front": "a pandemic",
+      "back": "une pandémie"
+    },
+    {
+      "id": "alqzbf",
+      "front": "an endemic disease",
+      "back": "une maladie endémique"
+    },
+    {
+      "id": "6b9yrh",
+      "front": "contagion",
+      "back": "la contagion"
+    },
+    {
+      "id": "s4onwi",
+      "front": "transmission",
+      "back": "la transmission"
+    },
+    {
+      "id": "gzn94p",
+      "front": "an incubation period",
+      "back": "une période d'incubation"
+    },
+    {
+      "id": "65sp8q",
+      "front": "immunity",
+      "back": "l'immunité"
+    },
+    {
+      "id": "p9a423",
+      "front": "herd immunity",
+      "back": "l'immunité collective"
+    },
+    {
+      "id": "tnl5iy",
+      "front": "a vaccine",
+      "back": "un vaccin"
+    },
+    {
+      "id": "32qysf",
+      "front": "inoculation",
+      "back": "l'inoculation, la vaccination"
+    },
+    {
+      "id": "arizmn",
+      "front": "a booster",
+      "back": "un rappel vaccinal"
+    },
+    {
+      "id": "jo698q",
+      "front": "an antibody",
+      "back": "un anticorps"
+    },
+    {
+      "id": "pricd1",
+      "front": "an antigen",
+      "back": "un antigène"
+    },
+    {
+      "id": "6myp9d",
+      "front": "a screening programme",
+      "back": "un programme de dépistage"
+    },
+    {
+      "id": "q7c5vs",
+      "front": "early detection",
+      "back": "le dépistage précoce"
+    },
+    {
+      "id": "pl4t7d",
+      "front": "a scan",
+      "back": "un examen d'imagerie"
+    },
+    {
+      "id": "nzczr0",
+      "front": "an X-ray",
+      "back": "une radiographie"
+    },
+    {
+      "id": "py2fcf",
+      "front": "a biopsy",
+      "back": "une biopsie"
+    },
+    {
+      "id": "78l064",
+      "front": "a blood count",
+      "back": "une numération sanguine"
+    },
+    {
+      "id": "a8s44i",
+      "front": "a specimen sample",
+      "back": "un prélèvement"
+    },
+    {
+      "id": "eim7nn",
+      "front": "a consultant",
+      "back": "un médecin spécialiste hospitalier"
+    },
+    {
+      "id": "tfnupi",
+      "front": "a general practitioner",
+      "back": "un médecin généraliste"
+    },
+    {
+      "id": "tj4cn2",
+      "front": "a surgeon",
+      "back": "un chirurgien"
+    },
+    {
+      "id": "gdet3k",
+      "front": "a paediatrician",
+      "back": "un pédiatre"
+    },
+    {
+      "id": "5slx41",
+      "front": "a midwife",
+      "back": "une sage-femme"
+    },
+    {
+      "id": "8gpvgu",
+      "front": "a paramedic",
+      "back": "un ambulancier secouriste"
+    },
+    {
+      "id": "xuj6hz",
+      "front": "a ward",
+      "back": "un service, une salle d'hôpital"
+    },
+    {
+      "id": "m1vrqo",
+      "front": "intensive care",
+      "back": "les soins intensifs"
+    },
+    {
+      "id": "a5xa74",
+      "front": "a referral",
+      "back": "une orientation vers un spécialiste"
+    },
+    {
+      "id": "0bsa1y",
+      "front": "a waiting list",
+      "back": "une liste d'attente"
+    },
+    {
+      "id": "sugxkq",
+      "front": "triage",
+      "back": "le triage"
+    },
+    {
+      "id": "uvq5ea",
+      "front": "an operation",
+      "back": "une opération"
+    },
+    {
+      "id": "xwhbdp",
+      "front": "surgery",
+      "back": "la chirurgie, l'intervention"
+    },
+    {
+      "id": "15mhs1",
+      "front": "an anaesthetic",
+      "back": "un anesthésique"
+    },
+    {
+      "id": "dfnboj",
+      "front": "a transplant",
+      "back": "une greffe"
+    },
+    {
+      "id": "7ars50",
+      "front": "a donor",
+      "back": "un donneur"
+    },
+    {
+      "id": "o4ljcl",
+      "front": "a graft",
+      "back": "une greffe, un greffon"
+    },
+    {
+      "id": "5xljdv",
+      "front": "a prosthesis",
+      "back": "une prothèse"
+    },
+    {
+      "id": "axnmgx",
+      "front": "a course of treatment",
+      "back": "une cure, un traitement"
+    },
+    {
+      "id": "i3beea",
+      "front": "a dosage",
+      "back": "une posologie"
+    },
+    {
+      "id": "ku3m3x",
+      "front": "a prescription",
+      "back": "une ordonnance"
+    },
+    {
+      "id": "s0ws1w",
+      "front": "a side effect",
+      "back": "un effet secondaire"
+    },
+    {
+      "id": "d1sc8q",
+      "front": "a contraindication",
+      "back": "une contre-indication"
+    },
+    {
+      "id": "tvdzr1",
+      "front": "an overdose",
+      "back": "un surdosage, une overdose"
+    },
+    {
+      "id": "vvz6k0",
+      "front": "a painkiller",
+      "back": "un analgésique"
+    },
+    {
+      "id": "09ekti",
+      "front": "an antibiotic",
+      "back": "un antibiotique"
+    },
+    {
+      "id": "5v5p8t",
+      "front": "antibiotic resistance",
+      "back": "la résistance aux antibiotiques"
+    },
+    {
+      "id": "kde79e",
+      "front": "an anti-inflammatory",
+      "back": "un anti-inflammatoire"
+    },
+    {
+      "id": "wiqtxh",
+      "front": "chemotherapy",
+      "back": "la chimiothérapie"
+    },
+    {
+      "id": "oodo6d",
+      "front": "radiotherapy",
+      "back": "la radiothérapie"
+    },
+    {
+      "id": "pxh4um",
+      "front": "physiotherapy",
+      "back": "la kinésithérapie"
+    },
+    {
+      "id": "a48769",
+      "front": "rehabilitation",
+      "back": "la rééducation"
+    },
+    {
+      "id": "rgy4de",
+      "front": "recovery",
+      "back": "la guérison, le rétablissement"
+    },
+    {
+      "id": "frlkia",
+      "front": "convalescence",
+      "back": "la convalescence"
+    },
+    {
+      "id": "8e9e3d",
+      "front": "a check-up",
+      "back": "un bilan de santé"
+    },
+    {
+      "id": "utvyi0",
+      "front": "a discharge",
+      "back": "une sortie d'hôpital"
+    },
+    {
+      "id": "jzuoz5",
+      "front": "an admission",
+      "back": "une admission"
+    },
+    {
+      "id": "lx1v0n",
+      "front": "life expectancy",
+      "back": "l'espérance de vie"
+    },
+    {
+      "id": "1khmb2",
+      "front": "mortality",
+      "back": "la mortalité"
+    },
+    {
+      "id": "yp65x3",
+      "front": "morbidity",
+      "back": "la morbidité"
+    },
+    {
+      "id": "rtxbn6",
+      "front": "the death toll",
+      "back": "le bilan des décès"
+    },
+    {
+      "id": "l7wguw",
+      "front": "an underlying condition",
+      "back": "une pathologie sous-jacente"
+    },
+    {
+      "id": "q9ct5b",
+      "front": "a risk factor",
+      "back": "un facteur de risque"
+    },
+    {
+      "id": "mk9iiu",
+      "front": "a public health measure",
+      "back": "une mesure de santé publique"
+    },
+    {
+      "id": "gh2v4w",
+      "front": "quarantine",
+      "back": "la quarantaine"
+    },
+    {
+      "id": "p57rfv",
+      "front": "isolation",
+      "back": "l'isolement"
+    },
+    {
+      "id": "1x3bkt",
+      "front": "a lockdown",
+      "back": "un confinement"
+    },
+    {
+      "id": "3ayzpq",
+      "front": "sanitation",
+      "back": "l'assainissement, l'hygiène publique"
+    },
+    {
+      "id": "7yryee",
+      "front": "a healthcare system",
+      "back": "un système de santé"
+    },
+    {
+      "id": "rjlo7j",
+      "front": "primary care",
+      "back": "les soins de première ligne"
+    },
+    {
+      "id": "teuyjk",
+      "front": "palliative care",
+      "back": "les soins palliatifs"
+    },
+    {
+      "id": "wcx9am",
+      "front": "end-of-life care",
+      "back": "l'accompagnement de fin de vie"
+    },
+    {
+      "id": "xtuw5t",
+      "front": "a living will",
+      "back": "des directives anticipées"
+    },
+    {
+      "id": "mwlds4",
+      "front": "informed consent",
+      "back": "le consentement éclairé"
+    },
+    {
+      "id": "duenjr",
+      "front": "medical ethics",
+      "back": "la déontologie médicale"
+    },
+    {
+      "id": "0emxjn",
+      "front": "malpractice",
+      "back": "une faute professionnelle médicale"
+    },
+    {
+      "id": "vmbbkc",
+      "front": "a clinical trial",
+      "back": "un essai clinique"
+    },
+    {
+      "id": "wer2fk",
+      "front": "a drug regulator",
+      "back": "une agence du médicament"
+    },
+    {
+      "id": "1kj4cz",
+      "front": "a generic drug",
+      "back": "un médicament générique"
+    },
+    {
+      "id": "belip6",
+      "front": "a patent cliff",
+      "back": "l'expiration d'un brevet"
+    },
+    {
+      "id": "6i7p0n",
+      "front": "health inequality",
+      "back": "les inégalités de santé"
+    },
+    {
+      "id": "t22x4v",
+      "front": "a food desert",
+      "back": "un désert alimentaire"
+    },
+    {
+      "id": "ohvb6u",
+      "front": "obesity",
+      "back": "l'obésité"
+    },
+    {
+      "id": "53sy5l",
+      "front": "malnutrition",
+      "back": "la malnutrition"
+    },
+    {
+      "id": "ycwtma",
+      "front": "addiction",
+      "back": "la dépendance, l'addiction"
+    },
+    {
+      "id": "6oc6bc",
+      "front": "withdrawal",
+      "back": "le sevrage, le manque"
+    },
+    {
+      "id": "48bzj2",
+      "front": "a stillbirth",
+      "back": "une mortinaissance"
+    },
+    {
+      "id": "f32unq",
+      "front": "a nurse practitioner",
+      "back": "un infirmier en pratique avancée"
+    }
+  ]
+}
