@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-law-1",
+  "name": "Law and Justice 1",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "kgsb7a",
+      "front": "a hearing",
+      "back": "une audience"
+    },
+    {
+      "id": "5r5itg",
+      "front": "a trial",
+      "back": "un procès"
+    },
+    {
+      "id": "zvby2x",
+      "front": "a plaintiff",
+      "back": "un plaignant, un demandeur"
+    },
+    {
+      "id": "m8gzwc",
+      "front": "a defendant",
+      "back": "un défendeur, un prévenu"
+    },
+    {
+      "id": "eliisv",
+      "front": "a claimant",
+      "back": "un requérant, un demandeur"
+    },
+    {
+      "id": "wx8um0",
+      "front": "counsel",
+      "back": "l'avocat, le conseil"
+    },
+    {
+      "id": "5aqlmk",
+      "front": "a barrister",
+      "back": "un avocat plaidant"
+    },
+    {
+      "id": "q97zgi",
+      "front": "a solicitor",
+      "back": "un avoué, un notaire-conseil"
+    },
+    {
+      "id": "leycft",
+      "front": "the bench",
+      "back": "la magistrature, le tribunal"
+    },
+    {
+      "id": "ncajj7",
+      "front": "a magistrate",
+      "back": "un magistrat, un juge de paix"
+    },
+    {
+      "id": "0uotu7",
+      "front": "a juror",
+      "back": "un juré"
+    },
+    {
+      "id": "omdiw1",
+      "front": "the jury box",
+      "back": "le banc des jurés"
+    },
+    {
+      "id": "qxvbo3",
+      "front": "a verdict",
+      "back": "un verdict"
+    },
+    {
+      "id": "o2h2hc",
+      "front": "to acquit",
+      "back": "acquitter"
+    },
+    {
+      "id": "12t3zc",
+      "front": "a conviction",
+      "back": "une condamnation"
+    },
+    {
+      "id": "jv42sk",
+      "front": "to convict",
+      "back": "déclarer coupable"
+    },
+    {
+      "id": "vtu7zd",
+      "front": "a sentence",
+      "back": "une peine"
+    },
+    {
+      "id": "nngrnt",
+      "front": "to sentence",
+      "back": "condamner, prononcer une peine"
+    },
+    {
+      "id": "n774x2",
+      "front": "a custodial sentence",
+      "back": "une peine de prison ferme"
+    },
+    {
+      "id": "6xxl5u",
+      "front": "a suspended sentence",
+      "back": "une peine avec sursis"
+    },
+    {
+      "id": "xy7d0i",
+      "front": "probation",
+      "back": "la mise à l'épreuve, le sursis probatoire"
+    },
+    {
+      "id": "bqjtb3",
+      "front": "parole",
+      "back": "la libération conditionnelle"
+    },
+    {
+      "id": "8mm9x4",
+      "front": "remand",
+      "back": "la détention provisoire"
+    },
+    {
+      "id": "kh7iw4",
+      "front": "bail",
+      "back": "la caution, la mise en liberté sous caution"
+    },
+    {
+      "id": "aldq5f",
+      "front": "an indictment",
+      "back": "une mise en accusation, un acte d'accusation"
+    },
+    {
+      "id": "waxhwo",
+      "front": "to charge someone",
+      "back": "inculper quelqu'un"
+    },
+    {
+      "id": "ubwux5",
+      "front": "to press charges",
+      "back": "porter plainte"
+    },
+    {
+      "id": "kkxz05",
+      "front": "to drop charges",
+      "back": "abandonner les poursuites"
+    },
+    {
+      "id": "2lgyuk",
+      "front": "a plea",
+      "back": "un plaidoyer, une déclaration de culpabilité"
+    },
+    {
+      "id": "owoj67",
+      "front": "a plea bargain",
+      "back": "une négociation de peine"
+    },
+    {
+      "id": "dx0yop",
+      "front": "to plead guilty",
+      "back": "plaider coupable"
+    },
+    {
+      "id": "vud8se",
+      "front": "a testimony",
+      "back": "un témoignage"
+    },
+    {
+      "id": "forlh1",
+      "front": "to testify",
+      "back": "témoigner"
+    },
+    {
+      "id": "vj56df",
+      "front": "to take the stand",
+      "back": "venir à la barre"
+    },
+    {
+      "id": "f17e43",
+      "front": "perjury",
+      "back": "le faux témoignage"
+    },
+    {
+      "id": "8o6h9z",
+      "front": "an affidavit",
+      "back": "une déclaration sous serment"
+    },
+    {
+      "id": "krbmkx",
+      "front": "a deposition",
+      "back": "une déposition"
+    },
+    {
+      "id": "3q9h8f",
+      "front": "cross-examination",
+      "back": "le contre-interrogatoire"
+    },
+    {
+      "id": "xzr430",
+      "front": "to subpoena",
+      "back": "citer à comparaître"
+    },
+    {
+      "id": "lzzvjk",
+      "front": "a warrant",
+      "back": "un mandat"
+    },
+    {
+      "id": "40paoj",
+      "front": "a search warrant",
+      "back": "un mandat de perquisition"
+    },
+    {
+      "id": "3dj9qw",
+      "front": "an injunction",
+      "back": "une injonction, un référé"
+    },
+    {
+      "id": "rgp8pw",
+      "front": "a restraining order",
+      "back": "une ordonnance d'éloignement"
+    },
+    {
+      "id": "fkxfk0",
+      "front": "a court order",
+      "back": "une décision de justice"
+    },
+    {
+      "id": "tjikim",
+      "front": "contempt of court",
+      "back": "l'outrage au tribunal"
+    },
+    {
+      "id": "uarfz1",
+      "front": "an appeal",
+      "back": "un appel, un recours"
+    },
+    {
+      "id": "r649vl",
+      "front": "to overturn a ruling",
+      "back": "annuler une décision"
+    },
+    {
+      "id": "dn4f1a",
+      "front": "to uphold a ruling",
+      "back": "confirmer une décision"
+    },
+    {
+      "id": "n2e422",
+      "front": "to quash a conviction",
+      "back": "casser une condamnation"
+    },
+    {
+      "id": "7oa8aq",
+      "front": "a retrial",
+      "back": "un nouveau procès"
+    },
+    {
+      "id": "m5n7u3",
+      "front": "a mistrial",
+      "back": "un procès annulé pour vice de procédure"
+    },
+    {
+      "id": "984mvn",
+      "front": "a miscarriage of justice",
+      "back": "une erreur judiciaire"
+    },
+    {
+      "id": "gxrdlt",
+      "front": "a wrongful conviction",
+      "back": "une condamnation injustifiée"
+    },
+    {
+      "id": "ztk45k",
+      "front": "the burden of proof",
+      "back": "la charge de la preuve"
+    },
+    {
+      "id": "gdnxj4",
+      "front": "beyond reasonable doubt",
+      "back": "au-delà de tout doute raisonnable"
+    },
+    {
+      "id": "xpfhwt",
+      "front": "the presumption of innocence",
+      "back": "la présomption d'innocence"
+    },
+    {
+      "id": "9ah6f3",
+      "front": "due process",
+      "back": "les garanties de procédure régulière"
+    },
+    {
+      "id": "an23t8",
+      "front": "the rule of law",
+      "back": "l'État de droit"
+    },
+    {
+      "id": "wpvs25",
+      "front": "a precedent",
+      "back": "un précédent"
+    },
+    {
+      "id": "b31udo",
+      "front": "case law",
+      "back": "la jurisprudence"
+    },
+    {
+      "id": "3ogsee",
+      "front": "common law",
+      "back": "la common law, le droit coutumier"
+    },
+    {
+      "id": "3bmyna",
+      "front": "civil law",
+      "back": "le droit civil"
+    },
+    {
+      "id": "ogisex",
+      "front": "criminal law",
+      "back": "le droit pénal"
+    },
+    {
+      "id": "4xptkw",
+      "front": "a statute of limitations",
+      "back": "la prescription"
+    },
+    {
+      "id": "c2zk3l",
+      "front": "an offence",
+      "back": "un délit, une infraction"
+    },
+    {
+      "id": "nsrc8e",
+      "front": "a felony",
+      "back": "un crime"
+    },
+    {
+      "id": "nyq1st",
+      "front": "a misdemeanour",
+      "back": "un délit mineur"
+    },
+    {
+      "id": "nh69ux",
+      "front": "manslaughter",
+      "back": "l'homicide involontaire"
+    },
+    {
+      "id": "a0qxla",
+      "front": "homicide",
+      "back": "l'homicide"
+    },
+    {
+      "id": "hukpt9",
+      "front": "premeditation",
+      "back": "la préméditation"
+    },
+    {
+      "id": "tks4jw",
+      "front": "an accomplice",
+      "back": "un complice"
+    },
+    {
+      "id": "ihhlk5",
+      "front": "an accessory",
+      "back": "un complice après coup"
+    },
+    {
+      "id": "8c9cmc",
+      "front": "mitigating circumstances",
+      "back": "des circonstances atténuantes"
+    },
+    {
+      "id": "l8a7uq",
+      "front": "aggravating circumstances",
+      "back": "des circonstances aggravantes"
+    },
+    {
+      "id": "84vjsl",
+      "front": "an alibi",
+      "back": "un alibi"
+    },
+    {
+      "id": "t57sg7",
+      "front": "a motive",
+      "back": "un mobile"
+    },
+    {
+      "id": "wxq1c2",
+      "front": "forensic evidence",
+      "back": "des preuves médico-légales"
+    },
+    {
+      "id": "oc1z8d",
+      "front": "circumstantial evidence",
+      "back": "des preuves indirectes"
+    },
+    {
+      "id": "ytf2yd",
+      "front": "hearsay",
+      "back": "le ouï-dire"
+    },
+    {
+      "id": "oqsecn",
+      "front": "to tamper with evidence",
+      "back": "altérer des preuves"
+    },
+    {
+      "id": "4k7a79",
+      "front": "a custody suite",
+      "back": "un local de garde à vue"
+    },
+    {
+      "id": "bi24mj",
+      "front": "to detain",
+      "back": "placer en détention, retenir"
+    },
+    {
+      "id": "p780e1",
+      "front": "an arrest warrant",
+      "back": "un mandat d'arrêt"
+    },
+    {
+      "id": "depgeg",
+      "front": "extradition",
+      "back": "l'extradition"
+    },
+    {
+      "id": "1dazcp",
+      "front": "a fugitive",
+      "back": "un fugitif"
+    },
+    {
+      "id": "f9q6mx",
+      "front": "a suspect",
+      "back": "un suspect"
+    },
+    {
+      "id": "lbmahy",
+      "front": "an inquest",
+      "back": "une enquête judiciaire (sur un décès)"
+    },
+    {
+      "id": "5drn5d",
+      "front": "an inquiry",
+      "back": "une commission d'enquête"
+    },
+    {
+      "id": "hxnbri",
+      "front": "a tribunal",
+      "back": "un tribunal administratif, une commission"
+    },
+    {
+      "id": "5x2xhz",
+      "front": "arbitration",
+      "back": "l'arbitrage"
+    },
+    {
+      "id": "i9m9bi",
+      "front": "mediation",
+      "back": "la médiation"
+    },
+    {
+      "id": "2y3jm2",
+      "front": "a settlement",
+      "back": "un règlement à l'amiable"
+    },
+    {
+      "id": "tk6913",
+      "front": "damages",
+      "back": "des dommages et intérêts"
+    },
+    {
+      "id": "rrxfv3",
+      "front": "compensation",
+      "back": "une indemnisation"
+    },
+    {
+      "id": "ufnikz",
+      "front": "a class action",
+      "back": "une action collective"
+    },
+    {
+      "id": "xue2xy",
+      "front": "a lawsuit",
+      "back": "un procès civil, une action en justice"
+    },
+    {
+      "id": "mck3o3",
+      "front": "to sue",
+      "back": "poursuivre en justice"
+    },
+    {
+      "id": "1ehg6t",
+      "front": "libel",
+      "back": "la diffamation écrite"
+    },
+    {
+      "id": "ublly2",
+      "front": "slander",
+      "back": "la diffamation orale"
+    },
+    {
+      "id": "zcjfbz",
+      "front": "legal aid",
+      "back": "l'aide juridictionnelle"
+    }
+  ]
+}
