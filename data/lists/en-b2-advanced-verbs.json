@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-advanced-verbs",
+  "name": "Advanced Verbs",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "9f0f70",
+      "front": "to undermine",
+      "back": "saper, miner"
+    },
+    {
+      "id": "2b5468",
+      "front": "to curb",
+      "back": "freiner, endiguer"
+    },
+    {
+      "id": "fa576a",
+      "front": "to entail",
+      "back": "entraîner, impliquer"
+    },
+    {
+      "id": "1f6977",
+      "front": "to waive",
+      "back": "renoncer à, lever"
+    },
+    {
+      "id": "467207",
+      "front": "to hamper",
+      "back": "entraver, gêner"
+    },
+    {
+      "id": "99baed",
+      "front": "to hinder",
+      "back": "entraver"
+    },
+    {
+      "id": "880c38",
+      "front": "to impede",
+      "back": "empêcher, gêner"
+    },
+    {
+      "id": "499e57",
+      "front": "to thwart",
+      "back": "contrecarrer"
+    },
+    {
+      "id": "5d1f00",
+      "front": "to stifle",
+      "back": "étouffer"
+    },
+    {
+      "id": "a8d788",
+      "front": "to quell",
+      "back": "réprimer, étouffer"
+    },
+    {
+      "id": "cd76c7",
+      "front": "to curtail",
+      "back": "écourter, réduire"
+    },
+    {
+      "id": "f76de8",
+      "front": "to alleviate",
+      "back": "soulager, atténuer"
+    },
+    {
+      "id": "5c2d5f",
+      "front": "to mitigate",
+      "back": "atténuer"
+    },
+    {
+      "id": "5b3501",
+      "front": "to exacerbate",
+      "back": "aggraver"
+    },
+    {
+      "id": "112f30",
+      "front": "to aggravate",
+      "back": "aggraver"
+    },
+    {
+      "id": "f9e411",
+      "front": "to compound a problem",
+      "back": "aggraver un problème"
+    },
+    {
+      "id": "8a361b",
+      "front": "to jeopardise",
+      "back": "compromettre, mettre en péril"
+    },
+    {
+      "id": "59fdb1",
+      "front": "to endanger",
+      "back": "mettre en danger"
+    },
+    {
+      "id": "0d7681",
+      "front": "to erode",
+      "back": "éroder, saper"
+    },
+    {
+      "id": "a5eee6",
+      "front": "to dwindle",
+      "back": "diminuer, s'amenuiser"
+    },
+    {
+      "id": "39dcd3",
+      "front": "to plummet",
+      "back": "chuter brutalement"
+    },
+    {
+      "id": "39790b",
+      "front": "to soar",
+      "back": "monter en flèche"
+    },
+    {
+      "id": "0b771f",
+      "front": "to surge",
+      "back": "bondir, déferler"
+    },
+    {
+      "id": "e7c939",
+      "front": "to escalate",
+      "back": "s'intensifier, dégénérer"
+    },
+    {
+      "id": "4299b6",
+      "front": "to spiral",
+      "back": "s'emballer, déraper"
+    },
+    {
+      "id": "32be7d",
+      "front": "to stagnate",
+      "back": "stagner"
+    },
+    {
+      "id": "3c4d73",
+      "front": "to level off",
+      "back": "se stabiliser"
+    },
+    {
+      "id": "3a62ce",
+      "front": "to offset a loss",
+      "back": "compenser une perte"
+    },
+    {
+      "id": "0262ec",
+      "front": "to bolster",
+      "back": "renforcer, soutenir"
+    },
+    {
+      "id": "450c07",
+      "front": "to underpin",
+      "back": "étayer, sous-tendre"
+    },
+    {
+      "id": "dadad8",
+      "front": "to consolidate",
+      "back": "consolider"
+    },
+    {
+      "id": "cbf9fb",
+      "front": "to enhance",
+      "back": "améliorer, rehausser"
+    },
+    {
+      "id": "fe1cf2",
+      "front": "to foster",
+      "back": "favoriser, encourager"
+    },
+    {
+      "id": "23f2ff",
+      "front": "to spur",
+      "back": "stimuler, aiguillonner"
+    },
+    {
+      "id": "ce85b0",
+      "front": "to prompt",
+      "back": "inciter, déclencher"
+    },
+    {
+      "id": "721a6c",
+      "front": "to trigger",
+      "back": "déclencher"
+    },
+    {
+      "id": "eb5d70",
+      "front": "to spark",
+      "back": "provoquer, susciter"
+    },
+    {
+      "id": "cb35a5",
+      "front": "to elicit",
+      "back": "susciter, obtenir"
+    },
+    {
+      "id": "392290",
+      "front": "to yield results",
+      "back": "produire des résultats"
+    },
+    {
+      "id": "986dba",
+      "front": "to generate",
+      "back": "générer, engendrer"
+    },
+    {
+      "id": "285580",
+      "front": "to devise",
+      "back": "concevoir, élaborer"
+    },
+    {
+      "id": "edc484",
+      "front": "to implement",
+      "back": "mettre en œuvre"
+    },
+    {
+      "id": "83993d",
+      "front": "to enforce",
+      "back": "faire respecter, appliquer"
+    },
+    {
+      "id": "695052",
+      "front": "to comply with",
+      "back": "se conformer à"
+    },
+    {
+      "id": "83d8c3",
+      "front": "to abide by",
+      "back": "respecter, se plier à"
+    },
+    {
+      "id": "1de8fe",
+      "front": "to breach",
+      "back": "enfreindre, violer"
+    },
+    {
+      "id": "471477",
+      "front": "to violate",
+      "back": "violer"
+    },
+    {
+      "id": "75ec46",
+      "front": "to circumvent",
+      "back": "contourner"
+    },
+    {
+      "id": "d2224e",
+      "front": "to evade",
+      "back": "éluder, se soustraire à"
+    },
+    {
+      "id": "757c6c",
+      "front": "to forgo",
+      "back": "renoncer à"
+    },
+    {
+      "id": "7a74a0",
+      "front": "to forfeit",
+      "back": "perdre, être déchu de"
+    },
+    {
+      "id": "611f27",
+      "front": "to relinquish",
+      "back": "abandonner, céder"
+    },
+    {
+      "id": "2de961",
+      "front": "to concede ground",
+      "back": "céder du terrain"
+    },
+    {
+      "id": "00a61f",
+      "front": "to delegate",
+      "back": "déléguer"
+    },
+    {
+      "id": "240587",
+      "front": "to allocate",
+      "back": "allouer, répartir"
+    },
+    {
+      "id": "48b326",
+      "front": "to apportion",
+      "back": "répartir"
+    },
+    {
+      "id": "a227e1",
+      "front": "to earmark",
+      "back": "affecter, réserver"
+    },
+    {
+      "id": "0446e1",
+      "front": "to allot",
+      "back": "attribuer"
+    },
+    {
+      "id": "53695a",
+      "front": "to disburse",
+      "back": "débourser, verser"
+    },
+    {
+      "id": "7b6044",
+      "front": "to reimburse",
+      "back": "rembourser"
+    },
+    {
+      "id": "40268d",
+      "front": "to levy",
+      "back": "prélever, lever"
+    },
+    {
+      "id": "a7dd7a",
+      "front": "to incur",
+      "back": "encourir, s'exposer à"
+    },
+    {
+      "id": "a3653f",
+      "front": "to accrue",
+      "back": "s'accumuler, courir"
+    },
+    {
+      "id": "f18089",
+      "front": "to squander",
+      "back": "gaspiller, dilapider"
+    },
+    {
+      "id": "e46f7c",
+      "front": "to hoard",
+      "back": "amasser, thésauriser"
+    },
+    {
+      "id": "3466ee",
+      "front": "to streamline",
+      "back": "rationaliser"
+    },
+    {
+      "id": "f4c8c2",
+      "front": "to overhaul",
+      "back": "réviser en profondeur, refondre"
+    },
+    {
+      "id": "705bf2",
+      "front": "to revamp",
+      "back": "remanier, moderniser"
+    },
+    {
+      "id": "720569",
+      "front": "to phase out",
+      "back": "supprimer progressivement"
+    },
+    {
+      "id": "2289b4",
+      "front": "to scrap",
+      "back": "abandonner, mettre au rebut"
+    },
+    {
+      "id": "7cdc8c",
+      "front": "to shelve",
+      "back": "mettre de côté, enterrer"
+    },
+    {
+      "id": "aa66d7",
+      "front": "to reinstate",
+      "back": "rétablir, réintégrer"
+    },
+    {
+      "id": "bcc681",
+      "front": "to redress",
+      "back": "redresser, réparer"
+    },
+    {
+      "id": "3e5b7c",
+      "front": "to rectify",
+      "back": "rectifier"
+    },
+    {
+      "id": "96a9c3",
+      "front": "to reconcile differences",
+      "back": "concilier des différences"
+    },
+    {
+      "id": "338a30",
+      "front": "to broker a deal",
+      "back": "négocier un accord"
+    },
+    {
+      "id": "93041f",
+      "front": "to mediate",
+      "back": "servir de médiateur"
+    },
+    {
+      "id": "bcc3a4",
+      "front": "to advocate",
+      "back": "préconiser, plaider pour"
+    },
+    {
+      "id": "9e8509",
+      "front": "to champion",
+      "back": "défendre, se faire le champion de"
+    },
+    {
+      "id": "85ecd0",
+      "front": "to endorse",
+      "back": "approuver, appuyer"
+    },
+    {
+      "id": "964ff6",
+      "front": "to condone",
+      "back": "excuser, fermer les yeux sur"
+    },
+    {
+      "id": "b444f3",
+      "front": "to denounce",
+      "back": "dénoncer"
+    },
+    {
+      "id": "38345f",
+      "front": "to decry",
+      "back": "dénoncer, décrier"
+    },
+    {
+      "id": "b12f7e",
+      "front": "to deride",
+      "back": "tourner en dérision"
+    },
+    {
+      "id": "97b00c",
+      "front": "to disparage",
+      "back": "dénigrer"
+    },
+    {
+      "id": "31f1d0",
+      "front": "to belittle",
+      "back": "rabaisser"
+    },
+    {
+      "id": "91a3ac",
+      "front": "to vindicate",
+      "back": "justifier, disculper"
+    },
+    {
+      "id": "bd5a95",
+      "front": "to exonerate",
+      "back": "disculper"
+    },
+    {
+      "id": "dae6ed",
+      "front": "to allege wrongdoing",
+      "back": "dénoncer des malversations"
+    },
+    {
+      "id": "e88358",
+      "front": "to scrutinise",
+      "back": "examiner minutieusement"
+    },
+    {
+      "id": "708af0",
+      "front": "to probe",
+      "back": "sonder, enquêter sur"
+    },
+    {
+      "id": "3b2530",
+      "front": "to ascertain",
+      "back": "établir, s'assurer de"
+    },
+    {
+      "id": "ed9271",
+      "front": "to discern",
+      "back": "discerner"
+    },
+    {
+      "id": "45b74c",
+      "front": "to grasp",
+      "back": "saisir, comprendre"
+    },
+    {
+      "id": "9ac0bd",
+      "front": "to construe",
+      "back": "interpréter"
+    },
+    {
+      "id": "6350b5",
+      "front": "to convey",
+      "back": "transmettre, exprimer"
+    },
+    {
+      "id": "291989",
+      "front": "to articulate",
+      "back": "exprimer clairement"
+    },
+    {
+      "id": "8f91d1",
+      "front": "to underscore",
+      "back": "souligner"
+    },
+    {
+      "id": "704331",
+      "front": "to reiterate",
+      "back": "réitérer"
+    },
+    {
+      "id": "ff871e",
+      "front": "to allude to",
+      "back": "faire allusion à"
+    }
+  ]
+}
