@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-common-verbs-2",
+  "name": "Common Verbs 2",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "bwgk0r",
+      "front": "to forbid",
+      "back": "interdire"
+    },
+    {
+      "id": "pq7kg3",
+      "front": "to let",
+      "back": "laisser, permettre"
+    },
+    {
+      "id": "zpgvk4",
+      "front": "to order somebody to",
+      "back": "ordonner à quelqu'un de"
+    },
+    {
+      "id": "cgj8sw",
+      "front": "to obey",
+      "back": "obéir"
+    },
+    {
+      "id": "w6gdl6",
+      "front": "to refuse to do",
+      "back": "refuser de faire"
+    },
+    {
+      "id": "7xj0y7",
+      "front": "to accept an offer",
+      "back": "accepter une offre"
+    },
+    {
+      "id": "kaa0dr",
+      "front": "to offer",
+      "back": "proposer, offrir"
+    },
+    {
+      "id": "au2kqy",
+      "front": "to suggest",
+      "back": "suggérer"
+    },
+    {
+      "id": "zbn68d",
+      "front": "to advise against",
+      "back": "déconseiller"
+    },
+    {
+      "id": "p9gwo9",
+      "front": "to insist",
+      "back": "insister"
+    },
+    {
+      "id": "x26wo5",
+      "front": "to admit",
+      "back": "admettre, avouer"
+    },
+    {
+      "id": "86x3of",
+      "front": "to deny",
+      "back": "nier"
+    },
+    {
+      "id": "hz0p6r",
+      "front": "to explain oneself",
+      "back": "s'expliquer"
+    },
+    {
+      "id": "hzofi6",
+      "front": "to describe",
+      "back": "décrire"
+    },
+    {
+      "id": "7my0g1",
+      "front": "to mention",
+      "back": "mentionner"
+    },
+    {
+      "id": "0ajkaa",
+      "front": "to repeat",
+      "back": "répéter"
+    },
+    {
+      "id": "qiy0zm",
+      "front": "to translate",
+      "back": "traduire"
+    },
+    {
+      "id": "3la43u",
+      "front": "to spell",
+      "back": "épeler"
+    },
+    {
+      "id": "am34pc",
+      "front": "to pronounce",
+      "back": "prononcer"
+    },
+    {
+      "id": "x5okew",
+      "front": "to mean",
+      "back": "signifier, vouloir dire"
+    },
+    {
+      "id": "zqfp62",
+      "front": "to guess",
+      "back": "deviner"
+    },
+    {
+      "id": "i8il3x",
+      "front": "to imagine",
+      "back": "imaginer"
+    },
+    {
+      "id": "fx3mi8",
+      "front": "to expect",
+      "back": "s'attendre à"
+    },
+    {
+      "id": "2fk588",
+      "front": "to suppose",
+      "back": "supposer"
+    },
+    {
+      "id": "lblz3w",
+      "front": "to doubt",
+      "back": "douter"
+    },
+    {
+      "id": "a8so57",
+      "front": "to realise",
+      "back": "se rendre compte de"
+    },
+    {
+      "id": "5sb32j",
+      "front": "to notice",
+      "back": "remarquer"
+    },
+    {
+      "id": "eh6axj",
+      "front": "to compare",
+      "back": "comparer"
+    },
+    {
+      "id": "35epw1",
+      "front": "to check",
+      "back": "vérifier"
+    },
+    {
+      "id": "sy6kxb",
+      "front": "to prove",
+      "back": "prouver"
+    },
+    {
+      "id": "jd2m2m",
+      "front": "to measure",
+      "back": "mesurer"
+    },
+    {
+      "id": "lcibtl",
+      "front": "to weigh",
+      "back": "peser"
+    },
+    {
+      "id": "rxvmbw",
+      "front": "to calculate",
+      "back": "calculer"
+    },
+    {
+      "id": "xs6eph",
+      "front": "to solve",
+      "back": "résoudre"
+    },
+    {
+      "id": "phrr31",
+      "front": "to succeed",
+      "back": "réussir"
+    },
+    {
+      "id": "osxw9d",
+      "front": "to manage to",
+      "back": "parvenir à"
+    },
+    {
+      "id": "tyuopv",
+      "front": "to fail to",
+      "back": "ne pas réussir à"
+    },
+    {
+      "id": "o3qbil",
+      "front": "to give up",
+      "back": "abandonner"
+    },
+    {
+      "id": "x3iwwp",
+      "front": "to keep on",
+      "back": "continuer à"
+    },
+    {
+      "id": "8t9472",
+      "front": "to avoid",
+      "back": "éviter"
+    },
+    {
+      "id": "th119q",
+      "front": "to prevent",
+      "back": "empêcher"
+    },
+    {
+      "id": "ps22qq",
+      "front": "to protect",
+      "back": "protéger"
+    },
+    {
+      "id": "lzax9a",
+      "front": "to defend",
+      "back": "défendre"
+    },
+    {
+      "id": "jl0i7r",
+      "front": "to attack",
+      "back": "attaquer"
+    },
+    {
+      "id": "giafv8",
+      "front": "to fight",
+      "back": "se battre"
+    },
+    {
+      "id": "n8pee3",
+      "front": "to hit",
+      "back": "frapper"
+    },
+    {
+      "id": "vmj5ws",
+      "front": "to hurt oneself",
+      "back": "se blesser"
+    },
+    {
+      "id": "lf1zmt",
+      "front": "to escape",
+      "back": "s'échapper"
+    },
+    {
+      "id": "gcn4lj",
+      "front": "to hide oneself",
+      "back": "se cacher"
+    },
+    {
+      "id": "o3cn0d",
+      "front": "to chase",
+      "back": "poursuivre"
+    },
+    {
+      "id": "nf4d4u",
+      "front": "to reach",
+      "back": "atteindre"
+    },
+    {
+      "id": "p6zbfs",
+      "front": "to arrive at a decision",
+      "back": "parvenir à une décision"
+    },
+    {
+      "id": "rq974m",
+      "front": "to prepare",
+      "back": "préparer"
+    },
+    {
+      "id": "vznih8",
+      "front": "to plan",
+      "back": "prévoir, planifier"
+    },
+    {
+      "id": "zuywlk",
+      "front": "to organise",
+      "back": "organiser"
+    },
+    {
+      "id": "cjyrkc",
+      "front": "to arrange",
+      "back": "arranger, organiser"
+    },
+    {
+      "id": "oxl85m",
+      "front": "to book a table",
+      "back": "réserver une table"
+    },
+    {
+      "id": "92ice5",
+      "front": "to invite over",
+      "back": "inviter chez soi"
+    },
+    {
+      "id": "3sfymv",
+      "front": "to attend to",
+      "back": "s'occuper de"
+    },
+    {
+      "id": "ru6a8u",
+      "front": "to look up",
+      "back": "chercher dans un dictionnaire"
+    },
+    {
+      "id": "ij8t0d",
+      "front": "to point out",
+      "back": "signaler, faire remarquer"
+    },
+    {
+      "id": "s55hbw",
+      "front": "to set up",
+      "back": "installer, mettre en place"
+    },
+    {
+      "id": "153owy",
+      "front": "to work on",
+      "back": "travailler sur"
+    },
+    {
+      "id": "zq5szk",
+      "front": "to deal with",
+      "back": "traiter, s'occuper de"
+    },
+    {
+      "id": "nka537",
+      "front": "to sort out",
+      "back": "régler, trier"
+    },
+    {
+      "id": "rdxosy",
+      "front": "to take care of",
+      "back": "prendre soin de"
+    },
+    {
+      "id": "cghuq9",
+      "front": "to belong",
+      "back": "appartenir"
+    },
+    {
+      "id": "ufmma2",
+      "front": "to own",
+      "back": "posséder"
+    },
+    {
+      "id": "i1hl6p",
+      "front": "to receive",
+      "back": "recevoir"
+    },
+    {
+      "id": "o4v1dr",
+      "front": "to provide",
+      "back": "fournir"
+    },
+    {
+      "id": "mvge8n",
+      "front": "to supply",
+      "back": "approvisionner"
+    },
+    {
+      "id": "0xa6pm",
+      "front": "to exchange",
+      "back": "échanger"
+    },
+    {
+      "id": "72z74k",
+      "front": "to replace",
+      "back": "remplacer"
+    },
+    {
+      "id": "qeeod5",
+      "front": "to repair",
+      "back": "réparer"
+    },
+    {
+      "id": "6bnbpj",
+      "front": "to destroy",
+      "back": "détruire"
+    },
+    {
+      "id": "njm2db",
+      "front": "to damage",
+      "back": "endommager"
+    },
+    {
+      "id": "wosfv1",
+      "front": "to spoil",
+      "back": "gâcher, gâter"
+    },
+    {
+      "id": "1o5m48",
+      "front": "to improve",
+      "back": "améliorer"
+    },
+    {
+      "id": "pdjpe6",
+      "front": "to increase",
+      "back": "augmenter"
+    },
+    {
+      "id": "8omu48",
+      "front": "to reduce",
+      "back": "réduire"
+    },
+    {
+      "id": "juusnd",
+      "front": "to grow",
+      "back": "pousser, croître"
+    },
+    {
+      "id": "zzdiqt",
+      "front": "to shrink",
+      "back": "rétrécir"
+    },
+    {
+      "id": "7df1lv",
+      "front": "to spread",
+      "back": "répandre, étaler"
+    },
+    {
+      "id": "5wahjb",
+      "front": "to mix",
+      "back": "mélanger"
+    },
+    {
+      "id": "xji1jr",
+      "front": "to divide",
+      "back": "diviser"
+    },
+    {
+      "id": "tr2sd7",
+      "front": "to join",
+      "back": "joindre, rejoindre"
+    },
+    {
+      "id": "0uym9u",
+      "front": "to separate",
+      "back": "séparer"
+    },
+    {
+      "id": "c7a4ig",
+      "front": "to gather",
+      "back": "rassembler"
+    },
+    {
+      "id": "wr9qew",
+      "front": "to collect",
+      "back": "collectionner, ramasser"
+    },
+    {
+      "id": "fvd80x",
+      "front": "to select",
+      "back": "sélectionner"
+    },
+    {
+      "id": "lviu3k",
+      "front": "to include",
+      "back": "inclure"
+    },
+    {
+      "id": "mce237",
+      "front": "to contain",
+      "back": "contenir"
+    },
+    {
+      "id": "bhfu18",
+      "front": "to hold on",
+      "back": "tenir bon, patienter"
+    },
+    {
+      "id": "6ep45v",
+      "front": "to depend on",
+      "back": "dépendre de"
+    },
+    {
+      "id": "xppoat",
+      "front": "to rely on",
+      "back": "compter sur"
+    },
+    {
+      "id": "92y7o4",
+      "front": "to matter",
+      "back": "importer"
+    },
+    {
+      "id": "jgzp2s",
+      "front": "to concern",
+      "back": "concerner"
+    },
+    {
+      "id": "1y0jou",
+      "front": "to affect",
+      "back": "affecter, toucher"
+    },
+    {
+      "id": "kbanh1",
+      "front": "to involve",
+      "back": "impliquer"
+    },
+    {
+      "id": "1xj4de",
+      "front": "to require",
+      "back": "exiger, nécessiter"
+    }
+  ]
+}
