@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-society-1",
+  "name": "Society, Class and Identity 1",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "e8gdyl",
+      "front": "social class",
+      "back": "la classe sociale"
+    },
+    {
+      "id": "4kyzom",
+      "front": "the working class",
+      "back": "la classe ouvrière"
+    },
+    {
+      "id": "9ddbmj",
+      "front": "the middle class",
+      "back": "la classe moyenne"
+    },
+    {
+      "id": "3lde86",
+      "front": "the upper class",
+      "back": "la classe supérieure"
+    },
+    {
+      "id": "uwu61f",
+      "front": "the underclass",
+      "back": "le sous-prolétariat"
+    },
+    {
+      "id": "8bw3ts",
+      "front": "social mobility",
+      "back": "la mobilité sociale"
+    },
+    {
+      "id": "fuadrf",
+      "front": "upward mobility",
+      "back": "l'ascension sociale"
+    },
+    {
+      "id": "uirghd",
+      "front": "a class divide",
+      "back": "une fracture sociale"
+    },
+    {
+      "id": "5ik7p7",
+      "front": "stratification",
+      "back": "la stratification sociale"
+    },
+    {
+      "id": "u728hk",
+      "front": "a caste",
+      "back": "une caste"
+    },
+    {
+      "id": "x9jnae",
+      "front": "status",
+      "back": "le statut social"
+    },
+    {
+      "id": "orurbk",
+      "front": "prestige",
+      "back": "le prestige"
+    },
+    {
+      "id": "cpk757",
+      "front": "deference",
+      "back": "la déférence"
+    },
+    {
+      "id": "ffb3u9",
+      "front": "snobbery",
+      "back": "le snobisme"
+    },
+    {
+      "id": "tkvgxv",
+      "front": "inverted snobbery",
+      "back": "le snobisme à rebours"
+    },
+    {
+      "id": "pj8oji",
+      "front": "a milieu",
+      "back": "un milieu social"
+    },
+    {
+      "id": "hcz9tt",
+      "front": "an upbringing",
+      "back": "une éducation, une origine familiale"
+    },
+    {
+      "id": "9ve8hb",
+      "front": "a background",
+      "back": "un milieu d'origine"
+    },
+    {
+      "id": "nlpcqk",
+      "front": "inequality",
+      "back": "l'inégalité"
+    },
+    {
+      "id": "mnqhf0",
+      "front": "the wealth gap",
+      "back": "l'écart de richesse"
+    },
+    {
+      "id": "6genvk",
+      "front": "income distribution",
+      "back": "la répartition des revenus"
+    },
+    {
+      "id": "g8s21o",
+      "front": "poverty",
+      "back": "la pauvreté"
+    },
+    {
+      "id": "2p0if4",
+      "front": "relative poverty",
+      "back": "la pauvreté relative"
+    },
+    {
+      "id": "eaz5oy",
+      "front": "destitution",
+      "back": "le dénuement, l'indigence"
+    },
+    {
+      "id": "ibwsnm",
+      "front": "deprivation",
+      "back": "la privation, la précarité"
+    },
+    {
+      "id": "4o255z",
+      "front": "a safety net",
+      "back": "un filet de sécurité sociale"
+    },
+    {
+      "id": "bbmt3j",
+      "front": "welfare",
+      "back": "l'aide sociale"
+    },
+    {
+      "id": "0u8eki",
+      "front": "a benefit claimant",
+      "back": "un allocataire"
+    },
+    {
+      "id": "z0ckwr",
+      "front": "means testing",
+      "back": "la condition de ressources"
+    },
+    {
+      "id": "mt5uz0",
+      "front": "a stigma",
+      "back": "un stigmate"
+    },
+    {
+      "id": "v636ce",
+      "front": "marginalisation",
+      "back": "la marginalisation"
+    },
+    {
+      "id": "9y7kzz",
+      "front": "exclusion",
+      "back": "l'exclusion"
+    },
+    {
+      "id": "j66uy8",
+      "front": "disenfranchised",
+      "back": "privé de voix, marginalisé"
+    },
+    {
+      "id": "1ra0l0",
+      "front": "the precariat",
+      "back": "le précariat"
+    },
+    {
+      "id": "movilf",
+      "front": "job insecurity",
+      "back": "la précarité de l'emploi"
+    },
+    {
+      "id": "19zaaa",
+      "front": "in-work poverty",
+      "back": "la pauvreté laborieuse"
+    },
+    {
+      "id": "pmv339",
+      "front": "a demographic",
+      "back": "un groupe démographique"
+    },
+    {
+      "id": "ixgm8c",
+      "front": "demography",
+      "back": "la démographie"
+    },
+    {
+      "id": "kvno3c",
+      "front": "the birth rate",
+      "back": "le taux de natalité"
+    },
+    {
+      "id": "7kqabg",
+      "front": "the fertility rate",
+      "back": "le taux de fécondité"
+    },
+    {
+      "id": "g1bo72",
+      "front": "an ageing population",
+      "back": "un vieillissement de la population"
+    },
+    {
+      "id": "ci66qm",
+      "front": "a dependency ratio",
+      "back": "un taux de dépendance"
+    },
+    {
+      "id": "le1v83",
+      "front": "a baby boom",
+      "back": "un baby-boom"
+    },
+    {
+      "id": "2cape9",
+      "front": "an age group",
+      "back": "une tranche d'âge"
+    },
+    {
+      "id": "0q37mw",
+      "front": "a generation gap",
+      "back": "un fossé des générations"
+    },
+    {
+      "id": "x0c5ub",
+      "front": "life chances",
+      "back": "les perspectives de vie"
+    },
+    {
+      "id": "yddx5a",
+      "front": "a census",
+      "back": "un recensement"
+    },
+    {
+      "id": "vp9tk8",
+      "front": "urbanisation",
+      "back": "l'urbanisation"
+    },
+    {
+      "id": "qyjvaf",
+      "front": "gentrification",
+      "back": "la gentrification"
+    },
+    {
+      "id": "7158t0",
+      "front": "suburbanisation",
+      "back": "la périurbanisation"
+    },
+    {
+      "id": "yvpzpd",
+      "front": "an inner city",
+      "back": "un centre-ville défavorisé"
+    },
+    {
+      "id": "8ydwia",
+      "front": "a commuter belt",
+      "back": "une ceinture périurbaine"
+    },
+    {
+      "id": "ndg8ye",
+      "front": "social housing",
+      "back": "le logement social"
+    },
+    {
+      "id": "gy6yec",
+      "front": "overcrowding",
+      "back": "la surpopulation, le surpeuplement"
+    },
+    {
+      "id": "5wupv2",
+      "front": "homelessness",
+      "back": "le sans-abrisme"
+    },
+    {
+      "id": "8n10if",
+      "front": "segregation",
+      "back": "la ségrégation"
+    },
+    {
+      "id": "nqhlb0",
+      "front": "integration",
+      "back": "l'intégration"
+    },
+    {
+      "id": "amu2jl",
+      "front": "assimilation",
+      "back": "l'assimilation"
+    },
+    {
+      "id": "s2xla6",
+      "front": "multiculturalism",
+      "back": "le multiculturalisme"
+    },
+    {
+      "id": "sqc3xo",
+      "front": "a minority",
+      "back": "une minorité"
+    },
+    {
+      "id": "pwbngv",
+      "front": "identity",
+      "back": "l'identité"
+    },
+    {
+      "id": "tnzpvc",
+      "front": "identity politics",
+      "back": "la politique identitaire"
+    },
+    {
+      "id": "8t90p8",
+      "front": "a sense of belonging",
+      "back": "un sentiment d'appartenance"
+    },
+    {
+      "id": "887taa",
+      "front": "an in-group",
+      "back": "un groupe d'appartenance"
+    },
+    {
+      "id": "w56o3t",
+      "front": "an out-group",
+      "back": "un groupe extérieur"
+    },
+    {
+      "id": "hu597h",
+      "front": "othering",
+      "back": "l'altérisation, la mise à l'écart de l'autre"
+    },
+    {
+      "id": "ht57pb",
+      "front": "prejudice",
+      "back": "le préjugé"
+    },
+    {
+      "id": "xlwzq0",
+      "front": "discrimination",
+      "back": "la discrimination"
+    },
+    {
+      "id": "04b06t",
+      "front": "positive discrimination",
+      "back": "la discrimination positive"
+    },
+    {
+      "id": "i4ujn5",
+      "front": "a quota",
+      "back": "un quota"
+    },
+    {
+      "id": "820v7e",
+      "front": "tokenism",
+      "back": "le symbolisme de façade"
+    },
+    {
+      "id": "dt23ls",
+      "front": "a glass floor",
+      "back": "un plancher de verre (protection des privilégiés)"
+    },
+    {
+      "id": "gb25z5",
+      "front": "meritocracy",
+      "back": "la méritocratie"
+    },
+    {
+      "id": "sff0qa",
+      "front": "nepotism",
+      "back": "le népotisme"
+    },
+    {
+      "id": "jkmzru",
+      "front": "privilege",
+      "back": "le privilège"
+    },
+    {
+      "id": "9m5fwg",
+      "front": "entitlement",
+      "back": "le sentiment d'y avoir droit"
+    },
+    {
+      "id": "gtctix",
+      "front": "social capital",
+      "back": "le capital social"
+    },
+    {
+      "id": "mebtcu",
+      "front": "cultural capital",
+      "back": "le capital culturel"
+    },
+    {
+      "id": "karqju",
+      "front": "a network",
+      "back": "un réseau de relations"
+    },
+    {
+      "id": "lkuy06",
+      "front": "an old boys' network",
+      "back": "un réseau d'anciens"
+    },
+    {
+      "id": "2egozk",
+      "front": "gender",
+      "back": "le genre"
+    },
+    {
+      "id": "0xz252",
+      "front": "a gender role",
+      "back": "un rôle de genre"
+    },
+    {
+      "id": "9rxo6j",
+      "front": "patriarchy",
+      "back": "le patriarcat"
+    },
+    {
+      "id": "znip1s",
+      "front": "feminism",
+      "back": "le féminisme"
+    },
+    {
+      "id": "32fi83",
+      "front": "emancipation of women",
+      "back": "l'émancipation des femmes"
+    },
+    {
+      "id": "ri1bp6",
+      "front": "a household",
+      "back": "un ménage"
+    },
+    {
+      "id": "tlz62w",
+      "front": "a single-parent family",
+      "back": "une famille monoparentale"
+    },
+    {
+      "id": "nbapeg",
+      "front": "cohabitation",
+      "back": "la cohabitation, le concubinage"
+    },
+    {
+      "id": "smq2a7",
+      "front": "a birth cohort",
+      "back": "une génération de naissance"
+    },
+    {
+      "id": "ker4mn",
+      "front": "secularisation",
+      "back": "la sécularisation"
+    },
+    {
+      "id": "xsmwpa",
+      "front": "individualism",
+      "back": "l'individualisme"
+    },
+    {
+      "id": "xfb3yf",
+      "front": "collectivism",
+      "back": "le collectivisme"
+    },
+    {
+      "id": "zr6359",
+      "front": "solidarity",
+      "back": "la solidarité"
+    },
+    {
+      "id": "ws8svq",
+      "front": "civil society",
+      "back": "la société civile"
+    },
+    {
+      "id": "y76ufz",
+      "front": "a grassroots movement",
+      "back": "un mouvement citoyen"
+    },
+    {
+      "id": "rh4kdk",
+      "front": "a pressure group",
+      "back": "un groupe de pression"
+    },
+    {
+      "id": "ewo0ea",
+      "front": "activism",
+      "back": "le militantisme"
+    },
+    {
+      "id": "zalygv",
+      "front": "a backlash",
+      "back": "un retour de bâton, une réaction hostile"
+    },
+    {
+      "id": "puu8rs",
+      "front": "a moral panic",
+      "back": "une panique morale"
+    },
+    {
+      "id": "04vusj",
+      "front": "a culture war",
+      "back": "une guerre culturelle"
+    }
+  ]
+}
