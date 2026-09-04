@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-work-jobs",
+  "name": "Work and Jobs",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "hjw8jf",
+      "front": "a job",
+      "back": "un emploi"
+    },
+    {
+      "id": "jguwkj",
+      "front": "work",
+      "back": "le travail"
+    },
+    {
+      "id": "o67cy0",
+      "front": "a career",
+      "back": "une carrière"
+    },
+    {
+      "id": "ug4xjq",
+      "front": "a profession",
+      "back": "une profession"
+    },
+    {
+      "id": "m7ha7m",
+      "front": "a trade",
+      "back": "un métier manuel"
+    },
+    {
+      "id": "13gpoq",
+      "front": "an occupation",
+      "back": "une occupation, un métier"
+    },
+    {
+      "id": "w3i7g7",
+      "front": "a worker",
+      "back": "un travailleur"
+    },
+    {
+      "id": "6idj3r",
+      "front": "an employee",
+      "back": "un salarié"
+    },
+    {
+      "id": "tee83s",
+      "front": "an employer",
+      "back": "un employeur"
+    },
+    {
+      "id": "ck5enu",
+      "front": "a colleague",
+      "back": "un collègue"
+    },
+    {
+      "id": "00whi8",
+      "front": "a boss",
+      "back": "un patron"
+    },
+    {
+      "id": "f6t4xc",
+      "front": "a manager",
+      "back": "un cadre, un responsable"
+    },
+    {
+      "id": "4ogdfe",
+      "front": "a director",
+      "back": "un directeur"
+    },
+    {
+      "id": "teu3ai",
+      "front": "a supervisor",
+      "back": "un superviseur"
+    },
+    {
+      "id": "hnxry1",
+      "front": "a team",
+      "back": "une équipe"
+    },
+    {
+      "id": "h37a2h",
+      "front": "the staff",
+      "back": "le personnel"
+    },
+    {
+      "id": "d8ms29",
+      "front": "a company",
+      "back": "une entreprise"
+    },
+    {
+      "id": "45pn34",
+      "front": "a firm",
+      "back": "une société"
+    },
+    {
+      "id": "vgnkbg",
+      "front": "a factory",
+      "back": "une usine"
+    },
+    {
+      "id": "v0r8fq",
+      "front": "an office",
+      "back": "un bureau"
+    },
+    {
+      "id": "c1aj1m",
+      "front": "a workshop",
+      "back": "un atelier"
+    },
+    {
+      "id": "rmvx2m",
+      "front": "a site",
+      "back": "un chantier, un site"
+    },
+    {
+      "id": "lmzeb9",
+      "front": "a branch",
+      "back": "une succursale"
+    },
+    {
+      "id": "dcqae7",
+      "front": "a teacher",
+      "back": "un enseignant"
+    },
+    {
+      "id": "rtjztn",
+      "front": "a lawyer",
+      "back": "un avocat"
+    },
+    {
+      "id": "4c3vir",
+      "front": "an engineer",
+      "back": "un ingénieur"
+    },
+    {
+      "id": "q6grdd",
+      "front": "an accountant",
+      "back": "un comptable"
+    },
+    {
+      "id": "1fn2g6",
+      "front": "a secretary",
+      "back": "un secrétaire"
+    },
+    {
+      "id": "uhj3zi",
+      "front": "a receptionist",
+      "back": "un réceptionniste"
+    },
+    {
+      "id": "tphcup",
+      "front": "a salesman",
+      "back": "un vendeur, un commercial"
+    },
+    {
+      "id": "g1p809",
+      "front": "a journalist",
+      "back": "un journaliste"
+    },
+    {
+      "id": "ym9m68",
+      "front": "a photographer",
+      "back": "un photographe"
+    },
+    {
+      "id": "aqfda8",
+      "front": "a cook",
+      "back": "un cuisinier"
+    },
+    {
+      "id": "mn5km2",
+      "front": "a baker",
+      "back": "un boulanger"
+    },
+    {
+      "id": "9joqya",
+      "front": "a farmer",
+      "back": "un agriculteur"
+    },
+    {
+      "id": "84fvv6",
+      "front": "a builder",
+      "back": "un maçon, un constructeur"
+    },
+    {
+      "id": "57s3pd",
+      "front": "a plumber",
+      "back": "un plombier"
+    },
+    {
+      "id": "3prm6c",
+      "front": "an electrician",
+      "back": "un électricien"
+    },
+    {
+      "id": "i9snd8",
+      "front": "a mechanic",
+      "back": "un mécanicien"
+    },
+    {
+      "id": "j3c3q2",
+      "front": "a carpenter",
+      "back": "un menuisier"
+    },
+    {
+      "id": "r81562",
+      "front": "a painter",
+      "back": "un peintre"
+    },
+    {
+      "id": "q21i3a",
+      "front": "a hairdresser",
+      "back": "un coiffeur"
+    },
+    {
+      "id": "301gcy",
+      "front": "a cleaner",
+      "back": "un agent d'entretien"
+    },
+    {
+      "id": "4hh9gy",
+      "front": "a soldier",
+      "back": "un soldat"
+    },
+    {
+      "id": "4jb0r4",
+      "front": "a firefighter",
+      "back": "un pompier"
+    },
+    {
+      "id": "p5gotq",
+      "front": "a police officer",
+      "back": "un policier"
+    },
+    {
+      "id": "2okngn",
+      "front": "a pilot",
+      "back": "un pilote"
+    },
+    {
+      "id": "zaj9be",
+      "front": "a scientist",
+      "back": "un scientifique"
+    },
+    {
+      "id": "b6ikyn",
+      "front": "a researcher",
+      "back": "un chercheur"
+    },
+    {
+      "id": "jvd5ep",
+      "front": "a civil servant",
+      "back": "un fonctionnaire"
+    },
+    {
+      "id": "dsgwl5",
+      "front": "a shopkeeper",
+      "back": "un commerçant"
+    },
+    {
+      "id": "qxcpqi",
+      "front": "a craftsman",
+      "back": "un artisan"
+    },
+    {
+      "id": "74l5cj",
+      "front": "an apprentice",
+      "back": "un apprenti"
+    },
+    {
+      "id": "usu34g",
+      "front": "a trainee",
+      "back": "un stagiaire"
+    },
+    {
+      "id": "50h5zt",
+      "front": "a volunteer",
+      "back": "un bénévole"
+    },
+    {
+      "id": "d2nr4j",
+      "front": "a contract",
+      "back": "un contrat"
+    },
+    {
+      "id": "33itdi",
+      "front": "a full-time job",
+      "back": "un emploi à plein temps"
+    },
+    {
+      "id": "wlkwlk",
+      "front": "a part-time job",
+      "back": "un emploi à temps partiel"
+    },
+    {
+      "id": "itnyhv",
+      "front": "a permanent contract",
+      "back": "un contrat à durée indéterminée"
+    },
+    {
+      "id": "yi5i0m",
+      "front": "a temporary contract",
+      "back": "un contrat temporaire"
+    },
+    {
+      "id": "wt36hi",
+      "front": "a salary",
+      "back": "un salaire"
+    },
+    {
+      "id": "mtdmg3",
+      "front": "a pay rise",
+      "back": "une augmentation"
+    },
+    {
+      "id": "1yon8o",
+      "front": "a bonus",
+      "back": "une prime"
+    },
+    {
+      "id": "2alafh",
+      "front": "a working day",
+      "back": "une journée de travail"
+    },
+    {
+      "id": "4bn5kw",
+      "front": "overtime",
+      "back": "des heures supplémentaires"
+    },
+    {
+      "id": "djgurp",
+      "front": "a shift",
+      "back": "une équipe, un poste"
+    },
+    {
+      "id": "hfyzln",
+      "front": "a break",
+      "back": "une pause"
+    },
+    {
+      "id": "07atmk",
+      "front": "a sick leave",
+      "back": "un congé maladie"
+    },
+    {
+      "id": "tlbw80",
+      "front": "a pension",
+      "back": "une retraite"
+    },
+    {
+      "id": "5ewkjw",
+      "front": "retirement",
+      "back": "la retraite"
+    },
+    {
+      "id": "ooqf83",
+      "front": "unemployment",
+      "back": "le chômage"
+    },
+    {
+      "id": "w38bnv",
+      "front": "a job advertisement",
+      "back": "une offre d'emploi"
+    },
+    {
+      "id": "s13ss0",
+      "front": "an application",
+      "back": "une candidature"
+    },
+    {
+      "id": "mmm02l",
+      "front": "a CV",
+      "back": "un curriculum vitæ"
+    },
+    {
+      "id": "bx5aou",
+      "front": "a covering letter",
+      "back": "une lettre de motivation"
+    },
+    {
+      "id": "hgkdxy",
+      "front": "an interview",
+      "back": "un entretien"
+    },
+    {
+      "id": "5m40fo",
+      "front": "a qualification",
+      "back": "une qualification, un diplôme"
+    },
+    {
+      "id": "s07w5t",
+      "front": "an experience",
+      "back": "une expérience"
+    },
+    {
+      "id": "aphyzk",
+      "front": "a skill",
+      "back": "une compétence"
+    },
+    {
+      "id": "f81h61",
+      "front": "a task",
+      "back": "une tâche"
+    },
+    {
+      "id": "gmcz3s",
+      "front": "a responsibility",
+      "back": "une responsabilité"
+    },
+    {
+      "id": "ors1jj",
+      "front": "a deadline",
+      "back": "une échéance"
+    },
+    {
+      "id": "ljvzsq",
+      "front": "a meeting",
+      "back": "une réunion"
+    },
+    {
+      "id": "rarq38",
+      "front": "a promotion",
+      "back": "une promotion"
+    },
+    {
+      "id": "l7y45x",
+      "front": "a strike",
+      "back": "une grève"
+    },
+    {
+      "id": "az0h42",
+      "front": "a trade union",
+      "back": "un syndicat"
+    },
+    {
+      "id": "r3cpbc",
+      "front": "to work",
+      "back": "travailler"
+    },
+    {
+      "id": "tfxcwp",
+      "front": "to hire",
+      "back": "embaucher"
+    },
+    {
+      "id": "v6iwsl",
+      "front": "to recruit",
+      "back": "recruter"
+    },
+    {
+      "id": "jec113",
+      "front": "to apply for",
+      "back": "postuler à"
+    },
+    {
+      "id": "f1w7ac",
+      "front": "to employ",
+      "back": "employer"
+    },
+    {
+      "id": "l88m1i",
+      "front": "to sack",
+      "back": "licencier, virer"
+    },
+    {
+      "id": "oj1sdj",
+      "front": "to resign",
+      "back": "démissionner"
+    },
+    {
+      "id": "7dq4ko",
+      "front": "to retire",
+      "back": "partir à la retraite"
+    },
+    {
+      "id": "d0chtm",
+      "front": "to manage",
+      "back": "diriger, gérer"
+    },
+    {
+      "id": "qk8g4m",
+      "front": "to train",
+      "back": "former"
+    },
+    {
+      "id": "57q9uu",
+      "front": "to be in charge of",
+      "back": "être responsable de"
+    },
+    {
+      "id": "hhezju",
+      "front": "to earn a living",
+      "back": "gagner sa vie"
+    },
+    {
+      "id": "md7d3c",
+      "front": "skilled",
+      "back": "qualifié"
+    },
+    {
+      "id": "bbqq4q",
+      "front": "demanding",
+      "back": "exigeant"
+    }
+  ]
+}
