@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-environment-2",
+  "name": "Environment and Climate 2",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "c7ap90",
+      "front": "anthropogenic",
+      "back": "anthropique"
+    },
+    {
+      "id": "hgxrib",
+      "front": "eutrophication",
+      "back": "l'eutrophisation"
+    },
+    {
+      "id": "8v09yw",
+      "front": "albedo",
+      "back": "l'albédo"
+    },
+    {
+      "id": "ohgtrk",
+      "front": "sequestration",
+      "back": "la séquestration (du carbone)"
+    },
+    {
+      "id": "ej06s3",
+      "front": "radiative forcing",
+      "back": "le forçage radiatif"
+    },
+    {
+      "id": "apcrsv",
+      "front": "climate sensitivity",
+      "back": "la sensibilité climatique"
+    },
+    {
+      "id": "cwaqxa",
+      "front": "a feedback mechanism",
+      "back": "un mécanisme de rétroaction"
+    },
+    {
+      "id": "dv3txo",
+      "front": "a proxy record",
+      "back": "un enregistrement indirect (paléoclimatique)"
+    },
+    {
+      "id": "aymhcl",
+      "front": "a palaeoclimate",
+      "back": "un paléoclimat"
+    },
+    {
+      "id": "ecoapn",
+      "front": "an ice core",
+      "back": "une carotte de glace"
+    },
+    {
+      "id": "arexbp",
+      "front": "a varve",
+      "back": "une varve"
+    },
+    {
+      "id": "i03i7r",
+      "front": "dendrochronology",
+      "back": "la dendrochronologie"
+    },
+    {
+      "id": "yt0cu2",
+      "front": "stratigraphy",
+      "back": "la stratigraphie"
+    },
+    {
+      "id": "o91vx7",
+      "front": "the Holocene",
+      "back": "l'Holocène"
+    },
+    {
+      "id": "nt02qb",
+      "front": "the Anthropocene",
+      "back": "l'Anthropocène"
+    },
+    {
+      "id": "qh12md",
+      "front": "the Pleistocene",
+      "back": "le Pléistocène"
+    },
+    {
+      "id": "alfchq",
+      "front": "an interglacial",
+      "back": "une période interglaciaire"
+    },
+    {
+      "id": "yr0m3k",
+      "front": "a Milankovitch cycle",
+      "back": "un cycle de Milankovitch"
+    },
+    {
+      "id": "b8bg4w",
+      "front": "insolation",
+      "back": "l'insolation, le rayonnement reçu"
+    },
+    {
+      "id": "grdy8q",
+      "front": "the troposphere",
+      "back": "la troposphère"
+    },
+    {
+      "id": "zo6hma",
+      "front": "the stratosphere",
+      "back": "la stratosphère"
+    },
+    {
+      "id": "tufshy",
+      "front": "the cryosphere",
+      "back": "la cryosphère"
+    },
+    {
+      "id": "hovm9a",
+      "front": "the biosphere",
+      "back": "la biosphère"
+    },
+    {
+      "id": "cxucj4",
+      "front": "the lithosphere",
+      "back": "la lithosphère"
+    },
+    {
+      "id": "zntww7",
+      "front": "the hydrological cycle",
+      "back": "le cycle de l'eau"
+    },
+    {
+      "id": "lzlswq",
+      "front": "evapotranspiration",
+      "back": "l'évapotranspiration"
+    },
+    {
+      "id": "eku2w4",
+      "front": "a thermocline",
+      "back": "une thermocline"
+    },
+    {
+      "id": "r6zyox",
+      "front": "thermohaline circulation",
+      "back": "la circulation thermohaline"
+    },
+    {
+      "id": "21in78",
+      "front": "an upwelling",
+      "back": "une remontée d'eau froide"
+    },
+    {
+      "id": "qcl0yk",
+      "front": "a gyre",
+      "back": "un gyre océanique"
+    },
+    {
+      "id": "z6d1xv",
+      "front": "El Niño",
+      "back": "El Niño"
+    },
+    {
+      "id": "ff6kxi",
+      "front": "a monsoon",
+      "back": "une mousson"
+    },
+    {
+      "id": "mtxz3u",
+      "front": "a jet stream",
+      "back": "un courant-jet"
+    },
+    {
+      "id": "hj5g4h",
+      "front": "an atmospheric river",
+      "back": "une rivière atmosphérique"
+    },
+    {
+      "id": "ngoihh",
+      "front": "a cyclone",
+      "back": "un cyclone"
+    },
+    {
+      "id": "wgidu8",
+      "front": "an anticyclone",
+      "back": "un anticyclone"
+    },
+    {
+      "id": "tjkrdp",
+      "front": "orographic rainfall",
+      "back": "des précipitations orographiques"
+    },
+    {
+      "id": "gqssoy",
+      "front": "a rain shadow",
+      "back": "un effet d'ombre pluviométrique"
+    },
+    {
+      "id": "lrnjgd",
+      "front": "a biome",
+      "back": "un biome"
+    },
+    {
+      "id": "abpcik",
+      "front": "a niche",
+      "back": "une niche écologique"
+    },
+    {
+      "id": "0mgt10",
+      "front": "a trophic level",
+      "back": "un niveau trophique"
+    },
+    {
+      "id": "mizk2w",
+      "front": "a trophic cascade",
+      "back": "une cascade trophique"
+    },
+    {
+      "id": "msze57",
+      "front": "biomagnification",
+      "back": "la bioamplification"
+    },
+    {
+      "id": "q6ldcv",
+      "front": "bioaccumulation",
+      "back": "la bioaccumulation"
+    },
+    {
+      "id": "mo50q3",
+      "front": "an indicator species",
+      "back": "une espèce indicatrice"
+    },
+    {
+      "id": "cmxqbz",
+      "front": "an endemic species",
+      "back": "une espèce endémique"
+    },
+    {
+      "id": "xpixak",
+      "front": "an invasive species",
+      "back": "une espèce invasive"
+    },
+    {
+      "id": "cqgqv5",
+      "front": "a native species",
+      "back": "une espèce indigène"
+    },
+    {
+      "id": "hq72gj",
+      "front": "extirpation",
+      "back": "la disparition locale d'une espèce"
+    },
+    {
+      "id": "cl15d1",
+      "front": "a population bottleneck",
+      "back": "un goulot d'étranglement démographique"
+    },
+    {
+      "id": "7ngewp",
+      "front": "carrying capacity",
+      "back": "la capacité de charge"
+    },
+    {
+      "id": "p5gu49",
+      "front": "succession",
+      "back": "la succession écologique"
+    },
+    {
+      "id": "yv4g4e",
+      "front": "a pioneer species",
+      "back": "une espèce pionnière"
+    },
+    {
+      "id": "1atah3",
+      "front": "a climax community",
+      "back": "un climax végétal"
+    },
+    {
+      "id": "fycgvj",
+      "front": "edaphic",
+      "back": "édaphique, lié au sol"
+    },
+    {
+      "id": "hqbwk5",
+      "front": "humus",
+      "back": "l'humus"
+    },
+    {
+      "id": "iriquk",
+      "front": "a peat bog",
+      "back": "une tourbière"
+    },
+    {
+      "id": "jo7pa4",
+      "front": "a wetland",
+      "back": "une zone humide"
+    },
+    {
+      "id": "t55az4",
+      "front": "a mangrove",
+      "back": "une mangrove"
+    },
+    {
+      "id": "fek8jt",
+      "front": "a estuary",
+      "back": "un estuaire"
+    },
+    {
+      "id": "e5d4qs",
+      "front": "a riparian zone",
+      "back": "une zone riveraine"
+    },
+    {
+      "id": "l8yoox",
+      "front": "a floodplain forest",
+      "back": "une forêt alluviale"
+    },
+    {
+      "id": "1w9gug",
+      "front": "a canopy",
+      "back": "la canopée"
+    },
+    {
+      "id": "4qhvpq",
+      "front": "an understorey",
+      "back": "le sous-bois"
+    },
+    {
+      "id": "gwsq8j",
+      "front": "leaf litter",
+      "back": "la litière"
+    },
+    {
+      "id": "ug0cmi",
+      "front": "mycorrhiza",
+      "back": "une mycorhize"
+    },
+    {
+      "id": "0utgtp",
+      "front": "nitrogen fixation",
+      "back": "la fixation de l'azote"
+    },
+    {
+      "id": "0z20jm",
+      "front": "the carbon cycle",
+      "back": "le cycle du carbone"
+    },
+    {
+      "id": "z3tsei",
+      "front": "the nitrogen cycle",
+      "back": "le cycle de l'azote"
+    },
+    {
+      "id": "dfrqei",
+      "front": "a nutrient load",
+      "back": "une charge en nutriments"
+    },
+    {
+      "id": "l6mepl",
+      "front": "an algal bloom",
+      "back": "une efflorescence algale"
+    },
+    {
+      "id": "qq1puo",
+      "front": "hypoxia",
+      "back": "l'hypoxie"
+    },
+    {
+      "id": "tsdnr5",
+      "front": "a dead zone",
+      "back": "une zone morte"
+    },
+    {
+      "id": "sth3s2",
+      "front": "salinisation",
+      "back": "la salinisation"
+    },
+    {
+      "id": "qwbj7c",
+      "front": "acid rain",
+      "back": "les pluies acides"
+    },
+    {
+      "id": "1u9xos",
+      "front": "ozone depletion",
+      "back": "l'appauvrissement de la couche d'ozone"
+    },
+    {
+      "id": "4nvgfg",
+      "front": "a chlorofluorocarbon",
+      "back": "un chlorofluorocarbure"
+    },
+    {
+      "id": "kzvxnk",
+      "front": "an aerosol",
+      "back": "un aérosol"
+    },
+    {
+      "id": "9d36k3",
+      "front": "black carbon",
+      "back": "le carbone suie"
+    },
+    {
+      "id": "fjezp6",
+      "front": "methane clathrate",
+      "back": "un hydrate de méthane"
+    },
+    {
+      "id": "o5of05",
+      "front": "fugitive emissions",
+      "back": "des émissions fugitives"
+    },
+    {
+      "id": "7en20z",
+      "front": "a life-cycle assessment",
+      "back": "une analyse du cycle de vie"
+    },
+    {
+      "id": "0i1h98",
+      "front": "embodied carbon",
+      "back": "le carbone incorporé"
+    },
+    {
+      "id": "luriit",
+      "front": "a planetary boundary",
+      "back": "une limite planétaire"
+    },
+    {
+      "id": "kc5z12",
+      "front": "overshoot",
+      "back": "le dépassement des limites"
+    },
+    {
+      "id": "2qoxav",
+      "front": "degrowth",
+      "back": "la décroissance"
+    },
+    {
+      "id": "9uqv2s",
+      "front": "a commons",
+      "back": "un bien commun"
+    },
+    {
+      "id": "n697cl",
+      "front": "stewardship",
+      "back": "l'intendance, la gestion responsable"
+    },
+    {
+      "id": "o0sfhp",
+      "front": "precautionary principle",
+      "back": "le principe de précaution"
+    },
+    {
+      "id": "8skaf2",
+      "front": "the polluter pays principle",
+      "back": "le principe pollueur-payeur"
+    },
+    {
+      "id": "00pk96",
+      "front": "geoengineering",
+      "back": "la géo-ingénierie"
+    },
+    {
+      "id": "qkxc51",
+      "front": "solar radiation management",
+      "back": "la gestion du rayonnement solaire"
+    },
+    {
+      "id": "gls7vz",
+      "front": "direct air capture",
+      "back": "la capture directe dans l'air"
+    },
+    {
+      "id": "yiactx",
+      "front": "afforestation",
+      "back": "le boisement"
+    },
+    {
+      "id": "uqxjpx",
+      "front": "agroforestry",
+      "back": "l'agroforesterie"
+    },
+    {
+      "id": "yzc1ni",
+      "front": "regenerative agriculture",
+      "back": "l'agriculture régénératrice"
+    },
+    {
+      "id": "ah7wlo",
+      "front": "a seed bank",
+      "back": "une banque de semences"
+    },
+    {
+      "id": "xtajh9",
+      "front": "a germplasm",
+      "back": "du matériel génétique végétal"
+    },
+    {
+      "id": "9r2n7w",
+      "front": "a keystone habitat",
+      "back": "un habitat clé"
+    },
+    {
+      "id": "zqd4e4",
+      "front": "telecoupling",
+      "back": "le télécouplage environnemental"
+    }
+  ]
+}
