@@ -1,0 +1,312 @@
+{
+  "id": "es-b1-ser-estar",
+  "name": "Ser o estar",
+  "folder": "Spanish B1",
+  "frontLabel": "Français",
+  "backLabel": "Español",
+  "frontLang": "fr",
+  "backLang": "es",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "womsrr",
+      "front": "Je suis français.",
+      "back": "Soy francés."
+    },
+    {
+      "id": "470wkm",
+      "front": "Je suis à Madrid.",
+      "back": "Estoy en Madrid."
+    },
+    {
+      "id": "dhfkvq",
+      "front": "Il est médecin.",
+      "back": "Es médico."
+    },
+    {
+      "id": "1x365b",
+      "front": "Il est de bonne humeur.",
+      "back": "Está de buen humor."
+    },
+    {
+      "id": "clcj09",
+      "front": "Elle est grande.",
+      "back": "Es alta."
+    },
+    {
+      "id": "qhwixy",
+      "front": "Elle est fatiguée.",
+      "back": "Está cansada."
+    },
+    {
+      "id": "k9yab9",
+      "front": "C'est mon frère.",
+      "back": "Es mi hermano."
+    },
+    {
+      "id": "vrmbzk",
+      "front": "Il est marié.",
+      "back": "Está casado."
+    },
+    {
+      "id": "nymrx8",
+      "front": "Nous sommes trois.",
+      "back": "Somos tres."
+    },
+    {
+      "id": "5nqjkl",
+      "front": "Nous sommes prêts.",
+      "back": "Estamos listos."
+    },
+    {
+      "id": "c5piec",
+      "front": "Le livre est intéressant.",
+      "back": "El libro es interesante."
+    },
+    {
+      "id": "kdnp25",
+      "front": "Le livre est sur la table.",
+      "back": "El libro está sobre la mesa."
+    },
+    {
+      "id": "q7h58o",
+      "front": "La soupe est chaude (de nature).",
+      "back": "La sopa es caliente."
+    },
+    {
+      "id": "cwqsuk",
+      "front": "La soupe est chaude (maintenant).",
+      "back": "La sopa está caliente."
+    },
+    {
+      "id": "sldh2h",
+      "front": "Il est intelligent.",
+      "back": "Es inteligente."
+    },
+    {
+      "id": "j1ym55",
+      "front": "Il est malade.",
+      "back": "Está enfermo."
+    },
+    {
+      "id": "10euny",
+      "front": "Elle est jolie (en général).",
+      "back": "Es guapa."
+    },
+    {
+      "id": "e7isq2",
+      "front": "Elle est jolie ce soir.",
+      "back": "Está guapa esta noche."
+    },
+    {
+      "id": "iscks6",
+      "front": "La fête est chez Ana.",
+      "back": "La fiesta es en casa de Ana."
+    },
+    {
+      "id": "39ulnf",
+      "front": "Ana est chez elle.",
+      "back": "Ana está en su casa."
+    },
+    {
+      "id": "yr0blu",
+      "front": "Il est une heure.",
+      "back": "Es la una."
+    },
+    {
+      "id": "fs1k2a",
+      "front": "Nous sommes en été.",
+      "back": "Estamos en verano."
+    },
+    {
+      "id": "adpvxs",
+      "front": "C'est aujourd'hui lundi.",
+      "back": "Hoy es lunes."
+    },
+    {
+      "id": "9881yw",
+      "front": "Nous sommes le trois septembre.",
+      "back": "Estamos a tres de septiembre."
+    },
+    {
+      "id": "ouutja",
+      "front": "La voiture est à moi.",
+      "back": "El coche es mío."
+    },
+    {
+      "id": "yrko35",
+      "front": "La voiture est en panne.",
+      "back": "El coche está averiado."
+    },
+    {
+      "id": "g5x5iu",
+      "front": "La porte est en bois.",
+      "back": "La puerta es de madera."
+    },
+    {
+      "id": "gb9xd4",
+      "front": "La porte est ouverte.",
+      "back": "La puerta está abierta."
+    },
+    {
+      "id": "lv3ne3",
+      "front": "Le magasin est fermé le dimanche.",
+      "back": "La tienda cierra los domingos."
+    },
+    {
+      "id": "tz7nsd",
+      "front": "Le magasin est fermé en ce moment.",
+      "back": "La tienda está cerrada ahora."
+    },
+    {
+      "id": "i0ivw0",
+      "front": "Il est content.",
+      "back": "Está contento."
+    },
+    {
+      "id": "ol85nz",
+      "front": "Il est heureux dans la vie.",
+      "back": "Es feliz."
+    },
+    {
+      "id": "u2y2c1",
+      "front": "Elle est ennuyeuse.",
+      "back": "Es aburrida."
+    },
+    {
+      "id": "w0ctyy",
+      "front": "Elle s'ennuie.",
+      "back": "Está aburrida."
+    },
+    {
+      "id": "dbgeuv",
+      "front": "Il est débrouillard.",
+      "back": "Es listo."
+    },
+    {
+      "id": "fd9v3r",
+      "front": "Il est prêt.",
+      "back": "Está listo."
+    },
+    {
+      "id": "82e2c6",
+      "front": "La pomme est verte (variété).",
+      "back": "La manzana es verde."
+    },
+    {
+      "id": "tjqkip",
+      "front": "La pomme n'est pas mûre.",
+      "back": "La manzana está verde."
+    },
+    {
+      "id": "nqdo68",
+      "front": "Il est riche.",
+      "back": "Es rico."
+    },
+    {
+      "id": "xbaenm",
+      "front": "Le plat est délicieux.",
+      "back": "El plato está rico."
+    },
+    {
+      "id": "3skoxi",
+      "front": "Il est mauvais (méchant).",
+      "back": "Es malo."
+    },
+    {
+      "id": "2ouskf",
+      "front": "Il est souffrant.",
+      "back": "Está malo."
+    },
+    {
+      "id": "h306b4",
+      "front": "Il est vif, alerte.",
+      "back": "Es despierto."
+    },
+    {
+      "id": "u92z8l",
+      "front": "Il est réveillé.",
+      "back": "Está despierto."
+    },
+    {
+      "id": "elqg13",
+      "front": "C'est difficile.",
+      "back": "Es difícil."
+    },
+    {
+      "id": "3p15q1",
+      "front": "Tout va bien.",
+      "back": "Todo está bien."
+    },
+    {
+      "id": "i3y72j",
+      "front": "C'est vrai.",
+      "back": "Es verdad."
+    },
+    {
+      "id": "3wpyxs",
+      "front": "Il est clair que oui.",
+      "back": "Está claro que sí."
+    },
+    {
+      "id": "n5nkzu",
+      "front": "Je suis d'accord.",
+      "back": "Estoy de acuerdo."
+    },
+    {
+      "id": "mbkvsv",
+      "front": "C'est important.",
+      "back": "Es importante."
+    },
+    {
+      "id": "0zfnqe",
+      "front": "Elle est enceinte.",
+      "back": "Está embarazada."
+    },
+    {
+      "id": "n68ozg",
+      "front": "Il est mort.",
+      "back": "Está muerto."
+    },
+    {
+      "id": "hrpprp",
+      "front": "Il est vivant.",
+      "back": "Está vivo."
+    },
+    {
+      "id": "bi9evc",
+      "front": "C'est nécessaire.",
+      "back": "Es necesario."
+    },
+    {
+      "id": "nw02t5",
+      "front": "Le café est froid.",
+      "back": "El café está frío."
+    },
+    {
+      "id": "1vs7bt",
+      "front": "Le climat est froid ici.",
+      "back": "El clima es frío aquí."
+    },
+    {
+      "id": "aedibp",
+      "front": "Je suis en train de travailler.",
+      "back": "Estoy trabajando."
+    },
+    {
+      "id": "p9uaye",
+      "front": "Le film est fait par Almodóvar.",
+      "back": "La película es de Almodóvar."
+    },
+    {
+      "id": "uzomh6",
+      "front": "Ils sont assis.",
+      "back": "Están sentados."
+    },
+    {
+      "id": "b1cliy",
+      "front": "Le concert est à huit heures.",
+      "back": "El concierto es a las ocho."
+    }
+  ]
+}
