@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-history-2",
+  "name": "History and War 2",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "t2d6hv",
+      "front": "a minority (of a king)",
+      "back": "une minorité royale"
+    },
+    {
+      "id": "l5hryv",
+      "front": "suzerainty",
+      "back": "la suzeraineté"
+    },
+    {
+      "id": "wfysdp",
+      "front": "attainder",
+      "back": "la mort civile, la confiscation par bill of attainder"
+    },
+    {
+      "id": "0qxa73",
+      "front": "a casus belli",
+      "back": "un casus belli"
+    },
+    {
+      "id": "5ccswq",
+      "front": "historiography",
+      "back": "l'historiographie"
+    },
+    {
+      "id": "q83ut6",
+      "front": "a revisionist",
+      "back": "un révisionniste"
+    },
+    {
+      "id": "m3wrft",
+      "front": "a hagiography",
+      "back": "une hagiographie"
+    },
+    {
+      "id": "9n37bm",
+      "front": "a chronicle roll",
+      "back": "un rouleau de chronique"
+    },
+    {
+      "id": "tkaf01",
+      "front": "a palimpsest",
+      "back": "un palimpseste"
+    },
+    {
+      "id": "mhpnsq",
+      "front": "a cartulary",
+      "back": "un cartulaire"
+    },
+    {
+      "id": "5om641",
+      "front": "a codex",
+      "back": "un codex"
+    },
+    {
+      "id": "8zkofj",
+      "front": "an incunabulum",
+      "back": "un incunable"
+    },
+    {
+      "id": "rmhayc",
+      "front": "paleography",
+      "back": "la paléographie"
+    },
+    {
+      "id": "4k6d3b",
+      "front": "epigraphy",
+      "back": "l'épigraphie"
+    },
+    {
+      "id": "y92j1i",
+      "front": "numismatics",
+      "back": "la numismatique"
+    },
+    {
+      "id": "ig5av6",
+      "front": "prosopography",
+      "back": "la prosopographie"
+    },
+    {
+      "id": "irvcd4",
+      "front": "a periodisation",
+      "back": "une périodisation"
+    },
+    {
+      "id": "onkkj2",
+      "front": "the longue durée",
+      "back": "la longue durée"
+    },
+    {
+      "id": "msp3ds",
+      "front": "a Whig history",
+      "back": "une histoire téléologique et progressiste"
+    },
+    {
+      "id": "m7n5gq",
+      "front": "teleology in history",
+      "back": "la téléologie historique"
+    },
+    {
+      "id": "y9xb2k",
+      "front": "an anachronism",
+      "back": "un anachronisme"
+    },
+    {
+      "id": "upfbg2",
+      "front": "a counterfactual",
+      "back": "une hypothèse contrefactuelle"
+    },
+    {
+      "id": "29qkkl",
+      "front": "a watershed moment",
+      "back": "un tournant décisif"
+    },
+    {
+      "id": "zmpxua",
+      "front": "a precipitating cause",
+      "back": "une cause déclenchante"
+    },
+    {
+      "id": "ysv328",
+      "front": "an underlying cause",
+      "back": "une cause profonde"
+    },
+    {
+      "id": "rggjqi",
+      "front": "a demesne",
+      "back": "un domaine seigneurial"
+    },
+    {
+      "id": "c94xtq",
+      "front": "a manor",
+      "back": "un manoir, une seigneurie"
+    },
+    {
+      "id": "7kv70i",
+      "front": "a tithe",
+      "back": "une dîme"
+    },
+    {
+      "id": "gmmi10",
+      "front": "a corvée",
+      "back": "une corvée"
+    },
+    {
+      "id": "g4e8hy",
+      "front": "a benefice",
+      "back": "un bénéfice ecclésiastique"
+    },
+    {
+      "id": "w9qals",
+      "front": "simony",
+      "back": "la simonie"
+    },
+    {
+      "id": "ledhdi",
+      "front": "an investiture",
+      "back": "une investiture"
+    },
+    {
+      "id": "7tngp0",
+      "front": "an interdict",
+      "back": "un interdit (ecclésiastique)"
+    },
+    {
+      "id": "d86maw",
+      "front": "an excommunication",
+      "back": "une excommunication"
+    },
+    {
+      "id": "rpo0pc",
+      "front": "a bull",
+      "back": "une bulle pontificale"
+    },
+    {
+      "id": "f7o8kr",
+      "front": "a concordat",
+      "back": "un concordat"
+    },
+    {
+      "id": "yupbf7",
+      "front": "a synod",
+      "back": "un synode"
+    },
+    {
+      "id": "uiv83c",
+      "front": "an ecumenical council",
+      "back": "un concile œcuménique"
+    },
+    {
+      "id": "ty7y1a",
+      "front": "a regnal year",
+      "back": "une année de règne"
+    },
+    {
+      "id": "0i3zom",
+      "front": "a pretender to the throne",
+      "back": "un prétendant au trône"
+    },
+    {
+      "id": "lqb8vd",
+      "front": "a regicide",
+      "back": "un régicide"
+    },
+    {
+      "id": "gd13v0",
+      "front": "a tyrannicide",
+      "back": "un tyrannicide"
+    },
+    {
+      "id": "nilban",
+      "front": "a proscription",
+      "back": "une proscription"
+    },
+    {
+      "id": "nlokv2",
+      "front": "an amnesty",
+      "back": "une amnistie"
+    },
+    {
+      "id": "qrcv8t",
+      "front": "a manumission",
+      "back": "un affranchissement"
+    },
+    {
+      "id": "jecsj2",
+      "front": "a plebeian",
+      "back": "un plébéien"
+    },
+    {
+      "id": "esx2x4",
+      "front": "a patrician",
+      "back": "un patricien"
+    },
+    {
+      "id": "i5hesg",
+      "front": "a consul",
+      "back": "un consul"
+    },
+    {
+      "id": "5pgwuc",
+      "front": "a praetor",
+      "back": "un préteur"
+    },
+    {
+      "id": "ogueqy",
+      "front": "a legate",
+      "back": "un légat"
+    },
+    {
+      "id": "ioov7g",
+      "front": "a triumvirate",
+      "back": "un triumvirat"
+    },
+    {
+      "id": "qkygoj",
+      "front": "a phalanx",
+      "back": "une phalange"
+    },
+    {
+      "id": "vih4j2",
+      "front": "a legion",
+      "back": "une légion"
+    },
+    {
+      "id": "jihoxk",
+      "front": "a cohort",
+      "back": "une cohorte"
+    },
+    {
+      "id": "33df97",
+      "front": "a levée en masse",
+      "back": "une levée en masse"
+    },
+    {
+      "id": "ju6bu3",
+      "front": "a condottiere",
+      "back": "un condottiere"
+    },
+    {
+      "id": "rxsdsb",
+      "front": "a hussar",
+      "back": "un hussard"
+    },
+    {
+      "id": "hsrq52",
+      "front": "a cuirassier",
+      "back": "un cuirassier"
+    },
+    {
+      "id": "dpfqo8",
+      "front": "a musketeer",
+      "back": "un mousquetaire"
+    },
+    {
+      "id": "kcthhb",
+      "front": "a sapper",
+      "back": "un sapeur"
+    },
+    {
+      "id": "5a52eh",
+      "front": "a redoubt",
+      "back": "une redoute"
+    },
+    {
+      "id": "vxev2a",
+      "front": "a bastion",
+      "back": "un bastion"
+    },
+    {
+      "id": "40cy9b",
+      "front": "a glacis",
+      "back": "un glacis"
+    },
+    {
+      "id": "23x2aw",
+      "front": "a salient",
+      "back": "un saillant"
+    },
+    {
+      "id": "acsu35",
+      "front": "an enfilade",
+      "back": "un tir d'enfilade"
+    },
+    {
+      "id": "y1a976",
+      "front": "a scorched-earth policy",
+      "back": "la politique de la terre brûlée"
+    },
+    {
+      "id": "nwj7xl",
+      "front": "a war of attrition",
+      "back": "une guerre d'usure"
+    },
+    {
+      "id": "11scze",
+      "front": "a pyrrhic victory",
+      "back": "une victoire à la Pyrrhus"
+    },
+    {
+      "id": "bscn6e",
+      "front": "a rearguard action",
+      "back": "un combat d'arrière-garde"
+    },
+    {
+      "id": "mky6ju",
+      "front": "a beachhead",
+      "back": "une tête de pont"
+    },
+    {
+      "id": "pkasgg",
+      "front": "a bridgehead",
+      "back": "une tête de pont"
+    },
+    {
+      "id": "7cyqu6",
+      "front": "a blockade runner",
+      "back": "un forceur de blocus"
+    },
+    {
+      "id": "cp0wss",
+      "front": "a privateer",
+      "back": "un corsaire"
+    },
+    {
+      "id": "l3uowy",
+      "front": "letters of marque",
+      "back": "une lettre de marque"
+    },
+    {
+      "id": "95lib0",
+      "front": "a man-of-war",
+      "back": "un vaisseau de guerre"
+    },
+    {
+      "id": "0hb6be",
+      "front": "an armada",
+      "back": "une armada"
+    },
+    {
+      "id": "ua74kv",
+      "front": "a flotilla",
+      "back": "une flottille"
+    },
+    {
+      "id": "z8p293",
+      "front": "an ordnance",
+      "back": "l'artillerie, le matériel de guerre"
+    },
+    {
+      "id": "yj7cfz",
+      "front": "a magazine",
+      "back": "un dépôt de munitions"
+    },
+    {
+      "id": "2i9485",
+      "front": "a quartermaster",
+      "back": "un intendant militaire"
+    },
+    {
+      "id": "x46ntl",
+      "front": "a commissary",
+      "back": "un commissaire aux vivres"
+    },
+    {
+      "id": "cjvohz",
+      "front": "a war levy",
+      "back": "une levée de guerre"
+    },
+    {
+      "id": "9e6f9m",
+      "front": "a subsidy treaty",
+      "back": "un traité de subsides"
+    },
+    {
+      "id": "nbkmlf",
+      "front": "an entente",
+      "back": "une entente"
+    },
+    {
+      "id": "4ms2se",
+      "front": "a rapprochement",
+      "back": "un rapprochement"
+    },
+    {
+      "id": "9seydk",
+      "front": "a détente",
+      "back": "une détente"
+    },
+    {
+      "id": "onvymx",
+      "front": "a modus vivendi",
+      "back": "un modus vivendi"
+    },
+    {
+      "id": "tlt4g9",
+      "front": "a fait accompli",
+      "back": "un fait accompli"
+    },
+    {
+      "id": "4d1q1z",
+      "front": "a coup de main",
+      "back": "un coup de main"
+    },
+    {
+      "id": "3edyar",
+      "front": "an ultimatum",
+      "back": "un ultimatum"
+    },
+    {
+      "id": "mpl8ix",
+      "front": "a plenipotentiary",
+      "back": "un plénipotentiaire"
+    },
+    {
+      "id": "adbanw",
+      "front": "a congress",
+      "back": "un congrès diplomatique"
+    },
+    {
+      "id": "ojl8tm",
+      "front": "a partition treaty",
+      "back": "un traité de partage"
+    },
+    {
+      "id": "5v7o89",
+      "front": "an indemnity payment",
+      "back": "une indemnité de guerre"
+    },
+    {
+      "id": "d2ocjm",
+      "front": "a war guilt clause",
+      "back": "une clause de culpabilité de guerre"
+    },
+    {
+      "id": "03p0ga",
+      "front": "irredenta",
+      "back": "une terre irrédente"
+    },
+    {
+      "id": "hiv8s2",
+      "front": "a march",
+      "back": "une marche, une zone frontière"
+    },
+    {
+      "id": "m5em6d",
+      "front": "a palatinate",
+      "back": "un palatinat"
+    },
+    {
+      "id": "dwrbk8",
+      "front": "an appanage",
+      "back": "un apanage"
+    },
+    {
+      "id": "0w5797",
+      "front": "a primogeniture",
+      "back": "la primogéniture"
+    }
+  ]
+}
