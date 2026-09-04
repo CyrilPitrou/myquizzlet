@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-school-studies",
+  "name": "School and Studies",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "38zjvh",
+      "front": "a school",
+      "back": "une école"
+    },
+    {
+      "id": "30rn4j",
+      "front": "a primary school",
+      "back": "une école primaire"
+    },
+    {
+      "id": "1esh7h",
+      "front": "a secondary school",
+      "back": "un collège, un lycée"
+    },
+    {
+      "id": "meob3x",
+      "front": "a nursery school",
+      "back": "une école maternelle"
+    },
+    {
+      "id": "95l23g",
+      "front": "a boarding school",
+      "back": "un internat"
+    },
+    {
+      "id": "txjtdx",
+      "front": "a state school",
+      "back": "une école publique"
+    },
+    {
+      "id": "spgcev",
+      "front": "a private school",
+      "back": "une école privée"
+    },
+    {
+      "id": "13gduj",
+      "front": "a university",
+      "back": "une université"
+    },
+    {
+      "id": "24evfu",
+      "front": "a college",
+      "back": "un établissement d'enseignement supérieur"
+    },
+    {
+      "id": "pvp90l",
+      "front": "a campus",
+      "back": "un campus"
+    },
+    {
+      "id": "qcybpe",
+      "front": "a classroom",
+      "back": "une salle de classe"
+    },
+    {
+      "id": "vfsbwu",
+      "front": "a lecture hall",
+      "back": "un amphithéâtre"
+    },
+    {
+      "id": "bbu23c",
+      "front": "a laboratory",
+      "back": "un laboratoire"
+    },
+    {
+      "id": "761i7s",
+      "front": "a playground for pupils",
+      "back": "une cour de récréation"
+    },
+    {
+      "id": "2k8e6j",
+      "front": "a canteen",
+      "back": "une cantine"
+    },
+    {
+      "id": "zioktc",
+      "front": "a headmaster",
+      "back": "un directeur d'école"
+    },
+    {
+      "id": "tmm9tp",
+      "front": "a pupil",
+      "back": "un élève"
+    },
+    {
+      "id": "bqeu86",
+      "front": "a student",
+      "back": "un étudiant"
+    },
+    {
+      "id": "h402iu",
+      "front": "a schoolmate",
+      "back": "un camarade de classe"
+    },
+    {
+      "id": "9t10lm",
+      "front": "a class",
+      "back": "une classe, un cours"
+    },
+    {
+      "id": "9bivd7",
+      "front": "a lesson",
+      "back": "une leçon, un cours"
+    },
+    {
+      "id": "muxsjv",
+      "front": "a lecture",
+      "back": "un cours magistral"
+    },
+    {
+      "id": "uwmvvw",
+      "front": "a seminar",
+      "back": "un séminaire"
+    },
+    {
+      "id": "3dnjql",
+      "front": "a subject",
+      "back": "une matière"
+    },
+    {
+      "id": "qwq98o",
+      "front": "mathematics",
+      "back": "les mathématiques"
+    },
+    {
+      "id": "9blyi4",
+      "front": "physics",
+      "back": "la physique"
+    },
+    {
+      "id": "tq1rei",
+      "front": "chemistry",
+      "back": "la chimie"
+    },
+    {
+      "id": "hrbt30",
+      "front": "biology",
+      "back": "la biologie"
+    },
+    {
+      "id": "ww1zzs",
+      "front": "geography",
+      "back": "la géographie"
+    },
+    {
+      "id": "11qf7q",
+      "front": "history",
+      "back": "l'histoire"
+    },
+    {
+      "id": "9n7paj",
+      "front": "literature",
+      "back": "la littérature"
+    },
+    {
+      "id": "44634m",
+      "front": "philosophy",
+      "back": "la philosophie"
+    },
+    {
+      "id": "7q05o4",
+      "front": "a foreign language",
+      "back": "une langue étrangère"
+    },
+    {
+      "id": "hymb13",
+      "front": "a timetable of lessons",
+      "back": "un emploi du temps"
+    },
+    {
+      "id": "v9tby5",
+      "front": "a term",
+      "back": "un trimestre"
+    },
+    {
+      "id": "t4fxzb",
+      "front": "a school year",
+      "back": "une année scolaire"
+    },
+    {
+      "id": "o5elgz",
+      "front": "a break between lessons",
+      "back": "une récréation"
+    },
+    {
+      "id": "vi6mqi",
+      "front": "homework",
+      "back": "les devoirs"
+    },
+    {
+      "id": "4c0ew9",
+      "front": "an exercise",
+      "back": "un exercice"
+    },
+    {
+      "id": "2nxtnm",
+      "front": "an essay",
+      "back": "une dissertation, une rédaction"
+    },
+    {
+      "id": "knz1yu",
+      "front": "a report",
+      "back": "un exposé, un compte rendu"
+    },
+    {
+      "id": "1uuiwg",
+      "front": "a project",
+      "back": "un projet"
+    },
+    {
+      "id": "1h1tv1",
+      "front": "a presentation",
+      "back": "un exposé oral"
+    },
+    {
+      "id": "ije7k6",
+      "front": "a textbook",
+      "back": "un manuel"
+    },
+    {
+      "id": "g46yti",
+      "front": "an exercise book",
+      "back": "un cahier"
+    },
+    {
+      "id": "gjkzfs",
+      "front": "a notebook",
+      "back": "un carnet"
+    },
+    {
+      "id": "2u0vs2",
+      "front": "a pen",
+      "back": "un stylo"
+    },
+    {
+      "id": "l0ujed",
+      "front": "a pencil",
+      "back": "un crayon"
+    },
+    {
+      "id": "l85395",
+      "front": "a rubber",
+      "back": "une gomme"
+    },
+    {
+      "id": "dhcrcc",
+      "front": "a ruler",
+      "back": "une règle"
+    },
+    {
+      "id": "11334x",
+      "front": "a blackboard",
+      "back": "un tableau noir"
+    },
+    {
+      "id": "y7x8iq",
+      "front": "a schoolbag",
+      "back": "un cartable"
+    },
+    {
+      "id": "bcev25",
+      "front": "an exam",
+      "back": "un examen"
+    },
+    {
+      "id": "1iy8qj",
+      "front": "a test",
+      "back": "un contrôle, un test"
+    },
+    {
+      "id": "bvm2xv",
+      "front": "an oral exam",
+      "back": "un oral"
+    },
+    {
+      "id": "hhww39",
+      "front": "a mock exam",
+      "back": "un examen blanc"
+    },
+    {
+      "id": "5va52l",
+      "front": "a mark",
+      "back": "une note"
+    },
+    {
+      "id": "djot9d",
+      "front": "a grade",
+      "back": "une note, un niveau"
+    },
+    {
+      "id": "xestri",
+      "front": "a result",
+      "back": "un résultat"
+    },
+    {
+      "id": "k9kfol",
+      "front": "a pass",
+      "back": "une réussite, une mention"
+    },
+    {
+      "id": "j9mywg",
+      "front": "a failure",
+      "back": "un échec"
+    },
+    {
+      "id": "eh6r2r",
+      "front": "a degree",
+      "back": "un diplôme universitaire"
+    },
+    {
+      "id": "3uka98",
+      "front": "a diploma",
+      "back": "un diplôme"
+    },
+    {
+      "id": "3m2x99",
+      "front": "a certificate",
+      "back": "un certificat"
+    },
+    {
+      "id": "p1nqqu",
+      "front": "a scholarship",
+      "back": "une bourse"
+    },
+    {
+      "id": "zpkxjc",
+      "front": "a tuition fee",
+      "back": "des frais de scolarité"
+    },
+    {
+      "id": "q85jmf",
+      "front": "a course",
+      "back": "un cursus, une formation"
+    },
+    {
+      "id": "7e1ldw",
+      "front": "a syllabus",
+      "back": "un programme"
+    },
+    {
+      "id": "wn2tia",
+      "front": "a research paper",
+      "back": "un article de recherche"
+    },
+    {
+      "id": "bq8fw6",
+      "front": "a thesis",
+      "back": "une thèse"
+    },
+    {
+      "id": "88zm6x",
+      "front": "a library card",
+      "back": "une carte de bibliothèque"
+    },
+    {
+      "id": "5qma44",
+      "front": "a mistake",
+      "back": "une erreur"
+    },
+    {
+      "id": "9g7zvp",
+      "front": "an effort",
+      "back": "un effort"
+    },
+    {
+      "id": "4qzeld",
+      "front": "progress",
+      "back": "des progrès"
+    },
+    {
+      "id": "ofo877",
+      "front": "knowledge",
+      "back": "le savoir, les connaissances"
+    },
+    {
+      "id": "iyqq0y",
+      "front": "to learn",
+      "back": "apprendre"
+    },
+    {
+      "id": "57lfv8",
+      "front": "to study",
+      "back": "étudier"
+    },
+    {
+      "id": "ugd9cf",
+      "front": "to teach",
+      "back": "enseigner"
+    },
+    {
+      "id": "gebrpq",
+      "front": "to revise",
+      "back": "réviser"
+    },
+    {
+      "id": "arro03",
+      "front": "to memorise",
+      "back": "mémoriser"
+    },
+    {
+      "id": "y5sy56",
+      "front": "to understand",
+      "back": "comprendre"
+    },
+    {
+      "id": "jsahrg",
+      "front": "to explain",
+      "back": "expliquer"
+    },
+    {
+      "id": "vd0oyk",
+      "front": "to take notes",
+      "back": "prendre des notes"
+    },
+    {
+      "id": "c8or88",
+      "front": "to sit an exam",
+      "back": "passer un examen"
+    },
+    {
+      "id": "ook8mx",
+      "front": "to pass an exam",
+      "back": "réussir un examen"
+    },
+    {
+      "id": "ykx5h6",
+      "front": "to fail",
+      "back": "échouer"
+    },
+    {
+      "id": "c33v3a",
+      "front": "to repeat a year",
+      "back": "redoubler"
+    },
+    {
+      "id": "mtye4x",
+      "front": "to hand in",
+      "back": "rendre"
+    },
+    {
+      "id": "8necvk",
+      "front": "to correct",
+      "back": "corriger"
+    },
+    {
+      "id": "aujsnz",
+      "front": "to mark",
+      "back": "noter"
+    },
+    {
+      "id": "1ma3z6",
+      "front": "to concentrate",
+      "back": "se concentrer"
+    },
+    {
+      "id": "98uasi",
+      "front": "to attend",
+      "back": "assister à"
+    },
+    {
+      "id": "9jytem",
+      "front": "to skip a lesson",
+      "back": "sécher un cours"
+    },
+    {
+      "id": "jd89j9",
+      "front": "to enrol",
+      "back": "s'inscrire"
+    },
+    {
+      "id": "y8hitz",
+      "front": "to graduate",
+      "back": "obtenir son diplôme"
+    },
+    {
+      "id": "lvf1vv",
+      "front": "to specialise",
+      "back": "se spécialiser"
+    },
+    {
+      "id": "hc2544",
+      "front": "strict",
+      "back": "strict"
+    },
+    {
+      "id": "9242va",
+      "front": "clever",
+      "back": "intelligent, malin"
+    },
+    {
+      "id": "3xwl83",
+      "front": "hard-working",
+      "back": "travailleur"
+    },
+    {
+      "id": "x0ll28",
+      "front": "compulsory",
+      "back": "obligatoire"
+    }
+  ]
+}
