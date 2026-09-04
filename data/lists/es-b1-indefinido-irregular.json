@@ -1,0 +1,312 @@
+{
+  "id": "es-b1-indefinido-irregular",
+  "name": "Pretérito indefinido irregular",
+  "folder": "Spanish B1",
+  "frontLabel": "Verbo",
+  "backLabel": "Pretérito",
+  "frontLang": "es",
+  "backLang": "es",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "x0wbrr",
+      "front": "andar (marcher)",
+      "back": "anduve\nanduviste\nanduvo\nanduvimos\nanduvisteis\nanduvieron"
+    },
+    {
+      "id": "de4z6o",
+      "front": "estar (être)",
+      "back": "estuve\nestuviste\nestuvo\nestuvimos\nestuvisteis\nestuvieron"
+    },
+    {
+      "id": "349qfc",
+      "front": "tener (avoir)",
+      "back": "tuve\ntuviste\ntuvo\ntuvimos\ntuvisteis\ntuvieron"
+    },
+    {
+      "id": "nqxjxd",
+      "front": "poder (pouvoir)",
+      "back": "pude\npudiste\npudo\npudimos\npudisteis\npudieron"
+    },
+    {
+      "id": "qdewgk",
+      "front": "poner (mettre)",
+      "back": "puse\npusiste\npuso\npusimos\npusisteis\npusieron"
+    },
+    {
+      "id": "ntkbfb",
+      "front": "saber (savoir)",
+      "back": "supe\nsupiste\nsupo\nsupimos\nsupisteis\nsupieron"
+    },
+    {
+      "id": "vp5710",
+      "front": "caber (tenir dans)",
+      "back": "cupe\ncupiste\ncupo\ncupimos\ncupisteis\ncupieron"
+    },
+    {
+      "id": "hrystw",
+      "front": "haber (avoir, auxiliaire)",
+      "back": "hube\nhubiste\nhubo\nhubimos\nhubisteis\nhubieron"
+    },
+    {
+      "id": "qevezj",
+      "front": "hacer (faire)",
+      "back": "hice\nhiciste\nhizo\nhicimos\nhicisteis\nhicieron"
+    },
+    {
+      "id": "bwjp81",
+      "front": "querer (vouloir)",
+      "back": "quise\nquisiste\nquiso\nquisimos\nquisisteis\nquisieron"
+    },
+    {
+      "id": "pplfm6",
+      "front": "venir (venir)",
+      "back": "vine\nviniste\nvino\nvinimos\nvinisteis\nvinieron"
+    },
+    {
+      "id": "z7ferd",
+      "front": "decir (dire)",
+      "back": "dije\ndijiste\ndijo\ndijimos\ndijisteis\ndijeron"
+    },
+    {
+      "id": "k09j6b",
+      "front": "traer (apporter)",
+      "back": "traje\ntrajiste\ntrajo\ntrajimos\ntrajisteis\ntrajeron"
+    },
+    {
+      "id": "qu6xz8",
+      "front": "conducir (conduire)",
+      "back": "conduje\ncondujiste\ncondujo\ncondujimos\ncondujisteis\ncondujeron"
+    },
+    {
+      "id": "81mvur",
+      "front": "traducir (traduire)",
+      "back": "traduje\ntradujiste\ntradujo\ntradujimos\ntradujisteis\ntradujeron"
+    },
+    {
+      "id": "ih96i1",
+      "front": "producir (produire)",
+      "back": "produje\nprodujiste\nprodujo\nprodujimos\nprodujisteis\nprodujeron"
+    },
+    {
+      "id": "0i1eze",
+      "front": "atraer (attirer)",
+      "back": "atraje\natrajiste\natrajo\natrajimos\natrajisteis\natrajeron"
+    },
+    {
+      "id": "25c6fz",
+      "front": "ser (être)",
+      "back": "fui\nfuiste\nfue\nfuimos\nfuisteis\nfueron"
+    },
+    {
+      "id": "zb7v1u",
+      "front": "ir (aller)",
+      "back": "fui\nfuiste\nfue\nfuimos\nfuisteis\nfueron"
+    },
+    {
+      "id": "879845",
+      "front": "dar (donner)",
+      "back": "di\ndiste\ndio\ndimos\ndisteis\ndieron"
+    },
+    {
+      "id": "qzs9pa",
+      "front": "ver (voir)",
+      "back": "vi\nviste\nvio\nvimos\nvisteis\nvieron"
+    },
+    {
+      "id": "1mdjop",
+      "front": "pedir (demander)",
+      "back": "pedí\npediste\npidió\npedimos\npedisteis\npidieron"
+    },
+    {
+      "id": "vkjsme",
+      "front": "servir (servir)",
+      "back": "serví\nserviste\nsirvió\nservimos\nservisteis\nsirvieron"
+    },
+    {
+      "id": "n97hc7",
+      "front": "seguir (suivre)",
+      "back": "seguí\nseguiste\nsiguió\nseguimos\nseguisteis\nsiguieron"
+    },
+    {
+      "id": "ti2n1x",
+      "front": "repetir (répéter)",
+      "back": "repetí\nrepetiste\nrepitió\nrepetimos\nrepetisteis\nrepitieron"
+    },
+    {
+      "id": "k0c7ib",
+      "front": "vestir (habiller)",
+      "back": "vestí\nvestiste\nvistió\nvestimos\nvestisteis\nvistieron"
+    },
+    {
+      "id": "1su45b",
+      "front": "elegir (choisir)",
+      "back": "elegí\nelegiste\neligió\nelegimos\nelegisteis\neligieron"
+    },
+    {
+      "id": "87hw62",
+      "front": "sentir (sentir)",
+      "back": "sentí\nsentiste\nsintió\nsentimos\nsentisteis\nsintieron"
+    },
+    {
+      "id": "c0e5bu",
+      "front": "preferir (préférer)",
+      "back": "preferí\npreferiste\nprefirió\npreferimos\npreferisteis\nprefirieron"
+    },
+    {
+      "id": "hmpm0f",
+      "front": "mentir (mentir)",
+      "back": "mentí\nmentiste\nmintió\nmentimos\nmentisteis\nmintieron"
+    },
+    {
+      "id": "p6unne",
+      "front": "reír (rire)",
+      "back": "reí\nreíste\nrio\nreímos\nreísteis\nrieron"
+    },
+    {
+      "id": "ntu64h",
+      "front": "sonreír (sourire)",
+      "back": "sonreí\nsonreíste\nsonrió\nsonreímos\nsonreísteis\nsonrieron"
+    },
+    {
+      "id": "ffo4jr",
+      "front": "despedir (licencier)",
+      "back": "despedí\ndespediste\ndespidió\ndespedimos\ndespedisteis\ndespidieron"
+    },
+    {
+      "id": "k13qqm",
+      "front": "conseguir (obtenir)",
+      "back": "conseguí\nconseguiste\nconsiguió\nconseguimos\nconseguisteis\nconsiguieron"
+    },
+    {
+      "id": "vsrxl6",
+      "front": "medir (mesurer)",
+      "back": "medí\nmediste\nmidió\nmedimos\nmedisteis\nmidieron"
+    },
+    {
+      "id": "sgkh9d",
+      "front": "dormir (dormir)",
+      "back": "dormí\ndormiste\ndurmió\ndormimos\ndormisteis\ndurmieron"
+    },
+    {
+      "id": "j3u747",
+      "front": "morir (mourir)",
+      "back": "morí\nmoriste\nmurió\nmorimos\nmoristeis\nmurieron"
+    },
+    {
+      "id": "t32jcs",
+      "front": "leer (lire)",
+      "back": "leí\nleíste\nleyó\nleímos\nleísteis\nleyeron"
+    },
+    {
+      "id": "x8onsj",
+      "front": "creer (croire)",
+      "back": "creí\ncreíste\ncreyó\ncreímos\ncreísteis\ncreyeron"
+    },
+    {
+      "id": "2gfsle",
+      "front": "caer (tomber)",
+      "back": "caí\ncaíste\ncayó\ncaímos\ncaísteis\ncayeron"
+    },
+    {
+      "id": "4rjvli",
+      "front": "oír (entendre)",
+      "back": "oí\noíste\noyó\noímos\noísteis\noyeron"
+    },
+    {
+      "id": "f9bkcj",
+      "front": "construir (construire)",
+      "back": "construí\nconstruiste\nconstruyó\nconstruimos\nconstruisteis\nconstruyeron"
+    },
+    {
+      "id": "4ih2a7",
+      "front": "huir (fuir)",
+      "back": "huí\nhuiste\nhuyó\nhuimos\nhuisteis\nhuyeron"
+    },
+    {
+      "id": "vnuav7",
+      "front": "incluir (inclure)",
+      "back": "incluí\nincluiste\nincluyó\nincluimos\nincluisteis\nincluyeron"
+    },
+    {
+      "id": "apmbqw",
+      "front": "destruir (détruire)",
+      "back": "destruí\ndestruiste\ndestruyó\ndestruimos\ndestruisteis\ndestruyeron"
+    },
+    {
+      "id": "zexs4t",
+      "front": "concluir (conclure)",
+      "back": "concluí\nconcluiste\nconcluyó\nconcluimos\nconcluisteis\nconcluyeron"
+    },
+    {
+      "id": "zp9n31",
+      "front": "buscar (chercher)",
+      "back": "busqué\nbuscaste\nbuscó\nbuscamos\nbuscasteis\nbuscaron"
+    },
+    {
+      "id": "15ul58",
+      "front": "tocar (toucher, jouer)",
+      "back": "toqué\ntocaste\ntocó\ntocamos\ntocasteis\ntocaron"
+    },
+    {
+      "id": "319l6h",
+      "front": "sacar (sortir)",
+      "back": "saqué\nsacaste\nsacó\nsacamos\nsacasteis\nsacaron"
+    },
+    {
+      "id": "xftjg3",
+      "front": "explicar (expliquer)",
+      "back": "expliqué\nexplicaste\nexplicó\nexplicamos\nexplicasteis\nexplicaron"
+    },
+    {
+      "id": "89xndb",
+      "front": "llegar (arriver)",
+      "back": "llegué\nllegaste\nllegó\nllegamos\nllegasteis\nllegaron"
+    },
+    {
+      "id": "xklul5",
+      "front": "pagar (payer)",
+      "back": "pagué\npagaste\npagó\npagamos\npagasteis\npagaron"
+    },
+    {
+      "id": "b7xxkr",
+      "front": "jugar (jouer)",
+      "back": "jugué\njugaste\njugó\njugamos\njugasteis\njugaron"
+    },
+    {
+      "id": "hdhpwg",
+      "front": "colgar (accrocher)",
+      "back": "colgué\ncolgaste\ncolgó\ncolgamos\ncolgasteis\ncolgaron"
+    },
+    {
+      "id": "y37flr",
+      "front": "empezar (commencer)",
+      "back": "empecé\nempezaste\nempezó\nempezamos\nempezasteis\nempezaron"
+    },
+    {
+      "id": "66p1am",
+      "front": "comenzar (débuter)",
+      "back": "comencé\ncomenzaste\ncomenzó\ncomenzamos\ncomenzasteis\ncomenzaron"
+    },
+    {
+      "id": "ls30jb",
+      "front": "almorzar (déjeuner)",
+      "back": "almorcé\nalmorzaste\nalmorzó\nalmorzamos\nalmorzasteis\nalmorzaron"
+    },
+    {
+      "id": "wr2xeu",
+      "front": "cruzar (traverser)",
+      "back": "crucé\ncruzaste\ncruzó\ncruzamos\ncruzasteis\ncruzaron"
+    },
+    {
+      "id": "zya1gi",
+      "front": "organizar (organiser)",
+      "back": "organicé\norganizaste\norganizó\norganizamos\norganizasteis\norganizaron"
+    },
+    {
+      "id": "ly02mc",
+      "front": "realizar (réaliser)",
+      "back": "realicé\nrealizaste\nrealizó\nrealizamos\nrealizasteis\nrealizaron"
+    }
+  ]
+}
