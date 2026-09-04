@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-everyday-expressions",
+  "name": "Everyday Expressions",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "e4h25y",
+      "front": "to feel like",
+      "back": "avoir envie de"
+    },
+    {
+      "id": "tuckg7",
+      "front": "it is worth",
+      "back": "cela vaut la peine de"
+    },
+    {
+      "id": "rprrvl",
+      "front": "I would rather",
+      "back": "je préférerais"
+    },
+    {
+      "id": "afyl4o",
+      "front": "I do not mind",
+      "back": "cela m'est égal"
+    },
+    {
+      "id": "epesw6",
+      "front": "it does not matter",
+      "back": "cela n'a pas d'importance"
+    },
+    {
+      "id": "v9658l",
+      "front": "what is the matter",
+      "back": "qu'est-ce qui ne va pas"
+    },
+    {
+      "id": "ub1f51",
+      "front": "it depends",
+      "back": "cela dépend"
+    },
+    {
+      "id": "xc2ps0",
+      "front": "it is up to you",
+      "back": "c'est à toi de décider"
+    },
+    {
+      "id": "0n85c4",
+      "front": "as far as I know",
+      "back": "pour autant que je sache"
+    },
+    {
+      "id": "gyrd6m",
+      "front": "in my opinion",
+      "back": "à mon avis"
+    },
+    {
+      "id": "0jcznw",
+      "front": "I think so",
+      "back": "je crois que oui"
+    },
+    {
+      "id": "wmxckb",
+      "front": "I hope so",
+      "back": "je l'espère"
+    },
+    {
+      "id": "ipikzc",
+      "front": "I am afraid not",
+      "back": "j'ai bien peur que non"
+    },
+    {
+      "id": "zwukh5",
+      "front": "you are right",
+      "back": "tu as raison"
+    },
+    {
+      "id": "56pyop",
+      "front": "you are wrong",
+      "back": "tu as tort"
+    },
+    {
+      "id": "mrlrtp",
+      "front": "that is true",
+      "back": "c'est vrai"
+    },
+    {
+      "id": "c167br",
+      "front": "that makes sense",
+      "back": "cela a du sens"
+    },
+    {
+      "id": "j9rajo",
+      "front": "I see what you mean",
+      "back": "je vois ce que tu veux dire"
+    },
+    {
+      "id": "ayrfrd",
+      "front": "let me think",
+      "back": "laisse-moi réfléchir"
+    },
+    {
+      "id": "70menx",
+      "front": "I have no idea",
+      "back": "je n'en ai aucune idée"
+    },
+    {
+      "id": "hft1gz",
+      "front": "who knows",
+      "back": "allez savoir"
+    },
+    {
+      "id": "0f1rhm",
+      "front": "by the way",
+      "back": "au fait"
+    },
+    {
+      "id": "rpq628",
+      "front": "speaking of which",
+      "back": "à ce propos"
+    },
+    {
+      "id": "uqa8lk",
+      "front": "anyway",
+      "back": "de toute façon"
+    },
+    {
+      "id": "u8e5np",
+      "front": "in any case",
+      "back": "en tout cas"
+    },
+    {
+      "id": "ybpxeq",
+      "front": "after all",
+      "back": "après tout"
+    },
+    {
+      "id": "eytswi",
+      "front": "at any rate",
+      "back": "en tout cas"
+    },
+    {
+      "id": "m6d7cy",
+      "front": "as usual",
+      "back": "comme d'habitude"
+    },
+    {
+      "id": "jj9tmb",
+      "front": "more or less",
+      "back": "plus ou moins"
+    },
+    {
+      "id": "a7d00c",
+      "front": "sooner or later",
+      "back": "tôt ou tard"
+    },
+    {
+      "id": "9ys90z",
+      "front": "now and then",
+      "back": "de temps en temps"
+    },
+    {
+      "id": "vfk7ep",
+      "front": "from time to time",
+      "back": "de temps à autre"
+    },
+    {
+      "id": "2dv4ld",
+      "front": "once in a while",
+      "back": "de loin en loin"
+    },
+    {
+      "id": "gq6ttb",
+      "front": "all the time",
+      "back": "tout le temps"
+    },
+    {
+      "id": "s5ddxw",
+      "front": "right now",
+      "back": "tout de suite"
+    },
+    {
+      "id": "7v11ov",
+      "front": "in a minute",
+      "back": "dans une minute"
+    },
+    {
+      "id": "5kcumq",
+      "front": "at the moment",
+      "back": "en ce moment"
+    },
+    {
+      "id": "3d63sa",
+      "front": "for the time being",
+      "back": "pour le moment"
+    },
+    {
+      "id": "am8h1d",
+      "front": "in the long run",
+      "back": "à la longue"
+    },
+    {
+      "id": "wmq79u",
+      "front": "the other day",
+      "back": "l'autre jour"
+    },
+    {
+      "id": "fc5ly4",
+      "front": "the day after tomorrow",
+      "back": "après-demain"
+    },
+    {
+      "id": "a7dmw6",
+      "front": "the day before yesterday",
+      "back": "avant-hier"
+    },
+    {
+      "id": "pmi3yw",
+      "front": "so far",
+      "back": "jusqu'à présent"
+    },
+    {
+      "id": "odaww2",
+      "front": "up to now",
+      "back": "jusqu'ici"
+    },
+    {
+      "id": "54nk9w",
+      "front": "from now on",
+      "back": "désormais"
+    },
+    {
+      "id": "n69dn9",
+      "front": "as soon as possible",
+      "back": "dès que possible"
+    },
+    {
+      "id": "hg8y9g",
+      "front": "just in case",
+      "back": "au cas où"
+    },
+    {
+      "id": "iogcrj",
+      "front": "in the end",
+      "back": "finalement"
+    },
+    {
+      "id": "lpgi6s",
+      "front": "at first",
+      "back": "au début"
+    },
+    {
+      "id": "859y0k",
+      "front": "at the same time",
+      "back": "en même temps"
+    },
+    {
+      "id": "d6jvnt",
+      "front": "on purpose",
+      "back": "exprès"
+    },
+    {
+      "id": "s6g8vu",
+      "front": "by accident",
+      "back": "par accident"
+    },
+    {
+      "id": "j8t4wx",
+      "front": "by chance",
+      "back": "par hasard"
+    },
+    {
+      "id": "hczhi2",
+      "front": "on my own",
+      "back": "tout seul"
+    },
+    {
+      "id": "mw8tqo",
+      "front": "by myself",
+      "back": "par moi-même"
+    },
+    {
+      "id": "l0djmr",
+      "front": "side by side",
+      "back": "côte à côte"
+    },
+    {
+      "id": "lvr8nm",
+      "front": "face to face",
+      "back": "face à face"
+    },
+    {
+      "id": "7ovjii",
+      "front": "little by little",
+      "back": "petit à petit"
+    },
+    {
+      "id": "y555us",
+      "front": "step by step",
+      "back": "pas à pas"
+    },
+    {
+      "id": "cbazx5",
+      "front": "one by one",
+      "back": "un par un"
+    },
+    {
+      "id": "wzv6yp",
+      "front": "all of a sudden",
+      "back": "tout à coup"
+    },
+    {
+      "id": "91iqdj",
+      "front": "at once",
+      "back": "immédiatement, à la fois"
+    },
+    {
+      "id": "gctbvj",
+      "front": "in a hurry",
+      "back": "pressé"
+    },
+    {
+      "id": "jhgz6y",
+      "front": "on time",
+      "back": "à l'heure"
+    },
+    {
+      "id": "h55nsm",
+      "front": "in time",
+      "back": "à temps"
+    },
+    {
+      "id": "facem3",
+      "front": "out of order",
+      "back": "en panne, hors service"
+    },
+    {
+      "id": "uj6fv7",
+      "front": "out of stock",
+      "back": "en rupture de stock"
+    },
+    {
+      "id": "rdw77g",
+      "front": "on sale",
+      "back": "en vente, en solde"
+    },
+    {
+      "id": "s71ps8",
+      "front": "for sale",
+      "back": "à vendre"
+    },
+    {
+      "id": "lmypwn",
+      "front": "on foot",
+      "back": "à pied"
+    },
+    {
+      "id": "nzz007",
+      "front": "on holiday",
+      "back": "en vacances"
+    },
+    {
+      "id": "bf1miu",
+      "front": "on business",
+      "back": "pour affaires"
+    },
+    {
+      "id": "xy0czs",
+      "front": "at work",
+      "back": "au travail"
+    },
+    {
+      "id": "a8hv54",
+      "front": "at home",
+      "back": "à la maison"
+    },
+    {
+      "id": "smvm9h",
+      "front": "at school",
+      "back": "à l'école"
+    },
+    {
+      "id": "fn9h6o",
+      "front": "in bed",
+      "back": "au lit"
+    },
+    {
+      "id": "dzh5n8",
+      "front": "on the phone",
+      "back": "au téléphone"
+    },
+    {
+      "id": "2f042i",
+      "front": "in a good mood",
+      "back": "de bonne humeur"
+    },
+    {
+      "id": "rbihey",
+      "front": "in a bad mood",
+      "back": "de mauvaise humeur"
+    },
+    {
+      "id": "kgk7kl",
+      "front": "to make up one's mind",
+      "back": "se décider"
+    },
+    {
+      "id": "l5co7m",
+      "front": "to change one's mind",
+      "back": "changer d'avis"
+    },
+    {
+      "id": "dbpcsb",
+      "front": "to keep in touch",
+      "back": "rester en contact"
+    },
+    {
+      "id": "wejmnb",
+      "front": "to get in touch with",
+      "back": "prendre contact avec"
+    },
+    {
+      "id": "uinr43",
+      "front": "to take part",
+      "back": "participer"
+    },
+    {
+      "id": "8il7cl",
+      "front": "to take place",
+      "back": "avoir lieu"
+    },
+    {
+      "id": "ch5q9u",
+      "front": "to make a mistake",
+      "back": "faire une erreur"
+    },
+    {
+      "id": "ejeuhk",
+      "front": "to make an effort",
+      "back": "faire un effort"
+    },
+    {
+      "id": "o9b6yt",
+      "front": "to take a decision",
+      "back": "prendre une décision"
+    },
+    {
+      "id": "5ez44f",
+      "front": "to have a look",
+      "back": "jeter un coup d'œil"
+    },
+    {
+      "id": "vv3jg0",
+      "front": "to have a go",
+      "back": "essayer"
+    },
+    {
+      "id": "0d1p8k",
+      "front": "to give a hand",
+      "back": "donner un coup de main"
+    },
+    {
+      "id": "otbhvo",
+      "front": "to take one's time",
+      "back": "prendre son temps"
+    },
+    {
+      "id": "nf856y",
+      "front": "to be about to",
+      "back": "être sur le point de"
+    },
+    {
+      "id": "koye9w",
+      "front": "to be used to",
+      "back": "avoir l'habitude de"
+    },
+    {
+      "id": "koqnsp",
+      "front": "to get used to",
+      "back": "s'habituer à"
+    },
+    {
+      "id": "xfoo97",
+      "front": "to be fed up with",
+      "back": "en avoir assez de"
+    },
+    {
+      "id": "3gx8nd",
+      "front": "to be worth it",
+      "back": "en valoir la peine"
+    },
+    {
+      "id": "6x5d71",
+      "front": "to be in charge",
+      "back": "être aux commandes"
+    },
+    {
+      "id": "598di4",
+      "front": "to run out of",
+      "back": "être à court de"
+    },
+    {
+      "id": "ehommx",
+      "front": "to look forward",
+      "back": "se réjouir d'avance"
+    }
+  ]
+}
