@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-technology-data",
+  "name": "Technology, Data and the Internet",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "mdop38",
+      "front": "an algorithm",
+      "back": "un algorithme"
+    },
+    {
+      "id": "ez7mqf",
+      "front": "a heuristic method",
+      "back": "une méthode heuristique"
+    },
+    {
+      "id": "r01ybb",
+      "front": "a data structure",
+      "back": "une structure de données"
+    },
+    {
+      "id": "c2702s",
+      "front": "a compiler",
+      "back": "un compilateur"
+    },
+    {
+      "id": "l7bbla",
+      "front": "an interpreter",
+      "back": "un interpréteur"
+    },
+    {
+      "id": "4jsn06",
+      "front": "source code",
+      "back": "le code source"
+    },
+    {
+      "id": "lfomc9",
+      "front": "a repository",
+      "back": "un dépôt de code"
+    },
+    {
+      "id": "jse7q9",
+      "front": "a commit",
+      "back": "une validation, un commit"
+    },
+    {
+      "id": "pyiz2f",
+      "front": "a branch of code",
+      "back": "une branche de code"
+    },
+    {
+      "id": "3y5lpq",
+      "front": "a merge conflict",
+      "back": "un conflit de fusion"
+    },
+    {
+      "id": "jdw5tc",
+      "front": "a refactor",
+      "back": "une refonte du code"
+    },
+    {
+      "id": "s5ehkq",
+      "front": "technical debt",
+      "back": "la dette technique"
+    },
+    {
+      "id": "4ox80m",
+      "front": "a codebase",
+      "back": "une base de code"
+    },
+    {
+      "id": "c5vo73",
+      "front": "an application programming interface",
+      "back": "une interface de programmation"
+    },
+    {
+      "id": "kxgmem",
+      "front": "a library",
+      "back": "une bibliothèque logicielle"
+    },
+    {
+      "id": "z02xyj",
+      "front": "a framework",
+      "back": "un cadriciel, un framework"
+    },
+    {
+      "id": "gp564k",
+      "front": "a runtime",
+      "back": "un environnement d'exécution"
+    },
+    {
+      "id": "cnfydl",
+      "front": "a dependency",
+      "back": "une dépendance"
+    },
+    {
+      "id": "nm6q0a",
+      "front": "a build pipeline",
+      "back": "une chaîne de compilation"
+    },
+    {
+      "id": "1x7nwi",
+      "front": "continuous integration",
+      "back": "l'intégration continue"
+    },
+    {
+      "id": "kxcblp",
+      "front": "a deployment",
+      "back": "un déploiement"
+    },
+    {
+      "id": "n3mvsv",
+      "front": "a rollback",
+      "back": "un retour à la version précédente"
+    },
+    {
+      "id": "ptsw08",
+      "front": "a patch",
+      "back": "un correctif"
+    },
+    {
+      "id": "dlk6ow",
+      "front": "a release",
+      "back": "une version publiée"
+    },
+    {
+      "id": "q638ox",
+      "front": "an update",
+      "back": "une mise à jour"
+    },
+    {
+      "id": "793kez",
+      "front": "a bug",
+      "back": "un bogue"
+    },
+    {
+      "id": "ce9ocy",
+      "front": "a software crash",
+      "back": "un plantage"
+    },
+    {
+      "id": "5o30k5",
+      "front": "a stack trace",
+      "back": "une trace d'appels"
+    },
+    {
+      "id": "7bh98f",
+      "front": "debugging",
+      "back": "le débogage"
+    },
+    {
+      "id": "fi9mr5",
+      "front": "a regression",
+      "back": "une régression"
+    },
+    {
+      "id": "x8h4c4",
+      "front": "a unit test",
+      "back": "un test unitaire"
+    },
+    {
+      "id": "4i7kk2",
+      "front": "test coverage",
+      "back": "la couverture de tests"
+    },
+    {
+      "id": "lilchn",
+      "front": "latency",
+      "back": "la latence"
+    },
+    {
+      "id": "zis0ox",
+      "front": "throughput",
+      "back": "le débit"
+    },
+    {
+      "id": "p9sykh",
+      "front": "bandwidth of a link",
+      "back": "la bande passante"
+    },
+    {
+      "id": "e62d8w",
+      "front": "a packet",
+      "back": "un paquet"
+    },
+    {
+      "id": "qvcupz",
+      "front": "a protocol of transmission",
+      "back": "un protocole de transmission"
+    },
+    {
+      "id": "0tb86k",
+      "front": "a server",
+      "back": "un serveur"
+    },
+    {
+      "id": "qtn1w5",
+      "front": "a client",
+      "back": "un client"
+    },
+    {
+      "id": "51imz6",
+      "front": "a load balancer",
+      "back": "un répartiteur de charge"
+    },
+    {
+      "id": "d9y72w",
+      "front": "a cache",
+      "back": "un cache"
+    },
+    {
+      "id": "ei8fzq",
+      "front": "a content delivery network",
+      "back": "un réseau de diffusion de contenu"
+    },
+    {
+      "id": "ooc5es",
+      "front": "a data centre",
+      "back": "un centre de données"
+    },
+    {
+      "id": "v7r19s",
+      "front": "cloud computing",
+      "back": "l'informatique en nuage"
+    },
+    {
+      "id": "9ywngu",
+      "front": "virtualisation",
+      "back": "la virtualisation"
+    },
+    {
+      "id": "l7ixgk",
+      "front": "a container",
+      "back": "un conteneur"
+    },
+    {
+      "id": "uihknz",
+      "front": "an instance",
+      "back": "une instance"
+    },
+    {
+      "id": "nq8o4f",
+      "front": "scaling out",
+      "back": "la mise à l'échelle horizontale"
+    },
+    {
+      "id": "sgqzw1",
+      "front": "redundancy of systems",
+      "back": "la redondance des systèmes"
+    },
+    {
+      "id": "vjgs4l",
+      "front": "a failover",
+      "back": "un basculement de secours"
+    },
+    {
+      "id": "qemjm5",
+      "front": "an outage",
+      "back": "une panne"
+    },
+    {
+      "id": "v8l9fu",
+      "front": "downtime",
+      "back": "le temps d'indisponibilité"
+    },
+    {
+      "id": "p295wt",
+      "front": "uptime",
+      "back": "le temps de fonctionnement"
+    },
+    {
+      "id": "zgx77n",
+      "front": "a backup",
+      "back": "une sauvegarde"
+    },
+    {
+      "id": "t376wj",
+      "front": "a database",
+      "back": "une base de données"
+    },
+    {
+      "id": "tqv5f4",
+      "front": "a query",
+      "back": "une requête"
+    },
+    {
+      "id": "ujnew0",
+      "front": "an index",
+      "back": "un index"
+    },
+    {
+      "id": "qwpeit",
+      "front": "a schema",
+      "back": "un schéma"
+    },
+    {
+      "id": "7kufnn",
+      "front": "a data lake",
+      "back": "un lac de données"
+    },
+    {
+      "id": "swyzb0",
+      "front": "a data warehouse",
+      "back": "un entrepôt de données"
+    },
+    {
+      "id": "psfpze",
+      "front": "data mining",
+      "back": "l'exploration de données"
+    },
+    {
+      "id": "z81u0n",
+      "front": "machine learning",
+      "back": "l'apprentissage automatique"
+    },
+    {
+      "id": "7l25fp",
+      "front": "a neural network",
+      "back": "un réseau de neurones"
+    },
+    {
+      "id": "kq5twq",
+      "front": "training data",
+      "back": "des données d'entraînement"
+    },
+    {
+      "id": "f3i35n",
+      "front": "a training set",
+      "back": "un jeu d'entraînement"
+    },
+    {
+      "id": "kef94r",
+      "front": "overfitting",
+      "back": "le surapprentissage"
+    },
+    {
+      "id": "c0ju58",
+      "front": "inference in computing",
+      "back": "l'inférence"
+    },
+    {
+      "id": "ebkq6j",
+      "front": "a model weight",
+      "back": "un poids de modèle"
+    },
+    {
+      "id": "4faqzo",
+      "front": "an algorithmic bias",
+      "back": "un biais algorithmique"
+    },
+    {
+      "id": "cowip7",
+      "front": "explainability",
+      "back": "l'explicabilité"
+    },
+    {
+      "id": "poev0f",
+      "front": "a black box",
+      "back": "une boîte noire"
+    },
+    {
+      "id": "gwqdei",
+      "front": "automation",
+      "back": "l'automatisation"
+    },
+    {
+      "id": "7uj0v0",
+      "front": "a bot",
+      "back": "un robot logiciel"
+    },
+    {
+      "id": "r66aii",
+      "front": "a crawler",
+      "back": "un robot d'indexation"
+    },
+    {
+      "id": "tf6mf2",
+      "front": "search engine optimisation",
+      "back": "le référencement naturel"
+    },
+    {
+      "id": "fahfop",
+      "front": "a ranking algorithm",
+      "back": "un algorithme de classement"
+    },
+    {
+      "id": "40260u",
+      "front": "a recommendation engine",
+      "back": "un moteur de recommandation"
+    },
+    {
+      "id": "fbhw29",
+      "front": "an echo chamber",
+      "back": "une chambre d'écho"
+    },
+    {
+      "id": "8u3co6",
+      "front": "a filter bubble",
+      "back": "une bulle de filtres"
+    },
+    {
+      "id": "9p759x",
+      "front": "engagement metrics",
+      "back": "les indicateurs d'engagement"
+    },
+    {
+      "id": "c2122v",
+      "front": "a click-through rate",
+      "back": "un taux de clics"
+    },
+    {
+      "id": "h4ymua",
+      "front": "a paywall",
+      "back": "un mur payant"
+    },
+    {
+      "id": "jslg0z",
+      "front": "a cookie",
+      "back": "un témoin de connexion, un cookie"
+    },
+    {
+      "id": "u4b02v",
+      "front": "tracking",
+      "back": "le pistage"
+    },
+    {
+      "id": "95oxjw",
+      "front": "a data broker",
+      "back": "un courtier en données"
+    },
+    {
+      "id": "owzh2f",
+      "front": "targeted advertising",
+      "back": "la publicité ciblée"
+    },
+    {
+      "id": "dkq4p0",
+      "front": "personal data",
+      "back": "les données personnelles"
+    },
+    {
+      "id": "g7qvl4",
+      "front": "anonymisation",
+      "back": "l'anonymisation"
+    },
+    {
+      "id": "ja5yry",
+      "front": "encryption",
+      "back": "le chiffrement"
+    },
+    {
+      "id": "246iih",
+      "front": "end-to-end encryption",
+      "back": "le chiffrement de bout en bout"
+    },
+    {
+      "id": "24751d",
+      "front": "a firewall",
+      "back": "un pare-feu"
+    },
+    {
+      "id": "dpkbby",
+      "front": "a vulnerability",
+      "back": "une vulnérabilité"
+    },
+    {
+      "id": "8mx45r",
+      "front": "an exploit",
+      "back": "un exploit, un code d'attaque"
+    },
+    {
+      "id": "sdp5kl",
+      "front": "a data breach",
+      "back": "une fuite de données"
+    },
+    {
+      "id": "80hme0",
+      "front": "phishing",
+      "back": "l'hameçonnage"
+    },
+    {
+      "id": "ebhoyv",
+      "front": "ransomware",
+      "back": "un rançongiciel"
+    },
+    {
+      "id": "iwhzhx",
+      "front": "a denial-of-service attack",
+      "back": "une attaque par déni de service"
+    },
+    {
+      "id": "ek6kk2",
+      "front": "two-factor authentication",
+      "back": "l'authentification à deux facteurs"
+    },
+    {
+      "id": "xjx1sm",
+      "front": "digital sovereignty",
+      "back": "la souveraineté numérique"
+    },
+    {
+      "id": "r86va8",
+      "front": "interoperability",
+      "back": "l'interopérabilité"
+    }
+  ]
+}
