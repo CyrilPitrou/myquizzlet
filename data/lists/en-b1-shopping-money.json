@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-shopping-money",
+  "name": "Shopping and Money",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "phyep7",
+      "front": "a shop",
+      "back": "un magasin"
+    },
+    {
+      "id": "gdgk88",
+      "front": "a store",
+      "back": "un magasin, une boutique"
+    },
+    {
+      "id": "pci5yr",
+      "front": "a department store",
+      "back": "un grand magasin"
+    },
+    {
+      "id": "6n41o4",
+      "front": "a supermarket",
+      "back": "un supermarché"
+    },
+    {
+      "id": "p0tugt",
+      "front": "a shopping centre",
+      "back": "un centre commercial"
+    },
+    {
+      "id": "4ie2ip",
+      "front": "a corner shop",
+      "back": "une épicerie de quartier"
+    },
+    {
+      "id": "yhhgm4",
+      "front": "a baker's",
+      "back": "une boulangerie"
+    },
+    {
+      "id": "cjk0or",
+      "front": "a butcher's",
+      "back": "une boucherie"
+    },
+    {
+      "id": "maypvp",
+      "front": "a greengrocer's",
+      "back": "un magasin de primeurs"
+    },
+    {
+      "id": "7irrpg",
+      "front": "a fishmonger's",
+      "back": "une poissonnerie"
+    },
+    {
+      "id": "xoyeni",
+      "front": "a newsagent's",
+      "back": "un marchand de journaux"
+    },
+    {
+      "id": "yywks3",
+      "front": "a bookshop",
+      "back": "une librairie"
+    },
+    {
+      "id": "hbfloy",
+      "front": "a clothes shop",
+      "back": "un magasin de vêtements"
+    },
+    {
+      "id": "ek2n04",
+      "front": "a stall",
+      "back": "un étal, un stand"
+    },
+    {
+      "id": "7xql90",
+      "front": "a shop window",
+      "back": "une vitrine"
+    },
+    {
+      "id": "npzv5q",
+      "front": "a shelf display",
+      "back": "un présentoir"
+    },
+    {
+      "id": "y4toxz",
+      "front": "a shopping list",
+      "back": "une liste de courses"
+    },
+    {
+      "id": "xnuvsm",
+      "front": "a trolley",
+      "back": "un chariot"
+    },
+    {
+      "id": "dm13nc",
+      "front": "a basket",
+      "back": "un panier"
+    },
+    {
+      "id": "dtxuc6",
+      "front": "a checkout",
+      "back": "une caisse"
+    },
+    {
+      "id": "glr16s",
+      "front": "a cashier",
+      "back": "un caissier"
+    },
+    {
+      "id": "8fqy6v",
+      "front": "a shop assistant",
+      "back": "un vendeur"
+    },
+    {
+      "id": "hm4cmf",
+      "front": "a customer",
+      "back": "un client"
+    },
+    {
+      "id": "javohd",
+      "front": "a queue",
+      "back": "une file d'attente"
+    },
+    {
+      "id": "g5hgj7",
+      "front": "a purchase",
+      "back": "un achat"
+    },
+    {
+      "id": "uz9bhx",
+      "front": "a product",
+      "back": "un produit"
+    },
+    {
+      "id": "zyt8hc",
+      "front": "a brand",
+      "back": "une marque"
+    },
+    {
+      "id": "6d1j30",
+      "front": "a label",
+      "back": "une étiquette"
+    },
+    {
+      "id": "rrdcbw",
+      "front": "a size",
+      "back": "une taille"
+    },
+    {
+      "id": "nft631",
+      "front": "a quality",
+      "back": "une qualité"
+    },
+    {
+      "id": "lqsw75",
+      "front": "a price",
+      "back": "un prix"
+    },
+    {
+      "id": "twq2ta",
+      "front": "a cost",
+      "back": "un coût"
+    },
+    {
+      "id": "q4ytnh",
+      "front": "a bargain",
+      "back": "une bonne affaire"
+    },
+    {
+      "id": "im3va9",
+      "front": "a discount",
+      "back": "une remise"
+    },
+    {
+      "id": "k1x1q0",
+      "front": "a sale",
+      "back": "une vente, des soldes"
+    },
+    {
+      "id": "yzhakr",
+      "front": "a reduction",
+      "back": "une réduction"
+    },
+    {
+      "id": "9syd5h",
+      "front": "an offer",
+      "back": "une offre"
+    },
+    {
+      "id": "ekh8ob",
+      "front": "a receipt",
+      "back": "un ticket de caisse"
+    },
+    {
+      "id": "0n2mjm",
+      "front": "a refund",
+      "back": "un remboursement"
+    },
+    {
+      "id": "u86zv6",
+      "front": "an exchange",
+      "back": "un échange"
+    },
+    {
+      "id": "jj0xz1",
+      "front": "a guarantee",
+      "back": "une garantie"
+    },
+    {
+      "id": "yicuf4",
+      "front": "a delivery",
+      "back": "une livraison"
+    },
+    {
+      "id": "dvhsd1",
+      "front": "a parcel",
+      "back": "un colis"
+    },
+    {
+      "id": "whvu8f",
+      "front": "money",
+      "back": "l'argent"
+    },
+    {
+      "id": "ei19nf",
+      "front": "cash",
+      "back": "les espèces"
+    },
+    {
+      "id": "48b4g5",
+      "front": "a coin",
+      "back": "une pièce"
+    },
+    {
+      "id": "hujs9x",
+      "front": "a banknote",
+      "back": "un billet de banque"
+    },
+    {
+      "id": "es2tc0",
+      "front": "a wallet",
+      "back": "un portefeuille"
+    },
+    {
+      "id": "gzxxwq",
+      "front": "a purse",
+      "back": "un porte-monnaie"
+    },
+    {
+      "id": "v5te12",
+      "front": "a change",
+      "back": "la monnaie"
+    },
+    {
+      "id": "ntshaw",
+      "front": "a currency",
+      "back": "une monnaie, une devise"
+    },
+    {
+      "id": "fnlgz9",
+      "front": "an exchange rate",
+      "back": "un taux de change"
+    },
+    {
+      "id": "bcds18",
+      "front": "a bank",
+      "back": "une banque"
+    },
+    {
+      "id": "inx3x0",
+      "front": "an account",
+      "back": "un compte"
+    },
+    {
+      "id": "yx9wie",
+      "front": "a bank account",
+      "back": "un compte bancaire"
+    },
+    {
+      "id": "qx3rpd",
+      "front": "a savings account",
+      "back": "un compte d'épargne"
+    },
+    {
+      "id": "f7t91y",
+      "front": "a cash machine",
+      "back": "un distributeur automatique"
+    },
+    {
+      "id": "xj6496",
+      "front": "a card",
+      "back": "une carte"
+    },
+    {
+      "id": "n2rmkv",
+      "front": "a credit card",
+      "back": "une carte de crédit"
+    },
+    {
+      "id": "koeh3p",
+      "front": "a debit card",
+      "back": "une carte de débit"
+    },
+    {
+      "id": "j9ow5d",
+      "front": "a PIN",
+      "back": "un code confidentiel"
+    },
+    {
+      "id": "cf4joz",
+      "front": "a cheque",
+      "back": "un chèque"
+    },
+    {
+      "id": "z5k1ga",
+      "front": "a transfer",
+      "back": "un virement"
+    },
+    {
+      "id": "26txaw",
+      "front": "a payment",
+      "back": "un paiement"
+    },
+    {
+      "id": "m03iem",
+      "front": "a bill to pay",
+      "back": "une facture à payer"
+    },
+    {
+      "id": "mpcwsw",
+      "front": "a debt",
+      "back": "une dette"
+    },
+    {
+      "id": "3c7b4w",
+      "front": "a loan",
+      "back": "un prêt"
+    },
+    {
+      "id": "79cdm4",
+      "front": "interest",
+      "back": "les intérêts"
+    },
+    {
+      "id": "1qqa1q",
+      "front": "a budget",
+      "back": "un budget"
+    },
+    {
+      "id": "9ijwbs",
+      "front": "savings",
+      "back": "les économies"
+    },
+    {
+      "id": "r8uirp",
+      "front": "an expense",
+      "back": "une dépense"
+    },
+    {
+      "id": "aurv55",
+      "front": "an income",
+      "back": "un revenu"
+    },
+    {
+      "id": "5bflrx",
+      "front": "a wage",
+      "back": "un salaire"
+    },
+    {
+      "id": "tk9dt7",
+      "front": "a tax",
+      "back": "un impôt, une taxe"
+    },
+    {
+      "id": "h63gmx",
+      "front": "VAT",
+      "back": "la TVA"
+    },
+    {
+      "id": "jx62y5",
+      "front": "a charity",
+      "back": "une association caritative"
+    },
+    {
+      "id": "fu9twy",
+      "front": "a donation",
+      "back": "un don"
+    },
+    {
+      "id": "wcgq6b",
+      "front": "to buy",
+      "back": "acheter"
+    },
+    {
+      "id": "om385p",
+      "front": "to sell",
+      "back": "vendre"
+    },
+    {
+      "id": "h2krmn",
+      "front": "to pay",
+      "back": "payer"
+    },
+    {
+      "id": "ox9nu1",
+      "front": "to pay back",
+      "back": "rembourser"
+    },
+    {
+      "id": "i87xfq",
+      "front": "to spend",
+      "back": "dépenser"
+    },
+    {
+      "id": "d9c6ab",
+      "front": "to save",
+      "back": "économiser"
+    },
+    {
+      "id": "s5fcpa",
+      "front": "to cost",
+      "back": "coûter"
+    },
+    {
+      "id": "mcpmiw",
+      "front": "to afford",
+      "back": "avoir les moyens de"
+    },
+    {
+      "id": "za1g51",
+      "front": "to owe",
+      "back": "devoir"
+    },
+    {
+      "id": "be95y1",
+      "front": "to borrow",
+      "back": "emprunter"
+    },
+    {
+      "id": "1883fh",
+      "front": "to lend",
+      "back": "prêter"
+    },
+    {
+      "id": "j3bje9",
+      "front": "to earn",
+      "back": "gagner"
+    },
+    {
+      "id": "3mwnl7",
+      "front": "to waste",
+      "back": "gaspiller"
+    },
+    {
+      "id": "9f2ls9",
+      "front": "to try on",
+      "back": "essayer"
+    },
+    {
+      "id": "ponudf",
+      "front": "to choose",
+      "back": "choisir"
+    },
+    {
+      "id": "s6kjer",
+      "front": "to swap",
+      "back": "échanger"
+    },
+    {
+      "id": "oi1m6o",
+      "front": "to deliver",
+      "back": "livrer"
+    },
+    {
+      "id": "ie631f",
+      "front": "to queue",
+      "back": "faire la queue"
+    },
+    {
+      "id": "lvwy5a",
+      "front": "expensive",
+      "back": "cher"
+    },
+    {
+      "id": "eda8ls",
+      "front": "cheap",
+      "back": "bon marché"
+    },
+    {
+      "id": "z4zyrc",
+      "front": "free of charge",
+      "back": "gratuit"
+    },
+    {
+      "id": "wwrzjh",
+      "front": "worth",
+      "back": "qui vaut"
+    },
+    {
+      "id": "n7upuy",
+      "front": "broke",
+      "back": "fauché"
+    }
+  ]
+}
