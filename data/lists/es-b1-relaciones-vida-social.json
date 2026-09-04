@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-relaciones-vida-social",
+  "name": "Las relaciones y la vida social",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "uqkdys",
+      "front": "la amistad",
+      "back": "l'amitié"
+    },
+    {
+      "id": "38x9c5",
+      "front": "el amor",
+      "back": "l'amour"
+    },
+    {
+      "id": "l9uec3",
+      "front": "la relación",
+      "back": "la relation"
+    },
+    {
+      "id": "o3ejv7",
+      "front": "el trato",
+      "back": "les rapports, le contact"
+    },
+    {
+      "id": "2lizqj",
+      "front": "la convivencia",
+      "back": "la vie en commun"
+    },
+    {
+      "id": "45kkzw",
+      "front": "la cita",
+      "back": "le rendez-vous"
+    },
+    {
+      "id": "4ghs5w",
+      "front": "la invitación",
+      "back": "l'invitation"
+    },
+    {
+      "id": "coo3wy",
+      "front": "el anfitrión",
+      "back": "l'hôte (qui reçoit)"
+    },
+    {
+      "id": "ue02vv",
+      "front": "el invitado",
+      "back": "l'invité"
+    },
+    {
+      "id": "9dv8uf",
+      "front": "el regalo",
+      "back": "le cadeau"
+    },
+    {
+      "id": "prpt5j",
+      "front": "el ramo de flores",
+      "back": "le bouquet de fleurs"
+    },
+    {
+      "id": "w2zjug",
+      "front": "el brindis",
+      "back": "le toast"
+    },
+    {
+      "id": "b14e3i",
+      "front": "la celebración",
+      "back": "la célébration"
+    },
+    {
+      "id": "j4rux9",
+      "front": "la reunión de amigos",
+      "back": "la réunion entre amis"
+    },
+    {
+      "id": "sg5xtd",
+      "front": "la despedida",
+      "back": "les adieux"
+    },
+    {
+      "id": "qoxojx",
+      "front": "el saludo",
+      "back": "le salut, la salutation"
+    },
+    {
+      "id": "ofkyzq",
+      "front": "el beso",
+      "back": "le bisou, le baiser"
+    },
+    {
+      "id": "poooqh",
+      "front": "el abrazo",
+      "back": "l'accolade"
+    },
+    {
+      "id": "7duh6y",
+      "front": "el apretón de manos",
+      "back": "la poignée de main"
+    },
+    {
+      "id": "kjc5tn",
+      "front": "la sonrisa",
+      "back": "le sourire"
+    },
+    {
+      "id": "l2v11f",
+      "front": "la conversación",
+      "back": "la conversation"
+    },
+    {
+      "id": "2xcg9i",
+      "front": "la charla",
+      "back": "le bavardage, la causerie"
+    },
+    {
+      "id": "09hld5",
+      "front": "el chisme",
+      "back": "le ragot"
+    },
+    {
+      "id": "toqa9v",
+      "front": "el favor",
+      "back": "le service, la faveur"
+    },
+    {
+      "id": "6sqpkh",
+      "front": "el consejo",
+      "back": "le conseil"
+    },
+    {
+      "id": "9chqum",
+      "front": "el apoyo",
+      "back": "le soutien"
+    },
+    {
+      "id": "2x9wu5",
+      "front": "la ayuda",
+      "back": "l'aide"
+    },
+    {
+      "id": "pvfy4p",
+      "front": "la promesa",
+      "back": "la promesse"
+    },
+    {
+      "id": "xhma4q",
+      "front": "el secreto",
+      "back": "le secret"
+    },
+    {
+      "id": "l8yut5",
+      "front": "la disculpa",
+      "back": "l'excuse"
+    },
+    {
+      "id": "3aw7jr",
+      "front": "el perdón",
+      "back": "le pardon"
+    },
+    {
+      "id": "gytpk3",
+      "front": "la discusión",
+      "back": "la dispute, la discussion"
+    },
+    {
+      "id": "iv20zt",
+      "front": "la pelea",
+      "back": "la bagarre, la querelle"
+    },
+    {
+      "id": "3h6sml",
+      "front": "la reconciliación",
+      "back": "la réconciliation"
+    },
+    {
+      "id": "kr7o12",
+      "front": "el malentendido",
+      "back": "le malentendu"
+    },
+    {
+      "id": "i2gszd",
+      "front": "la broma",
+      "back": "la plaisanterie"
+    },
+    {
+      "id": "ijnlv7",
+      "front": "el compromiso",
+      "back": "l'engagement, les fiançailles"
+    },
+    {
+      "id": "6rslir",
+      "front": "la lealtad",
+      "back": "la loyauté"
+    },
+    {
+      "id": "phpy67",
+      "front": "el respeto",
+      "back": "le respect"
+    },
+    {
+      "id": "chcjop",
+      "front": "la educación",
+      "back": "la politesse, l'éducation"
+    },
+    {
+      "id": "n66co2",
+      "front": "los buenos modales",
+      "back": "les bonnes manières"
+    },
+    {
+      "id": "y90ysf",
+      "front": "el vecindario",
+      "back": "le voisinage"
+    },
+    {
+      "id": "g0lfyq",
+      "front": "la comunidad",
+      "back": "la communauté"
+    },
+    {
+      "id": "xx42ko",
+      "front": "la asociación",
+      "back": "l'association"
+    },
+    {
+      "id": "2eteba",
+      "front": "el voluntariado",
+      "back": "le bénévolat"
+    },
+    {
+      "id": "xc2rn3",
+      "front": "el club social",
+      "back": "le club"
+    },
+    {
+      "id": "5pi675",
+      "front": "buenos días",
+      "back": "bonjour"
+    },
+    {
+      "id": "eyqt74",
+      "front": "buenas tardes",
+      "back": "bonjour (l'après-midi)"
+    },
+    {
+      "id": "cc6w7p",
+      "front": "buenas noches",
+      "back": "bonsoir, bonne nuit"
+    },
+    {
+      "id": "ra9e2l",
+      "front": "hasta luego",
+      "back": "à plus tard"
+    },
+    {
+      "id": "ii1xn8",
+      "front": "hasta pronto",
+      "back": "à bientôt"
+    },
+    {
+      "id": "sp49wd",
+      "front": "por favor",
+      "back": "s'il vous plaît"
+    },
+    {
+      "id": "8srbqe",
+      "front": "muchas gracias",
+      "back": "merci beaucoup"
+    },
+    {
+      "id": "vqoxyq",
+      "front": "de nada",
+      "back": "de rien"
+    },
+    {
+      "id": "eqn6dh",
+      "front": "lo siento",
+      "back": "je suis désolé"
+    },
+    {
+      "id": "f4x8ou",
+      "front": "perdona",
+      "back": "excuse-moi"
+    },
+    {
+      "id": "7elvil",
+      "front": "con permiso",
+      "back": "pardon (pour passer)"
+    },
+    {
+      "id": "8hg1t2",
+      "front": "encantado",
+      "back": "enchanté"
+    },
+    {
+      "id": "is4gw1",
+      "front": "mucho gusto",
+      "back": "ravi de vous rencontrer"
+    },
+    {
+      "id": "eyz77d",
+      "front": "¿qué tal?",
+      "back": "comment ça va ?"
+    },
+    {
+      "id": "bf9xqb",
+      "front": "igualmente",
+      "back": "de même, également"
+    },
+    {
+      "id": "c2lp8l",
+      "front": "enhorabuena",
+      "back": "félicitations"
+    },
+    {
+      "id": "u0uzvf",
+      "front": "felicidades",
+      "back": "meilleurs vœux"
+    },
+    {
+      "id": "l1anhq",
+      "front": "que aproveche",
+      "back": "bon appétit"
+    },
+    {
+      "id": "df0xzk",
+      "front": "salud",
+      "back": "à ta santé"
+    },
+    {
+      "id": "sv4eqq",
+      "front": "buen viaje",
+      "back": "bon voyage"
+    },
+    {
+      "id": "bq567j",
+      "front": "que te mejores",
+      "back": "bon rétablissement"
+    },
+    {
+      "id": "6ypz58",
+      "front": "un abrazo",
+      "back": "amicalement (fin de lettre)"
+    },
+    {
+      "id": "15pko2",
+      "front": "saludar",
+      "back": "saluer"
+    },
+    {
+      "id": "voo4kd",
+      "front": "presentar",
+      "back": "présenter (quelqu'un)"
+    },
+    {
+      "id": "9n5a6p",
+      "front": "conocer",
+      "back": "connaître, faire la connaissance de"
+    },
+    {
+      "id": "sc72ja",
+      "front": "tratar a alguien",
+      "back": "fréquenter quelqu'un"
+    },
+    {
+      "id": "6d77bk",
+      "front": "llevarse bien",
+      "back": "bien s'entendre"
+    },
+    {
+      "id": "3cqx9b",
+      "front": "llevarse mal",
+      "back": "mal s'entendre"
+    },
+    {
+      "id": "r0gn9t",
+      "front": "hacerse amigos",
+      "back": "devenir amis"
+    },
+    {
+      "id": "fpnz4g",
+      "front": "salir con alguien",
+      "back": "sortir avec quelqu'un"
+    },
+    {
+      "id": "h57c8v",
+      "front": "besar",
+      "back": "embrasser"
+    },
+    {
+      "id": "hzon5o",
+      "front": "abrazar",
+      "back": "prendre dans ses bras"
+    },
+    {
+      "id": "fh2sxr",
+      "front": "invitar",
+      "back": "inviter"
+    },
+    {
+      "id": "4yhlyl",
+      "front": "aceptar",
+      "back": "accepter"
+    },
+    {
+      "id": "tyjod2",
+      "front": "rechazar",
+      "back": "refuser"
+    },
+    {
+      "id": "actmiq",
+      "front": "quedarse a cenar",
+      "back": "rester dîner"
+    },
+    {
+      "id": "qginwh",
+      "front": "acompañar",
+      "back": "accompagner"
+    },
+    {
+      "id": "ba7d96",
+      "front": "despedirse",
+      "back": "prendre congé"
+    },
+    {
+      "id": "l4604r",
+      "front": "charlar",
+      "back": "bavarder"
+    },
+    {
+      "id": "lpxjsu",
+      "front": "contar",
+      "back": "raconter"
+    },
+    {
+      "id": "fzigbg",
+      "front": "escuchar",
+      "back": "écouter"
+    },
+    {
+      "id": "q46yzh",
+      "front": "callarse",
+      "back": "se taire"
+    },
+    {
+      "id": "nfekhm",
+      "front": "discutir",
+      "back": "se disputer, discuter"
+    },
+    {
+      "id": "fo1dk6",
+      "front": "enfadarse con alguien",
+      "back": "se fâcher avec quelqu'un"
+    },
+    {
+      "id": "dvioy4",
+      "front": "hacer las paces",
+      "back": "faire la paix"
+    },
+    {
+      "id": "1r91q8",
+      "front": "perdonar",
+      "back": "pardonner"
+    },
+    {
+      "id": "d8vxms",
+      "front": "prometer",
+      "back": "promettre"
+    },
+    {
+      "id": "ijeste",
+      "front": "agradecer",
+      "back": "remercier"
+    },
+    {
+      "id": "vp4l32",
+      "front": "felicitar",
+      "back": "féliciter"
+    },
+    {
+      "id": "cbm9nj",
+      "front": "apoyar",
+      "back": "soutenir"
+    },
+    {
+      "id": "5lee8r",
+      "front": "fiarse de",
+      "back": "se fier à"
+    },
+    {
+      "id": "0sduke",
+      "front": "caer bien",
+      "back": "être sympathique à quelqu'un"
+    },
+    {
+      "id": "4ctret",
+      "front": "caer mal",
+      "back": "être antipathique à quelqu'un"
+    },
+    {
+      "id": "g6db4b",
+      "front": "echar una mano",
+      "back": "donner un coup de main"
+    }
+  ]
+}
