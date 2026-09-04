@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-tiempo-calendario",
+  "name": "El tiempo y el calendario",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "cwup79",
+      "front": "el tiempo",
+      "back": "le temps"
+    },
+    {
+      "id": "mvzudh",
+      "front": "la hora",
+      "back": "l'heure"
+    },
+    {
+      "id": "ulakcz",
+      "front": "el minuto",
+      "back": "la minute"
+    },
+    {
+      "id": "nmvkwx",
+      "front": "el segundo",
+      "back": "la seconde"
+    },
+    {
+      "id": "g8n3gc",
+      "front": "el cuarto de hora",
+      "back": "le quart d'heure"
+    },
+    {
+      "id": "eioh41",
+      "front": "la media hora",
+      "back": "la demi-heure"
+    },
+    {
+      "id": "6zvmq2",
+      "front": "el reloj",
+      "back": "l'horloge, la montre"
+    },
+    {
+      "id": "je3tjx",
+      "front": "el despertador",
+      "back": "le réveil"
+    },
+    {
+      "id": "8zsdqu",
+      "front": "el mediodía",
+      "back": "midi"
+    },
+    {
+      "id": "p7gy7z",
+      "front": "la medianoche",
+      "back": "minuit"
+    },
+    {
+      "id": "bhv5tw",
+      "front": "la mañana",
+      "back": "le matin"
+    },
+    {
+      "id": "gs35q0",
+      "front": "la tarde",
+      "back": "l'après-midi, le soir"
+    },
+    {
+      "id": "judppx",
+      "front": "la madrugada",
+      "back": "le petit matin"
+    },
+    {
+      "id": "9doia1",
+      "front": "el amanecer",
+      "back": "l'aube"
+    },
+    {
+      "id": "or7bnz",
+      "front": "el atardecer",
+      "back": "le crépuscule"
+    },
+    {
+      "id": "9hvxx7",
+      "front": "el día",
+      "back": "le jour"
+    },
+    {
+      "id": "3v6y5l",
+      "front": "la semana",
+      "back": "la semaine"
+    },
+    {
+      "id": "6pf44z",
+      "front": "el mes",
+      "back": "le mois"
+    },
+    {
+      "id": "nzdi1f",
+      "front": "el año",
+      "back": "l'année"
+    },
+    {
+      "id": "wzq500",
+      "front": "el siglo",
+      "back": "le siècle"
+    },
+    {
+      "id": "gz9l1z",
+      "front": "la década",
+      "back": "la décennie"
+    },
+    {
+      "id": "d35ny3",
+      "front": "el lunes",
+      "back": "lundi"
+    },
+    {
+      "id": "iksgfl",
+      "front": "el martes",
+      "back": "mardi"
+    },
+    {
+      "id": "7ps053",
+      "front": "el miércoles",
+      "back": "mercredi"
+    },
+    {
+      "id": "dhhajq",
+      "front": "el jueves",
+      "back": "jeudi"
+    },
+    {
+      "id": "syk7lb",
+      "front": "el viernes",
+      "back": "vendredi"
+    },
+    {
+      "id": "0j8ng8",
+      "front": "el sábado",
+      "back": "samedi"
+    },
+    {
+      "id": "2voyhl",
+      "front": "el domingo",
+      "back": "dimanche"
+    },
+    {
+      "id": "rv3bh4",
+      "front": "enero",
+      "back": "janvier"
+    },
+    {
+      "id": "48qwgc",
+      "front": "febrero",
+      "back": "février"
+    },
+    {
+      "id": "l6qufm",
+      "front": "marzo",
+      "back": "mars"
+    },
+    {
+      "id": "34512t",
+      "front": "abril",
+      "back": "avril"
+    },
+    {
+      "id": "fyr12f",
+      "front": "mayo",
+      "back": "mai"
+    },
+    {
+      "id": "mc8ht9",
+      "front": "junio",
+      "back": "juin"
+    },
+    {
+      "id": "ghpw7u",
+      "front": "julio",
+      "back": "juillet"
+    },
+    {
+      "id": "9n026f",
+      "front": "agosto",
+      "back": "août"
+    },
+    {
+      "id": "nrgww1",
+      "front": "septiembre",
+      "back": "septembre"
+    },
+    {
+      "id": "0sr9ic",
+      "front": "octubre",
+      "back": "octobre"
+    },
+    {
+      "id": "mqvy7l",
+      "front": "noviembre",
+      "back": "novembre"
+    },
+    {
+      "id": "dl75hl",
+      "front": "diciembre",
+      "back": "décembre"
+    },
+    {
+      "id": "ecrdh2",
+      "front": "la primavera",
+      "back": "le printemps"
+    },
+    {
+      "id": "yd6en5",
+      "front": "el verano",
+      "back": "l'été"
+    },
+    {
+      "id": "rtxhp7",
+      "front": "el otoño",
+      "back": "l'automne"
+    },
+    {
+      "id": "lo6gi4",
+      "front": "el invierno",
+      "back": "l'hiver"
+    },
+    {
+      "id": "7f45jd",
+      "front": "la estación del año",
+      "back": "la saison"
+    },
+    {
+      "id": "wpvl2g",
+      "front": "la fecha",
+      "back": "la date"
+    },
+    {
+      "id": "c9r8rh",
+      "front": "el calendario",
+      "back": "le calendrier"
+    },
+    {
+      "id": "6uka5a",
+      "front": "el día festivo",
+      "back": "le jour férié"
+    },
+    {
+      "id": "vbnhqj",
+      "front": "hacer puente",
+      "back": "faire le pont (jours fériés)"
+    },
+    {
+      "id": "bax0m2",
+      "front": "la Navidad",
+      "back": "Noël"
+    },
+    {
+      "id": "soj5os",
+      "front": "la Nochevieja",
+      "back": "la Saint-Sylvestre"
+    },
+    {
+      "id": "raklt8",
+      "front": "la Semana Santa",
+      "back": "la Semaine sainte"
+    },
+    {
+      "id": "d47l3o",
+      "front": "el Año Nuevo",
+      "back": "le Nouvel An"
+    },
+    {
+      "id": "x0s3wh",
+      "front": "la feria",
+      "back": "la foire"
+    },
+    {
+      "id": "tks8g4",
+      "front": "el santo",
+      "back": "la fête patronale"
+    },
+    {
+      "id": "d4ww4i",
+      "front": "el aniversario",
+      "back": "l'anniversaire (d'un événement)"
+    },
+    {
+      "id": "ysgwy0",
+      "front": "la duración",
+      "back": "la durée"
+    },
+    {
+      "id": "fesxoi",
+      "front": "el plazo",
+      "back": "le délai"
+    },
+    {
+      "id": "20j7mo",
+      "front": "el retraso en llegar",
+      "back": "le retard à l'arrivée"
+    },
+    {
+      "id": "ccu3zg",
+      "front": "la temporada",
+      "back": "la période, la saison"
+    },
+    {
+      "id": "ui74k9",
+      "front": "la época",
+      "back": "l'époque"
+    },
+    {
+      "id": "jb4o59",
+      "front": "el momento",
+      "back": "le moment"
+    },
+    {
+      "id": "1sxv8k",
+      "front": "el rato",
+      "back": "un moment, un instant"
+    },
+    {
+      "id": "e2ocpo",
+      "front": "el pasado",
+      "back": "le passé"
+    },
+    {
+      "id": "kudxqx",
+      "front": "el presente",
+      "back": "le présent"
+    },
+    {
+      "id": "6cg4hd",
+      "front": "el futuro",
+      "back": "le futur"
+    },
+    {
+      "id": "ccgvdn",
+      "front": "hoy",
+      "back": "aujourd'hui"
+    },
+    {
+      "id": "ne8ucd",
+      "front": "ayer",
+      "back": "hier"
+    },
+    {
+      "id": "m265w8",
+      "front": "anteayer",
+      "back": "avant-hier"
+    },
+    {
+      "id": "kvfmwx",
+      "front": "mañana (adv.)",
+      "back": "demain"
+    },
+    {
+      "id": "vxfn1t",
+      "front": "pasado mañana",
+      "back": "après-demain"
+    },
+    {
+      "id": "1f6qlr",
+      "front": "anoche",
+      "back": "hier soir"
+    },
+    {
+      "id": "qeusl4",
+      "front": "ahora",
+      "back": "maintenant"
+    },
+    {
+      "id": "tbi017",
+      "front": "luego",
+      "back": "ensuite, plus tard"
+    },
+    {
+      "id": "iatv9o",
+      "front": "pronto",
+      "back": "bientôt, tôt"
+    },
+    {
+      "id": "o51jy4",
+      "front": "tarde",
+      "back": "tard"
+    },
+    {
+      "id": "vnl8wy",
+      "front": "temprano",
+      "back": "tôt"
+    },
+    {
+      "id": "t6m768",
+      "front": "todavía",
+      "back": "encore"
+    },
+    {
+      "id": "ss77ql",
+      "front": "ya",
+      "back": "déjà"
+    },
+    {
+      "id": "7m01zc",
+      "front": "mientras",
+      "back": "pendant que"
+    },
+    {
+      "id": "n5872o",
+      "front": "antes de",
+      "back": "avant"
+    },
+    {
+      "id": "7mvpli",
+      "front": "después de",
+      "back": "après"
+    },
+    {
+      "id": "sl3n5m",
+      "front": "durante",
+      "back": "pendant"
+    },
+    {
+      "id": "wvbeuj",
+      "front": "desde",
+      "back": "depuis"
+    },
+    {
+      "id": "0snenp",
+      "front": "hasta",
+      "back": "jusqu'à"
+    },
+    {
+      "id": "94034z",
+      "front": "a menudo",
+      "back": "souvent"
+    },
+    {
+      "id": "29jn7o",
+      "front": "a veces",
+      "back": "parfois"
+    },
+    {
+      "id": "fgo8o0",
+      "front": "siempre",
+      "back": "toujours"
+    },
+    {
+      "id": "abpanf",
+      "front": "nunca",
+      "back": "jamais"
+    },
+    {
+      "id": "m88vuz",
+      "front": "casi nunca",
+      "back": "presque jamais"
+    },
+    {
+      "id": "1bbhza",
+      "front": "cada día",
+      "back": "chaque jour"
+    },
+    {
+      "id": "xz97hk",
+      "front": "una vez",
+      "back": "une fois"
+    },
+    {
+      "id": "ytu3g7",
+      "front": "dos veces",
+      "back": "deux fois"
+    },
+    {
+      "id": "7z3fkc",
+      "front": "de vez en cuando",
+      "back": "de temps en temps"
+    },
+    {
+      "id": "7c8w1z",
+      "front": "al mismo tiempo",
+      "back": "en même temps"
+    },
+    {
+      "id": "0wqsvm",
+      "front": "en seguida",
+      "back": "tout de suite"
+    },
+    {
+      "id": "ejlj8w",
+      "front": "durar",
+      "back": "durer"
+    },
+    {
+      "id": "iyqqjx",
+      "front": "tardar",
+      "back": "mettre du temps"
+    },
+    {
+      "id": "z32hny",
+      "front": "adelantar el reloj",
+      "back": "avancer l'horloge"
+    },
+    {
+      "id": "q0wx2c",
+      "front": "a partir de",
+      "back": "à partir de"
+    }
+  ]
+}
