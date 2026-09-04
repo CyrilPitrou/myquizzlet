@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-cinema-media",
+  "name": "Cinema, Television and Media Criticism",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "lf9pqv",
+      "front": "a screenplay",
+      "back": "un scénario"
+    },
+    {
+      "id": "yrwbea",
+      "front": "a shooting script",
+      "back": "un découpage technique"
+    },
+    {
+      "id": "ko1xyj",
+      "front": "a storyboard",
+      "back": "un storyboard"
+    },
+    {
+      "id": "o4alh2",
+      "front": "a treatment",
+      "back": "un synopsis développé"
+    },
+    {
+      "id": "qpc3e9",
+      "front": "a shot",
+      "back": "un plan"
+    },
+    {
+      "id": "wptsyo",
+      "front": "a take",
+      "back": "une prise"
+    },
+    {
+      "id": "3p9kvp",
+      "front": "a close-up",
+      "back": "un gros plan"
+    },
+    {
+      "id": "4ed9j4",
+      "front": "a wide shot",
+      "back": "un plan large"
+    },
+    {
+      "id": "24fm91",
+      "front": "an establishing shot",
+      "back": "un plan d'ensemble d'ouverture"
+    },
+    {
+      "id": "pdkif5",
+      "front": "a tracking shot",
+      "back": "un travelling"
+    },
+    {
+      "id": "zx5ybj",
+      "front": "a panning shot",
+      "back": "un panoramique"
+    },
+    {
+      "id": "qnj6jx",
+      "front": "a crane shot",
+      "back": "un plan à la grue"
+    },
+    {
+      "id": "fr8qyr",
+      "front": "a dolly zoom",
+      "back": "un travelling compensé"
+    },
+    {
+      "id": "pwt34r",
+      "front": "a long take",
+      "back": "un plan-séquence"
+    },
+    {
+      "id": "iszkoq",
+      "front": "a jump cut",
+      "back": "un faux raccord"
+    },
+    {
+      "id": "lhe2vh",
+      "front": "a cut",
+      "back": "une coupe"
+    },
+    {
+      "id": "h68pak",
+      "front": "a match cut",
+      "back": "un raccord de mouvement"
+    },
+    {
+      "id": "p9tlug",
+      "front": "a dissolve",
+      "back": "un fondu enchaîné"
+    },
+    {
+      "id": "o39s21",
+      "front": "a fade to black",
+      "back": "un fondu au noir"
+    },
+    {
+      "id": "0d8w1s",
+      "front": "a wipe",
+      "back": "un volet"
+    },
+    {
+      "id": "cvg0a7",
+      "front": "montage",
+      "back": "le montage"
+    },
+    {
+      "id": "npqzpc",
+      "front": "continuity",
+      "back": "la continuité, les raccords"
+    },
+    {
+      "id": "lv0t0f",
+      "front": "mise-en-scène",
+      "back": "la mise en scène"
+    },
+    {
+      "id": "ldxvxl",
+      "front": "framing",
+      "back": "le cadrage"
+    },
+    {
+      "id": "i5inu9",
+      "front": "composition of a shot",
+      "back": "la composition d'un plan"
+    },
+    {
+      "id": "zzxcjh",
+      "front": "depth of field",
+      "back": "la profondeur de champ"
+    },
+    {
+      "id": "u0ybfm",
+      "front": "focus pulling",
+      "back": "le point mobile"
+    },
+    {
+      "id": "f0z25a",
+      "front": "a lens",
+      "back": "un objectif"
+    },
+    {
+      "id": "gdwqc2",
+      "front": "cinematography",
+      "back": "la photographie de film"
+    },
+    {
+      "id": "sh0zpf",
+      "front": "a cinematographer",
+      "back": "un directeur de la photographie"
+    },
+    {
+      "id": "0m8bgi",
+      "front": "lighting design",
+      "back": "la conception lumière"
+    },
+    {
+      "id": "4ozzvd",
+      "front": "a key light",
+      "back": "une lumière principale"
+    },
+    {
+      "id": "a9tm8f",
+      "front": "a colour grade",
+      "back": "un étalonnage"
+    },
+    {
+      "id": "7n2cic",
+      "front": "a rushes screening",
+      "back": "une projection de rushes"
+    },
+    {
+      "id": "1pwj3i",
+      "front": "a rough cut",
+      "back": "un premier montage"
+    },
+    {
+      "id": "jvbetw",
+      "front": "a final cut",
+      "back": "le montage définitif"
+    },
+    {
+      "id": "k69yf5",
+      "front": "a sound mix",
+      "back": "un mixage sonore"
+    },
+    {
+      "id": "k1zlp7",
+      "front": "a score for a film",
+      "back": "une musique de film"
+    },
+    {
+      "id": "em3f16",
+      "front": "a diegetic sound",
+      "back": "un son diégétique"
+    },
+    {
+      "id": "2ig2hk",
+      "front": "a voice-over",
+      "back": "une voix off"
+    },
+    {
+      "id": "63snck",
+      "front": "dubbing",
+      "back": "le doublage"
+    },
+    {
+      "id": "zaofk9",
+      "front": "subtitling",
+      "back": "le sous-titrage"
+    },
+    {
+      "id": "qbno7m",
+      "front": "a foley artist",
+      "back": "un bruiteur"
+    },
+    {
+      "id": "ws0918",
+      "front": "special effects",
+      "back": "les effets spéciaux"
+    },
+    {
+      "id": "pwer7s",
+      "front": "computer-generated imagery",
+      "back": "les images de synthèse"
+    },
+    {
+      "id": "66f5o4",
+      "front": "a green screen",
+      "back": "un fond vert"
+    },
+    {
+      "id": "y4uigi",
+      "front": "a stunt",
+      "back": "une cascade"
+    },
+    {
+      "id": "pd4ovo",
+      "front": "a body double",
+      "back": "une doublure"
+    },
+    {
+      "id": "b9ywgh",
+      "front": "casting",
+      "back": "la distribution des rôles"
+    },
+    {
+      "id": "37amjs",
+      "front": "a screen test",
+      "back": "un bout d'essai"
+    },
+    {
+      "id": "r9o4hb",
+      "front": "a lead role",
+      "back": "un rôle principal"
+    },
+    {
+      "id": "q0ii9h",
+      "front": "a supporting role",
+      "back": "un second rôle"
+    },
+    {
+      "id": "pqkkof",
+      "front": "a cameo",
+      "back": "une apparition, un caméo"
+    },
+    {
+      "id": "hvg2b6",
+      "front": "a bit part",
+      "back": "un petit rôle"
+    },
+    {
+      "id": "0fuev7",
+      "front": "typecasting",
+      "back": "l'enfermement dans un type de rôle"
+    },
+    {
+      "id": "z5aw7k",
+      "front": "a screen presence",
+      "back": "une présence à l'écran"
+    },
+    {
+      "id": "t4beqj",
+      "front": "a performance",
+      "back": "une interprétation"
+    },
+    {
+      "id": "hh0mby",
+      "front": "a director's cut",
+      "back": "la version du réalisateur"
+    },
+    {
+      "id": "b8hnet",
+      "front": "an auteur",
+      "back": "un auteur (cinéma)"
+    },
+    {
+      "id": "1mv140",
+      "front": "a genre film",
+      "back": "un film de genre"
+    },
+    {
+      "id": "af48sh",
+      "front": "a film noir",
+      "back": "un film noir"
+    },
+    {
+      "id": "hubwgl",
+      "front": "a blockbuster",
+      "back": "un film à grand succès"
+    },
+    {
+      "id": "bpz2cc",
+      "front": "an arthouse film",
+      "back": "un film d'auteur"
+    },
+    {
+      "id": "slnydh",
+      "front": "a box-office flop",
+      "back": "un échec commercial"
+    },
+    {
+      "id": "byeng9",
+      "front": "a franchise film",
+      "back": "un film de franchise"
+    },
+    {
+      "id": "mfvkfl",
+      "front": "a reboot",
+      "back": "un redémarrage de franchise"
+    },
+    {
+      "id": "fob7lc",
+      "front": "a spin-off series",
+      "back": "une série dérivée"
+    },
+    {
+      "id": "tqb6wn",
+      "front": "a pilot episode",
+      "back": "un épisode pilote"
+    },
+    {
+      "id": "7sj1hr",
+      "front": "a season",
+      "back": "une saison"
+    },
+    {
+      "id": "z9wyq6",
+      "front": "a showrunner",
+      "back": "un showrunner"
+    },
+    {
+      "id": "p67awc",
+      "front": "a writers' room",
+      "back": "une équipe de scénaristes"
+    },
+    {
+      "id": "691ua7",
+      "front": "a serial",
+      "back": "un feuilleton"
+    },
+    {
+      "id": "npalm0",
+      "front": "an episodic structure",
+      "back": "une structure épisodique"
+    },
+    {
+      "id": "cmpiog",
+      "front": "a binge watch",
+      "back": "un visionnage en rafale"
+    },
+    {
+      "id": "k9e6yy",
+      "front": "a streaming platform",
+      "back": "une plateforme de diffusion"
+    },
+    {
+      "id": "k4bgmg",
+      "front": "a broadcaster",
+      "back": "un diffuseur"
+    },
+    {
+      "id": "jnrpqf",
+      "front": "a television network",
+      "back": "un réseau de télévision"
+    },
+    {
+      "id": "p3hkus",
+      "front": "a public service broadcaster",
+      "back": "un service public audiovisuel"
+    },
+    {
+      "id": "bzki4d",
+      "front": "a licence fee",
+      "back": "une redevance audiovisuelle"
+    },
+    {
+      "id": "w8zqbz",
+      "front": "prime time",
+      "back": "les heures de grande écoute"
+    },
+    {
+      "id": "e08n73",
+      "front": "a ratings war",
+      "back": "une guerre des audiences"
+    },
+    {
+      "id": "9ogpz8",
+      "front": "a viewing figure",
+      "back": "un chiffre d'audience"
+    },
+    {
+      "id": "yyhr6f",
+      "front": "a schedule",
+      "back": "une grille de programmes"
+    },
+    {
+      "id": "r5hfao",
+      "front": "a repeat",
+      "back": "une rediffusion"
+    },
+    {
+      "id": "xfp7u5",
+      "front": "a documentary",
+      "back": "un documentaire"
+    },
+    {
+      "id": "w1bvfv",
+      "front": "a docudrama",
+      "back": "une docufiction"
+    },
+    {
+      "id": "skw1n4",
+      "front": "a mockumentary",
+      "back": "un faux documentaire"
+    },
+    {
+      "id": "tf5pmo",
+      "front": "a talking head",
+      "back": "un intervenant filmé en plan serré"
+    },
+    {
+      "id": "qg7z6o",
+      "front": "a fly-on-the-wall documentary",
+      "back": "un documentaire d'immersion"
+    },
+    {
+      "id": "lkosgk",
+      "front": "a reality show",
+      "back": "une émission de téléréalité"
+    },
+    {
+      "id": "w9gdci",
+      "front": "a chat show",
+      "back": "un talk-show"
+    },
+    {
+      "id": "yd42td",
+      "front": "a broadcast watershed",
+      "back": "une heure limite de protection du jeune public"
+    },
+    {
+      "id": "otkpkj",
+      "front": "a censor",
+      "back": "un censeur"
+    },
+    {
+      "id": "a3o5ux",
+      "front": "a certification",
+      "back": "une classification par âge"
+    },
+    {
+      "id": "sarslp",
+      "front": "a review embargo",
+      "back": "un embargo sur les critiques"
+    },
+    {
+      "id": "7l68w4",
+      "front": "a spoiler",
+      "back": "un divulgâcheur, un spoiler"
+    },
+    {
+      "id": "ga7ela",
+      "front": "a critical consensus",
+      "back": "un consensus critique"
+    },
+    {
+      "id": "izapen",
+      "front": "a cult following",
+      "back": "un culte, un public fidèle"
+    },
+    {
+      "id": "lf0egj",
+      "front": "an homage",
+      "back": "un hommage"
+    },
+    {
+      "id": "pxdz2o",
+      "front": "a pastiche of a style",
+      "back": "un pastiche stylistique"
+    }
+  ]
+}
