@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-friends-relationships",
+  "name": "Friends and Relationships",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "rdqceu",
+      "front": "a friend",
+      "back": "un ami"
+    },
+    {
+      "id": "n58do8",
+      "front": "a best friend",
+      "back": "un meilleur ami"
+    },
+    {
+      "id": "2mwk9y",
+      "front": "a friendship",
+      "back": "une amitié"
+    },
+    {
+      "id": "1jkgm6",
+      "front": "an acquaintance",
+      "back": "une connaissance"
+    },
+    {
+      "id": "380815",
+      "front": "a mate",
+      "back": "un copain"
+    },
+    {
+      "id": "vax1yp",
+      "front": "a companion",
+      "back": "un compagnon"
+    },
+    {
+      "id": "mual6p",
+      "front": "a boyfriend",
+      "back": "un petit ami"
+    },
+    {
+      "id": "ofvj7s",
+      "front": "a girlfriend",
+      "back": "une petite amie"
+    },
+    {
+      "id": "66qx5q",
+      "front": "a date with someone",
+      "back": "un rendez-vous amoureux"
+    },
+    {
+      "id": "9hyr6r",
+      "front": "a relationship",
+      "back": "une relation"
+    },
+    {
+      "id": "7y2p8h",
+      "front": "a bond",
+      "back": "un lien"
+    },
+    {
+      "id": "hz6q7b",
+      "front": "a quarrel",
+      "back": "une dispute"
+    },
+    {
+      "id": "s4sqlw",
+      "front": "an argument between people",
+      "back": "une dispute"
+    },
+    {
+      "id": "ob48n6",
+      "front": "a misunderstanding",
+      "back": "un malentendu"
+    },
+    {
+      "id": "1cjfwm",
+      "front": "a reconciliation",
+      "back": "une réconciliation"
+    },
+    {
+      "id": "kv65o5",
+      "front": "an apology",
+      "back": "des excuses"
+    },
+    {
+      "id": "hbhnl8",
+      "front": "a favour",
+      "back": "un service, une faveur"
+    },
+    {
+      "id": "wzmq2i",
+      "front": "a promise",
+      "back": "une promesse"
+    },
+    {
+      "id": "8g06ko",
+      "front": "a secret",
+      "back": "un secret"
+    },
+    {
+      "id": "dhhluo",
+      "front": "a piece of advice",
+      "back": "un conseil"
+    },
+    {
+      "id": "ffs8y1",
+      "front": "a compliment",
+      "back": "un compliment"
+    },
+    {
+      "id": "y36h1l",
+      "front": "an insult",
+      "back": "une insulte"
+    },
+    {
+      "id": "uv7sic",
+      "front": "a joke",
+      "back": "une plaisanterie"
+    },
+    {
+      "id": "f9ujth",
+      "front": "a conversation",
+      "back": "une conversation"
+    },
+    {
+      "id": "k8zxqz",
+      "front": "a chat",
+      "back": "une causerie, un brin de causette"
+    },
+    {
+      "id": "y7xdn5",
+      "front": "a gathering",
+      "back": "un rassemblement"
+    },
+    {
+      "id": "yahne8",
+      "front": "an invitation",
+      "back": "une invitation"
+    },
+    {
+      "id": "r0zqk1",
+      "front": "a guest",
+      "back": "un invité"
+    },
+    {
+      "id": "m8okcm",
+      "front": "a host",
+      "back": "un hôte"
+    },
+    {
+      "id": "gx2brm",
+      "front": "a gift",
+      "back": "un cadeau"
+    },
+    {
+      "id": "un50xx",
+      "front": "a card for an occasion",
+      "back": "une carte de vœux"
+    },
+    {
+      "id": "na5oih",
+      "front": "a toast",
+      "back": "un toast"
+    },
+    {
+      "id": "etsq0q",
+      "front": "a greeting",
+      "back": "une salutation"
+    },
+    {
+      "id": "b2e9lu",
+      "front": "a farewell",
+      "back": "un adieu"
+    },
+    {
+      "id": "l4p2ek",
+      "front": "a manner",
+      "back": "une manière, une façon"
+    },
+    {
+      "id": "rovzei",
+      "front": "manners",
+      "back": "les bonnes manières"
+    },
+    {
+      "id": "jqq5el",
+      "front": "politeness",
+      "back": "la politesse"
+    },
+    {
+      "id": "34wkfz",
+      "front": "respect",
+      "back": "le respect"
+    },
+    {
+      "id": "20540c",
+      "front": "trust",
+      "back": "la confiance"
+    },
+    {
+      "id": "depkya",
+      "front": "loyalty",
+      "back": "la loyauté"
+    },
+    {
+      "id": "vxolcm",
+      "front": "gossip",
+      "back": "les ragots"
+    },
+    {
+      "id": "24jacx",
+      "front": "a rumour",
+      "back": "une rumeur"
+    },
+    {
+      "id": "op58to",
+      "front": "a lie",
+      "back": "un mensonge"
+    },
+    {
+      "id": "y1wby9",
+      "front": "the truth",
+      "back": "la vérité"
+    },
+    {
+      "id": "2di46q",
+      "front": "a hug",
+      "back": "une accolade, un câlin"
+    },
+    {
+      "id": "o0wki7",
+      "front": "a kiss",
+      "back": "un baiser"
+    },
+    {
+      "id": "tayzk5",
+      "front": "a handshake",
+      "back": "une poignée de main"
+    },
+    {
+      "id": "kctexs",
+      "front": "a smile as a greeting",
+      "back": "un sourire"
+    },
+    {
+      "id": "npk7nq",
+      "front": "to meet",
+      "back": "rencontrer"
+    },
+    {
+      "id": "cr4jfv",
+      "front": "to get to know",
+      "back": "faire la connaissance de"
+    },
+    {
+      "id": "a3ddyw",
+      "front": "to make friends",
+      "back": "se faire des amis"
+    },
+    {
+      "id": "lrcbbh",
+      "front": "to get on with",
+      "back": "bien s'entendre avec"
+    },
+    {
+      "id": "j1060t",
+      "front": "to fall out with",
+      "back": "se brouiller avec"
+    },
+    {
+      "id": "5sijaz",
+      "front": "to make up",
+      "back": "se réconcilier"
+    },
+    {
+      "id": "obgz1l",
+      "front": "to argue",
+      "back": "se disputer"
+    },
+    {
+      "id": "z389ej",
+      "front": "to quarrel",
+      "back": "se quereller"
+    },
+    {
+      "id": "ccfm1k",
+      "front": "to fall in love",
+      "back": "tomber amoureux"
+    },
+    {
+      "id": "dj94uf",
+      "front": "to go out with",
+      "back": "sortir avec"
+    },
+    {
+      "id": "lyre2g",
+      "front": "to break up",
+      "back": "rompre"
+    },
+    {
+      "id": "8lz0rs",
+      "front": "to miss somebody",
+      "back": "manquer à quelqu'un"
+    },
+    {
+      "id": "i325gy",
+      "front": "to visit",
+      "back": "rendre visite à"
+    },
+    {
+      "id": "lot2y7",
+      "front": "to invite",
+      "back": "inviter"
+    },
+    {
+      "id": "38iwf3",
+      "front": "to accept",
+      "back": "accepter"
+    },
+    {
+      "id": "a4qlex",
+      "front": "to refuse",
+      "back": "refuser"
+    },
+    {
+      "id": "ed5jr2",
+      "front": "to greet",
+      "back": "saluer"
+    },
+    {
+      "id": "colp8u",
+      "front": "to welcome",
+      "back": "accueillir"
+    },
+    {
+      "id": "e4tbim",
+      "front": "to thank",
+      "back": "remercier"
+    },
+    {
+      "id": "rlf4pk",
+      "front": "to apologise",
+      "back": "s'excuser"
+    },
+    {
+      "id": "x0ha3w",
+      "front": "to forgive",
+      "back": "pardonner"
+    },
+    {
+      "id": "lfhff1",
+      "front": "to congratulate",
+      "back": "féliciter"
+    },
+    {
+      "id": "gxajv0",
+      "front": "to promise",
+      "back": "promettre"
+    },
+    {
+      "id": "uxn0xq",
+      "front": "to lie",
+      "back": "mentir"
+    },
+    {
+      "id": "b3odud",
+      "front": "to trust somebody",
+      "back": "se fier à quelqu'un"
+    },
+    {
+      "id": "derx28",
+      "front": "to betray",
+      "back": "trahir"
+    },
+    {
+      "id": "nipydu",
+      "front": "to share",
+      "back": "partager"
+    },
+    {
+      "id": "guwe2h",
+      "front": "to help",
+      "back": "aider"
+    },
+    {
+      "id": "2q6uzf",
+      "front": "to support somebody",
+      "back": "soutenir quelqu'un"
+    },
+    {
+      "id": "fzz9zs",
+      "front": "to encourage",
+      "back": "encourager"
+    },
+    {
+      "id": "4gnofr",
+      "front": "to comfort",
+      "back": "réconforter"
+    },
+    {
+      "id": "3sgwe8",
+      "front": "to advise",
+      "back": "conseiller"
+    },
+    {
+      "id": "2jnzmo",
+      "front": "to warn",
+      "back": "avertir"
+    },
+    {
+      "id": "lbpxu8",
+      "front": "to tease",
+      "back": "taquiner"
+    },
+    {
+      "id": "pclsos",
+      "front": "to gossip",
+      "back": "cancaner"
+    },
+    {
+      "id": "9pealr",
+      "front": "to chat",
+      "back": "bavarder"
+    },
+    {
+      "id": "va3bgu",
+      "front": "to whisper",
+      "back": "chuchoter"
+    },
+    {
+      "id": "cpt2oy",
+      "front": "to interrupt",
+      "back": "interrompre"
+    },
+    {
+      "id": "q739h2",
+      "front": "to agree",
+      "back": "être d'accord"
+    },
+    {
+      "id": "svmnza",
+      "front": "to disagree",
+      "back": "ne pas être d'accord"
+    },
+    {
+      "id": "nbzvub",
+      "front": "to hug",
+      "back": "serrer dans ses bras"
+    },
+    {
+      "id": "p7ddzl",
+      "front": "to kiss",
+      "back": "embrasser"
+    },
+    {
+      "id": "6wjnpz",
+      "front": "to shake hands",
+      "back": "serrer la main"
+    },
+    {
+      "id": "0njgo8",
+      "front": "please",
+      "back": "s'il vous plaît"
+    },
+    {
+      "id": "a2j6gk",
+      "front": "thank you",
+      "back": "merci"
+    },
+    {
+      "id": "6to1ga",
+      "front": "sorry",
+      "back": "pardon, désolé"
+    },
+    {
+      "id": "tgiejp",
+      "front": "excuse me",
+      "back": "excusez-moi"
+    },
+    {
+      "id": "j4dgos",
+      "front": "you are welcome",
+      "back": "je vous en prie"
+    },
+    {
+      "id": "pn8dul",
+      "front": "never mind",
+      "back": "ce n'est pas grave"
+    },
+    {
+      "id": "9ho81z",
+      "front": "of course",
+      "back": "bien sûr"
+    },
+    {
+      "id": "d7jsif",
+      "front": "sociable",
+      "back": "sociable"
+    },
+    {
+      "id": "0poyel",
+      "front": "close to someone",
+      "back": "proche de quelqu'un"
+    }
+  ]
+}
