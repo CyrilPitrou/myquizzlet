@@ -1,4 +1,4 @@
-import { el, swipeable } from '../ui.js';
+import { el, swipeable, growable, openDialog } from '../ui.js';
 import { store, screen, go, settings, saveSettings, ctx } from '../app.js';
 import { shuffle } from '../srs.js';
 import { t } from '../i18n.js';
@@ -33,6 +33,53 @@ async function step(delta, count, node) {
   arriving = dir === 'left' ? 'right' : 'left';
   browse.at = (browse.at + delta + count) % count;
   browse.flipped = false;
+  ctx.render();
+}
+
+// Editing or deleting from here changes the list, and so its updatedAt stamp,
+// which is exactly what ensure() watches to decide the browse order is stale.
+// Both actions know better: the place in the deck should survive them. So they
+// carry the new stamp over by hand, and a delete drops the one id rather than
+// rebuilding — and reshuffling — the order.
+function keepPlace(listId) {
+  browse.updatedAt = store.getList(listId).updatedAt;
+}
+
+function editCard(list, card) {
+  const front = growable(card.front);
+  const back = growable(card.back);
+  const save = () => {
+    const f = front.value.trim();
+    const b = back.value.trim();
+    if (!f || !b) return;
+    store.updateCard(list.id, card.id, { front: f, back: b });
+    ctx.sync?.schedule();
+    node.close();
+    keepPlace(list.id);
+    ctx.render();
+  };
+  const node = openDialog([
+    el('h2', { text: t('view.edit.title') }),
+    el('div', { class: 'cardform' }, [
+      el('label', { class: 'field' }, [list.frontLabel || t('side.front'), front]),
+      el('label', { class: 'field' }, [list.backLabel || t('side.back'), back]),
+    ]),
+    el('div', { class: 'dialog-actions' }, [
+      el('button', { class: 'btn', type: 'button', text: t('view.edit.cancel'),
+        onclick: () => node.close() }),
+      el('button', { class: 'btn primary', type: 'button', text: t('form.save'), onclick: save }),
+    ]),
+  ]);
+}
+
+function deleteCard(list, card) {
+  const ok = confirm(t('view.confirm.delete', { front: card.front, back: card.back }));
+  if (!ok) return;
+  store.deleteCard(list.id, card.id);
+  ctx.sync?.schedule();
+  browse.order = browse.order.filter((cardId) => cardId !== card.id);
+  browse.flipped = false;
+  keepPlace(list.id);
   ctx.render();
 }
 
@@ -92,6 +139,16 @@ export function showView(id) {
       ctx.render();
     } });
   view.append(el('label', { class: 'opt' }, [shuffled, t('view.randomOrder')]));
+
+  // Below the order switch, so the deck and its pager stay the whole of the
+  // top of the screen: these two act on the card in hand, but neither is part
+  // of browsing it.
+  view.append(el('div', { class: 'actions' }, [
+    el('button', { class: 'btn', type: 'button', text: t('view.edit'),
+      onclick: () => editCard(list, card) }),
+    el('button', { class: 'btn', type: 'button', text: t('view.delete'),
+      onclick: () => deleteCard(list, card) }),
+  ]));
 }
 
 // One listener for the life of the page; it only acts on the browser screen.

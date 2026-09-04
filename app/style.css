@@ -320,6 +320,9 @@ dialog.dialog h2 { margin-top: 0; }
 .import-row.error textarea { border-color: var(--bad); }
 .import-row .reason { font-size: .8rem; color: var(--bad); white-space: nowrap; }
 .dialog-actions { display: flex; justify-content: flex-end; gap: .5rem; margin-top: .75rem; }
+/* The one-card edit form in the browser's dialog: growable() sets the height,
+   so the textarea must not carry a scrollbar or a drag handle of its own. */
+.cardform textarea { resize: none; overflow: hidden; }
 
 /* A wrong answer, seen. Only wrong: a right answer is already marked, and a
    green wash on top of a ✓ says the same thing twice. The colour is feedback
