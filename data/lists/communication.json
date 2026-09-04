@@ -6,12 +6,12 @@
   "cards": [
     {
       "id": "c7ieog",
-      "front": "to speak double-dutch",
+      "front": "to talk double Dutch",
       "back": "Parler un charabia incompréhensible"
     },
     {
       "id": "h8wogx",
-      "front": "a gibberish",
+      "front": "gibberish",
       "back": "charabia"
     },
     {
@@ -52,6 +52,11 @@
     {
       "id": "q11r5n",
       "front": "to pretend that",
+      "back": "faire semblant que"
+    },
+    {
+      "id": "i59ufc",
+      "front": "to claim that",
       "back": "affirmer/prétendre que"
     },
     {
@@ -97,11 +102,11 @@
     {
       "id": "j7f0fw",
       "front": "to tip off about sth",
-      "back": "prévenir/avertir au sujet de qqn"
+      "back": "prévenir/avertir au sujet de qqch"
     },
     {
       "id": "wlvv9r",
-      "front": "to mispell",
+      "front": "to misspell",
       "back": "épeler de travers"
     },
     {
@@ -156,7 +161,7 @@
     },
     {
       "id": "2x7epj",
-      "front": "to shake ones head",
+      "front": "to shake one's head",
       "back": "faire non de la tête"
     },
     {
@@ -172,7 +177,7 @@
     {
       "id": "xso5j0",
       "front": "to stammer",
-      "back": "begayer/balbutier"
+      "back": "bégayer/balbutier"
     },
     {
       "id": "i9mhtf",
@@ -222,7 +227,7 @@
     {
       "id": "f8hkvb",
       "front": "to assert one's innocence",
-      "back": "affirmer/maintenir l'innocence de qqn"
+      "back": "affirmer/maintenir son innocence"
     },
     {
       "id": "hfscdd",
@@ -232,7 +237,7 @@
     {
       "id": "t5js4x",
       "front": "to eavesdrop",
-      "back": "écouter de façon distraite"
+      "back": "écouter aux portes/écouter en cachette"
     },
     {
       "id": "y4ph4c",
@@ -251,7 +256,7 @@
     },
     {
       "id": "j37qjr",
-      "front": "cry out against sth",
+      "front": "to cry out against sth",
       "back": "protester contre qqch"
     },
     {
@@ -365,7 +370,7 @@
       "back": "s'étouffer"
     }
   ],
-  "updatedAt": "2026-09-02T16:18:52.591Z",
+  "updatedAt": "2026-09-04T00:00:00.000Z",
   "folder": "English",
   "frontLabel": "English",
   "backLabel": "French"

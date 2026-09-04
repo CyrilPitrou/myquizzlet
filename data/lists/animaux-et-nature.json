@@ -12,12 +12,12 @@
     {
       "id": "l2659s",
       "front": "a ram",
-      "back": "un bêlier"
+      "back": "un bélier"
     },
     {
       "id": "nnf4o0",
       "front": "an ox",
-      "back": "un buffle"
+      "back": "un bœuf"
     },
     {
       "id": "dv413w",
@@ -86,7 +86,7 @@
     },
     {
       "id": "6p4fdu",
-      "front": "an ewe",
+      "front": "a ewe",
       "back": "une brebis"
     },
     {
@@ -122,7 +122,7 @@
     {
       "id": "z09hbs",
       "front": "an emu",
-      "back": "an émeu"
+      "back": "un émeu"
     },
     {
       "id": "060298",
@@ -167,7 +167,7 @@
     {
       "id": "rzyffa",
       "front": "a bat",
-      "back": "une chauve souris"
+      "back": "une chauve-souris"
     },
     {
       "id": "og12gq",
@@ -345,7 +345,7 @@
       "back": "charognards"
     }
   ],
-  "updatedAt": "2026-09-02T16:17:45.699Z",
+  "updatedAt": "2026-09-04T00:00:00.000Z",
   "frontLabel": "English",
   "backLabel": "French",
   "folder": "English"
