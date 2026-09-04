@@ -1,0 +1,312 @@
+{
+  "id": "es-b2-perifrasis-verbales",
+  "name": "Perífrasis verbales",
+  "folder": "Spanish B2",
+  "frontLabel": "Français",
+  "backLabel": "Español",
+  "frontLang": "fr",
+  "backLang": "es",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "lwz030",
+      "front": "Je vais travailler demain.",
+      "back": "Voy a trabajar mañana."
+    },
+    {
+      "id": "u4su61",
+      "front": "Nous allons voir ce qui se passe.",
+      "back": "Vamos a ver qué pasa."
+    },
+    {
+      "id": "645cpt",
+      "front": "Il allait sortir quand tu as appelé.",
+      "back": "Iba a salir cuando llamaste."
+    },
+    {
+      "id": "85yozo",
+      "front": "Je viens de finir.",
+      "back": "Acabo de terminar."
+    },
+    {
+      "id": "eg0jup",
+      "front": "Elle venait d'arriver.",
+      "back": "Acababa de llegar."
+    },
+    {
+      "id": "4s0ewk",
+      "front": "Ils viennent de se marier.",
+      "back": "Acaban de casarse."
+    },
+    {
+      "id": "jv8p4q",
+      "front": "Il s'est mis à pleuvoir.",
+      "back": "Se puso a llover."
+    },
+    {
+      "id": "pg18kz",
+      "front": "Elle s'est mise à pleurer.",
+      "back": "Se puso a llorar."
+    },
+    {
+      "id": "0tkli4",
+      "front": "Je me mets au travail tout de suite.",
+      "back": "Me pongo a trabajar ahora mismo."
+    },
+    {
+      "id": "wk3rne",
+      "front": "Il a fini par accepter.",
+      "back": "Acabó por aceptar."
+    },
+    {
+      "id": "t1e2m4",
+      "front": "Elle a fini par comprendre.",
+      "back": "Acabó entendiendo."
+    },
+    {
+      "id": "fcv2m0",
+      "front": "Il a fini par tout perdre.",
+      "back": "Terminó perdiéndolo todo."
+    },
+    {
+      "id": "cd9aw9",
+      "front": "Cela fait deux ans que j'habite ici.",
+      "back": "Llevo dos años viviendo aquí."
+    },
+    {
+      "id": "mhsio9",
+      "front": "Il attend depuis une heure.",
+      "back": "Lleva una hora esperando."
+    },
+    {
+      "id": "wi2sjs",
+      "front": "Nous étudions l'espagnol depuis trois mois.",
+      "back": "Llevamos tres meses estudiando español."
+    },
+    {
+      "id": "tv087g",
+      "front": "Il n'a rien mangé depuis hier.",
+      "back": "Lleva sin comer desde ayer."
+    },
+    {
+      "id": "jujupe",
+      "front": "Je recommence à fumer.",
+      "back": "Vuelvo a fumar."
+    },
+    {
+      "id": "z6t1gq",
+      "front": "Il l'a relu.",
+      "back": "Volvió a leerlo."
+    },
+    {
+      "id": "q03okw",
+      "front": "Ne recommence pas à te plaindre.",
+      "back": "No vuelvas a quejarte."
+    },
+    {
+      "id": "3sbnwf",
+      "front": "J'ai arrêté de fumer.",
+      "back": "Dejé de fumar."
+    },
+    {
+      "id": "m5nljk",
+      "front": "Il n'arrête pas de parler.",
+      "back": "No deja de hablar."
+    },
+    {
+      "id": "xcijrn",
+      "front": "Cesse de m'ennuyer.",
+      "back": "Deja de molestarme."
+    },
+    {
+      "id": "xljp9v",
+      "front": "Il continue à travailler.",
+      "back": "Sigue trabajando."
+    },
+    {
+      "id": "ovq8gy",
+      "front": "Elle continue de vivre là-bas.",
+      "back": "Sigue viviendo allí."
+    },
+    {
+      "id": "gtaht9",
+      "front": "Il ne me parle toujours pas.",
+      "back": "Sigue sin hablarme."
+    },
+    {
+      "id": "es4gqy",
+      "front": "Il continue de pleuvoir.",
+      "back": "Continúa lloviendo."
+    },
+    {
+      "id": "wlex4y",
+      "front": "Il est en train de manger.",
+      "back": "Está comiendo."
+    },
+    {
+      "id": "y6u3x1",
+      "front": "Nous étions en train de dormir.",
+      "back": "Estábamos durmiendo."
+    },
+    {
+      "id": "xl8szk",
+      "front": "Peu à peu, je comprends.",
+      "back": "Voy entendiendo poco a poco."
+    },
+    {
+      "id": "ukps7s",
+      "front": "Les choses s'arrangent petit à petit.",
+      "back": "Las cosas se van arreglando."
+    },
+    {
+      "id": "8gbkll",
+      "front": "Il faut partir tôt.",
+      "back": "Hay que salir temprano."
+    },
+    {
+      "id": "yf64tn",
+      "front": "Il faut que je parte tôt.",
+      "back": "Tengo que salir temprano."
+    },
+    {
+      "id": "sryf6i",
+      "front": "Tu dois lui dire la vérité.",
+      "back": "Debes decirle la verdad."
+    },
+    {
+      "id": "11wss8",
+      "front": "Il doit être malade.",
+      "back": "Debe de estar enfermo."
+    },
+    {
+      "id": "7c40st",
+      "front": "Ce doit être six heures.",
+      "back": "Deben de ser las seis."
+    },
+    {
+      "id": "wewf9j",
+      "front": "Il vient de partir à l'instant.",
+      "back": "Acaba de irse ahora mismo."
+    },
+    {
+      "id": "k03zkm",
+      "front": "Je finis par m'y habituer.",
+      "back": "Acabo acostumbrándome."
+    },
+    {
+      "id": "61f5h7",
+      "front": "Il s'est mis à courir.",
+      "back": "Echó a correr."
+    },
+    {
+      "id": "tg91u5",
+      "front": "Il s'est mis à rire.",
+      "back": "Rompió a reír."
+    },
+    {
+      "id": "g3m5nu",
+      "front": "Il fut sur le point de tomber.",
+      "back": "Estuvo a punto de caerse."
+    },
+    {
+      "id": "2j9vdf",
+      "front": "Nous sommes sur le point de partir.",
+      "back": "Estamos a punto de salir."
+    },
+    {
+      "id": "rpwxaw",
+      "front": "Il a dû l'oublier.",
+      "back": "Habrá olvidado."
+    },
+    {
+      "id": "xewoaq",
+      "front": "Il commence à faire froid.",
+      "back": "Empieza a hacer frío."
+    },
+    {
+      "id": "fdllsz",
+      "front": "Elle a commencé par nier.",
+      "back": "Empezó negándolo."
+    },
+    {
+      "id": "47kjyt",
+      "front": "Il est resté à travailler.",
+      "back": "Se quedó trabajando."
+    },
+    {
+      "id": "o6razf",
+      "front": "Elle est restée endormie.",
+      "back": "Se quedó dormida."
+    },
+    {
+      "id": "3m7bo9",
+      "front": "Il s'en va en courant.",
+      "back": "Se va corriendo."
+    },
+    {
+      "id": "09shl6",
+      "front": "Il vient en chantant.",
+      "back": "Viene cantando."
+    },
+    {
+      "id": "d59a47",
+      "front": "Il l'a dit en plaisantant.",
+      "back": "Lo dijo bromeando."
+    },
+    {
+      "id": "levwiu",
+      "front": "Il faut le faire de nouveau.",
+      "back": "Hay que volver a hacerlo."
+    },
+    {
+      "id": "4jno3o",
+      "front": "Je viens d'apprendre la nouvelle.",
+      "back": "Acabo de enterarme de la noticia."
+    },
+    {
+      "id": "dc2mee",
+      "front": "Cela fait longtemps que je ne l'ai pas vu.",
+      "back": "Llevo mucho tiempo sin verlo."
+    },
+    {
+      "id": "wa63xq",
+      "front": "Il a passé la nuit à lire.",
+      "back": "Se pasó la noche leyendo."
+    },
+    {
+      "id": "j749nx",
+      "front": "Elle a passé l'après-midi à étudier.",
+      "back": "Se pasó la tarde estudiando."
+    },
+    {
+      "id": "71lsj4",
+      "front": "Nous nous mettons d'accord peu à peu.",
+      "back": "Nos vamos poniendo de acuerdo."
+    },
+    {
+      "id": "i0dyvq",
+      "front": "Il tarde à répondre.",
+      "back": "Tarda en contestar."
+    },
+    {
+      "id": "yolz4b",
+      "front": "Il a mis deux heures à arriver.",
+      "back": "Tardó dos horas en llegar."
+    },
+    {
+      "id": "axd5h0",
+      "front": "Il vient d'être nommé directeur.",
+      "back": "Acaba de ser nombrado director."
+    },
+    {
+      "id": "d3rw3e",
+      "front": "Il ne cesse de se répéter.",
+      "back": "No para de repetirse."
+    },
+    {
+      "id": "y553xa",
+      "front": "Il n'arrête pas de pleuvoir.",
+      "back": "No para de llover."
+    }
+  ]
+}
