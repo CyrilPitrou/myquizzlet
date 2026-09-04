@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-nature-animals",
+  "name": "Nature and Animals",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "4dzrsa",
+      "front": "nature",
+      "back": "la nature"
+    },
+    {
+      "id": "sk6dbc",
+      "front": "the countryside",
+      "back": "la campagne"
+    },
+    {
+      "id": "dri0g8",
+      "front": "a landscape",
+      "back": "un paysage"
+    },
+    {
+      "id": "v3oay2",
+      "front": "a field",
+      "back": "un champ"
+    },
+    {
+      "id": "a3qhqh",
+      "front": "a meadow",
+      "back": "une prairie"
+    },
+    {
+      "id": "or7c4c",
+      "front": "a hill",
+      "back": "une colline"
+    },
+    {
+      "id": "v78or7",
+      "front": "a mountain",
+      "back": "une montagne"
+    },
+    {
+      "id": "hl9cnb",
+      "front": "a valley",
+      "back": "une vallée"
+    },
+    {
+      "id": "o01ugr",
+      "front": "a cliff",
+      "back": "une falaise"
+    },
+    {
+      "id": "s2j3zi",
+      "front": "a cave",
+      "back": "une grotte"
+    },
+    {
+      "id": "kivhha",
+      "front": "a rock",
+      "back": "un rocher"
+    },
+    {
+      "id": "vjc6da",
+      "front": "a stone",
+      "back": "une pierre"
+    },
+    {
+      "id": "08owby",
+      "front": "soil",
+      "back": "la terre, le sol"
+    },
+    {
+      "id": "vi5xo5",
+      "front": "sand",
+      "back": "le sable"
+    },
+    {
+      "id": "egdh2o",
+      "front": "mud",
+      "back": "la boue"
+    },
+    {
+      "id": "dttmjz",
+      "front": "a forest",
+      "back": "une forêt"
+    },
+    {
+      "id": "tbnnpm",
+      "front": "a wood",
+      "back": "un bois"
+    },
+    {
+      "id": "y5imdr",
+      "front": "a tree",
+      "back": "un arbre"
+    },
+    {
+      "id": "gv6gb8",
+      "front": "an oak",
+      "back": "un chêne"
+    },
+    {
+      "id": "a63q8k",
+      "front": "a beech",
+      "back": "un hêtre"
+    },
+    {
+      "id": "na4b85",
+      "front": "a pine",
+      "back": "un pin"
+    },
+    {
+      "id": "30eyg6",
+      "front": "a willow",
+      "back": "un saule"
+    },
+    {
+      "id": "c8oyzo",
+      "front": "a branch of a tree",
+      "back": "une branche"
+    },
+    {
+      "id": "tvsb6u",
+      "front": "a trunk",
+      "back": "un tronc"
+    },
+    {
+      "id": "0ce8mm",
+      "front": "a root",
+      "back": "une racine"
+    },
+    {
+      "id": "pf25ow",
+      "front": "a leaf",
+      "back": "une feuille"
+    },
+    {
+      "id": "0iyzjx",
+      "front": "a bud",
+      "back": "un bourgeon"
+    },
+    {
+      "id": "jqwesv",
+      "front": "a flower",
+      "back": "une fleur"
+    },
+    {
+      "id": "rpw8i9",
+      "front": "a rose",
+      "back": "une rose"
+    },
+    {
+      "id": "s8s3gw",
+      "front": "a daisy",
+      "back": "une marguerite"
+    },
+    {
+      "id": "kh23h1",
+      "front": "a tulip",
+      "back": "une tulipe"
+    },
+    {
+      "id": "et0o88",
+      "front": "grass",
+      "back": "l'herbe"
+    },
+    {
+      "id": "q8pssr",
+      "front": "a bush",
+      "back": "un buisson"
+    },
+    {
+      "id": "p2u2ks",
+      "front": "a hedge",
+      "back": "une haie"
+    },
+    {
+      "id": "iulof0",
+      "front": "a weed",
+      "back": "une mauvaise herbe"
+    },
+    {
+      "id": "2mqsat",
+      "front": "a seed",
+      "back": "une graine"
+    },
+    {
+      "id": "dfqfce",
+      "front": "a crop",
+      "back": "une récolte, une culture"
+    },
+    {
+      "id": "m190pn",
+      "front": "a harvest",
+      "back": "une moisson"
+    },
+    {
+      "id": "813epn",
+      "front": "a river",
+      "back": "une rivière, un fleuve"
+    },
+    {
+      "id": "egszhu",
+      "front": "a stream",
+      "back": "un ruisseau"
+    },
+    {
+      "id": "co0xge",
+      "front": "a lake",
+      "back": "un lac"
+    },
+    {
+      "id": "xs5hha",
+      "front": "a pond",
+      "back": "un étang"
+    },
+    {
+      "id": "pa30kr",
+      "front": "a waterfall",
+      "back": "une cascade"
+    },
+    {
+      "id": "hu6pr7",
+      "front": "the sea",
+      "back": "la mer"
+    },
+    {
+      "id": "7e6em0",
+      "front": "an ocean",
+      "back": "un océan"
+    },
+    {
+      "id": "d2h0bb",
+      "front": "a wave",
+      "back": "une vague"
+    },
+    {
+      "id": "7of58u",
+      "front": "the tide",
+      "back": "la marée"
+    },
+    {
+      "id": "6rgvbt",
+      "front": "an island",
+      "back": "une île"
+    },
+    {
+      "id": "lf95c9",
+      "front": "the weather",
+      "back": "le temps"
+    },
+    {
+      "id": "eb3ppx",
+      "front": "the sky",
+      "back": "le ciel"
+    },
+    {
+      "id": "mlvpu2",
+      "front": "a cloud",
+      "back": "un nuage"
+    },
+    {
+      "id": "03thk0",
+      "front": "rain",
+      "back": "la pluie"
+    },
+    {
+      "id": "6q6x4o",
+      "front": "a shower of rain",
+      "back": "une averse"
+    },
+    {
+      "id": "czge0n",
+      "front": "snow",
+      "back": "la neige"
+    },
+    {
+      "id": "moh4zn",
+      "front": "frost",
+      "back": "le gel"
+    },
+    {
+      "id": "k8yiv4",
+      "front": "ice",
+      "back": "la glace"
+    },
+    {
+      "id": "56ekzw",
+      "front": "fog",
+      "back": "le brouillard"
+    },
+    {
+      "id": "8ovz4b",
+      "front": "mist",
+      "back": "la brume"
+    },
+    {
+      "id": "0yl8e0",
+      "front": "wind",
+      "back": "le vent"
+    },
+    {
+      "id": "ylbfl4",
+      "front": "a storm",
+      "back": "une tempête"
+    },
+    {
+      "id": "pnmlu5",
+      "front": "thunder",
+      "back": "le tonnerre"
+    },
+    {
+      "id": "rzkmbm",
+      "front": "lightning",
+      "back": "la foudre, l'éclair"
+    },
+    {
+      "id": "mvtjwy",
+      "front": "a rainbow",
+      "back": "un arc-en-ciel"
+    },
+    {
+      "id": "3qhdnq",
+      "front": "the sun",
+      "back": "le soleil"
+    },
+    {
+      "id": "qrkv7j",
+      "front": "the moon",
+      "back": "la lune"
+    },
+    {
+      "id": "obufr2",
+      "front": "a star",
+      "back": "une étoile"
+    },
+    {
+      "id": "pl12f4",
+      "front": "an animal",
+      "back": "un animal"
+    },
+    {
+      "id": "8upbnd",
+      "front": "a mammal",
+      "back": "un mammifère"
+    },
+    {
+      "id": "op9hcc",
+      "front": "a bird",
+      "back": "un oiseau"
+    },
+    {
+      "id": "m5fm4t",
+      "front": "an insect",
+      "back": "un insecte"
+    },
+    {
+      "id": "js46ze",
+      "front": "a reptile",
+      "back": "un reptile"
+    },
+    {
+      "id": "zgan74",
+      "front": "a dog",
+      "back": "un chien"
+    },
+    {
+      "id": "60yjii",
+      "front": "a cat",
+      "back": "un chat"
+    },
+    {
+      "id": "yxw4a5",
+      "front": "a horse",
+      "back": "un cheval"
+    },
+    {
+      "id": "lfsec1",
+      "front": "a cow",
+      "back": "une vache"
+    },
+    {
+      "id": "frvy8y",
+      "front": "a sheep",
+      "back": "un mouton"
+    },
+    {
+      "id": "k19is5",
+      "front": "a pig",
+      "back": "un cochon"
+    },
+    {
+      "id": "c5qg7e",
+      "front": "a goat",
+      "back": "une chèvre"
+    },
+    {
+      "id": "7cflkh",
+      "front": "a rabbit",
+      "back": "un lapin"
+    },
+    {
+      "id": "qqgpwv",
+      "front": "a mouse",
+      "back": "une souris"
+    },
+    {
+      "id": "9roo46",
+      "front": "a fox",
+      "back": "un renard"
+    },
+    {
+      "id": "7drgxr",
+      "front": "a wolf",
+      "back": "un loup"
+    },
+    {
+      "id": "1gq6x1",
+      "front": "a bear",
+      "back": "un ours"
+    },
+    {
+      "id": "ydj6nk",
+      "front": "a deer",
+      "back": "un cerf"
+    },
+    {
+      "id": "hnlddm",
+      "front": "a squirrel",
+      "back": "un écureuil"
+    },
+    {
+      "id": "3ixvp8",
+      "front": "a hedgehog",
+      "back": "un hérisson"
+    },
+    {
+      "id": "qhsre9",
+      "front": "an eagle",
+      "back": "un aigle"
+    },
+    {
+      "id": "xoh578",
+      "front": "an owl",
+      "back": "un hibou"
+    },
+    {
+      "id": "pg8n8y",
+      "front": "a sparrow",
+      "back": "un moineau"
+    },
+    {
+      "id": "dxvzxp",
+      "front": "a swallow",
+      "back": "une hirondelle"
+    },
+    {
+      "id": "3f88w8",
+      "front": "a duck",
+      "back": "un canard"
+    },
+    {
+      "id": "nbe9yz",
+      "front": "a bee",
+      "back": "une abeille"
+    },
+    {
+      "id": "a0cpaw",
+      "front": "a butterfly",
+      "back": "un papillon"
+    },
+    {
+      "id": "r4mhxx",
+      "front": "a spider",
+      "back": "une araignée"
+    },
+    {
+      "id": "k317yx",
+      "front": "a snake",
+      "back": "un serpent"
+    },
+    {
+      "id": "1jwzhu",
+      "front": "a frog",
+      "back": "une grenouille"
+    },
+    {
+      "id": "uh9nhr",
+      "front": "a nest",
+      "back": "un nid"
+    },
+    {
+      "id": "db8c5n",
+      "front": "a wing",
+      "back": "une aile"
+    },
+    {
+      "id": "27edih",
+      "front": "a tail",
+      "back": "une queue"
+    },
+    {
+      "id": "pscjcu",
+      "front": "a paw",
+      "back": "une patte"
+    }
+  ]
+}
