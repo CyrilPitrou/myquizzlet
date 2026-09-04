@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-philosophy-1",
+  "name": "Philosophy, Ethics and Ideas 1",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "1jbcow",
+      "front": "an argument",
+      "back": "un argument, un raisonnement"
+    },
+    {
+      "id": "s1sikh",
+      "front": "a claim",
+      "back": "une affirmation, une thèse"
+    },
+    {
+      "id": "17mcs8",
+      "front": "a thesis",
+      "back": "une thèse"
+    },
+    {
+      "id": "hj5ytx",
+      "front": "a proposition",
+      "back": "une proposition"
+    },
+    {
+      "id": "fgtw6q",
+      "front": "a contention",
+      "back": "une affirmation, une position défendue"
+    },
+    {
+      "id": "vmbco4",
+      "front": "a rationale",
+      "back": "une justification, une logique sous-jacente"
+    },
+    {
+      "id": "p0pzyp",
+      "front": "grounds",
+      "back": "des motifs, des raisons"
+    },
+    {
+      "id": "v79i88",
+      "front": "a justification",
+      "back": "une justification, un fondement"
+    },
+    {
+      "id": "bo1jvx",
+      "front": "a corollary",
+      "back": "un corollaire"
+    },
+    {
+      "id": "d142uo",
+      "front": "an implication",
+      "back": "une implication"
+    },
+    {
+      "id": "guxzuc",
+      "front": "a consequence",
+      "back": "une conséquence"
+    },
+    {
+      "id": "y3dotq",
+      "front": "a proviso in an argument",
+      "back": "une réserve dans un raisonnement"
+    },
+    {
+      "id": "kofxz6",
+      "front": "a qualification",
+      "back": "une nuance, une restriction"
+    },
+    {
+      "id": "a5jeem",
+      "front": "to concede a point",
+      "back": "concéder un point"
+    },
+    {
+      "id": "rohw3k",
+      "front": "a rebuttal",
+      "back": "une réfutation"
+    },
+    {
+      "id": "t3doh1",
+      "front": "a counterargument",
+      "back": "un contre-argument"
+    },
+    {
+      "id": "diqeo4",
+      "front": "a refutation",
+      "back": "une réfutation"
+    },
+    {
+      "id": "0x576g",
+      "front": "a fallacy",
+      "back": "un sophisme, une erreur de raisonnement"
+    },
+    {
+      "id": "pcf69o",
+      "front": "a non sequitur",
+      "back": "un non-sequitur"
+    },
+    {
+      "id": "wanu9j",
+      "front": "a circular argument",
+      "back": "un raisonnement circulaire"
+    },
+    {
+      "id": "v3qz10",
+      "front": "begging the question",
+      "back": "la pétition de principe"
+    },
+    {
+      "id": "sectqf",
+      "front": "a false dichotomy",
+      "back": "une fausse dichotomie"
+    },
+    {
+      "id": "fxocxk",
+      "front": "an ad hominem attack",
+      "back": "une attaque ad hominem"
+    },
+    {
+      "id": "ra9rym",
+      "front": "a slippery slope argument",
+      "back": "un argument de la pente glissante"
+    },
+    {
+      "id": "jh5w0p",
+      "front": "a category error",
+      "back": "une erreur de catégorie"
+    },
+    {
+      "id": "jzmr8s",
+      "front": "an equivocation",
+      "back": "une équivoque, un glissement de sens"
+    },
+    {
+      "id": "to1je2",
+      "front": "a value judgement",
+      "back": "un jugement de valeur"
+    },
+    {
+      "id": "v7n5f6",
+      "front": "a normative claim",
+      "back": "une affirmation normative"
+    },
+    {
+      "id": "0plvfh",
+      "front": "a descriptive claim",
+      "back": "une affirmation descriptive"
+    },
+    {
+      "id": "y3kcus",
+      "front": "the is-ought gap",
+      "back": "le passage de l'être au devoir-être"
+    },
+    {
+      "id": "j80z59",
+      "front": "a principle",
+      "back": "un principe"
+    },
+    {
+      "id": "oy862i",
+      "front": "a maxim",
+      "back": "une maxime"
+    },
+    {
+      "id": "0mhtwu",
+      "front": "a precept",
+      "back": "un précepte"
+    },
+    {
+      "id": "9am6ir",
+      "front": "a tenet",
+      "back": "un principe fondamental, un dogme"
+    },
+    {
+      "id": "oyaduw",
+      "front": "a doctrine",
+      "back": "une doctrine"
+    },
+    {
+      "id": "w8g8zw",
+      "front": "a creed",
+      "back": "un credo"
+    },
+    {
+      "id": "wncbwh",
+      "front": "a firm belief",
+      "back": "une conviction"
+    },
+    {
+      "id": "x1gi4w",
+      "front": "a scruple",
+      "back": "un scrupule"
+    },
+    {
+      "id": "cqp6tq",
+      "front": "integrity",
+      "back": "l'intégrité"
+    },
+    {
+      "id": "c89fvh",
+      "front": "probity",
+      "back": "la probité"
+    },
+    {
+      "id": "hn5bs3",
+      "front": "rectitude",
+      "back": "la rectitude morale"
+    },
+    {
+      "id": "8sbltl",
+      "front": "virtue",
+      "back": "la vertu"
+    },
+    {
+      "id": "g31cyf",
+      "front": "vice",
+      "back": "le vice"
+    },
+    {
+      "id": "gcf4dy",
+      "front": "a duty",
+      "back": "un devoir"
+    },
+    {
+      "id": "bua74x",
+      "front": "an obligation",
+      "back": "une obligation"
+    },
+    {
+      "id": "zhvgxp",
+      "front": "a right",
+      "back": "un droit"
+    },
+    {
+      "id": "lwzh1s",
+      "front": "a liberty",
+      "back": "une liberté"
+    },
+    {
+      "id": "qvqb8c",
+      "front": "autonomy of the will",
+      "back": "l'autonomie de la volonté"
+    },
+    {
+      "id": "k14ld3",
+      "front": "free will",
+      "back": "le libre arbitre"
+    },
+    {
+      "id": "quppfo",
+      "front": "determinism",
+      "back": "le déterminisme"
+    },
+    {
+      "id": "1g4zdg",
+      "front": "responsibility",
+      "back": "la responsabilité"
+    },
+    {
+      "id": "21sldu",
+      "front": "culpability",
+      "back": "la culpabilité"
+    },
+    {
+      "id": "vfa53m",
+      "front": "blame",
+      "back": "le blâme"
+    },
+    {
+      "id": "zl4451",
+      "front": "praise",
+      "back": "l'éloge"
+    },
+    {
+      "id": "zen06o",
+      "front": "merit",
+      "back": "le mérite"
+    },
+    {
+      "id": "yszhvv",
+      "front": "desert",
+      "back": "le mérite, ce qui est dû"
+    },
+    {
+      "id": "q09nte",
+      "front": "justice",
+      "back": "la justice"
+    },
+    {
+      "id": "v3807n",
+      "front": "fairness",
+      "back": "l'équité"
+    },
+    {
+      "id": "1so7mh",
+      "front": "equity of treatment",
+      "back": "l'équité de traitement"
+    },
+    {
+      "id": "q0zlo7",
+      "front": "impartiality",
+      "back": "l'impartialité"
+    },
+    {
+      "id": "7ya7dj",
+      "front": "the common good",
+      "back": "le bien commun"
+    },
+    {
+      "id": "afudx2",
+      "front": "utility",
+      "back": "l'utilité"
+    },
+    {
+      "id": "j9xkc7",
+      "front": "utilitarianism",
+      "back": "l'utilitarisme"
+    },
+    {
+      "id": "i31wlx",
+      "front": "consequentialism",
+      "back": "le conséquentialisme"
+    },
+    {
+      "id": "dw6mmr",
+      "front": "deontology",
+      "back": "la déontologie, l'éthique du devoir"
+    },
+    {
+      "id": "ru33g0",
+      "front": "virtue ethics",
+      "back": "l'éthique de la vertu"
+    },
+    {
+      "id": "iu60cm",
+      "front": "the categorical imperative",
+      "back": "l'impératif catégorique"
+    },
+    {
+      "id": "hz36vv",
+      "front": "a golden rule",
+      "back": "une règle d'or"
+    },
+    {
+      "id": "tfzg5g",
+      "front": "altruism",
+      "back": "l'altruisme"
+    },
+    {
+      "id": "bck0rk",
+      "front": "egoism",
+      "back": "l'égoïsme"
+    },
+    {
+      "id": "5camzg",
+      "front": "self-interest",
+      "back": "l'intérêt personnel"
+    },
+    {
+      "id": "ifieox",
+      "front": "enlightened self-interest",
+      "back": "l'intérêt bien compris"
+    },
+    {
+      "id": "69lvj4",
+      "front": "a moral dilemma",
+      "back": "un dilemme moral"
+    },
+    {
+      "id": "ge71do",
+      "front": "a trade-off",
+      "back": "un compromis, un arbitrage"
+    },
+    {
+      "id": "izg87j",
+      "front": "a lesser evil",
+      "back": "un moindre mal"
+    },
+    {
+      "id": "9dtzdd",
+      "front": "an end in itself",
+      "back": "une fin en soi"
+    },
+    {
+      "id": "p09rx9",
+      "front": "a means to an end",
+      "back": "un moyen en vue d'une fin"
+    },
+    {
+      "id": "v8lxp4",
+      "front": "intention",
+      "back": "l'intention"
+    },
+    {
+      "id": "wfpbyj",
+      "front": "motive",
+      "back": "le mobile, la motivation"
+    },
+    {
+      "id": "01m2vq",
+      "front": "conscience",
+      "back": "la conscience morale"
+    },
+    {
+      "id": "0g3t2l",
+      "front": "remorse",
+      "back": "le remords"
+    },
+    {
+      "id": "zzmbe8",
+      "front": "contrition",
+      "back": "la contrition"
+    },
+    {
+      "id": "kq8zli",
+      "front": "atonement",
+      "back": "l'expiation"
+    },
+    {
+      "id": "kqyhx1",
+      "front": "forgiveness",
+      "back": "le pardon"
+    },
+    {
+      "id": "0pj8ga",
+      "front": "mercy",
+      "back": "la clémence"
+    },
+    {
+      "id": "h19e10",
+      "front": "retribution",
+      "back": "le châtiment, la rétribution"
+    },
+    {
+      "id": "asfj35",
+      "front": "deterrence",
+      "back": "la dissuasion"
+    },
+    {
+      "id": "gqghji",
+      "front": "rehabilitation of an offender",
+      "back": "la réinsertion d'un délinquant"
+    },
+    {
+      "id": "xbossa",
+      "front": "proportionality",
+      "back": "la proportionnalité"
+    },
+    {
+      "id": "tftdzl",
+      "front": "consent",
+      "back": "le consentement"
+    },
+    {
+      "id": "ik3rk4",
+      "front": "coercion",
+      "back": "la coercition"
+    },
+    {
+      "id": "5zge67",
+      "front": "paternalism",
+      "back": "le paternalisme"
+    },
+    {
+      "id": "c58t2v",
+      "front": "harm",
+      "back": "le préjudice, le tort"
+    },
+    {
+      "id": "p2acta",
+      "front": "the harm principle",
+      "back": "le principe de non-nuisance"
+    },
+    {
+      "id": "p93t34",
+      "front": "tolerance",
+      "back": "la tolérance"
+    },
+    {
+      "id": "qt2qj4",
+      "front": "pluralism",
+      "back": "le pluralisme"
+    },
+    {
+      "id": "pyewep",
+      "front": "relativism",
+      "back": "le relativisme"
+    },
+    {
+      "id": "f3j5ar",
+      "front": "absolutism in ethics",
+      "back": "l'absolutisme moral"
+    },
+    {
+      "id": "jsa1my",
+      "front": "nihilism",
+      "back": "le nihilisme"
+    },
+    {
+      "id": "b5wosm",
+      "front": "scepticism about values",
+      "back": "le scepticisme moral"
+    }
+  ]
+}
