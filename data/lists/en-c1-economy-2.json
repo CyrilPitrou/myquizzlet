@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-economy-2",
+  "name": "Economy and Finance 2",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "aoiyso",
+      "front": "arbitrage",
+      "back": "l'arbitrage (financier)"
+    },
+    {
+      "id": "yof17u",
+      "front": "fungible",
+      "back": "fongible, interchangeable"
+    },
+    {
+      "id": "6roiei",
+      "front": "a rentier",
+      "back": "un rentier"
+    },
+    {
+      "id": "lu7lxf",
+      "front": "countercyclical",
+      "back": "contracyclique"
+    },
+    {
+      "id": "ffczco",
+      "front": "procyclical",
+      "back": "procyclique"
+    },
+    {
+      "id": "iu99wb",
+      "front": "seigniorage",
+      "back": "le seigneuriage"
+    },
+    {
+      "id": "flzq78",
+      "front": "an annuity",
+      "back": "une rente, une annuité"
+    },
+    {
+      "id": "fhh6lm",
+      "front": "amortisation",
+      "back": "l'amortissement"
+    },
+    {
+      "id": "av2vf5",
+      "front": "depreciation",
+      "back": "la dépréciation, l'amortissement"
+    },
+    {
+      "id": "ujud0o",
+      "front": "a hurdle rate",
+      "back": "un taux de rendement minimal exigé"
+    },
+    {
+      "id": "igafll",
+      "front": "net present value",
+      "back": "la valeur actuelle nette"
+    },
+    {
+      "id": "3xy2y0",
+      "front": "discounting",
+      "back": "l'actualisation"
+    },
+    {
+      "id": "igwnid",
+      "front": "a coupon",
+      "back": "un coupon (d'obligation)"
+    },
+    {
+      "id": "tsm2ba",
+      "front": "a derivative",
+      "back": "un produit dérivé"
+    },
+    {
+      "id": "85ilb0",
+      "front": "a futures contract",
+      "back": "un contrat à terme"
+    },
+    {
+      "id": "gp581x",
+      "front": "an option",
+      "back": "une option"
+    },
+    {
+      "id": "9ahyot",
+      "front": "a swap",
+      "back": "un swap, un contrat d'échange"
+    },
+    {
+      "id": "lgd0a4",
+      "front": "a collateral",
+      "back": "une garantie, un nantissement"
+    },
+    {
+      "id": "f34nsr",
+      "front": "to hedge",
+      "back": "se couvrir, se prémunir"
+    },
+    {
+      "id": "3r2pil",
+      "front": "leverage",
+      "back": "l'effet de levier"
+    },
+    {
+      "id": "rjlosv",
+      "front": "gearing",
+      "back": "le taux d'endettement"
+    },
+    {
+      "id": "2ec600",
+      "front": "to short a stock",
+      "back": "vendre une action à découvert"
+    },
+    {
+      "id": "7do9vn",
+      "front": "a margin call",
+      "back": "un appel de marge"
+    },
+    {
+      "id": "mnzp1x",
+      "front": "counterparty risk",
+      "back": "le risque de contrepartie"
+    },
+    {
+      "id": "3qdv15",
+      "front": "systemic risk",
+      "back": "le risque systémique"
+    },
+    {
+      "id": "ckafu0",
+      "front": "moral hazard",
+      "back": "l'aléa moral"
+    },
+    {
+      "id": "vce1vw",
+      "front": "adverse selection",
+      "back": "l'antisélection"
+    },
+    {
+      "id": "07ysa5",
+      "front": "information asymmetry",
+      "back": "l'asymétrie d'information"
+    },
+    {
+      "id": "xhlb8y",
+      "front": "a principal-agent problem",
+      "back": "un problème d'agence"
+    },
+    {
+      "id": "z4hdof",
+      "front": "an externality",
+      "back": "une externalité"
+    },
+    {
+      "id": "bwgta6",
+      "front": "a public good",
+      "back": "un bien public"
+    },
+    {
+      "id": "0poq8c",
+      "front": "the tragedy of the commons",
+      "back": "la tragédie des biens communs"
+    },
+    {
+      "id": "31e2b4",
+      "front": "rent-seeking",
+      "back": "la recherche de rente"
+    },
+    {
+      "id": "izj0qf",
+      "front": "regulatory capture",
+      "back": "la capture du régulateur"
+    },
+    {
+      "id": "d7sfdn",
+      "front": "a natural monopoly",
+      "back": "un monopole naturel"
+    },
+    {
+      "id": "u207s7",
+      "front": "an oligopoly",
+      "back": "un oligopole"
+    },
+    {
+      "id": "0ruvp9",
+      "front": "a monopsony",
+      "back": "un monopsone"
+    },
+    {
+      "id": "c4ltxm",
+      "front": "a cartel",
+      "back": "un cartel"
+    },
+    {
+      "id": "oyh13u",
+      "front": "price discrimination",
+      "back": "la discrimination par les prix"
+    },
+    {
+      "id": "heaol0",
+      "front": "elasticity of demand",
+      "back": "l'élasticité de la demande"
+    },
+    {
+      "id": "g0vp24",
+      "front": "marginal utility",
+      "back": "l'utilité marginale"
+    },
+    {
+      "id": "x2qx8t",
+      "front": "diminishing returns",
+      "back": "les rendements décroissants"
+    },
+    {
+      "id": "vtlb6e",
+      "front": "economies of scale",
+      "back": "les économies d'échelle"
+    },
+    {
+      "id": "42g11e",
+      "front": "opportunity cost",
+      "back": "le coût d'opportunité"
+    },
+    {
+      "id": "wbc6m7",
+      "front": "a sunk cost",
+      "back": "un coût irrécupérable"
+    },
+    {
+      "id": "2x5q5v",
+      "front": "a deadweight loss",
+      "back": "une perte sèche"
+    },
+    {
+      "id": "3301dc",
+      "front": "Pareto efficiency",
+      "back": "l'optimum de Pareto"
+    },
+    {
+      "id": "btc1li",
+      "front": "general equilibrium",
+      "back": "l'équilibre général"
+    },
+    {
+      "id": "wkfrtt",
+      "front": "comparative advantage",
+      "back": "l'avantage comparatif"
+    },
+    {
+      "id": "yzfvfw",
+      "front": "terms of trade",
+      "back": "les termes de l'échange"
+    },
+    {
+      "id": "1zzgdt",
+      "front": "purchasing power parity",
+      "back": "la parité de pouvoir d'achat"
+    },
+    {
+      "id": "0zm908",
+      "front": "a peg",
+      "back": "un ancrage monétaire"
+    },
+    {
+      "id": "4vqimv",
+      "front": "a devaluation",
+      "back": "une dévaluation"
+    },
+    {
+      "id": "1e3f5z",
+      "front": "a currency board",
+      "back": "une caisse d'émission"
+    },
+    {
+      "id": "74lr2m",
+      "front": "capital controls",
+      "back": "le contrôle des capitaux"
+    },
+    {
+      "id": "rszxmm",
+      "front": "the balance of payments",
+      "back": "la balance des paiements"
+    },
+    {
+      "id": "fwx7v1",
+      "front": "a sovereign wealth fund",
+      "back": "un fonds souverain"
+    },
+    {
+      "id": "9g9aac",
+      "front": "a reserve currency",
+      "back": "une monnaie de réserve"
+    },
+    {
+      "id": "2cl49o",
+      "front": "the eurodollar market",
+      "back": "le marché des eurodollars"
+    },
+    {
+      "id": "36gsyz",
+      "front": "usury",
+      "back": "l'usure"
+    },
+    {
+      "id": "vulkxr",
+      "front": "a moratorium",
+      "back": "un moratoire"
+    },
+    {
+      "id": "g3nowz",
+      "front": "a haircut",
+      "back": "une décote (sur créance)"
+    },
+    {
+      "id": "uvjqiy",
+      "front": "a restructuring",
+      "back": "une restructuration de dette"
+    },
+    {
+      "id": "ago3v4",
+      "front": "a debt overhang",
+      "back": "un surendettement paralysant"
+    },
+    {
+      "id": "9a2u12",
+      "front": "crowding out",
+      "back": "l'effet d'éviction"
+    },
+    {
+      "id": "kwrakk",
+      "front": "the multiplier effect",
+      "back": "l'effet multiplicateur"
+    },
+    {
+      "id": "zbgxtw",
+      "front": "the velocity of money",
+      "back": "la vitesse de circulation de la monnaie"
+    },
+    {
+      "id": "4q5r00",
+      "front": "the output gap",
+      "back": "l'écart de production"
+    },
+    {
+      "id": "fldg3f",
+      "front": "potential output",
+      "back": "la production potentielle"
+    },
+    {
+      "id": "8e275x",
+      "front": "the natural rate of unemployment",
+      "back": "le taux de chômage naturel"
+    },
+    {
+      "id": "93sfs5",
+      "front": "the Phillips curve",
+      "back": "la courbe de Phillips"
+    },
+    {
+      "id": "q6ke4x",
+      "front": "the Laffer curve",
+      "back": "la courbe de Laffer"
+    },
+    {
+      "id": "3j6fmo",
+      "front": "the Gini coefficient",
+      "back": "le coefficient de Gini"
+    },
+    {
+      "id": "cgmwq2",
+      "front": "a decile",
+      "back": "un décile"
+    },
+    {
+      "id": "7kusvb",
+      "front": "the median wage",
+      "back": "le salaire médian"
+    },
+    {
+      "id": "sfchw9",
+      "front": "real terms",
+      "back": "en termes réels, en euros constants"
+    },
+    {
+      "id": "640x43",
+      "front": "nominal terms",
+      "back": "en termes nominaux"
+    },
+    {
+      "id": "vqbmd8",
+      "front": "to index",
+      "back": "indexer"
+    },
+    {
+      "id": "pnb5a6",
+      "front": "a cost-of-living adjustment",
+      "back": "une indexation sur le coût de la vie"
+    },
+    {
+      "id": "wa2aib",
+      "front": "a bellwether stock",
+      "back": "une valeur phare, un titre indicateur"
+    },
+    {
+      "id": "kaxw30",
+      "front": "a blue chip",
+      "back": "une valeur de premier ordre"
+    },
+    {
+      "id": "w19n5a",
+      "front": "a penny stock",
+      "back": "une action de pacotille"
+    },
+    {
+      "id": "6c1vlb",
+      "front": "an initial public offering",
+      "back": "une introduction en bourse"
+    },
+    {
+      "id": "wgg9jo",
+      "front": "a rights issue",
+      "back": "une augmentation de capital"
+    },
+    {
+      "id": "j7fz2e",
+      "front": "a leveraged buyout",
+      "back": "un rachat par endettement"
+    },
+    {
+      "id": "yj8ypn",
+      "front": "a shell company",
+      "back": "une société écran"
+    },
+    {
+      "id": "mofhb9",
+      "front": "a special purpose vehicle",
+      "back": "une entité ad hoc"
+    },
+    {
+      "id": "comlb9",
+      "front": "securitisation",
+      "back": "la titrisation"
+    },
+    {
+      "id": "13xmlh",
+      "front": "a tranche",
+      "back": "une tranche"
+    },
+    {
+      "id": "x02gpk",
+      "front": "a covenant",
+      "back": "une clause restrictive, un covenant"
+    },
+    {
+      "id": "89pmmv",
+      "front": "a fiduciary duty",
+      "back": "une obligation fiduciaire"
+    },
+    {
+      "id": "i429ze",
+      "front": "insider dealing",
+      "back": "le délit d'initié"
+    },
+    {
+      "id": "vpqrfd",
+      "front": "front-running",
+      "back": "la prise de position anticipée frauduleuse"
+    },
+    {
+      "id": "0q49c5",
+      "front": "churning",
+      "back": "le barattage, les transactions abusives"
+    },
+    {
+      "id": "3f4zq4",
+      "front": "a Ponzi scheme",
+      "back": "une pyramide de Ponzi"
+    },
+    {
+      "id": "0optdo",
+      "front": "money laundering",
+      "back": "le blanchiment d'argent"
+    },
+    {
+      "id": "imohie",
+      "front": "a clawback",
+      "back": "une récupération, un remboursement exigé"
+    },
+    {
+      "id": "szas5t",
+      "front": "a windfall tax",
+      "back": "une taxe sur les superprofits"
+    },
+    {
+      "id": "fmo86f",
+      "front": "mercantilism",
+      "back": "le mercantilisme"
+    },
+    {
+      "id": "l1xwc0",
+      "front": "physiocracy",
+      "back": "la physiocratie"
+    }
+  ]
+}
