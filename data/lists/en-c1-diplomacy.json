@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-diplomacy",
+  "name": "Diplomacy and International Affairs",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "ojffp5",
+      "front": "an envoy",
+      "back": "un envoyé"
+    },
+    {
+      "id": "3ju915",
+      "front": "an emissary",
+      "back": "un émissaire"
+    },
+    {
+      "id": "94dp1q",
+      "front": "a chargé d'affaires",
+      "back": "un chargé d'affaires"
+    },
+    {
+      "id": "q9omi2",
+      "front": "an attaché",
+      "back": "un attaché"
+    },
+    {
+      "id": "zb5538",
+      "front": "a consul general",
+      "back": "un consul général"
+    },
+    {
+      "id": "xprii0",
+      "front": "a legation",
+      "back": "une légation"
+    },
+    {
+      "id": "sbeuvm",
+      "front": "an embassy",
+      "back": "une ambassade"
+    },
+    {
+      "id": "x10tik",
+      "front": "a chancery",
+      "back": "une chancellerie"
+    },
+    {
+      "id": "58ch86",
+      "front": "a diplomatic bag",
+      "back": "une valise diplomatique"
+    },
+    {
+      "id": "m9hgvf",
+      "front": "diplomatic immunity",
+      "back": "l'immunité diplomatique"
+    },
+    {
+      "id": "ms05x4",
+      "front": "a persona non grata",
+      "back": "une persona non grata"
+    },
+    {
+      "id": "3q688i",
+      "front": "to recall an ambassador",
+      "back": "rappeler un ambassadeur"
+    },
+    {
+      "id": "554ros",
+      "front": "to sever relations",
+      "back": "rompre les relations"
+    },
+    {
+      "id": "i3bupa",
+      "front": "to normalise relations",
+      "back": "normaliser les relations"
+    },
+    {
+      "id": "heakoq",
+      "front": "a démarche",
+      "back": "une démarche diplomatique"
+    },
+    {
+      "id": "f15ht1",
+      "front": "a note verbale",
+      "back": "une note verbale"
+    },
+    {
+      "id": "a9flu4",
+      "front": "an aide-mémoire",
+      "back": "un aide-mémoire"
+    },
+    {
+      "id": "1prdxd",
+      "front": "a communiqué",
+      "back": "un communiqué"
+    },
+    {
+      "id": "sdgt1p",
+      "front": "a joint statement",
+      "back": "une déclaration conjointe"
+    },
+    {
+      "id": "nltrzx",
+      "front": "a summit",
+      "back": "un sommet"
+    },
+    {
+      "id": "lde2v1",
+      "front": "a bilateral meeting",
+      "back": "une rencontre bilatérale"
+    },
+    {
+      "id": "3wjjly",
+      "front": "a multilateral forum",
+      "back": "une enceinte multilatérale"
+    },
+    {
+      "id": "w79uor",
+      "front": "a plenary session",
+      "back": "une séance plénière"
+    },
+    {
+      "id": "fc8nsg",
+      "front": "a working group",
+      "back": "un groupe de travail"
+    },
+    {
+      "id": "cza14c",
+      "front": "a draft resolution",
+      "back": "un projet de résolution"
+    },
+    {
+      "id": "gbv6m4",
+      "front": "a binding resolution",
+      "back": "une résolution contraignante"
+    },
+    {
+      "id": "6c6l9m",
+      "front": "an abstention",
+      "back": "une abstention"
+    },
+    {
+      "id": "mpau2p",
+      "front": "a veto power",
+      "back": "un droit de veto"
+    },
+    {
+      "id": "5ile1n",
+      "front": "a permanent member",
+      "back": "un membre permanent"
+    },
+    {
+      "id": "srkg5g",
+      "front": "a rotating presidency",
+      "back": "une présidence tournante"
+    },
+    {
+      "id": "qa9reo",
+      "front": "a mandate of a mission",
+      "back": "le mandat d'une mission"
+    },
+    {
+      "id": "e53lep",
+      "front": "a peacekeeping force",
+      "back": "une force de maintien de la paix"
+    },
+    {
+      "id": "hkdxio",
+      "front": "a blue helmet",
+      "back": "un casque bleu"
+    },
+    {
+      "id": "77pxoh",
+      "front": "a ceasefire",
+      "back": "un cessez-le-feu"
+    },
+    {
+      "id": "qrhaw0",
+      "front": "a buffer zone",
+      "back": "une zone tampon"
+    },
+    {
+      "id": "p0lgpp",
+      "front": "a demilitarised zone",
+      "back": "une zone démilitarisée"
+    },
+    {
+      "id": "pmfb28",
+      "front": "a no-fly zone",
+      "back": "une zone d'exclusion aérienne"
+    },
+    {
+      "id": "ss8bwn",
+      "front": "a humanitarian corridor",
+      "back": "un couloir humanitaire"
+    },
+    {
+      "id": "9tbhgu",
+      "front": "a safe haven",
+      "back": "une zone de sécurité"
+    },
+    {
+      "id": "e9ou56",
+      "front": "a refugee camp",
+      "back": "un camp de réfugiés"
+    },
+    {
+      "id": "8c5ng8",
+      "front": "an asylum seeker",
+      "back": "un demandeur d'asile"
+    },
+    {
+      "id": "7nyqdp",
+      "front": "non-refoulement",
+      "back": "le non-refoulement"
+    },
+    {
+      "id": "p36ey1",
+      "front": "a resettlement scheme",
+      "back": "un programme de réinstallation"
+    },
+    {
+      "id": "2lbs5t",
+      "front": "a stateless person",
+      "back": "un apatride"
+    },
+    {
+      "id": "bjqdfc",
+      "front": "a repatriation",
+      "back": "un rapatriement"
+    },
+    {
+      "id": "04hkc9",
+      "front": "a sanction regime",
+      "back": "un régime de sanctions"
+    },
+    {
+      "id": "ri1jba",
+      "front": "an embargo",
+      "back": "un embargo"
+    },
+    {
+      "id": "2okkow",
+      "front": "an asset freeze",
+      "back": "un gel des avoirs"
+    },
+    {
+      "id": "j0k21t",
+      "front": "a travel ban",
+      "back": "une interdiction de voyager"
+    },
+    {
+      "id": "qkqgj6",
+      "front": "a secondary sanction",
+      "back": "une sanction secondaire"
+    },
+    {
+      "id": "n9fqb3",
+      "front": "a countermeasure",
+      "back": "une contre-mesure"
+    },
+    {
+      "id": "b0qhj0",
+      "front": "a reprisal",
+      "back": "des représailles"
+    },
+    {
+      "id": "b2cajm",
+      "front": "an escalation",
+      "back": "une escalade"
+    },
+    {
+      "id": "gi6uf7",
+      "front": "de-escalation",
+      "back": "la désescalade"
+    },
+    {
+      "id": "l7mve0",
+      "front": "a red line",
+      "back": "une ligne rouge"
+    },
+    {
+      "id": "dadtke",
+      "front": "brinkmanship",
+      "back": "la politique du bord du gouffre"
+    },
+    {
+      "id": "5fgnd1",
+      "front": "deterrence policy",
+      "back": "une politique de dissuasion"
+    },
+    {
+      "id": "e3pkf9",
+      "front": "a nuclear umbrella",
+      "back": "un parapluie nucléaire"
+    },
+    {
+      "id": "svevoe",
+      "front": "non-proliferation",
+      "back": "la non-prolifération"
+    },
+    {
+      "id": "numm65",
+      "front": "disarmament",
+      "back": "le désarmement"
+    },
+    {
+      "id": "6bsud1",
+      "front": "an arms control treaty",
+      "back": "un traité de maîtrise des armements"
+    },
+    {
+      "id": "7acitu",
+      "front": "a verification regime",
+      "back": "un régime de vérification"
+    },
+    {
+      "id": "hnnpbo",
+      "front": "an inspection regime",
+      "back": "un régime d'inspections"
+    },
+    {
+      "id": "csdsi9",
+      "front": "a safeguard agreement",
+      "back": "un accord de garanties"
+    },
+    {
+      "id": "371l8p",
+      "front": "a ratification",
+      "back": "une ratification"
+    },
+    {
+      "id": "fcg3ll",
+      "front": "an accession to a treaty",
+      "back": "une adhésion à un traité"
+    },
+    {
+      "id": "hj1ce0",
+      "front": "a reservation to a treaty",
+      "back": "une réserve à un traité"
+    },
+    {
+      "id": "s6dmng",
+      "front": "an additional protocol",
+      "back": "un protocole additionnel"
+    },
+    {
+      "id": "zdkqus",
+      "front": "an annex",
+      "back": "une annexe"
+    },
+    {
+      "id": "ftv54f",
+      "front": "a signatory",
+      "back": "un signataire"
+    },
+    {
+      "id": "j72yvg",
+      "front": "a depositary",
+      "back": "un dépositaire"
+    },
+    {
+      "id": "1czxel",
+      "front": "a denunciation of a treaty",
+      "back": "une dénonciation de traité"
+    },
+    {
+      "id": "xov0nz",
+      "front": "a withdrawal clause",
+      "back": "une clause de retrait"
+    },
+    {
+      "id": "vefnl7",
+      "front": "customary international law",
+      "back": "le droit international coutumier"
+    },
+    {
+      "id": "0fk69h",
+      "front": "jus cogens",
+      "back": "le jus cogens"
+    },
+    {
+      "id": "2sj2up",
+      "front": "a norm of sovereignty",
+      "back": "une norme de souveraineté"
+    },
+    {
+      "id": "5c0l10",
+      "front": "territorial integrity",
+      "back": "l'intégrité territoriale"
+    },
+    {
+      "id": "859t3y",
+      "front": "non-intervention",
+      "back": "la non-ingérence"
+    },
+    {
+      "id": "ov8g8f",
+      "front": "a responsibility to protect",
+      "back": "la responsabilité de protéger"
+    },
+    {
+      "id": "dfwrfb",
+      "front": "an intervention",
+      "back": "une intervention"
+    },
+    {
+      "id": "h7a881",
+      "front": "a coalition of the willing",
+      "back": "une coalition de volontaires"
+    },
+    {
+      "id": "kul7i7",
+      "front": "a mutual defence clause",
+      "back": "une clause de défense mutuelle"
+    },
+    {
+      "id": "magam0",
+      "front": "an alliance",
+      "back": "une alliance"
+    },
+    {
+      "id": "i5b6ur",
+      "front": "a bloc",
+      "back": "un bloc"
+    },
+    {
+      "id": "07sb0z",
+      "front": "a sphere of influence",
+      "back": "une sphère d'influence"
+    },
+    {
+      "id": "epk7g0",
+      "front": "soft power",
+      "back": "le pouvoir d'influence"
+    },
+    {
+      "id": "pimcjw",
+      "front": "hard power",
+      "back": "la puissance coercitive"
+    },
+    {
+      "id": "jibfkf",
+      "front": "public diplomacy",
+      "back": "la diplomatie publique"
+    },
+    {
+      "id": "agbpg1",
+      "front": "a cultural attaché",
+      "back": "un attaché culturel"
+    },
+    {
+      "id": "ctszyt",
+      "front": "development aid",
+      "back": "l'aide au développement"
+    },
+    {
+      "id": "imavwc",
+      "front": "a donor conference",
+      "back": "une conférence des donateurs"
+    },
+    {
+      "id": "z05y03",
+      "front": "debt relief",
+      "back": "l'allègement de la dette"
+    },
+    {
+      "id": "tftf94",
+      "front": "a trade delegation",
+      "back": "une délégation commerciale"
+    },
+    {
+      "id": "cq806d",
+      "front": "a most-favoured-nation clause",
+      "back": "une clause de la nation la plus favorisée"
+    },
+    {
+      "id": "o7vutq",
+      "front": "a bilateral investment treaty",
+      "back": "un traité bilatéral d'investissement"
+    },
+    {
+      "id": "1v5t09",
+      "front": "a dispute settlement mechanism",
+      "back": "un mécanisme de règlement des différends"
+    },
+    {
+      "id": "soulr2",
+      "front": "a good offices mission",
+      "back": "une mission de bons offices"
+    },
+    {
+      "id": "lb4t8d",
+      "front": "a shuttle diplomacy",
+      "back": "une navette diplomatique"
+    },
+    {
+      "id": "to9vdn",
+      "front": "a back channel",
+      "back": "un canal officieux"
+    },
+    {
+      "id": "ln42te",
+      "front": "a confidence-building measure",
+      "back": "une mesure de confiance"
+    }
+  ]
+}
