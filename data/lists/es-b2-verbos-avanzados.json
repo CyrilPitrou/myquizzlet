@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-verbos-avanzados",
+  "name": "Verbos de nivel avanzado",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "f02o5r",
+      "front": "acatar",
+      "back": "obéir à, se plier à"
+    },
+    {
+      "id": "vsh60s",
+      "front": "desglosar",
+      "back": "détailler, ventiler"
+    },
+    {
+      "id": "retrao",
+      "front": "soslayar",
+      "back": "esquiver, contourner"
+    },
+    {
+      "id": "sib7p5",
+      "front": "entrañar",
+      "back": "comporter, impliquer"
+    },
+    {
+      "id": "gvitno",
+      "front": "acaparar",
+      "back": "accaparer"
+    },
+    {
+      "id": "0w8q3k",
+      "front": "acarrear",
+      "back": "entraîner, occasionner"
+    },
+    {
+      "id": "lrone2",
+      "front": "acometer",
+      "back": "entreprendre, s'attaquer à"
+    },
+    {
+      "id": "voqgbp",
+      "front": "acuciar",
+      "back": "presser, harceler"
+    },
+    {
+      "id": "cpzazf",
+      "front": "agilizar",
+      "back": "accélérer, fluidifier"
+    },
+    {
+      "id": "gzqouz",
+      "front": "ahondar",
+      "back": "approfondir"
+    },
+    {
+      "id": "cvew03",
+      "front": "alentar",
+      "back": "encourager"
+    },
+    {
+      "id": "ak4jy8",
+      "front": "allanar",
+      "back": "aplanir"
+    },
+    {
+      "id": "oudeqt",
+      "front": "amparar",
+      "back": "protéger, couvrir"
+    },
+    {
+      "id": "irb8qs",
+      "front": "apaciguar",
+      "back": "apaiser"
+    },
+    {
+      "id": "3z8t00",
+      "front": "apremiar",
+      "back": "presser, contraindre"
+    },
+    {
+      "id": "bi0z5k",
+      "front": "arraigar",
+      "back": "s'enraciner"
+    },
+    {
+      "id": "hogu34",
+      "front": "arremeter",
+      "back": "s'en prendre à"
+    },
+    {
+      "id": "d26841",
+      "front": "atajar",
+      "back": "enrayer, couper court à"
+    },
+    {
+      "id": "7axieu",
+      "front": "atenuar",
+      "back": "atténuer"
+    },
+    {
+      "id": "pqb8xj",
+      "front": "augurar",
+      "back": "présager"
+    },
+    {
+      "id": "e84q25",
+      "front": "aunar",
+      "back": "réunir, conjuguer"
+    },
+    {
+      "id": "6mo7d3",
+      "front": "avalar",
+      "back": "cautionner, garantir"
+    },
+    {
+      "id": "piaipw",
+      "front": "azuzar",
+      "back": "exciter, attiser"
+    },
+    {
+      "id": "gy5zzz",
+      "front": "brindar",
+      "back": "offrir, procurer"
+    },
+    {
+      "id": "tz2h5v",
+      "front": "cercenar",
+      "back": "amputer, retrancher"
+    },
+    {
+      "id": "rxipgq",
+      "front": "ceñirse a",
+      "back": "s'en tenir à"
+    },
+    {
+      "id": "03ffkd",
+      "front": "cimentar",
+      "back": "asseoir, fonder"
+    },
+    {
+      "id": "kwxinm",
+      "front": "colmar",
+      "back": "combler"
+    },
+    {
+      "id": "sb0fl0",
+      "front": "conculcar",
+      "back": "bafouer (un droit)"
+    },
+    {
+      "id": "jbwmf7",
+      "front": "condicionar",
+      "back": "conditionner"
+    },
+    {
+      "id": "1915sq",
+      "front": "conllevar",
+      "back": "entraîner, impliquer"
+    },
+    {
+      "id": "710am3",
+      "front": "constatar un hecho",
+      "back": "constater un fait"
+    },
+    {
+      "id": "rk5wy3",
+      "front": "cotejar",
+      "back": "collationner, comparer"
+    },
+    {
+      "id": "zzv8qe",
+      "front": "deparar",
+      "back": "réserver, procurer"
+    },
+    {
+      "id": "doeesh",
+      "front": "derivar en",
+      "back": "déboucher sur"
+    },
+    {
+      "id": "81gmkk",
+      "front": "desatar",
+      "back": "déclencher"
+    },
+    {
+      "id": "2itup8",
+      "front": "desbaratar",
+      "back": "déjouer, ruiner"
+    },
+    {
+      "id": "p2q3gd",
+      "front": "descartar",
+      "back": "écarter"
+    },
+    {
+      "id": "axjcgb",
+      "front": "desembocar en",
+      "back": "aboutir à"
+    },
+    {
+      "id": "78hcbl",
+      "front": "desentrañar",
+      "back": "élucider"
+    },
+    {
+      "id": "a7ux2h",
+      "front": "desestimar",
+      "back": "rejeter (une demande)"
+    },
+    {
+      "id": "bzbr96",
+      "front": "desmarcarse",
+      "back": "se démarquer"
+    },
+    {
+      "id": "byid98",
+      "front": "despejar",
+      "back": "dissiper, dégager"
+    },
+    {
+      "id": "f4bc7d",
+      "front": "desvirtuar",
+      "back": "dénaturer"
+    },
+    {
+      "id": "7mijyr",
+      "front": "dilucidar",
+      "back": "élucider"
+    },
+    {
+      "id": "0gfz0t",
+      "front": "disipar",
+      "back": "dissiper"
+    },
+    {
+      "id": "e5a689",
+      "front": "divisar",
+      "back": "apercevoir au loin"
+    },
+    {
+      "id": "2ugs8l",
+      "front": "eludir",
+      "back": "éluder"
+    },
+    {
+      "id": "ksub0y",
+      "front": "emprender",
+      "back": "entreprendre"
+    },
+    {
+      "id": "t6haep",
+      "front": "enardecer",
+      "back": "enflammer, exalter"
+    },
+    {
+      "id": "f03ssd",
+      "front": "encauzar",
+      "back": "canaliser, orienter"
+    },
+    {
+      "id": "cvbk3c",
+      "front": "engendrar",
+      "back": "engendrer"
+    },
+    {
+      "id": "xx0h23",
+      "front": "ensalzar",
+      "back": "exalter, louer"
+    },
+    {
+      "id": "nqohaw",
+      "front": "entablar",
+      "back": "engager (une conversation, un procès)"
+    },
+    {
+      "id": "ksxkxa",
+      "front": "erradicar",
+      "back": "éradiquer"
+    },
+    {
+      "id": "jfvyk1",
+      "front": "esbozar una idea",
+      "back": "esquisser une idée"
+    },
+    {
+      "id": "qlepra",
+      "front": "escatimar",
+      "back": "lésiner sur"
+    },
+    {
+      "id": "0sh6ph",
+      "front": "esquivar",
+      "back": "esquiver"
+    },
+    {
+      "id": "rhycp3",
+      "front": "estancarse",
+      "back": "stagner"
+    },
+    {
+      "id": "oqwh02",
+      "front": "excarcelar",
+      "back": "élargir, libérer"
+    },
+    {
+      "id": "aljk23",
+      "front": "exhortar",
+      "back": "exhorter"
+    },
+    {
+      "id": "32hoe5",
+      "front": "fraguar",
+      "back": "se former, mijoter"
+    },
+    {
+      "id": "8ica40",
+      "front": "gestar",
+      "back": "préparer, couver"
+    },
+    {
+      "id": "eufkuu",
+      "front": "granjearse",
+      "back": "s'attirer (l'estime)"
+    },
+    {
+      "id": "v1sb1y",
+      "front": "hacinar",
+      "back": "entasser"
+    },
+    {
+      "id": "7fstdy",
+      "front": "impulsar",
+      "back": "impulser, stimuler"
+    },
+    {
+      "id": "cj8qb4",
+      "front": "incidir en",
+      "back": "insister sur, avoir une incidence sur"
+    },
+    {
+      "id": "emfac5",
+      "front": "incurrir en",
+      "back": "encourir, tomber dans"
+    },
+    {
+      "id": "1yz4jg",
+      "front": "indagar",
+      "back": "enquêter sur"
+    },
+    {
+      "id": "cupbzj",
+      "front": "instar",
+      "back": "prier instamment"
+    },
+    {
+      "id": "sw2e18",
+      "front": "lastrar",
+      "back": "plomber, lester"
+    },
+    {
+      "id": "u3hxaf",
+      "front": "mermar",
+      "back": "diminuer, entamer"
+    },
+    {
+      "id": "mag3o4",
+      "front": "mitigar",
+      "back": "atténuer"
+    },
+    {
+      "id": "q6da2s",
+      "front": "obstaculizar",
+      "back": "entraver"
+    },
+    {
+      "id": "mu9hr8",
+      "front": "ostentar",
+      "back": "détenir, arborer"
+    },
+    {
+      "id": "1fj5qd",
+      "front": "paliar",
+      "back": "pallier"
+    },
+    {
+      "id": "bgbwzb",
+      "front": "pergeñar",
+      "back": "bricoler, ébaucher"
+    },
+    {
+      "id": "9i96pa",
+      "front": "perpetrar",
+      "back": "perpétrer"
+    },
+    {
+      "id": "uv5otq",
+      "front": "plasmar una idea",
+      "back": "concrétiser une idée"
+    },
+    {
+      "id": "snribs",
+      "front": "potenciar",
+      "back": "renforcer"
+    },
+    {
+      "id": "ehq984",
+      "front": "preconizar",
+      "back": "préconiser"
+    },
+    {
+      "id": "l1o4dr",
+      "front": "prescindir de",
+      "back": "se passer de"
+    },
+    {
+      "id": "bo7wd0",
+      "front": "propiciar",
+      "back": "favoriser"
+    },
+    {
+      "id": "lro2z0",
+      "front": "proseguir",
+      "back": "poursuivre"
+    },
+    {
+      "id": "5y2wv3",
+      "front": "quebrantar",
+      "back": "enfreindre, briser"
+    },
+    {
+      "id": "9cs4wq",
+      "front": "rebasar",
+      "back": "dépasser"
+    },
+    {
+      "id": "z5wz8q",
+      "front": "recabar",
+      "back": "recueillir, solliciter"
+    },
+    {
+      "id": "avrz1n",
+      "front": "recalcar",
+      "back": "souligner, insister"
+    },
+    {
+      "id": "vxoeq8",
+      "front": "recrudecerse",
+      "back": "s'aggraver, redoubler"
+    },
+    {
+      "id": "wz6ska",
+      "front": "relegar",
+      "back": "reléguer"
+    },
+    {
+      "id": "6xmrri",
+      "front": "repercutir en",
+      "back": "se répercuter sur"
+    },
+    {
+      "id": "4kj9tf",
+      "front": "sobrellevar una carga",
+      "back": "supporter un fardeau"
+    },
+    {
+      "id": "hnjyll",
+      "front": "socavar",
+      "back": "saper"
+    },
+    {
+      "id": "76acny",
+      "front": "subrayar",
+      "back": "souligner"
+    },
+    {
+      "id": "3z0av0",
+      "front": "subsanar",
+      "back": "remédier à, réparer"
+    },
+    {
+      "id": "uj946d",
+      "front": "sufragar",
+      "back": "financer, subvenir à"
+    },
+    {
+      "id": "ic28du",
+      "front": "supeditar",
+      "back": "subordonner"
+    },
+    {
+      "id": "rltvo6",
+      "front": "tildar de",
+      "back": "qualifier de (péjoratif)"
+    },
+    {
+      "id": "t380dd",
+      "front": "vislumbrar",
+      "back": "entrevoir"
+    },
+    {
+      "id": "fydmj0",
+      "front": "zanjar",
+      "back": "trancher, régler"
+    }
+  ]
+}
