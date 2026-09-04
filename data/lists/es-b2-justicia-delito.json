@@ -1,0 +1,512 @@
+{
+  "id": "es-b2-justicia-delito",
+  "name": "La justicia y el delito",
+  "folder": "Spanish B2",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "p7ambb",
+      "front": "la justicia",
+      "back": "la justice"
+    },
+    {
+      "id": "n2i071",
+      "front": "el derecho penal",
+      "back": "le droit pénal"
+    },
+    {
+      "id": "4mdqzk",
+      "front": "la ley",
+      "back": "la loi"
+    },
+    {
+      "id": "gjlvzy",
+      "front": "el código penal",
+      "back": "le code pénal"
+    },
+    {
+      "id": "ao4ma0",
+      "front": "la norma",
+      "back": "la norme"
+    },
+    {
+      "id": "1dsshb",
+      "front": "el reglamento",
+      "back": "le règlement"
+    },
+    {
+      "id": "ap4qy1",
+      "front": "la jurisprudencia",
+      "back": "la jurisprudence"
+    },
+    {
+      "id": "nsymcp",
+      "front": "el Estado de derecho",
+      "back": "l'État de droit"
+    },
+    {
+      "id": "ef64ph",
+      "front": "el poder judicial",
+      "back": "le pouvoir judiciaire"
+    },
+    {
+      "id": "bv00g5",
+      "front": "el tribunal",
+      "back": "le tribunal"
+    },
+    {
+      "id": "lwhpcf",
+      "front": "el juzgado",
+      "back": "le tribunal de première instance"
+    },
+    {
+      "id": "dbbskx",
+      "front": "la audiencia provincial",
+      "back": "la cour d'appel provinciale"
+    },
+    {
+      "id": "rqh85g",
+      "front": "el Tribunal Supremo",
+      "back": "la Cour suprême"
+    },
+    {
+      "id": "su7oob",
+      "front": "el Tribunal Constitucional",
+      "back": "la Cour constitutionnelle"
+    },
+    {
+      "id": "zpne3f",
+      "front": "la sala",
+      "back": "la chambre (juridiction)"
+    },
+    {
+      "id": "3qd6xz",
+      "front": "la vista oral",
+      "back": "l'audience"
+    },
+    {
+      "id": "vudk5v",
+      "front": "el juicio",
+      "back": "le procès"
+    },
+    {
+      "id": "e4c4sg",
+      "front": "el magistrado",
+      "back": "le magistrat"
+    },
+    {
+      "id": "cp9saz",
+      "front": "el fiscal",
+      "back": "le procureur"
+    },
+    {
+      "id": "ouoyae",
+      "front": "el abogado defensor",
+      "back": "l'avocat de la défense"
+    },
+    {
+      "id": "glqq53",
+      "front": "el letrado",
+      "back": "le conseil, l'avocat"
+    },
+    {
+      "id": "objn5f",
+      "front": "el procurador",
+      "back": "l'avoué"
+    },
+    {
+      "id": "5hbk2x",
+      "front": "el jurado",
+      "back": "le jury"
+    },
+    {
+      "id": "u9tum7",
+      "front": "el escribano",
+      "back": "le greffier"
+    },
+    {
+      "id": "yuc9wd",
+      "front": "el acusado",
+      "back": "l'accusé"
+    },
+    {
+      "id": "eitdir",
+      "front": "el imputado",
+      "back": "le mis en examen"
+    },
+    {
+      "id": "yifs40",
+      "front": "el demandante",
+      "back": "le demandeur"
+    },
+    {
+      "id": "6wuieo",
+      "front": "el demandado",
+      "back": "le défendeur"
+    },
+    {
+      "id": "vfm4as",
+      "front": "la víctima",
+      "back": "la victime"
+    },
+    {
+      "id": "nvkex5",
+      "front": "el perjudicado",
+      "back": "la partie lésée"
+    },
+    {
+      "id": "z1z56j",
+      "front": "la querella",
+      "back": "la plainte avec constitution de partie civile"
+    },
+    {
+      "id": "s63jrd",
+      "front": "la denuncia",
+      "back": "la plainte"
+    },
+    {
+      "id": "3g70w7",
+      "front": "la demanda judicial",
+      "back": "l'action en justice"
+    },
+    {
+      "id": "n76yhr",
+      "front": "el recurso",
+      "back": "le recours"
+    },
+    {
+      "id": "y3kvgj",
+      "front": "la apelación",
+      "back": "l'appel"
+    },
+    {
+      "id": "dmp6q8",
+      "front": "la instrucción",
+      "back": "l'instruction"
+    },
+    {
+      "id": "y9q764",
+      "front": "el sumario judicial",
+      "back": "le dossier d'instruction"
+    },
+    {
+      "id": "nyqnvt",
+      "front": "la diligencia",
+      "back": "l'acte de procédure"
+    },
+    {
+      "id": "z2iomu",
+      "front": "la prueba",
+      "back": "la preuve"
+    },
+    {
+      "id": "81g98l",
+      "front": "el indicio",
+      "back": "l'indice"
+    },
+    {
+      "id": "dn7imo",
+      "front": "el testimonio",
+      "back": "le témoignage"
+    },
+    {
+      "id": "m7d8mf",
+      "front": "el peritaje",
+      "back": "l'expertise"
+    },
+    {
+      "id": "52yb5w",
+      "front": "el careo",
+      "back": "la confrontation"
+    },
+    {
+      "id": "wrjdjl",
+      "front": "la coartada",
+      "back": "l'alibi"
+    },
+    {
+      "id": "w24occ",
+      "front": "el atenuante",
+      "back": "la circonstance atténuante"
+    },
+    {
+      "id": "dlqd5t",
+      "front": "el agravante",
+      "back": "la circonstance aggravante"
+    },
+    {
+      "id": "vc21o4",
+      "front": "la presunción de inocencia",
+      "back": "la présomption d'innocence"
+    },
+    {
+      "id": "33l63f",
+      "front": "el veredicto",
+      "back": "le verdict"
+    },
+    {
+      "id": "fx2as3",
+      "front": "la sentencia",
+      "back": "le jugement, la sentence"
+    },
+    {
+      "id": "duf96h",
+      "front": "el fallo",
+      "back": "la décision, le dispositif"
+    },
+    {
+      "id": "r0ebk6",
+      "front": "la condena",
+      "back": "la condamnation"
+    },
+    {
+      "id": "w3wqeu",
+      "front": "la absolución",
+      "back": "l'acquittement"
+    },
+    {
+      "id": "pmbquc",
+      "front": "la pena",
+      "back": "la peine"
+    },
+    {
+      "id": "y2mhjl",
+      "front": "la multa judicial",
+      "back": "l'amende judiciaire"
+    },
+    {
+      "id": "m6oy04",
+      "front": "la cadena perpetua",
+      "back": "la réclusion à perpétuité"
+    },
+    {
+      "id": "i3kg3i",
+      "front": "la libertad condicional",
+      "back": "la liberté conditionnelle"
+    },
+    {
+      "id": "4esamm",
+      "front": "la prisión preventiva",
+      "back": "la détention provisoire"
+    },
+    {
+      "id": "l5wdew",
+      "front": "la fianza judicial",
+      "back": "la caution"
+    },
+    {
+      "id": "9jx8mq",
+      "front": "el indulto",
+      "back": "la grâce"
+    },
+    {
+      "id": "r3jx16",
+      "front": "la amnistía",
+      "back": "l'amnistie"
+    },
+    {
+      "id": "xd46n0",
+      "front": "la prescripción",
+      "back": "la prescription"
+    },
+    {
+      "id": "a6jqe0",
+      "front": "la cárcel",
+      "back": "la prison"
+    },
+    {
+      "id": "2itq66",
+      "front": "el preso",
+      "back": "le détenu"
+    },
+    {
+      "id": "pazvyj",
+      "front": "el reo",
+      "back": "le condamné"
+    },
+    {
+      "id": "wgxpjg",
+      "front": "la reinserción",
+      "back": "la réinsertion"
+    },
+    {
+      "id": "u9iwu6",
+      "front": "el delito",
+      "back": "le délit"
+    },
+    {
+      "id": "9rvlq1",
+      "front": "la falta leve",
+      "back": "la contravention"
+    },
+    {
+      "id": "2cfnaq",
+      "front": "el crimen",
+      "back": "le crime"
+    },
+    {
+      "id": "5f312y",
+      "front": "el asesinato",
+      "back": "l'assassinat"
+    },
+    {
+      "id": "j3y5id",
+      "front": "el homicidio",
+      "back": "l'homicide"
+    },
+    {
+      "id": "5pdliz",
+      "front": "el robo",
+      "back": "le vol"
+    },
+    {
+      "id": "cfj9nk",
+      "front": "el hurto",
+      "back": "le vol simple"
+    },
+    {
+      "id": "115n2z",
+      "front": "el atraco",
+      "back": "le braquage"
+    },
+    {
+      "id": "m1qu0w",
+      "front": "la estafa",
+      "back": "l'escroquerie"
+    },
+    {
+      "id": "tnj7vj",
+      "front": "el fraude",
+      "back": "la fraude"
+    },
+    {
+      "id": "msaz3b",
+      "front": "el blanqueo de capitales",
+      "back": "le blanchiment d'argent"
+    },
+    {
+      "id": "6ahmv5",
+      "front": "el secuestro",
+      "back": "l'enlèvement"
+    },
+    {
+      "id": "p8ejb4",
+      "front": "la extorsión",
+      "back": "l'extorsion"
+    },
+    {
+      "id": "hmjby8",
+      "front": "el chantaje",
+      "back": "le chantage"
+    },
+    {
+      "id": "f2k2do",
+      "front": "la agresión",
+      "back": "l'agression"
+    },
+    {
+      "id": "wyse3x",
+      "front": "el maltrato",
+      "back": "la maltraitance"
+    },
+    {
+      "id": "jmqxao",
+      "front": "la violación",
+      "back": "le viol"
+    },
+    {
+      "id": "uy8okn",
+      "front": "el narcotráfico",
+      "back": "le trafic de stupéfiants"
+    },
+    {
+      "id": "mgvgh2",
+      "front": "el contrabando",
+      "back": "la contrebande"
+    },
+    {
+      "id": "9konwg",
+      "front": "la banda organizada",
+      "back": "le crime organisé"
+    },
+    {
+      "id": "gpbnjt",
+      "front": "el terrorismo",
+      "back": "le terrorisme"
+    },
+    {
+      "id": "2mxk2g",
+      "front": "la policía judicial",
+      "back": "la police judiciaire"
+    },
+    {
+      "id": "2e79z4",
+      "front": "la guardia civil",
+      "back": "la garde civile"
+    },
+    {
+      "id": "kwmr2h",
+      "front": "el agente",
+      "back": "l'agent"
+    },
+    {
+      "id": "6xxeck",
+      "front": "la comisaría de policía",
+      "back": "le commissariat de police"
+    },
+    {
+      "id": "stfgum",
+      "front": "la detención",
+      "back": "l'arrestation"
+    },
+    {
+      "id": "2oqigi",
+      "front": "el registro",
+      "back": "la perquisition"
+    },
+    {
+      "id": "yqjb1i",
+      "front": "la orden judicial",
+      "back": "le mandat"
+    },
+    {
+      "id": "37gjdh",
+      "front": "el atestado",
+      "back": "le procès-verbal"
+    },
+    {
+      "id": "elbj48",
+      "front": "juzgar a alguien",
+      "back": "juger quelqu'un"
+    },
+    {
+      "id": "khlyj7",
+      "front": "declarar ante el juez",
+      "back": "déposer devant le juge"
+    },
+    {
+      "id": "dif724",
+      "front": "condenar",
+      "back": "condamner"
+    },
+    {
+      "id": "ac32z9",
+      "front": "absolver",
+      "back": "acquitter"
+    },
+    {
+      "id": "d406pr",
+      "front": "recurrir",
+      "back": "faire appel"
+    },
+    {
+      "id": "pjvqjt",
+      "front": "delinquir",
+      "back": "commettre un délit"
+    }
+  ]
+}
