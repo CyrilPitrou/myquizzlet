@@ -1,0 +1,412 @@
+{
+  "id": "en-c1-roots",
+  "name": "Latin and Greek Roots",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "a4k4tq",
+      "front": "-vert- (turn)",
+      "back": "tourner — convert, avert, subvert"
+    },
+    {
+      "id": "sjyyjg",
+      "front": "-duc- (lead)",
+      "back": "conduire — induce, deduce, conduct"
+    },
+    {
+      "id": "byz2y2",
+      "front": "-cede- (go, yield)",
+      "back": "aller, céder — precede, secede, concede"
+    },
+    {
+      "id": "871afu",
+      "front": "-tract- (draw)",
+      "back": "tirer — retract, protract, distract"
+    },
+    {
+      "id": "13ici6",
+      "front": "-ject- (throw)",
+      "back": "jeter — reject, conjecture, abject"
+    },
+    {
+      "id": "5uf9b4",
+      "front": "-mit- (send)",
+      "back": "envoyer — remit, emit, transmit"
+    },
+    {
+      "id": "6sfz3i",
+      "front": "-fer- (carry)",
+      "back": "porter — confer, defer, proliferate"
+    },
+    {
+      "id": "ktknuc",
+      "front": "-port- (carry)",
+      "back": "porter — deport, purport, comport"
+    },
+    {
+      "id": "5z9w04",
+      "front": "-spec- (look)",
+      "back": "regarder — circumspect, specious, retrospect"
+    },
+    {
+      "id": "bktih6",
+      "front": "-vid- / -vis- (see)",
+      "back": "voir — evident, provident, visage"
+    },
+    {
+      "id": "9p1dlf",
+      "front": "-scrib- (write)",
+      "back": "écrire — proscribe, circumscribe, ascribe"
+    },
+    {
+      "id": "8svr78",
+      "front": "-dict- (say)",
+      "back": "dire — interdict, valediction, edict"
+    },
+    {
+      "id": "mlynvb",
+      "front": "-loqu- (speak)",
+      "back": "parler — colloquy, grandiloquent, obloquy"
+    },
+    {
+      "id": "psxr3s",
+      "front": "-voc- (call, voice)",
+      "back": "appeler — evoke, equivocate, vociferous"
+    },
+    {
+      "id": "v0yoq9",
+      "front": "-cap- / -cept- (take)",
+      "back": "prendre — precept, susceptible, incipient"
+    },
+    {
+      "id": "0vgtyb",
+      "front": "-ten- (hold)",
+      "back": "tenir — tenable, retentive, untenable"
+    },
+    {
+      "id": "ue1nrd",
+      "front": "-pon- / -pos- (place)",
+      "back": "poser — postulate, exponent, interpose"
+    },
+    {
+      "id": "5wwglp",
+      "front": "-struct- (build)",
+      "back": "construire — construe, obstruct, substructure"
+    },
+    {
+      "id": "ybv933",
+      "front": "-flect- (bend)",
+      "back": "plier — inflect, deflect, genuflect"
+    },
+    {
+      "id": "ym1lnu",
+      "front": "-frag- / -fract- (break)",
+      "back": "briser — refractory, fractious, infringe"
+    },
+    {
+      "id": "sepord",
+      "front": "-greg- (flock)",
+      "back": "troupeau — gregarious, egregious, congregate"
+    },
+    {
+      "id": "7740ll",
+      "front": "-sol- (alone)",
+      "back": "seul — desolate, soliloquy, solitude"
+    },
+    {
+      "id": "zbw5xt",
+      "front": "-anim- (mind, life)",
+      "back": "âme — magnanimous, pusillanimous, animus"
+    },
+    {
+      "id": "u7a4b0",
+      "front": "-man- (hand)",
+      "back": "main — manumit, emancipate, manifest"
+    },
+    {
+      "id": "fb2219",
+      "front": "-cap- (head)",
+      "back": "tête — capitulate, decapitate, precipitate"
+    },
+    {
+      "id": "wg4f45",
+      "front": "-oc- / -ocul- (eye)",
+      "back": "œil — ocular, inoculate, monocle"
+    },
+    {
+      "id": "n4e47o",
+      "front": "-sens- (feel)",
+      "back": "sentir — sentient, dissent, resentment"
+    },
+    {
+      "id": "p9gvwd",
+      "front": "-path- (feeling)",
+      "back": "souffrance, sentiment — pathos, apathy, empathy"
+    },
+    {
+      "id": "46cn1v",
+      "front": "-phil- (love)",
+      "back": "aimer — bibliophile, philanthropy, philology"
+    },
+    {
+      "id": "unbzqw",
+      "front": "-mis- (hate)",
+      "back": "haïr — misanthrope, misogyny, misology"
+    },
+    {
+      "id": "jy8q7n",
+      "front": "-the- (god)",
+      "back": "dieu — theodicy, apotheosis, atheist"
+    },
+    {
+      "id": "jtxxum",
+      "front": "-chron- (time)",
+      "back": "temps — anachronism, chronicle, synchronous"
+    },
+    {
+      "id": "8napxi",
+      "front": "-morph- (form)",
+      "back": "forme — amorphous, metamorphosis, anthropomorphic"
+    },
+    {
+      "id": "quazhg",
+      "front": "-gen- (birth, kind)",
+      "back": "naissance, genre — congenital, indigenous, engender"
+    },
+    {
+      "id": "xoqbov",
+      "front": "-nasc- / -nat- (born)",
+      "back": "naître — nascent, innate, renaissance"
+    },
+    {
+      "id": "xe2x0y",
+      "front": "-mort- (death)",
+      "back": "mort — moribund, mortify, immortal"
+    },
+    {
+      "id": "c824a6",
+      "front": "-sanct- (holy)",
+      "back": "saint — sanctimonious, sacrosanct, sanction"
+    },
+    {
+      "id": "gvauwv",
+      "front": "-grat- (pleasing)",
+      "back": "agréable — ingratiate, gratuitous, ingrate"
+    },
+    {
+      "id": "5qd06p",
+      "front": "-mal- (bad)",
+      "back": "mal — malevolent, malfeasance, malinger"
+    },
+    {
+      "id": "62uax5",
+      "front": "-vera- (true)",
+      "back": "vrai — veracity, verisimilitude, aver"
+    },
+    {
+      "id": "ftrlxf",
+      "front": "-fid- (faith)",
+      "back": "foi — perfidy, fiduciary, diffident"
+    },
+    {
+      "id": "0lbpsb",
+      "front": "-doc- (teach)",
+      "back": "enseigner — docile, doctrinaire, indoctrinate"
+    },
+    {
+      "id": "pne221",
+      "front": "-sci- (know)",
+      "back": "savoir — prescient, omniscient, conscientious"
+    },
+    {
+      "id": "2vnv69",
+      "front": "-gno- (know)",
+      "back": "connaître — cognisant, incognito, prognosis"
+    },
+    {
+      "id": "hmx7j4",
+      "front": "-soph- (wisdom)",
+      "back": "sagesse — sophistry, philosopher, sophomoric"
+    },
+    {
+      "id": "fdvr47",
+      "front": "-log- (word, reason)",
+      "back": "parole, raison — tautology, eulogy, neologism"
+    },
+    {
+      "id": "6zfa9t",
+      "front": "-lex- (word)",
+      "back": "mot — lexicon, dyslexia, lexical"
+    },
+    {
+      "id": "y6wv5a",
+      "front": "-onym- (name)",
+      "back": "nom — eponymous, pseudonym, patronymic"
+    },
+    {
+      "id": "txr6dc",
+      "front": "-arch- (rule, chief)",
+      "back": "commandement — oligarchy, patriarch, anarchy"
+    },
+    {
+      "id": "c47pt3",
+      "front": "-crat- (power)",
+      "back": "pouvoir — plutocrat, technocrat, autocrat"
+    },
+    {
+      "id": "vjyxky",
+      "front": "-dem- (people)",
+      "back": "peuple — demagogue, endemic, demography"
+    },
+    {
+      "id": "u2k6ct",
+      "front": "-poli- (city)",
+      "back": "cité — metropolis, cosmopolitan, polity"
+    },
+    {
+      "id": "evpede",
+      "front": "-jur- / -jud- (law, judge)",
+      "back": "droit, juger — perjury, adjudicate, judicious"
+    },
+    {
+      "id": "t484mv",
+      "front": "-leg- (law, read)",
+      "back": "loi, lire — legitimate, legible, allegation"
+    },
+    {
+      "id": "favqnl",
+      "front": "-reg- (rule, king)",
+      "back": "régler, roi — regicide, interregnum, regimen"
+    },
+    {
+      "id": "e69dee",
+      "front": "-pot- (power)",
+      "back": "pouvoir — potent, plenipotentiary, impotent"
+    },
+    {
+      "id": "9ai6w5",
+      "front": "-val- (strength, worth)",
+      "back": "valeur — valorous, equivalent, prevail"
+    },
+    {
+      "id": "yeotox",
+      "front": "-lev- (light, raise)",
+      "back": "léger, lever — alleviate, levity, elevate"
+    },
+    {
+      "id": "igkvig",
+      "front": "-grav- (heavy)",
+      "back": "lourd — gravitas, aggravate, grievous"
+    },
+    {
+      "id": "76mdp1",
+      "front": "-tens- / -tend- (stretch)",
+      "back": "tendre — tenuous, distend, contentious"
+    },
+    {
+      "id": "nh9hz7",
+      "front": "-cis- (cut)",
+      "back": "couper — incisive, excise, concise"
+    },
+    {
+      "id": "dgsm1x",
+      "front": "-solv- (loosen)",
+      "back": "dénouer — dissolute, absolve, resolve"
+    },
+    {
+      "id": "jfvj3n",
+      "front": "-liber- (free)",
+      "back": "libre — liberal, deliberate, libertine"
+    },
+    {
+      "id": "tlnqah",
+      "front": "-tain- (hold)",
+      "back": "tenir — abstain, pertain, retinue"
+    },
+    {
+      "id": "glu8va",
+      "front": "-cur- (run)",
+      "back": "courir — precursor, incur, discursive"
+    },
+    {
+      "id": "q9h0mo",
+      "front": "-grad- / -gress- (step)",
+      "back": "marcher — retrograde, transgress, egress"
+    },
+    {
+      "id": "jaznnq",
+      "front": "-lat- (carry)",
+      "back": "porter — collate, prelate, translate"
+    },
+    {
+      "id": "83fhxh",
+      "front": "-plic- (fold)",
+      "back": "plier — implicit, duplicity, explicate"
+    },
+    {
+      "id": "zr7ub9",
+      "front": "-tort- (twist)",
+      "back": "tordre — contort, tortuous, extort"
+    },
+    {
+      "id": "71imh4",
+      "front": "-volv- (roll)",
+      "back": "rouler — convoluted, devolve, involution"
+    },
+    {
+      "id": "y1auc7",
+      "front": "-nom- (law, custom)",
+      "back": "loi — autonomy, anomie, antinomy"
+    },
+    {
+      "id": "ald3p0",
+      "front": "-scop- (view)",
+      "back": "observer — kaleidoscope, telescopic, endoscopy"
+    },
+    {
+      "id": "falxq1",
+      "front": "-therm- (heat)",
+      "back": "chaleur — thermal, isotherm, endothermic"
+    },
+    {
+      "id": "m5t1uo",
+      "front": "-astr- (star)",
+      "back": "astre — disaster, astral, astronomy"
+    },
+    {
+      "id": "w0dhhx",
+      "front": "-lum- / -luc- (light)",
+      "back": "lumière — lucid, luminary, elucidate"
+    },
+    {
+      "id": "gygr79",
+      "front": "-umbr- (shade)",
+      "back": "ombre — umbrage, adumbrate, penumbra"
+    },
+    {
+      "id": "w69qpf",
+      "front": "-flu- (flow)",
+      "back": "couler — affluent, mellifluous, superfluous"
+    },
+    {
+      "id": "58q2aa",
+      "front": "-bell- (war)",
+      "back": "guerre — belligerent, antebellum, rebellion"
+    },
+    {
+      "id": "8p1xhd",
+      "front": "-pac- (peace)",
+      "back": "paix — pacify, pact, pacific"
+    },
+    {
+      "id": "jvbsih",
+      "front": "-ambul- (walk)",
+      "back": "marcher — perambulate, somnambulist, ambulatory"
+    }
+  ]
+}
