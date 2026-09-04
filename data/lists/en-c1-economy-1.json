@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-economy-1",
+  "name": "Economy and Finance 1",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "e69zvr",
+      "front": "inflation",
+      "back": "l'inflation"
+    },
+    {
+      "id": "48t6le",
+      "front": "deflation",
+      "back": "la déflation"
+    },
+    {
+      "id": "ks1hyg",
+      "front": "disinflation",
+      "back": "la désinflation"
+    },
+    {
+      "id": "okwy4q",
+      "front": "stagflation",
+      "back": "la stagflation"
+    },
+    {
+      "id": "xnf2l3",
+      "front": "a recession",
+      "back": "une récession"
+    },
+    {
+      "id": "qi07td",
+      "front": "a downturn",
+      "back": "un ralentissement, un repli"
+    },
+    {
+      "id": "kiclmu",
+      "front": "a slump",
+      "back": "un effondrement, un marasme"
+    },
+    {
+      "id": "eaqdko",
+      "front": "a rebound",
+      "back": "un rebond, une reprise"
+    },
+    {
+      "id": "rki4mt",
+      "front": "sluggish growth",
+      "back": "une croissance atone"
+    },
+    {
+      "id": "g16sqw",
+      "front": "buoyant demand",
+      "back": "une demande soutenue"
+    },
+    {
+      "id": "5tvbr9",
+      "front": "fiscal policy",
+      "back": "la politique budgétaire"
+    },
+    {
+      "id": "3zjufr",
+      "front": "monetary policy",
+      "back": "la politique monétaire"
+    },
+    {
+      "id": "n3imk4",
+      "front": "quantitative easing",
+      "back": "l'assouplissement quantitatif"
+    },
+    {
+      "id": "b9c6bx",
+      "front": "the base rate",
+      "back": "le taux directeur"
+    },
+    {
+      "id": "0k6vz8",
+      "front": "a rate rise",
+      "back": "une hausse des taux"
+    },
+    {
+      "id": "442y8p",
+      "front": "tightening",
+      "back": "le resserrement monétaire"
+    },
+    {
+      "id": "y65wvy",
+      "front": "loosening",
+      "back": "l'assouplissement monétaire"
+    },
+    {
+      "id": "0ucoq6",
+      "front": "the money supply",
+      "back": "la masse monétaire"
+    },
+    {
+      "id": "r8xh7y",
+      "front": "liquidity",
+      "back": "la liquidité"
+    },
+    {
+      "id": "ocsqii",
+      "front": "a credit crunch",
+      "back": "une crise du crédit"
+    },
+    {
+      "id": "b0pamu",
+      "front": "a bailout",
+      "back": "un plan de sauvetage"
+    },
+    {
+      "id": "8dr57y",
+      "front": "austerity",
+      "back": "l'austérité"
+    },
+    {
+      "id": "ydme2y",
+      "front": "a stimulus package",
+      "back": "un plan de relance"
+    },
+    {
+      "id": "q1w7n2",
+      "front": "public spending",
+      "back": "les dépenses publiques"
+    },
+    {
+      "id": "7t7gl3",
+      "front": "the deficit",
+      "back": "le déficit"
+    },
+    {
+      "id": "49o9hu",
+      "front": "the national debt",
+      "back": "la dette publique"
+    },
+    {
+      "id": "yd8w0e",
+      "front": "a surplus",
+      "back": "un excédent"
+    },
+    {
+      "id": "x0kkd5",
+      "front": "to balance the books",
+      "back": "équilibrer les comptes"
+    },
+    {
+      "id": "54z14j",
+      "front": "a windfall",
+      "back": "une manne, une rentrée inattendue"
+    },
+    {
+      "id": "yic2fy",
+      "front": "a levy",
+      "back": "un prélèvement, une taxe"
+    },
+    {
+      "id": "x9jwjk",
+      "front": "a tariff",
+      "back": "un droit de douane"
+    },
+    {
+      "id": "efkpgc",
+      "front": "a subsidy",
+      "back": "une subvention"
+    },
+    {
+      "id": "bxnazr",
+      "front": "a rebate",
+      "back": "un dégrèvement, un remboursement"
+    },
+    {
+      "id": "qav7vb",
+      "front": "tax avoidance",
+      "back": "l'optimisation fiscale"
+    },
+    {
+      "id": "6z8gnz",
+      "front": "tax evasion",
+      "back": "la fraude fiscale"
+    },
+    {
+      "id": "69ilzd",
+      "front": "a loophole",
+      "back": "une faille, une niche fiscale"
+    },
+    {
+      "id": "vtwkqk",
+      "front": "a tax haven",
+      "back": "un paradis fiscal"
+    },
+    {
+      "id": "rhb8mm",
+      "front": "progressive taxation",
+      "back": "l'impôt progressif"
+    },
+    {
+      "id": "fzpo6x",
+      "front": "a flat tax",
+      "back": "un impôt à taux unique"
+    },
+    {
+      "id": "sbwca9",
+      "front": "the tax base",
+      "back": "l'assiette fiscale"
+    },
+    {
+      "id": "uc7oig",
+      "front": "the exchequer",
+      "back": "le Trésor public"
+    },
+    {
+      "id": "q66u3p",
+      "front": "the treasury",
+      "back": "le Trésor, le ministère des Finances"
+    },
+    {
+      "id": "efhzmh",
+      "front": "the central bank",
+      "back": "la banque centrale"
+    },
+    {
+      "id": "nwuxvr",
+      "front": "a bond",
+      "back": "une obligation"
+    },
+    {
+      "id": "aygh52",
+      "front": "a yield",
+      "back": "un rendement"
+    },
+    {
+      "id": "r9u4k7",
+      "front": "a gilt",
+      "back": "une obligation d'État britannique"
+    },
+    {
+      "id": "kv4gbn",
+      "front": "a sovereign default",
+      "back": "un défaut souverain"
+    },
+    {
+      "id": "odwits",
+      "front": "a credit rating",
+      "back": "une notation financière"
+    },
+    {
+      "id": "z1f478",
+      "front": "a downgrade",
+      "back": "une dégradation de note"
+    },
+    {
+      "id": "hbwjhh",
+      "front": "a bull market",
+      "back": "un marché haussier"
+    },
+    {
+      "id": "nfc69o",
+      "front": "a bear market",
+      "back": "un marché baissier"
+    },
+    {
+      "id": "ncpgrr",
+      "front": "a rally",
+      "back": "une reprise, un rebond boursier"
+    },
+    {
+      "id": "j013lh",
+      "front": "a sell-off",
+      "back": "une vague de ventes"
+    },
+    {
+      "id": "4xb8bv",
+      "front": "volatility",
+      "back": "la volatilité"
+    },
+    {
+      "id": "bekps0",
+      "front": "a bubble",
+      "back": "une bulle spéculative"
+    },
+    {
+      "id": "r55bd4",
+      "front": "a correction",
+      "back": "une correction boursière"
+    },
+    {
+      "id": "5v3h64",
+      "front": "a crash",
+      "back": "un krach"
+    },
+    {
+      "id": "9hil9e",
+      "front": "a shareholder",
+      "back": "un actionnaire"
+    },
+    {
+      "id": "mktvsf",
+      "front": "a dividend",
+      "back": "un dividende"
+    },
+    {
+      "id": "yal1te",
+      "front": "equity",
+      "back": "les capitaux propres, les actions"
+    },
+    {
+      "id": "xsvy5s",
+      "front": "a share buyback",
+      "back": "un rachat d'actions"
+    },
+    {
+      "id": "d3acg1",
+      "front": "a takeover",
+      "back": "une prise de contrôle, un rachat"
+    },
+    {
+      "id": "veztpq",
+      "front": "a merger",
+      "back": "une fusion"
+    },
+    {
+      "id": "ff2b1g",
+      "front": "a hostile bid",
+      "back": "une offre hostile"
+    },
+    {
+      "id": "9qg5ps",
+      "front": "due diligence",
+      "back": "l'audit d'acquisition, la diligence raisonnable"
+    },
+    {
+      "id": "dhk7ma",
+      "front": "a flotation",
+      "back": "une introduction en bourse"
+    },
+    {
+      "id": "bncg1e",
+      "front": "a start-up",
+      "back": "une jeune pousse, une start-up"
+    },
+    {
+      "id": "fwjh8v",
+      "front": "venture capital",
+      "back": "le capital-risque"
+    },
+    {
+      "id": "xycu1s",
+      "front": "private equity",
+      "back": "le capital-investissement"
+    },
+    {
+      "id": "qgz5vx",
+      "front": "a hedge fund",
+      "back": "un fonds spéculatif"
+    },
+    {
+      "id": "kkgt0o",
+      "front": "an asset",
+      "back": "un actif"
+    },
+    {
+      "id": "j6wtv7",
+      "front": "a liability",
+      "back": "un passif, une dette"
+    },
+    {
+      "id": "puormz",
+      "front": "a balance sheet",
+      "back": "un bilan"
+    },
+    {
+      "id": "gj7qtf",
+      "front": "turnover",
+      "back": "le chiffre d'affaires"
+    },
+    {
+      "id": "qb5g64",
+      "front": "the bottom line",
+      "back": "le résultat net"
+    },
+    {
+      "id": "e5zpmb",
+      "front": "overheads",
+      "back": "les frais généraux"
+    },
+    {
+      "id": "nokoc9",
+      "front": "a write-down",
+      "back": "une dépréciation d'actif"
+    },
+    {
+      "id": "5jy59m",
+      "front": "insolvency",
+      "back": "l'insolvabilité"
+    },
+    {
+      "id": "27si92",
+      "front": "receivership",
+      "back": "l'administration judiciaire"
+    },
+    {
+      "id": "7y7j5b",
+      "front": "to go under",
+      "back": "faire faillite, couler"
+    },
+    {
+      "id": "jkubke",
+      "front": "the labour market",
+      "back": "le marché du travail"
+    },
+    {
+      "id": "onwfkb",
+      "front": "productivity",
+      "back": "la productivité"
+    },
+    {
+      "id": "pp66nh",
+      "front": "purchasing power",
+      "back": "le pouvoir d'achat"
+    },
+    {
+      "id": "ylh7nz",
+      "front": "the cost of living",
+      "back": "le coût de la vie"
+    },
+    {
+      "id": "yzdxvi",
+      "front": "a wage freeze",
+      "back": "un gel des salaires"
+    },
+    {
+      "id": "63oecd",
+      "front": "a pay settlement",
+      "back": "un accord salarial"
+    },
+    {
+      "id": "ca1ka4",
+      "front": "the minimum wage",
+      "back": "le salaire minimum"
+    },
+    {
+      "id": "bnjvr6",
+      "front": "the gig economy",
+      "back": "l'économie des petits boulots"
+    },
+    {
+      "id": "ecfot1",
+      "front": "outsourcing",
+      "back": "l'externalisation"
+    },
+    {
+      "id": "hjg12v",
+      "front": "offshoring",
+      "back": "la délocalisation"
+    },
+    {
+      "id": "41q89f",
+      "front": "reshoring",
+      "back": "la relocalisation"
+    },
+    {
+      "id": "ocpwzp",
+      "front": "the supply chain",
+      "back": "la chaîne d'approvisionnement"
+    },
+    {
+      "id": "xpjb7d",
+      "front": "a bottleneck",
+      "back": "un goulet d'étranglement"
+    },
+    {
+      "id": "f2ihir",
+      "front": "the trade balance",
+      "back": "la balance commerciale"
+    },
+    {
+      "id": "ugiahy",
+      "front": "a current account deficit",
+      "back": "un déficit de la balance courante"
+    },
+    {
+      "id": "92v9cy",
+      "front": "free trade",
+      "back": "le libre-échange"
+    },
+    {
+      "id": "79olof",
+      "front": "protectionism",
+      "back": "le protectionnisme"
+    },
+    {
+      "id": "u19vzs",
+      "front": "a single market",
+      "back": "un marché unique"
+    },
+    {
+      "id": "7zat65",
+      "front": "a customs union",
+      "back": "une union douanière"
+    },
+    {
+      "id": "kp5djy",
+      "front": "capital flight",
+      "back": "la fuite des capitaux"
+    }
+  ]
+}
