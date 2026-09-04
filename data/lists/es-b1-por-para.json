@@ -1,0 +1,262 @@
+{
+  "id": "es-b1-por-para",
+  "name": "Por o para",
+  "folder": "Spanish B1",
+  "frontLabel": "Français",
+  "backLabel": "Español",
+  "frontLang": "fr",
+  "backLang": "es",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "jo09ah",
+      "front": "Ce cadeau est pour toi.",
+      "back": "Este regalo es para ti."
+    },
+    {
+      "id": "mrhe1n",
+      "front": "Merci pour tout.",
+      "back": "Gracias por todo."
+    },
+    {
+      "id": "jqarb0",
+      "front": "Je pars pour Madrid demain.",
+      "back": "Salgo para Madrid mañana."
+    },
+    {
+      "id": "37gk6d",
+      "front": "Je passe par Madrid.",
+      "back": "Paso por Madrid."
+    },
+    {
+      "id": "t7q2zy",
+      "front": "Il l'a fait pour m'aider.",
+      "back": "Lo hizo para ayudarme."
+    },
+    {
+      "id": "dy2r7m",
+      "front": "Il l'a fait par amour.",
+      "back": "Lo hizo por amor."
+    },
+    {
+      "id": "hwdu8r",
+      "front": "Ce doit être fini pour lundi.",
+      "back": "Tiene que estar listo para el lunes."
+    },
+    {
+      "id": "jg87bm",
+      "front": "Nous nous verrons vers le mois de mai.",
+      "back": "Nos veremos por mayo."
+    },
+    {
+      "id": "f0g8ae",
+      "front": "Je l'ai acheté pour vingt euros.",
+      "back": "Lo compré por veinte euros."
+    },
+    {
+      "id": "gfz5z7",
+      "front": "Ce livre est pour les enfants.",
+      "back": "Este libro es para niños."
+    },
+    {
+      "id": "uai6jm",
+      "front": "Il travaille pour une entreprise allemande.",
+      "back": "Trabaja para una empresa alemana."
+    },
+    {
+      "id": "y4ztog",
+      "front": "Il a été puni pour avoir menti.",
+      "back": "Fue castigado por mentir."
+    },
+    {
+      "id": "soqy4a",
+      "front": "Je le fais pour toi (à ta place).",
+      "back": "Lo hago por ti."
+    },
+    {
+      "id": "qnblp6",
+      "front": "Je le fais pour toi (pour ton bien).",
+      "back": "Lo hago para ti."
+    },
+    {
+      "id": "uiylfd",
+      "front": "La lettre a été écrite par Ana.",
+      "back": "La carta fue escrita por Ana."
+    },
+    {
+      "id": "eo5s00",
+      "front": "Le train part pour Séville.",
+      "back": "El tren sale para Sevilla."
+    },
+    {
+      "id": "60khs5",
+      "front": "Je me promène dans le parc.",
+      "back": "Paseo por el parque."
+    },
+    {
+      "id": "zhwikh",
+      "front": "Il étudie pour devenir médecin.",
+      "back": "Estudia para ser médico."
+    },
+    {
+      "id": "bjk4k7",
+      "front": "Il l'a fait par erreur.",
+      "back": "Lo hizo por error."
+    },
+    {
+      "id": "61v7kv",
+      "front": "Pour moi, c'est une erreur.",
+      "back": "Para mí, es un error."
+    },
+    {
+      "id": "y8oaxb",
+      "front": "Il est venu pour te voir.",
+      "back": "Vino para verte."
+    },
+    {
+      "id": "p0vzoh",
+      "front": "Il est venu à cause de toi.",
+      "back": "Vino por ti."
+    },
+    {
+      "id": "74bha3",
+      "front": "Nous avons échangé la voiture contre une moto.",
+      "back": "Cambiamos el coche por una moto."
+    },
+    {
+      "id": "h6sziv",
+      "front": "Je te téléphone pour te dire une chose.",
+      "back": "Te llamo para decirte una cosa."
+    },
+    {
+      "id": "iju4n5",
+      "front": "Je te téléphone par téléphone portable.",
+      "back": "Te llamo por el móvil."
+    },
+    {
+      "id": "v1n1uc",
+      "front": "Il reste encore beaucoup à faire.",
+      "back": "Queda mucho por hacer."
+    },
+    {
+      "id": "fdlibc",
+      "front": "Le devoir est à rendre pour vendredi.",
+      "back": "El trabajo es para el viernes."
+    },
+    {
+      "id": "7xxwvj",
+      "front": "Il est parti pour toujours.",
+      "back": "Se fue para siempre."
+    },
+    {
+      "id": "c6765i",
+      "front": "Il l'a fait pour rien.",
+      "back": "Lo hizo por nada."
+    },
+    {
+      "id": "asynq0",
+      "front": "Cela ne sert à rien.",
+      "back": "No sirve para nada."
+    },
+    {
+      "id": "8lsdku",
+      "front": "Deux fois par semaine.",
+      "back": "Dos veces por semana."
+    },
+    {
+      "id": "sos5p5",
+      "front": "Pour un enfant, il lit bien.",
+      "back": "Para ser un niño, lee bien."
+    },
+    {
+      "id": "obgk7h",
+      "front": "Il est mort pour la patrie.",
+      "back": "Murió por la patria."
+    },
+    {
+      "id": "ru7j1o",
+      "front": "Ce médicament est bon pour la toux.",
+      "back": "Este medicamento es bueno para la tos."
+    },
+    {
+      "id": "alr602",
+      "front": "Ne t'en fais pas pour moi.",
+      "back": "No te preocupes por mí."
+    },
+    {
+      "id": "9z1rgf",
+      "front": "Il l'a vendu pour la moitié du prix.",
+      "back": "Lo vendió por la mitad del precio."
+    },
+    {
+      "id": "va2aka",
+      "front": "Nous marchons vers le nord.",
+      "back": "Caminamos para el norte."
+    },
+    {
+      "id": "xqeeq1",
+      "front": "Le voleur est entré par la fenêtre.",
+      "back": "El ladrón entró por la ventana."
+    },
+    {
+      "id": "u7yyi7",
+      "front": "Je le laisse pour demain.",
+      "back": "Lo dejo para mañana."
+    },
+    {
+      "id": "kk34jd",
+      "front": "Il faut lutter pour la liberté.",
+      "back": "Hay que luchar por la libertad."
+    },
+    {
+      "id": "lc8fa8",
+      "front": "Il l'a fait pour finir plus tôt.",
+      "back": "Lo hizo para terminar antes."
+    },
+    {
+      "id": "uiwvzk",
+      "front": "Il pleure de rage.",
+      "back": "Llora por la rabia."
+    },
+    {
+      "id": "jq72gn",
+      "front": "Cette chaise sert à s'asseoir.",
+      "back": "Esta silla sirve para sentarse."
+    },
+    {
+      "id": "546w6r",
+      "front": "Nous sommes passés par ta rue.",
+      "back": "Pasamos por tu calle."
+    },
+    {
+      "id": "ct4e5b",
+      "front": "Il faut voter pour ce candidat.",
+      "back": "Hay que votar por este candidato."
+    },
+    {
+      "id": "whyf20",
+      "front": "J'ai pris ce livre pour le lire.",
+      "back": "Cogí este libro para leerlo."
+    },
+    {
+      "id": "rnoqx8",
+      "front": "Il l'a pris pour un autre.",
+      "back": "Lo tomó por otro."
+    },
+    {
+      "id": "40rc4z",
+      "front": "Cela vaut la peine pour ce prix.",
+      "back": "Vale la pena por ese precio."
+    },
+    {
+      "id": "vvleod",
+      "front": "Elle a été récompensée pour son travail.",
+      "back": "Fue premiada por su trabajo."
+    },
+    {
+      "id": "w52evg",
+      "front": "Il est prêt pour l'examen.",
+      "back": "Está listo para el examen."
+    }
+  ]
+}
