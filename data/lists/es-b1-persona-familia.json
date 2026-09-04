@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-persona-familia",
+  "name": "La persona y la familia",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "j4elkv",
+      "front": "la persona",
+      "back": "une personne"
+    },
+    {
+      "id": "5o9xob",
+      "front": "el ser humano",
+      "back": "un être humain"
+    },
+    {
+      "id": "tuisn6",
+      "front": "el hombre",
+      "back": "un homme"
+    },
+    {
+      "id": "z7mo6x",
+      "front": "la mujer",
+      "back": "une femme"
+    },
+    {
+      "id": "jr454e",
+      "front": "el niño",
+      "back": "un enfant, un garçon"
+    },
+    {
+      "id": "eb4dhl",
+      "front": "la niña",
+      "back": "une petite fille"
+    },
+    {
+      "id": "edlfff",
+      "front": "el bebé",
+      "back": "un bébé"
+    },
+    {
+      "id": "zrdgzj",
+      "front": "el adolescente",
+      "back": "un adolescent"
+    },
+    {
+      "id": "lwfyf2",
+      "front": "el joven",
+      "back": "un jeune"
+    },
+    {
+      "id": "gu5mha",
+      "front": "el adulto",
+      "back": "un adulte"
+    },
+    {
+      "id": "ku3sw8",
+      "front": "el anciano",
+      "back": "un vieillard, une personne âgée"
+    },
+    {
+      "id": "n8pndq",
+      "front": "la familia",
+      "back": "la famille"
+    },
+    {
+      "id": "b9s81e",
+      "front": "los padres",
+      "back": "les parents"
+    },
+    {
+      "id": "d8vnw4",
+      "front": "el padre",
+      "back": "le père"
+    },
+    {
+      "id": "d8jfnc",
+      "front": "la madre",
+      "back": "la mère"
+    },
+    {
+      "id": "vsmp8z",
+      "front": "el hijo",
+      "back": "le fils"
+    },
+    {
+      "id": "458g1z",
+      "front": "la hija",
+      "back": "la fille (enfant)"
+    },
+    {
+      "id": "jb3v60",
+      "front": "el hermano",
+      "back": "le frère"
+    },
+    {
+      "id": "u0rbt3",
+      "front": "la hermana",
+      "back": "la sœur"
+    },
+    {
+      "id": "50pfgm",
+      "front": "el abuelo",
+      "back": "le grand-père"
+    },
+    {
+      "id": "2fmaux",
+      "front": "la abuela",
+      "back": "la grand-mère"
+    },
+    {
+      "id": "m2hkih",
+      "front": "los nietos",
+      "back": "les petits-enfants"
+    },
+    {
+      "id": "75x9c8",
+      "front": "el nieto",
+      "back": "le petit-fils"
+    },
+    {
+      "id": "16kafp",
+      "front": "el tío",
+      "back": "l'oncle"
+    },
+    {
+      "id": "d6b5r0",
+      "front": "la tía",
+      "back": "la tante"
+    },
+    {
+      "id": "h54y1j",
+      "front": "el primo",
+      "back": "le cousin"
+    },
+    {
+      "id": "s6vsjc",
+      "front": "el sobrino",
+      "back": "le neveu"
+    },
+    {
+      "id": "s6q0a5",
+      "front": "la sobrina",
+      "back": "la nièce"
+    },
+    {
+      "id": "9wjfao",
+      "front": "el cuñado",
+      "back": "le beau-frère"
+    },
+    {
+      "id": "kfw0hr",
+      "front": "la suegra",
+      "back": "la belle-mère (mère du conjoint)"
+    },
+    {
+      "id": "kgdn49",
+      "front": "el suegro",
+      "back": "le beau-père"
+    },
+    {
+      "id": "w7daoy",
+      "front": "el yerno",
+      "back": "le gendre"
+    },
+    {
+      "id": "tm9uzi",
+      "front": "la nuera",
+      "back": "la belle-fille (épouse du fils)"
+    },
+    {
+      "id": "xkswdq",
+      "front": "el padrino",
+      "back": "le parrain"
+    },
+    {
+      "id": "gpw3nq",
+      "front": "la madrina",
+      "back": "la marraine"
+    },
+    {
+      "id": "ues0su",
+      "front": "el ahijado",
+      "back": "le filleul"
+    },
+    {
+      "id": "gxmz9f",
+      "front": "el marido",
+      "back": "le mari"
+    },
+    {
+      "id": "7sw8fh",
+      "front": "la esposa",
+      "back": "l'épouse, la femme"
+    },
+    {
+      "id": "1c2vxy",
+      "front": "la pareja",
+      "back": "le couple, le compagnon"
+    },
+    {
+      "id": "2e9vgq",
+      "front": "el novio",
+      "back": "le fiancé, le petit ami"
+    },
+    {
+      "id": "qnddou",
+      "front": "la novia",
+      "back": "la fiancée, la petite amie"
+    },
+    {
+      "id": "a8zssv",
+      "front": "el matrimonio",
+      "back": "le mariage, le couple marié"
+    },
+    {
+      "id": "m499kk",
+      "front": "la boda",
+      "back": "la noce, la cérémonie de mariage"
+    },
+    {
+      "id": "c2uazs",
+      "front": "el divorcio",
+      "back": "le divorce"
+    },
+    {
+      "id": "usgo53",
+      "front": "la separación",
+      "back": "la séparation"
+    },
+    {
+      "id": "dqvznh",
+      "front": "la viuda",
+      "back": "la veuve"
+    },
+    {
+      "id": "lag4yk",
+      "front": "el viudo",
+      "back": "le veuf"
+    },
+    {
+      "id": "tpv2pa",
+      "front": "el huérfano",
+      "back": "l'orphelin"
+    },
+    {
+      "id": "5jccmc",
+      "front": "los gemelos",
+      "back": "les jumeaux"
+    },
+    {
+      "id": "a0o7pe",
+      "front": "el apellido",
+      "back": "le nom de famille"
+    },
+    {
+      "id": "sykrtl",
+      "front": "el nombre",
+      "back": "le prénom, le nom"
+    },
+    {
+      "id": "lpz6nu",
+      "front": "el apodo",
+      "back": "le surnom"
+    },
+    {
+      "id": "5v8yed",
+      "front": "la edad",
+      "back": "l'âge"
+    },
+    {
+      "id": "68umz5",
+      "front": "el nacimiento",
+      "back": "la naissance"
+    },
+    {
+      "id": "rijlsc",
+      "front": "la infancia",
+      "back": "l'enfance"
+    },
+    {
+      "id": "9tnqpn",
+      "front": "la juventud",
+      "back": "la jeunesse"
+    },
+    {
+      "id": "sfdo5b",
+      "front": "la madurez",
+      "back": "la maturité, l'âge mûr"
+    },
+    {
+      "id": "jw9pv8",
+      "front": "la vejez",
+      "back": "la vieillesse"
+    },
+    {
+      "id": "v3urpe",
+      "front": "la muerte",
+      "back": "la mort"
+    },
+    {
+      "id": "nmv16g",
+      "front": "el entierro",
+      "back": "l'enterrement"
+    },
+    {
+      "id": "k8amcb",
+      "front": "el cumpleaños",
+      "back": "l'anniversaire"
+    },
+    {
+      "id": "gsw14l",
+      "front": "el estado civil",
+      "back": "l'état civil"
+    },
+    {
+      "id": "xts4ia",
+      "front": "soltero",
+      "back": "célibataire"
+    },
+    {
+      "id": "ve1j5d",
+      "front": "casado",
+      "back": "marié"
+    },
+    {
+      "id": "m0sy3s",
+      "front": "divorciado",
+      "back": "divorcé"
+    },
+    {
+      "id": "vcb0vo",
+      "front": "el documento de identidad",
+      "back": "la pièce d'identité"
+    },
+    {
+      "id": "9m939d",
+      "front": "el pasaporte",
+      "back": "le passeport"
+    },
+    {
+      "id": "zahorp",
+      "front": "la nacionalidad",
+      "back": "la nationalité"
+    },
+    {
+      "id": "k4vx2r",
+      "front": "el ciudadano",
+      "back": "le citoyen"
+    },
+    {
+      "id": "2gqhkg",
+      "front": "el extranjero",
+      "back": "l'étranger"
+    },
+    {
+      "id": "53wg19",
+      "front": "el vecino",
+      "back": "le voisin"
+    },
+    {
+      "id": "268iw3",
+      "front": "el amigo",
+      "back": "l'ami"
+    },
+    {
+      "id": "afo4ff",
+      "front": "el conocido",
+      "back": "la connaissance"
+    },
+    {
+      "id": "j8e2ex",
+      "front": "el desconocido",
+      "back": "l'inconnu"
+    },
+    {
+      "id": "jkt45v",
+      "front": "la gente",
+      "back": "les gens"
+    },
+    {
+      "id": "h8nq93",
+      "front": "el antepasado",
+      "back": "l'ancêtre"
+    },
+    {
+      "id": "ia9dkz",
+      "front": "los parientes",
+      "back": "la parenté, les proches"
+    },
+    {
+      "id": "3h7jot",
+      "front": "el hogar",
+      "back": "le foyer"
+    },
+    {
+      "id": "i4rh0k",
+      "front": "la generación",
+      "back": "la génération"
+    },
+    {
+      "id": "5jrpoe",
+      "front": "el sexo",
+      "back": "le sexe"
+    },
+    {
+      "id": "riqj0w",
+      "front": "el varón",
+      "back": "le garçon, l'individu de sexe masculin"
+    },
+    {
+      "id": "in1ywh",
+      "front": "la hembra",
+      "back": "la femelle"
+    },
+    {
+      "id": "ojqcd9",
+      "front": "nacer",
+      "back": "naître"
+    },
+    {
+      "id": "dotahp",
+      "front": "crecer",
+      "back": "grandir"
+    },
+    {
+      "id": "ooemu0",
+      "front": "criar",
+      "back": "élever (un enfant)"
+    },
+    {
+      "id": "zkl86e",
+      "front": "casarse",
+      "back": "se marier"
+    },
+    {
+      "id": "xzr8wu",
+      "front": "divorciarse",
+      "back": "divorcer"
+    },
+    {
+      "id": "5rn7eq",
+      "front": "enamorarse",
+      "back": "tomber amoureux"
+    },
+    {
+      "id": "lmv4k3",
+      "front": "envejecer",
+      "back": "vieillir"
+    },
+    {
+      "id": "hcb9r7",
+      "front": "morir",
+      "back": "mourir"
+    },
+    {
+      "id": "vd7wdm",
+      "front": "parecerse a",
+      "back": "ressembler à"
+    },
+    {
+      "id": "2yjibo",
+      "front": "llamarse",
+      "back": "s'appeler"
+    },
+    {
+      "id": "fkljku",
+      "front": "cuidar",
+      "back": "prendre soin de"
+    },
+    {
+      "id": "3nwvon",
+      "front": "adoptar",
+      "back": "adopter"
+    },
+    {
+      "id": "mh7i71",
+      "front": "el hermano mayor",
+      "back": "le frère aîné"
+    },
+    {
+      "id": "9huxli",
+      "front": "el hijo único",
+      "back": "le fils unique"
+    },
+    {
+      "id": "5u4p7w",
+      "front": "la madre soltera",
+      "back": "la mère célibataire"
+    },
+    {
+      "id": "y25pzp",
+      "front": "la familia numerosa",
+      "back": "la famille nombreuse"
+    },
+    {
+      "id": "o0mln4",
+      "front": "el árbol genealógico",
+      "back": "l'arbre généalogique"
+    },
+    {
+      "id": "q3sl5i",
+      "front": "el compañero",
+      "back": "le camarade, le compagnon"
+    }
+  ]
+}
