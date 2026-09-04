@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-philosophy-2",
+  "name": "Philosophy, Ethics and Ideas 2",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "63qt62",
+      "front": "a priori",
+      "back": "a priori"
+    },
+    {
+      "id": "bc5ziz",
+      "front": "a posteriori",
+      "back": "a posteriori"
+    },
+    {
+      "id": "bnlffu",
+      "front": "teleology",
+      "back": "la téléologie"
+    },
+    {
+      "id": "c2yplv",
+      "front": "epistemic",
+      "back": "épistémique"
+    },
+    {
+      "id": "87jq1n",
+      "front": "supervenience",
+      "back": "la survenance"
+    },
+    {
+      "id": "ura6q5",
+      "front": "ontology",
+      "back": "l'ontologie"
+    },
+    {
+      "id": "9qo6rf",
+      "front": "metaphysics",
+      "back": "la métaphysique"
+    },
+    {
+      "id": "5nrole",
+      "front": "epistemology",
+      "back": "l'épistémologie"
+    },
+    {
+      "id": "j7148l",
+      "front": "axiology",
+      "back": "l'axiologie"
+    },
+    {
+      "id": "c3fv63",
+      "front": "phenomenology",
+      "back": "la phénoménologie"
+    },
+    {
+      "id": "dz8kgy",
+      "front": "hermeneutics",
+      "back": "l'herméneutique"
+    },
+    {
+      "id": "d73jov",
+      "front": "dialectic",
+      "back": "la dialectique"
+    },
+    {
+      "id": "unym9l",
+      "front": "a syllogism",
+      "back": "un syllogisme"
+    },
+    {
+      "id": "vnrtpx",
+      "front": "deduction",
+      "back": "la déduction"
+    },
+    {
+      "id": "xopds8",
+      "front": "induction",
+      "back": "l'induction"
+    },
+    {
+      "id": "24qlrf",
+      "front": "abduction",
+      "back": "l'abduction, l'inférence à la meilleure explication"
+    },
+    {
+      "id": "cq1olb",
+      "front": "entailment",
+      "back": "l'implication logique"
+    },
+    {
+      "id": "3gosfq",
+      "front": "a tautology",
+      "back": "une tautologie"
+    },
+    {
+      "id": "r8in8v",
+      "front": "a contradiction",
+      "back": "une contradiction"
+    },
+    {
+      "id": "u7ldwa",
+      "front": "an antinomy",
+      "back": "une antinomie"
+    },
+    {
+      "id": "4tionl",
+      "front": "an aporia",
+      "back": "une aporie"
+    },
+    {
+      "id": "9xrzig",
+      "front": "a paradox of self-reference",
+      "back": "un paradoxe autoréférentiel"
+    },
+    {
+      "id": "036z6x",
+      "front": "modality",
+      "back": "la modalité"
+    },
+    {
+      "id": "61f7ga",
+      "front": "necessity",
+      "back": "la nécessité"
+    },
+    {
+      "id": "j94wo4",
+      "front": "contingency",
+      "back": "la contingence"
+    },
+    {
+      "id": "e9oefe",
+      "front": "possibility",
+      "back": "la possibilité"
+    },
+    {
+      "id": "hnure0",
+      "front": "a possible world",
+      "back": "un monde possible"
+    },
+    {
+      "id": "t3iy0s",
+      "front": "essence",
+      "back": "l'essence"
+    },
+    {
+      "id": "xbaje6",
+      "front": "accident",
+      "back": "l'accident (philosophique)"
+    },
+    {
+      "id": "nbmula",
+      "front": "substance",
+      "back": "la substance"
+    },
+    {
+      "id": "te1pr8",
+      "front": "an attribute",
+      "back": "un attribut"
+    },
+    {
+      "id": "oen074",
+      "front": "a universal",
+      "back": "un universel"
+    },
+    {
+      "id": "i6sp13",
+      "front": "a particular",
+      "back": "un particulier"
+    },
+    {
+      "id": "86g2io",
+      "front": "nominalism",
+      "back": "le nominalisme"
+    },
+    {
+      "id": "au5s2b",
+      "front": "realism",
+      "back": "le réalisme"
+    },
+    {
+      "id": "d8ds34",
+      "front": "idealism",
+      "back": "l'idéalisme"
+    },
+    {
+      "id": "0gnvbv",
+      "front": "materialism",
+      "back": "le matérialisme"
+    },
+    {
+      "id": "vj13g2",
+      "front": "monism",
+      "back": "le monisme"
+    },
+    {
+      "id": "avryin",
+      "front": "dualism",
+      "back": "le dualisme"
+    },
+    {
+      "id": "quo7ut",
+      "front": "substance dualism",
+      "back": "le dualisme des substances"
+    },
+    {
+      "id": "4vwhhl",
+      "front": "physicalism",
+      "back": "le physicalisme"
+    },
+    {
+      "id": "i366i5",
+      "front": "functionalism of mind",
+      "back": "le fonctionnalisme de l'esprit"
+    },
+    {
+      "id": "v1nnr5",
+      "front": "emergentism",
+      "back": "l'émergentisme"
+    },
+    {
+      "id": "btm0xb",
+      "front": "qualia",
+      "back": "les qualia"
+    },
+    {
+      "id": "7s7sc9",
+      "front": "intentionality",
+      "back": "l'intentionnalité"
+    },
+    {
+      "id": "a43n6r",
+      "front": "consciousness",
+      "back": "la conscience"
+    },
+    {
+      "id": "7r2x80",
+      "front": "the hard problem",
+      "back": "le problème difficile de la conscience"
+    },
+    {
+      "id": "6skdtk",
+      "front": "solipsism",
+      "back": "le solipsisme"
+    },
+    {
+      "id": "a2z92y",
+      "front": "radical scepticism",
+      "back": "le scepticisme radical"
+    },
+    {
+      "id": "6sek71",
+      "front": "empiricism",
+      "back": "l'empirisme"
+    },
+    {
+      "id": "4mb8r6",
+      "front": "rationalism",
+      "back": "le rationalisme"
+    },
+    {
+      "id": "i1fwye",
+      "front": "transcendental idealism",
+      "back": "l'idéalisme transcendantal"
+    },
+    {
+      "id": "qbdu3m",
+      "front": "the noumenon",
+      "back": "le noumène"
+    },
+    {
+      "id": "i7styn",
+      "front": "the phenomenon",
+      "back": "le phénomène"
+    },
+    {
+      "id": "0tke0k",
+      "front": "the thing in itself",
+      "back": "la chose en soi"
+    },
+    {
+      "id": "ellk3t",
+      "front": "a synthetic judgement",
+      "back": "un jugement synthétique"
+    },
+    {
+      "id": "856phe",
+      "front": "an analytic judgement",
+      "back": "un jugement analytique"
+    },
+    {
+      "id": "0ivvos",
+      "front": "the analytic-synthetic distinction",
+      "back": "la distinction analytique-synthétique"
+    },
+    {
+      "id": "vwwn68",
+      "front": "verificationism",
+      "back": "le vérificationnisme"
+    },
+    {
+      "id": "v7wb11",
+      "front": "logical positivism",
+      "back": "le positivisme logique"
+    },
+    {
+      "id": "4ffmdk",
+      "front": "pragmatism",
+      "back": "le pragmatisme"
+    },
+    {
+      "id": "q37d79",
+      "front": "instrumentalism",
+      "back": "l'instrumentalisme"
+    },
+    {
+      "id": "h5ppb3",
+      "front": "coherentism",
+      "back": "le cohérentisme"
+    },
+    {
+      "id": "h50xmb",
+      "front": "foundationalism",
+      "back": "le fondationnalisme"
+    },
+    {
+      "id": "4ae9uy",
+      "front": "justified true belief",
+      "back": "la croyance vraie justifiée"
+    },
+    {
+      "id": "8qqg21",
+      "front": "a Gettier case",
+      "back": "un cas de Gettier"
+    },
+    {
+      "id": "tkpenl",
+      "front": "reliabilism",
+      "back": "le fiabilisme"
+    },
+    {
+      "id": "pexxxh",
+      "front": "a defeater",
+      "back": "un défaiteur, un élément infirmant"
+    },
+    {
+      "id": "q3kai0",
+      "front": "underdetermination",
+      "back": "la sous-détermination"
+    },
+    {
+      "id": "sub6i0",
+      "front": "incommensurability",
+      "back": "l'incommensurabilité"
+    },
+    {
+      "id": "9cnwsv",
+      "front": "a language game",
+      "back": "un jeu de langage"
+    },
+    {
+      "id": "tr3qxf",
+      "front": "a form of life",
+      "back": "une forme de vie"
+    },
+    {
+      "id": "kjnf3g",
+      "front": "private language",
+      "back": "le langage privé"
+    },
+    {
+      "id": "f6arf1",
+      "front": "a speech act",
+      "back": "un acte de langage"
+    },
+    {
+      "id": "y1ghkg",
+      "front": "a performative",
+      "back": "un énoncé performatif"
+    },
+    {
+      "id": "v5yrxe",
+      "front": "sense and reference",
+      "back": "le sens et la référence"
+    },
+    {
+      "id": "137z1o",
+      "front": "a rigid designator",
+      "back": "un désignateur rigide"
+    },
+    {
+      "id": "iumnll",
+      "front": "a definite description",
+      "back": "une description définie"
+    },
+    {
+      "id": "b91171",
+      "front": "compositionality",
+      "back": "la compositionnalité"
+    },
+    {
+      "id": "a0jc5r",
+      "front": "truth conditions",
+      "back": "les conditions de vérité"
+    },
+    {
+      "id": "vz92rd",
+      "front": "a correspondence theory",
+      "back": "une théorie correspondantiste de la vérité"
+    },
+    {
+      "id": "8m9o74",
+      "front": "a coherence theory",
+      "back": "une théorie cohérentiste"
+    },
+    {
+      "id": "dsuexa",
+      "front": "deflationism",
+      "back": "le déflationnisme"
+    },
+    {
+      "id": "dpx3iu",
+      "front": "the naturalistic fallacy",
+      "back": "le sophisme naturaliste"
+    },
+    {
+      "id": "y9utmn",
+      "front": "moral realism",
+      "back": "le réalisme moral"
+    },
+    {
+      "id": "605w27",
+      "front": "non-cognitivism",
+      "back": "le non-cognitivisme"
+    },
+    {
+      "id": "o004k0",
+      "front": "emotivism",
+      "back": "l'émotivisme"
+    },
+    {
+      "id": "mc484j",
+      "front": "error theory",
+      "back": "la théorie de l'erreur"
+    },
+    {
+      "id": "bweoua",
+      "front": "a thick concept",
+      "back": "un concept épais"
+    },
+    {
+      "id": "d1ykkc",
+      "front": "practical reason",
+      "back": "la raison pratique"
+    },
+    {
+      "id": "kzqsnd",
+      "front": "akrasia",
+      "back": "l'akrasie, la faiblesse de la volonté"
+    },
+    {
+      "id": "zee4w6",
+      "front": "eudaimonia",
+      "back": "l'eudémonisme, le bonheur accompli"
+    },
+    {
+      "id": "n81nm3",
+      "front": "phronesis",
+      "back": "la phronèsis, la sagesse pratique"
+    },
+    {
+      "id": "86c4zx",
+      "front": "telos",
+      "back": "le telos, la fin"
+    },
+    {
+      "id": "jdemm3",
+      "front": "the summum bonum",
+      "back": "le souverain bien"
+    },
+    {
+      "id": "rcv5ai",
+      "front": "theodicy",
+      "back": "la théodicée"
+    },
+    {
+      "id": "cduii6",
+      "front": "immanence",
+      "back": "l'immanence"
+    },
+    {
+      "id": "rh9nsi",
+      "front": "transcendence",
+      "back": "la transcendance"
+    },
+    {
+      "id": "2j5iys",
+      "front": "apophatic theology",
+      "back": "la théologie apophatique"
+    },
+    {
+      "id": "09trzx",
+      "front": "the ontological argument",
+      "back": "l'argument ontologique"
+    }
+  ]
+}
