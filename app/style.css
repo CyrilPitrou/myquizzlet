@@ -110,6 +110,15 @@ h3 { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase;
                       font-size: 1.5rem; line-height: 1;
                       display: flex; align-items: center; justify-content: center; }
 
+/* The order of the lists, chosen where the lists are. Native select, so the
+   phone gives its own picker; sized to sit beside the + without pushing it
+   off the row, and allowed to shrink when the folder name is long. */
+.sortselect { height: 36px; max-width: 11rem; min-width: 0;
+              padding: 0 .4rem; font-size: .85rem; font-family: inherit;
+              color: var(--muted); background: var(--surface);
+              border: 1px solid var(--field); border-radius: 6px; }
+.headactions { display: flex; align-items: center; gap: .5rem; min-width: 0; }
+
 .liststats { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap;
   color: var(--muted); font-size: .9rem; }
 .liststats > *:not(:first-child):not(.badge)::before { content: '·'; margin-right: .5rem; color: var(--rule); }

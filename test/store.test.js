@@ -31,6 +31,12 @@ describe('lists', () => {
     expect(store.listIds()).toEqual(['spanish-food']);
   });
 
+  it('stamps the day it was created, and keeps it through a rename', () => {
+    const list = store.createList({ name: 'Food' });
+    expect(list.createdAt).toBe('2026-09-01');
+    expect(store.renameList('food', 'Groceries').createdAt).toBe('2026-09-01');
+  });
+
   it('avoids colliding ids', () => {
     store.createList({ name: 'Food' });
     expect(store.createList({ name: 'Food' }).id).toBe('food-2');

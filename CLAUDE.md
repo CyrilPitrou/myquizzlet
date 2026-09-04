@@ -55,6 +55,8 @@ main branch                          data branch
      grade.js     pure. answer checking
      csv.js       pure. import / export
      langs.js     pure. column label → language code
+     dates.js     pure. an ISO day shown European, 03/09/2026
+     listsort.js  pure. the six orders the Lists screen offers
      stats.js     pure. per-list numbers
      train.js     pure. training batches and rungs
      sides.js     pure. whole-list side swap: labels, card text, progress keys

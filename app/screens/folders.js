@@ -1,7 +1,8 @@
 import { el } from '../ui.js';
-import { pageHead, newListLink } from '../pagehead.js';
+import { pageHead, newListLink, sortSelect, listSort } from '../pagehead.js';
 import { store, screen, todayStr } from '../app.js';
 import { listStats } from '../stats.js';
+import { sortLists } from '../listsort.js';
 import { t } from '../i18n.js';
 
 const UNFILED = 'Unfiled';
@@ -48,16 +49,20 @@ export function showFolders() {
 export function showFolder(name) {
   const view = screen();
   view.append(el('a', { href: '#/folders', class: 'back', text: t('folders.back') }));
-  // The + here files the new list in the folder you are standing in.
-  view.append(pageHead(name === UNFILED ? t('common.unfiled') : name,
-                       [newListLink(name === UNFILED ? null : name)]));
+  const newIn = name === UNFILED ? null : name;
   const lists = (grouped().find(([folder]) => folder === name) || [name, []])[1];
+  // The + here files the new list in the folder you are standing in. The
+  // sort control only appears once there is something to sort.
+  const actions = lists.length ? [sortSelect(), newListLink(newIn)] : [newListLink(newIn)];
+  view.append(pageHead(name === UNFILED ? t('common.unfiled') : name, actions));
   if (lists.length === 0) {
     view.append(el('p', { class: 'empty', text: t('folders.empty') }));
     return;
   }
-  for (const list of lists) {
-    const stats = listStats({ list, progress: store.getProgress(list.id), today: todayStr() });
+  const entries = sortLists(lists.map((list) => ({
+    list, stats: listStats({ list, progress: store.getProgress(list.id), today: todayStr() }),
+  })), listSort());
+  for (const { list, stats } of entries) {
     view.append(el('a', { class: 'listrow', href: `#/list/${list.id}` }, [
       el('div', {}, [
         el('span', { class: 'listname', text: list.name }),

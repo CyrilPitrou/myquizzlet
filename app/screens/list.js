@@ -1,6 +1,7 @@
 import { el, menu } from '../ui.js';
 import { store, screen, go, todayStr, ctx } from '../app.js';
 import { listStats } from '../stats.js';
+import { formatDate } from '../dates.js';
 import { toCsv } from '../csv.js';
 import { openImportDialog } from './importdialog.js';
 import { t } from '../i18n.js';
@@ -109,6 +110,7 @@ export function showList(id) {
   const list = store.getList(id);
   if (!list) return go('#/');
   const stats = listStats({ list, progress: store.getProgress(id), today: todayStr() });
+  const created = formatDate(list.createdAt);
 
   const view = screen();
   view.append(el('a', { href: '#/', class: 'back', text: t('common.back.lists') }));
@@ -116,6 +118,10 @@ export function showList(id) {
     el('h2', {}, [
       list.name,
       el('span', { class: 'listcount', text: ` — ${t('common.cards', { n: stats.cards })}` }),
+      // Lists made before the field existed have no date, and then there is
+      // nothing to show rather than an empty dash.
+      created ? el('span', { class: 'listcount', text: ` — ${t('list.created', { date: created })}` })
+              : '',
     ]),
     menu([
       { label: t('list.menu.rename'), onclick: () => renameList(list) },

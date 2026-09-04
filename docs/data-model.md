@@ -14,6 +14,7 @@ branch, meant to be read and edited by hand.
   "backLabel": "Français",
   "frontLang": "es",
   "backLang": "fr",
+  "createdAt": "2026-09-01",
   "updatedAt": "2026-09-01T14:03:00Z",
   "cards": [
     { "id": "k3f9", "front": "el pan", "back": "le pain" }
@@ -32,6 +33,12 @@ branch, meant to be read and edited by hand.
   `frontLabel` / `backLabel` by `app/langs.js` when you edit them in the app.
   Used to tune accent handling when grading. (Spoken pronunciation was
   considered and left out: the card model is text-only.)
+- `createdAt` — the day the list was made, a plain ISO day, stamped once and
+  never touched again: renaming a list or editing its cards does not make it
+  new. Shown on the list screen European-style, 03/09/2026, and one of the
+  three things the Lists screen can sort on. The lists that predate the field
+  were backfilled with `2026-09-03`; a list without it sorts as the oldest and
+  shows no date.
 - `cards[].id` — a short random string, **permanent for the life of the card**.
   Editing the text keeps the id, so progress survives a fixed typo. Changing an
   id silently resets what the app knows about that word.

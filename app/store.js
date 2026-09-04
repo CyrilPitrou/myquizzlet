@@ -64,8 +64,10 @@ export function createStore(storage, now = () => new Date()) {
     const base = slugify(name);
     let id = base;
     for (let n = 2; index().includes(id); n++) id = `${base}-${n}`;
+    // The day the list was made, kept as a plain ISO day and never touched
+    // again: renaming, editing or restudying a list does not make it new.
     return saveList({ id, name, folder, frontLabel, backLabel,
-                      frontLang, backLang, cards: [] });
+                      frontLang, backLang, createdAt: stamp().slice(0, 10), cards: [] });
   }
 
   function mutateCards(listId, fn) {
