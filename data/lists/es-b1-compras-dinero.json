@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-compras-dinero",
+  "name": "Las compras y el dinero",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "bupyu3",
+      "front": "la tienda",
+      "back": "le magasin"
+    },
+    {
+      "id": "rbsp32",
+      "front": "el comercio",
+      "back": "le commerce"
+    },
+    {
+      "id": "ta4z7a",
+      "front": "el supermercado",
+      "back": "le supermarché"
+    },
+    {
+      "id": "tlayxd",
+      "front": "el hipermercado",
+      "back": "l'hypermarché"
+    },
+    {
+      "id": "5lwmox",
+      "front": "la panadería",
+      "back": "la boulangerie"
+    },
+    {
+      "id": "qkhsea",
+      "front": "la pastelería",
+      "back": "la pâtisserie"
+    },
+    {
+      "id": "x09e41",
+      "front": "la carnicería",
+      "back": "la boucherie"
+    },
+    {
+      "id": "uy7oom",
+      "front": "la pescadería",
+      "back": "la poissonnerie"
+    },
+    {
+      "id": "4uhgid",
+      "front": "la frutería",
+      "back": "le magasin de fruits et légumes"
+    },
+    {
+      "id": "n591u6",
+      "front": "la papelería",
+      "back": "la papeterie"
+    },
+    {
+      "id": "e7706k",
+      "front": "la librería",
+      "back": "la librairie"
+    },
+    {
+      "id": "782dab",
+      "front": "la ferretería",
+      "back": "la quincaillerie"
+    },
+    {
+      "id": "8m9fs4",
+      "front": "la joyería",
+      "back": "la bijouterie"
+    },
+    {
+      "id": "dy8i8u",
+      "front": "la zapatería",
+      "back": "le magasin de chaussures"
+    },
+    {
+      "id": "bwcv9v",
+      "front": "los grandes almacenes",
+      "back": "les grands magasins"
+    },
+    {
+      "id": "ldc59u",
+      "front": "el centro comercial",
+      "back": "le centre commercial"
+    },
+    {
+      "id": "963xef",
+      "front": "el escaparate",
+      "back": "la vitrine"
+    },
+    {
+      "id": "eau27k",
+      "front": "el mostrador",
+      "back": "le comptoir"
+    },
+    {
+      "id": "nnv7t2",
+      "front": "la sección",
+      "back": "le rayon (section)"
+    },
+    {
+      "id": "7r0l5m",
+      "front": "el estante",
+      "back": "le rayon, la planche"
+    },
+    {
+      "id": "q2fo9f",
+      "front": "el carrito",
+      "back": "le caddie"
+    },
+    {
+      "id": "s5714g",
+      "front": "la cesta",
+      "back": "le panier"
+    },
+    {
+      "id": "oymmwt",
+      "front": "la caja",
+      "back": "la caisse"
+    },
+    {
+      "id": "8l9s4p",
+      "front": "el cajero",
+      "back": "le caissier"
+    },
+    {
+      "id": "iahag0",
+      "front": "la cola",
+      "back": "la file d'attente"
+    },
+    {
+      "id": "fp97vk",
+      "front": "el cliente",
+      "back": "le client"
+    },
+    {
+      "id": "x7yssk",
+      "front": "el vendedor",
+      "back": "le vendeur"
+    },
+    {
+      "id": "bnsecw",
+      "front": "el dependiente",
+      "back": "l'employé de magasin"
+    },
+    {
+      "id": "u88kjx",
+      "front": "el producto",
+      "back": "le produit"
+    },
+    {
+      "id": "r6bili",
+      "front": "la marca",
+      "back": "la marque"
+    },
+    {
+      "id": "zpywav",
+      "front": "el envase",
+      "back": "l'emballage"
+    },
+    {
+      "id": "5qgfeh",
+      "front": "la etiqueta",
+      "back": "l'étiquette"
+    },
+    {
+      "id": "vnrjqg",
+      "front": "la talla",
+      "back": "la taille (vêtement)"
+    },
+    {
+      "id": "50vgw7",
+      "front": "el número",
+      "back": "la pointure"
+    },
+    {
+      "id": "fhncr6",
+      "front": "el precio",
+      "back": "le prix"
+    },
+    {
+      "id": "s36h88",
+      "front": "la oferta",
+      "back": "la promotion"
+    },
+    {
+      "id": "gm9u5c",
+      "front": "las rebajas",
+      "back": "les soldes"
+    },
+    {
+      "id": "57h3sn",
+      "front": "el descuento",
+      "back": "la remise"
+    },
+    {
+      "id": "t81a12",
+      "front": "la ganga",
+      "back": "la bonne affaire"
+    },
+    {
+      "id": "l1x0ri",
+      "front": "la calidad",
+      "back": "la qualité"
+    },
+    {
+      "id": "x833ym",
+      "front": "la cantidad",
+      "back": "la quantité"
+    },
+    {
+      "id": "bjijyj",
+      "front": "el peso",
+      "back": "le poids"
+    },
+    {
+      "id": "w3rufo",
+      "front": "el kilo",
+      "back": "le kilo"
+    },
+    {
+      "id": "7adeyk",
+      "front": "el litro",
+      "back": "le litre"
+    },
+    {
+      "id": "j97uam",
+      "front": "la docena",
+      "back": "la douzaine"
+    },
+    {
+      "id": "yyj71v",
+      "front": "el paquete",
+      "back": "le paquet"
+    },
+    {
+      "id": "ekhr51",
+      "front": "la bolsa",
+      "back": "le sac"
+    },
+    {
+      "id": "mtgiwa",
+      "front": "el dinero",
+      "back": "l'argent"
+    },
+    {
+      "id": "z95a1h",
+      "front": "el efectivo",
+      "back": "les espèces"
+    },
+    {
+      "id": "d3zsj4",
+      "front": "el billete de banco",
+      "back": "le billet de banque"
+    },
+    {
+      "id": "qbbit1",
+      "front": "la moneda",
+      "back": "la pièce, la monnaie"
+    },
+    {
+      "id": "68l7bj",
+      "front": "el euro",
+      "back": "l'euro"
+    },
+    {
+      "id": "9tlxmv",
+      "front": "el cambio",
+      "back": "la monnaie rendue"
+    },
+    {
+      "id": "qpi8vl",
+      "front": "la tarjeta de crédito",
+      "back": "la carte de crédit"
+    },
+    {
+      "id": "taewb8",
+      "front": "la tarjeta de débito",
+      "back": "la carte de paiement"
+    },
+    {
+      "id": "dt62ik",
+      "front": "el cajero automático",
+      "back": "le distributeur automatique"
+    },
+    {
+      "id": "eazkcf",
+      "front": "la cuenta bancaria",
+      "back": "le compte bancaire"
+    },
+    {
+      "id": "x9zeg1",
+      "front": "el ahorro",
+      "back": "l'épargne"
+    },
+    {
+      "id": "uqgqt4",
+      "front": "el préstamo",
+      "back": "le prêt"
+    },
+    {
+      "id": "tgq6v6",
+      "front": "la deuda",
+      "back": "la dette"
+    },
+    {
+      "id": "r6t713",
+      "front": "el crédito",
+      "back": "le crédit"
+    },
+    {
+      "id": "9h0jr2",
+      "front": "el interés",
+      "back": "l'intérêt"
+    },
+    {
+      "id": "te9ek7",
+      "front": "la transferencia",
+      "back": "le virement"
+    },
+    {
+      "id": "v184tr",
+      "front": "el recibo",
+      "back": "le reçu"
+    },
+    {
+      "id": "209ssm",
+      "front": "la factura",
+      "back": "la facture"
+    },
+    {
+      "id": "d7ezcv",
+      "front": "el ticket",
+      "back": "le ticket de caisse"
+    },
+    {
+      "id": "36a0oc",
+      "front": "la garantía",
+      "back": "la garantie"
+    },
+    {
+      "id": "p6dym5",
+      "front": "la devolución",
+      "back": "le retour, le remboursement"
+    },
+    {
+      "id": "tdrhg7",
+      "front": "la queja",
+      "back": "la réclamation"
+    },
+    {
+      "id": "cynfxg",
+      "front": "el impuesto",
+      "back": "l'impôt, la taxe"
+    },
+    {
+      "id": "ufyqtt",
+      "front": "el presupuesto",
+      "back": "le budget, le devis"
+    },
+    {
+      "id": "7ecdiw",
+      "front": "el gasto",
+      "back": "la dépense"
+    },
+    {
+      "id": "r4k8wl",
+      "front": "el ingreso",
+      "back": "le revenu, le versement"
+    },
+    {
+      "id": "1ya663",
+      "front": "el sueldo",
+      "back": "le salaire"
+    },
+    {
+      "id": "qxja1s",
+      "front": "el precio fijo",
+      "back": "le prix fixe"
+    },
+    {
+      "id": "sw7ep2",
+      "front": "comprar",
+      "back": "acheter"
+    },
+    {
+      "id": "wv97vz",
+      "front": "vender",
+      "back": "vendre"
+    },
+    {
+      "id": "w5bvlc",
+      "front": "pagar",
+      "back": "payer"
+    },
+    {
+      "id": "nopb18",
+      "front": "cobrar",
+      "back": "encaisser, toucher"
+    },
+    {
+      "id": "utt97j",
+      "front": "gastar",
+      "back": "dépenser"
+    },
+    {
+      "id": "hnc5gk",
+      "front": "ahorrar",
+      "back": "économiser"
+    },
+    {
+      "id": "xqvsfv",
+      "front": "deber",
+      "back": "devoir (de l'argent)"
+    },
+    {
+      "id": "8hqhqg",
+      "front": "prestar",
+      "back": "prêter"
+    },
+    {
+      "id": "dglkgi",
+      "front": "pedir prestado",
+      "back": "emprunter"
+    },
+    {
+      "id": "7uy8b9",
+      "front": "devolver",
+      "back": "rendre, retourner"
+    },
+    {
+      "id": "fhilii",
+      "front": "cambiar",
+      "back": "échanger"
+    },
+    {
+      "id": "iosom0",
+      "front": "probarse",
+      "back": "essayer (un vêtement)"
+    },
+    {
+      "id": "kjyeiw",
+      "front": "elegir",
+      "back": "choisir"
+    },
+    {
+      "id": "xneda3",
+      "front": "regatear",
+      "back": "marchander"
+    },
+    {
+      "id": "fj2p0e",
+      "front": "costar",
+      "back": "coûter"
+    },
+    {
+      "id": "46zv8p",
+      "front": "valer",
+      "back": "valoir"
+    },
+    {
+      "id": "fa2ceq",
+      "front": "sacar dinero",
+      "back": "retirer de l'argent"
+    },
+    {
+      "id": "5c0h79",
+      "front": "ingresar dinero",
+      "back": "déposer de l'argent"
+    },
+    {
+      "id": "w85in5",
+      "front": "firmar",
+      "back": "signer"
+    },
+    {
+      "id": "rbykp6",
+      "front": "caro",
+      "back": "cher"
+    },
+    {
+      "id": "2a00uv",
+      "front": "barato",
+      "back": "bon marché"
+    },
+    {
+      "id": "xs6v05",
+      "front": "gratis",
+      "back": "gratuit"
+    },
+    {
+      "id": "3cs1n2",
+      "front": "de segunda mano",
+      "back": "d'occasion"
+    },
+    {
+      "id": "bnzf89",
+      "front": "estar en oferta",
+      "back": "être en promotion"
+    },
+    {
+      "id": "ej8b3h",
+      "front": "sin cambio",
+      "back": "sans monnaie"
+    }
+  ]
+}
