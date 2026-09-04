@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-politics-1",
+  "name": "Politics and Power 1",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "yh8cbs",
+      "front": "a mandate",
+      "back": "un mandat"
+    },
+    {
+      "id": "dnnfwz",
+      "front": "a bill",
+      "back": "un projet de loi"
+    },
+    {
+      "id": "rdvbyp",
+      "front": "to enact",
+      "back": "promulguer, adopter (une loi)"
+    },
+    {
+      "id": "6y64nd",
+      "front": "to repeal",
+      "back": "abroger"
+    },
+    {
+      "id": "w4y88a",
+      "front": "an amendment",
+      "back": "un amendement"
+    },
+    {
+      "id": "hb91yu",
+      "front": "a statute",
+      "back": "une loi, un texte législatif"
+    },
+    {
+      "id": "1a9cte",
+      "front": "the legislature",
+      "back": "le pouvoir législatif, l'assemblée"
+    },
+    {
+      "id": "qoxa99",
+      "front": "the executive",
+      "back": "le pouvoir exécutif"
+    },
+    {
+      "id": "k21n23",
+      "front": "the judiciary",
+      "back": "le pouvoir judiciaire"
+    },
+    {
+      "id": "tgktkv",
+      "front": "a coalition",
+      "back": "une coalition"
+    },
+    {
+      "id": "499bzm",
+      "front": "a caucus",
+      "back": "un groupe parlementaire, un caucus"
+    },
+    {
+      "id": "yacn14",
+      "front": "a backbencher",
+      "back": "un député de base, un simple député"
+    },
+    {
+      "id": "k8fzku",
+      "front": "a frontbencher",
+      "back": "un député du banc ministériel"
+    },
+    {
+      "id": "tnqtq8",
+      "front": "the whip",
+      "back": "le chef de file (discipline de vote)"
+    },
+    {
+      "id": "bb251z",
+      "front": "to whip a vote",
+      "back": "imposer la discipline de vote"
+    },
+    {
+      "id": "h16ohn",
+      "front": "a free vote",
+      "back": "un vote libre, sans consigne"
+    },
+    {
+      "id": "o1y07j",
+      "front": "to table a motion",
+      "back": "déposer une motion"
+    },
+    {
+      "id": "86od8u",
+      "front": "a motion of no confidence",
+      "back": "une motion de censure"
+    },
+    {
+      "id": "ficikf",
+      "front": "to filibuster",
+      "back": "faire de l'obstruction parlementaire"
+    },
+    {
+      "id": "t1xcsr",
+      "front": "a quorum",
+      "back": "un quorum"
+    },
+    {
+      "id": "a0btap",
+      "front": "a referendum",
+      "back": "un référendum"
+    },
+    {
+      "id": "ngq8w5",
+      "front": "turnout",
+      "back": "le taux de participation"
+    },
+    {
+      "id": "cbe3ip",
+      "front": "a swing",
+      "back": "un basculement électoral, un report de voix"
+    },
+    {
+      "id": "ry9csx",
+      "front": "a constituency",
+      "back": "une circonscription"
+    },
+    {
+      "id": "4z8afo",
+      "front": "a marginal seat",
+      "back": "une circonscription disputée"
+    },
+    {
+      "id": "iysunh",
+      "front": "a landslide",
+      "back": "un raz-de-marée électoral"
+    },
+    {
+      "id": "ja1u1t",
+      "front": "an incumbent",
+      "back": "le sortant, le titulaire du poste"
+    },
+    {
+      "id": "x5agiz",
+      "front": "a challenger",
+      "back": "un adversaire, un candidat rival"
+    },
+    {
+      "id": "el06pm",
+      "front": "to unseat",
+      "back": "faire perdre son siège à, déloger"
+    },
+    {
+      "id": "fvq8wj",
+      "front": "to concede",
+      "back": "reconnaître sa défaite"
+    },
+    {
+      "id": "kgtvpx",
+      "front": "gerrymandering",
+      "back": "le découpage électoral partisan"
+    },
+    {
+      "id": "i5fbpw",
+      "front": "a franchise",
+      "back": "le droit de vote, le suffrage"
+    },
+    {
+      "id": "taolsa",
+      "front": "disenfranchisement",
+      "back": "la privation du droit de vote"
+    },
+    {
+      "id": "m2spid",
+      "front": "to canvass",
+      "back": "faire campagne, démarcher les électeurs"
+    },
+    {
+      "id": "hw3z9i",
+      "front": "a stump speech",
+      "back": "un discours de campagne type"
+    },
+    {
+      "id": "8tbugc",
+      "front": "a manifesto",
+      "back": "un programme électoral"
+    },
+    {
+      "id": "wk383s",
+      "front": "a pledge",
+      "back": "un engagement, une promesse"
+    },
+    {
+      "id": "hhpmem",
+      "front": "to renege on",
+      "back": "revenir sur, manquer à"
+    },
+    {
+      "id": "j9frbe",
+      "front": "a U-turn",
+      "back": "un revirement, un rétropédalage"
+    },
+    {
+      "id": "q7xbsm",
+      "front": "to lobby",
+      "back": "faire du lobbying, exercer des pressions"
+    },
+    {
+      "id": "651ys3",
+      "front": "a lobbyist",
+      "back": "un lobbyiste"
+    },
+    {
+      "id": "x31h1q",
+      "front": "a vested interest",
+      "back": "un intérêt particulier, un intérêt acquis"
+    },
+    {
+      "id": "0i4nfo",
+      "front": "a conflict of interest",
+      "back": "un conflit d'intérêts"
+    },
+    {
+      "id": "j54w99",
+      "front": "patronage",
+      "back": "le clientélisme, le favoritisme"
+    },
+    {
+      "id": "fp3x0h",
+      "front": "cronyism",
+      "back": "le copinage"
+    },
+    {
+      "id": "pkd9df",
+      "front": "graft",
+      "back": "la corruption, les pots-de-vin"
+    },
+    {
+      "id": "qw5s1h",
+      "front": "a kickback",
+      "back": "un dessous-de-table, une rétrocommission"
+    },
+    {
+      "id": "3fm6mp",
+      "front": "to embezzle",
+      "back": "détourner des fonds"
+    },
+    {
+      "id": "joc78l",
+      "front": "a scandal broke",
+      "back": "un scandale a éclaté"
+    },
+    {
+      "id": "0uthyo",
+      "front": "a cover-up",
+      "back": "un étouffement, une dissimulation"
+    },
+    {
+      "id": "ir8bgg",
+      "front": "a whistleblower",
+      "back": "un lanceur d'alerte"
+    },
+    {
+      "id": "475dmw",
+      "front": "to resign in disgrace",
+      "back": "démissionner en disgrâce"
+    },
+    {
+      "id": "aa5mu6",
+      "front": "a reshuffle",
+      "back": "un remaniement"
+    },
+    {
+      "id": "t8rpmv",
+      "front": "a cabinet",
+      "back": "un conseil des ministres, un cabinet"
+    },
+    {
+      "id": "ctcfww",
+      "front": "a portfolio",
+      "back": "un portefeuille ministériel"
+    },
+    {
+      "id": "ym0rq8",
+      "front": "a civil servant",
+      "back": "un fonctionnaire"
+    },
+    {
+      "id": "c0f7d4",
+      "front": "the bureaucracy",
+      "back": "la bureaucratie, l'administration"
+    },
+    {
+      "id": "2lg3rw",
+      "front": "red tape",
+      "back": "la paperasserie, les lourdeurs administratives"
+    },
+    {
+      "id": "g5iw0z",
+      "front": "a mandarin",
+      "back": "un haut fonctionnaire"
+    },
+    {
+      "id": "prdeze",
+      "front": "a think tank",
+      "back": "un groupe de réflexion"
+    },
+    {
+      "id": "lcfggn",
+      "front": "a policy platform",
+      "back": "une plateforme programmatique"
+    },
+    {
+      "id": "a9rc1s",
+      "front": "a white paper",
+      "back": "un livre blanc"
+    },
+    {
+      "id": "p91d7z",
+      "front": "a green paper",
+      "back": "un document de consultation"
+    },
+    {
+      "id": "cb5omz",
+      "front": "to consult",
+      "back": "consulter, mener une consultation"
+    },
+    {
+      "id": "oi7dwh",
+      "front": "a stakeholder",
+      "back": "une partie prenante"
+    },
+    {
+      "id": "rojqz9",
+      "front": "devolution",
+      "back": "la décentralisation, la dévolution des pouvoirs"
+    },
+    {
+      "id": "0xpvmu",
+      "front": "subsidiarity",
+      "back": "la subsidiarité"
+    },
+    {
+      "id": "m5gba6",
+      "front": "a federal system",
+      "back": "un système fédéral"
+    },
+    {
+      "id": "5aw15f",
+      "front": "a unitary state",
+      "back": "un État unitaire"
+    },
+    {
+      "id": "l5giwn",
+      "front": "sovereignty",
+      "back": "la souveraineté"
+    },
+    {
+      "id": "ou1wto",
+      "front": "separation of powers",
+      "back": "la séparation des pouvoirs"
+    },
+    {
+      "id": "lbjs20",
+      "front": "checks and balances",
+      "back": "les contrepoids institutionnels"
+    },
+    {
+      "id": "gcce7v",
+      "front": "to veto",
+      "back": "opposer son veto à"
+    },
+    {
+      "id": "d5i842",
+      "front": "an executive order",
+      "back": "un décret présidentiel"
+    },
+    {
+      "id": "a4toxj",
+      "front": "to impeach",
+      "back": "destituer, mettre en accusation"
+    },
+    {
+      "id": "a4hkbp",
+      "front": "a term limit",
+      "back": "une limitation du nombre de mandats"
+    },
+    {
+      "id": "0n24eo",
+      "front": "a caretaker government",
+      "back": "un gouvernement intérimaire"
+    },
+    {
+      "id": "sbhvui",
+      "front": "a snap election",
+      "back": "une élection anticipée"
+    },
+    {
+      "id": "366s34",
+      "front": "to dissolve parliament",
+      "back": "dissoudre le parlement"
+    },
+    {
+      "id": "nbauo7",
+      "front": "a hung parliament",
+      "back": "un parlement sans majorité"
+    },
+    {
+      "id": "tdrsms",
+      "front": "a confidence and supply deal",
+      "back": "un accord de soutien sans participation"
+    },
+    {
+      "id": "jqzkcc",
+      "front": "a power-sharing agreement",
+      "back": "un accord de partage du pouvoir"
+    },
+    {
+      "id": "ask6sn",
+      "front": "the opposition benches",
+      "back": "les bancs de l'opposition"
+    },
+    {
+      "id": "4we08x",
+      "front": "a shadow minister",
+      "back": "un ministre du cabinet fantôme"
+    },
+    {
+      "id": "khh41d",
+      "front": "a rebellion",
+      "back": "une fronde, une rébellion parlementaire"
+    },
+    {
+      "id": "4hjxke",
+      "front": "to defect",
+      "back": "faire défection, changer de parti"
+    },
+    {
+      "id": "q5h820",
+      "front": "a splinter group",
+      "back": "un groupe dissident"
+    },
+    {
+      "id": "37hctm",
+      "front": "the grassroots",
+      "back": "la base militante"
+    },
+    {
+      "id": "y82l8z",
+      "front": "the rank and file",
+      "back": "la base, les militants ordinaires"
+    },
+    {
+      "id": "ol35pp",
+      "front": "a party line",
+      "back": "la ligne du parti"
+    },
+    {
+      "id": "9k5jz0",
+      "front": "to toe the line",
+      "back": "se conformer à la ligne"
+    },
+    {
+      "id": "6r0mb9",
+      "front": "to grandstand",
+      "back": "faire de l'esbroufe, jouer la galerie"
+    },
+    {
+      "id": "qbq3nf",
+      "front": "a soundbite",
+      "back": "une petite phrase, un extrait choc"
+    },
+    {
+      "id": "04ft7p",
+      "front": "spin",
+      "back": "la communication orientée, l'enrobage"
+    },
+    {
+      "id": "3z4c3m",
+      "front": "a spin doctor",
+      "back": "un conseiller en communication"
+    },
+    {
+      "id": "xuoeet",
+      "front": "to court controversy",
+      "back": "rechercher la polémique"
+    },
+    {
+      "id": "xjqby9",
+      "front": "approval ratings",
+      "back": "la cote de popularité"
+    },
+    {
+      "id": "z465jv",
+      "front": "a lame duck",
+      "back": "un dirigeant en fin de mandat sans pouvoir"
+    },
+    {
+      "id": "l68ll7",
+      "front": "a bellwether",
+      "back": "un indicateur de tendance, un baromètre"
+    },
+    {
+      "id": "3iivw6",
+      "front": "statecraft",
+      "back": "l'art de gouverner"
+    }
+  ]
+}
