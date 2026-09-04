@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-politics-2",
+  "name": "Politics and Power 2",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "nrk2bk",
+      "front": "hegemony",
+      "back": "l'hégémonie"
+    },
+    {
+      "id": "pejglp",
+      "front": "a demagogue",
+      "back": "un démagogue"
+    },
+    {
+      "id": "58y0m2",
+      "front": "realpolitik",
+      "back": "la realpolitik"
+    },
+    {
+      "id": "47hk9i",
+      "front": "a plebiscite",
+      "back": "un plébiscite"
+    },
+    {
+      "id": "mfgpbt",
+      "front": "irredentism",
+      "back": "l'irrédentisme"
+    },
+    {
+      "id": "9klwcx",
+      "front": "an oligarchy",
+      "back": "une oligarchie"
+    },
+    {
+      "id": "bd9yc8",
+      "front": "a plutocracy",
+      "back": "une ploutocratie"
+    },
+    {
+      "id": "0pqz5p",
+      "front": "a technocracy",
+      "back": "une technocratie"
+    },
+    {
+      "id": "chsj6t",
+      "front": "a kleptocracy",
+      "back": "une kleptocratie"
+    },
+    {
+      "id": "bdeq0o",
+      "front": "a gerontocracy",
+      "back": "une gérontocratie"
+    },
+    {
+      "id": "isdq5h",
+      "front": "autocracy",
+      "back": "l'autocratie"
+    },
+    {
+      "id": "e7ugyu",
+      "front": "an autarky",
+      "back": "une autarcie"
+    },
+    {
+      "id": "jdxtu2",
+      "front": "a satrap",
+      "back": "un satrape, un gouverneur fantoche"
+    },
+    {
+      "id": "xxib6t",
+      "front": "a suzerain",
+      "back": "un suzerain"
+    },
+    {
+      "id": "itt12p",
+      "front": "a polity",
+      "back": "une entité politique, un corps politique"
+    },
+    {
+      "id": "m3lnka",
+      "front": "the body politic",
+      "back": "le corps politique"
+    },
+    {
+      "id": "ueaz5c",
+      "front": "the commonweal",
+      "back": "le bien commun, l'intérêt général"
+    },
+    {
+      "id": "xmt2oz",
+      "front": "res publica",
+      "back": "la chose publique"
+    },
+    {
+      "id": "118446",
+      "front": "a leviathan",
+      "back": "un Léviathan, un État tout-puissant"
+    },
+    {
+      "id": "kswc20",
+      "front": "the social contract",
+      "back": "le contrat social"
+    },
+    {
+      "id": "kadvln",
+      "front": "popular sovereignty",
+      "back": "la souveraineté populaire"
+    },
+    {
+      "id": "d7p3kh",
+      "front": "the general will",
+      "back": "la volonté générale"
+    },
+    {
+      "id": "cwxip1",
+      "front": "legitimacy",
+      "back": "la légitimité"
+    },
+    {
+      "id": "6g14ti",
+      "front": "a mandate of heaven",
+      "back": "le mandat céleste"
+    },
+    {
+      "id": "xqy21s",
+      "front": "divine right",
+      "back": "le droit divin"
+    },
+    {
+      "id": "nzogh0",
+      "front": "absolutism",
+      "back": "l'absolutisme"
+    },
+    {
+      "id": "vuu1zm",
+      "front": "constitutionalism",
+      "back": "le constitutionnalisme"
+    },
+    {
+      "id": "e6o0x5",
+      "front": "republicanism",
+      "back": "le républicanisme"
+    },
+    {
+      "id": "ei3x9e",
+      "front": "corporatism",
+      "back": "le corporatisme"
+    },
+    {
+      "id": "dk5q5g",
+      "front": "syndicalism",
+      "back": "le syndicalisme révolutionnaire"
+    },
+    {
+      "id": "pltokv",
+      "front": "anarcho-syndicalism",
+      "back": "l'anarcho-syndicalisme"
+    },
+    {
+      "id": "32pji3",
+      "front": "Bonapartism",
+      "back": "le bonapartisme"
+    },
+    {
+      "id": "5ddu3b",
+      "front": "Caesarism",
+      "back": "le césarisme"
+    },
+    {
+      "id": "xiyas1",
+      "front": "Jacobinism",
+      "back": "le jacobinisme"
+    },
+    {
+      "id": "ubnx2c",
+      "front": "Girondism",
+      "back": "le girondisme"
+    },
+    {
+      "id": "8vcrwu",
+      "front": "Thermidor",
+      "back": "la réaction thermidorienne"
+    },
+    {
+      "id": "ltyayw",
+      "front": "a vanguard party",
+      "back": "un parti d'avant-garde"
+    },
+    {
+      "id": "8uimmn",
+      "front": "democratic centralism",
+      "back": "le centralisme démocratique"
+    },
+    {
+      "id": "lrvzti",
+      "front": "a cadre",
+      "back": "un cadre du parti"
+    },
+    {
+      "id": "bp5o9q",
+      "front": "a fellow traveller",
+      "back": "un compagnon de route"
+    },
+    {
+      "id": "yz1cl7",
+      "front": "an apparatchik",
+      "back": "un apparatchik"
+    },
+    {
+      "id": "876ah9",
+      "front": "the nomenklatura",
+      "back": "la nomenklatura"
+    },
+    {
+      "id": "2uw0m3",
+      "front": "a purge",
+      "back": "une purge, une épuration"
+    },
+    {
+      "id": "gkginz",
+      "front": "a show trial",
+      "back": "un procès-spectacle"
+    },
+    {
+      "id": "x9aoi0",
+      "front": "a cult of personality",
+      "back": "un culte de la personnalité"
+    },
+    {
+      "id": "3berhh",
+      "front": "a strongman",
+      "back": "un homme fort, un dirigeant autoritaire"
+    },
+    {
+      "id": "4p5y6s",
+      "front": "a junta",
+      "back": "une junte"
+    },
+    {
+      "id": "b72tzk",
+      "front": "a coup d'état",
+      "back": "un coup d'État"
+    },
+    {
+      "id": "ldrcas",
+      "front": "a putsch",
+      "back": "un putsch"
+    },
+    {
+      "id": "avk53v",
+      "front": "an interregnum",
+      "back": "un interrègne"
+    },
+    {
+      "id": "36ofjh",
+      "front": "a regency",
+      "back": "une régence"
+    },
+    {
+      "id": "cp8wkj",
+      "front": "an usurper",
+      "back": "un usurpateur"
+    },
+    {
+      "id": "ooqt34",
+      "front": "a pretender",
+      "back": "un prétendant au trône"
+    },
+    {
+      "id": "yjl3sr",
+      "front": "a quisling",
+      "back": "un collaborateur, un traître"
+    },
+    {
+      "id": "kpp2zf",
+      "front": "a fifth column",
+      "back": "une cinquième colonne"
+    },
+    {
+      "id": "ceuvbv",
+      "front": "a bulwark",
+      "back": "un rempart, un bastion"
+    },
+    {
+      "id": "lenpmm",
+      "front": "a citadel",
+      "back": "une citadelle, un bastion"
+    },
+    {
+      "id": "jeq4jh",
+      "front": "an enclave",
+      "back": "une enclave"
+    },
+    {
+      "id": "9n26zm",
+      "front": "an exclave",
+      "back": "une exclave"
+    },
+    {
+      "id": "8xwoak",
+      "front": "a protectorate",
+      "back": "un protectorat"
+    },
+    {
+      "id": "6pt4b3",
+      "front": "a mandate territory",
+      "back": "un territoire sous mandat"
+    },
+    {
+      "id": "gi6xod",
+      "front": "a client state",
+      "back": "un État client"
+    },
+    {
+      "id": "fvrji9",
+      "front": "a buffer state",
+      "back": "un État tampon"
+    },
+    {
+      "id": "jdgdyg",
+      "front": "a rogue state",
+      "back": "un État voyou"
+    },
+    {
+      "id": "rcp8pj",
+      "front": "a failed state",
+      "back": "un État failli"
+    },
+    {
+      "id": "p7p1fm",
+      "front": "Balkanisation",
+      "back": "la balkanisation"
+    },
+    {
+      "id": "b0oreu",
+      "front": "partition",
+      "back": "la partition, le partage"
+    },
+    {
+      "id": "vmzmll",
+      "front": "secession",
+      "back": "la sécession"
+    },
+    {
+      "id": "7jcx3j",
+      "front": "self-determination",
+      "back": "l'autodétermination"
+    },
+    {
+      "id": "972sta",
+      "front": "autonomy",
+      "back": "l'autonomie"
+    },
+    {
+      "id": "bira93",
+      "front": "revanchism",
+      "back": "le revanchisme"
+    },
+    {
+      "id": "4jqjdc",
+      "front": "chauvinism",
+      "back": "le chauvinisme"
+    },
+    {
+      "id": "u3dbsw",
+      "front": "jingoism",
+      "back": "le chauvinisme belliqueux"
+    },
+    {
+      "id": "l0ynyr",
+      "front": "nativism",
+      "back": "le nativisme"
+    },
+    {
+      "id": "zllkl7",
+      "front": "xenophobia",
+      "back": "la xénophobie"
+    },
+    {
+      "id": "j1wha3",
+      "front": "populism",
+      "back": "le populisme"
+    },
+    {
+      "id": "9c8wq0",
+      "front": "demagoguery",
+      "back": "la démagogie"
+    },
+    {
+      "id": "zbygro",
+      "front": "rabble-rousing",
+      "back": "l'agitation populaire, la démagogie"
+    },
+    {
+      "id": "pc5t1u",
+      "front": "a firebrand",
+      "back": "un agitateur, un tribun enflammé"
+    },
+    {
+      "id": "i2fgi9",
+      "front": "a tribune",
+      "back": "un tribun (du peuple)"
+    },
+    {
+      "id": "zwqm0j",
+      "front": "an ideologue",
+      "back": "un idéologue"
+    },
+    {
+      "id": "xl4dqi",
+      "front": "a doctrinaire",
+      "back": "un doctrinaire"
+    },
+    {
+      "id": "i00n9w",
+      "front": "dogmatism",
+      "back": "le dogmatisme"
+    },
+    {
+      "id": "dbd7wj",
+      "front": "sectarianism",
+      "back": "le sectarisme"
+    },
+    {
+      "id": "hu8fsk",
+      "front": "factionalism",
+      "back": "le factionnalisme, les luttes de factions"
+    },
+    {
+      "id": "7sd6nc",
+      "front": "schism",
+      "back": "le schisme, la scission"
+    },
+    {
+      "id": "rokzks",
+      "front": "heterodoxy",
+      "back": "l'hétérodoxie"
+    },
+    {
+      "id": "7gu280",
+      "front": "a shibboleth",
+      "back": "un signe de ralliement, un mot de passe identitaire"
+    },
+    {
+      "id": "5shtcq",
+      "front": "a bugbear",
+      "back": "une bête noire, un épouvantail"
+    },
+    {
+      "id": "utmxut",
+      "front": "a canard",
+      "back": "un bobard, une fausse rumeur"
+    },
+    {
+      "id": "8fx0s2",
+      "front": "calumny",
+      "back": "la calomnie"
+    },
+    {
+      "id": "hm955a",
+      "front": "invective",
+      "back": "l'invective"
+    },
+    {
+      "id": "m4txv6",
+      "front": "vituperation",
+      "back": "les vitupérations, les injures"
+    },
+    {
+      "id": "h84dmx",
+      "front": "a polemic",
+      "back": "une polémique, un pamphlet"
+    },
+    {
+      "id": "kfhe1x",
+      "front": "a jeremiad",
+      "back": "une jérémiade, une lamentation"
+    },
+    {
+      "id": "x7urup",
+      "front": "a diatribe",
+      "back": "une diatribe"
+    },
+    {
+      "id": "c0vwv5",
+      "front": "opprobrium",
+      "back": "l'opprobre"
+    },
+    {
+      "id": "zwioz8",
+      "front": "perfidy",
+      "back": "la perfidie"
+    },
+    {
+      "id": "lbilr3",
+      "front": "venality",
+      "back": "la vénalité"
+    },
+    {
+      "id": "zrzxyb",
+      "front": "sedition",
+      "back": "la sédition"
+    }
+  ]
+}
