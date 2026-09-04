@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-cinema-music-entertainment",
+  "name": "Cinema, Music and Entertainment",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "8ec790",
+      "front": "the cinema",
+      "back": "le cinéma"
+    },
+    {
+      "id": "f331c2",
+      "front": "a film",
+      "back": "un film"
+    },
+    {
+      "id": "4521f0",
+      "front": "a feature film",
+      "back": "un long métrage"
+    },
+    {
+      "id": "45a879",
+      "front": "a short film",
+      "back": "un court métrage"
+    },
+    {
+      "id": "ce60e1",
+      "front": "a documentary",
+      "back": "un documentaire"
+    },
+    {
+      "id": "4e6f9a",
+      "front": "an animated film",
+      "back": "un film d'animation"
+    },
+    {
+      "id": "ed0b73",
+      "front": "a blockbuster",
+      "back": "un film à gros succès"
+    },
+    {
+      "id": "576afe",
+      "front": "a sequel",
+      "back": "une suite"
+    },
+    {
+      "id": "ddf022",
+      "front": "a prequel",
+      "back": "une préquelle"
+    },
+    {
+      "id": "264cac",
+      "front": "a remake",
+      "back": "un remake"
+    },
+    {
+      "id": "676253",
+      "front": "a trilogy",
+      "back": "une trilogie"
+    },
+    {
+      "id": "f68357",
+      "front": "a film screening",
+      "back": "une projection"
+    },
+    {
+      "id": "92f7a7",
+      "front": "a première",
+      "back": "une avant-première"
+    },
+    {
+      "id": "65c2f4",
+      "front": "the box office",
+      "back": "le box-office, les recettes"
+    },
+    {
+      "id": "94b2e4",
+      "front": "a director",
+      "back": "un réalisateur"
+    },
+    {
+      "id": "b9d6b0",
+      "front": "a producer",
+      "back": "un producteur"
+    },
+    {
+      "id": "d5c251",
+      "front": "a screenwriter",
+      "back": "un scénariste"
+    },
+    {
+      "id": "7d514a",
+      "front": "a screenplay",
+      "back": "un scénario"
+    },
+    {
+      "id": "4800bb",
+      "front": "a script",
+      "back": "un script, un texte"
+    },
+    {
+      "id": "5b8211",
+      "front": "a cast",
+      "back": "une distribution"
+    },
+    {
+      "id": "1b1198",
+      "front": "casting",
+      "back": "le casting"
+    },
+    {
+      "id": "6af0cc",
+      "front": "a leading role",
+      "back": "un rôle principal"
+    },
+    {
+      "id": "fb215c",
+      "front": "a supporting role",
+      "back": "un second rôle"
+    },
+    {
+      "id": "c48071",
+      "front": "a cameo",
+      "back": "une apparition éclair"
+    },
+    {
+      "id": "e44984",
+      "front": "an extra",
+      "back": "un figurant"
+    },
+    {
+      "id": "af5e44",
+      "front": "a stunt",
+      "back": "une cascade"
+    },
+    {
+      "id": "8ff0ab",
+      "front": "a double",
+      "back": "une doublure"
+    },
+    {
+      "id": "7183fc",
+      "front": "a soundtrack",
+      "back": "une bande sonore"
+    },
+    {
+      "id": "baf5ac",
+      "front": "a score",
+      "back": "une musique de film"
+    },
+    {
+      "id": "904bd9",
+      "front": "dubbing",
+      "back": "le doublage"
+    },
+    {
+      "id": "d49d52",
+      "front": "subtitles",
+      "back": "les sous-titres"
+    },
+    {
+      "id": "948310",
+      "front": "a voice-over",
+      "back": "une voix off"
+    },
+    {
+      "id": "dafcdc",
+      "front": "cinematography",
+      "back": "la photographie de film"
+    },
+    {
+      "id": "21c517",
+      "front": "a shot",
+      "back": "un plan"
+    },
+    {
+      "id": "f03d2c",
+      "front": "a close-up",
+      "back": "un gros plan"
+    },
+    {
+      "id": "952f20",
+      "front": "a long shot",
+      "back": "un plan d'ensemble"
+    },
+    {
+      "id": "09b269",
+      "front": "an angle",
+      "back": "un angle de prise de vue"
+    },
+    {
+      "id": "c6f7e6",
+      "front": "framing",
+      "back": "le cadrage"
+    },
+    {
+      "id": "ffe722",
+      "front": "editing",
+      "back": "le montage"
+    },
+    {
+      "id": "bdcd48",
+      "front": "a cut",
+      "back": "une coupe"
+    },
+    {
+      "id": "bf84ba",
+      "front": "a scene",
+      "back": "une scène"
+    },
+    {
+      "id": "43db3e",
+      "front": "a sequence",
+      "back": "une séquence"
+    },
+    {
+      "id": "887f21",
+      "front": "a take",
+      "back": "une prise"
+    },
+    {
+      "id": "c098c1",
+      "front": "a set",
+      "back": "un plateau, un décor"
+    },
+    {
+      "id": "73faf3",
+      "front": "props",
+      "back": "les accessoires"
+    },
+    {
+      "id": "28adb8",
+      "front": "a costume",
+      "back": "un costume"
+    },
+    {
+      "id": "52c229",
+      "front": "lighting",
+      "back": "l'éclairage"
+    },
+    {
+      "id": "502358",
+      "front": "special effects",
+      "back": "les effets spéciaux"
+    },
+    {
+      "id": "1216c8",
+      "front": "a trailer",
+      "back": "une bande-annonce"
+    },
+    {
+      "id": "66d1e7",
+      "front": "the credits",
+      "back": "le générique"
+    },
+    {
+      "id": "c655da",
+      "front": "music",
+      "back": "la musique"
+    },
+    {
+      "id": "14a831",
+      "front": "a composer",
+      "back": "un compositeur"
+    },
+    {
+      "id": "85b448",
+      "front": "a conductor",
+      "back": "un chef d'orchestre"
+    },
+    {
+      "id": "51ea55",
+      "front": "an orchestra",
+      "back": "un orchestre"
+    },
+    {
+      "id": "229313",
+      "front": "a choir",
+      "back": "une chorale"
+    },
+    {
+      "id": "f6a08c",
+      "front": "a soloist",
+      "back": "un soliste"
+    },
+    {
+      "id": "7bce15",
+      "front": "a symphony",
+      "back": "une symphonie"
+    },
+    {
+      "id": "56b500",
+      "front": "a concerto",
+      "back": "un concerto"
+    },
+    {
+      "id": "aa3fec",
+      "front": "an opera",
+      "back": "un opéra"
+    },
+    {
+      "id": "170540",
+      "front": "an aria",
+      "back": "un air d'opéra"
+    },
+    {
+      "id": "24ff56",
+      "front": "a chamber ensemble",
+      "back": "un ensemble de musique de chambre"
+    },
+    {
+      "id": "bec995",
+      "front": "a melody",
+      "back": "une mélodie"
+    },
+    {
+      "id": "00c10c",
+      "front": "a harmony",
+      "back": "une harmonie"
+    },
+    {
+      "id": "31acbd",
+      "front": "a rhythm",
+      "back": "un rythme"
+    },
+    {
+      "id": "576f8f",
+      "front": "a beat",
+      "back": "un temps, une pulsation"
+    },
+    {
+      "id": "94b8dd",
+      "front": "a tune",
+      "back": "un air"
+    },
+    {
+      "id": "1f3b11",
+      "front": "a chord",
+      "back": "un accord"
+    },
+    {
+      "id": "4e29bd",
+      "front": "a key",
+      "back": "une tonalité"
+    },
+    {
+      "id": "f6aab1",
+      "front": "a scale",
+      "back": "une gamme"
+    },
+    {
+      "id": "ea5e27",
+      "front": "a lyric",
+      "back": "une parole de chanson"
+    },
+    {
+      "id": "710202",
+      "front": "a chorus",
+      "back": "un refrain"
+    },
+    {
+      "id": "d900f8",
+      "front": "a verse of a song",
+      "back": "un couplet"
+    },
+    {
+      "id": "3bcd08",
+      "front": "a band",
+      "back": "un groupe"
+    },
+    {
+      "id": "dae6f8",
+      "front": "a gig",
+      "back": "un concert"
+    },
+    {
+      "id": "8e64e0",
+      "front": "a tour",
+      "back": "une tournée"
+    },
+    {
+      "id": "db1b6a",
+      "front": "a venue",
+      "back": "une salle, un lieu"
+    },
+    {
+      "id": "7690e4",
+      "front": "an audience",
+      "back": "un public"
+    },
+    {
+      "id": "49216d",
+      "front": "an encore",
+      "back": "un rappel"
+    },
+    {
+      "id": "b08141",
+      "front": "applause",
+      "back": "les applaudissements"
+    },
+    {
+      "id": "e2ca94",
+      "front": "to boo",
+      "back": "huer"
+    },
+    {
+      "id": "df4ceb",
+      "front": "the theatre",
+      "back": "le théâtre"
+    },
+    {
+      "id": "259667",
+      "front": "a play",
+      "back": "une pièce de théâtre"
+    },
+    {
+      "id": "dbf5c9",
+      "front": "an act of a play",
+      "back": "un acte"
+    },
+    {
+      "id": "42c060",
+      "front": "an interval",
+      "back": "un entracte"
+    },
+    {
+      "id": "2b9f23",
+      "front": "a rehearsal",
+      "back": "une répétition"
+    },
+    {
+      "id": "69bacb",
+      "front": "a dress rehearsal",
+      "back": "une répétition générale"
+    },
+    {
+      "id": "d132c9",
+      "front": "a stage",
+      "back": "une scène"
+    },
+    {
+      "id": "131566",
+      "front": "the wings",
+      "back": "les coulisses"
+    },
+    {
+      "id": "c197f7",
+      "front": "the curtain",
+      "back": "le rideau"
+    },
+    {
+      "id": "de85ff",
+      "front": "a performance",
+      "back": "une représentation, une interprétation"
+    },
+    {
+      "id": "46a56e",
+      "front": "an understudy",
+      "back": "une doublure"
+    },
+    {
+      "id": "7f6fc4",
+      "front": "a company",
+      "back": "une troupe"
+    },
+    {
+      "id": "24dddd",
+      "front": "a run of a show",
+      "back": "une série de représentations"
+    },
+    {
+      "id": "f04966",
+      "front": "television",
+      "back": "la télévision"
+    },
+    {
+      "id": "76ea2f",
+      "front": "a series",
+      "back": "une série"
+    },
+    {
+      "id": "304453",
+      "front": "an episode",
+      "back": "un épisode"
+    },
+    {
+      "id": "3b1d1d",
+      "front": "a sitcom",
+      "back": "une comédie de situation"
+    },
+    {
+      "id": "e933e6",
+      "front": "a reality show",
+      "back": "une émission de téléréalité"
+    },
+    {
+      "id": "d1fa03",
+      "front": "a rating",
+      "back": "un taux d'audience"
+    },
+    {
+      "id": "03abfc",
+      "front": "a review of a show",
+      "back": "une critique de spectacle"
+    }
+  ]
+}
