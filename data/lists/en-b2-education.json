@@ -1,0 +1,512 @@
+{
+  "id": "en-b2-education",
+  "name": "Education",
+  "folder": "English B2",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "c2be97",
+      "front": "education",
+      "back": "l'éducation, l'enseignement"
+    },
+    {
+      "id": "18f1ee",
+      "front": "schooling",
+      "back": "la scolarité"
+    },
+    {
+      "id": "8b1d88",
+      "front": "compulsory education",
+      "back": "l'enseignement obligatoire"
+    },
+    {
+      "id": "4e24fa",
+      "front": "primary education",
+      "back": "l'enseignement primaire"
+    },
+    {
+      "id": "1e9a28",
+      "front": "secondary education",
+      "back": "l'enseignement secondaire"
+    },
+    {
+      "id": "c3d94b",
+      "front": "higher education",
+      "back": "l'enseignement supérieur"
+    },
+    {
+      "id": "1ba5ec",
+      "front": "further education",
+      "back": "la formation postscolaire"
+    },
+    {
+      "id": "01e8fc",
+      "front": "a state school",
+      "back": "une école publique"
+    },
+    {
+      "id": "35e30e",
+      "front": "a private school",
+      "back": "une école privée"
+    },
+    {
+      "id": "c27254",
+      "front": "a boarding school",
+      "back": "un internat"
+    },
+    {
+      "id": "471629",
+      "front": "a comprehensive school",
+      "back": "un collège unique"
+    },
+    {
+      "id": "416135",
+      "front": "a grammar school",
+      "back": "un lycée sélectif"
+    },
+    {
+      "id": "08fa4f",
+      "front": "a sixth form",
+      "back": "les deux dernières années de lycée"
+    },
+    {
+      "id": "e50637",
+      "front": "a nursery school",
+      "back": "une école maternelle"
+    },
+    {
+      "id": "831f3b",
+      "front": "a pupil",
+      "back": "un élève"
+    },
+    {
+      "id": "c2cf3b",
+      "front": "an undergraduate",
+      "back": "un étudiant de premier cycle"
+    },
+    {
+      "id": "68b96b",
+      "front": "a postgraduate",
+      "back": "un étudiant de troisième cycle"
+    },
+    {
+      "id": "44ba90",
+      "front": "a graduate",
+      "back": "un diplômé"
+    },
+    {
+      "id": "5771e4",
+      "front": "a freshman",
+      "back": "un étudiant de première année"
+    },
+    {
+      "id": "cdae06",
+      "front": "an alumnus",
+      "back": "un ancien élève"
+    },
+    {
+      "id": "c2e15c",
+      "front": "a headteacher",
+      "back": "un directeur d'école"
+    },
+    {
+      "id": "83e257",
+      "front": "a teaching assistant",
+      "back": "un assistant d'éducation"
+    },
+    {
+      "id": "a8cb4a",
+      "front": "a tutor",
+      "back": "un tuteur, un chargé de travaux dirigés"
+    },
+    {
+      "id": "7bcb99",
+      "front": "a lecturer",
+      "back": "un maître de conférences"
+    },
+    {
+      "id": "acff79",
+      "front": "a professor",
+      "back": "un professeur d'université"
+    },
+    {
+      "id": "79f82f",
+      "front": "faculty",
+      "back": "le corps enseignant"
+    },
+    {
+      "id": "5ebed1",
+      "front": "a governing body",
+      "back": "un conseil d'administration"
+    },
+    {
+      "id": "288deb",
+      "front": "a school board",
+      "back": "un conseil scolaire"
+    },
+    {
+      "id": "3aa60c",
+      "front": "the curriculum",
+      "back": "le programme scolaire"
+    },
+    {
+      "id": "5a1eab",
+      "front": "a syllabus",
+      "back": "un programme de matière"
+    },
+    {
+      "id": "e53b7d",
+      "front": "a subject",
+      "back": "une matière"
+    },
+    {
+      "id": "fd39e9",
+      "front": "a module",
+      "back": "un module, une unité d'enseignement"
+    },
+    {
+      "id": "ba7c6f",
+      "front": "a core subject",
+      "back": "une matière fondamentale"
+    },
+    {
+      "id": "bad312",
+      "front": "an elective",
+      "back": "une matière optionnelle"
+    },
+    {
+      "id": "98952c",
+      "front": "a lecture",
+      "back": "un cours magistral"
+    },
+    {
+      "id": "3b4693",
+      "front": "a seminar",
+      "back": "un séminaire"
+    },
+    {
+      "id": "e0751b",
+      "front": "a tutorial",
+      "back": "des travaux dirigés"
+    },
+    {
+      "id": "a8bc86",
+      "front": "a workshop",
+      "back": "un atelier"
+    },
+    {
+      "id": "e46619",
+      "front": "coursework",
+      "back": "le contrôle continu"
+    },
+    {
+      "id": "3303fa",
+      "front": "an assignment",
+      "back": "un devoir, un travail à rendre"
+    },
+    {
+      "id": "d628db",
+      "front": "a dissertation",
+      "back": "un mémoire"
+    },
+    {
+      "id": "2f18e4",
+      "front": "a thesis",
+      "back": "une thèse"
+    },
+    {
+      "id": "732ef1",
+      "front": "a deadline",
+      "back": "une échéance, une date limite"
+    },
+    {
+      "id": "e7365f",
+      "front": "plagiarism",
+      "back": "le plagiat"
+    },
+    {
+      "id": "f79ca9",
+      "front": "an assessment",
+      "back": "une évaluation"
+    },
+    {
+      "id": "6dc652",
+      "front": "continuous assessment",
+      "back": "le contrôle continu"
+    },
+    {
+      "id": "99f80b",
+      "front": "an examination",
+      "back": "un examen"
+    },
+    {
+      "id": "6f698b",
+      "front": "to sit an exam",
+      "back": "passer un examen"
+    },
+    {
+      "id": "45e9ed",
+      "front": "to resit",
+      "back": "repasser un examen"
+    },
+    {
+      "id": "d65a1e",
+      "front": "an exam paper",
+      "back": "un sujet d'examen"
+    },
+    {
+      "id": "48a27a",
+      "front": "a mark",
+      "back": "une note"
+    },
+    {
+      "id": "476647",
+      "front": "a grade",
+      "back": "une note, un niveau"
+    },
+    {
+      "id": "9a9d3b",
+      "front": "to mark",
+      "back": "corriger, noter"
+    },
+    {
+      "id": "5a15f7",
+      "front": "a pass mark",
+      "back": "la note de passage"
+    },
+    {
+      "id": "dd2bd7",
+      "front": "to fail",
+      "back": "échouer"
+    },
+    {
+      "id": "71b538",
+      "front": "to excel",
+      "back": "exceller"
+    },
+    {
+      "id": "4807b6",
+      "front": "a distinction",
+      "back": "une mention"
+    },
+    {
+      "id": "52f44e",
+      "front": "a degree",
+      "back": "un diplôme universitaire"
+    },
+    {
+      "id": "29ae81",
+      "front": "a bachelor's degree",
+      "back": "une licence"
+    },
+    {
+      "id": "dfc4fa",
+      "front": "a master's degree",
+      "back": "un master"
+    },
+    {
+      "id": "a381df",
+      "front": "a doctorate",
+      "back": "un doctorat"
+    },
+    {
+      "id": "bba4e4",
+      "front": "a diploma",
+      "back": "un diplôme"
+    },
+    {
+      "id": "1802e4",
+      "front": "a certificate",
+      "back": "un certificat"
+    },
+    {
+      "id": "4c4135",
+      "front": "a transcript",
+      "back": "un relevé de notes"
+    },
+    {
+      "id": "457673",
+      "front": "a scholarship",
+      "back": "une bourse d'études"
+    },
+    {
+      "id": "b0fdef",
+      "front": "tuition fees",
+      "back": "les frais de scolarité"
+    },
+    {
+      "id": "8f2cf1",
+      "front": "a student loan",
+      "back": "un prêt étudiant"
+    },
+    {
+      "id": "03f3a6",
+      "front": "a bursary",
+      "back": "une bourse"
+    },
+    {
+      "id": "f2c76c",
+      "front": "enrolment",
+      "back": "l'inscription"
+    },
+    {
+      "id": "0f8823",
+      "front": "to enrol",
+      "back": "s'inscrire"
+    },
+    {
+      "id": "1d507d",
+      "front": "admissions",
+      "back": "les admissions"
+    },
+    {
+      "id": "514abf",
+      "front": "selection",
+      "back": "la sélection"
+    },
+    {
+      "id": "5b4b74",
+      "front": "a catchment area",
+      "back": "une carte scolaire, un secteur"
+    },
+    {
+      "id": "54a8bb",
+      "front": "streaming",
+      "back": "la répartition par niveau"
+    },
+    {
+      "id": "e6cd8b",
+      "front": "a class size",
+      "back": "un effectif de classe"
+    },
+    {
+      "id": "87510a",
+      "front": "literacy",
+      "back": "l'alphabétisation, la maîtrise de la lecture"
+    },
+    {
+      "id": "91ddc0",
+      "front": "numeracy",
+      "back": "la maîtrise du calcul"
+    },
+    {
+      "id": "0e5ae8",
+      "front": "pedagogy",
+      "back": "la pédagogie"
+    },
+    {
+      "id": "6bd1f4",
+      "front": "a teaching method",
+      "back": "une méthode d'enseignement"
+    },
+    {
+      "id": "83501a",
+      "front": "rote learning",
+      "back": "l'apprentissage par cœur"
+    },
+    {
+      "id": "bf54ab",
+      "front": "critical thinking",
+      "back": "l'esprit critique"
+    },
+    {
+      "id": "188d4a",
+      "front": "lifelong learning",
+      "back": "la formation tout au long de la vie"
+    },
+    {
+      "id": "22e047",
+      "front": "distance learning",
+      "back": "l'enseignement à distance"
+    },
+    {
+      "id": "90c749",
+      "front": "homeschooling",
+      "back": "l'instruction à domicile"
+    },
+    {
+      "id": "6cfbd9",
+      "front": "to drop out",
+      "back": "abandonner ses études"
+    },
+    {
+      "id": "a71bb5",
+      "front": "truancy",
+      "back": "l'absentéisme scolaire"
+    },
+    {
+      "id": "467e06",
+      "front": "exclusion",
+      "back": "l'exclusion"
+    },
+    {
+      "id": "58b486",
+      "front": "discipline",
+      "back": "la discipline"
+    },
+    {
+      "id": "291ea8",
+      "front": "bullying",
+      "back": "le harcèlement scolaire"
+    },
+    {
+      "id": "e4fc90",
+      "front": "underachievement",
+      "back": "l'échec scolaire relatif"
+    },
+    {
+      "id": "af4b94",
+      "front": "attainment",
+      "back": "les résultats, le niveau atteint"
+    },
+    {
+      "id": "896e83",
+      "front": "a league table",
+      "back": "un classement d'établissements"
+    },
+    {
+      "id": "725fd1",
+      "front": "an inspection",
+      "back": "une inspection"
+    },
+    {
+      "id": "f05f10",
+      "front": "an academic year",
+      "back": "une année universitaire"
+    },
+    {
+      "id": "531bf0",
+      "front": "a term",
+      "back": "un trimestre"
+    },
+    {
+      "id": "75d733",
+      "front": "a semester",
+      "back": "un semestre"
+    },
+    {
+      "id": "2e2c0a",
+      "front": "a campus",
+      "back": "un campus"
+    },
+    {
+      "id": "e760ae",
+      "front": "a hall of residence",
+      "back": "une résidence universitaire"
+    },
+    {
+      "id": "046dbf",
+      "front": "academia",
+      "back": "le monde universitaire"
+    },
+    {
+      "id": "b9ef1d",
+      "front": "a reform of education",
+      "back": "une réforme de l'enseignement"
+    }
+  ]
+}
