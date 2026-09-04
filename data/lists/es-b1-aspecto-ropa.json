@@ -1,0 +1,512 @@
+{
+  "id": "es-b1-aspecto-ropa",
+  "name": "El aspecto físico y la ropa",
+  "folder": "Spanish B1",
+  "frontLabel": "Spanish",
+  "backLabel": "French",
+  "frontLang": "es",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "bdgt7i",
+      "front": "el aspecto físico",
+      "back": "l'apparence physique"
+    },
+    {
+      "id": "vvzlm7",
+      "front": "la apariencia",
+      "back": "l'apparence"
+    },
+    {
+      "id": "sn5os9",
+      "front": "la estatura",
+      "back": "la taille (d'une personne)"
+    },
+    {
+      "id": "wwrmy4",
+      "front": "la altura",
+      "back": "la hauteur"
+    },
+    {
+      "id": "jm2cad",
+      "front": "alto",
+      "back": "grand (de taille)"
+    },
+    {
+      "id": "wzjdb1",
+      "front": "bajo",
+      "back": "petit (de taille)"
+    },
+    {
+      "id": "qtddzo",
+      "front": "delgado",
+      "back": "mince"
+    },
+    {
+      "id": "ldad9d",
+      "front": "flaco",
+      "back": "maigre"
+    },
+    {
+      "id": "wvnrzq",
+      "front": "gordo",
+      "back": "gros"
+    },
+    {
+      "id": "7q3a7u",
+      "front": "fuerte",
+      "back": "fort"
+    },
+    {
+      "id": "cj08wh",
+      "front": "débil",
+      "back": "faible"
+    },
+    {
+      "id": "m605rv",
+      "front": "musculoso",
+      "back": "musclé"
+    },
+    {
+      "id": "qbmg1n",
+      "front": "esbelto",
+      "back": "élancé"
+    },
+    {
+      "id": "vwfws7",
+      "front": "guapo",
+      "back": "beau"
+    },
+    {
+      "id": "d2ht8y",
+      "front": "feo",
+      "back": "laid"
+    },
+    {
+      "id": "xh6vb9",
+      "front": "atractivo",
+      "back": "séduisant"
+    },
+    {
+      "id": "4c6003",
+      "front": "elegante",
+      "back": "élégant"
+    },
+    {
+      "id": "rcr5uv",
+      "front": "el cabello liso",
+      "back": "les cheveux raides"
+    },
+    {
+      "id": "b2dgi3",
+      "front": "el pelo rizado",
+      "back": "les cheveux bouclés"
+    },
+    {
+      "id": "dep7te",
+      "front": "el pelo ondulado",
+      "back": "les cheveux ondulés"
+    },
+    {
+      "id": "gng0x9",
+      "front": "moreno",
+      "back": "brun"
+    },
+    {
+      "id": "k22fr7",
+      "front": "rubio",
+      "back": "blond"
+    },
+    {
+      "id": "6pm1q2",
+      "front": "pelirrojo",
+      "back": "roux"
+    },
+    {
+      "id": "fumyey",
+      "front": "canoso",
+      "back": "grisonnant"
+    },
+    {
+      "id": "vxf0s7",
+      "front": "calvo",
+      "back": "chauve"
+    },
+    {
+      "id": "igpbc5",
+      "front": "la coleta",
+      "back": "la queue de cheval"
+    },
+    {
+      "id": "2s9690",
+      "front": "el flequillo",
+      "back": "la frange"
+    },
+    {
+      "id": "k6r5ag",
+      "front": "la barba",
+      "back": "la barbe"
+    },
+    {
+      "id": "b7lkng",
+      "front": "el bigote",
+      "back": "la moustache"
+    },
+    {
+      "id": "o7tswa",
+      "front": "la arruga",
+      "back": "la ride"
+    },
+    {
+      "id": "11a9vj",
+      "front": "la peca",
+      "back": "la tache de rousseur"
+    },
+    {
+      "id": "8yfdto",
+      "front": "el lunar",
+      "back": "le grain de beauté"
+    },
+    {
+      "id": "lfll03",
+      "front": "las gafas",
+      "back": "les lunettes"
+    },
+    {
+      "id": "bt0ku2",
+      "front": "las lentillas",
+      "back": "les lentilles de contact"
+    },
+    {
+      "id": "3zovx8",
+      "front": "el maquillaje",
+      "back": "le maquillage"
+    },
+    {
+      "id": "5eu4bb",
+      "front": "la ropa",
+      "back": "les vêtements"
+    },
+    {
+      "id": "adz24b",
+      "front": "la camisa",
+      "back": "la chemise"
+    },
+    {
+      "id": "dktnq7",
+      "front": "la camiseta",
+      "back": "le tee-shirt"
+    },
+    {
+      "id": "mkqrv0",
+      "front": "la blusa",
+      "back": "le chemisier"
+    },
+    {
+      "id": "w95hwe",
+      "front": "el jersey",
+      "back": "le pull"
+    },
+    {
+      "id": "fat4gt",
+      "front": "la sudadera",
+      "back": "le sweat-shirt"
+    },
+    {
+      "id": "h1y9zh",
+      "front": "la chaqueta",
+      "back": "la veste"
+    },
+    {
+      "id": "qfils1",
+      "front": "el abrigo",
+      "back": "le manteau"
+    },
+    {
+      "id": "bey4ei",
+      "front": "la gabardina",
+      "back": "l'imperméable"
+    },
+    {
+      "id": "n4var7",
+      "front": "el chaleco",
+      "back": "le gilet"
+    },
+    {
+      "id": "kqoffq",
+      "front": "el traje",
+      "back": "le costume"
+    },
+    {
+      "id": "koei17",
+      "front": "el vestido",
+      "back": "la robe"
+    },
+    {
+      "id": "bbs8ns",
+      "front": "la falda",
+      "back": "la jupe"
+    },
+    {
+      "id": "8s7sbk",
+      "front": "los pantalones",
+      "back": "le pantalon"
+    },
+    {
+      "id": "we4zwr",
+      "front": "los vaqueros",
+      "back": "le jean"
+    },
+    {
+      "id": "9c16hd",
+      "front": "los pantalones cortos",
+      "back": "le short"
+    },
+    {
+      "id": "dit9sx",
+      "front": "el pijama",
+      "back": "le pyjama"
+    },
+    {
+      "id": "ds818d",
+      "front": "la ropa interior",
+      "back": "les sous-vêtements"
+    },
+    {
+      "id": "52r72b",
+      "front": "los calcetines",
+      "back": "les chaussettes"
+    },
+    {
+      "id": "9ze6nx",
+      "front": "las medias",
+      "back": "les collants, les bas"
+    },
+    {
+      "id": "78qtcs",
+      "front": "el sujetador",
+      "back": "le soutien-gorge"
+    },
+    {
+      "id": "o0b1dd",
+      "front": "el bañador",
+      "back": "le maillot de bain"
+    },
+    {
+      "id": "y1yaci",
+      "front": "el zapato",
+      "back": "la chaussure"
+    },
+    {
+      "id": "qznyna",
+      "front": "la bota",
+      "back": "la botte"
+    },
+    {
+      "id": "tx93qb",
+      "front": "la zapatilla de deporte",
+      "back": "la basket"
+    },
+    {
+      "id": "yb3cw7",
+      "front": "la sandalia",
+      "back": "la sandale"
+    },
+    {
+      "id": "1w883d",
+      "front": "el sombrero",
+      "back": "le chapeau"
+    },
+    {
+      "id": "sizsgq",
+      "front": "la gorra",
+      "back": "la casquette"
+    },
+    {
+      "id": "dg4kii",
+      "front": "la bufanda",
+      "back": "l'écharpe"
+    },
+    {
+      "id": "p7vao2",
+      "front": "el guante",
+      "back": "le gant"
+    },
+    {
+      "id": "x4filc",
+      "front": "el cinturón",
+      "back": "la ceinture"
+    },
+    {
+      "id": "wh4k4q",
+      "front": "la corbata",
+      "back": "la cravate"
+    },
+    {
+      "id": "m104vr",
+      "front": "el bolso",
+      "back": "le sac à main"
+    },
+    {
+      "id": "j3j674",
+      "front": "la cartera",
+      "back": "le portefeuille"
+    },
+    {
+      "id": "dwjanq",
+      "front": "el paraguas",
+      "back": "le parapluie"
+    },
+    {
+      "id": "f0mbq5",
+      "front": "la joya",
+      "back": "le bijou"
+    },
+    {
+      "id": "m9af5h",
+      "front": "el anillo",
+      "back": "la bague"
+    },
+    {
+      "id": "q11iqy",
+      "front": "el collar",
+      "back": "le collier"
+    },
+    {
+      "id": "odws5b",
+      "front": "el pendiente",
+      "back": "la boucle d'oreille"
+    },
+    {
+      "id": "jdx461",
+      "front": "la pulsera",
+      "back": "le bracelet"
+    },
+    {
+      "id": "ufp10v",
+      "front": "el reloj de pulsera",
+      "back": "la montre-bracelet"
+    },
+    {
+      "id": "g3h33y",
+      "front": "el botón",
+      "back": "le bouton"
+    },
+    {
+      "id": "3nrhvo",
+      "front": "la cremallera",
+      "back": "la fermeture éclair"
+    },
+    {
+      "id": "h0z8a1",
+      "front": "el bolsillo",
+      "back": "la poche"
+    },
+    {
+      "id": "jag8y6",
+      "front": "la manga",
+      "back": "la manche"
+    },
+    {
+      "id": "xp0ans",
+      "front": "el cuello de la camisa",
+      "back": "le col de la chemise"
+    },
+    {
+      "id": "hctkyg",
+      "front": "la tela",
+      "back": "le tissu"
+    },
+    {
+      "id": "0u7hi6",
+      "front": "el algodón",
+      "back": "le coton"
+    },
+    {
+      "id": "kg972a",
+      "front": "la lana",
+      "back": "la laine"
+    },
+    {
+      "id": "1jpjfx",
+      "front": "la seda",
+      "back": "la soie"
+    },
+    {
+      "id": "hzwhyh",
+      "front": "el cuero",
+      "back": "le cuir"
+    },
+    {
+      "id": "nb5ac5",
+      "front": "la moda",
+      "back": "la mode"
+    },
+    {
+      "id": "m7ml45",
+      "front": "el color",
+      "back": "la couleur"
+    },
+    {
+      "id": "0tzbno",
+      "front": "estampado",
+      "back": "imprimé, à motifs"
+    },
+    {
+      "id": "hqlix8",
+      "front": "de rayas",
+      "back": "à rayures"
+    },
+    {
+      "id": "fgtdym",
+      "front": "de cuadros",
+      "back": "à carreaux"
+    },
+    {
+      "id": "yx3qgg",
+      "front": "ancho",
+      "back": "large"
+    },
+    {
+      "id": "ix59t0",
+      "front": "estrecho",
+      "back": "étroit"
+    },
+    {
+      "id": "vtvnjr",
+      "front": "apretado",
+      "back": "serré"
+    },
+    {
+      "id": "awcslt",
+      "front": "vestirse",
+      "back": "s'habiller"
+    },
+    {
+      "id": "u46421",
+      "front": "desnudarse",
+      "back": "se déshabiller"
+    },
+    {
+      "id": "enlgvr",
+      "front": "ponerse",
+      "back": "mettre (un vêtement)"
+    },
+    {
+      "id": "mbx9rf",
+      "front": "quitarse",
+      "back": "enlever (un vêtement)"
+    },
+    {
+      "id": "jeudb2",
+      "front": "llevar puesto",
+      "back": "porter (sur soi)"
+    },
+    {
+      "id": "q3d3nv",
+      "front": "quedar bien",
+      "back": "aller bien (vêtement)"
+    }
+  ]
+}
