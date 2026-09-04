@@ -1,0 +1,512 @@
+{
+  "id": "en-c1-art-architecture",
+  "name": "Art and Architecture",
+  "folder": "English C1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "rvth5e",
+      "front": "an easel",
+      "back": "un chevalet"
+    },
+    {
+      "id": "no5xli",
+      "front": "a canvas",
+      "back": "une toile"
+    },
+    {
+      "id": "7g7cqk",
+      "front": "a palette",
+      "back": "une palette"
+    },
+    {
+      "id": "5pwqcw",
+      "front": "a pigment",
+      "back": "un pigment"
+    },
+    {
+      "id": "cwt204",
+      "front": "a varnish",
+      "back": "un vernis"
+    },
+    {
+      "id": "u2jex2",
+      "front": "an underpainting",
+      "back": "une sous-couche"
+    },
+    {
+      "id": "ieljti",
+      "front": "impasto",
+      "back": "l'empâtement"
+    },
+    {
+      "id": "5vlkwq",
+      "front": "a glaze",
+      "back": "un glacis"
+    },
+    {
+      "id": "vs5st9",
+      "front": "chiaroscuro",
+      "back": "le clair-obscur"
+    },
+    {
+      "id": "sk1kon",
+      "front": "sfumato",
+      "back": "le sfumato"
+    },
+    {
+      "id": "ko2nou",
+      "front": "a wash",
+      "back": "un lavis"
+    },
+    {
+      "id": "zs10s2",
+      "front": "a fresco",
+      "back": "une fresque"
+    },
+    {
+      "id": "2z0mwi",
+      "front": "tempera",
+      "back": "la détrempe"
+    },
+    {
+      "id": "pmwkc5",
+      "front": "gouache",
+      "back": "la gouache"
+    },
+    {
+      "id": "71vu4s",
+      "front": "an etching",
+      "back": "une eau-forte"
+    },
+    {
+      "id": "e0q7hw",
+      "front": "an engraving",
+      "back": "une gravure"
+    },
+    {
+      "id": "nknpui",
+      "front": "a lithograph",
+      "back": "une lithographie"
+    },
+    {
+      "id": "dxx1v3",
+      "front": "a woodcut",
+      "back": "une gravure sur bois"
+    },
+    {
+      "id": "5izqod",
+      "front": "a drypoint",
+      "back": "une pointe sèche"
+    },
+    {
+      "id": "7nlc3v",
+      "front": "a print run",
+      "back": "un tirage"
+    },
+    {
+      "id": "bw2qo9",
+      "front": "a sketch",
+      "back": "une esquisse"
+    },
+    {
+      "id": "njspdx",
+      "front": "a study",
+      "back": "une étude"
+    },
+    {
+      "id": "lsmt6q",
+      "front": "a cartoon",
+      "back": "un carton préparatoire"
+    },
+    {
+      "id": "2cufko",
+      "front": "a maquette",
+      "back": "une maquette"
+    },
+    {
+      "id": "jwsafh",
+      "front": "a plinth",
+      "back": "un socle"
+    },
+    {
+      "id": "r1scrg",
+      "front": "a bust",
+      "back": "un buste"
+    },
+    {
+      "id": "876j6q",
+      "front": "a bas-relief",
+      "back": "un bas-relief"
+    },
+    {
+      "id": "zn41bg",
+      "front": "a frieze",
+      "back": "une frise"
+    },
+    {
+      "id": "ifjt4i",
+      "front": "a pediment",
+      "back": "un fronton"
+    },
+    {
+      "id": "hiuwuu",
+      "front": "a colonnade",
+      "back": "une colonnade"
+    },
+    {
+      "id": "0hzlxm",
+      "front": "a portico",
+      "back": "un portique"
+    },
+    {
+      "id": "g1dby9",
+      "front": "a pilaster",
+      "back": "un pilastre"
+    },
+    {
+      "id": "t1jtrl",
+      "front": "a capital",
+      "back": "un chapiteau"
+    },
+    {
+      "id": "5eo7h4",
+      "front": "an entablature",
+      "back": "un entablement"
+    },
+    {
+      "id": "pjbtg6",
+      "front": "an architrave",
+      "back": "une architrave"
+    },
+    {
+      "id": "92skq3",
+      "front": "a cornice",
+      "back": "une corniche"
+    },
+    {
+      "id": "29cu9l",
+      "front": "a buttress",
+      "back": "un contrefort"
+    },
+    {
+      "id": "sktz48",
+      "front": "a flying buttress",
+      "back": "un arc-boutant"
+    },
+    {
+      "id": "rtbbcs",
+      "front": "a vault",
+      "back": "une voûte"
+    },
+    {
+      "id": "ytb0j1",
+      "front": "a groin vault",
+      "back": "une voûte d'arêtes"
+    },
+    {
+      "id": "6kre75",
+      "front": "a barrel vault",
+      "back": "une voûte en berceau"
+    },
+    {
+      "id": "b8cfew",
+      "front": "a cupola",
+      "back": "une coupole"
+    },
+    {
+      "id": "88wkea",
+      "front": "a spire",
+      "back": "une flèche"
+    },
+    {
+      "id": "xx1s80",
+      "front": "a gable",
+      "back": "un pignon"
+    },
+    {
+      "id": "aclexw",
+      "front": "a facade",
+      "back": "une façade"
+    },
+    {
+      "id": "nt0os4",
+      "front": "a rotunda",
+      "back": "une rotonde"
+    },
+    {
+      "id": "qkwozu",
+      "front": "a peristyle",
+      "back": "un péristyle"
+    },
+    {
+      "id": "1p722s",
+      "front": "a loggia",
+      "back": "une loggia"
+    },
+    {
+      "id": "qwjcmf",
+      "front": "a cloistered courtyard",
+      "back": "une cour cloîtrée"
+    },
+    {
+      "id": "a3n2bn",
+      "front": "a mullioned window",
+      "back": "une fenêtre à meneaux"
+    },
+    {
+      "id": "po4y8s",
+      "front": "tracery",
+      "back": "un remplage"
+    },
+    {
+      "id": "1jeif5",
+      "front": "stained glass",
+      "back": "un vitrail"
+    },
+    {
+      "id": "0c6xx8",
+      "front": "a rose window",
+      "back": "une rosace"
+    },
+    {
+      "id": "uw7xtj",
+      "front": "an apse",
+      "back": "une abside"
+    },
+    {
+      "id": "ejd786",
+      "front": "a crypt",
+      "back": "une crypte"
+    },
+    {
+      "id": "3t1zxd",
+      "front": "a mausoleum",
+      "back": "un mausolée"
+    },
+    {
+      "id": "4udq3p",
+      "front": "an obelisk",
+      "back": "un obélisque"
+    },
+    {
+      "id": "lsay05",
+      "front": "a triumphal arch",
+      "back": "un arc de triomphe"
+    },
+    {
+      "id": "w9imov",
+      "front": "masonry",
+      "back": "la maçonnerie"
+    },
+    {
+      "id": "3fo3t7",
+      "front": "a quoin",
+      "back": "une pierre d'angle"
+    },
+    {
+      "id": "dwxkyu",
+      "front": "a lintel",
+      "back": "un linteau"
+    },
+    {
+      "id": "mmkfdy",
+      "front": "a corbel",
+      "back": "un corbeau, une console"
+    },
+    {
+      "id": "vlj2wi",
+      "front": "a cantilever",
+      "back": "un porte-à-faux"
+    },
+    {
+      "id": "8mzz6p",
+      "front": "a curtain wall",
+      "back": "un mur-rideau"
+    },
+    {
+      "id": "ma6tiv",
+      "front": "brutalism",
+      "back": "le brutalisme"
+    },
+    {
+      "id": "pig3om",
+      "front": "modernism",
+      "back": "le modernisme"
+    },
+    {
+      "id": "y9ctwd",
+      "front": "postmodernism",
+      "back": "le postmodernisme"
+    },
+    {
+      "id": "3pjv64",
+      "front": "the baroque",
+      "back": "le baroque"
+    },
+    {
+      "id": "a4xdo6",
+      "front": "the rococo",
+      "back": "le rococo"
+    },
+    {
+      "id": "0mux1l",
+      "front": "neoclassicism",
+      "back": "le néoclassicisme"
+    },
+    {
+      "id": "8othgd",
+      "front": "romanticism",
+      "back": "le romantisme"
+    },
+    {
+      "id": "nj3kf8",
+      "front": "realism in art",
+      "back": "le réalisme"
+    },
+    {
+      "id": "o87l36",
+      "front": "impressionism",
+      "back": "l'impressionnisme"
+    },
+    {
+      "id": "mkf8h4",
+      "front": "pointillism",
+      "back": "le pointillisme"
+    },
+    {
+      "id": "hp4uyl",
+      "front": "fauvism",
+      "back": "le fauvisme"
+    },
+    {
+      "id": "e47eae",
+      "front": "cubism",
+      "back": "le cubisme"
+    },
+    {
+      "id": "dm7m7t",
+      "front": "surrealism",
+      "back": "le surréalisme"
+    },
+    {
+      "id": "853s23",
+      "front": "expressionism",
+      "back": "l'expressionnisme"
+    },
+    {
+      "id": "b7am3i",
+      "front": "abstraction",
+      "back": "l'abstraction"
+    },
+    {
+      "id": "j6ld2l",
+      "front": "minimalism",
+      "back": "le minimalisme"
+    },
+    {
+      "id": "kql4tb",
+      "front": "conceptual art",
+      "back": "l'art conceptuel"
+    },
+    {
+      "id": "k6xjsc",
+      "front": "an installation",
+      "back": "une installation"
+    },
+    {
+      "id": "lh61km",
+      "front": "a triptych",
+      "back": "un triptyque"
+    },
+    {
+      "id": "kqvfbp",
+      "front": "a still life",
+      "back": "une nature morte"
+    },
+    {
+      "id": "3x2gwa",
+      "front": "a landscape painting",
+      "back": "un paysage"
+    },
+    {
+      "id": "00kz3n",
+      "front": "a portrait",
+      "back": "un portrait"
+    },
+    {
+      "id": "l5y0e3",
+      "front": "a self-portrait",
+      "back": "un autoportrait"
+    },
+    {
+      "id": "q4oipb",
+      "front": "a nude",
+      "back": "un nu"
+    },
+    {
+      "id": "q9eznt",
+      "front": "a genre scene",
+      "back": "une scène de genre"
+    },
+    {
+      "id": "r7ybfz",
+      "front": "a vanitas",
+      "back": "une vanité"
+    },
+    {
+      "id": "szwu1i",
+      "front": "a patron",
+      "back": "un mécène"
+    },
+    {
+      "id": "oo1vis",
+      "front": "a commission",
+      "back": "une commande"
+    },
+    {
+      "id": "mei1nm",
+      "front": "a provenance",
+      "back": "une provenance"
+    },
+    {
+      "id": "j05jkh",
+      "front": "a retrospective",
+      "back": "une rétrospective"
+    },
+    {
+      "id": "arg75x",
+      "front": "a curator",
+      "back": "un commissaire d'exposition"
+    },
+    {
+      "id": "pqbg34",
+      "front": "a catalogue raisonné",
+      "back": "un catalogue raisonné"
+    },
+    {
+      "id": "2o7ahj",
+      "front": "a forgery",
+      "back": "un faux"
+    },
+    {
+      "id": "oqirrl",
+      "front": "restoration",
+      "back": "la restauration"
+    },
+    {
+      "id": "yw72ob",
+      "front": "a connoisseur",
+      "back": "un connaisseur"
+    },
+    {
+      "id": "0ekg8i",
+      "front": "a rusticated wall",
+      "back": "un mur à bossages"
+    }
+  ]
+}
