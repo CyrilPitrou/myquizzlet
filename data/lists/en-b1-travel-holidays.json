@@ -1,0 +1,512 @@
+{
+  "id": "en-b1-travel-holidays",
+  "name": "Travel and Holidays",
+  "folder": "English B1",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-04",
+  "cards": [
+    {
+      "id": "lzkp80",
+      "front": "a holiday",
+      "back": "des vacances, un jour férié"
+    },
+    {
+      "id": "h5caoz",
+      "front": "a trip",
+      "back": "un voyage, une excursion"
+    },
+    {
+      "id": "xjwck0",
+      "front": "a tour",
+      "back": "un circuit, une visite"
+    },
+    {
+      "id": "8pptrc",
+      "front": "a cruise",
+      "back": "une croisière"
+    },
+    {
+      "id": "u38ryr",
+      "front": "a stay",
+      "back": "un séjour"
+    },
+    {
+      "id": "aabde0",
+      "front": "a visit",
+      "back": "une visite"
+    },
+    {
+      "id": "dhw3s4",
+      "front": "a departure",
+      "back": "un départ"
+    },
+    {
+      "id": "gxyjf8",
+      "front": "an arrival",
+      "back": "une arrivée"
+    },
+    {
+      "id": "yyfoz4",
+      "front": "a return",
+      "back": "un retour"
+    },
+    {
+      "id": "i4tyh5",
+      "front": "a destination",
+      "back": "une destination"
+    },
+    {
+      "id": "fvjmiw",
+      "front": "a traveller",
+      "back": "un voyageur"
+    },
+    {
+      "id": "t6l6k1",
+      "front": "a tourist",
+      "back": "un touriste"
+    },
+    {
+      "id": "0z8njz",
+      "front": "a guide",
+      "back": "un guide"
+    },
+    {
+      "id": "4vdevv",
+      "front": "a guidebook",
+      "back": "un guide de voyage"
+    },
+    {
+      "id": "zj2hbk",
+      "front": "a tourist office",
+      "back": "un office de tourisme"
+    },
+    {
+      "id": "e5pw4c",
+      "front": "a travel agency",
+      "back": "une agence de voyage"
+    },
+    {
+      "id": "iogljl",
+      "front": "a brochure",
+      "back": "une brochure"
+    },
+    {
+      "id": "58v8d6",
+      "front": "a package holiday",
+      "back": "un voyage organisé"
+    },
+    {
+      "id": "cjfb30",
+      "front": "a booking",
+      "back": "une réservation"
+    },
+    {
+      "id": "pwhba6",
+      "front": "a reservation",
+      "back": "une réservation"
+    },
+    {
+      "id": "43kqre",
+      "front": "a hotel",
+      "back": "un hôtel"
+    },
+    {
+      "id": "hqton0",
+      "front": "a guest house",
+      "back": "une pension de famille"
+    },
+    {
+      "id": "4l1qfq",
+      "front": "a youth hostel",
+      "back": "une auberge de jeunesse"
+    },
+    {
+      "id": "ehpfqg",
+      "front": "a campsite",
+      "back": "un camping"
+    },
+    {
+      "id": "fxzju5",
+      "front": "a tent",
+      "back": "une tente"
+    },
+    {
+      "id": "25rilb",
+      "front": "a caravan",
+      "back": "une caravane"
+    },
+    {
+      "id": "reohw6",
+      "front": "a sleeping bag",
+      "back": "un sac de couchage"
+    },
+    {
+      "id": "nwzxeg",
+      "front": "a room with a view",
+      "back": "une chambre avec vue"
+    },
+    {
+      "id": "efr5sm",
+      "front": "a single room",
+      "back": "une chambre simple"
+    },
+    {
+      "id": "t6zblc",
+      "front": "a double room",
+      "back": "une chambre double"
+    },
+    {
+      "id": "2jn86u",
+      "front": "a reception desk",
+      "back": "une réception"
+    },
+    {
+      "id": "sl1w2t",
+      "front": "a receptionist at a hotel",
+      "back": "un réceptionniste d'hôtel"
+    },
+    {
+      "id": "nwjeba",
+      "front": "a porter",
+      "back": "un portier, un bagagiste"
+    },
+    {
+      "id": "61nv2u",
+      "front": "a lobby",
+      "back": "un hall d'entrée"
+    },
+    {
+      "id": "oqa67m",
+      "front": "half board",
+      "back": "la demi-pension"
+    },
+    {
+      "id": "52tekv",
+      "front": "full board",
+      "back": "la pension complète"
+    },
+    {
+      "id": "1wrwvn",
+      "front": "bed and breakfast",
+      "back": "la chambre d'hôtes"
+    },
+    {
+      "id": "h760t6",
+      "front": "a suitcase",
+      "back": "une valise"
+    },
+    {
+      "id": "3mf7c5",
+      "front": "luggage",
+      "back": "les bagages"
+    },
+    {
+      "id": "7x2adu",
+      "front": "a rucksack",
+      "back": "un sac à dos"
+    },
+    {
+      "id": "fk9wra",
+      "front": "a handbag",
+      "back": "un sac à main"
+    },
+    {
+      "id": "o9bvyw",
+      "front": "a passport control",
+      "back": "un contrôle des passeports"
+    },
+    {
+      "id": "evo18g",
+      "front": "a visa",
+      "back": "un visa"
+    },
+    {
+      "id": "jzoc4a",
+      "front": "a customs officer",
+      "back": "un douanier"
+    },
+    {
+      "id": "l8k5vg",
+      "front": "a boarding pass",
+      "back": "une carte d'embarquement"
+    },
+    {
+      "id": "nz07yj",
+      "front": "a check-in desk",
+      "back": "un comptoir d'enregistrement"
+    },
+    {
+      "id": "umjkky",
+      "front": "a departure lounge",
+      "back": "une salle d'embarquement"
+    },
+    {
+      "id": "rg0tbq",
+      "front": "a gate",
+      "back": "une porte d'embarquement"
+    },
+    {
+      "id": "j2jocs",
+      "front": "a flight",
+      "back": "un vol"
+    },
+    {
+      "id": "a22qj0",
+      "front": "a take-off",
+      "back": "un décollage"
+    },
+    {
+      "id": "6ztt6q",
+      "front": "a landing",
+      "back": "un atterrissage"
+    },
+    {
+      "id": "loyjod",
+      "front": "a stopover",
+      "back": "une escale"
+    },
+    {
+      "id": "0ikjnl",
+      "front": "a connection",
+      "back": "une correspondance"
+    },
+    {
+      "id": "jumdwt",
+      "front": "a seat",
+      "back": "une place, un siège"
+    },
+    {
+      "id": "8kzjo8",
+      "front": "an aisle",
+      "back": "une allée"
+    },
+    {
+      "id": "empbaj",
+      "front": "a crew",
+      "back": "un équipage"
+    },
+    {
+      "id": "6mx301",
+      "front": "a steward",
+      "back": "un steward"
+    },
+    {
+      "id": "ygzy83",
+      "front": "a coast",
+      "back": "une côte"
+    },
+    {
+      "id": "ype1pb",
+      "front": "a beach",
+      "back": "une plage"
+    },
+    {
+      "id": "dvef89",
+      "front": "a seaside resort",
+      "back": "une station balnéaire"
+    },
+    {
+      "id": "y1zlpx",
+      "front": "a mountain resort",
+      "back": "une station de montagne"
+    },
+    {
+      "id": "l3u3xc",
+      "front": "a landmark",
+      "back": "un monument, un point de repère"
+    },
+    {
+      "id": "qbj3es",
+      "front": "a sight",
+      "back": "un site touristique"
+    },
+    {
+      "id": "v8zmmb",
+      "front": "a monument",
+      "back": "un monument"
+    },
+    {
+      "id": "tsgs5g",
+      "front": "a souvenir",
+      "back": "un souvenir"
+    },
+    {
+      "id": "uzd7te",
+      "front": "a postcard",
+      "back": "une carte postale"
+    },
+    {
+      "id": "9xibb2",
+      "front": "a photograph",
+      "back": "une photographie"
+    },
+    {
+      "id": "w4y21n",
+      "front": "an excursion",
+      "back": "une excursion"
+    },
+    {
+      "id": "cv3auy",
+      "front": "a day trip",
+      "back": "une sortie à la journée"
+    },
+    {
+      "id": "p72uke",
+      "front": "an adventure",
+      "back": "une aventure"
+    },
+    {
+      "id": "nq1cx6",
+      "front": "a discovery",
+      "back": "une découverte"
+    },
+    {
+      "id": "8s4dr3",
+      "front": "a season for travel",
+      "back": "une saison touristique"
+    },
+    {
+      "id": "emiikp",
+      "front": "a complaint",
+      "back": "une réclamation"
+    },
+    {
+      "id": "oycr4f",
+      "front": "an insurance",
+      "back": "une assurance"
+    },
+    {
+      "id": "f0ns4m",
+      "front": "a refund for a booking",
+      "back": "un remboursement de réservation"
+    },
+    {
+      "id": "6m01i6",
+      "front": "a currency exchange",
+      "back": "un bureau de change"
+    },
+    {
+      "id": "21zvid",
+      "front": "to travel",
+      "back": "voyager"
+    },
+    {
+      "id": "az5kzp",
+      "front": "to go abroad",
+      "back": "partir à l'étranger"
+    },
+    {
+      "id": "dz4s4y",
+      "front": "to set off",
+      "back": "se mettre en route"
+    },
+    {
+      "id": "5ukera",
+      "front": "to arrive",
+      "back": "arriver"
+    },
+    {
+      "id": "et4uit",
+      "front": "to return",
+      "back": "revenir, rentrer"
+    },
+    {
+      "id": "d956f1",
+      "front": "to book",
+      "back": "réserver"
+    },
+    {
+      "id": "ixj55h",
+      "front": "to cancel",
+      "back": "annuler"
+    },
+    {
+      "id": "rnkusn",
+      "front": "to postpone",
+      "back": "reporter"
+    },
+    {
+      "id": "9vblpt",
+      "front": "to check in",
+      "back": "s'enregistrer"
+    },
+    {
+      "id": "8b2jll",
+      "front": "to check out",
+      "back": "régler et partir"
+    },
+    {
+      "id": "g5vw3e",
+      "front": "to pack",
+      "back": "faire ses bagages"
+    },
+    {
+      "id": "neq03j",
+      "front": "to unpack",
+      "back": "défaire ses bagages"
+    },
+    {
+      "id": "r3jlj9",
+      "front": "to board",
+      "back": "embarquer"
+    },
+    {
+      "id": "jvjbg5",
+      "front": "to take off",
+      "back": "décoller"
+    },
+    {
+      "id": "edcbir",
+      "front": "to land",
+      "back": "atterrir"
+    },
+    {
+      "id": "h8r4s3",
+      "front": "to sightsee",
+      "back": "faire du tourisme"
+    },
+    {
+      "id": "qkiwx8",
+      "front": "to explore",
+      "back": "explorer"
+    },
+    {
+      "id": "kstwfs",
+      "front": "to stay at",
+      "back": "séjourner à"
+    },
+    {
+      "id": "syqcm4",
+      "front": "to complain",
+      "back": "se plaindre"
+    },
+    {
+      "id": "8q9inr",
+      "front": "to sunbathe",
+      "back": "prendre un bain de soleil"
+    },
+    {
+      "id": "2rze46",
+      "front": "to camp",
+      "back": "camper"
+    },
+    {
+      "id": "s5ibc9",
+      "front": "abroad",
+      "back": "à l'étranger"
+    },
+    {
+      "id": "m1acko",
+      "front": "crowded with tourists",
+      "back": "envahi de touristes"
+    },
+    {
+      "id": "wsfhi4",
+      "front": "exotic",
+      "back": "exotique"
+    }
+  ]
+}
