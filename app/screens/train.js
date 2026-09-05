@@ -8,6 +8,7 @@ import { bucketFor, pick } from '../messages.js';
 import { flashWrong, ring, confetti } from '../fx.js';
 import { play } from '../audio.js';
 import { tokenNote } from '../tokennote.js';
+import { openProfileDialog } from './profiledialog.js';
 
 const BATCH = 8;
 
@@ -47,6 +48,13 @@ function refill() {
 export function showTrainSetup(id) {
   const list = store.getList(id);
   if (!list) return go('#/');
+  if (!store.getActiveProfile()) {
+    openProfileDialog({
+      onSelect: () => ctx.render(),
+      onCancel: () => go(`#/list/${id}`),
+    });
+    return;
+  }
   const view = screen();
   view.append(el('a', { href: `#/list/${id}`, class: 'back', text: `← ${list.name}` }));
   view.append(el('h2', { text: t('train.title') }));

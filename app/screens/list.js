@@ -150,13 +150,17 @@ export function showList(id) {
     el('span', { text: list.folder || t('common.unfiled') }),
     el('span', { text: `${list.frontLabel || t('side.front')} → ${list.backLabel || t('side.back')}` }),
   ]));
-  view.append(el('div', { class: 'liststats' }, [
-    el('span', { text: t('common.learnedPct', { n: stats.learnedPct }) }),
-    stats.rightPct === null ? el('span', { text: t('common.notStudied') })
-                            : el('span', { text: t('common.rightPct', { n: stats.rightPct }) }),
-    stats.due ? el('span', { class: 'badge', text: t('common.due', { n: stats.due }) })
-              : el('span', { text: t('common.dash') }),
-  ]));
+  if (store.getActiveProfile()) {
+    view.append(el('div', { class: 'liststats' }, [
+      el('span', { text: t('common.learnedPct', { n: stats.learnedPct }) }),
+      stats.rightPct === null ? el('span', { text: t('common.notStudied') })
+                              : el('span', { text: t('common.rightPct', { n: stats.rightPct }) }),
+      stats.due ? el('span', { class: 'badge', text: t('common.due', { n: stats.due }) })
+                : el('span', { text: t('common.dash') }),
+    ]));
+  } else {
+    view.append(el('p', { class: 'muted', text: t('profile.noProfile') }));
+  }
 
   view.append(el('div', { class: 'actions' }, [
     el('a', { class: 'btn', href: `#/view/${id}`, text: t('list.action.view') }),
