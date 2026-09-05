@@ -1,6 +1,6 @@
 {
   "listId": "circe-1",
-  "updatedAt": "2026-09-05T13:31:28.241Z",
+  "updatedAt": "2026-09-05T13:31:34.864Z",
   "items": {
     "ea4ril:b2f": {
       "box": 1,
@@ -8,7 +8,7 @@
       "seen": 1,
       "lapses": 1,
       "lastSeen": "2026-09-05T13:30:52.894Z",
-      "level": 0
+      "level": 1
     },
     "h3kqnn:f2b": {
       "box": 2,
