@@ -1,6 +1,6 @@
 {
   "listId": "en-b1-nature-animals",
-  "updatedAt": "2026-09-05T13:31:12.985Z",
+  "updatedAt": "2026-09-05T13:31:43.385Z",
   "items": {
     "1gq6x1:f2b": {
       "box": 2,
@@ -451,27 +451,27 @@
       "level": 1
     },
     "813epn:b2f": {
-      "box": 1,
-      "due": "2026-09-05",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-08",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-05T13:31:35.936Z",
       "level": 1
     },
     "zgan74:b2f": {
-      "box": 1,
-      "due": "2026-09-05",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-08",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-05T13:31:39.909Z",
       "level": 1
     },
     "2mqsat:b2f": {
-      "box": 1,
-      "due": "2026-09-05",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-08",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-05T13:31:43.385Z",
       "level": 1
     },
     "60yjii:b2f": {
@@ -499,6 +499,14 @@
       "level": 1
     },
     "lfsec1:f2b": {
+      "box": 1,
+      "due": "2026-09-05",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "db8c5n:b2f": {
       "box": 1,
       "due": "2026-09-05",
       "seen": 0,
