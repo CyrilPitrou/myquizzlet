@@ -1,4 +1,4 @@
-import { $ } from './ui.js';
+import { $, clear, el } from './ui.js';
 import { ctx, settings, go, store, REPO } from './app.js';
 import { setStatus, repaintStatus } from './status.js';
 import { t, lang, setLang } from './i18n.js';
@@ -18,6 +18,7 @@ import { onInstallChange } from './install.js';
 import { showAdopt } from './screens/adopt.js';
 import { showToken } from './screens/token.js';
 import { showWishes } from './screens/wishes.js';
+import { openProfileDialog } from './screens/profiledialog.js';
 
 function initSync() {
   ctx.sync?.stop();
@@ -40,6 +41,27 @@ function initSync() {
 function showConflict({ listId, resolve }) {
   console.warn(`conflict on ${listId} — keeping the local copy`);
   resolve('local');
+}
+
+function paintProfile() {
+  const button = $('#profile-btn');
+  if (!button) return;
+  clear(button);
+  const activeId = store.getActiveProfile();
+  const profiles = store.getProfiles();
+  const active = profiles.find((p) => p.id === activeId);
+  if (active) {
+    button.append(
+      el('span', { class: 'profile-emoji', text: active.emoji }),
+      el('span', { class: 'profile-name', text: active.name }),
+    );
+    button.title = `${t('profile.title')}: ${active.name}`;
+    button.setAttribute('aria-label', `${t('profile.title')}: ${active.name}`);
+  } else {
+    button.append(el('span', { class: 'profile-emoji', text: '👤' }));
+    button.title = t('profile.choose');
+    button.setAttribute('aria-label', t('profile.choose'));
+  }
 }
 
 // The button shows the flag of the language you are in — a status you can
@@ -68,6 +90,14 @@ function paintLang() {
     if (label) label.textContent = t(key);
     else if (!link.classList.contains('icon')) link.textContent = t(key);
   }
+  const switchProfileBtn = $('#menu-switch-profile');
+  if (switchProfileBtn) {
+    switchProfileBtn.title = t('profile.switch');
+    switchProfileBtn.setAttribute('aria-label', t('profile.switch'));
+    const label = switchProfileBtn.querySelector('.lbl');
+    if (label) label.textContent = t('profile.switch');
+  }
+  paintProfile();
   repaintStatus();
 }
 
@@ -132,8 +162,15 @@ document.addEventListener('visibilitychange', () => {
 });
 window.addEventListener('online', resync);
 $('#sync-dot').addEventListener('click', resync);
+$('#profile-btn')?.addEventListener('click', () => {
+  openProfileDialog({ onSelect: () => render() });
+});
 $('#lang').addEventListener('click', () => setLang(lang() === 'fr' ? 'en' : 'fr'));
 $('#more-btn').addEventListener('click', (event) => { event.stopPropagation(); toggleMore(); });
+$('#menu-switch-profile')?.addEventListener('click', () => {
+  closeMore();
+  openProfileDialog({ onSelect: () => render() });
+});
 // render() closes the menu on every navigation, but choosing the item for the
 // screen you are already on changes no hash and so renders nothing.
 $('#more-menu').addEventListener('click', closeMore);

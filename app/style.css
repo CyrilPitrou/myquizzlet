@@ -95,8 +95,9 @@ h3 { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase;
 /* An id selector outranks the user agent's [hidden] rule, so the panel has to
    be told to disappear in as specific a voice as it was told to be a column. */
 #more-menu[hidden] { display: none; }
-#topbar #more-menu a { justify-content: flex-start; gap: .6rem; padding: 0 .9rem; }
-#topbar #more-menu a:hover, #topbar #more-menu a:focus { background: var(--ground); }
+#topbar #more-menu a, #topbar #more-menu button { justify-content: flex-start; gap: .6rem; padding: 0 .9rem; width: 100%; border: none; background: none; font-size: 1rem; color: var(--ink); cursor: pointer; }
+#topbar #more-menu a:hover, #topbar #more-menu a:focus,
+#topbar #more-menu button:hover, #topbar #more-menu button:focus { background: var(--ground); }
 /* One column for every icon, so the labels line up whatever the glyph. */
 #more-menu .mi { width: 1.4rem; text-align: center; font-size: 1.2rem; }
 
