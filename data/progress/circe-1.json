@@ -1,6 +1,6 @@
 {
   "listId": "circe-1",
-  "updatedAt": "2026-09-05T13:31:07.123Z",
+  "updatedAt": "2026-09-05T13:31:11.518Z",
   "items": {
     "ea4ril:b2f": {
       "box": 1,
@@ -35,11 +35,11 @@
       "level": 1
     },
     "o8l8we:b2f": {
-      "box": 1,
-      "due": "2026-09-05",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-08",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-05T13:31:11.518Z",
       "level": 1
     },
     "y515md:b2f": {
