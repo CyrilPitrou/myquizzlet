@@ -97,10 +97,21 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
     }
   }
 
+  function parseKey(key) {
+    const parts = key.split(':');
+    const kind = parts[0];
+    if (kind === 'list') return { kind, id: parts[1], listId: parts[1] };
+    if (kind === 'progress') {
+      if (parts.length === 3) return { kind, profileId: parts[1], id: parts[2], listId: parts[2] };
+      return { kind, profileId: 'default', id: parts[1], listId: parts[1] };
+    }
+    return { kind, id: parts[1], listId: parts[1] };
+  }
+
   async function deleteRemote(key) {
-    const [kind, id] = key.split(':');
-    const path = kind === 'list' ? listPath(id) : progressPath(id);
-    const base = store.getBase(key);
+    const { kind, id, profileId } = parseKey(key);
+    const path = kind === 'list' ? listPath(id) : (profileId && profileId !== 'default' ? `data/progress/${profileId}/${id}.json` : progressPath(id));
+    const base = store.getBase(key) || (kind === 'progress' ? store.getBase(`progress:${id}`) : null);
     let sha = base && base.sha;
     if (!sha) {
       const remote = await github.getFile(path);
@@ -112,10 +123,10 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
   }
 
   async function pushOne(key) {
-    const [kind, id] = key.split(':');
-    if (store.deletedIds().includes(id)) return deleteRemote(key);
-    const path = kind === 'list' ? listPath(id) : progressPath(id);
-    const payload = kind === 'list' ? store.getList(id) : store.getProgress(id);
+    const { kind, id, profileId, listId } = parseKey(key);
+    if (store.deletedIds().includes(listId)) return deleteRemote(key);
+    const path = kind === 'list' ? listPath(id) : (profileId && profileId !== 'default' ? `data/progress/${profileId}/${id}.json` : progressPath(id));
+    const payload = kind === 'list' ? store.getList(id) : store.getProgress(id, profileId);
     if (!payload) { store.markClean(key); return; }
     const base = store.getBase(key);
     const { sha } = await github.putFile(path, payload, base && base.sha,
@@ -130,8 +141,8 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
         await pushOne(key);
       } catch (error) {
         if (error instanceof ConflictError) {
-          const [kind, id] = key.split(':');
-          if (store.deletedIds().includes(id)) {
+          const { kind, id, listId } = parseKey(key);
+          if (store.deletedIds().includes(listId)) {
             store.setBase(key, null);   // forces deleteRemote to re-read the live sha
             await pushOne(key);
           } else if (kind === 'progress') { await pullProgress(id); await pushOne(key); }

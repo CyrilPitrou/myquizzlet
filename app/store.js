@@ -76,6 +76,48 @@ export function createStore(storage, now = () => new Date()) {
     return saveList({ ...list, cards: fn(list.cards) });
   }
 
+  function migrate() {
+    if (!storage) return;
+    const rawProfiles = storage.getItem(`${PREFIX}profiles`);
+    if (rawProfiles !== null) return;
+
+    const defaultProfile = { id: 'default', name: 'Default', emoji: '👤' };
+    write('profiles', [defaultProfile]);
+    write('activeProfile', 'default');
+
+    const oldKeys = [];
+    for (const listId of index()) {
+      if (storage.getItem(`${PREFIX}progress:${listId}`) !== null) {
+        oldKeys.push(listId);
+      }
+    }
+    if (typeof storage.length === 'number' && typeof storage.key === 'function') {
+      for (let i = 0; i < storage.length; i++) {
+        const k = storage.key(i);
+        if (k && k.startsWith(`${PREFIX}progress:`)) {
+          const rest = k.slice(`${PREFIX}progress:`.length);
+          if (!rest.includes(':') && !oldKeys.includes(rest)) {
+            oldKeys.push(rest);
+          }
+        }
+      }
+    }
+
+    for (const listId of oldKeys) {
+      const oldRaw = storage.getItem(`${PREFIX}progress:${listId}`);
+      if (oldRaw) {
+        storage.setItem(`${PREFIX}progress:default:${listId}`, oldRaw);
+        storage.removeItem(`${PREFIX}progress:${listId}`);
+        markDirty(`progress:default:${listId}`);
+      }
+    }
+    if (oldKeys.length > 0) {
+      markDirty('profiles');
+    }
+  }
+
+  migrate();
+
   return {
     newId,
     listIds: index,
@@ -103,10 +145,13 @@ export function createStore(storage, now = () => new Date()) {
     deleteList(id) {
       storage.removeItem(`${PREFIX}list:${id}`);
       storage.removeItem(`${PREFIX}progress:${id}`);
+      for (const p of this.getProfiles()) {
+        storage.removeItem(`${PREFIX}progress:${p.id}:${id}`);
+        markDirty(`progress:${p.id}:${id}`);
+      }
       setIndex(index().filter((x) => x !== id));
       if (!deleted().includes(id)) write('deleted', deleted().concat(id));
       markDirty(`list:${id}`);
-      markDirty(`progress:${id}`);
     },
     deletedIds: deleted,
     clearDeleted,
@@ -116,30 +161,57 @@ export function createStore(storage, now = () => new Date()) {
       cards.map((c) => (c.id === cardId ? { ...c, ...fields } : c))),
     deleteCard: (listId, cardId) => mutateCards(listId, (cards) =>
       cards.filter((c) => c.id !== cardId)),
+    getProfiles() {
+      return read('profiles', []);
+    },
+    saveProfiles(profiles) {
+      write('profiles', profiles);
+      markDirty('profiles');
+    },
+    getActiveProfile() {
+      return read('activeProfile', null);
+    },
+    setActiveProfile(id) {
+      if (id) write('activeProfile', id);
+      else storage.removeItem(`${PREFIX}activeProfile`);
+    },
+    deleteProfile(id) {
+      const remaining = this.getProfiles().filter((p) => p.id !== id);
+      this.saveProfiles(remaining);
+      for (const listId of index()) {
+        storage.removeItem(`${PREFIX}progress:${id}:${listId}`);
+        markDirty(`progress:${id}:${listId}`);
+      }
+      if (this.getActiveProfile() === id) {
+        this.setActiveProfile(remaining.length > 0 ? remaining[0].id : null);
+      }
+    },
+    renameProfile(id, name) {
+      const profiles = this.getProfiles().map((p) => (p.id === id ? { ...p, name: name.trim() } : p));
+      this.saveProfiles(profiles);
+    },
     swapSides(id) {
       const list = getList(id);
       if (!list) throw new Error(`no such list: ${id}`);
       const swapped = swapListSides({ list, progress: this.getProgress(id) });
-      // mergeProgress resolves per key, newest lastSeen wins. Re-keying an
-      // item to the other direction without restamping leaves it with its
-      // pre-swap lastSeen, so a peer that hasn't seen this swap yet can beat
-      // it at the *old* key and the merge resurrects the pre-swap
-      // arrangement. Restamp so the swapped state is unambiguously newer
-      // than anything a peer holds. Leave unstudied (lastSeen: null) items
-      // alone so they can never outrank a peer's studied record.
       const items = Object.fromEntries(Object.entries(swapped.progress.items)
         .map(([key, item]) => [key, item.lastSeen ? { ...item, lastSeen: stamp() } : item]));
       const savedList = saveList(swapped.list);
       const savedProgress = this.saveProgress({ ...swapped.progress, items });
       return { list: savedList, progress: savedProgress };
     },
-    getProgress: (listId) => read(`progress:${listId}`, { listId, updatedAt: null, items: {} }),
-    resetProgress(id) {
-      const progress = this.getProgress(id);
-      const today = stamp().slice(0, 10);
-      return this.saveProgress({ ...progress, items: resetItems(progress.items, today, stamp()) });
+    getProgress(listId, profileId = this.getActiveProfile()) {
+      if (!profileId) return { listId, updatedAt: null, items: {} };
+      return read(`progress:${profileId}:${listId}`, { listId, updatedAt: null, items: {} });
     },
-    saveProgress(progress) {
+    resetProgress(id, profileId = this.getActiveProfile()) {
+      if (!profileId) return;
+      const progress = this.getProgress(id, profileId);
+      const today = stamp().slice(0, 10);
+      return this.saveProgress({ ...progress, items: resetItems(progress.items, today, stamp()) }, profileId);
+    },
+    saveProgress(progress, profileId = this.getActiveProfile()) {
+      if (!profileId) throw new Error('no active profile');
       const saved = { ...progress, updatedAt: stamp() };
       const list = getList(saved.listId);
       if (list) {
@@ -147,8 +219,8 @@ export function createStore(storage, now = () => new Date()) {
         saved.items = Object.fromEntries(Object.entries(saved.items || {})
           .filter(([key]) => live.has(key.slice(0, key.lastIndexOf(':')))));
       }
-      write(`progress:${saved.listId}`, saved);
-      markDirty(`progress:${saved.listId}`);
+      write(`progress:${profileId}:${saved.listId}`, saved);
+      markDirty(`progress:${profileId}:${saved.listId}`);
       return saved;
     },
     dirtyKeys: () => read('dirty', []),

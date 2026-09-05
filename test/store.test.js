@@ -124,7 +124,7 @@ describe('dirty tracking', () => {
   it('marks progress dirty separately', () => {
     store.createList({ name: 'Food' });
     store.saveProgress({ listId: 'food', items: {} });
-    expect(store.dirtyKeys().sort()).toEqual(['list:food', 'progress:food']);
+    expect(store.dirtyKeys().sort()).toEqual(['list:food', 'progress:default:food']);
   });
 
   it('does not duplicate a key saved twice', () => {
@@ -171,7 +171,7 @@ describe('deleting a list', () => {
     store.deleteList(list.id);
     expect(store.deletedIds()).toEqual([list.id]);
     expect(store.dirtyKeys()).toContain(`list:${list.id}`);
-    expect(store.dirtyKeys()).toContain(`progress:${list.id}`);
+    expect(store.dirtyKeys()).toContain(`progress:default:${list.id}`);
   });
 
   it('keeps the base shas, which the delete request needs', () => {
@@ -309,7 +309,7 @@ describe('swap sides', () => {
   it('marks both list and progress dirty', () => {
     const list = store.createList({ name: 'Food' });
     store.swapSides(list.id);
-    expect(store.dirtyKeys().sort()).toEqual([`list:${list.id}`, `progress:${list.id}`]);
+    expect(store.dirtyKeys().sort()).toEqual([`list:${list.id}`, `progress:default:${list.id}`]);
   });
 
   it('throws for an unknown list', () => {
@@ -352,3 +352,81 @@ describe('swap sides', () => {
     expect(result.progress.items[`${id}:b2f`]).toEqual({ ...item, lastSeen: FIXED.toISOString() });
   });
 });
+
+describe('profiles and migration', () => {
+  it('creates default profile and sets it active on fresh store', () => {
+    expect(store.getProfiles()).toEqual([{ id: 'default', name: 'Default', emoji: '👤' }]);
+    expect(store.getActiveProfile()).toBe('default');
+  });
+
+  it('migrates existing flat progress to default profile', () => {
+    const rawStorage = fakeStorage();
+    rawStorage.setItem('mq:index', JSON.stringify(['food', 'verbs']));
+    rawStorage.setItem('mq:progress:food', JSON.stringify({ listId: 'food', items: { 'c1:f2b': { box: 3 } } }));
+    rawStorage.setItem('mq:progress:verbs', JSON.stringify({ listId: 'verbs', items: { 'c2:b2f': { box: 1 } } }));
+
+    const migratedStore = createStore(rawStorage);
+    expect(migratedStore.getProfiles()).toEqual([{ id: 'default', name: 'Default', emoji: '👤' }]);
+    expect(migratedStore.getActiveProfile()).toBe('default');
+    expect(rawStorage.getItem('mq:progress:food')).toBeNull();
+    expect(rawStorage.getItem('mq:progress:verbs')).toBeNull();
+    expect(migratedStore.getProgress('food').items['c1:f2b'].box).toBe(3);
+    expect(migratedStore.getProgress('verbs').items['c2:b2f'].box).toBe(1);
+    expect(migratedStore.dirtyKeys()).toContain('progress:default:food');
+    expect(migratedStore.dirtyKeys()).toContain('progress:default:verbs');
+    expect(migratedStore.dirtyKeys()).toContain('profiles');
+  });
+
+  it('allows adding, renaming, and switching profiles', () => {
+    const profiles = store.getProfiles();
+    store.saveProfiles([...profiles, { id: 'lea', name: 'Léa', emoji: '🦊' }]);
+    expect(store.getProfiles()).toHaveLength(2);
+
+    store.setActiveProfile('lea');
+    expect(store.getActiveProfile()).toBe('lea');
+
+    store.renameProfile('lea', 'Léa P.');
+    expect(store.getProfiles().find((p) => p.id === 'lea').name).toBe('Léa P.');
+  });
+
+  it('scopes progress per profile so training of one does not spoil the other', () => {
+    store.createList({ name: 'Food' });
+    const id = store.addCards('food', [{ front: 'apple', back: 'pomme' }]).cards[0].id;
+
+    // Profile 1: Default
+    store.setActiveProfile('default');
+    store.saveProgress({ listId: 'food', items: { [`${id}:f2b`]: { box: 4 } } });
+    expect(store.getProgress('food').items[`${id}:f2b`].box).toBe(4);
+
+    // Profile 2: Léa
+    store.saveProfiles([...store.getProfiles(), { id: 'lea', name: 'Léa', emoji: '🦊' }]);
+    store.setActiveProfile('lea');
+    expect(store.getProgress('food').items).toEqual({});
+
+    store.saveProgress({ listId: 'food', items: { [`${id}:f2b`]: { box: 1 } } });
+    expect(store.getProgress('food').items[`${id}:f2b`].box).toBe(1);
+
+    // Switch back to Default: progress remains box 4
+    store.setActiveProfile('default');
+    expect(store.getProgress('food').items[`${id}:f2b`].box).toBe(4);
+  });
+
+  it('returns empty progress when no profile is active', () => {
+    store.setActiveProfile(null);
+    expect(store.getActiveProfile()).toBeNull();
+    expect(store.getProgress('food')).toEqual({ listId: 'food', updatedAt: null, items: {} });
+    expect(() => store.saveProgress({ listId: 'food', items: {} })).toThrow('no active profile');
+  });
+
+  it('deletes a profile and cleans up its progress', () => {
+    store.saveProfiles([...store.getProfiles(), { id: 'bob', name: 'Bob', emoji: '🐶' }]);
+    store.setActiveProfile('bob');
+    store.createList({ name: 'Food' });
+    store.saveProgress({ listId: 'food', items: { 'c1:f2b': { box: 2 } } });
+
+    store.deleteProfile('bob');
+    expect(store.getProfiles().some((p) => p.id === 'bob')).toBe(false);
+    expect(storage.getItem('mq:progress:bob:food')).toBeNull();
+  });
+});
+
