@@ -366,3 +366,29 @@ dialog.dialog h2 { margin-top: 0; }
 @keyframes fall { to { transform: translateY(105vh) rotate(720deg); opacity: .2; } }
 
 @media (prefers-reduced-motion: reduce) { .confetti { display: none; } }
+
+/* Profiles */
+.profile-btn { display: flex; align-items: center; gap: .35rem; padding: 0 .6rem;
+               font-size: .95rem; font-weight: 500; text-decoration: none;
+               color: var(--ink); border: 1px solid var(--rule); border-radius: 8px;
+               background: var(--surface); cursor: pointer; max-width: 9rem; }
+.profile-btn .profile-emoji { font-size: 1.25rem; }
+.profile-btn .profile-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.profile-list { display: flex; flex-direction: column; gap: .4rem; margin: .75rem 0; max-height: 45vh; overflow-y: auto; }
+.profile-item { display: flex; align-items: center; gap: .75rem; width: 100%; padding: .6rem .8rem;
+                border: 1px solid var(--rule); border-radius: 8px; background: var(--surface);
+                color: var(--ink); cursor: pointer; font-size: 1.05rem; text-align: left; }
+.profile-item:hover, .profile-item:focus { border-color: var(--accent); background: var(--ground); }
+.profile-item.active { border-color: var(--accent); font-weight: 600; }
+.profile-item .profile-emoji { font-size: 1.4rem; }
+.profile-item .profile-name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.profile-item .profile-check { color: var(--ok); font-weight: 700; font-size: 1.2rem; }
+.profile-create-btn { width: 100%; margin: .5rem 0 .75rem; }
+.profile-emojis { display: grid; grid-template-columns: repeat(5, 1fr); gap: .4rem; margin-top: .4rem; }
+.profile-emoji-btn { font-size: 1.5rem; min-height: 44px; padding: .2rem; border: 1px solid var(--rule);
+                     border-radius: 8px; background: var(--surface); cursor: pointer; display: flex;
+                     align-items: center; justify-content: center; }
+.profile-emoji-btn:hover { background: var(--ground); }
+.profile-emoji-btn.selected { border-color: var(--accent); background: var(--ground); outline: 2px solid var(--accent); }
+.profile-form .field { margin-bottom: .75rem; }
+.profile-form input[type="text"] { width: 100%; }

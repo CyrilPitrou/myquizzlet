@@ -1,4 +1,4 @@
-const CACHE = 'myquizzlet-v38';
+const CACHE = 'myquizzlet-v39';
 const SHELL = [
   './', './index.html', './manifest.webmanifest', './app/style.css',
   './icons/icon-192.png', './icons/icon-512.png',
@@ -18,6 +18,7 @@ const SHELL = [
   './app/screens/folders.js', './app/screens/editlist.js', './app/screens/view.js',
   './app/screens/train.js', './app/screens/help.js', './app/screens/adopt.js',
   './app/screens/token.js', './app/screens/importdialog.js', './app/screens/wishes.js',
+  './app/screens/profiledialog.js',
 ];
 
 self.addEventListener('install', (event) => {
