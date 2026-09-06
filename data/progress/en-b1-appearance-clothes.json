@@ -1,6 +1,6 @@
 {
   "listId": "en-b1-appearance-clothes",
-  "updatedAt": "2026-09-06T16:20:28.663Z",
+  "updatedAt": "2026-09-06T16:20:41.957Z",
   "items": {
     "epfivx:b2f": {
       "box": 2,
@@ -83,11 +83,11 @@
       "level": 1
     },
     "5spu57:b2f": {
-      "box": 1,
-      "due": "2026-09-07",
-      "seen": 1,
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 2,
       "lapses": 1,
-      "lastSeen": "2026-09-06T16:20:11.689Z",
+      "lastSeen": "2026-09-06T16:20:38.273Z",
       "level": 1
     },
     "jj7f81:b2f": {
@@ -128,6 +128,22 @@
       "seen": 1,
       "lapses": 0,
       "lastSeen": "2026-09-06T16:20:04.010Z",
+      "level": 1
+    },
+    "p28bqj:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "iy5ob2:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
       "level": 1
     }
   }
