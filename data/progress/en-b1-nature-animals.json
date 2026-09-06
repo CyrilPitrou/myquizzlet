@@ -1,6 +1,6 @@
 {
   "listId": "en-b1-nature-animals",
-  "updatedAt": "2026-09-06T09:44:37.971Z",
+  "updatedAt": "2026-09-06T09:44:53.338Z",
   "items": {
     "1gq6x1:f2b": {
       "box": 2,
@@ -1163,11 +1163,11 @@
       "level": 1
     },
     "m190pn:b2f": {
-      "box": 1,
-      "due": "2026-09-07",
-      "seen": 1,
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 2,
       "lapses": 1,
-      "lastSeen": "2026-09-06T09:44:05.939Z",
+      "lastSeen": "2026-09-06T09:44:44.848Z",
       "level": 1
     },
     "hu6pr7:f2b": {
@@ -1192,6 +1192,38 @@
       "seen": 1,
       "lapses": 0,
       "lastSeen": "2026-09-06T09:44:35.212Z",
+      "level": 1
+    },
+    "p2u2ks:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "pl12f4:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "pl12f4:f2b": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "yxw4a5:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
       "level": 1
     }
   }
