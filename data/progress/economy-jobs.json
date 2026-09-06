@@ -1,6 +1,6 @@
 {
   "listId": "economy-jobs",
-  "updatedAt": "2026-09-06T17:18:10.820Z",
+  "updatedAt": "2026-09-06T17:18:14.468Z",
   "items": {
     "ch7r5k:b2f": {
       "box": 3,
@@ -93,7 +93,7 @@
       "seen": 3,
       "lapses": 2,
       "lastSeen": "2026-09-06T17:17:29.345Z",
-      "level": 0
+      "level": 1
     },
     "xlkcci:b2f": {
       "box": 2,
@@ -189,7 +189,7 @@
       "seen": 2,
       "lapses": 1,
       "lastSeen": "2026-09-06T17:18:10.820Z",
-      "level": 0
+      "level": 1
     },
     "b6r49g:b2f": {
       "box": 3,
