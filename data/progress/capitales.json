@@ -1,6 +1,6 @@
 {
   "listId": "capitales",
-  "updatedAt": "2026-09-06T16:14:05.913Z",
+  "updatedAt": "2026-09-06T16:14:22.382Z",
   "items": {
     "y0hwq6:f2b": {
       "box": 2,
@@ -468,11 +468,11 @@
     },
     "m5vkr1:f2b": {
       "box": 1,
-      "due": "2026-09-06",
-      "seen": 0,
-      "lapses": 0,
-      "lastSeen": null,
-      "level": 1
+      "due": "2026-09-07",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-06T16:14:22.382Z",
+      "level": 0
     },
     "v1ktp7:f2b": {
       "box": 1,
@@ -488,23 +488,23 @@
       "seen": 0,
       "lapses": 0,
       "lastSeen": null,
-      "level": 0
+      "level": 1
     },
     "o6cmk2:f2b": {
-      "box": 1,
-      "due": "2026-09-06",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-06T16:14:11.041Z",
       "level": 1
     },
     "d6mtg2:f2b": {
       "box": 1,
-      "due": "2026-09-06",
-      "seen": 0,
-      "lapses": 0,
-      "lastSeen": null,
-      "level": 1
+      "due": "2026-09-07",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-06T16:14:14.731Z",
+      "level": 0
     },
     "f9rhc5:f2b": {
       "box": 1,
@@ -512,7 +512,7 @@
       "seen": 0,
       "lapses": 0,
       "lastSeen": null,
-      "level": 0
+      "level": 1
     }
   }
 }
