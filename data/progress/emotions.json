@@ -1,6 +1,6 @@
 {
   "listId": "emotions",
-  "updatedAt": "2026-09-06T18:47:40.419Z",
+  "updatedAt": "2026-09-06T18:48:00.556Z",
   "items": {
     "8anrck:b2f": {
       "box": 2,
@@ -259,11 +259,11 @@
       "level": 1
     },
     "5g3mie:b2f": {
-      "box": 1,
-      "due": "2026-09-07",
-      "seen": 1,
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 2,
       "lapses": 1,
-      "lastSeen": "2026-09-06T18:47:00.154Z",
+      "lastSeen": "2026-09-06T18:47:47.826Z",
       "level": 1
     },
     "g5tl1a:b2f": {
@@ -320,6 +320,46 @@
       "seen": 1,
       "lapses": 0,
       "lastSeen": "2026-09-06T18:47:37.858Z",
+      "level": 1
+    },
+    "s0y6ax:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "t0crj0:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "r0dh62:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "eho5tj:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "kemz11:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
       "level": 1
     }
   }
