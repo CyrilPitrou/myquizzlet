@@ -1,6 +1,6 @@
 {
   "listId": "communication",
-  "updatedAt": "2026-09-06T16:32:30.917Z",
+  "updatedAt": "2026-09-06T16:32:37.261Z",
   "items": {
     "y4ph4c:b2f": {
       "box": 2,
@@ -179,11 +179,11 @@
       "level": 0
     },
     "6gzwan:b2f": {
-      "box": 1,
-      "due": "2026-09-06",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-06T16:32:37.261Z",
       "level": 1
     },
     "vv2lb0:b2f": {
