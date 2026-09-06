@@ -1,6 +1,6 @@
 {
   "listId": "economy-jobs",
-  "updatedAt": "2026-09-06T17:19:45.759Z",
+  "updatedAt": "2026-09-06T17:20:04.102Z",
   "items": {
     "ch7r5k:b2f": {
       "box": 3,
@@ -80,11 +80,11 @@
       "level": 1
     },
     "cv6ov3:b2f": {
-      "box": 2,
-      "due": "2026-09-09",
-      "seen": 1,
+      "box": 3,
+      "due": "2026-09-13",
+      "seen": 2,
       "lapses": 0,
-      "lastSeen": "2026-09-06T16:34:44.855Z",
+      "lastSeen": "2026-09-06T17:20:04.102Z",
       "level": 1
     },
     "6tzazq:b2f": {
