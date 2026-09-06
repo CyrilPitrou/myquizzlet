@@ -1,6 +1,6 @@
 {
   "listId": "economy-jobs",
-  "updatedAt": "2026-09-06T17:13:52.488Z",
+  "updatedAt": "2026-09-06T17:14:13.139Z",
   "items": {
     "ch7r5k:b2f": {
       "box": 1,
@@ -10,11 +10,11 @@
       "lastSeen": "2026-09-02T07:57:43.055Z"
     },
     "kr684q:b2f": {
-      "box": 1,
-      "due": "2026-09-03",
-      "seen": 1,
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 2,
       "lapses": 1,
-      "lastSeen": "2026-09-02T07:57:50.216Z",
+      "lastSeen": "2026-09-06T17:14:01.931Z",
       "level": 1
     },
     "lumdvq:b2f": {
@@ -265,7 +265,7 @@
       "seen": 1,
       "lapses": 1,
       "lastSeen": "2026-09-06T17:13:02.972Z",
-      "level": 0
+      "level": 1
     },
     "4u3de4:b2f": {
       "box": 2,
@@ -289,7 +289,7 @@
       "seen": 1,
       "lapses": 1,
       "lastSeen": "2026-09-06T17:13:18.321Z",
-      "level": 0
+      "level": 1
     },
     "qsm24u:b2f": {
       "box": 1,
@@ -297,7 +297,7 @@
       "seen": 1,
       "lapses": 1,
       "lastSeen": "2026-09-06T17:13:25.561Z",
-      "level": 0
+      "level": 1
     },
     "6ivq6d:b2f": {
       "box": 1,
@@ -305,7 +305,7 @@
       "seen": 1,
       "lapses": 1,
       "lastSeen": "2026-09-06T17:13:32.106Z",
-      "level": 0
+      "level": 1
     }
   }
 }
