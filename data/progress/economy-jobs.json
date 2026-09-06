@@ -1,6 +1,6 @@
 {
   "listId": "economy-jobs",
-  "updatedAt": "2026-09-06T17:17:29.345Z",
+  "updatedAt": "2026-09-06T17:17:45.219Z",
   "items": {
     "ch7r5k:b2f": {
       "box": 2,
@@ -256,11 +256,11 @@
       "level": 1
     },
     "fb9y8o:b2f": {
-      "box": 2,
-      "due": "2026-09-09",
-      "seen": 2,
+      "box": 3,
+      "due": "2026-09-13",
+      "seen": 3,
       "lapses": 1,
-      "lastSeen": "2026-09-06T17:12:35.501Z",
+      "lastSeen": "2026-09-06T17:17:45.219Z",
       "level": 1
     },
     "nq8c99:b2f": {
@@ -296,11 +296,11 @@
       "level": 1
     },
     "qsm24u:b2f": {
-      "box": 2,
-      "due": "2026-09-09",
-      "seen": 2,
+      "box": 3,
+      "due": "2026-09-13",
+      "seen": 3,
       "lapses": 1,
-      "lastSeen": "2026-09-06T17:14:54.585Z",
+      "lastSeen": "2026-09-06T17:17:39.697Z",
       "level": 1
     },
     "6ivq6d:b2f": {
