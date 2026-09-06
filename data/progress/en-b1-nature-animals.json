@@ -1,6 +1,6 @@
 {
   "listId": "en-b1-nature-animals",
-  "updatedAt": "2026-09-06T09:36:43.228Z",
+  "updatedAt": "2026-09-06T09:36:52.244Z",
   "items": {
     "1gq6x1:f2b": {
       "box": 2,
@@ -985,6 +985,22 @@
       "lapses": 0,
       "lastSeen": null,
       "level": 1
+    },
+    "tvsb6u:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 0
+    },
+    "v3oay2:f2b": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 0
     }
   }
 }
