@@ -1,6 +1,6 @@
 {
   "listId": "emotions",
-  "updatedAt": "2026-09-06T18:46:01.912Z",
+  "updatedAt": "2026-09-06T18:46:15.617Z",
   "items": {
     "8anrck:b2f": {
       "box": 2,
@@ -211,11 +211,11 @@
       "level": 1
     },
     "z55kja:b2f": {
-      "box": 1,
-      "due": "2026-09-07",
-      "seen": 1,
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 2,
       "lapses": 1,
-      "lastSeen": "2026-09-06T18:45:00.991Z",
+      "lastSeen": "2026-09-06T18:46:15.617Z",
       "level": 1
     },
     "9b4vqf:b2f": {
