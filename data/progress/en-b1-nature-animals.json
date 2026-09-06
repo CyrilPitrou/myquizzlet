@@ -1,6 +1,6 @@
 {
   "listId": "en-b1-nature-animals",
-  "updatedAt": "2026-09-06T09:42:43.311Z",
+  "updatedAt": "2026-09-06T09:43:08.440Z",
   "items": {
     "1gq6x1:f2b": {
       "box": 2,
@@ -1123,6 +1123,46 @@
       "level": 1
     },
     "pg8n8y:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:42:53.112Z",
+      "level": 1
+    },
+    "6q6x4o:f2b": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "6q6x4o:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "m5fm4t:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "pf25ow:f2b": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "m190pn:b2f": {
       "box": 1,
       "due": "2026-09-06",
       "seen": 0,
