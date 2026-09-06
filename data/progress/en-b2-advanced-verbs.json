@@ -1,6 +1,6 @@
 {
   "listId": "en-b2-advanced-verbs",
-  "updatedAt": "2026-09-06T16:21:30.572Z",
+  "updatedAt": "2026-09-06T16:21:43.624Z",
   "items": {
     "fa576a:b2f": {
       "box": 1,
@@ -8,7 +8,7 @@
       "seen": 0,
       "lapses": 0,
       "lastSeen": null,
-      "level": 0
+      "level": 1
     },
     "3a62ce:b2f": {
       "box": 1,
@@ -57,6 +57,14 @@
       "lapses": 0,
       "lastSeen": null,
       "level": 0
+    },
+    "392290:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
     }
   }
 }
