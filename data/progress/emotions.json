@@ -1,6 +1,6 @@
 {
   "listId": "emotions",
-  "updatedAt": "2026-09-06T18:45:45.146Z",
+  "updatedAt": "2026-09-06T18:45:52.843Z",
   "items": {
     "8anrck:b2f": {
       "box": 2,
@@ -219,11 +219,11 @@
       "level": 1
     },
     "9b4vqf:b2f": {
-      "box": 1,
-      "due": "2026-09-06",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-06T18:45:50.976Z",
       "level": 1
     },
     "s6ycxa:b2f": {
@@ -240,7 +240,7 @@
       "seen": 1,
       "lapses": 1,
       "lastSeen": "2026-09-06T18:45:15.410Z",
-      "level": 0
+      "level": 1
     },
     "36sdce:b2f": {
       "box": 2,
