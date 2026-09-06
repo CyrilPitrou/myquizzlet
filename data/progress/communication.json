@@ -1,6 +1,6 @@
 {
   "listId": "communication",
-  "updatedAt": "2026-09-06T16:31:51.760Z",
+  "updatedAt": "2026-09-06T16:32:00.505Z",
   "items": {
     "y4ph4c:b2f": {
       "box": 2,
@@ -155,11 +155,11 @@
       "level": 1
     },
     "teqmmt:b2f": {
-      "box": 1,
-      "due": "2026-09-06",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-06T16:32:00.505Z",
       "level": 1
     },
     "vjlarc:b2f": {
