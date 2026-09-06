@@ -1,6 +1,6 @@
 {
   "listId": "en-b1-appearance-clothes",
-  "updatedAt": "2026-09-06T16:19:47.163Z",
+  "updatedAt": "2026-09-06T16:19:50.228Z",
   "items": {
     "epfivx:b2f": {
       "box": 2,
@@ -107,11 +107,11 @@
       "level": 0
     },
     "6cee2v:b2f": {
-      "box": 1,
-      "due": "2026-09-06",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-06T16:19:50.228Z",
       "level": 1
     },
     "0z1f1q:b2f": {
