@@ -1,0 +1,433 @@
+{
+  "id": "emotions-relations",
+  "name": "Emotions Relations",
+  "folder": "Harry Potter",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-07",
+  "cards": [
+    {
+      "id": "j52lw0",
+      "front": "a customer",
+      "back": "un client"
+    },
+    {
+      "id": "y0lplj",
+      "front": "a daughter",
+      "back": "une fille"
+    },
+    {
+      "id": "gehbt3",
+      "front": "a fool",
+      "back": "un imbécile"
+    },
+    {
+      "id": "yujgd6",
+      "front": "a gift",
+      "back": "un don"
+    },
+    {
+      "id": "30mo62",
+      "front": "a grin",
+      "back": "un large sourire/un sourire en coin"
+    },
+    {
+      "id": "qsxuku",
+      "front": "a partner",
+      "back": "un partenaire"
+    },
+    {
+      "id": "v1o9q9",
+      "front": "a stranger",
+      "back": "un étranger"
+    },
+    {
+      "id": "t0ejt6",
+      "front": "a thief",
+      "back": "un voleur"
+    },
+    {
+      "id": "l47om5",
+      "front": "a threat",
+      "back": "une menace"
+    },
+    {
+      "id": "g2v841",
+      "front": "alive",
+      "back": "vivant"
+    },
+    {
+      "id": "9tkb93",
+      "front": "an audience",
+      "back": "un public"
+    },
+    {
+      "id": "p9qmws",
+      "front": "bald",
+      "back": "chauve"
+    },
+    {
+      "id": "vwtz81",
+      "front": "bossy",
+      "back": "autoritaire"
+    },
+    {
+      "id": "vd7a4q",
+      "front": "brave/courageous",
+      "back": "courageux"
+    },
+    {
+      "id": "ljvnfu",
+      "front": "brilliant",
+      "back": "intelligent"
+    },
+    {
+      "id": "q1a74l",
+      "front": "cheerful",
+      "back": "joyeux"
+    },
+    {
+      "id": "2t0ic4",
+      "front": "clever/intelligent",
+      "back": "intelligent"
+    },
+    {
+      "id": "wtoj0q",
+      "front": "creepy",
+      "back": "étrange/qui fait peur"
+    },
+    {
+      "id": "u7ox9n",
+      "front": "depressed",
+      "back": "déprimé"
+    },
+    {
+      "id": "1raadj",
+      "front": "exhausted",
+      "back": "épuisé"
+    },
+    {
+      "id": "qxsgmz",
+      "front": "faithful",
+      "back": "fidèle"
+    },
+    {
+      "id": "qqr1kd",
+      "front": "fame",
+      "back": "la gloire"
+    },
+    {
+      "id": "eci9in",
+      "front": "glee/happiness",
+      "back": "la joie"
+    },
+    {
+      "id": "3b9kdn",
+      "front": "gloomy",
+      "back": "sinistre/lugubre"
+    },
+    {
+      "id": "31wdpd",
+      "front": "greed",
+      "back": "l'avarice"
+    },
+    {
+      "id": "9zkk38",
+      "front": "hope",
+      "back": "l'espoir"
+    },
+    {
+      "id": "8e15cs",
+      "front": "horrified",
+      "back": "horrifié"
+    },
+    {
+      "id": "hppet7",
+      "front": "mean/bad",
+      "back": "méchant"
+    },
+    {
+      "id": "ufy2w4",
+      "front": "mean/nasty",
+      "back": "méchant"
+    },
+    {
+      "id": "gji65h",
+      "front": "restless",
+      "back": "agité"
+    },
+    {
+      "id": "j1njhz",
+      "front": "rude",
+      "back": "grossier/vulgaire"
+    },
+    {
+      "id": "qsj20v",
+      "front": "selfish",
+      "back": "égoïste"
+    },
+    {
+      "id": "57jitz",
+      "front": "sly",
+      "back": "rusé"
+    },
+    {
+      "id": "ljr1wx",
+      "front": "smooth/smoothly",
+      "back": "doux/doucement"
+    },
+    {
+      "id": "gqvwzp",
+      "front": "strong",
+      "back": "fort"
+    },
+    {
+      "id": "8sieej",
+      "front": "stunned",
+      "back": "ébahi/très surpris"
+    },
+    {
+      "id": "ki6wcn",
+      "front": "the chatter",
+      "back": "le bavardage"
+    },
+    {
+      "id": "h5xrcl",
+      "front": "the delight",
+      "back": "le délice"
+    },
+    {
+      "id": "w2tmrr",
+      "front": "the friendship",
+      "back": "l'amitié"
+    },
+    {
+      "id": "bgxwm2",
+      "front": "the grief/sorrow",
+      "back": "le chagrin"
+    },
+    {
+      "id": "4tiktp",
+      "front": "the loyalty",
+      "back": "la loyauté"
+    },
+    {
+      "id": "9fuu3p",
+      "front": "the matter",
+      "back": "le sujet"
+    },
+    {
+      "id": "kvdice",
+      "front": "the relief",
+      "back": "le soulagement"
+    },
+    {
+      "id": "91vqgl",
+      "front": "the shame",
+      "back": "la honte"
+    },
+    {
+      "id": "kv4sow",
+      "front": "the sin",
+      "back": "le péché"
+    },
+    {
+      "id": "zol8bh",
+      "front": "the sorrow",
+      "back": "le chagrin"
+    },
+    {
+      "id": "ykpwt9",
+      "front": "the trouble",
+      "back": "les ennuis"
+    },
+    {
+      "id": "kbcc50",
+      "front": "the twins",
+      "back": "les jumeaux"
+    },
+    {
+      "id": "1705s6",
+      "front": "to advise",
+      "back": "conseiller"
+    },
+    {
+      "id": "0o9y4n",
+      "front": "to argue",
+      "back": "se disputer"
+    },
+    {
+      "id": "qvu52m",
+      "front": "to argue with someone",
+      "back": "se disputer avec quelqu'un"
+    },
+    {
+      "id": "q2fq68",
+      "front": "to bore someone",
+      "back": "ennuyer quelqu'un"
+    },
+    {
+      "id": "z5u12h",
+      "front": "to bother/annoy someone",
+      "back": "embêter quelqu'un"
+    },
+    {
+      "id": "9mrcsq",
+      "front": "to bring up someone",
+      "back": "élever quelqu'un"
+    },
+    {
+      "id": "vl3lul",
+      "front": "to cheer up",
+      "back": "réconforter"
+    },
+    {
+      "id": "qigfsj",
+      "front": "to deserve",
+      "back": "mériter"
+    },
+    {
+      "id": "5jltgj",
+      "front": "to deserve something",
+      "back": "mériter quelque chose"
+    },
+    {
+      "id": "go2ibp",
+      "front": "to dread something",
+      "back": "redouter quelque chose"
+    },
+    {
+      "id": "yrjzyz",
+      "front": "to expect",
+      "back": "s'attendre à"
+    },
+    {
+      "id": "iwzy7w",
+      "front": "to forgive – forgave – forgiven",
+      "back": "pardonner"
+    },
+    {
+      "id": "mcurit",
+      "front": "to get rid of someone",
+      "back": "se débarrasser de quelqu'un"
+    },
+    {
+      "id": "6tixa0",
+      "front": "to have an argument",
+      "back": "avoir une dispute"
+    },
+    {
+      "id": "hgi919",
+      "front": "to ignore someone",
+      "back": "ignorer quelqu'un"
+    },
+    {
+      "id": "4dijxj",
+      "front": "to insult someone",
+      "back": "insulter quelqu'un"
+    },
+    {
+      "id": "7q2pt4",
+      "front": "to introduce someone",
+      "back": "présenter quelqu'un"
+    },
+    {
+      "id": "azoai3",
+      "front": "to loathe/hate someone",
+      "back": "haïr quelqu'un"
+    },
+    {
+      "id": "8x1blm",
+      "front": "to long to do something",
+      "back": "avoir très envie de faire quelque chose"
+    },
+    {
+      "id": "3bfr0j",
+      "front": "to moan",
+      "back": "gémir"
+    },
+    {
+      "id": "qtc8mf",
+      "front": "to mutter something",
+      "back": "marmonner quelque chose"
+    },
+    {
+      "id": "0ibyu7",
+      "front": "to owe something",
+      "back": "devoir quelque chose"
+    },
+    {
+      "id": "duolny",
+      "front": "to reckon/think",
+      "back": "penser"
+    },
+    {
+      "id": "5cnhq2",
+      "front": "to shudder",
+      "back": "frissonner"
+    },
+    {
+      "id": "90n36e",
+      "front": "to single out someone",
+      "back": "distinguer quelqu'un"
+    },
+    {
+      "id": "cbzcad",
+      "front": "to spoil the happiness",
+      "back": "gâcher la joie"
+    },
+    {
+      "id": "au80xi",
+      "front": "to stare",
+      "back": "fixer du regard"
+    },
+    {
+      "id": "hohqlb",
+      "front": "to taunt someone",
+      "back": "narguer quelqu'un"
+    },
+    {
+      "id": "fahulq",
+      "front": "to threaten",
+      "back": "menacer"
+    },
+    {
+      "id": "6t9hdg",
+      "front": "to treat someone",
+      "back": "soigner quelqu'un"
+    },
+    {
+      "id": "pautjq",
+      "front": "to trick someone",
+      "back": "jouer un tour à quelqu'un"
+    },
+    {
+      "id": "a955ze",
+      "front": "to wonder",
+      "back": "se demander"
+    },
+    {
+      "id": "vl26xg",
+      "front": "useless",
+      "back": "inutile"
+    },
+    {
+      "id": "4e35tx",
+      "front": "weak",
+      "back": "faible"
+    },
+    {
+      "id": "36f2xv",
+      "front": "well-known/famous",
+      "back": "connu"
+    },
+    {
+      "id": "yqckwb",
+      "front": "wicked",
+      "back": "méchant"
+    }
+  ],
+  "updatedAt": "2026-09-07T18:40:59.034Z"
+}
