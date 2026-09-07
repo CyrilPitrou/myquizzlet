@@ -1,0 +1,433 @@
+{
+  "id": "actions-descriptions",
+  "name": "Actions Descriptions",
+  "folder": "Harry Potter",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-07",
+  "cards": [
+    {
+      "id": "lza4dm",
+      "front": "a blast",
+      "back": "une explosion"
+    },
+    {
+      "id": "9ib73e",
+      "front": "a blow",
+      "back": "un coup"
+    },
+    {
+      "id": "8qveau",
+      "front": "a lullaby",
+      "back": "une berceuse"
+    },
+    {
+      "id": "3l3fbq",
+      "front": "a reflection",
+      "back": "un reflet"
+    },
+    {
+      "id": "epnjto",
+      "front": "awkward",
+      "back": "maladroit"
+    },
+    {
+      "id": "ak93ny",
+      "front": "bitter",
+      "back": "amer"
+    },
+    {
+      "id": "ex8c3u",
+      "front": "bitterly",
+      "back": "amèrement"
+    },
+    {
+      "id": "c88l15",
+      "front": "bright",
+      "back": "lumineux/brillant"
+    },
+    {
+      "id": "vprcbx",
+      "front": "cosy",
+      "back": "confortable"
+    },
+    {
+      "id": "gcc5ds",
+      "front": "deep",
+      "back": "profond"
+    },
+    {
+      "id": "kubv49",
+      "front": "dry",
+      "back": "sec"
+    },
+    {
+      "id": "yyn6on",
+      "front": "dry/dried",
+      "back": "sec/sèche/séché"
+    },
+    {
+      "id": "10qi4n",
+      "front": "eerie/strange",
+      "back": "étrange"
+    },
+    {
+      "id": "pwqg5h",
+      "front": "endless",
+      "back": "interminable"
+    },
+    {
+      "id": "6ehzp0",
+      "front": "fierce",
+      "back": "féroce"
+    },
+    {
+      "id": "rbtm37",
+      "front": "flat",
+      "back": "plat"
+    },
+    {
+      "id": "e2uo3e",
+      "front": "loud",
+      "back": "fort (son)"
+    },
+    {
+      "id": "gmhj3m",
+      "front": "low",
+      "back": "bas (son)"
+    },
+    {
+      "id": "fuc7i5",
+      "front": "maroon",
+      "back": "bordeaux (couleur)"
+    },
+    {
+      "id": "gvix3f",
+      "front": "mute",
+      "back": "muet"
+    },
+    {
+      "id": "s0mvnu",
+      "front": "narrow",
+      "back": "étroit"
+    },
+    {
+      "id": "vmyc3r",
+      "front": "plump",
+      "back": "rond/qui a de l'embonpoint"
+    },
+    {
+      "id": "mxk02u",
+      "front": "purple",
+      "back": "violet"
+    },
+    {
+      "id": "x0x7q5",
+      "front": "rotten",
+      "back": "pourri"
+    },
+    {
+      "id": "bofmt7",
+      "front": "several",
+      "back": "plusieurs"
+    },
+    {
+      "id": "2p8bgi",
+      "front": "sharp",
+      "back": "acéré"
+    },
+    {
+      "id": "ddi83i",
+      "front": "smooth",
+      "back": "lisse"
+    },
+    {
+      "id": "1aa8a2",
+      "front": "soft",
+      "back": "doux"
+    },
+    {
+      "id": "2cwcwv",
+      "front": "some uproar",
+      "back": "du boucan"
+    },
+    {
+      "id": "1k963m",
+      "front": "sparks",
+      "back": "des étincelles"
+    },
+    {
+      "id": "vnisds",
+      "front": "stained",
+      "back": "taché"
+    },
+    {
+      "id": "52j4s5",
+      "front": "steep",
+      "back": "raide"
+    },
+    {
+      "id": "droo66",
+      "front": "stiff",
+      "back": "raide"
+    },
+    {
+      "id": "gj9b6r",
+      "front": "straight",
+      "back": "droit"
+    },
+    {
+      "id": "57mmby",
+      "front": "swift/quick",
+      "back": "rapide"
+    },
+    {
+      "id": "keqclf",
+      "front": "the shadow",
+      "back": "l'ombre"
+    },
+    {
+      "id": "hbfuxb",
+      "front": "the strength",
+      "back": "la force"
+    },
+    {
+      "id": "ne9rox",
+      "front": "the warmth",
+      "back": "la chaleur"
+    },
+    {
+      "id": "uxy49a",
+      "front": "thick",
+      "back": "épais"
+    },
+    {
+      "id": "ker7rc",
+      "front": "thin",
+      "back": "fin"
+    },
+    {
+      "id": "wvervm",
+      "front": "tight",
+      "back": "serré"
+    },
+    {
+      "id": "zyueih",
+      "front": "to avoid",
+      "back": "éviter"
+    },
+    {
+      "id": "egnr4q",
+      "front": "to beam",
+      "back": "rayonner"
+    },
+    {
+      "id": "f980x5",
+      "front": "to bind",
+      "back": "attacher"
+    },
+    {
+      "id": "fy1uax",
+      "front": "to boil",
+      "back": "bouillir"
+    },
+    {
+      "id": "d5drj7",
+      "front": "to burst – burst – burst",
+      "back": "éclater"
+    },
+    {
+      "id": "resuuo",
+      "front": "to carry on/go on",
+      "back": "continuer"
+    },
+    {
+      "id": "xdw7gg",
+      "front": "to carve",
+      "back": "graver"
+    },
+    {
+      "id": "1p1e78",
+      "front": "to carve something",
+      "back": "graver quelque chose"
+    },
+    {
+      "id": "nycbzm",
+      "front": "to chatter",
+      "back": "bavarder"
+    },
+    {
+      "id": "ul5ut7",
+      "front": "to dare",
+      "back": "oser"
+    },
+    {
+      "id": "o31fhv",
+      "front": "to destroy something",
+      "back": "détruire quelque chose"
+    },
+    {
+      "id": "ruawat",
+      "front": "to fade",
+      "back": "disparaître progressivement"
+    },
+    {
+      "id": "abdzkp",
+      "front": "to fill the space",
+      "back": "remplir l'espace"
+    },
+    {
+      "id": "j7ozjf",
+      "front": "to get drunk",
+      "back": "se saouler/s’enivrer"
+    },
+    {
+      "id": "8ljw4q",
+      "front": "to get rid of",
+      "back": "se débarrasser de"
+    },
+    {
+      "id": "bmcnk1",
+      "front": "to give way",
+      "back": "céder le passage"
+    },
+    {
+      "id": "aajub8",
+      "front": "to glow",
+      "back": "briller"
+    },
+    {
+      "id": "iwfirz",
+      "front": "to hiss",
+      "back": "siffler (serpent)"
+    },
+    {
+      "id": "6r6mvh",
+      "front": "to hum",
+      "back": "chantonner"
+    },
+    {
+      "id": "85dl3r",
+      "front": "to lie",
+      "back": "mentir"
+    },
+    {
+      "id": "xeby6o",
+      "front": "to look down",
+      "back": "regarder vers le bas"
+    },
+    {
+      "id": "9y7nku",
+      "front": "to look for something",
+      "back": "rechercher quelque chose"
+    },
+    {
+      "id": "cxd10u",
+      "front": "to lurk",
+      "back": "traîner"
+    },
+    {
+      "id": "1o50uz",
+      "front": "to mess around",
+      "back": "mettre le bazar partout/faire l'idiot"
+    },
+    {
+      "id": "ne38mf",
+      "front": "to point at something",
+      "back": "montrer quelque chose du doigt"
+    },
+    {
+      "id": "pavq36",
+      "front": "to pop up",
+      "back": "apparaître soudainement"
+    },
+    {
+      "id": "442kcc",
+      "front": "to remove",
+      "back": "enlever"
+    },
+    {
+      "id": "j70q61",
+      "front": "to ring",
+      "back": "sonner"
+    },
+    {
+      "id": "tnn0uh",
+      "front": "to ruin",
+      "back": "gâcher"
+    },
+    {
+      "id": "9gz6hp",
+      "front": "to seek",
+      "back": "rechercher"
+    },
+    {
+      "id": "uocivt",
+      "front": "to shriek/scream",
+      "back": "hurler/crier"
+    },
+    {
+      "id": "n7m105",
+      "front": "to snap the fingers",
+      "back": "claquer des doigts"
+    },
+    {
+      "id": "desbio",
+      "front": "to sparkle",
+      "back": "étinceler"
+    },
+    {
+      "id": "wtfkl1",
+      "front": "to strain",
+      "back": "faire des efforts/essayer"
+    },
+    {
+      "id": "6s0y3j",
+      "front": "to swap",
+      "back": "échanger"
+    },
+    {
+      "id": "whlczz",
+      "front": "to wake – woke – woken",
+      "back": "se réveiller"
+    },
+    {
+      "id": "fcmufr",
+      "front": "to waste something",
+      "back": "gâcher quelque chose"
+    },
+    {
+      "id": "tearo4",
+      "front": "to wave something",
+      "back": "agiter quelque chose"
+    },
+    {
+      "id": "yjneur",
+      "front": "to whistle",
+      "back": "siffler"
+    },
+    {
+      "id": "63s26k",
+      "front": "warm",
+      "back": "chaud"
+    },
+    {
+      "id": "b5ac6h",
+      "front": "weird/strange/odd",
+      "back": "étrange"
+    },
+    {
+      "id": "u9qqv2",
+      "front": "wet",
+      "back": "mouillé"
+    },
+    {
+      "id": "n6wb69",
+      "front": "wide",
+      "back": "large"
+    }
+  ],
+  "updatedAt": "2026-09-07T18:46:11.632Z"
+}
