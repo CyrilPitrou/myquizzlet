@@ -130,6 +130,19 @@ describe('listDir', () => {
   });
 });
 
+describe('listEntries', () => {
+  it('keeps both files and directories so sync can discover profile folders', async () => {
+    const { gh } = client([{ status: 200, body: [
+      { name: 'default', path: 'data/progress/default', sha: 'd1', type: 'dir' },
+      { name: 'food.json', path: 'data/progress/food.json', sha: 'f1', type: 'file' },
+    ] }]);
+    expect(await gh.listEntries('data/progress')).toEqual([
+      { name: 'default', path: 'data/progress/default', sha: 'd1', type: 'dir' },
+      { name: 'food.json', path: 'data/progress/food.json', sha: 'f1', type: 'file' },
+    ]);
+  });
+});
+
 describe('deleteFile', () => {
   it('sends DELETE with the sha and the branch, and bypasses the cache', async () => {
     let captured = null;

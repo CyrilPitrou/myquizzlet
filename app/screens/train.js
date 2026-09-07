@@ -50,7 +50,7 @@ export function showTrainSetup(id) {
   if (!list) return go('#/');
   if (!store.getActiveProfile()) {
     openProfileDialog({
-      onSelect: () => ctx.render(),
+      onSelect: () => { ctx.sync?.schedule(); ctx.render(); },
       onCancel: () => go(`#/list/${id}`),
     });
     return;

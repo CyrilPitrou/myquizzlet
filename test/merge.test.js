@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { mergeProgress, compareLists, listUnchanged } from '../app/merge.js';
+import { mergeProgress, compareLists, listUnchanged, mergeProfiles } from '../app/merge.js';
 import { swapSides } from '../app/sides.js';
 
 const item = (box, lastSeen) => ({ box, due: '2026-09-02', seen: box, lapses: 0, lastSeen });
@@ -140,5 +140,42 @@ describe('listUnchanged', () => {
   it('is false for a list this device has never had, or never synced', () => {
     expect(listUnchanged({ local: null, remoteSha: 'L1', base })).toBe(false);
     expect(listUnchanged({ local, remoteSha: 'L1', base: null })).toBe(false);
+  });
+});
+
+describe('mergeProfiles', () => {
+  it('unions profiles by id and resolves conflicts by updatedAt', () => {
+    const local = {
+      updatedAt: '2026-09-01T10:00:00Z',
+      profiles: [
+        { id: 'default', name: 'Default', emoji: '👤' },
+        { id: 'cyril', name: 'Cyril Old', emoji: '🐻', updatedAt: '2026-09-01T08:00:00Z' },
+      ],
+    };
+    const remote = {
+      updatedAt: '2026-09-02T10:00:00Z',
+      profiles: [
+        { id: 'cyril', name: 'Cyril New', emoji: '🐻', updatedAt: '2026-09-02T08:00:00Z' },
+        { id: 'lea', name: 'Léa', emoji: '🦊', updatedAt: '2026-09-02T09:00:00Z' },
+      ],
+    };
+    const merged = mergeProfiles(local, remote);
+    expect(merged.updatedAt).toBe('2026-09-02T10:00:00Z');
+    expect(merged.profiles).toHaveLength(3);
+    expect(merged.profiles.find((p) => p.id === 'cyril').name).toBe('Cyril New');
+    expect(merged.profiles.map((p) => p.id).sort()).toEqual(['cyril', 'default', 'lea']);
+  });
+
+  it('keeps a deletion tombstone from being resurrected by a stale device', () => {
+    const local = {
+      profiles: [{ id: 'default', name: 'Default', emoji: '👤', updatedAt: '2026-09-01T00:00:00Z' }],
+      deletedProfiles: [{ id: 'bob', updatedAt: '2026-09-03T00:00:00Z' }],
+    };
+    const remote = {
+      profiles: [{ id: 'bob', name: 'Bob', emoji: '🐶', updatedAt: '2026-09-02T00:00:00Z' }],
+    };
+    const merged = mergeProfiles(local, remote);
+    expect(merged.profiles.map((profile) => profile.id)).toEqual(['default']);
+    expect(merged.deletedProfiles).toEqual([{ id: 'bob', updatedAt: '2026-09-03T00:00:00Z' }]);
   });
 });

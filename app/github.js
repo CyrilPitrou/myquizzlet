@@ -70,5 +70,11 @@ export function createGitHub({ repo, branch, token, fetchImpl = globalThis.fetch
       return body.filter((entry) => entry.type === 'file')
         .map(({ name, path: p, sha }) => ({ name, path: p, sha }));
     },
+
+    async listEntries(path) {
+      const { missing, body } = await request(url(path, `?ref=${branch}`));
+      if (missing) return [];
+      return body.map(({ name, path: p, sha, type }) => ({ name, path: p, sha, type }));
+    },
   };
 }

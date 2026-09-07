@@ -393,3 +393,10 @@ dialog.dialog h2 { margin-top: 0; }
 .profile-emoji-btn.selected { border-color: var(--accent); background: var(--ground); outline: 2px solid var(--accent); }
 .profile-form .field { margin-bottom: .75rem; }
 .profile-form input[type="text"] { width: 100%; }
+.profile-current .profile-emoji, .profile-manage-item .profile-emoji { font-size: 1.35rem; }
+.profile-current > span:nth-child(2), .profile-manage-item > span:nth-child(2) { flex: 1; }
+.profile-manage { margin-top: .8rem; }
+.profile-manage summary { cursor: pointer; color: var(--accent); }
+.profile-manage-list { display: flex; flex-direction: column; gap: .5rem; margin-top: .7rem; }
+.profile-manage-item { flex-wrap: wrap; }
+.danger { color: var(--bad); }

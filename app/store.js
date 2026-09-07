@@ -155,6 +155,22 @@ export function createStore(storage, now = () => new Date()) {
     },
     deletedIds: deleted,
     clearDeleted,
+    deletedProfileTombstones() {
+      // The early profile build stored bare ids locally. Keep reading those
+      // records so an upgrade still deletes their remote progress safely.
+      return read('deletedProfiles', []).map((entry) => (typeof entry === 'string'
+        ? { id: entry, updatedAt: '' } : entry));
+    },
+    deletedProfileIds() {
+      const profiles = new Map(this.getProfiles().map((profile) => [profile.id, profile]));
+      return this.deletedProfileTombstones()
+        .filter((deleted) => !profiles.has(deleted.id)
+          || (deleted.updatedAt || '') >= (profiles.get(deleted.id).updatedAt || ''))
+        .map((deleted) => deleted.id);
+    },
+    saveDeletedProfileTombstones(tombstones) {
+      write('deletedProfiles', tombstones);
+    },
     addCards: (listId, cards) => mutateCards(listId, (existing) =>
       existing.concat(cards.map((c) => ({ id: newId(), front: c.front, back: c.back })))),
     updateCard: (listId, cardId, fields) => mutateCards(listId, (cards) =>
@@ -165,7 +181,7 @@ export function createStore(storage, now = () => new Date()) {
       return read('profiles', []);
     },
     saveProfiles(profiles) {
-      write('profiles', profiles);
+      write('profiles', profiles.map((profile) => ({ ...profile, updatedAt: profile.updatedAt || stamp() })));
       markDirty('profiles');
     },
     getActiveProfile() {
@@ -178,16 +194,28 @@ export function createStore(storage, now = () => new Date()) {
     deleteProfile(id) {
       const remaining = this.getProfiles().filter((p) => p.id !== id);
       this.saveProfiles(remaining);
-      for (const listId of index()) {
-        storage.removeItem(`${PREFIX}progress:${id}:${listId}`);
-        markDirty(`progress:${id}:${listId}`);
+      const prefix = `${PREFIX}progress:${id}:`;
+      const keys = index().map((listId) => `${prefix}${listId}`);
+      if (typeof storage.length === 'number' && typeof storage.key === 'function') {
+        for (let i = 0; i < storage.length; i++) {
+          const key = storage.key(i);
+          if (key && key.startsWith(prefix)) keys.push(key);
+        }
       }
+      for (const key of new Set(keys)) storage.removeItem(key);
+      const removed = this.deletedProfileTombstones();
+      const deletedAt = stamp();
+      const previous = removed.find((entry) => entry.id === id);
+      const next = previous && (previous.updatedAt || '') > deletedAt
+        ? previous : { id, updatedAt: deletedAt };
+      this.saveDeletedProfileTombstones(removed.filter((entry) => entry.id !== id).concat(next));
       if (this.getActiveProfile() === id) {
         this.setActiveProfile(remaining.length > 0 ? remaining[0].id : null);
       }
     },
     renameProfile(id, name) {
-      const profiles = this.getProfiles().map((p) => (p.id === id ? { ...p, name: name.trim() } : p));
+      const profiles = this.getProfiles().map((p) => (p.id === id
+        ? { ...p, name: name.trim(), updatedAt: stamp() } : p));
       this.saveProfiles(profiles);
     },
     swapSides(id) {

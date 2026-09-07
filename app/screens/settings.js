@@ -5,6 +5,8 @@ import { maskToken, expiryWarning } from '../setup.js';
 import { toCsv } from '../csv.js';
 import { zip, entryNames } from '../zip.js';
 import { t } from '../i18n.js';
+import { openProfileDialog } from './profiledialog.js';
+import { validateProfileName } from '../profiles.js';
 
 const THEMES = [{ id: 'paper', key: 'settings.theme.paper' },
                 { id: 'study', key: 'settings.theme.study' },
@@ -43,6 +45,53 @@ function toggle(key, label, fallback = false) {
 
 function section(title, nodes) {
   return el('section', { class: 'sect' }, [el('h3', { text: title }), ...nodes]);
+}
+
+function profileSection() {
+  const profiles = store.getProfiles();
+  const active = profiles.find((profile) => profile.id === store.getActiveProfile());
+
+  const switchProfile = () => openProfileDialog({
+    onSelect: () => { ctx.sync?.schedule(); ctx.render(); },
+  });
+
+  const renameProfile = (profile) => {
+    const name = prompt(t('profile.rename'), profile.name);
+    if (name === null) return;
+    const trimmed = name.trim();
+    const error = validateProfileName(trimmed, profiles, profile.id);
+    if (error === 'empty' || trimmed === profile.name) return;
+    if (error === 'duplicate') return alert(t('profile.exists'));
+    store.renameProfile(profile.id, trimmed);
+    ctx.sync?.schedule();
+    ctx.render();
+  };
+
+  const deleteProfile = (profile) => {
+    if (!confirm(t('profile.deleteConfirm', { name: profile.name }))) return;
+    store.deleteProfile(profile.id);
+    ctx.sync?.schedule();
+    ctx.render();
+  };
+
+  return section(t('profile.title'), [
+    el('div', { class: 'row profile-current' }, [
+      el('span', { class: 'profile-emoji', text: active?.emoji || '👤' }),
+      el('span', { text: active ? active.name : t('profile.noProfile') }),
+      el('button', { text: t('profile.switch'), onclick: switchProfile }),
+    ]),
+    el('details', { class: 'profile-manage' }, [
+      el('summary', { text: t('profile.manage') }),
+      el('div', { class: 'profile-manage-list' }, profiles.map((profile) => el('div', {
+        class: 'row profile-manage-item',
+      }, [
+        el('span', { class: 'profile-emoji', text: profile.emoji }),
+        el('span', { text: profile.name }),
+        el('button', { text: t('profile.rename'), onclick: () => renameProfile(profile) }),
+        el('button', { class: 'danger', text: t('profile.delete'), onclick: () => deleteProfile(profile) }),
+      ]))),
+    ]),
+  ]);
 }
 
 const csvFiles = (lists) => {
@@ -101,6 +150,7 @@ export function showSettings() {
   const current = settings();
   view.append(el('a', { href: '#/', class: 'back', text: t('common.back.lists') }));
   view.append(el('h2', { text: t('settings.title') }));
+  view.append(profileSection());
 
   view.append(section(t('settings.appearance'), [
     themePicker(),

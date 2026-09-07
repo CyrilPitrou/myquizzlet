@@ -163,13 +163,13 @@ document.addEventListener('visibilitychange', () => {
 window.addEventListener('online', resync);
 $('#sync-dot').addEventListener('click', resync);
 $('#profile-btn')?.addEventListener('click', () => {
-  openProfileDialog({ onSelect: () => render() });
+  openProfileDialog({ onSelect: () => { ctx.sync?.schedule(); render(); } });
 });
 $('#lang').addEventListener('click', () => setLang(lang() === 'fr' ? 'en' : 'fr'));
 $('#more-btn').addEventListener('click', (event) => { event.stopPropagation(); toggleMore(); });
 $('#menu-switch-profile')?.addEventListener('click', () => {
   closeMore();
-  openProfileDialog({ onSelect: () => render() });
+  openProfileDialog({ onSelect: () => { ctx.sync?.schedule(); render(); } });
 });
 // render() closes the menu on every navigation, but choosing the item for the
 // screen you are already on changes no hash and so renders nothing.
