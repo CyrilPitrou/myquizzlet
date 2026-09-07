@@ -1,0 +1,433 @@
+{
+  "id": "ecole-magie",
+  "name": "Ecole Magie",
+  "folder": "Harry Potter",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-07",
+  "cards": [
+    {
+      "id": "a82jbd",
+      "front": "a beam",
+      "back": "un rayon de soleil"
+    },
+    {
+      "id": "bpecff",
+      "front": "a bow",
+      "back": "un arc"
+    },
+    {
+      "id": "y3vfw5",
+      "front": "a bullet",
+      "back": "une balle de revolver"
+    },
+    {
+      "id": "2rrz6q",
+      "front": "a cap",
+      "back": "un bonnet"
+    },
+    {
+      "id": "d6aygh",
+      "front": "a cauldron",
+      "back": "un chaudron"
+    },
+    {
+      "id": "kn9f34",
+      "front": "a classroom",
+      "back": "une salle de cours"
+    },
+    {
+      "id": "traody",
+      "front": "a clue",
+      "back": "un indice"
+    },
+    {
+      "id": "f6cel3",
+      "front": "a crowd",
+      "back": "une foule"
+    },
+    {
+      "id": "emeii0",
+      "front": "a curse",
+      "back": "un sort/une malédiction"
+    },
+    {
+      "id": "2xr6cb",
+      "front": "a dwarf",
+      "back": "un nain"
+    },
+    {
+      "id": "70wgz1",
+      "front": "a foul",
+      "back": "une faute"
+    },
+    {
+      "id": "zok8wz",
+      "front": "a good omen",
+      "back": "un bon présage"
+    },
+    {
+      "id": "q0oj96",
+      "front": "a hoop",
+      "back": "un cerceau"
+    },
+    {
+      "id": "o616j7",
+      "front": "a jerk",
+      "back": "une secousse"
+    },
+    {
+      "id": "ss9q4u",
+      "front": "a jinx",
+      "back": "un sort"
+    },
+    {
+      "id": "3wnboc",
+      "front": "a kick",
+      "back": "un coup de pied"
+    },
+    {
+      "id": "o5zl7l",
+      "front": "a knight",
+      "back": "un chevalier"
+    },
+    {
+      "id": "nhhnle",
+      "front": "a law",
+      "back": "une loi"
+    },
+    {
+      "id": "hny2jb",
+      "front": "a lie",
+      "back": "un mensonge"
+    },
+    {
+      "id": "dt6965",
+      "front": "a pupil/student",
+      "back": "un(e) élève"
+    },
+    {
+      "id": "9ll2t0",
+      "front": "a puzzle",
+      "back": "un casse-tête/une énigme"
+    },
+    {
+      "id": "7n4rzy",
+      "front": "a referee",
+      "back": "un arbitre"
+    },
+    {
+      "id": "udek8p",
+      "front": "a reward",
+      "back": "une récompense"
+    },
+    {
+      "id": "tiew5t",
+      "front": "a somersault",
+      "back": "un saut périlleux/un salto"
+    },
+    {
+      "id": "11wftg",
+      "front": "a term",
+      "back": "un trimestre"
+    },
+    {
+      "id": "8iadep",
+      "front": "a timetable",
+      "back": "un emploi du temps"
+    },
+    {
+      "id": "bpuyhw",
+      "front": "a tip",
+      "back": "une astuce"
+    },
+    {
+      "id": "ppc0mo",
+      "front": "an accountant",
+      "back": "un comptable"
+    },
+    {
+      "id": "ph6hnc",
+      "front": "an arrow",
+      "back": "une flèche"
+    },
+    {
+      "id": "g823l2",
+      "front": "an event",
+      "back": "un événement"
+    },
+    {
+      "id": "cqzqp8",
+      "front": "an improvement",
+      "back": "une amélioration"
+    },
+    {
+      "id": "rl469g",
+      "front": "an investigation",
+      "back": "une enquête"
+    },
+    {
+      "id": "bkoj27",
+      "front": "astonishing powers",
+      "back": "des pouvoirs incroyables"
+    },
+    {
+      "id": "yh2hr8",
+      "front": "chess",
+      "back": "les échecs"
+    },
+    {
+      "id": "gycqio",
+      "front": "detention",
+      "back": "une heure de retenue"
+    },
+    {
+      "id": "yevuu6",
+      "front": "doom",
+      "back": "le destin funeste/la perte"
+    },
+    {
+      "id": "aobb0q",
+      "front": "embers",
+      "back": "des braises"
+    },
+    {
+      "id": "lmfvvc",
+      "front": "good marks/grades",
+      "back": "de bonnes notes"
+    },
+    {
+      "id": "v7st1g",
+      "front": "some advice",
+      "back": "des conseils"
+    },
+    {
+      "id": "rq1xf6",
+      "front": "the fashion",
+      "back": "la mode"
+    },
+    {
+      "id": "b86q47",
+      "front": "the might/power",
+      "back": "la puissance/le pouvoir"
+    },
+    {
+      "id": "t191f2",
+      "front": "the pitch",
+      "back": "le terrain"
+    },
+    {
+      "id": "hhthlo",
+      "front": "the remains",
+      "back": "les restes"
+    },
+    {
+      "id": "qgz4w5",
+      "front": "the row",
+      "back": "la rangée/le rang"
+    },
+    {
+      "id": "vispzn",
+      "front": "the stands",
+      "back": "les gradins"
+    },
+    {
+      "id": "rxf0dc",
+      "front": "to award a prize",
+      "back": "décerner un prix"
+    },
+    {
+      "id": "igdorl",
+      "front": "to be expelled",
+      "back": "être exclu"
+    },
+    {
+      "id": "57jgq0",
+      "front": "to behave well",
+      "back": "bien se comporter"
+    },
+    {
+      "id": "8774yq",
+      "front": "to bow",
+      "back": "s'incliner/faire la révérence"
+    },
+    {
+      "id": "x6qyp7",
+      "front": "to catch up with someone",
+      "back": "rattraper quelqu'un"
+    },
+    {
+      "id": "d01c6v",
+      "front": "to cheat",
+      "back": "tricher"
+    },
+    {
+      "id": "7pzhpa",
+      "front": "to collect",
+      "back": "collectionner"
+    },
+    {
+      "id": "uojpqa",
+      "front": "to cure",
+      "back": "guérir"
+    },
+    {
+      "id": "061fis",
+      "front": "to curse",
+      "back": "jeter un sort"
+    },
+    {
+      "id": "jwhqlj",
+      "front": "to direct something",
+      "back": "diriger quelque chose"
+    },
+    {
+      "id": "lg7gmq",
+      "front": "to earn money",
+      "back": "gagner de l'argent/s'enrichir"
+    },
+    {
+      "id": "sw6u7g",
+      "front": "to fail",
+      "back": "échouer"
+    },
+    {
+      "id": "tihqmr",
+      "front": "to find out something",
+      "back": "découvrir quelque chose"
+    },
+    {
+      "id": "t913wy",
+      "front": "to flick through the pages",
+      "back": "feuilleter les pages"
+    },
+    {
+      "id": "fix6rb",
+      "front": "to get caught",
+      "back": "se faire attraper"
+    },
+    {
+      "id": "hwnjdz",
+      "front": "to guard something",
+      "back": "garder quelque chose"
+    },
+    {
+      "id": "g0gy93",
+      "front": "to improve",
+      "back": "améliorer"
+    },
+    {
+      "id": "7i51r3",
+      "front": "to leak out",
+      "back": "s’échapper/fuir"
+    },
+    {
+      "id": "y9uelv",
+      "front": "to learn by heart",
+      "back": "apprendre par cœur"
+    },
+    {
+      "id": "nwmgn1",
+      "front": "to load",
+      "back": "charger"
+    },
+    {
+      "id": "5xtbeb",
+      "front": "to master",
+      "back": "maîtriser"
+    },
+    {
+      "id": "zm7rkx",
+      "front": "to measure",
+      "back": "mesurer"
+    },
+    {
+      "id": "gkulvl",
+      "front": "to pass an exam",
+      "back": "réussir un examen"
+    },
+    {
+      "id": "hnseqi",
+      "front": "to pray",
+      "back": "prier"
+    },
+    {
+      "id": "lfzmr1",
+      "front": "to queue",
+      "back": "faire la queue"
+    },
+    {
+      "id": "7wx258",
+      "front": "to raise the wand",
+      "back": "lever la baguette"
+    },
+    {
+      "id": "7cnj2x",
+      "front": "to resign",
+      "back": "démissionner"
+    },
+    {
+      "id": "ej5cxk",
+      "front": "to sack someone",
+      "back": "licencier quelqu'un"
+    },
+    {
+      "id": "ckkg3p",
+      "front": "to score a goal",
+      "back": "marquer un but"
+    },
+    {
+      "id": "ge1uv5",
+      "front": "to scribble",
+      "back": "gribouiller"
+    },
+    {
+      "id": "n8b1wn",
+      "front": "to set fire",
+      "back": "mettre le feu"
+    },
+    {
+      "id": "ddfw9q",
+      "front": "to sort",
+      "back": "trier"
+    },
+    {
+      "id": "4bedna",
+      "front": "to spell words",
+      "back": "épeler des mots"
+    },
+    {
+      "id": "pud87h",
+      "front": "to split",
+      "back": "(se) diviser"
+    },
+    {
+      "id": "itvjca",
+      "front": "to steal – stole – stolen",
+      "back": "voler/dérober"
+    },
+    {
+      "id": "yef3um",
+      "front": "to take an exam",
+      "back": "passer un examen"
+    },
+    {
+      "id": "ghx2tn",
+      "front": "to trap",
+      "back": "piéger"
+    },
+    {
+      "id": "f1iymd",
+      "front": "to ward off",
+      "back": "éloigner"
+    },
+    {
+      "id": "sfc4pm",
+      "front": "to weigh",
+      "back": "peser"
+    }
+  ],
+  "updatedAt": "2026-09-07T18:45:30.599Z"
+}
