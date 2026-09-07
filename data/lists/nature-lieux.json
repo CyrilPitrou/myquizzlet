@@ -1,0 +1,438 @@
+{
+  "id": "nature-lieux",
+  "name": "Nature Lieux",
+  "folder": "Harry Potter",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-07",
+  "cards": [
+    {
+      "id": "8a0tp0",
+      "front": "anglais",
+      "back": "français"
+    },
+    {
+      "id": "95xyjk",
+      "front": "1 goose – 2 geese",
+      "back": "1 oie – 2 oies"
+    },
+    {
+      "id": "3ku24s",
+      "front": "1 hoof – 2 hooves",
+      "back": "1 sabot – 2 sabots"
+    },
+    {
+      "id": "bxtpov",
+      "front": "1 leaf – 2 leaves",
+      "back": "1 feuille d'arbre – 2 feuilles"
+    },
+    {
+      "id": "lbui4o",
+      "front": "1 werewolf – 2 werewolves",
+      "back": "1 loup-garou – 2 loups-garous"
+    },
+    {
+      "id": "tzht86",
+      "front": "a beaver",
+      "back": "un castor"
+    },
+    {
+      "id": "6q6t13",
+      "front": "a bend",
+      "back": "un virage"
+    },
+    {
+      "id": "ake4c1",
+      "front": "a bush",
+      "back": "un buisson"
+    },
+    {
+      "id": "umou3w",
+      "front": "a carriage",
+      "back": "un wagon"
+    },
+    {
+      "id": "qq8wia",
+      "front": "a courtyard",
+      "back": "une cour (d'école)"
+    },
+    {
+      "id": "005doa",
+      "front": "a cow",
+      "back": "une vache"
+    },
+    {
+      "id": "jub7xf",
+      "front": "a diver",
+      "back": "un plongeur"
+    },
+    {
+      "id": "2s89ad",
+      "front": "a field",
+      "back": "un champ"
+    },
+    {
+      "id": "kep73v",
+      "front": "a fir tree",
+      "back": "un sapin"
+    },
+    {
+      "id": "pnrpou",
+      "front": "a fly",
+      "back": "une mouche"
+    },
+    {
+      "id": "onbqpu",
+      "front": "a greenhouse",
+      "back": "une serre"
+    },
+    {
+      "id": "yhguxj",
+      "front": "a harbour",
+      "back": "un port"
+    },
+    {
+      "id": "mnpd1h",
+      "front": "a hawk",
+      "back": "un faucon"
+    },
+    {
+      "id": "ypxbg7",
+      "front": "a heap",
+      "back": "un tas"
+    },
+    {
+      "id": "21knjq",
+      "front": "a hill",
+      "back": "une colline"
+    },
+    {
+      "id": "8kkr16",
+      "front": "a lake",
+      "back": "un lac"
+    },
+    {
+      "id": "91fskt",
+      "front": "a landing",
+      "back": "un atterrissage"
+    },
+    {
+      "id": "r7xpys",
+      "front": "a lane",
+      "back": "une allée"
+    },
+    {
+      "id": "m24azf",
+      "front": "a maze",
+      "back": "un labyrinthe"
+    },
+    {
+      "id": "xylp7w",
+      "front": "a platform",
+      "back": "un quai"
+    },
+    {
+      "id": "0vance",
+      "front": "a shortcut",
+      "back": "un raccourci"
+    },
+    {
+      "id": "x3jwkq",
+      "front": "a slope",
+      "back": "une pente"
+    },
+    {
+      "id": "j14sif",
+      "front": "a species",
+      "back": "une espèce"
+    },
+    {
+      "id": "nacsce",
+      "front": "a steam engine",
+      "back": "une machine à vapeur"
+    },
+    {
+      "id": "bo2gw4",
+      "front": "a twig",
+      "back": "une brindille"
+    },
+    {
+      "id": "s0ijow",
+      "front": "a unicorn",
+      "back": "une licorne"
+    },
+    {
+      "id": "baozc8",
+      "front": "a windmill",
+      "back": "un moulin à vent"
+    },
+    {
+      "id": "hmpc21",
+      "front": "an eagle",
+      "back": "un aigle"
+    },
+    {
+      "id": "16txf4",
+      "front": "an oak",
+      "back": "un chêne"
+    },
+    {
+      "id": "iagduu",
+      "front": "dawn",
+      "back": "l'aube"
+    },
+    {
+      "id": "1lk4ql",
+      "front": "Norway",
+      "back": "la Norvège"
+    },
+    {
+      "id": "l8wr16",
+      "front": "railway tracks",
+      "back": "des rails"
+    },
+    {
+      "id": "514zht",
+      "front": "roots",
+      "back": "des racines"
+    },
+    {
+      "id": "2f209l",
+      "front": "sheep",
+      "back": "des moutons"
+    },
+    {
+      "id": "zci7o0",
+      "front": "the breeze",
+      "back": "la brise"
+    },
+    {
+      "id": "tkuej2",
+      "front": "the cliff",
+      "back": "la falaise"
+    },
+    {
+      "id": "wagg07",
+      "front": "the corridor",
+      "back": "le couloir"
+    },
+    {
+      "id": "u63y64",
+      "front": "the damp grass",
+      "back": "l'herbe humide"
+    },
+    {
+      "id": "c7fpvo",
+      "front": "the edge",
+      "back": "le bord"
+    },
+    {
+      "id": "vfjfyk",
+      "front": "the first floor",
+      "back": "le premier étage"
+    },
+    {
+      "id": "br9ewi",
+      "front": "the frost",
+      "back": "le gel"
+    },
+    {
+      "id": "xesy76",
+      "front": "the grass",
+      "back": "l'herbe"
+    },
+    {
+      "id": "yljvv9",
+      "front": "the lawn",
+      "back": "la pelouse"
+    },
+    {
+      "id": "y69c3s",
+      "front": "the roars",
+      "back": "les rugissements"
+    },
+    {
+      "id": "qkz0lo",
+      "front": "the roots",
+      "back": "les racines"
+    },
+    {
+      "id": "77nea7",
+      "front": "the rucksack",
+      "back": "le sac à dos"
+    },
+    {
+      "id": "yyx2rc",
+      "front": "the slope",
+      "back": "la pente"
+    },
+    {
+      "id": "lroxhy",
+      "front": "the tail",
+      "back": "la queue"
+    },
+    {
+      "id": "3lokv8",
+      "front": "to bark",
+      "back": "aboyer"
+    },
+    {
+      "id": "9tbiuj",
+      "front": "to blossom",
+      "back": "fleurir"
+    },
+    {
+      "id": "b7voi2",
+      "front": "to blow",
+      "back": "souffler"
+    },
+    {
+      "id": "shfxnf",
+      "front": "to blow – blew – blown",
+      "back": "souffler"
+    },
+    {
+      "id": "9j2aja",
+      "front": "to burn – burnt – burnt",
+      "back": "brûler"
+    },
+    {
+      "id": "n9o0vc",
+      "front": "to bury",
+      "back": "enterrer"
+    },
+    {
+      "id": "txk6fj",
+      "front": "to climb",
+      "back": "grimper"
+    },
+    {
+      "id": "fpkh6j",
+      "front": "to dive",
+      "back": "plonger"
+    },
+    {
+      "id": "ktnxla",
+      "front": "to drip",
+      "back": "couler goutte à goutte"
+    },
+    {
+      "id": "ccj336",
+      "front": "to escape",
+      "back": "s'échapper"
+    },
+    {
+      "id": "jj60w1",
+      "front": "to feed – fed – fed",
+      "back": "nourrir"
+    },
+    {
+      "id": "3tyylf",
+      "front": "to float",
+      "back": "flotter"
+    },
+    {
+      "id": "79oisj",
+      "front": "to flood",
+      "back": "inonder"
+    },
+    {
+      "id": "mjxtcd",
+      "front": "to flutter",
+      "back": "voleter/battre des ailes"
+    },
+    {
+      "id": "f25v95",
+      "front": "to gather speed",
+      "back": "gagner de la vitesse"
+    },
+    {
+      "id": "adif9c",
+      "front": "to glide",
+      "back": "glisser"
+    },
+    {
+      "id": "zu2jpk",
+      "front": "to hatch",
+      "back": "éclore"
+    },
+    {
+      "id": "x49pc3",
+      "front": "to land",
+      "back": "atterrir"
+    },
+    {
+      "id": "mriqeb",
+      "front": "to melt",
+      "back": "fondre"
+    },
+    {
+      "id": "ay3p3z",
+      "front": "to overtake someone",
+      "back": "doubler quelqu'un"
+    },
+    {
+      "id": "3rtux9",
+      "front": "to race someone",
+      "back": "faire la course contre quelqu’un"
+    },
+    {
+      "id": "7iri93",
+      "front": "to rise",
+      "back": "se lever/s'élever"
+    },
+    {
+      "id": "4bi3oq",
+      "front": "to run away",
+      "back": "s'enfuir"
+    },
+    {
+      "id": "jcezr5",
+      "front": "to sail",
+      "back": "naviguer"
+    },
+    {
+      "id": "od14j2",
+      "front": "to slow down",
+      "back": "ralentir"
+    },
+    {
+      "id": "1nuezi",
+      "front": "to soar",
+      "back": "s'élever dans les airs"
+    },
+    {
+      "id": "c85hne",
+      "front": "to sting – stung – stung",
+      "back": "piquer"
+    },
+    {
+      "id": "aetyea",
+      "front": "to swell",
+      "back": "gonfler"
+    },
+    {
+      "id": "ur1s9x",
+      "front": "to turn",
+      "back": "tourner"
+    },
+    {
+      "id": "eiivcy",
+      "front": "to wander",
+      "back": "errer/flâner"
+    },
+    {
+      "id": "6eml4m",
+      "front": "twilight",
+      "back": "le crépuscule"
+    },
+    {
+      "id": "hf1e4r",
+      "front": "underground",
+      "back": "souterrain"
+    }
+  ],
+  "updatedAt": "2026-09-07T18:44:03.332Z"
+}
