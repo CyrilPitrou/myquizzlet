@@ -1,6 +1,6 @@
 {
   "listId": "departements",
-  "updatedAt": "2026-09-07T06:38:33.046Z",
+  "updatedAt": "2026-09-07T06:39:08.051Z",
   "items": {
     "f4hqet:b2f": {
       "box": 2,
@@ -91,11 +91,11 @@
       "level": 1
     },
     "n6wcqe:b2f": {
-      "box": 1,
-      "due": "2026-09-07",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-10",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-07T06:38:40.643Z",
       "level": 1
     },
     "i3dpyq:f2b": {
@@ -115,14 +115,78 @@
       "level": 1
     },
     "x9tflb:b2f": {
+      "box": 2,
+      "due": "2026-09-10",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-07T06:38:43.001Z",
+      "level": 1
+    },
+    "b4tgqu:f2b": {
+      "box": 2,
+      "due": "2026-09-10",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-07T06:38:38.053Z",
+      "level": 1
+    },
+    "n6wcqe:f2b": {
+      "box": 2,
+      "due": "2026-09-10",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-07T06:39:08.051Z",
+      "level": 1
+    },
+    "y9jcbo:f2b": {
       "box": 1,
       "due": "2026-09-07",
       "seen": 0,
       "lapses": 0,
       "lastSeen": null,
-      "level": 0
+      "level": 1
     },
-    "b4tgqu:f2b": {
+    "c9blui:b2f": {
+      "box": 1,
+      "due": "2026-09-07",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "q5vyhc:b2f": {
+      "box": 1,
+      "due": "2026-09-07",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "q1obmc:b2f": {
+      "box": 1,
+      "due": "2026-09-07",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "n8bxfe:b2f": {
+      "box": 1,
+      "due": "2026-09-07",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "p8hasw:b2f": {
+      "box": 1,
+      "due": "2026-09-07",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "n2ejqv:b2f": {
       "box": 1,
       "due": "2026-09-07",
       "seen": 0,
