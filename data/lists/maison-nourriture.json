@@ -1,0 +1,428 @@
+{
+  "id": "maison-nourriture",
+  "name": "Maison Nourriture",
+  "folder": "Harry Potter",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-07",
+  "cards": [
+    {
+      "id": "rccz59",
+      "front": "a banknote",
+      "back": "un billet de banque"
+    },
+    {
+      "id": "gbmnhl",
+      "front": "a boot",
+      "back": "une botte"
+    },
+    {
+      "id": "eybcq3",
+      "front": "a bowl",
+      "back": "un bol"
+    },
+    {
+      "id": "0668f9",
+      "front": "a cart",
+      "back": "un chariot"
+    },
+    {
+      "id": "yeiglb",
+      "front": "a cork",
+      "back": "un bouchon en liège"
+    },
+    {
+      "id": "o8z5fm",
+      "front": "a crate",
+      "back": "une boîte/un cageot"
+    },
+    {
+      "id": "kh3r18",
+      "front": "a dressing gown",
+      "back": "un peignoir"
+    },
+    {
+      "id": "9malsv",
+      "front": "a festoon",
+      "back": "une guirlande"
+    },
+    {
+      "id": "xrgbox",
+      "front": "a flavour",
+      "back": "un parfum/un goût"
+    },
+    {
+      "id": "zu9f3z",
+      "front": "a gulp",
+      "back": "une gorgée"
+    },
+    {
+      "id": "2u7vj4",
+      "front": "a hole",
+      "back": "un trou"
+    },
+    {
+      "id": "fb6cdh",
+      "front": "a hood",
+      "back": "une capuche"
+    },
+    {
+      "id": "yhfzzb",
+      "front": "a horn",
+      "back": "une corne"
+    },
+    {
+      "id": "iusn90",
+      "front": "a kettle",
+      "back": "une bouilloire"
+    },
+    {
+      "id": "6r0ynn",
+      "front": "a marble",
+      "back": "une bille"
+    },
+    {
+      "id": "gxmo9u",
+      "front": "a match",
+      "back": "une allumette"
+    },
+    {
+      "id": "jrr4w1",
+      "front": "a mattress",
+      "back": "un matelas"
+    },
+    {
+      "id": "drm0cj",
+      "front": "a needle",
+      "back": "une aiguille"
+    },
+    {
+      "id": "ydbhws",
+      "front": "a pole",
+      "back": "un poteau"
+    },
+    {
+      "id": "flnq52",
+      "front": "a rope",
+      "back": "une corde"
+    },
+    {
+      "id": "t8vb0e",
+      "front": "a rug",
+      "back": "un tapis"
+    },
+    {
+      "id": "j4dwaz",
+      "front": "a safe",
+      "back": "un coffre-fort"
+    },
+    {
+      "id": "tjywhc",
+      "front": "a stain",
+      "back": "une tache"
+    },
+    {
+      "id": "9s6s70",
+      "front": "a stamp",
+      "back": "un timbre"
+    },
+    {
+      "id": "f1b32q",
+      "front": "a stool",
+      "back": "un tabouret"
+    },
+    {
+      "id": "2mbcql",
+      "front": "a tape measure",
+      "back": "un mètre"
+    },
+    {
+      "id": "88hiwh",
+      "front": "a teddy bear",
+      "back": "un nounours"
+    },
+    {
+      "id": "918wwo",
+      "front": "a trunk",
+      "back": "une malle"
+    },
+    {
+      "id": "avkifh",
+      "front": "a wardrobe",
+      "back": "une armoire"
+    },
+    {
+      "id": "073sul",
+      "front": "an armchair",
+      "back": "un fauteuil"
+    },
+    {
+      "id": "lnfhtr",
+      "front": "boiled potatoes",
+      "back": "des pommes de terre à l’eau"
+    },
+    {
+      "id": "lot0ta",
+      "front": "cabbage",
+      "back": "du chou"
+    },
+    {
+      "id": "iyp5h4",
+      "front": "chalk",
+      "back": "de la craie"
+    },
+    {
+      "id": "xrxvjb",
+      "front": "dust",
+      "back": "la poussière"
+    },
+    {
+      "id": "tllwme",
+      "front": "dusty",
+      "back": "poussiéreux"
+    },
+    {
+      "id": "8ptn28",
+      "front": "fried potatoes",
+      "back": "des pommes de terre frites"
+    },
+    {
+      "id": "0va4vr",
+      "front": "fudge",
+      "back": "un caramel mou"
+    },
+    {
+      "id": "tjxp4l",
+      "front": "garlic",
+      "back": "l'ail"
+    },
+    {
+      "id": "8vcfh5",
+      "front": "glue",
+      "back": "de la colle"
+    },
+    {
+      "id": "dvitwn",
+      "front": "iron",
+      "back": "le fer"
+    },
+    {
+      "id": "qap2j8",
+      "front": "ivory",
+      "back": "de l'ivoire"
+    },
+    {
+      "id": "z3qp49",
+      "front": "jam",
+      "back": "confiture"
+    },
+    {
+      "id": "jptqn5",
+      "front": "jewels",
+      "back": "des bijoux"
+    },
+    {
+      "id": "3cg5oi",
+      "front": "lamb",
+      "back": "de l'agneau"
+    },
+    {
+      "id": "jonzvi",
+      "front": "lead",
+      "back": "le plomb/du plomb"
+    },
+    {
+      "id": "3xn3kf",
+      "front": "leather",
+      "back": "du cuir"
+    },
+    {
+      "id": "nrlnqn",
+      "front": "marmalade",
+      "back": "confiture d'orange"
+    },
+    {
+      "id": "nny9y8",
+      "front": "mint",
+      "back": "la menthe"
+    },
+    {
+      "id": "bzp4wu",
+      "front": "peas",
+      "back": "petits pois"
+    },
+    {
+      "id": "0d8ike",
+      "front": "powder",
+      "back": "poudre"
+    },
+    {
+      "id": "9eq7ng",
+      "front": "raspberry",
+      "back": "framboise"
+    },
+    {
+      "id": "gm8sn3",
+      "front": "scales",
+      "back": "les balances"
+    },
+    {
+      "id": "pizqao",
+      "front": "silver",
+      "back": "en argent"
+    },
+    {
+      "id": "1k3zkf",
+      "front": "the binoculars",
+      "back": "les jumelles"
+    },
+    {
+      "id": "xjrw2w",
+      "front": "the dust",
+      "back": "la poussière"
+    },
+    {
+      "id": "cb93qt",
+      "front": "the feast",
+      "back": "le festin"
+    },
+    {
+      "id": "lmgiei",
+      "front": "the feather",
+      "back": "la plume"
+    },
+    {
+      "id": "eyp9qa",
+      "front": "the feathers",
+      "back": "les plumes"
+    },
+    {
+      "id": "f7kst7",
+      "front": "the frame",
+      "back": "le cadre (d'un tableau)"
+    },
+    {
+      "id": "jnz1e9",
+      "front": "the furniture",
+      "back": "les meubles"
+    },
+    {
+      "id": "ml5n6e",
+      "front": "the length",
+      "back": "la longueur"
+    },
+    {
+      "id": "qimvv5",
+      "front": "the lid",
+      "back": "le couvercle"
+    },
+    {
+      "id": "w4ihlb",
+      "front": "the mirror",
+      "back": "le miroir"
+    },
+    {
+      "id": "ldw9nm",
+      "front": "the sheets",
+      "back": "les draps"
+    },
+    {
+      "id": "gasdtk",
+      "front": "the size",
+      "back": "la taille"
+    },
+    {
+      "id": "vyehyi",
+      "front": "the slippers",
+      "back": "les chaussons"
+    },
+    {
+      "id": "rgzb5g",
+      "front": "the stairs",
+      "back": "les escaliers"
+    },
+    {
+      "id": "wbjnrd",
+      "front": "the steps",
+      "back": "les marches"
+    },
+    {
+      "id": "s018k1",
+      "front": "the stuff",
+      "back": "les trucs"
+    },
+    {
+      "id": "uqtu6a",
+      "front": "the trainers",
+      "back": "les baskets"
+    },
+    {
+      "id": "9xembg",
+      "front": "the trunk",
+      "back": "la malle/le coffre"
+    },
+    {
+      "id": "wy1fzc",
+      "front": "the wig",
+      "back": "la perruque"
+    },
+    {
+      "id": "a63asr",
+      "front": "the wood",
+      "back": "le bois"
+    },
+    {
+      "id": "pk5srp",
+      "front": "to clean",
+      "back": "nettoyer"
+    },
+    {
+      "id": "dgbzgq",
+      "front": "to fold",
+      "back": "plier"
+    },
+    {
+      "id": "9tsg49",
+      "front": "to hoover",
+      "back": "passer l'aspirateur"
+    },
+    {
+      "id": "lxnupm",
+      "front": "to pour",
+      "back": "verser"
+    },
+    {
+      "id": "2g3ian",
+      "front": "to scatter papers",
+      "back": "éparpiller des papiers"
+    },
+    {
+      "id": "3zd984",
+      "front": "to slip on",
+      "back": "enfiler"
+    },
+    {
+      "id": "fvwah3",
+      "front": "to wipe",
+      "back": "essuyer"
+    },
+    {
+      "id": "fokkb2",
+      "front": "to wrap",
+      "back": "emballer"
+    },
+    {
+      "id": "11irwm",
+      "front": "turkey",
+      "back": "de la dinde"
+    },
+    {
+      "id": "xq1n10",
+      "front": "wax",
+      "back": "de la cire"
+    }
+  ],
+  "updatedAt": "2026-09-07T18:42:59.682Z"
+}
