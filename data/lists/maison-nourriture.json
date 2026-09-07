@@ -427,7 +427,12 @@
       "id": "gheeky",
       "front": "shelf",
       "back": "étagère"
+    },
+    {
+      "id": "9nbt5n",
+      "front": "shelves",
+      "back": "étagères"
     }
   ],
-  "updatedAt": "2026-09-07T18:43:09.782Z"
+  "updatedAt": "2026-09-07T18:43:17.715Z"
 }
