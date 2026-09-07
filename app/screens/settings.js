@@ -7,6 +7,8 @@ import { zip, entryNames } from '../zip.js';
 import { t } from '../i18n.js';
 import { openProfileDialog } from './profiledialog.js';
 import { validateProfileName } from '../profiles.js';
+import { isProfileLocked } from '../profilelock.js';
+import { requestNewProfileLock, requestProfilePassword } from './profilelockdialog.js';
 
 const THEMES = [{ id: 'paper', key: 'settings.theme.paper' },
                 { id: 'study', key: 'settings.theme.study' },
@@ -55,7 +57,17 @@ function profileSection() {
     onSelect: () => { ctx.sync?.schedule(); ctx.render(); },
   });
 
-  const renameProfile = (profile) => {
+  const changed = () => {
+    ctx.sync?.schedule();
+    ctx.render();
+  };
+
+  const renameProfile = async (profile) => {
+    if (isProfileLocked(profile) && !(await requestProfilePassword(profile, {
+      title: t('profile.renameTitle', { name: profile.name }),
+      body: t('profile.managePassword', { name: profile.name }),
+      confirmText: t('profile.continue'),
+    }))) return;
     const name = prompt(t('profile.rename'), profile.name);
     if (name === null) return;
     const trimmed = name.trim();
@@ -63,15 +75,45 @@ function profileSection() {
     if (error === 'empty' || trimmed === profile.name) return;
     if (error === 'duplicate') return alert(t('profile.exists'));
     store.renameProfile(profile.id, trimmed);
-    ctx.sync?.schedule();
-    ctx.render();
+    changed();
   };
 
-  const deleteProfile = (profile) => {
-    if (!confirm(t('profile.deleteConfirm', { name: profile.name }))) return;
+  const protectProfile = async (profile) => {
+    const lock = await requestNewProfileLock({
+      title: t('profile.protectTitle', { name: profile.name }),
+      body: t('profile.protectBody', { name: profile.name }),
+    });
+    if (!lock) return;
+    store.setProfileLock(profile.id, lock);
+    changed();
+  };
+
+  const changeProfilePassword = async (profile) => {
+    if (!(await requestProfilePassword(profile, {
+      title: t('profile.changePasswordTitle', { name: profile.name }),
+      body: t('profile.managePassword', { name: profile.name }),
+      confirmText: t('profile.continue'),
+    }))) return;
+    const lock = await requestNewProfileLock({
+      title: t('profile.newPasswordTitle', { name: profile.name }),
+      body: t('profile.newPasswordBody'),
+      confirmText: t('profile.changePassword'),
+    });
+    if (!lock) return;
+    store.setProfileLock(profile.id, lock);
+    changed();
+  };
+
+  const deleteProfile = async (profile) => {
+    if (!isProfileLocked(profile) || profiles.length <= 1) return;
+    if (!(await requestProfilePassword(profile, {
+      title: t('profile.deleteTitle', { name: profile.name }),
+      body: t('profile.deleteWarning', { name: profile.name }),
+      confirmText: t('profile.delete'),
+      danger: true,
+    }))) return;
     store.deleteProfile(profile.id);
-    ctx.sync?.schedule();
-    ctx.render();
+    changed();
   };
 
   return section(t('profile.title'), [
@@ -87,8 +129,25 @@ function profileSection() {
       }, [
         el('span', { class: 'profile-emoji', text: profile.emoji }),
         el('span', { text: profile.name }),
+        el('span', {
+          class: 'profile-lock-state',
+          text: isProfileLocked(profile) ? t('profile.protected') : t('profile.unprotected'),
+        }),
         el('button', { text: t('profile.rename'), onclick: () => renameProfile(profile) }),
-        el('button', { class: 'danger', text: t('profile.delete'), onclick: () => deleteProfile(profile) }),
+        ...(isProfileLocked(profile)
+          ? [el('button', { text: t('profile.changePassword'),
+            onclick: () => changeProfilePassword(profile) })]
+          : [el('button', { class: 'primary', text: t('profile.protect'),
+            onclick: () => protectProfile(profile) })]),
+        el('button', {
+          class: 'danger', text: t('profile.delete'),
+          ...(profiles.length <= 1 || !isProfileLocked(profile) ? {
+            disabled: 'disabled',
+            title: profiles.length <= 1
+              ? t('profile.lastCannotDelete') : t('profile.protectBeforeDelete'),
+          } : {}),
+          onclick: () => deleteProfile(profile),
+        }),
       ]))),
     ]),
   ]);

@@ -385,8 +385,10 @@ dialog.dialog h2 { margin-top: 0; }
 .profile-item.active { border-color: var(--accent); font-weight: 600; }
 .profile-item .profile-emoji { font-size: 1.4rem; }
 .profile-item .profile-name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.profile-item .profile-lock { font-size: .9rem; }
 .profile-item .profile-check { color: var(--ok); font-weight: 700; font-size: 1.2rem; }
 .profile-create-btn { width: 100%; margin: .5rem 0 .75rem; }
+.profile-dialog-content { max-height: 80vh; overflow-y: auto; padding-right: .15rem; }
 .profile-emojis { display: grid; grid-template-columns: repeat(5, 1fr); gap: .4rem; margin-top: .4rem; }
 .profile-emoji-btn { font-size: 1.5rem; min-height: 44px; padding: .2rem; border: 1px solid var(--rule);
                      border-radius: 8px; background: var(--surface); cursor: pointer; display: flex;
@@ -401,4 +403,6 @@ dialog.dialog h2 { margin-top: 0; }
 .profile-manage summary { cursor: pointer; color: var(--accent); }
 .profile-manage-list { display: flex; flex-direction: column; gap: .5rem; margin-top: .7rem; }
 .profile-manage-item { flex-wrap: wrap; }
+.profile-lock-state { color: var(--muted); font-size: .85rem; }
+.profile-manage-item button:disabled { opacity: .5; cursor: not-allowed; }
 .danger { color: var(--bad); }

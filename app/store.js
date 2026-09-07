@@ -226,6 +226,11 @@ export function createStore(storage, now = () => new Date()) {
         ? { ...p, name: name.trim(), updatedAt: stamp() } : p));
       this.saveProfiles(profiles);
     },
+    setProfileLock(id, lock) {
+      const profiles = this.getProfiles().map((profile) => (profile.id === id
+        ? { ...profile, lock, updatedAt: stamp() } : profile));
+      this.saveProfiles(profiles);
+    },
     swapSides(id) {
       const list = getList(id);
       if (!list) throw new Error(`no such list: ${id}`);

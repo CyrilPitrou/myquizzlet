@@ -389,6 +389,20 @@ describe('profiles and migration', () => {
     expect(store.getProfiles().find((p) => p.id === 'lea').name).toBe('Léa P.');
   });
 
+  it('adds or replaces a profile lock without changing its identity', () => {
+    store.saveProfiles([...store.getProfiles(), { id: 'lea', name: 'Léa', emoji: '🦊' }]);
+    const lock = { algorithm: 'PBKDF2-SHA-256', iterations: 1000,
+      salt: 'c2FsdA==', verifier: 'dmVyaWZpZXI=' };
+
+    store.setProfileLock('lea', lock);
+
+    expect(store.getProfiles().find((profile) => profile.id === 'lea')).toMatchObject({
+      id: 'lea', name: 'Léa', emoji: '🦊', lock,
+      updatedAt: FIXED.toISOString(),
+    });
+    expect(store.dirtyKeys()).toContain('profiles');
+  });
+
   it('scopes progress per profile so training of one does not spoil the other', () => {
     store.createList({ name: 'Food' });
     const id = store.addCards('food', [{ front: 'apple', back: 'pomme' }]).cards[0].id;

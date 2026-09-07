@@ -92,6 +92,10 @@ qr.js       pure. `encode(text) -> boolean[][]`, a QR matrix: byte mode, error
 setup.js    pure. The setup link and everything else derived from a token:
             building the link a QR carries, reading one back from a scan or
             a paste, masking a token for display, and how long one has left.
+profilelock.js pure. Creates and checks the salted password verifier stored on
+            a protected profile. The password itself never leaves its form.
+screens/profilelockdialog.js the password check and new-password dialogs shared
+            by profile selection and profile management.
 screens/    one file per screen — lists, list, cards, view, train, test,
             folders, editlist, adopt, settings, token, help — each exporting a
             `show*` function that renders into `screen()`. help.js keeps the

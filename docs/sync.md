@@ -26,6 +26,11 @@ guessing here would quietly lose real work.
 the later `lastSeen`. Deterministic, silent, and never interrupts a session. The
 worst case is one word coming back a day early.
 
+**Profiles.** Combined by permanent profile id. The newer timestamp wins when
+the same profile was renamed or its password changed in two places. Deletions
+carry tombstones so an offline device cannot resurrect a removed profile and
+its training history later.
+
 These timestamps come from each device's clock. Phones and computers normally
 keep their clocks synchronized automatically; a device set far into the future
 can make its records win until the other clocks catch up. Equal timestamps use

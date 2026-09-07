@@ -17,9 +17,9 @@ These are deliberate. Do not "improve" past them without asking.
    browser. `git push` is the deploy. npm exists only for running tests; the
    deployed app has zero runtime dependencies. Never add a bundler, a framework,
    or a CDN script tag to the app.
-2. **Personal tool.** One user, a few thousand cards. Simplicity beats generality
-   every time. No accounts, no multi-user, no roles, no settings that exist
-   "in case". YAGNI hard. The one exception is the UI language: the owner
+2. **Household tool.** One family, a handful of profiles, a few thousand cards.
+   Simplicity beats generality every time. No accounts, no roles, no settings
+   that exist "in case". YAGNI hard. The one exception is the UI language: the owner
    reads both English and French, so the app is translated — see the i18n
    rule below — but this does not open the door to further generality.
 3. **Local-first.** A study session touches only browser storage. Network work
@@ -48,6 +48,7 @@ main branch                          data branch
      messages.js  pure. which bucket a result falls in, and a line for it
      messages.en.js / messages.fr.js  the lines, written per language
      store.js     browser-side state
+     profilelock.js salted profile-password creation and verification
      github.js    pull / push
      sync.js      pull/merge/push orchestration
      merge.js     pure. progress merge rule
@@ -68,6 +69,7 @@ main branch                          data branch
                    settings token help wishes — one file per screen.
                    help.js keeps the layout; help.en.js and help.fr.js
                    hold the prose.
+     screens/profilelockdialog.js shared password/protection dialogs
      screens/importdialog.js  shared file-import dialog, opened by list,
                    cards, and editlist
   sw.js           offline cache

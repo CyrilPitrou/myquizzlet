@@ -1,4 +1,4 @@
-const CACHE = 'myquizzlet-v42';
+const CACHE = 'myquizzlet-v43';
 const SHELL = [
   './', './index.html', './manifest.webmanifest', './app/style.css',
   './icons/icon-192.png', './icons/icon-512.png',
@@ -7,7 +7,7 @@ const SHELL = [
   './app/messages.js', './app/messages.en.js', './app/messages.fr.js',
   './app/i18n.js', './app/i18n.en.js', './app/i18n.fr.js',
   './app/screens/help.en.js', './app/screens/help.fr.js',
-  './app/store.js', './app/profiles.js', './app/github.js', './app/sync.js', './app/srs.js',
+  './app/store.js', './app/profiles.js', './app/profilelock.js', './app/github.js', './app/sync.js', './app/srs.js',
   './app/grade.js', './app/csv.js', './app/merge.js', './app/sides.js',
   './app/langs.js', './app/stats.js', './app/train.js', './app/listform.js', './app/pagehead.js',
   './app/dates.js', './app/listsort.js',
@@ -19,7 +19,7 @@ const SHELL = [
   './app/screens/folders.js', './app/screens/editlist.js', './app/screens/view.js',
   './app/screens/train.js', './app/screens/help.js', './app/screens/adopt.js',
   './app/screens/token.js', './app/screens/importdialog.js', './app/screens/wishes.js',
-  './app/screens/profiledialog.js',
+  './app/screens/profiledialog.js', './app/screens/profilelockdialog.js',
 ];
 
 self.addEventListener('install', (event) => {

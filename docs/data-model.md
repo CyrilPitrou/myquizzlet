@@ -1,7 +1,7 @@
 # Data model
 
-Two kinds of file, deliberately kept apart. Both are plain JSON on the `data`
-branch, meant to be read and edited by hand.
+Lists, learning records and profile metadata are kept apart. All are plain JSON
+on the `data` branch, meant to remain readable by hand.
 
 ## Lists — `data/lists/<id>.json`
 
@@ -77,7 +77,39 @@ branch, meant to be read and edited by hand.
 Items for deleted cards are pruned on the next save. A missing item simply means
 a word that has never been studied.
 
-## Why two files
+## Profiles — `data/profiles.json`
+
+```json
+{
+  "updatedAt": "2026-09-07T12:00:00Z",
+  "profiles": [{
+    "id": "flo",
+    "name": "Flo",
+    "emoji": "🦊",
+    "updatedAt": "2026-09-07T12:00:00Z",
+    "lock": {
+      "algorithm": "PBKDF2-SHA-256",
+      "iterations": 250000,
+      "salt": "base64…",
+      "verifier": "base64…"
+    }
+  }],
+  "deletedProfiles": []
+}
+```
+
+Profiles are shared, but the active profile is a per-device browser setting.
+New profiles carry a lock. The password itself is never stored: the app keeps
+only a random salt, the work factor and a password-derived verifier. Older
+profiles without `lock` remain usable and can be protected from Settings.
+This is a family safeguard, not an account boundary: the repository is public,
+and someone with its write token or browser developer tools can bypass it.
+
+A profile deletion is replicated as a timestamped tombstone in
+`deletedProfiles`. It also deletes every progress file under that profile id;
+the shared lists themselves are untouched.
+
+## Why lists and progress are separate
 
 Lists change a few times a week. Progress changes several times a second while
 studying. One file would mean either pushing your whole vocabulary after every

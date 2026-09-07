@@ -1,6 +1,10 @@
 import { el, clear, openDialog } from '../ui.js';
 import { store } from '../app.js';
 import { EMOJIS, createProfile, validateProfileName } from '../profiles.js';
+import {
+  createProfileLock, isProfileLocked, passwordProblem, PROFILE_PASSWORD_MIN_LENGTH,
+} from '../profilelock.js';
+import { requestProfilePassword } from './profilelockdialog.js';
 import { t } from '../i18n.js';
 
 export function openProfileDialog({ onSelect, onCancel, canCancel = true, forceCreate = false } = {}) {
@@ -34,7 +38,8 @@ export function openProfileDialog({ onSelect, onCancel, canCancel = true, forceC
       const item = el('button', {
         class: `profile-item${isActive ? ' active' : ''}`,
         type: 'button',
-        onclick: () => {
+        onclick: async () => {
+          if (isProfileLocked(p) && !(await requestProfilePassword(p))) return;
           settled = true;
           store.setActiveProfile(p.id);
           dialog.close();
@@ -43,6 +48,9 @@ export function openProfileDialog({ onSelect, onCancel, canCancel = true, forceC
       }, [
         el('span', { class: 'profile-emoji', text: p.emoji }),
         el('span', { class: 'profile-name', text: p.name }),
+        ...(isProfileLocked(p)
+          ? [el('span', { class: 'profile-lock', title: t('profile.protected'), text: '🔒' })]
+          : []),
         ...(isActive ? [el('span', { class: 'profile-check', text: '✓' })] : []),
       ]);
       return item;
@@ -86,6 +94,14 @@ export function openProfileDialog({ onSelect, onCancel, canCancel = true, forceC
       required: 'required',
       autofocus: 'autofocus',
     });
+    const passwordInput = el('input', {
+      type: 'password', minlength: String(PROFILE_PASSWORD_MIN_LENGTH),
+      required: 'required', autocomplete: 'off',
+    });
+    const passwordConfirm = el('input', {
+      type: 'password', minlength: String(PROFILE_PASSWORD_MIN_LENGTH),
+      required: 'required', autocomplete: 'off',
+    });
 
     const emojiButtons = EMOJIS.map((emoji) => el('button', {
       class: `profile-emoji-btn${emoji === selectedEmoji ? ' selected' : ''}`,
@@ -98,10 +114,13 @@ export function openProfileDialog({ onSelect, onCancel, canCancel = true, forceC
     }));
 
     const emojisGrid = el('div', { class: 'profile-emojis' }, emojiButtons);
+    const createBtn = el('button', {
+      class: 'btn primary', type: 'submit', text: t('profile.create'),
+    });
 
     const form = el('form', {
-      class: 'profile-form',
-      onsubmit: (e) => {
+      class: 'profile-form', autocomplete: 'off',
+      onsubmit: async (e) => {
         e.preventDefault();
         const name = nameInput.value.trim();
         const err = validateProfileName(name, store.getProfiles());
@@ -115,7 +134,25 @@ export function openProfileDialog({ onSelect, onCancel, canCancel = true, forceC
           return;
         }
 
-        const newProfile = createProfile(name, selectedEmoji, store.getProfiles());
+        const passwordError = passwordProblem(passwordInput.value, passwordConfirm.value);
+        if (passwordError) {
+          errorMsg.textContent = t(`profile.password.${passwordError}`);
+          errorMsg.hidden = false;
+          (passwordError === 'short' ? passwordInput : passwordConfirm).focus();
+          return;
+        }
+
+        createBtn.disabled = true;
+        let lock;
+        try {
+          lock = await createProfileLock(passwordInput.value);
+        } catch {
+          createBtn.disabled = false;
+          errorMsg.textContent = t('profile.password.failed');
+          errorMsg.hidden = false;
+          return;
+        }
+        const newProfile = { ...createProfile(name, selectedEmoji, store.getProfiles()), lock };
         store.saveProfiles([...store.getProfiles(), newProfile]);
         store.setActiveProfile(newProfile.id);
         settled = true;
@@ -130,6 +167,15 @@ export function openProfileDialog({ onSelect, onCancel, canCancel = true, forceC
       el('div', { class: 'field' }, [
         el('span', { text: t('profile.pickIcon') }),
         emojisGrid,
+      ]),
+      el('p', { class: 'muted', text: t('profile.passwordHint') }),
+      el('label', { class: 'field' }, [
+        el('span', { text: t('profile.password') }),
+        passwordInput,
+      ]),
+      el('label', { class: 'field' }, [
+        el('span', { text: t('profile.passwordConfirm') }),
+        passwordConfirm,
       ]),
       errorMsg,
       el('div', { class: 'dialog-actions' }, [
@@ -148,7 +194,7 @@ export function openProfileDialog({ onSelect, onCancel, canCancel = true, forceC
             }
           },
         }),
-        el('button', { class: 'btn primary', type: 'submit', text: t('profile.create') }),
+        createBtn,
       ]),
     ]);
 
