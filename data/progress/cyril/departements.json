@@ -1,6 +1,6 @@
 {
   "listId": "departements",
-  "updatedAt": "2026-09-07T12:36:08.798Z",
+  "updatedAt": "2026-09-07T12:36:28.578Z",
   "items": {
     "f4hqet:b2f": {
       "box": 2,
@@ -528,6 +528,14 @@
       "seen": 1,
       "lapses": 0,
       "lastSeen": "2026-09-07T12:36:08.798Z",
+      "level": 0
+    },
+    "p7cbwo:f2b": {
+      "box": 1,
+      "due": "2026-09-08",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-07T12:36:28.578Z",
       "level": 0
     }
   }
