@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T05:54:44.403Z",
+  "updatedAt": "2026-09-07T11:09:52.000Z",
   "profiles": [
     {
       "id": "default",
@@ -14,5 +14,9 @@
       "updatedAt": "2026-09-07T05:54:32.239Z"
     }
   ],
-  "deletedProfiles": []
+  "deletedProfiles": [
+    { "id": "cyril", "updatedAt": "2026-09-07T11:09:52.000Z" },
+    { "id": "thomas", "updatedAt": "2026-09-07T11:09:52.000Z" },
+    { "id": "flo", "updatedAt": "2026-09-07T11:09:52.000Z" }
+  ]
 }
