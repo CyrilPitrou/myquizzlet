@@ -1,0 +1,433 @@
+{
+  "id": "expressions",
+  "name": "Expressions",
+  "folder": "Harry Potter",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-07",
+  "cards": [
+    {
+      "id": "snric0",
+      "front": "almost",
+      "back": "presque"
+    },
+    {
+      "id": "hl9q8s",
+      "front": "although",
+      "back": "bien que"
+    },
+    {
+      "id": "j9kupd",
+      "front": "as though/as if",
+      "back": "comme si"
+    },
+    {
+      "id": "zoywa0",
+      "front": "at random",
+      "back": "au hasard"
+    },
+    {
+      "id": "iknox4",
+      "front": "barely",
+      "back": "à peine"
+    },
+    {
+      "id": "dcw70l",
+      "front": "below",
+      "back": "en dessous"
+    },
+    {
+      "id": "20e0qz",
+      "front": "briskly/quickly",
+      "back": "rapidement"
+    },
+    {
+      "id": "7ihhuo",
+      "front": "by heart",
+      "back": "par cœur"
+    },
+    {
+      "id": "sg61up",
+      "front": "by the shore",
+      "back": "sur le rivage"
+    },
+    {
+      "id": "80y7ne",
+      "front": "cheer up!",
+      "back": "courage !"
+    },
+    {
+      "id": "yywv1w",
+      "front": "currently",
+      "back": "actuellement"
+    },
+    {
+      "id": "u0wn7g",
+      "front": "different sizes",
+      "back": "différentes tailles"
+    },
+    {
+      "id": "t04dv2",
+      "front": "do you want a hand?",
+      "back": "veux-tu un coup de main ?"
+    },
+    {
+      "id": "p1wr5z",
+      "front": "don't be a fool!",
+      "back": "ne sois pas bête !"
+    },
+    {
+      "id": "8bahoc",
+      "front": "don't make a fool of yourself",
+      "back": "ne te ridiculise pas"
+    },
+    {
+      "id": "vbiagq",
+      "front": "don't meddle in their quarrel",
+      "back": "ne te mêle pas de leur dispute."
+    },
+    {
+      "id": "sd451d",
+      "front": "don't stick out your tongue!",
+      "back": "ne tire pas la langue !"
+    },
+    {
+      "id": "vovq20",
+      "front": "eagerly",
+      "back": "avec envie"
+    },
+    {
+      "id": "z2babl",
+      "front": "fast asleep",
+      "back": "profondément endormi"
+    },
+    {
+      "id": "axveyo",
+      "front": "give me a hint!",
+      "back": "donne-moi un indice !"
+    },
+    {
+      "id": "h3srnb",
+      "front": "hardly",
+      "back": "à peine"
+    },
+    {
+      "id": "77pezr",
+      "front": "he has red hair",
+      "back": "il est roux"
+    },
+    {
+      "id": "d5s7bq",
+      "front": "he is about to do something",
+      "back": "il est sur le point de faire quelque chose"
+    },
+    {
+      "id": "b3q8us",
+      "front": "he is drunk",
+      "back": "il est ivre"
+    },
+    {
+      "id": "4376ov",
+      "front": "he is injured",
+      "back": "il est blessé"
+    },
+    {
+      "id": "4zwvjn",
+      "front": "he is Norwegian",
+      "back": "il est norvégien"
+    },
+    {
+      "id": "l9y2x7",
+      "front": "he is not going to be fair",
+      "back": "il ne va pas être juste"
+    },
+    {
+      "id": "a79op3",
+      "front": "he is wide awake",
+      "back": "il est complètement réveillé"
+    },
+    {
+      "id": "n8wu2b",
+      "front": "he was relieved",
+      "back": "il était soulagé"
+    },
+    {
+      "id": "nf820v",
+      "front": "help yourself.",
+      "back": "sers-toi."
+    },
+    {
+      "id": "5692vu",
+      "front": "how does it work?",
+      "back": "comment cela marche ?"
+    },
+    {
+      "id": "vb8f2j",
+      "front": "I am ashamed",
+      "back": "j'ai honte"
+    },
+    {
+      "id": "zxijh5",
+      "front": "I am concerned/worried",
+      "back": "je suis inquiet"
+    },
+    {
+      "id": "spngpy",
+      "front": "I am delighted to meet you",
+      "back": "je suis ravi/enchanté de te rencontrer"
+    },
+    {
+      "id": "r8ts35",
+      "front": "I am freezing",
+      "back": "j'ai très froid"
+    },
+    {
+      "id": "qx1e4l",
+      "front": "I am hopeful.",
+      "back": "je suis optimiste."
+    },
+    {
+      "id": "79anx9",
+      "front": "I am looking forward to seeing you",
+      "back": "je suis impatient de te voir"
+    },
+    {
+      "id": "hy9qsn",
+      "front": "I am starving",
+      "back": "je suis mort de faim"
+    },
+    {
+      "id": "16ne5e",
+      "front": "I bet",
+      "back": "je parie"
+    },
+    {
+      "id": "oc9bpt",
+      "front": "I can't stand her",
+      "back": "je ne la supporte pas"
+    },
+    {
+      "id": "l8f0a9",
+      "front": "I changed my mind",
+      "back": "j'ai changé d'avis"
+    },
+    {
+      "id": "n6ky1n",
+      "front": "I have the right to",
+      "back": "j'ai le droit de"
+    },
+    {
+      "id": "jjxs69",
+      "front": "I leave",
+      "back": "je pars"
+    },
+    {
+      "id": "fu55pa",
+      "front": "I live",
+      "back": "je vis"
+    },
+    {
+      "id": "drlx3l",
+      "front": "I lost my temper!",
+      "back": "je me suis mis en colère !"
+    },
+    {
+      "id": "ftnl2m",
+      "front": "I wonder",
+      "back": "je me demande"
+    },
+    {
+      "id": "p5qigq",
+      "front": "I've got loads",
+      "back": "j'en ai plein"
+    },
+    {
+      "id": "869jiw",
+      "front": "in a row",
+      "back": "à la suite"
+    },
+    {
+      "id": "053ygg",
+      "front": "in the lead",
+      "back": "en tête"
+    },
+    {
+      "id": "5ckdvm",
+      "front": "it belongs to me",
+      "back": "cela m'appartient"
+    },
+    {
+      "id": "zta445",
+      "front": "it is battered",
+      "back": "il est usé"
+    },
+    {
+      "id": "yyqa85",
+      "front": "it is chilled.",
+      "back": "c'est frais."
+    },
+    {
+      "id": "9y6xso",
+      "front": "it is packed with people",
+      "back": "c'est rempli de personnes"
+    },
+    {
+      "id": "rq0xeb",
+      "front": "it is valuable",
+      "back": "c'est précieux"
+    },
+    {
+      "id": "94ls8w",
+      "front": "it was lit",
+      "back": "c'était éclairé"
+    },
+    {
+      "id": "jp8y9c",
+      "front": "it's warm",
+      "back": "il fait chaud"
+    },
+    {
+      "id": "nt9zje",
+      "front": "keep to the path/stay on the path",
+      "back": "restez sur le chemin"
+    },
+    {
+      "id": "uquong",
+      "front": "my head is sore",
+      "back": "j'ai mal à la tête"
+    },
+    {
+      "id": "1txi5w",
+      "front": "never mind.",
+      "back": "ça ne fait rien."
+    },
+    {
+      "id": "yzg1bg",
+      "front": "no mercy!",
+      "back": "pas de pitié !"
+    },
+    {
+      "id": "ko37bs",
+      "front": "no wonder",
+      "back": "pas étonnant"
+    },
+    {
+      "id": "b84ehj",
+      "front": "on purpose",
+      "back": "faire exprès"
+    },
+    {
+      "id": "wu6of1",
+      "front": "on the edge",
+      "back": "sur le bord"
+    },
+    {
+      "id": "37myos",
+      "front": "on the spot",
+      "back": "sur place"
+    },
+    {
+      "id": "7wyp0o",
+      "front": "out of bounds/out of reach",
+      "back": "interdit d'accès/hors de portée"
+    },
+    {
+      "id": "oij8hm",
+      "front": "out of fashion",
+      "back": "démodé"
+    },
+    {
+      "id": "4j6f9a",
+      "front": "out of sight",
+      "back": "hors de vue"
+    },
+    {
+      "id": "uryb15",
+      "front": "set him free!",
+      "back": "libère-le !"
+    },
+    {
+      "id": "t2xifx",
+      "front": "she is attractive",
+      "back": "elle est jolie"
+    },
+    {
+      "id": "334tm7",
+      "front": "shut up!",
+      "back": "tais-toi !"
+    },
+    {
+      "id": "grld9r",
+      "front": "still",
+      "back": "immobile"
+    },
+    {
+      "id": "gczgv2",
+      "front": "take care!",
+      "back": "prends soin de toi !"
+    },
+    {
+      "id": "4ctt75",
+      "front": "the door is ajar",
+      "back": "la porte est entrebâillée"
+    },
+    {
+      "id": "teiplc",
+      "front": "the same shape",
+      "back": "la même forme"
+    },
+    {
+      "id": "n32u0u",
+      "front": "they are off",
+      "back": "ils sont partis"
+    },
+    {
+      "id": "rxh915",
+      "front": "they are relieved",
+      "back": "ils sont soulagés"
+    },
+    {
+      "id": "6x0de6",
+      "front": "thoughtfully",
+      "back": "pensivement"
+    },
+    {
+      "id": "ot01vt",
+      "front": "to set off",
+      "back": "se mettre en route"
+    },
+    {
+      "id": "2vp94o",
+      "front": "towards",
+      "back": "vers/en direction de"
+    },
+    {
+      "id": "maz64z",
+      "front": "what does he look like?",
+      "back": "à quoi ressemble-t-il ?"
+    },
+    {
+      "id": "j2ydnk",
+      "front": "what is going on?",
+      "back": "qu'est-ce qui se passe ?"
+    },
+    {
+      "id": "nwsckj",
+      "front": "what is he up to?",
+      "back": "qu'est-ce qu'il mijote ?"
+    },
+    {
+      "id": "4u6mpk",
+      "front": "what's the matter?",
+      "back": "quel est le problème ?"
+    },
+    {
+      "id": "wnq3rh",
+      "front": "with caution",
+      "back": "avec prudence"
+    }
+  ],
+  "updatedAt": "2026-09-07T18:40:12.737Z"
+}
