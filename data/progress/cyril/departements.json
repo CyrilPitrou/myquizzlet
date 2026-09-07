@@ -1,6 +1,6 @@
 {
   "listId": "departements",
-  "updatedAt": "2026-09-07T12:36:28.578Z",
+  "updatedAt": "2026-09-07T12:37:05.277Z",
   "items": {
     "f4hqet:b2f": {
       "box": 2,
@@ -536,6 +536,30 @@
       "seen": 1,
       "lapses": 1,
       "lastSeen": "2026-09-07T12:36:28.578Z",
+      "level": 0
+    },
+    "rk3ndf:b2f": {
+      "box": 1,
+      "due": "2026-09-08",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-07T12:36:56.094Z",
+      "level": 0
+    },
+    "a1ngdf:b2f": {
+      "box": 2,
+      "due": "2026-09-10",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-07T12:37:02.551Z",
+      "level": 0
+    },
+    "z0svru:b2f": {
+      "box": 2,
+      "due": "2026-09-10",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-07T12:37:05.277Z",
       "level": 0
     }
   }
