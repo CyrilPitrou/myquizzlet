@@ -17,7 +17,6 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
   async function pullProfiles() {
     const key = 'profiles';
     const base = store.getBase(key);
-    if (base && base.sha === 'none' && !store.dirtyKeys().includes(key)) return;
     const remote = await github.getFile('data/profiles.json');
     if (!remote) {
       store.setBase(key, { sha: 'none', updatedAt: null });

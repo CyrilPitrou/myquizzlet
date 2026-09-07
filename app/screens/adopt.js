@@ -1,6 +1,7 @@
 import { el } from '../ui.js';
 import { screen, settings, saveSettings, go, ctx, REPO } from '../app.js';
-import { parseSetup, maskToken } from '../setup.js';
+import { maskToken } from '../setup.js';
+import { adoptionFromHash, forgetAdoption } from '../adoption.js';
 import { t } from '../i18n.js';
 
 // The token is in the fragment, which main.js has already cut the query off
@@ -18,8 +19,12 @@ export function showAdopt() {
   // fragment, so anything that isn't the setup-link query form — including
   // a bare '#/adopt' with no query at all — must read as "no token", not
   // as a token equal to the fragment text itself.
-  const found = location.hash.startsWith('#/adopt?') ? parseSetup(location.hash) : null;
-  answered();   // the token lives in `found` now; it need not stay in the URL
+  const arrivedWithToken = location.hash.startsWith('#/adopt?');
+  const found = adoptionFromHash(location.hash);
+  if (arrivedWithToken) answered();
+  // The token lives in memory now; it need not stay in the URL. Keeping it in
+  // memory also makes a sync-triggered repaint show the same question instead
+  // of claiming, a moment later, that the link carried no token.
 
   view.append(el('h2', { text: t('adopt.title') }));
 
@@ -48,6 +53,7 @@ export function showAdopt() {
       class: 'primary', text: t('adopt.save'),
       onclick: () => {
         saveSettings({ ...settings(), token, tokenExpiry: expiry });
+        forgetAdoption();
         ctx.initSync();
         go('#/token');
       },
@@ -55,6 +61,7 @@ export function showAdopt() {
     el('button', {
       text: t('adopt.decline'),
       onclick: () => {
+        forgetAdoption();
         go('#/');
       },
     }),

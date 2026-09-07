@@ -1,4 +1,4 @@
-const CACHE = 'myquizzlet-v41';
+const CACHE = 'myquizzlet-v42';
 const SHELL = [
   './', './index.html', './manifest.webmanifest', './app/style.css',
   './icons/icon-192.png', './icons/icon-512.png',
@@ -12,7 +12,8 @@ const SHELL = [
   './app/langs.js', './app/stats.js', './app/train.js', './app/listform.js', './app/pagehead.js',
   './app/dates.js', './app/listsort.js',
   './app/syncerror.js', './app/tokennote.js', './app/wishes.js',
-  './app/qr.js', './app/qrcard.js', './app/tokenshare.js', './app/setup.js', './app/zip.js', './app/install.js',
+  './app/qr.js', './app/qrcard.js', './app/tokenshare.js', './app/setup.js', './app/adoption.js',
+  './app/zip.js', './app/install.js',
   './app/screens/lists.js', './app/screens/list.js', './app/screens/cards.js',
   './app/screens/test.js', './app/screens/settings.js',
   './app/screens/folders.js', './app/screens/editlist.js', './app/screens/view.js',

@@ -16,6 +16,7 @@ import { showTrainSetup, showTrainSession } from './screens/train.js';
 import { showHelp } from './screens/help.js';
 import { onInstallChange } from './install.js';
 import { showAdopt } from './screens/adopt.js';
+import { forgetAdoption } from './adoption.js';
 import { showToken } from './screens/token.js';
 import { showWishes } from './screens/wishes.js';
 import { openProfileDialog } from './screens/profiledialog.js';
@@ -151,6 +152,7 @@ function render() {
   const [path] = location.hash.split('?');
   $('#topbar').classList.toggle('session', /\/(train|test)\/[^/]+\/go$/.test(path));
   const [, route, arg, sub] = path.split('/');
+  if (route !== 'adopt') forgetAdoption();
   if (route === 'list' && arg && sub === 'edit') showEditList(arg);
   else if (route === 'list' && arg && sub === 'cards') showCards(arg);
   else if (route === 'list' && arg) showList(arg);

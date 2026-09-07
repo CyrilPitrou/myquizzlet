@@ -66,11 +66,11 @@ describe('pullAll only downloads what it has to', () => {
     expect(store.listIds().sort()).toEqual(['one', 'three', 'two']);
   });
 
-  it('downloads nothing at all when no sha has moved since the last sync', async () => {
+  it('downloads no unchanged list or progress file', async () => {
     await sync.pullAll();
     github.calls.length = 0;
     await sync.pullAll();
-    expect(github.gets()).toEqual([]);
+    expect(github.gets()).toEqual(['data/profiles.json']);
   });
 
   it('downloads only the one list whose sha moved', async () => {
@@ -79,7 +79,7 @@ describe('pullAll only downloads what it has to', () => {
       json: { id: 'two', name: 'Two renamed', cards: [], updatedAt: '2026-09-04T09:00:00Z' } };
     github.calls.length = 0;
     await sync.pullAll();
-    expect(github.gets()).toEqual(['data/lists/two.json']);
+    expect(github.gets()).toEqual(['data/profiles.json', 'data/lists/two.json']);
     expect(store.getList('two').name).toBe('Two renamed');
   });
 
@@ -96,7 +96,7 @@ describe('pullAll only downloads what it has to', () => {
     expect(store.getProgress('one').items['c1:f2b'].box).toBe(2);
     github.calls.length = 0;
     await sync.pullAll();
-    expect(github.gets()).toEqual([]);
+    expect(github.gets()).toEqual(['data/profiles.json']);
   });
 
   it('re-reads a progress file whose sha moved', async () => {
@@ -107,15 +107,19 @@ describe('pullAll only downloads what it has to', () => {
       json: { listId: 'one', updatedAt: '2026-09-04T09:00:00Z', items: { 'c1:b2f': { box: 3, lastSeen: '2026-09-04T09:00:00Z' } } } };
     github.calls.length = 0;
     await sync.pullAll();
-    expect(github.gets()).toEqual(['data/progress/one.json']);
+    expect(github.gets()).toEqual(['data/profiles.json', 'data/progress/one.json']);
     expect(store.getProgress('one').items['c1:b2f'].box).toBe(3);
   });
 
-  it('costs a fixed two requests for a hundred unchanged lists', async () => {
+  it('costs a fixed three requests for a hundred unchanged lists', async () => {
     build(Array.from({ length: 100 }, (_, n) => aList(`l${n}`, `S${n}`)));
     await sync.pullAll();
     github.calls.length = 0;
     await sync.pullAll();
-    expect(github.calls).toEqual([['list', 'data/lists'], ['list', 'data/progress']]);
+    expect(github.calls).toEqual([
+      ['list', 'data/lists'],
+      ['get', 'data/profiles.json'],
+      ['list', 'data/progress'],
+    ]);
   });
 });

@@ -72,6 +72,33 @@ describe('profile sync', () => {
     expect(ids).toContain('lea');
   });
 
+  it('notices a profiles file created by another device after it was absent', async () => {
+    store.saveProfiles([
+      ...store.getProfiles(),
+      { id: 'thomas', name: 'Thomas', emoji: '🐻' },
+      { id: 'flo', name: 'Flo', emoji: '🦊' },
+    ]);
+    // Profiles made before profile replication existed were already local but
+    // were not dirty when the first sync looked for the not-yet-created file.
+    store.markClean('profiles');
+    await sync.pullAll();
+    expect(store.getBase('profiles').sha).toBe('none');
+
+    files['data/profiles.json'] = {
+      sha: 'PROF1',
+      json: { profiles: [
+        { id: 'default', name: 'Default', emoji: '👤', updatedAt: '2026-09-01T00:00:00Z' },
+        { id: 'cyril', name: 'Cyril', emoji: '🦁', updatedAt: '2026-09-02T00:00:00Z' },
+      ] },
+    };
+
+    await sync.pullAll();
+
+    expect(store.getProfiles().map((profile) => profile.id).sort())
+      .toEqual(['cyril', 'default', 'flo', 'thomas']);
+    expect(store.dirtyKeys()).toContain('profiles');
+  });
+
   it('pushes dirty profiles to data/profiles.json', async () => {
     store.saveProfiles([...store.getProfiles(), { id: 'bob', name: 'Bob', emoji: '🐶' }]);
     expect(store.dirtyKeys()).toContain('profiles');
