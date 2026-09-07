@@ -1,0 +1,428 @@
+{
+  "id": "corps-mouvement",
+  "name": "Corps Mouvement",
+  "folder": "Harry Potter",
+  "frontLabel": "English",
+  "backLabel": "French",
+  "frontLang": "en",
+  "backLang": "fr",
+  "createdAt": "2026-09-07",
+  "cards": [
+    {
+      "id": "q8bp5z",
+      "front": "a hoarse voice",
+      "back": "une voix rauque"
+    },
+    {
+      "id": "u5jb1y",
+      "front": "a large bite",
+      "back": "une grande bouchée"
+    },
+    {
+      "id": "smk0gv",
+      "front": "a leg",
+      "back": "une jambe"
+    },
+    {
+      "id": "8p9cga",
+      "front": "a tear",
+      "back": "une larme"
+    },
+    {
+      "id": "jf0jzu",
+      "front": "freckles",
+      "back": "des taches de rousseur"
+    },
+    {
+      "id": "xwm631",
+      "front": "some blood",
+      "back": "du sang"
+    },
+    {
+      "id": "qq7kos",
+      "front": "sweat",
+      "back": "la transpiration"
+    },
+    {
+      "id": "j5in1q",
+      "front": "the back",
+      "back": "le dos"
+    },
+    {
+      "id": "qklyx9",
+      "front": "the beard",
+      "back": "la barbe"
+    },
+    {
+      "id": "225ej6",
+      "front": "the body",
+      "back": "le corps"
+    },
+    {
+      "id": "tf162x",
+      "front": "the brain",
+      "back": "le cerveau"
+    },
+    {
+      "id": "dt53i0",
+      "front": "the chest",
+      "back": "la poitrine"
+    },
+    {
+      "id": "cxgnh6",
+      "front": "the elbow",
+      "back": "le coude"
+    },
+    {
+      "id": "bkxya5",
+      "front": "the gaze",
+      "back": "le regard"
+    },
+    {
+      "id": "bc8x2d",
+      "front": "the jaws",
+      "back": "les mâchoires"
+    },
+    {
+      "id": "6706n0",
+      "front": "the knees",
+      "back": "les genoux"
+    },
+    {
+      "id": "uwt7p1",
+      "front": "the lap",
+      "back": "les genoux"
+    },
+    {
+      "id": "8p1y0y",
+      "front": "the lips",
+      "back": "les lèvres"
+    },
+    {
+      "id": "jq1o7n",
+      "front": "the nostrils",
+      "back": "les narines"
+    },
+    {
+      "id": "njip1i",
+      "front": "the pain",
+      "back": "la douleur"
+    },
+    {
+      "id": "mfwh66",
+      "front": "the sweat",
+      "back": "la transpiration"
+    },
+    {
+      "id": "au1d7a",
+      "front": "the waist",
+      "back": "la taille (corps)"
+    },
+    {
+      "id": "8azrqr",
+      "front": "the wound",
+      "back": "la blessure"
+    },
+    {
+      "id": "lvsqg7",
+      "front": "the wrist",
+      "back": "le poignet"
+    },
+    {
+      "id": "awfvwv",
+      "front": "to ache/hurt",
+      "back": "faire mal"
+    },
+    {
+      "id": "l3kw6k",
+      "front": "to back away",
+      "back": "reculer"
+    },
+    {
+      "id": "4sepou",
+      "front": "to bend down",
+      "back": "se pencher"
+    },
+    {
+      "id": "cn2lv2",
+      "front": "to bite – bit – bitten",
+      "back": "mordre"
+    },
+    {
+      "id": "vxst1o",
+      "front": "to bleed – bled – bled",
+      "back": "saigner"
+    },
+    {
+      "id": "yiusig",
+      "front": "to blink",
+      "back": "cligner des yeux"
+    },
+    {
+      "id": "7j0ipc",
+      "front": "to blush",
+      "back": "rougir"
+    },
+    {
+      "id": "xtvsgh",
+      "front": "to breathe",
+      "back": "respirer"
+    },
+    {
+      "id": "ctek87",
+      "front": "to choke",
+      "back": "étouffer"
+    },
+    {
+      "id": "9iruwe",
+      "front": "to clap",
+      "back": "applaudir"
+    },
+    {
+      "id": "0yys2b",
+      "front": "to clutch",
+      "back": "serrer"
+    },
+    {
+      "id": "10q526",
+      "front": "to collapse",
+      "back": "s'effondrer"
+    },
+    {
+      "id": "lb1owr",
+      "front": "to collapse into a chair",
+      "back": "s'effondrer sur une chaise"
+    },
+    {
+      "id": "3cqnxe",
+      "front": "to creep – crept – crept",
+      "back": "ramper"
+    },
+    {
+      "id": "ziczoz",
+      "front": "to dash",
+      "back": "se précipiter"
+    },
+    {
+      "id": "ob61yn",
+      "front": "to dodge",
+      "back": "esquiver"
+    },
+    {
+      "id": "v1xtsp",
+      "front": "to drag",
+      "back": "traîner"
+    },
+    {
+      "id": "cjf9vl",
+      "front": "to duck",
+      "back": "se baisser"
+    },
+    {
+      "id": "9jh3xi",
+      "front": "to frown",
+      "back": "froncer les sourcils"
+    },
+    {
+      "id": "vy3bmg",
+      "front": "to gaze",
+      "back": "regarder bouche bée"
+    },
+    {
+      "id": "nlgm3b",
+      "front": "to get hold of something",
+      "back": "s'emparer de quelque chose"
+    },
+    {
+      "id": "zqsymy",
+      "front": "to hold – held – held",
+      "back": "tenir"
+    },
+    {
+      "id": "tnm9cp",
+      "front": "to hold something",
+      "back": "tenir quelque chose"
+    },
+    {
+      "id": "53c5yy",
+      "front": "to lean against",
+      "back": "s'appuyer contre quelque chose"
+    },
+    {
+      "id": "0nb6e2",
+      "front": "to lean forward",
+      "back": "se pencher en avant"
+    },
+    {
+      "id": "k3pc8o",
+      "front": "to let go of something",
+      "back": "lâcher quelque chose"
+    },
+    {
+      "id": "bbaa0h",
+      "front": "to lie down",
+      "back": "s'allonger"
+    },
+    {
+      "id": "fryurf",
+      "front": "to lift",
+      "back": "soulever"
+    },
+    {
+      "id": "oux4y3",
+      "front": "to limp",
+      "back": "boiter"
+    },
+    {
+      "id": "uxgf9t",
+      "front": "to pant",
+      "back": "haleter"
+    },
+    {
+      "id": "0ukcxt",
+      "front": "to pat",
+      "back": "tapoter"
+    },
+    {
+      "id": "md5fti",
+      "front": "to pull",
+      "back": "tirer"
+    },
+    {
+      "id": "3rraqj",
+      "front": "to reach",
+      "back": "atteindre"
+    },
+    {
+      "id": "9vxe9y",
+      "front": "to rub",
+      "back": "frotter"
+    },
+    {
+      "id": "5nvvcf",
+      "front": "to scratch his nose",
+      "back": "se gratter le nez"
+    },
+    {
+      "id": "2qs77w",
+      "front": "to seize something",
+      "back": "se saisir de quelque chose"
+    },
+    {
+      "id": "h4ufyv",
+      "front": "to shiver",
+      "back": "frissonner"
+    },
+    {
+      "id": "vjxd64",
+      "front": "to sigh",
+      "back": "soupirer"
+    },
+    {
+      "id": "kq0qpt",
+      "front": "to slide",
+      "back": "glisser"
+    },
+    {
+      "id": "ssp4tp",
+      "front": "to sneeze",
+      "back": "éternuer"
+    },
+    {
+      "id": "394qz8",
+      "front": "to sniff",
+      "back": "renifler"
+    },
+    {
+      "id": "ykhv3j",
+      "front": "to sob",
+      "back": "sangloter"
+    },
+    {
+      "id": "f6ydk6",
+      "front": "to spit – spat – spat",
+      "back": "cracher"
+    },
+    {
+      "id": "9gmklp",
+      "front": "to stand back",
+      "back": "s'écarter"
+    },
+    {
+      "id": "o0qmla",
+      "front": "to stand on tiptoe",
+      "back": "se tenir sur la pointe des pieds"
+    },
+    {
+      "id": "z3a8sw",
+      "front": "to stay put",
+      "back": "rester immobile"
+    },
+    {
+      "id": "y81fmf",
+      "front": "to stroke",
+      "back": "caresser"
+    },
+    {
+      "id": "vt9pt2",
+      "front": "to stutter",
+      "back": "bégayer"
+    },
+    {
+      "id": "vb6iji",
+      "front": "to swallow",
+      "back": "avaler"
+    },
+    {
+      "id": "jpc84w",
+      "front": "to tickle",
+      "back": "chatouiller"
+    },
+    {
+      "id": "3oe01n",
+      "front": "to trip",
+      "back": "trébucher"
+    },
+    {
+      "id": "keptmk",
+      "front": "to tug/pull",
+      "back": "tirer"
+    },
+    {
+      "id": "owo5d9",
+      "front": "to turn around",
+      "back": "se retourner"
+    },
+    {
+      "id": "ln8xi6",
+      "front": "to twist",
+      "back": "se tordre"
+    },
+    {
+      "id": "2x0jdt",
+      "front": "to wail",
+      "back": "pleurnicher"
+    },
+    {
+      "id": "2f7yrx",
+      "front": "to wail/whimper",
+      "back": "gémir"
+    },
+    {
+      "id": "8zksn6",
+      "front": "to wave",
+      "back": "faire un signe de la main"
+    },
+    {
+      "id": "uppox7",
+      "front": "to whimper",
+      "back": "gémir/geindre"
+    },
+    {
+      "id": "ofwqx5",
+      "front": "to yawn",
+      "back": "bâiller"
+    }
+  ],
+  "updatedAt": "2026-09-07T18:41:48.200Z"
+}
