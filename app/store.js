@@ -1,5 +1,6 @@
 import { swapSides as swapListSides } from './sides.js';
 import { resetItems } from './srs.js';
+import { localDay } from './dates.js';
 
 const PREFIX = 'mq:';
 const ALPHABET = 'abcdefghijklmnopqrstuvwxyz0123456789';
@@ -67,7 +68,7 @@ export function createStore(storage, now = () => new Date()) {
     // The day the list was made, kept as a plain ISO day and never touched
     // again: renaming, editing or restudying a list does not make it new.
     return saveList({ id, name, folder, frontLabel, backLabel,
-                      frontLang, backLang, createdAt: stamp().slice(0, 10), cards: [] });
+                      frontLang, backLang, createdAt: localDay(now()), cards: [] });
   }
 
   function mutateCards(listId, fn) {
@@ -181,7 +182,13 @@ export function createStore(storage, now = () => new Date()) {
       return read('profiles', []);
     },
     saveProfiles(profiles) {
-      write('profiles', profiles.map((profile) => ({ ...profile, updatedAt: profile.updatedAt || stamp() })));
+      const saved = profiles.map((profile) => ({ ...profile, updatedAt: profile.updatedAt || stamp() }));
+      write('profiles', saved);
+      const active = read('activeProfile', null);
+      if (active && !saved.some((profile) => profile.id === active)) {
+        if (saved.length) write('activeProfile', saved[0].id);
+        else storage.removeItem(`${PREFIX}activeProfile`);
+      }
       markDirty('profiles');
     },
     getActiveProfile() {
@@ -194,6 +201,15 @@ export function createStore(storage, now = () => new Date()) {
     deleteProfile(id) {
       const remaining = this.getProfiles().filter((p) => p.id !== id);
       this.saveProfiles(remaining);
+      this.purgeProfileProgress(id);
+      const removed = this.deletedProfileTombstones();
+      const deletedAt = stamp();
+      const previous = removed.find((entry) => entry.id === id);
+      const next = previous && (previous.updatedAt || '') > deletedAt
+        ? previous : { id, updatedAt: deletedAt };
+      this.saveDeletedProfileTombstones(removed.filter((entry) => entry.id !== id).concat(next));
+    },
+    purgeProfileProgress(id) {
       const prefix = `${PREFIX}progress:${id}:`;
       const keys = index().map((listId) => `${prefix}${listId}`);
       if (typeof storage.length === 'number' && typeof storage.key === 'function') {
@@ -203,15 +219,7 @@ export function createStore(storage, now = () => new Date()) {
         }
       }
       for (const key of new Set(keys)) storage.removeItem(key);
-      const removed = this.deletedProfileTombstones();
-      const deletedAt = stamp();
-      const previous = removed.find((entry) => entry.id === id);
-      const next = previous && (previous.updatedAt || '') > deletedAt
-        ? previous : { id, updatedAt: deletedAt };
-      this.saveDeletedProfileTombstones(removed.filter((entry) => entry.id !== id).concat(next));
-      if (this.getActiveProfile() === id) {
-        this.setActiveProfile(remaining.length > 0 ? remaining[0].id : null);
-      }
+      write('dirty', read('dirty', []).filter((key) => !key.startsWith(`progress:${id}:`)));
     },
     renameProfile(id, name) {
       const profiles = this.getProfiles().map((p) => (p.id === id
@@ -235,7 +243,7 @@ export function createStore(storage, now = () => new Date()) {
     resetProgress(id, profileId = this.getActiveProfile()) {
       if (!profileId) return;
       const progress = this.getProgress(id, profileId);
-      const today = stamp().slice(0, 10);
+      const today = localDay(now());
       return this.saveProgress({ ...progress, items: resetItems(progress.items, today, stamp()) }, profileId);
     },
     saveProgress(progress, profileId = this.getActiveProfile()) {

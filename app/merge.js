@@ -1,4 +1,17 @@
 const seenAt = (item) => (item && item.lastSeen ? item.lastSeen : '');
+const itemRank = (item) => JSON.stringify(Object.keys(item || {}).sort()
+  .map((key) => [key, item[key]]));
+const recordRank = (record) => JSON.stringify(Object.keys(record || {}).sort()
+  .map((key) => [key, record[key]]));
+
+function itemIsNewer(candidate, current) {
+  const candidateSeen = seenAt(candidate);
+  const currentSeen = seenAt(current);
+  if (candidateSeen !== currentSeen) return candidateSeen > currentSeen;
+  // Equal millisecond timestamps have no temporal winner. A stable content
+  // tiebreaker makes the merge commutative so every device still converges.
+  return itemRank(candidate) > itemRank(current);
+}
 
 export function mergeProgress(local, remote) {
   if (!remote) return local;
@@ -6,7 +19,7 @@ export function mergeProgress(local, remote) {
   const items = { ...remote.items };
   for (const [key, mine] of Object.entries(local.items || {})) {
     const theirs = items[key];
-    if (!theirs || seenAt(mine) > seenAt(theirs)) items[key] = mine;
+    if (!theirs || itemIsNewer(mine, theirs)) items[key] = mine;
   }
   const updatedAt = (local.updatedAt || '') > (remote.updatedAt || '')
     ? local.updatedAt : remote.updatedAt;
@@ -49,7 +62,10 @@ export function mergeProfiles(local, remote) {
     if (!lp) {
       map.set(rp.id, rp);
     } else {
-      if (rp.updatedAt && (!lp.updatedAt || rp.updatedAt >= lp.updatedAt)) {
+      const remoteTime = rp.updatedAt || '';
+      const localTime = lp.updatedAt || '';
+      if (remoteTime > localTime
+          || (remoteTime === localTime && recordRank(rp) > recordRank(lp))) {
         map.set(rp.id, { ...lp, ...rp });
       }
     }

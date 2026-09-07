@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { formatDate } from '../app/dates.js';
+import { formatDate, localDay } from '../app/dates.js';
 
 describe('formatDate', () => {
   it('writes an ISO day the European way', () => {
@@ -14,5 +14,12 @@ describe('formatDate', () => {
     expect(formatDate(null)).toBe('');
     expect(formatDate('')).toBe('');
     expect(formatDate('3 September 2026')).toBe('');
+  });
+});
+
+describe('localDay', () => {
+  it('uses the local calendar date rather than slicing a UTC timestamp', () => {
+    const justAfterLocalMidnight = new Date(2026, 8, 8, 0, 30);
+    expect(localDay(justAfterLocalMidnight)).toBe('2026-09-08');
   });
 });

@@ -43,6 +43,12 @@ describe('mergeProgress', () => {
     expect(mergeProgress(a, b)).toEqual(mergeProgress(b, a));
   });
 
+  it('is order-independent when conflicting records have the same timestamp', () => {
+    const a = { listId: 'f', items: { 'a:f2b': item(1, '2026-09-01T10:00:00Z') } };
+    const b = { listId: 'f', items: { 'a:f2b': item(4, '2026-09-01T10:00:00Z') } };
+    expect(mergeProgress(a, b)).toEqual(mergeProgress(b, a));
+  });
+
   it('copes with a missing remote', () => {
     const local = { listId: 'f', items: { 'a:f2b': item(1, '2026-09-01T10:00:00Z') } };
     expect(mergeProgress(local, null)).toEqual(local);
@@ -177,5 +183,11 @@ describe('mergeProfiles', () => {
     const merged = mergeProfiles(local, remote);
     expect(merged.profiles.map((profile) => profile.id)).toEqual(['default']);
     expect(merged.deletedProfiles).toEqual([{ id: 'bob', updatedAt: '2026-09-03T00:00:00Z' }]);
+  });
+
+  it('is order-independent when profile timestamps tie', () => {
+    const a = { profiles: [{ id: 'a', name: 'Alice', updatedAt: '2026-09-01T00:00:00Z' }] };
+    const b = { profiles: [{ id: 'a', name: 'Alicia', updatedAt: '2026-09-01T00:00:00Z' }] };
+    expect(mergeProfiles(a, b).profiles).toEqual(mergeProfiles(b, a).profiles);
   });
 });

@@ -9,3 +9,12 @@ export function formatDate(iso) {
   const [, year, month, day] = match;
   return `${day}/${month}/${year}`;
 }
+
+// Scheduling follows the calendar day where the person is, not UTC. Reading
+// local date fields avoids calling yesterday "today" after local midnight.
+export function localDay(date = new Date()) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}

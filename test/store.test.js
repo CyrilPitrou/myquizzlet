@@ -428,5 +428,13 @@ describe('profiles and migration', () => {
     expect(store.getProfiles().some((p) => p.id === 'bob')).toBe(false);
     expect(storage.getItem('mq:progress:bob:food')).toBeNull();
   });
-});
 
+  it('moves away from an active profile removed by a replicated profile save', () => {
+    store.saveProfiles([...store.getProfiles(), { id: 'bob', name: 'Bob', emoji: '🐶' }]);
+    store.setActiveProfile('bob');
+
+    store.saveProfiles(store.getProfiles().filter((profile) => profile.id !== 'bob'));
+
+    expect(store.getActiveProfile()).toBe('default');
+  });
+});

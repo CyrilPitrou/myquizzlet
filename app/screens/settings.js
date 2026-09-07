@@ -150,7 +150,6 @@ export function showSettings() {
   const current = settings();
   view.append(el('a', { href: '#/', class: 'back', text: t('common.back.lists') }));
   view.append(el('h2', { text: t('settings.title') }));
-  view.append(profileSection());
 
   view.append(section(t('settings.appearance'), [
     themePicker(),
@@ -190,6 +189,8 @@ export function showSettings() {
     }),
     exported,
   ]));
+
+  view.append(profileSection());
 
   view.append(section(t('settings.about'), [
     el('p', {}, [el('a', { href: '#/help', text: t('settings.about.help') })]),

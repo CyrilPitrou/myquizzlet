@@ -314,6 +314,8 @@ dialog.dialog { border: 1px solid var(--rule); border-radius: 14px; background: 
   color: var(--ink); padding: 1.25rem; max-width: 30rem; width: 90vw; }
 dialog.dialog::backdrop { background: var(--backdrop); }
 dialog.dialog h2 { margin-top: 0; }
+.conflict-dialog { max-height: 90vh; overflow-y: auto; }
+.conflict-dialog pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: .78rem; }
 .import-rows { max-height: 45vh; overflow-y: auto; margin: .75rem 0; }
 .import-row { display: flex; gap: .4rem; align-items: center; padding: .4rem 0;
   border-bottom: 1px solid var(--rule); }

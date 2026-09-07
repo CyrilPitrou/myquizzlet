@@ -26,6 +26,11 @@ guessing here would quietly lose real work.
 the later `lastSeen`. Deterministic, silent, and never interrupts a session. The
 worst case is one word coming back a day early.
 
+These timestamps come from each device's clock. Phones and computers normally
+keep their clocks synchronized automatically; a device set far into the future
+can make its records win until the other clocks catch up. Equal timestamps use
+a stable content tiebreaker so every device still converges.
+
 ## The status indicator
 
 | State | Meaning | Action |

@@ -118,12 +118,13 @@ describe('a list another device deleted', () => {
     expect(files[`data/lists/${list.id}.json`]).toBeDefined();
   });
 
-  it('leaves local lists alone when the remote listing comes back empty', async () => {
+  it('follows deletion when the last remote list disappears', async () => {
     await sync.pullAll();
     for (const path of Object.keys(files)) delete files[path];
 
     await sync.pullAll();
 
-    expect(store.getList('es-food')).not.toBeNull();
+    expect(store.getList('es-food')).toBeNull();
+    expect(store.listIds()).toEqual([]);
   });
 });

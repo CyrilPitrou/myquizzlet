@@ -23,10 +23,9 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
       store.setBase(key, { sha: 'none', updatedAt: null });
       return;
     }
-    if (base && base.sha === remote.sha) {
-      store.markClean(key);
-      return;
-    }
+    // An unchanged remote sha says nothing about local edits. Clearing a dirty
+    // key here would lose creates, renames and tombstones before pushDirty().
+    if (base && base.sha === remote.sha) return;
     const localProfiles = store.getProfiles();
     const merged = mergeProfiles({
       profiles: localProfiles,
@@ -35,6 +34,9 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
     }, remote.json);
     store.saveProfiles(merged.profiles);
     if (store.saveDeletedProfileTombstones) store.saveDeletedProfileTombstones(merged.deletedProfiles || []);
+    if (store.purgeProfileProgress && store.deletedProfileIds) {
+      for (const profileId of store.deletedProfileIds()) store.purgeProfileProgress(profileId);
+    }
     if (JSON.stringify(merged.profiles) === JSON.stringify(remote.json.profiles)
         && JSON.stringify(merged.deletedProfiles || []) === JSON.stringify(remote.json.deletedProfiles || [])) {
       store.markClean(key);
@@ -159,8 +161,10 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
       }
     }
 
+    const deletedProfiles = new Set(store.deletedProfileIds ? store.deletedProfileIds() : []);
     for (const { profileId, listId, path, sha, isOldPath } of remoteProgressFiles) {
       if (deleted.includes(listId)) continue;
+      if (deletedProfiles.has(profileId)) continue;
       // Once a nested file exists, it is authoritative; do not merge its
       // already-migrated flat predecessor a second time.
       if (isOldPath && remoteProgressFiles.some((entry) => !entry.isOldPath
@@ -172,7 +176,6 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
       }
     }
 
-    if (!entries.length) return;
     for (const id of store.listIds()) {
       if (entries.some((e) => e.name === `${id}.json`)) continue;
       if (store.getBase(`list:${id}`)) store.deleteList(id);

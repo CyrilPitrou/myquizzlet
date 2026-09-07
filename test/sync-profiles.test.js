@@ -82,6 +82,21 @@ describe('profile sync', () => {
     expect(store.dirtyKeys()).not.toContain('profiles');
   });
 
+  it('does not clear a local profile edit when the remote sha is unchanged', async () => {
+    files['data/profiles.json'] = {
+      sha: 'PROF1',
+      json: { profiles: [{ id: 'default', name: 'Default', emoji: '👤', updatedAt: '2026-09-01T00:00:00Z' }] },
+    };
+    await sync.pullAll();
+    store.renameProfile('default', 'Mine');
+
+    await sync.pullAll();
+    await sync.pushDirty();
+
+    expect(files['data/profiles.json'].json.profiles[0].name).toBe('Mine');
+    expect(store.dirtyKeys()).not.toContain('profiles');
+  });
+
   it('pulls and pushes per-profile progress to data/progress/<profileId>/<listId>.json', async () => {
     files['data/progress/lea/food.json'] = {
       sha: 'P_LEA',
@@ -151,5 +166,34 @@ describe('profile sync', () => {
     await sync.pullAll();
 
     expect(store.getProfiles().map((profile) => profile.id)).not.toContain('bob');
+  });
+
+  it('leaves a valid active profile and discards tombstoned progress after a remote deletion', async () => {
+    files['data/profiles.json'] = {
+      sha: 'PROF1',
+      json: { profiles: [
+        { id: 'default', name: 'Default', emoji: '👤', updatedAt: '2026-09-01T00:00:00Z' },
+        { id: 'bob', name: 'Bob', emoji: '🐶', updatedAt: '2026-09-02T00:00:00Z' },
+      ] },
+    };
+    files['data/progress/bob/food.json'] = {
+      sha: 'P_BOB',
+      json: { listId: 'food', items: { 'c1:f2b': { box: 2, lastSeen: '2026-09-02T00:00:00Z' } } },
+    };
+    await sync.pullAll();
+    store.setActiveProfile('bob');
+    files['data/profiles.json'] = {
+      sha: 'PROF2',
+      json: {
+        profiles: [{ id: 'default', name: 'Default', emoji: '👤', updatedAt: '2026-09-01T00:00:00Z' }],
+        deletedProfiles: [{ id: 'bob', updatedAt: '2026-09-03T00:00:00Z' }],
+      },
+    };
+
+    await sync.pullAll();
+
+    expect(store.getActiveProfile()).toBe('default');
+    expect(store.getProgress('food', 'bob').items).toEqual({});
+    expect(store.dirtyKeys().some((key) => key.startsWith('progress:bob:'))).toBe(false);
   });
 });

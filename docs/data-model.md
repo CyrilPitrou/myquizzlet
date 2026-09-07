@@ -43,7 +43,7 @@ branch, meant to be read and edited by hand.
   Editing the text keeps the id, so progress survives a fixed typo. Changing an
   id silently resets what the app knows about that word.
 
-## Progress — `data/progress/<id>.json`
+## Progress — `data/progress/<profileId>/<listId>.json`
 
 ```json
 {
@@ -71,6 +71,8 @@ branch, meant to be read and edited by hand.
   one, though: training a never-seen item makes `saveLevel` materialise a
   fresh record (`box: 1`, due today), the same as if the item had appeared
   once and not yet been reviewed. See `study-algorithm.md`.
+- `profileId` identifies the profile whose learning history this is. Lists are
+  shared by all profiles; progress is independent for every profile and list.
 
 Items for deleted cards are pruned on the next save. A missing item simply means
 a word that has never been studied.

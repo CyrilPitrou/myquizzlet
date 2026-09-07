@@ -32,7 +32,7 @@ These are deliberate. Do not "improve" past them without asking.
 ```
 main branch                          data branch
   index.html                           data/lists/<id>.json
-  app/main.js     router + header      data/progress/<id>.json
+  app/main.js     router + header      data/progress/<profileId>/<listId>.json
                                        data/suggestions.json        the 🪄 box — free text, "" when empty
                                        data/suggestions-log.json    what was done about it, newest first
      app.js        shared singletons: store, settings, go, todayStr,

@@ -1,4 +1,4 @@
-import { $, clear, el } from './ui.js';
+import { $, clear, el, openDialog } from './ui.js';
 import { ctx, settings, go, store, REPO } from './app.js';
 import { setStatus, repaintStatus } from './status.js';
 import { t, lang, setLang } from './i18n.js';
@@ -37,10 +37,39 @@ function initSync() {
   ctx.sync.syncNow().then(repaintAfterSync);
 }
 
-// Temporary until a real conflict screen exists.
-function showConflict({ listId, resolve }) {
-  console.warn(`conflict on ${listId} — keeping the local copy`);
-  resolve('local');
+function showConflict({ local, remote, resolve }) {
+  let settled = false;
+  const choose = (choice) => {
+    if (settled) return;
+    settled = true;
+    dialog.close();
+    resolve(choice);
+  };
+  const version = (heading, list) => el('section', { class: 'sect' }, [
+    el('h3', { text: heading }),
+    el('p', { text: t('sync.conflict.summary', {
+      name: list.name || list.id,
+      cards: (list.cards || []).length,
+      updated: list.updatedAt || t('sync.conflict.unknownDate'),
+    }) }),
+    el('details', {}, [
+      el('summary', { text: t('sync.conflict.details') }),
+      el('pre', { text: JSON.stringify(list, null, 2) }),
+    ]),
+  ]);
+  const dialog = openDialog([
+    el('h2', { text: t('sync.conflict.title') }),
+    el('p', { class: 'warn', text: t('sync.conflict.hint') }),
+    version(t('sync.conflict.local'), local),
+    version(t('sync.conflict.remote'), remote),
+    el('div', { class: 'dialog-actions' }, [
+      el('button', { text: t('sync.conflict.useRemote'), onclick: () => choose('remote') }),
+      el('button', { class: 'primary', text: t('sync.conflict.useLocal'), onclick: () => choose('local') }),
+    ]),
+  ]);
+  dialog.classList.add('conflict-dialog');
+  // Sync cannot continue without a choice. Escape must not strand its promise.
+  dialog.addEventListener('cancel', (event) => event.preventDefault());
 }
 
 function paintProfile() {
