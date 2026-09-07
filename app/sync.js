@@ -19,13 +19,16 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
     const base = store.getBase(key);
     const remote = await github.getFile('data/profiles.json');
     if (!remote) {
-      store.setBase(key, { sha: 'none', updatedAt: null });
+      store.setBase(key, { sha: 'none', updatedAt: null, progressResetAt: null });
       return;
     }
     // An unchanged remote sha says nothing about local edits. Clearing a dirty
     // key here would lose creates, renames and tombstones before pushDirty().
     if (base && base.sha === remote.sha) return;
     const localProfiles = store.getProfiles();
+    const resetAdvanced = remote.json.progressResetAt
+      && (!base || base.progressResetAt !== remote.json.progressResetAt);
+    if (resetAdvanced && store.purgeProfileProgress) store.purgeProfileProgress('default');
     const merged = mergeProfiles({
       profiles: localProfiles,
       deletedProfiles: store.deletedProfileTombstones ? store.deletedProfileTombstones() : [],
@@ -40,7 +43,11 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
         && JSON.stringify(merged.deletedProfiles || []) === JSON.stringify(remote.json.deletedProfiles || [])) {
       store.markClean(key);
     }
-    store.setBase(key, { sha: remote.sha, updatedAt: merged.updatedAt });
+    store.setBase(key, {
+      sha: remote.sha,
+      updatedAt: merged.updatedAt,
+      progressResetAt: remote.json.progressResetAt || null,
+    });
   }
 
   async function pushProfiles() {
@@ -50,6 +57,7 @@ export function createSync({ store, github, onStatus, onConflict, canPush }) {
       updatedAt: new Date().toISOString(),
       profiles: store.getProfiles(),
       deletedProfiles: store.deletedProfileTombstones ? store.deletedProfileTombstones() : [],
+      ...(base && base.progressResetAt ? { progressResetAt: base.progressResetAt } : {}),
     };
     const { sha } = await github.putFile('data/profiles.json', payload, base && base.sha !== 'none' ? base.sha : null, 'update profiles');
     store.setBase(key, { sha, updatedAt: payload.updatedAt });

@@ -82,6 +82,7 @@ a word that has never been studied.
 ```json
 {
   "updatedAt": "2026-09-07T12:00:00Z",
+  "progressResetAt": "2026-09-07T11:09:52.000Z",
   "profiles": [{
     "id": "flo",
     "name": "Flo",
@@ -108,6 +109,10 @@ and someone with its write token or browser developer tools can bypass it.
 A profile deletion is replicated as a timestamped tombstone in
 `deletedProfiles`. It also deletes every progress file under that profile id;
 the shared lists themselves are untouched.
+
+`progressResetAt` is a one-time reset marker for the Default profile. A device
+that sees a newer value purges its cached Default progress before the next
+sync, so an offline copy cannot upload the old training history again.
 
 ## Why lists and progress are separate
 

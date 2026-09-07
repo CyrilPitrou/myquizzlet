@@ -8,6 +8,8 @@ function fakeStorage() {
     getItem: (k) => (map.has(k) ? map.get(k) : null),
     setItem: (k, v) => map.set(k, String(v)),
     removeItem: (k) => map.delete(k),
+    get length() { return map.size; },
+    key: (i) => [...map.keys()][i] || null,
   };
 }
 
@@ -97,6 +99,27 @@ describe('profile sync', () => {
     expect(store.getProfiles().map((profile) => profile.id).sort())
       .toEqual(['cyril', 'default', 'flo', 'thomas']);
     expect(store.dirtyKeys()).toContain('profiles');
+  });
+
+  it('purges cached Default progress when the shared reset marker advances', async () => {
+    store.saveProgress({
+      listId: 'food',
+      items: { 'c1:f2b': { box: 4, lastSeen: '2026-09-06T00:00:00Z' } },
+    }, 'default');
+    store.markClean('progress:default:food');
+    files['data/profiles.json'] = {
+      sha: 'PROF_RESET',
+      json: {
+        progressResetAt: '2026-09-07T11:09:52.000Z',
+        profiles: [{ id: 'default', name: 'Default', emoji: '👤' }],
+        deletedProfiles: [],
+      },
+    };
+
+    await sync.pullAll();
+
+    expect(store.getProgress('food', 'default').items).toEqual({});
+    expect(store.dirtyKeys()).not.toContain('progress:default:food');
   });
 
   it('pushes dirty profiles to data/profiles.json', async () => {
