@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T12:02:51.006Z",
+  "updatedAt": "2026-09-07T13:24:52.572Z",
   "profiles": [
     {
       "id": "default",
@@ -11,13 +11,13 @@
       "id": "cyril",
       "name": "Cyril",
       "emoji": "🎵",
-      "updatedAt": "2026-09-07T11:52:51.043Z",
       "lock": {
         "algorithm": "PBKDF2-SHA-256",
         "iterations": 250000,
         "salt": "QN1HQMvJY6QOyRg+MyHasA==",
         "verifier": "18GfeKT613HXFBp7SodgfIm8vqIm+ggi5acfcTJ4Fkk="
-      }
+      },
+      "updatedAt": "2026-09-07T11:52:51.043Z"
     }
   ],
   "deletedProfiles": [
