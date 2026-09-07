@@ -1,6 +1,6 @@
 {
   "listId": "departements",
-  "updatedAt": "2026-09-07T08:34:31.056Z",
+  "updatedAt": "2026-09-07T08:34:46.368Z",
   "items": {
     "f4hqet:b2f": {
       "box": 2,
@@ -291,35 +291,35 @@
       "level": 1
     },
     "r9wxfu:f2b": {
-      "box": 1,
-      "due": "2026-09-07",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-10",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-07T08:34:37.744Z",
       "level": 1
     },
     "i8cual:b2f": {
-      "box": 1,
-      "due": "2026-09-07",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-10",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-07T08:34:39.678Z",
       "level": 1
     },
     "t0kqai:b2f": {
-      "box": 1,
-      "due": "2026-09-07",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-10",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-07T08:34:41.691Z",
       "level": 1
     },
     "a1ngdf:f2b": {
-      "box": 1,
-      "due": "2026-09-07",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-09-10",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-09-07T08:34:46.368Z",
       "level": 1
     },
     "i0zmpb:b2f": {
