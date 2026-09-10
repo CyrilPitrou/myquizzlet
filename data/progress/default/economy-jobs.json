@@ -1,0 +1,69 @@
+{
+  "listId": "economy-jobs",
+  "updatedAt": "2026-09-05T13:26:38.952Z",
+  "items": {
+    "ch7r5k:b2f": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-02T07:57:43.055Z"
+    },
+    "kr684q:b2f": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-02T07:57:50.216Z"
+    },
+    "lumdvq:b2f": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-02T07:57:55.043Z"
+    },
+    "h14rl0:b2f": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-02T07:58:01.719Z"
+    },
+    "od83wx:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-02T07:58:05.126Z"
+    },
+    "irgz3c:b2f": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-02T07:58:12.216Z"
+    },
+    "n27jlo:b2f": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-02T07:58:19.544Z"
+    },
+    "q0j8m5:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-02T07:58:24.470Z"
+    },
+    "b6r49g:f2b": {
+      "box": 1,
+      "due": "2026-09-03",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-02T07:58:31.572Z"
+    }
+  }
+}
