@@ -1,6 +1,6 @@
 {
   "listId": "en-b1-nature-animals",
-  "updatedAt": "2026-09-05T13:57:45.314Z",
+  "updatedAt": "2026-09-20T00:46:44.309Z",
   "items": {
     "1gq6x1:f2b": {
       "box": 2,
@@ -204,11 +204,11 @@
     },
     "xs5hha:f2b": {
       "box": 1,
-      "due": "2026-09-05",
-      "seen": 0,
-      "lapses": 0,
-      "lastSeen": null,
-      "level": 1
+      "due": "2026-09-07",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-06T09:28:51.980Z",
+      "level": 0
     },
     "dxvzxp:b2f": {
       "box": 2,
@@ -640,6 +640,606 @@
       "seen": 1,
       "lapses": 0,
       "lastSeen": "2026-09-05T13:37:51.415Z",
+      "level": 1
+    },
+    "moh4zn:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:28:58.195Z",
+      "level": 0
+    },
+    "jqwesv:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:29:00.910Z",
+      "level": 0
+    },
+    "qqgpwv:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:29:03.278Z",
+      "level": 0
+    },
+    "frvy8y:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:29:06.036Z",
+      "level": 0
+    },
+    "ydj6nk:f2b": {
+      "box": 1,
+      "due": "2026-09-07",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-06T09:29:09.363Z",
+      "level": 0
+    },
+    "nbe9yz:b2f": {
+      "box": 1,
+      "due": "2026-09-07",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-06T09:29:13.901Z",
+      "level": 0
+    },
+    "o01ugr:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:29:17.684Z",
+      "level": 0
+    },
+    "czge0n:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:29:20.386Z",
+      "level": 0
+    },
+    "mvtjwy:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:29:23.919Z",
+      "level": 0
+    },
+    "08owby:f2b": {
+      "box": 1,
+      "due": "2026-09-07",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-06T09:29:27.012Z",
+      "level": 0
+    },
+    "q8pssr:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:29:31.227Z",
+      "level": 0
+    },
+    "iulof0:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:29:35.227Z",
+      "level": 0
+    },
+    "et0o88:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:29:39.151Z",
+      "level": 0
+    },
+    "sk6dbc:f2b": {
+      "box": 1,
+      "due": "2026-09-07",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-06T09:29:42.631Z",
+      "level": 0
+    },
+    "pa30kr:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:29:46.702Z",
+      "level": 0
+    },
+    "k19is5:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:29:48.868Z",
+      "level": 0
+    },
+    "rzkmbm:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:29:51.361Z",
+      "level": 0
+    },
+    "a0cpaw:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:29:54.294Z",
+      "level": 0
+    },
+    "r4mhxx:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:29:58.177Z",
+      "level": 0
+    },
+    "obufr2:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:30:15.721Z",
+      "level": 0
+    },
+    "pscjcu:b2f": {
+      "box": 1,
+      "due": "2026-09-07",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-06T09:30:18.780Z",
+      "level": 0
+    },
+    "gv6gb8:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:30:23.288Z",
+      "level": 0
+    },
+    "lfsec1:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:30:26.987Z",
+      "level": 0
+    },
+    "pscjcu:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:30:30.427Z",
+      "level": 0
+    },
+    "xoh578:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:30:34.153Z",
+      "level": 0
+    },
+    "ydj6nk:b2f": {
+      "box": 1,
+      "due": "2026-09-07",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-06T09:30:36.936Z",
+      "level": 0
+    },
+    "0iyzjx:b2f": {
+      "box": 1,
+      "due": "2026-09-07",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-06T09:30:43.022Z",
+      "level": 0
+    },
+    "o01ugr:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:30:45.145Z",
+      "level": 0
+    },
+    "8upbnd:f2b": {
+      "box": 1,
+      "due": "2026-09-07",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-09-06T09:30:49.253Z",
+      "level": 0
+    },
+    "rpw8i9:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:34:17.314Z",
+      "level": 1
+    },
+    "v3oay2:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:34:23.540Z",
+      "level": 1
+    },
+    "813epn:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:34:34.365Z",
+      "level": 1
+    },
+    "hl9cnb:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:34:44.131Z",
+      "level": 1
+    },
+    "czge0n:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:34:53.638Z",
+      "level": 1
+    },
+    "m190pn:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 2,
+      "lapses": 1,
+      "lastSeen": "2026-09-06T09:36:25.777Z",
+      "level": 1
+    },
+    "tbnnpm:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:35:25.407Z",
+      "level": 1
+    },
+    "vjc6da:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:35:35.792Z",
+      "level": 1
+    },
+    "8ovz4b:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:37:01.441Z",
+      "level": 1
+    },
+    "gv6gb8:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:37:07.057Z",
+      "level": 1
+    },
+    "7drgxr:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:37:14.104Z",
+      "level": 1
+    },
+    "egszhu:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:38:17.551Z",
+      "level": 1
+    },
+    "lf95c9:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:37:24.080Z",
+      "level": 1
+    },
+    "1gq6x1:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:37:27.689Z",
+      "level": 1
+    },
+    "tvsb6u:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:37:56.426Z",
+      "level": 1
+    },
+    "v3oay2:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:38:09.278Z",
+      "level": 1
+    },
+    "mvtjwy:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:39:08.390Z",
+      "level": 1
+    },
+    "k317yx:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:39:15.157Z",
+      "level": 1
+    },
+    "op9hcc:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:39:19.529Z",
+      "level": 1
+    },
+    "27edih:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:39:26.202Z",
+      "level": 1
+    },
+    "8upbnd:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:39:36.492Z",
+      "level": 1
+    },
+    "k8yiv4:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:39:45.745Z",
+      "level": 1
+    },
+    "3qhdnq:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:39:59.699Z",
+      "level": 1
+    },
+    "mlvpu2:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:40:06.945Z",
+      "level": 1
+    },
+    "kivhha:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:41:40.416Z",
+      "level": 1
+    },
+    "dri0g8:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:41:47.262Z",
+      "level": 1
+    },
+    "dri0g8:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:42:07.722Z",
+      "level": 1
+    },
+    "30eyg6:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:42:17.820Z",
+      "level": 1
+    },
+    "ylbfl4:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:42:26.633Z",
+      "level": 1
+    },
+    "uh9nhr:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:42:34.752Z",
+      "level": 1
+    },
+    "c5qg7e:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:42:43.311Z",
+      "level": 1
+    },
+    "pg8n8y:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:42:53.112Z",
+      "level": 1
+    },
+    "6q6x4o:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:43:21.063Z",
+      "level": 1
+    },
+    "6q6x4o:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:43:42.240Z",
+      "level": 1
+    },
+    "m5fm4t:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:43:51.364Z",
+      "level": 1
+    },
+    "pf25ow:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:43:56.950Z",
+      "level": 1
+    },
+    "m190pn:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 2,
+      "lapses": 1,
+      "lastSeen": "2026-09-06T09:44:44.848Z",
+      "level": 1
+    },
+    "hu6pr7:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:44:10.939Z",
+      "level": 1
+    },
+    "na4b85:b2f": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:44:17.763Z",
+      "level": 1
+    },
+    "et0o88:f2b": {
+      "box": 2,
+      "due": "2026-09-09",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-09-06T09:44:35.212Z",
+      "level": 1
+    },
+    "p2u2ks:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "pl12f4:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "pl12f4:f2b": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "yxw4a5:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "30eyg6:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "56ekzw:b2f": {
+      "box": 1,
+      "due": "2026-09-06",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
       "level": 1
     }
   }
