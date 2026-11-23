@@ -1,6 +1,6 @@
 {
   "listId": "es-b1-aspecto-ropa",
-  "updatedAt": "2026-11-23T20:43:22.246Z",
+  "updatedAt": "2026-11-23T20:43:50.587Z",
   "items": {
     "9ze6nx:b2f": {
       "box": 1,
@@ -83,30 +83,46 @@
       "level": 1
     },
     "wh4k4q:b2f": {
-      "box": 1,
-      "due": "2026-11-23",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-23T20:43:35.498Z",
       "level": 1
     },
     "cj08wh:b2f": {
-      "box": 1,
-      "due": "2026-11-23",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-23T20:43:37.991Z",
       "level": 1
     },
     "m605rv:b2f": {
-      "box": 1,
-      "due": "2026-11-23",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-23T20:43:41.492Z",
       "level": 1
     },
     "wwrmy4:b2f": {
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-23T20:43:44.677Z",
+      "level": 1
+    },
+    "ds818d:b2f": {
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-23T20:43:50.587Z",
+      "level": 1
+    },
+    "n4var7:b2f": {
       "box": 1,
       "due": "2026-11-23",
       "seen": 0,
@@ -114,7 +130,15 @@
       "lastSeen": null,
       "level": 1
     },
-    "ds818d:b2f": {
+    "qfils1:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "5eu4bb:b2f": {
       "box": 1,
       "due": "2026-11-23",
       "seen": 0,
