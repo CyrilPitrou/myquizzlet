@@ -1,6 +1,6 @@
 {
   "listId": "es-b1-aspecto-ropa",
-  "updatedAt": "2026-11-23T20:49:18.357Z",
+  "updatedAt": "2026-11-23T20:49:25.252Z",
   "items": {
     "9ze6nx:b2f": {
       "box": 1,
@@ -507,20 +507,20 @@
       "level": 1
     },
     "b7lkng:b2f": {
-      "box": 1,
-      "due": "2026-11-23",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-23T20:49:20.690Z",
       "level": 1
     },
     "bey4ei:b2f": {
       "box": 1,
-      "due": "2026-11-23",
-      "seen": 0,
-      "lapses": 0,
-      "lastSeen": null,
-      "level": 1
+      "due": "2026-11-24",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-11-23T20:49:25.252Z",
+      "level": 0
     },
     "yx3qgg:b2f": {
       "box": 1,
