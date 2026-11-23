@@ -1,6 +1,6 @@
 {
   "listId": "es-b1-aspecto-ropa",
-  "updatedAt": "2026-11-23T20:42:41.648Z",
+  "updatedAt": "2026-11-23T20:43:17.661Z",
   "items": {
     "9ze6nx:b2f": {
       "box": 1,
@@ -35,38 +35,54 @@
       "level": 1
     },
     "vtvnjr:b2f": {
-      "box": 1,
-      "due": "2026-11-23",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-23T20:42:49.837Z",
       "level": 1
     },
     "yb3cw7:b2f": {
-      "box": 1,
-      "due": "2026-11-23",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-23T20:42:53.018Z",
       "level": 1
     },
     "koei17:b2f": {
-      "box": 1,
-      "due": "2026-11-23",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-23T20:42:55.551Z",
       "level": 1
     },
     "jm2cad:b2f": {
-      "box": 1,
-      "due": "2026-11-23",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-23T20:42:57.316Z",
       "level": 1
     },
     "mkqrv0:b2f": {
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-23T20:43:01.166Z",
+      "level": 1
+    },
+    "vwfws7:b2f": {
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-23T20:43:04.342Z",
+      "level": 1
+    },
+    "wh4k4q:b2f": {
       "box": 1,
       "due": "2026-11-23",
       "seen": 0,
@@ -74,7 +90,23 @@
       "lastSeen": null,
       "level": 1
     },
-    "vwfws7:b2f": {
+    "cj08wh:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "m605rv:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "wwrmy4:b2f": {
       "box": 1,
       "due": "2026-11-23",
       "seen": 0,
