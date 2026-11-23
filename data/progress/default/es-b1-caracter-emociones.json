@@ -1,6 +1,6 @@
 {
   "listId": "es-b1-caracter-emociones",
-  "updatedAt": "2026-11-23T21:08:47.466Z",
+  "updatedAt": "2026-11-23T21:09:16.585Z",
   "items": {
     "3yf93h:b2f": {
       "box": 2,
@@ -651,11 +651,11 @@
       "level": 1
     },
     "mv25np:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 2,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 3,
       "lapses": 2,
-      "lastSeen": "2026-11-23T21:08:35.108Z",
+      "lastSeen": "2026-11-23T21:08:54.170Z",
       "level": 1
     },
     "ubxne7:b2f": {
@@ -704,6 +704,70 @@
       "seen": 1,
       "lapses": 0,
       "lastSeen": "2026-11-23T21:08:17.607Z",
+      "level": 1
+    },
+    "te1hdr:b2f": {
+      "box": 1,
+      "due": "2026-11-24",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-11-23T21:09:16.585Z",
+      "level": 0
+    },
+    "c15gzp:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "cde81y:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "xqyadh:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "bnaeny:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "emjinp:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "znvpxo:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "b1c7r9:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
       "level": 1
     }
   }
