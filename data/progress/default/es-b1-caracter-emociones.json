@@ -1,6 +1,6 @@
 {
   "listId": "es-b1-caracter-emociones",
-  "updatedAt": "2026-11-23T21:05:38.449Z",
+  "updatedAt": "2026-11-23T21:06:21.076Z",
   "items": {
     "3yf93h:b2f": {
       "box": 2,
@@ -531,12 +531,12 @@
       "level": 1
     },
     "5sepxl:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 1,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 2,
       "lapses": 1,
-      "lastSeen": "2026-11-23T21:05:28.294Z",
-      "level": 0
+      "lastSeen": "2026-11-23T21:05:51.738Z",
+      "level": 1
     },
     "3x9rqi:b2f": {
       "box": 2,
@@ -547,11 +547,11 @@
       "level": 1
     },
     "7py9i0:b2f": {
-      "box": 1,
-      "due": "2026-11-23",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-23T21:05:49.247Z",
       "level": 1
     },
     "7y1puq:b2f": {
@@ -563,6 +563,30 @@
       "level": 1
     },
     "k5n5d1:b2f": {
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-23T21:05:40.502Z",
+      "level": 1
+    },
+    "p9wtus:b2f": {
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-23T21:05:42.962Z",
+      "level": 1
+    },
+    "mgrqte:b2f": {
+      "box": 1,
+      "due": "2026-11-24",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-11-23T21:06:21.076Z",
+      "level": 0
+    },
+    "wml7sz:b2f": {
       "box": 1,
       "due": "2026-11-23",
       "seen": 0,
@@ -570,7 +594,47 @@
       "lastSeen": null,
       "level": 1
     },
-    "p9wtus:b2f": {
+    "nqz3mv:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "x935ao:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 0
+    },
+    "giswvc:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "0a5pm0:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "f2jtoj:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "t534w1:b2f": {
       "box": 1,
       "due": "2026-11-23",
       "seen": 0,
