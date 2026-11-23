@@ -1,6 +1,6 @@
 {
   "listId": "es-b1-caracter-emociones",
-  "updatedAt": "2026-11-23T21:06:42.772Z",
+  "updatedAt": "2026-11-23T21:06:55.563Z",
   "items": {
     "3yf93h:b2f": {
       "box": 2,
@@ -584,7 +584,7 @@
       "seen": 1,
       "lapses": 1,
       "lastSeen": "2026-11-23T21:06:21.076Z",
-      "level": 0
+      "level": 1
     },
     "wml7sz:b2f": {
       "box": 2,
@@ -603,11 +603,11 @@
       "level": 1
     },
     "x935ao:b2f": {
-      "box": 1,
-      "due": "2026-11-23",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-23T21:06:51.620Z",
       "level": 1
     },
     "giswvc:b2f": {
@@ -616,7 +616,7 @@
       "seen": 1,
       "lapses": 1,
       "lastSeen": "2026-11-23T21:06:37.960Z",
-      "level": 0
+      "level": 1
     },
     "0a5pm0:b2f": {
       "box": 2,
@@ -627,19 +627,19 @@
       "level": 1
     },
     "f2jtoj:b2f": {
-      "box": 1,
-      "due": "2026-11-23",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-23T21:06:44.408Z",
       "level": 1
     },
     "t534w1:b2f": {
       "box": 1,
-      "due": "2026-11-23",
-      "seen": 0,
-      "lapses": 0,
-      "lastSeen": null,
+      "due": "2026-11-24",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-11-23T21:06:46.986Z",
       "level": 1
     }
   }
