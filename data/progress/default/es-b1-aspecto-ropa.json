@@ -1,6 +1,6 @@
 {
   "listId": "es-b1-aspecto-ropa",
-  "updatedAt": "2026-11-23T20:43:50.587Z",
+  "updatedAt": "2026-11-23T20:44:40.960Z",
   "items": {
     "9ze6nx:b2f": {
       "box": 1,
@@ -123,14 +123,70 @@
       "level": 1
     },
     "n4var7:b2f": {
-      "box": 1,
-      "due": "2026-11-23",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-23T20:43:54.570Z",
       "level": 1
     },
     "qfils1:b2f": {
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-23T20:43:58.192Z",
+      "level": 1
+    },
+    "5eu4bb:b2f": {
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-23T20:44:00.548Z",
+      "level": 1
+    },
+    "qtddzo:b2f": {
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-23T20:44:25.995Z",
+      "level": 1
+    },
+    "mbx9rf:b2f": {
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-23T20:44:28.978Z",
+      "level": 1
+    },
+    "vvzlm7:b2f": {
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-23T20:44:32.284Z",
+      "level": 1
+    },
+    "fgtdym:b2f": {
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-23T20:44:34.706Z",
+      "level": 1
+    },
+    "3nrhvo:b2f": {
+      "box": 1,
+      "due": "2026-11-24",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-11-23T20:44:40.960Z",
+      "level": 0
+    },
+    "8s7sbk:b2f": {
       "box": 1,
       "due": "2026-11-23",
       "seen": 0,
@@ -138,7 +194,15 @@
       "lastSeen": null,
       "level": 1
     },
-    "5eu4bb:b2f": {
+    "vxf0s7:b2f": {
+      "box": 1,
+      "due": "2026-11-23",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "rcr5uv:b2f": {
       "box": 1,
       "due": "2026-11-23",
       "seen": 0,
