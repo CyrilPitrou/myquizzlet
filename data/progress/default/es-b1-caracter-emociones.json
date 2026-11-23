@@ -1,6 +1,6 @@
 {
   "listId": "es-b1-caracter-emociones",
-  "updatedAt": "2026-11-23T21:01:48.039Z",
+  "updatedAt": "2026-11-23T21:02:01.214Z",
   "items": {
     "3yf93h:b2f": {
       "box": 2,
@@ -331,19 +331,19 @@
       "level": 1
     },
     "3qmtk2:b2f": {
-      "box": 1,
-      "due": "2026-11-23",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-23T21:01:56.342Z",
       "level": 1
     },
     "0jkaw2:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 1,
+      "box": 2,
+      "due": "2026-11-26",
+      "seen": 2,
       "lapses": 1,
-      "lastSeen": "2026-11-23T21:01:16.885Z",
+      "lastSeen": "2026-11-23T21:02:01.214Z",
       "level": 1
     },
     "g4660v:b2f": {
