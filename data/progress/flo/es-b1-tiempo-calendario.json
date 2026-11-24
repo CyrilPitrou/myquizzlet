@@ -1,6 +1,6 @@
 {
   "listId": "es-b1-tiempo-calendario",
-  "updatedAt": "2026-11-24T17:37:01.096Z",
+  "updatedAt": "2026-11-24T17:37:49.896Z",
   "items": {
     "je3tjx:b2f": {
       "box": 2,
@@ -451,12 +451,12 @@
       "level": 1
     },
     "iyqqjx:b2f": {
-      "box": 1,
-      "due": "2026-11-25",
-      "seen": 1,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 2,
       "lapses": 1,
-      "lastSeen": "2026-11-24T17:36:42.457Z",
-      "level": 0
+      "lastSeen": "2026-11-24T17:37:17.805Z",
+      "level": 1
     },
     "rv3bh4:b2f": {
       "box": 2,
@@ -475,12 +475,12 @@
       "level": 1
     },
     "6uka5a:b2f": {
-      "box": 1,
-      "due": "2026-11-25",
-      "seen": 1,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 2,
       "lapses": 1,
-      "lastSeen": "2026-11-24T17:36:54.675Z",
-      "level": 0
+      "lastSeen": "2026-11-24T17:37:21.666Z",
+      "level": 1
     },
     "m88vuz:b2f": {
       "box": 2,
@@ -491,14 +491,54 @@
       "level": 1
     },
     "lo6gi4:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:37:05.269Z",
       "level": 1
     },
     "34512t:b2f": {
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-24T17:37:07.069Z",
+      "level": 1
+    },
+    "ghpw7u:b2f": {
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-24T17:37:08.831Z",
+      "level": 1
+    },
+    "e2ocpo:b2f": {
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-24T17:37:41.756Z",
+      "level": 1
+    },
+    "judppx:b2f": {
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-24T17:37:47.117Z",
+      "level": 1
+    },
+    "d35ny3:b2f": {
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-24T17:37:49.896Z",
+      "level": 1
+    },
+    "l6qufm:b2f": {
       "box": 1,
       "due": "2026-11-24",
       "seen": 0,
@@ -506,7 +546,31 @@
       "lastSeen": null,
       "level": 1
     },
-    "ghpw7u:b2f": {
+    "gs35q0:b2f": {
+      "box": 1,
+      "due": "2026-11-24",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "wvbeuj:b2f": {
+      "box": 1,
+      "due": "2026-11-24",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "abpanf:b2f": {
+      "box": 1,
+      "due": "2026-11-24",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "x0s3wh:b2f": {
       "box": 1,
       "due": "2026-11-24",
       "seen": 0,
