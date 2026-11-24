@@ -1,6 +1,6 @@
 {
   "listId": "es-b1-casa-tareas",
-  "updatedAt": "2026-11-24T17:23:12.749Z",
+  "updatedAt": "2026-11-24T17:23:20.590Z",
   "items": {
     "zsew20:b2f": {
       "box": 2,
@@ -595,19 +595,19 @@
       "level": 1
     },
     "re10di:b2f": {
-      "box": 1,
-      "due": "2026-11-25",
-      "seen": 1,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 2,
       "lapses": 1,
-      "lastSeen": "2026-11-24T17:22:32.954Z",
+      "lastSeen": "2026-11-24T17:23:16.500Z",
       "level": 1
     },
     "2hw696:b2f": {
-      "box": 1,
-      "due": "2026-11-25",
-      "seen": 1,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 2,
       "lapses": 1,
-      "lastSeen": "2026-11-24T17:22:35.804Z",
+      "lastSeen": "2026-11-24T17:23:20.590Z",
       "level": 1
     },
     "j4dvye:b2f": {
