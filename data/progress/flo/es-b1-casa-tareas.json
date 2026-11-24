@@ -1,6 +1,6 @@
 {
   "listId": "es-b1-casa-tareas",
-  "updatedAt": "2026-11-24T17:24:33.273Z",
+  "updatedAt": "2026-11-24T17:24:49.787Z",
   "items": {
     "zsew20:b2f": {
       "box": 2,
@@ -676,34 +676,34 @@
     },
     "dhkjk6:b2f": {
       "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
-      "lapses": 0,
-      "lastSeen": null,
-      "level": 1
+      "due": "2026-11-25",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-11-24T17:24:36.218Z",
+      "level": 0
     },
     "bokjye:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:24:39.791Z",
       "level": 1
     },
     "4w1ivz:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:24:42.751Z",
       "level": 1
     },
     "nhhj30:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:24:49.787Z",
       "level": 1
     }
   }
