@@ -1,69 +1,69 @@
 {
   "listId": "es-b1-casa-tareas",
-  "updatedAt": "2026-11-24T17:08:59.296Z",
+  "updatedAt": "2026-11-24T17:09:49.428Z",
   "items": {
     "zsew20:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:09:11.692Z",
       "level": 1
     },
     "ymg9c2:b2f": {
       "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
-      "lapses": 0,
-      "lastSeen": null,
-      "level": 0
+      "due": "2026-11-25",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-11-24T17:09:36.485Z",
+      "level": 1
     },
     "r7ha70:b2f": {
       "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
-      "lapses": 0,
-      "lastSeen": null,
+      "due": "2026-11-25",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-11-24T17:09:17.974Z",
       "level": 1
     },
     "63k8n2:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
-      "level": 0
+      "lastSeen": "2026-11-24T17:09:42.552Z",
+      "level": 1
     },
     "zy59pj:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:09:23.386Z",
       "level": 1
     },
     "yr8vu3:b2f": {
       "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
-      "lapses": 0,
-      "lastSeen": null,
+      "due": "2026-11-25",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-11-24T17:09:26.251Z",
       "level": 1
     },
     "eyh66e:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:09:29.271Z",
       "level": 1
     },
     "2ajzwp:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:09:33.141Z",
       "level": 1
     }
   }
