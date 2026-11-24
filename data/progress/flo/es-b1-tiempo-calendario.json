@@ -1,6 +1,6 @@
 {
   "listId": "es-b1-tiempo-calendario",
-  "updatedAt": "2026-11-24T17:35:45.048Z",
+  "updatedAt": "2026-11-24T17:35:58.136Z",
   "items": {
     "je3tjx:b2f": {
       "box": 2,
@@ -387,19 +387,19 @@
       "level": 1
     },
     "iksgfl:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:35:51.860Z",
       "level": 1
     },
     "c9r8rh:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:35:58.136Z",
       "level": 1
     },
     "1sxv8k:b2f": {
