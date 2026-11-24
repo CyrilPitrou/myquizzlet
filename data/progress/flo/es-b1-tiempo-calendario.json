@@ -1,6 +1,6 @@
 {
   "listId": "es-b1-tiempo-calendario",
-  "updatedAt": "2026-11-24T17:31:29.901Z",
+  "updatedAt": "2026-11-24T17:31:52.461Z",
   "items": {
     "je3tjx:b2f": {
       "box": 2,
@@ -131,46 +131,54 @@
       "level": 1
     },
     "tbi017:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:31:34.489Z",
       "level": 1
     },
     "7m01zc:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:31:37.869Z",
       "level": 1
     },
     "9doia1:b2f": {
       "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
-      "lapses": 0,
-      "lastSeen": null,
-      "level": 1
+      "due": "2026-11-25",
+      "seen": 1,
+      "lapses": 1,
+      "lastSeen": "2026-11-24T17:31:40.302Z",
+      "level": 0
     },
     "nmvkwx:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:31:44.577Z",
       "level": 1
     },
     "1f6qlr:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:31:46.844Z",
       "level": 1
     },
     "vbnhqj:b2f": {
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-24T17:31:52.461Z",
+      "level": 1
+    },
+    "mqvy7l:b2f": {
       "box": 1,
       "due": "2026-11-24",
       "seen": 0,
@@ -178,7 +186,7 @@
       "lastSeen": null,
       "level": 1
     },
-    "mqvy7l:b2f": {
+    "ne8ucd:b2f": {
       "box": 1,
       "due": "2026-11-24",
       "seen": 0,
