@@ -1,6 +1,6 @@
 {
   "listId": "es-b1-tiempo-calendario",
-  "updatedAt": "2026-11-24T17:35:08.595Z",
+  "updatedAt": "2026-11-24T17:35:35.883Z",
   "items": {
     "je3tjx:b2f": {
       "box": 2,
@@ -339,38 +339,54 @@
       "level": 1
     },
     "9hvxx7:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:35:12.191Z",
       "level": 1
     },
     "xz97hk:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:35:15.154Z",
       "level": 1
     },
     "3v6y5l:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:35:18.128Z",
       "level": 1
     },
     "1bbhza:b2f": {
-      "box": 1,
-      "due": "2026-11-24",
-      "seen": 0,
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
       "lapses": 0,
-      "lastSeen": null,
+      "lastSeen": "2026-11-24T17:35:21.389Z",
       "level": 1
     },
     "n5872o:b2f": {
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-24T17:35:23.564Z",
+      "level": 1
+    },
+    "tks8g4:b2f": {
+      "box": 2,
+      "due": "2026-11-27",
+      "seen": 1,
+      "lapses": 0,
+      "lastSeen": "2026-11-24T17:35:26.581Z",
+      "level": 1
+    },
+    "iksgfl:b2f": {
       "box": 1,
       "due": "2026-11-24",
       "seen": 0,
@@ -378,7 +394,23 @@
       "lastSeen": null,
       "level": 1
     },
-    "tks8g4:b2f": {
+    "c9r8rh:b2f": {
+      "box": 1,
+      "due": "2026-11-24",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 1
+    },
+    "1sxv8k:b2f": {
+      "box": 1,
+      "due": "2026-11-24",
+      "seen": 0,
+      "lapses": 0,
+      "lastSeen": null,
+      "level": 0
+    },
+    "cwup79:b2f": {
       "box": 1,
       "due": "2026-11-24",
       "seen": 0,
