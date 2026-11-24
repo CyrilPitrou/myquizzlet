@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T21:02:34.552Z",
+  "updatedAt": "2026-11-24T17:06:46.137Z",
   "profiles": [
     {
       "id": "default",
@@ -18,6 +18,18 @@
         "salt": "QN1HQMvJY6QOyRg+MyHasA==",
         "verifier": "18GfeKT613HXFBp7SodgfIm8vqIm+ggi5acfcTJ4Fkk="
       }
+    },
+    {
+      "id": "flo",
+      "name": "Flo",
+      "emoji": "🔥",
+      "lock": {
+        "algorithm": "PBKDF2-SHA-256",
+        "iterations": 250000,
+        "salt": "RS4jmlw5C9Wj4dfTfqa1SQ==",
+        "verifier": "zDaqmGpkwsjYG6xfUpdXmhnMr6pLShA3FjJi8/ax2BY="
+      },
+      "updatedAt": "2026-11-24T17:06:37.352Z"
     }
   ],
   "deletedProfiles": [
